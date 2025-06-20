@@ -1,0 +1,144 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="gez">ቀንጠፋ</title>
+                <author>Alessandro Bausi</author>
+                <author>Andreas Ellwardt</author>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+                <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+                <pubPlace>Hamburg</pubPlace>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file
+                        is licensed under the Creative Commons Attribution-ShareAlike Non Commercial
+                        4.0. </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                        Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice
+                            latino. Adiectum est vocabularium tigre dialecti septentrionalis
+                            compilatum</emph> a W. Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+                </p>
+                <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced
+                        Grant TraCES (Grant Agreement 338756)</ref>
+                </p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>A digital edition of the Lexicon in TEI.</p>
+            <listPrefixDef>
+                <prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/>
+            </listPrefixDef>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="la">latin</language>
+                <language ident="it">Italian</language>
+                <language ident="gez">Gǝʿǝz</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="syr">Syriac</language>
+                <language ident="ar">Arabic</language>
+                <language ident="sa">Sanskrit</language>
+                <language ident="geo">Georgian</language>
+                <language ident="cop">Coptic</language>
+                <language ident="osa">Old South Arabian</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change who="MK" when="2018-11-13">added new entry</change>
+            <change who="MK" when="2018-11-13">added new entry, to be peer-reviewed</change>
+            <change who="MK" when="2019-07-31">added new entry</change>
+            <change who="MK" when="2019-07-31">added etymology</change>
+            <change who="MK" when="2019-07-31">corr</change>
+            <change who="MK" when="2019-07-31">corr</change>
+            <change who="MK" when="2019-08-06">added etzmology</change>
+            <change who="MK" when="2019-08-06">corr</change>
+            <change who="MK" when="2019-08-06">corr</change>
+            <change who="MK" when="2019-08-06">corr</change>
+            <change who="MK" when="2019-08-21">corr</change>
+            <change who="MK" when="2019-08-31">added "plant"</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <entry xml:id="Ld845416cc7224062a147dad81364e547" n="12449">
+                    <form>
+                        <foreign xml:lang="gez">ቀንጠፋ</foreign>
+                    </form>
+                    <sense xml:lang="en" source="#traces" xml:id="Tmain">
+                        <cit type="transcription" xml:lang="gez">
+                            <quote>qanṭaffā</quote>
+                        </cit>
+                        <gramGrp>
+                            <pos expand="Substantivum">subst.</pos>
+                        </gramGrp> (plant) kind of a climbing thorny shrub or a small tree <cit type="translation" xml:lang="la">
+                            <quote>Pterolobium stellatum</quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                            <quote>Pterolobium abyssinicum</quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                            <quote>Acacia cantuffa</quote>
+                        </cit>
+                        <bibl>
+                            <ptr target="bm:FloraEthiopia1989Vol3"/>
+                            <citedRange unit="page"> 54</citedRange>
+                        </bibl>
+                        <foreign xml:lang="gez">እንዘ፡ የአስሩ፡ እደዊሃ፡ ወእገሪሃ፡ ወአፉሃ፡ ወወደይዋ፡ ውስተ፡ ዖመ፡
+                            ቀን&lt;ጠ&gt;ፋ፡ ይንሥእዋ፡ በሌሊት፡ ከመ፡ ይሢጥዋ፡</foreign> ‘<cit type="translation" xml:lang="it">
+                            <quote>Presero la giovane, legandole mani, piedi e bocca, e la misero in
+                                un albero di qanṭaffā per poi riprenderla di notte per
+                                venderla</quote>
+                        </cit>’ <bibl>
+                            <ptr target="bm:Bausi2003Libanos"/>
+                            <citedRange unit="page"> 164 § 419 (ed.)</citedRange>
+                        </bibl>, <bibl>
+                            <ptr target="bm:Bausi2003LibanosTr"/>
+                            <citedRange unit="page"> 94 § 419 (tr.)</citedRange>
+                        </bibl>; <foreign xml:lang="gez">ወእምሰራዊተ፡ ፀብእሂ፡ ዘሐፄጌ፡ ቦዘቦአ፡ ኀበ፡ ካብ፡ ነቂሎ፡
+                            ሐፁረ፡ አስዋክ፡ እስመ፡ ገብረ፡ በውእቱ፡ ጊዜ፡ ሐፁረ፡ ለካቡ፡ ዘይመስል፡ ቀንጠፋ፡ ወስሙ፡ ዘለጊያ፡ በልሳነ፡
+                            ትግሬ፡</foreign> ‘<cit type="translation" xml:lang="fr">
+                            <quote>Parmi les guerries du Ḥaṣēgē, quelques-uns pénétrèrent jusqu’à la
+                                forteresse, aprés avoir arraché la haie d’épines; car le bacha avait
+                                fait autour de la forteresse une haie qui semblait être des qanṭafā
+                                (= Pterobolium lacerans) {should be “Pterolobium lacerans”}, et
+                                qu’on nomme zalagiyā dans la langue du Tigré</quote>
+                        </cit>’ <bibl>
+                            <ptr target="bm:ContiRossini1907SarsaDengel"/>
+                            <citedRange unit="page"> 130 l. 33-35 (ed.)</citedRange>
+                        </bibl>, <bibl>
+                            <ptr target="bm:ContiRossini1907SarsaDengelV"/>
+                            <citedRange unit="page"> 29-33 (tr.)</citedRange>
+                        </bibl>
+                        <sense n="E" xml:id="TE"> Amharic <foreign xml:lang="am">ቀንጠፋ</foreign>
+                            <cit type="transcription" xml:lang="gez">
+                                <quote>qanṭaffā</quote>
+                            </cit> specie di arbusto spinoso (Pterolobium abyssinicum) <bibl>
+                                <ptr target="bm:Guidi1901Vocabolario"/>
+                                <citedRange unit="page"> 289</citedRange>
+                            </bibl>; Amharic <foreign xml:lang="am">ቀንጣፋ</foreign>
+                            <cit type="transcription" xml:lang="gez">
+                                <quote>qanṭāffā</quote>
+                            </cit>, Tigre <foreign xml:lang="tig">ቀንጠጠፈ</foreign>
+                            <cit type="transcription" xml:lang="gez">
+                                <quote>qanṭaṭafa</quote>
+                            </cit>, Tigrinya <foreign xml:lang="ti">ቈንጠፍጠፈ</foreign>
+                            <cit type="transcription" xml:lang="gez">
+                                <quote>qʷanṭafṭafa</quote>
+                            </cit>
+                            <bibl>
+                                <ptr target="bm:FloraEthiopia1989Vol3"/>
+                                <citedRange unit="page"> 615</citedRange>
+                            </bibl>
+                        </sense>
+                        <nd/>
+                    </sense>
+                </entry>
+            </div>
+        </body>
+    </text>
+</TEI>

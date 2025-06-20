@@ -1,0 +1,87 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> እጓል </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="AE" when="2018-08-19">zwei Rho durch zwei Pe ersetzt, daraus resultierende falsche Erkennungen revidiert, Verschachtelung,</change>
+            <change who="AE" when="2018-11-02">Rho durch P ersetzt etc.,</change>
+        <change who="MK" when="2023-06-15">added Les</change><change who="MK" when="2023-06-15">added cross ref</change><change who="MK" when="2023-06-15">added cross ref</change><change who="MK" when="2023-06-15">correction</change><change who="MK" when="2023-06-15">added link</change><change who="MK" when="2024-02-12">added Gr and Les</change><change who="MK" when="2024-02-12">added Les 4</change></revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="Lfccd9cc58752486aa980f076edc63765" n="5905">
+               <form>
+                  <foreign xml:lang="gez">እጓል</foreign>
+               </form>
+               <sense xml:id="Dmain" xml:lang="la" source="#dillmann"> <gramGrp> <pos expand="Substantivum">subst.</pos> </gramGrp>, plerumque <gramGrp> <gen value="not found">m.</gen> </gramGrp>, <lbl expand="collatio, -is vel collectivum,&#xA;                            -e">coll.</lbl>, et <lbl expand="">sing.</lbl>, <lbl expand="pluralis">Pl.</lbl> <foreign xml:lang="gez">እጓላት፡</foreign> (quamquam rarius occurrit), <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> foetus </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> proles </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> suboles </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> progenies </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> pulli </t:quote></cit> et <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> pullus </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> natus </t:quote></cit>, <sense n="1" xml:id="D1"> bestiarum, <sense n="a" xml:id="D1a"> quadrupedum, ut: armentorum et pecoris (<cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> vitulus </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> agnus </t:quote></cit>) <ref cRef="Lev." loc="22,27">Lev. 22,27</ref>; <ref cRef="Lev." loc="22,28">Lev. 22,28</ref>; <foreign xml:lang="gez">እጓለ፡ ላህም፡ ሥቡሕ፡</foreign> <foreign xml:lang="grc">δάμαλις νομάς</foreign> (<cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> juvencus </t:quote></cit>) <ref cRef="1 Reg." loc="28,24">1 Reg. 28,24</ref>; <foreign xml:lang="gez">እጓለ፡ ዐናብስት፡</foreign> <foreign xml:lang="grc">σκύμνοι λέοντος</foreign> <ref cRef="Jer. " loc="28,38">Jer.  28,38</ref>; <ref cRef="Jes." loc="5,29">Jes. 5,29</ref>; <foreign xml:lang="grc">σκύμνος</foreign> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> catulus </t:quote></cit> <ref cRef="Jes. " loc="30,6">Jes.  30,6</ref>; <ref cRef="Jes." loc="31,4">Jes. 31,4</ref>; <ref cRef="Am." loc="3,4">Am. 3,4</ref>; <ref cRef="Ps." loc="16,12">Ps. 16,12</ref>; <ref cRef="Prov." loc="24,65">Prov. 24,65</ref>; <foreign xml:lang="gez">ዕዋል፡ እጓለ፡ አድግት፡</foreign> <ref cRef="Matth." loc="21,5">Matth. 21,5</ref>, <lbl expand="pluralis">Pl.</lbl> <foreign xml:lang="gez">እጓላት፡</foreign> <ref cRef="Jes." loc="11,7">Jes. 11,7</ref> <lbl expand="varia lectio">var.</lbl> 
+</sense> <sense n="b" xml:id="D1b"> serpentum vel viperarum: <foreign xml:lang="gez">እጓለ፡ አራዊተ፡ ምድር፡</foreign> <foreign xml:lang="grc">ἔκγονα ἀσπίδων</foreign> <ref cRef="Jes. " loc="30,6">Jes.  30,6</ref>. 
+</sense> <sense n="c" xml:id="D1c"> avium: <foreign xml:lang="gez">እጓለ፡ ዖፍ፡</foreign> <ref cRef="Deut." loc="22,6">Deut. 22,6</ref>; <ref cRef="Prov. " loc="24,52">Prov.  24,52</ref> <lbl expand="varia lectio">var.</lbl>; <gramGrp> <pos expand="absolute">abs.</pos> </gramGrp>: <foreign xml:lang="gez">እጓል፡</foreign> <foreign xml:lang="grc">νοσσιά</foreign> <ref cRef="Jes." loc="10,14">Jes. 10,14</ref>; <lbl expand="pluralis">Pl.</lbl> <foreign xml:lang="gez">እጓላት፡</foreign> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> pulli </t:quote></cit> (columbarum) Reg. Pach. 
+</sense> 
+</sense> <sense n="2" xml:id="D2"> hominum: <sense n="a" xml:id="D2a"> <foreign xml:lang="gez">እጓል፡</foreign> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> foetus </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> proles </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> natus </t:quote></cit>: <foreign xml:lang="grc">βρέφος</foreign>, de foetu uteri <ref cRef="Luc. " loc="1,41">Luc.  1,41</ref>; <foreign xml:lang="grc">παιδίον</foreign> <foreign xml:lang="gez">ትረስዕኑ፡ ብእሲት፡ እጓላ፡</foreign> <ref cRef="Jes." loc="49,15">Jes. 49,15</ref>; <foreign xml:lang="grc">υἱός</foreign> <foreign xml:lang="gez">ጎቶልያ፡ ርእየት፡ ከመ፡ ሞተ፡ እጓላ፡</foreign> <ref cRef="2 Par. " loc="22,10">2 Par.  22,10</ref>; <foreign xml:lang="gez">እጓልከ፡ ሐይወ፡</foreign> <foreign xml:lang="grc">ὁ υἱός σου ζῇ</foreign> Cyr. de r. fid. f. 64; poëtice, ut: <foreign xml:lang="gez">ሱሲ፡ እጓለ፡ ጴጥሮስ፡</foreign> <ref cRef="Sx. Haml." loc="21 Enc.">Sx. Haml. 21 Enc.</ref>; <ref cRef="Sx. Jac. " loc="28.">Sx. Jac.  28.</ref> 
+</sense> <sense n="b" xml:id="D2b"> <foreign xml:lang="gez">እጓለ፡ ማውታ፡</foreign> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> pupillus </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> pupilla </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> pupilli </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> pupillae </t:quote></cit>, <lbl expand="videas">vid. sub</lbl> <foreign xml:lang="gez">ማውታ፡</foreign> col. 204. 
+</sense> <sense n="c" xml:id="D2c"> Tritissima est phrasis <foreign xml:lang="gez">እጓለ፡ እመሕያው፡</foreign> (i.e. <foreign xml:lang="gez">እመ፡ ሕያው፡</foreign> ut <ref cRef="Num." loc="23,19">Num. 23,19</ref>; <ref cRef="Luc. " loc="21,26">Luc.  21,26</ref> <lbl expand="romanae editionis">rom.</lbl>) <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> proles matris vivi </t:quote></cit> i.e. <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> viventium </t:quote></cit> (sive Evae <ref cRef="Gen. " loc="3,20">Gen.  3,20</ref>) i.e. <sense n="α" xml:id="D2cα"> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> homo </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> mortalis </t:quote></cit> (<foreign xml:lang="he">בֶּן־אָדָם</foreign>, <foreign xml:lang="syr">ܒܰܪܢܳܫܳܐ</foreign>), <foreign xml:lang="grc">ἄνθρωπος</foreign> <ref cRef="Gen." loc="1,27">Gen. 1,27</ref>; <ref cRef="Job" loc="7,1">Job 7,1</ref>; <ref cRef="Jer." loc="10,14">Jer. 10,14</ref>; <ref cRef="Jer." loc="17,5">Jer. 17,5</ref>; <ref cRef="Ps. " loc="48,21">Ps.  48,21</ref>; <ref cRef="Rom." loc="2,1">Rom. 2,1</ref>; <ref cRef="Rom." loc="9,20">Rom. 9,20</ref>, al. <foreign xml:lang="grc">υἱὸς ἀνθρώπου</foreign> <ref cRef="Num." loc="23,19">Num. 23,19</ref>; <ref cRef="Ps." loc="8,5">Ps. 8,5</ref>; <ref cRef="Job" loc="16,21">Job 16,21</ref>; <ref cRef="Jer." loc="30,11">Jer. 30,11</ref>, al.; <foreign xml:lang="grc">ἀνήρ</foreign> <ref cRef="Jes." loc="2,9">Jes. 2,9</ref>; <ref cRef="Jes." loc="5,15">Jes. 5,15</ref>; <ref cRef="Jer." loc="14,9">Jer. 14,9</ref>, al. 
+</sense> <sense n="β" xml:id="D2cβ"> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> homines </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> mortales </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> genus humanum </t:quote></cit>, <foreign xml:lang="grc">ἄνθρωποι</foreign> <ref cRef="Job" loc="7,20">Job 7,20</ref>; <ref cRef="Job" loc="28,13">Job 28,13</ref>; <ref cRef="Sir." loc="2,18">Sir. 2,18</ref>; <ref cRef="Sir. " loc="15,14">Sir.  15,14</ref>; <ref cRef="Sir." loc="17,30">Sir. 17,30</ref>; <ref cRef="Sir." loc="17,32">Sir. 17,32</ref>; <ref cRef="Sir." loc="23,19">Sir. 23,19</ref>; <ref cRef="Sir." loc="25,1">Sir. 25,1</ref>; <ref cRef="Sir." loc="36,10">Sir. 36,10</ref>; <ref cRef="1 Petr. " loc="4,2">1 Petr.  4,2</ref>; <ref cRef="1 Petr." loc="4,6">1 Petr. 4,6</ref>, al.; <foreign xml:lang="grc">υἱοὶ ἀνθρώπων</foreign> <ref cRef="1 Reg." loc="26,19">1 Reg. 26,19</ref>; <ref cRef="2 Par." loc="6,30">2 Par. 6,30</ref>; <ref cRef="Jes." loc="52,14">Jes. 52,14</ref>; <ref cRef="Ps." loc="10,4">Ps. 10,4</ref>; <ref cRef="Ps." loc="11,2">Ps. 11,2</ref>; <ref cRef="Ps." loc="11,9">Ps. 11,9</ref>; <ref cRef="Ps. " loc="32,13">Ps.  32,13</ref>; <ref cRef="Ps." loc="52,3">Ps. 52,3</ref>; <ref cRef="Ps." loc="144,12">Ps. 144,12</ref>; <ref cRef="Ps." loc="145,2">Ps. 145,2</ref>, al.; inde <foreign xml:lang="gez">ደቂቀ፡ እጓለ፡ እመሕያው፡</foreign> <foreign xml:lang="grc">οἱ υἱοὶ τῶν ἀνθρώπων</foreign> <ref cRef="Ps." loc=" 4,3">Ps.  4,3</ref>; <ref cRef="Ps." loc="11,9">Ps. 11,9</ref>; <ref cRef="Eph." loc="3,5">Eph. 3,5</ref>, al.; et <foreign xml:lang="gez">ወልደ፡ እጓለ፡ እመሕያው፡</foreign> <foreign xml:lang="grc">υἱὸς τοῦ ἀνθρώπου</foreign> <ref cRef="Ps. " loc="79,18">Ps.  79,18</ref>; <ref cRef="Hez." loc="2,1">Hez. 2,1</ref> <lbl expand="sequens">seq.</lbl> (per totum librum); <ref cRef="Dan." loc="7,13">Dan. 7,13</ref>; in <lbl expand="Novum Testamentum">N.T.</lbl>de Christo, ut <ref cRef="Matth." loc="8,20">Matth. 8,20</ref>; <ref cRef="Matth." loc="9,6">Matth. 9,6</ref>; <ref cRef="Matth." loc="10,23">Matth. 10,23</ref>; <ref cRef="Matth." loc="12,8">Matth. 12,8</ref> al. 
+</sense> 
+</sense> 
+</sense> </sense>
+               
+            <sense xml:id="Tmain" xml:lang="en" source="#traces"> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">ʾǝgʷāl</t:quote></cit> <sense n="G" xml:id="TG"> <foreign xml:lang="gez">እጓለ፡ ማውታ፡</foreign> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">ʾǝgʷāla māwtā</t:quote></cit> «<cit type="translation" xml:lang="fr"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">orphelin</t:quote></cit>, <cit type="translation" xml:lang="fr"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">pauvre</t:quote></cit>» ― <foreign xml:lang="am">የድኃ፡ ልጅ፡</foreign> Ms. <ref type="BM" target="BNFabb217">BNFabb217</ref>, fol. 43v., <lbl expand="videas">vid.</lbl> <foreign xml:lang="gez">ማውታ፡</foreign> <lb/>
+ <bibl><ptr target="bm:Grebaut1952SuppLexicon"/><citedRange unit="page"> 105</citedRange></bibl> 
+</sense> <sense n="L" xml:id="TL"> <foreign xml:lang="gez">እጓለ፡ ማውታ</foreign> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">ʾǝgʷāla māwtā</t:quote></cit> <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">orphan</t:quote></cit>, <lbl expand="videas">vid.</lbl> <foreign xml:lang="gez">ማውታ፡</foreign> <bibl><ptr target="bm:Leslau1987dic"/><citedRange unit="page"> 376a</citedRange></bibl> <lb/>
+ <foreign xml:lang="gez">እጓለ፡ ማውትና</foreign> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">ʾǝgʷāla māwtǝnnā</t:quote></cit> <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">orphanhood</t:quote></cit>, <lbl expand="videas">vid.</lbl> <foreign xml:lang="gez">ማውትና፡</foreign> <bibl><ptr target="bm:Leslau1987dic"/><citedRange unit="page"> 376a</citedRange></bibl> <lb/>
+ <foreign xml:lang="gez">እጓለ፡ እመሕያው</foreign> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">ʾǝgʷāla ʾǝmaḥǝyāw</t:quote></cit> <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">children</t:quote></cit>, lit. ‘children of the living’, that is, Eve, <lbl expand="videas">vid.</lbl> <foreign xml:lang="gez">ሕያው፡</foreign>, <foreign xml:lang="gez">እመሕያው፡</foreign> <bibl><ptr target="bm:Leslau1987dic"/><citedRange unit="page"> 252b</citedRange></bibl> 
+</sense> <sense n="C" xml:id="TC"> <lbl expand="videas">vid.</lbl> also <foreign xml:lang="gez">እመሕያው፡</foreign> under <ref type="external" target="https://betamasaheft.eu/Dillmann/lemma/L1f682bc673624a7db6581cba74eb75f7"><foreign xml:lang="gez">እም፡</foreign></ref> 
+</sense> </sense></entry>
+         </div>
+      </body>
+   </text>
+</TEI>

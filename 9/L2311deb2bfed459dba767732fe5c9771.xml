@@ -1,0 +1,85 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>ጸለለI</title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="PL" when="2018-01-12">Rad. Abb. fix </change>
+        <change who="LB" when="2018-05-15">root</change>
+        </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L2311deb2bfed459dba767732fe5c9771" n="9125" type="hom">
+               <form>
+                  <foreign xml:lang="gez">ጸለለ</foreign>
+                        <seg type="hom">I</seg>
+                    <rs type="root"/>
+                    </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain"> <subc>I,2</subc> [vicinum radicibus <foreign xml:lang="gez">ደለለ፡ ደለወ፡</foreign>; <foreign xml:lang="ar">ظُلْظُلٌ</foreign>?] proprie: <cit type="translation" xml:lang="la">
+                            <quote> librari </quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                            <quote> pendere </quote>
+                        </cit> (<note>schweben</note>) <sense n="a" xml:id="Da"> super aquam; <cit type="translation" xml:lang="la">
+                                <quote> innatare </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> supernatare </quote>
+                            </cit>, de rebus; <foreign xml:lang="gez">ይጼልል፡ ዲበ፡ ገጸ፡ ማይ፡</foreign> <foreign xml:lang="grc">ἐλαφρός ἐστιν</foreign> <ref cRef="Job" loc="24,18">Job 24,18</ref>; <foreign xml:lang="gez">ጸለለ፡ ዝክቱ፡ ኀጺን፡</foreign> <foreign xml:lang="grc">ἐπεπόλασε</foreign> <ref cRef="4 Reg." loc="6,6">4 Reg. 6,6</ref>; <ref cRef="Sx. Jac." loc="25">Sx. Jac. 25</ref>; <foreign xml:lang="gez">ጸለለት፡ ታቦት፡ ላዕለ፡ ማይ፡</foreign> <ref cRef="Gen." loc="7,18">Gen. 7,18</ref>; M.M. f. 123; <foreign xml:lang="gez">ኢተሠርሙ፡ ውስተ፡ ባሕር፡ አላ፡ ጸለሉ፡ መልዕልተ፡ ማይ፡</foreign> <ref cRef="Macc. " loc="2">Macc.  f. 2</ref>; <ref cRef="Sx. Jac." loc="5 ">Sx. Jac. 5 </ref>Enc.</sense> <sense n="b" xml:id="Db"> in aëre: <cit type="translation" xml:lang="la">
+                                <quote> libere ferri </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> volitare </quote>
+                            </cit>, de Spiritu S., <ref cRef="Gen." loc="1,2">Gen. 1,2</ref>; <ref cRef="4 Esr." loc="4,41">4 Esr. 4,41</ref>; <foreign xml:lang="gez">ጸለለ፡ መንፈስ፡ ቅዱስ፡ ላዕለ፡ ማያት፡</foreign> <ref cRef="Clem." loc="2,">Clem. f. 2,</ref> et <ref cRef="Clem." loc="10">Clem. f. 10</ref>; de manibus: <foreign xml:lang="gez">ሰገደ፡ በብረኪሁ፡ ወእደዊሁኒ፡ ውስተ፡ ሰማይ፡ ላዕለ፡ ጸለላ፡</foreign> Deg.; at locus <ref cRef="3 Reg." loc="8,7">3 Reg. 8,7</ref> ad II <foreign xml:lang="gez">ጸለለ</foreign> referendum videtur. – <lbl expand="Radices Abbadianae (collectio radicum Geez linguae Mss.).">Rad. Abb.</lbl>: <foreign xml:lang="gez">ጸለለ፡ ዘ፡ ሰቀለ።</foreign> </sense> </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

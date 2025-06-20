@@ -1,0 +1,102 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ፈላሲ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="AE" when="2018-10-21">Sprachkennung,</change>
+        </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L606effdd102c42fa80442c8c22330851" n="9818">
+               <form>
+                  <foreign xml:lang="gez">ፈላሲ</foreign>
+               </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain"> <gramGrp> <pos expand="nomen agentis">n. ag.</pos> </gramGrp>, <lbl expand="pluralis">Pl.</lbl> <foreign xml:lang="gez">ፈላስያን፡</foreign> vel <foreign xml:lang="gez">ፈላሲያን፡</foreign>, rarius <foreign xml:lang="gez">ፈለስት፡</foreign> <sense n="a" xml:id="Da"> <cit type="translation" xml:lang="la">
+                                <quote> extra patriam degens </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> alienigena </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> hospes </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> peregrinus </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> advena </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> accola </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> inquilinus </quote>
+                            </cit> (qui in aliquo populo degit, sed civitatem non habet): <foreign xml:lang="grc">ἀλλογενής</foreign> <ref cRef="Jes." loc="56,3">Jes. 56,3</ref>; <foreign xml:lang="grc">πάροικος</foreign> <ref cRef="Jer." loc="14,8">Jer. 14,8</ref>; <ref cRef="Judith" loc="4,10">Judith 4,10</ref>; <ref cRef="Ps." loc="118,19">Ps. 118,19</ref>; <ref cRef="Deut. " loc="14,21">Deut.  14,21</ref>; <ref cRef="Lev." loc="25,6">Lev. 25,6</ref>; <ref cRef="Lev." loc="25,23">Lev. 25,23</ref>; <ref cRef="Num." loc="35,15">Num. 35,15</ref>; <ref cRef="Gen." loc="23,4">Gen. 23,4</ref>; <foreign xml:lang="gez">ፈላስያነ፡ ጽዮን፡</foreign> <ref cRef="Bar." loc="4,9">Bar. 4,9</ref>; <foreign xml:lang="gez">ፈላስያነ፡ ቀሬጤ፡</foreign> <ref cRef="Zeph. " loc="2,5">Zeph.  2,5</ref>; <ref cRef="1 Par." loc="5,10">1 Par. 5,10</ref>; <foreign xml:lang="grc">γειώρας</foreign> <ref cRef="Jes." loc="14,1">Jes. 14,1</ref>; <foreign xml:lang="grc">προσήλυτος</foreign> <ref cRef="Jer." loc="7,6">Jer. 7,6</ref>; <ref cRef="Jer." loc="22,3">Jer. 22,3</ref>; <ref cRef="Mal." loc="3,5">Mal. 3,5</ref>; <ref cRef="Zach." loc="7,10">Zach. 7,10</ref>; <ref cRef="Hez." loc="22,7">Hez. 22,7</ref>; <ref cRef="Hez." loc="47,22">Hez. 47,22</ref>; <ref cRef="Ps." loc="93,6">Ps. 93,6</ref>; <foreign xml:lang="gez">ፈላስያን፡</foreign> <ref cRef="Ps." loc="145,8">Ps. 145,8</ref>; <ref cRef="Jes." loc="54,15">Jes. 54,15</ref>; <ref cRef="Hez." loc="14,7">Hez. 14,7</ref>; <ref cRef="1 Par." loc="22,2">1 Par. 22,2</ref>; <foreign xml:lang="gez">ፈላስያን፡ እምፈኒቄስ፡</foreign> <foreign xml:lang="grc">μετάβολοι Φοινίκης</foreign> <ref cRef="Jes." loc="23,2">Jes. 23,2</ref>; <ref cRef="Jes. " loc="23,3">Jes.  23,3</ref>; <foreign xml:lang="grc">παρεπίδημος</foreign> <ref cRef="Ps." loc="38,16">Ps. 38,16</ref>; <ref cRef="Hebr." loc="11,13">Hebr. 11,13</ref>; <foreign xml:lang="gez">ፈላሴ፡ ይከውኑ፡ ዘርእከ፡ ውስተ፡ ምድረ፡ ነኪር፡</foreign> <ref cRef="Kuf." loc="14.">Kuf. 14.</ref> </sense> <sense n="b" xml:id="Db"> <cit type="translation" xml:lang="la">
+                                <quote> proselytus </quote>
+                            </cit> (qui ad Judaismum transiit) <ref cRef="Matth." loc="23,15">Matth. 23,15</ref>; <ref cRef="Act." loc="2,10">Act. 2,10</ref>; <ref cRef="Act." loc="6,5">Act. 6,5</ref>; <ref cRef="Act." loc="13,43">Act. 13,43</ref>.</sense> <sense n="c" xml:id="Dc"> <cit type="translation" xml:lang="la">
+                                <quote> exsul </quote>
+                            </cit>, <foreign xml:lang="grc">μέτοικος</foreign> <ref cRef="Jer." loc="20,3">Jer. 20,3</ref>; <foreign xml:lang="gez">ፈላስያን፡</foreign> <foreign xml:lang="grc">ἡ ἀποικία</foreign> <ref cRef="Jer. " loc="36,1">Jer.  36,1</ref>; <ref cRef="Jer." loc="36,4">Jer. 36,4</ref>; <ref cRef="Jer." loc="36,31">Jer. 36,31</ref>; <ref cRef="Jer." loc="37,18">Jer. 37,18</ref>; <ref cRef="Jer." loc="39,44">Jer. 39,44</ref>; <ref cRef="Jer." loc="40,7">Jer. 40,7</ref>; <ref cRef="2 Esr." loc="4,1">2 Esr. 4,1</ref>; <ref cRef="2 Esr. " loc="6,19">2 Esr.  6,19</ref>; <ref cRef="2 Esr." loc="6,20">2 Esr. 6,20</ref>; <foreign xml:lang="gez">ፈለስት፡</foreign> <ref cRef="Jer." loc="47,1">Jer. 47,1</ref>.</sense> <sense n="d" xml:id="Dd"> <cit type="translation" xml:lang="la">
+                                <quote> profugus </quote>
+                            </cit>: <foreign xml:lang="gez">አህጉረ፡ ፈላስያን፡</foreign> <foreign xml:lang="grc">πόλεις τῶν φυγαδευτηρίων</foreign> <ref cRef="1 Par." loc="6,67">1 Par. 6,67</ref> (male).</sense> <sense n="e" xml:id="De"> <cit type="translation" xml:lang="la">
+                                <quote> peregrinator </quote>
+                            </cit>, Lud. ex <ref cRef="Sx. Haml." loc="25 Enc.">Sx. Haml. 25 Enc.</ref>; in specie qui terram sacram visitat, <ref cRef="M.M." loc=" f. 51">M.M.  f. 51</ref>.</sense> <sense n="f" xml:id="Df"> <cit type="translation" xml:lang="la">
+                                <quote> monachus </quote>
+                            </cit> cujusdam generis <lbl expand="scilicet">sc.</lbl> <sense n="α" xml:id="Dfα"> <cit type="translation" xml:lang="la">
+                                    <quote> is qui in solitudinem secessit </quote>
+                                </cit>, <cit type="translation" xml:lang="la">
+                                    <quote> anachoreta </quote>
+                                </cit>: <foreign xml:lang="gez">፩ እምገዳማውያን፡ ይቤ፡ ለእኍ፡ ለእመ፡ ኮንከ፡ ዘኢትክል፡ ከመ፡ ትኩን፡ ፈላሴ፡ ከማነ፡ ንበር፡ ውስተ፡ በአትከ፡ ወብኪ፡ በእንተ፡ ኀጢአትከ፡</foreign> <ref cRef="Phlx." loc="24">Phlx. 24</ref>; <foreign xml:lang="gez">ኩን፡ ፈላሴ፡ ውስተ፡ ገዳም፡</foreign> <ref cRef="Phlx. " loc="48">Phlx.  48</ref>; <ref cRef="Genz." loc="70 ">Genz. f. 70 </ref>(ut videtur); Lud. e Vit. Sam.</sense> <sense n="β" xml:id="Dfβ"> <cit type="translation" xml:lang="la">
+                                    <quote> huc illuc migrans </quote>
+                                </cit> vel <cit type="translation" xml:lang="la">
+                                    <quote> peregrinans; </quote>
+                                </cit> distinguitur a <foreign xml:lang="gez">ገዳማዊ፡</foreign>, <foreign xml:lang="gez">ዝጉሓዊ፡</foreign>, <foreign xml:lang="gez">ተባሕታዊ፡</foreign> <ref cRef="Phlx." loc="1">Phlx. 1</ref>; <ref cRef="Phlx." loc="62 ">Phlx. 62 </ref>(<lbl expand="videas">vid. sub</lbl> <foreign xml:lang="gez">ዝጉሓዊ፡</foreign>); et a <foreign xml:lang="gez">መንጎገው፡</foreign> (<lbl expand="quod videas">q.v.</lbl>) <ref cRef="Phlx." loc="21.">Phlx. 21.</ref> </sense> </sense> </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

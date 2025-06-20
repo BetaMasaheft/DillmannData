@@ -1,0 +1,85 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ዕጕሥታር </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="LB" when="2018-04-24">root</change>
+        </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="Lded824d6ee094f77945de8578b44fd62" n="7358">
+               <form>
+                  <foreign xml:lang="gez">ዕጕሥታር</foreign>
+               <rs type="root"/>
+                    </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain"> et <foreign xml:lang="gez">ዕጉሥታር፡</foreign> (etiam <foreign xml:lang="gez">ዕጕስታር፡</foreign> et <foreign xml:lang="gez">ዕጉስታር፡</foreign>) <gramGrp> <pos expand="Substantivum">subst.</pos> </gramGrp>, (<gramGrp> <gen value="not found">m.</gen> </gramGrp>), nomen <cit type="translation" xml:lang="la">
+                            <quote> herbae </quote>
+                        </cit>vel <cit type="translation" xml:lang="la">
+                            <quote> plantae amarissimae </quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                            <quote> aloë </quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                            <quote> absinthium </quote>
+                        </cit>vel simile quid [fortasse pro <foreign xml:lang="gez">ዕጕትሣር፡</foreign> ex <foreign xml:lang="gez">ዕጕት፡</foreign> <cit type="translation" xml:lang="la">
+                            <quote> amaritudo </quote>
+                        </cit>(coll. <foreign xml:lang="ar">أُجَاجٌ</foreign> et <foreign xml:lang="ar">عُقَاقٌ</foreign>) et <foreign xml:lang="gez">ሣዕር፡</foreign> <cit type="translation" xml:lang="la">
+                            <quote> herba </quote>
+                        </cit>; simile plantae veneniferae nomen <foreign xml:lang="gez">ምርቈትሣር፡</foreign> affert Rüppel <ref cRef="II p." loc="17">II p. 17</ref>]: <foreign xml:lang="gez">እፎ፡ ኮንኪ፡ ዕጕሥታረ፡</foreign> <foreign xml:lang="grc">εἰς πικρίαν</foreign> <ref cRef="Jer." loc="2,21">Jer. 2,21</ref>; <foreign xml:lang="gez">ጸገብክዎ፡ ለዕጉሥታር፡</foreign> <ref cRef="Jer." loc="15,17">Jer. 15,17</ref>; <foreign xml:lang="gez">ኣሰትዮሙ፡ ማየ፡ ዕጕሥታር፡</foreign> <foreign xml:lang="grc">ὕδωρ πικρόν</foreign> <ref cRef="Jer." loc="23,15">Jer. 23,15</ref>; <foreign xml:lang="grc">ἄψινθος</foreign> <ref cRef="Apoc." loc="8,11">Apoc. 8,11</ref>; <ref cRef="Herm." loc="30">Herm. p. 30</ref>; <ref cRef="Clem." loc="198">Clem. f. 198</ref>; <ref cRef="Clem." loc="199">Clem. f. 199</ref>; <foreign xml:lang="gez">በከመ፡ ያማስኖ፡ ዕጉሥታር፡ ለጣዕመ፡ መዓር፡ ከማሁ፡ ያማስኖ፡ ግዕዝ፡ እኩይ፡ ለምግባረ፡ ሠናይ፡</foreign> <ref cRef="Fal." loc="40">Fal. f. 40</ref>; <foreign xml:lang="gez">ብካይ፡ መሪር፡ እምዕጕሥታር፡</foreign> Cod. Mus. Brit. LIV, n. 7; <foreign xml:lang="gez">ደመ፡ ዕጕሥታር፡</foreign> M.M. f. 29; M.M. f. 108. – Lud. ait: „planta est, quam Aethiops meus ita ac <cit type="translation" xml:lang="la">
+                            <quote> aloen </quote>
+                        </cit>descripsit“. – <lbl expand="Vocabularium Aethiopicum, -a -a">Voc. Ae.</lbl>: <foreign xml:lang="gez">ዕጕሥታር፡ ዘ፡ እሬት፡</foreign> </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

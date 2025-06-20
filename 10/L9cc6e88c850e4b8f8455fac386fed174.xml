@@ -1,0 +1,122 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> በላዒ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L9cc6e88c850e4b8f8455fac386fed174" n="3802">
+               <form>
+                  <foreign xml:lang="gez">በላዒ</foreign>
+               </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain">
+                  <gramGrp>
+                     <pos expand="nomen agentis">n. ag.</pos>
+                  </gramGrp>, <gramGrp>
+                     <gen value="femininus">fem.</gen>
+                  </gramGrp>
+                  <foreign xml:lang="gez">በላዒት፡</foreign> <lbl expand="pluralis">Pl.</lbl> c. <foreign xml:lang="gez">በላዕት፡</foreign>, <lbl expand="pluralis">Pl.</lbl>
+                  <gramGrp>
+                     <gen value="masculinum">m.</gen>
+                  </gramGrp>
+                  <foreign xml:lang="gez">በላዕያን፡ </foreign>
+                  <sense n="1" xml:id="D1">
+                     <cit type="translation" xml:lang="la">
+                        <quote>edens</quote>
+                     </cit>, <cit type="translation" xml:lang="la">
+                        <quote>comedens</quote>
+                     </cit>, <cit type="translation" xml:lang="la">
+                        <quote>devorans</quote>
+                     </cit>, <cit type="translation" xml:lang="la">
+                        <quote>vescens</quote>
+                     </cit>, (<cit type="translation" xml:lang="la">
+                        <quote>edax</quote>
+                     </cit>, <cit type="translation" xml:lang="la">
+                        <quote>vorax</quote>
+                     </cit>): <foreign xml:lang="gez">ይወድቁ፡ ውስተ፡ አፈ፡ በላዒ፡</foreign>
+                     <ref cRef="Nah." loc="3,12">Nah. 3,12</ref>; <foreign xml:lang="gez">በላዒተ፡ ሰብእ፡
+                        አንቲ፡</foreign>
+                     <foreign xml:lang="grc">κατέσθουσα ἀνθρώπους εἶ</foreign>
+                     <ref cRef="Hez." loc="36,13">Hez. 36,13</ref>; de leone <ref cRef="Jud." loc="14,14">Jud. 14,14</ref>; saepius de igne: <foreign xml:lang="gez">እሳት፡
+                        ዘይነድድ፡ በላዒ፡</foreign>
+                     <ref cRef="Kuf." loc="36">Kuf. 36</ref>; <foreign xml:lang="gez">ነበልባለ፡ እሳት፡
+                        በላዒ፡</foreign>
+                     <ref cRef="Jes." loc="29,6">Jes. 29,6</ref>; <ref cRef="Jes." loc="30,30">Jes.
+                        30,30</ref>; <ref cRef="Hebr." loc="12,29">Hebr. 12,29</ref>; de
+                     anthropophagis et <lbl expand="translate">transl.</lbl> de iis, qui homines
+                     (eorum opes) consumunt: <foreign xml:lang="gez">በላዕያነ፡ ሥጋ፡ ሰብእ፡</foreign>
+                     <ref cRef="Clem." loc="76">Clem. f. 76</ref>; <foreign xml:lang="gez">በላዕያነ፡
+                        ሥጋ፡ ሰብእ፡ ወሰታይያነ፡ ደም፡</foreign>
+                     <ref cRef="Macc." loc="10">Macc. f. 10</ref>; <foreign xml:lang="gez">በላዕተ፡
+                        ሰብእ፡</foreign>
+                     <ref cRef="M.M." loc="f. 43">M.M. f. 43</ref>; <ref cRef="Sx. Masc." loc="1">Sx. Masc. 1</ref>; <ref cRef="Sx. Mag." loc="8.">Sx. Mag. 8.</ref>
+                  </sense>
+                  <sense n="2" xml:id="D2">
+                     <cit type="translation" xml:lang="la">
+                        <quote>edo</quote>
+                     </cit>, <cit type="translation" xml:lang="la">
+                        <quote>comedo</quote>
+                     </cit>, <cit type="translation" xml:lang="la">
+                        <quote>devorator</quote>
+                     </cit>
+                     <ref cRef="Matth." loc="11,19">Matth. 11,19</ref>; <foreign xml:lang="gez">ሥሡዓን፡ በላዕያን፡</foreign>
+                     <ref cRef="Macc." loc="9.">Macc. f. 9.</ref>
+                  </sense>
+               </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

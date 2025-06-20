@@ -1,0 +1,86 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> አላ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="LB" when="2018-03-16">root</change>
+        </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L59f09d8fc0424c9ea4f9cc899f2d20fe" n="5380">
+               <form>
+                  <foreign xml:lang="gez">አላ</foreign>
+               <rs type="root"/>
+                    </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain"> (i.e. <cit type="translation" xml:lang="la">
+                            <quote> allâ </quote>
+                        </cit>) particula adversativa [simili modo composita atque <foreign xml:lang="ar">إِلاَّ</foreign>, <bibl>
+                            <ptr target="bm:Dillmann1857Gramm"/>gramm.</bibl> § 168,6] <sense n="a" xml:id="Da"> plerumque praevia negatione: <cit type="translation" xml:lang="la">
+                                <quote> sed </quote>
+                            </cit>, <ref cRef="Gen." loc="3,5">Gen. 3,5</ref>; <ref cRef="Gen." loc="17,15">Gen. 17,15</ref>; <ref cRef="Gen." loc="40,23">Gen. 40,23</ref>; <ref cRef="Num." loc="10,30">Num. 10,30</ref>; <ref cRef="Num. " loc="11,20">Num.  11,20</ref>; <ref cRef="Deut." loc="7,5">Deut. 7,5</ref>; <ref cRef="Deut." loc="9,4">Deut. 9,4</ref>; <ref cRef="Deut." loc="9,5">Deut. 9,5</ref>; <ref cRef="Prov." loc="23,31">Prov. 23,31</ref>; <ref cRef="Prov." loc="24,8">Prov. 24,8</ref>; <ref cRef="Jer." loc="50,3">Jer. 50,3</ref>; <ref cRef="Sir. " loc="24,34">Sir.  24,34</ref>; <ref cRef="Judith" loc="2,13">Judith 2,13</ref>; <ref cRef="Judith" loc="12,2">Judith 12,2</ref>; <ref cRef="Judith" loc="13,20">Judith 13,20</ref>; <ref cRef="Hen." loc="5,2">Hen. 5,2</ref>; <ref cRef="Hen." loc="5,4">Hen. 5,4</ref>; <ref cRef="4 Esr." loc="6,23">4 Esr. 6,23</ref>; <ref cRef="4 Esr." loc="6,25">4 Esr. 6,25</ref>; <ref cRef="Asc. Jes." loc="7,15">Asc. Jes. 7,15</ref>; <ref cRef="Asc. Jes." loc="8,5">Asc. Jes. 8,5</ref>; <ref cRef="Asc. Jes." loc="8,7">Asc. Jes. 8,7</ref>; <ref cRef="Matth." loc="5,15">Matth. 5,15</ref>; <ref cRef="Matth." loc="5,17">Matth. 5,17</ref>; <ref cRef="Matth." loc="6,13">Matth. 6,13</ref>; <ref cRef="Matth." loc="9,13">Matth. 9,13</ref>; <ref cRef="Matth." loc="9,24">Matth. 9,24</ref>; <ref cRef="Matth." loc="10,20">Matth. 10,20</ref>; <ref cRef="Matth." loc="10,34">Matth. 10,34</ref>; <ref cRef="Matth." loc="15,11">Matth. 15,11</ref>; <ref cRef="Matth." loc="16,12">Matth. 16,12</ref>; <ref cRef="Matth." loc="16,17">Matth. 16,17</ref>; <ref cRef="Matth." loc="22,30">Matth. 22,30</ref>; <ref cRef="Joh." loc="1,13">Joh. 1,13</ref>; <ref cRef="Joh." loc="3,16">Joh. 3,16</ref> al.; post <cit type="translation" xml:lang="la">
+                                <quote> non tantum </quote>
+                            </cit> <foreign xml:lang="gez">አላ፡</foreign> – <foreign xml:lang="gez">ሂ፡</foreign> vel <foreign xml:lang="gez">አላ፡</foreign> – <foreign xml:lang="gez">ኒ፡</foreign> <cit type="translation" xml:lang="la">
+                                <quote> sed etiam </quote>
+                            </cit> <ref cRef="Deut." loc="29,14">Deut. 29,14</ref>; <ref cRef="1 Petr." loc="2,18">1 Petr. 2,18</ref> Platt, vel <foreign xml:lang="gez">አላ፡</foreign> – <foreign xml:lang="gez">ዓዲ፡</foreign> <ref cRef="Act." loc="26,29">Act. 26,29</ref>, vel <foreign xml:lang="gez">አላ፡</foreign> <ref cRef="Joh." loc="11,52">Joh. 11,52</ref>; <ref cRef="Act." loc="19,26">Act. 19,26</ref>.</sense> <sense n="b" xml:id="Db"> sine praevia negatione: <cit type="translation" xml:lang="la">
+                                <quote> sed </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> at </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> verum enim vero </quote>
+                            </cit> (crebrius <foreign xml:lang="gez">ወባሕቱ፡</foreign>) <ref cRef="Gen." loc="48,19">Gen. 48,19</ref>; <ref cRef="Num." loc="14,21">Num. 14,21</ref>; <ref cRef="Asc. Jes. " loc="7,21">Asc. Jes.  7,21</ref>; <foreign xml:lang="gez">አላ፡ ባሕቱ፡</foreign> Cyr. c. <ref cRef="Pall." loc="72">Pall. f. 72</ref>; Lud. ex Hist. VII Puer.</sense> </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

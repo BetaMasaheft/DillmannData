@@ -1,0 +1,70 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> አጋር </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="MK" when="2023-01-04">added Cross ref</change></revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L2cd2f196182141739e004794cf57ebe2" n="5911">
+               <form>
+                  <foreign xml:lang="gez">አጋር</foreign>
+               </form>
+               <sense xml:id="Dmain" xml:lang="la" source="#dillmann"> et <foreign xml:lang="gez">አጋሪ፡</foreign> <gramGrp> <pos expand="nomen agentis">n. ag.</pos> </gramGrp>, <lbl expand="pluralis">Pl.</lbl> <foreign xml:lang="gez">አጋራን፡</foreign> et <foreign xml:lang="gez">አጋርያን፡</foreign>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> pedes </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> copiae pedestres </t:quote></cit>: <ref cRef="Ex." loc="12,37">Ex. 12,37</ref>; <ref cRef="Num." loc="11,21">Num. 11,21</ref>; <ref cRef="Jud." loc="5,15">Jud. 5,15</ref>; <ref cRef="Jud." loc="20,2">Jud. 20,2</ref>; <ref cRef="2 Reg." loc="8,4">2 Reg. 8,4</ref>; <cb n="0805" xml:id="c0805"/> <foreign xml:lang="gez">፲፻ አጋር፡ ብእሲ፡</foreign> <ref cRef="4 Reg." loc="13,7">4 Reg. 13,7</ref>; <foreign xml:lang="gez">አጋራን፡</foreign> <ref cRef="Judith" loc="2,5">Judith 2,5</ref>; <foreign xml:lang="gez">አጋሮሙ፡</foreign> <ref cRef="Judith" loc="7,20">Judith 7,20</ref>; <foreign xml:lang="gez">አጋርያን፡</foreign> <ref cRef="Judith" loc="2,19">Judith 2,19</ref>; <ref cRef="Judith " loc="2,22">Judith  2,22</ref>; <ref cRef="Judith" loc="7,2">Judith 7,2</ref>; <foreign xml:lang="gez">ስሳ፡ እልፍ፡ አጋር፡</foreign> <ref cRef="Sir." loc="16,10">Sir. 16,10</ref>; <foreign xml:lang="gez">ስሳ፡ እልፍ፡ አጋራን፡</foreign> <ref cRef="Judith" loc="46,8">Judith 46,8</ref>. </sense>
+               
+            <sense xml:id="Tmain" xml:lang="en" source="#traces"><cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">ʾagār</t:quote></cit>, <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">ʾagāri</t:quote></cit>, <lbl expand="pluralis">Pl.</lbl> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">ʾagārān</t:quote></cit>, <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">ʾagārǝyān</t:quote></cit> <sense n="C"> for <foreign xml:lang="gez">ሊቀ፡ ሐራ፡ ለአጋር፡</foreign> <lbl expand="videas">vid.</lbl> <foreign xml:lang="gez">ሊቅ፡</foreign> (Grébaut) 
+</sense> </sense></entry>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,74 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ለውሕ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="LB" when="2018-01-29">lemma</change>
+        <change who="MK" when="2023-01-02">added Gr</change></revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L6703f3dfbbe94b75b1ecc64b39fd1d3b" n="392">
+               <form>
+                  <foreign xml:lang="gez">ለውሕ</foreign>
+               <rs type="root"/>
+                    </form>
+               <sense xml:id="Dmain" xml:lang="la" source="#dillmann"> <gramGrp> <pos expand="Substantivum">subst.</pos> </gramGrp> [<foreign xml:lang="he">לוּחַ</foreign> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> tabula lapidea </t:quote></cit> vel <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> lignea </t:quote></cit>, <foreign xml:lang="syr">ܠܽܘܚܳܐ</foreign>, <foreign xml:lang="ar">لَوْحٌ</foreign> <lbl expand="idem">id.</lbl>, amh. <foreign xml:lang="gez">ሉኽ፡</foreign>] <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> tabula </t:quote></cit> (<cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> lignea </t:quote></cit>), <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> asser </t:quote></cit>, <lbl expand="secundum">sec.</lbl> <lbl expand="Vocabularium Aethiopicum, -a -a">Voc. Ae.</lbl> etiam <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> tabula pictoria </t:quote></cit> vel <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> scriptoria </t:quote></cit>: <foreign xml:lang="gez">ንሥኡ፡ ለውሐ። ሑሩ፡ ውስተ፡ የብስ፡</foreign> <ref cRef="Act." loc="27,44">Act. 27,44</ref> <lbl expand="romanae editionis">rom.</lbl>; <foreign xml:lang="gez">ዕፀወ፡ ለውሕ፡</foreign> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> tabulae ligneae </t:quote></cit> <ref cRef="Kebr. Nag." loc="56">Kebr. Nag. 56</ref>; <foreign xml:lang="gez">አሐቲ፡ ለውሕ፡ እምዕፀ፡ ሐመር፡</foreign> <ref cRef="Sx. Ter" loc="14.">Sx. Ter 14.</ref> (Aliâs <foreign xml:lang="gez">ሰሌዳ፡</foreign> q.v.). – De etymo consulas Ges. thes. p. 748. – <lbl expand="Vocabularium Aethiopicum, -a -a">Voc. Ae.</lbl>: <foreign xml:lang="gez">ለውሕ፡ ዘ፡ ገበታ፡ ዘይሥዕል፡ ቦቱ።</foreign> </sense>
+               
+            <sense xml:id="Tmain" xml:lang="en" source="#traces"><cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">lawḥ</t:quote></cit>, <foreign xml:lang="gez">ለውህ፡</foreign> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">lawh</t:quote></cit>, <lbl expand="pluralis">Pl.</lbl> <foreign xml:lang="gez">አልዋህ፡</foreign> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">ʾalwāh</t:quote></cit> <sense n="G"> <foreign xml:lang="gez">ለውህ፡</foreign> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">lawh</t:quote></cit>, <lbl expand="pluralis">Pl.</lbl> <foreign xml:lang="gez">አልዋህ፡</foreign> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">ʾalwāh</t:quote></cit> «<cit type="translation" xml:lang="fr"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">parchemin</t:quote></cit>, <cit type="translation" xml:lang="fr"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">page</t:quote></cit>» ― <foreign xml:lang="am">ብራና፡</foreign> Ms. <ref type="BM" target="BNFabb217">BNFabb217</ref>, fol. 16v. <lb/>
+ <foreign xml:lang="gez">ለውህ፡</foreign> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">lawh</t:quote></cit> «<cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">asser</t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">tabula</t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">pagina</t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">pergamena</t:quote></cit>» Ms. Roma, Biblioteca Nazionale Centrale di Roma, Orientale 134, p. 6. <lb/>
+ <bibl><ptr target="bm:Grebaut1952SuppLexicon"/><citedRange unit="page"> 39</citedRange></bibl> 
+</sense> </sense></entry>
+         </div>
+      </body>
+   </text>
+</TEI>

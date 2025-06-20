@@ -1,0 +1,74 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ቀስ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="MK" when="2019-04-08">added </change>
+            <change who="MK" when="2019-04-08">added new word</change>
+            <change who="MK" when="2019-04-08">added cross-reference </change>
+            <change who="MK" when="2019-04-08">added link</change>
+        <change who="MK" when="2022-02-23">addecd cross-refernce </change><change who="MK" when="2022-04-20">added structure</change><change who="MK" when="2022-04-20">restructured</change><change who="MK" when="2022-04-20">added transliteration</change><change who="MK" when="2022-04-20">added translat</change><change who="MK" when="2022-04-20">added cross reference</change><change who="MK" when="2022-05-23">correction</change><change who="MK" when="2022-05-23">added vid</change></revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="Lc4bb4312d3ae4aff9a92168d010605ed" n="3391">
+               <form>
+                  <foreign xml:lang="gez">ቀስ</foreign>
+               </form>
+               <sense xml:id="Dmain" xml:lang="la" source="#dillmann"> <gramGrp> <pos expand="Substantivum">subst.</pos> </gramGrp> i.q. <foreign xml:lang="gez">ቀሲስ፡</foreign> [cfr. <foreign xml:lang="ar">قَسٌّ</foreign>]: <foreign xml:lang="gez">አባ፡ ገሪማ፡ ቀስ፡ ዘመደራ፡</foreign> Mavâs. 58; <foreign xml:lang="gez">ወይቤልዎ፡ ቀስ፡ ወመኳንንት፡ ለብፁዕ፡ ሊባኖስ፡</foreign> Mavâs. 31. </sense>
+               
+            <sense xml:id="Tmain" xml:lang="en" source="#traces"> <cit type="transcription" xml:lang="gez"><quote>qas</quote></cit> <cit type="translation" xml:lang="en"><quote>priest</quote></cit> <sense n="1" xml:id="T1"><foreign xml:lang="gez">ቀሰ፡</foreign> <cit type="transcription" xml:lang="gez"><quote> qasa</quote></cit> <gramGrp><pos expand="Substantivum">subst.</pos></gramGrp> <lbl expand="">st.c.</lbl> <cit type="translation" xml:lang="en"><quote>priest of</quote></cit> <sense n="a" xml:id="T1a"> <foreign xml:lang="gez">ቀሰ፡ ሐፀይ፡</foreign> <cit type="transcription" xml:lang="gez"><quote> qasa ḥaḍay </quote></cit> (title) <foreign xml:lang="gez">ለቀሰ፡ ሐፀይ፡ ወለፀዋሬ፡ ናርጊ፡ ማሰሬ፡ ወሊቀ፡ ደብተራ፡ ይኩን፡ ጥብጣቤሆሙ፡ በበ፲ ወ ፭፡</foreign> ‘<cit type="translation" xml:lang="en"><quote> let the whipping of the qäsä ḥaẓäy, the ẓäware nargi masäre, and the liqä däbtära be 15 (lashes) each </quote></cit>’ <bibl><ptr target="bm:Getatchew2013MeshafeBerhanT"/><citedRange unit="page"> 84 (ed.)</citedRange></bibl>, <bibl><ptr target="bm:Getatchew2013MeshafeBerhanV"/><citedRange unit="page"> 58 (tr.)</citedRange></bibl>, <lbl expand="videas">vid.</lbl> <foreign xml:lang="gez">ሐፀይ፡</foreign> </sense> <sense n="b" xml:id="T1b"> <foreign xml:lang="gez">ቀሰ፡ ገበዝ፡</foreign> <cit type="transcription" xml:lang="gez"><quote> qasa gabaz </quote></cit> <bibl><ptr target="bm:Getatchew2013MeshafeBerhanT"/><citedRange unit="page"> 84 (ed.)</citedRange></bibl>, <bibl><ptr target="bm:Getatchew2013MeshafeBerhanV"/><citedRange unit="page"> 58 (tr.)</citedRange></bibl> </sense> </sense> <sense n="C" xml:id="TC"> ● for <foreign xml:lang="gez">ቀይሰ፡ ገበዝ፡</foreign>, <foreign xml:lang="gez">ቄሰ፡ ገበዝ፡</foreign>, <foreign xml:lang="gez">ቀሽ፡ ገበዝ፡</foreign> <lbl expand="videas">vid.</lbl><ref type="external" target="https://betamasaheft.eu/Dillmann/lemma/Lad369018c76c413a8ca61f72980ed5d9"><foreign xml:lang="gez">ቀይስ፡</foreign></ref> (TraCES) ● for <foreign xml:lang="gez">ቀሲስ፡ ገበዝ፡</foreign> <lbl expand="videas">vid.</lbl> <foreign xml:lang="gez">ቀሲስ፡</foreign> (TraCES) </sense> </sense>
+                </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

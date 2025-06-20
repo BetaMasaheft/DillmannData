@@ -1,0 +1,109 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ሆከ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="AE" when="2017-12-07">Referenzen,</change>
+        </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L2304091321874a5681e3313a6bf57544" n="65">
+               <form>
+                  <foreign xml:lang="gez">ሆከ</foreign>
+               </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain"> <subc>I,1</subc> <gramGrp> <pos expand="not found">subj.</pos> </gramGrp> <foreign xml:lang="gez">ይሁክ፡</foreign> <sense n="1" xml:id="D1"> <cit type="translation" xml:lang="la">
+                                <quote> motum rei afferre </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> movere </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> agitare </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> versare </quote>
+                            </cit>: <foreign xml:lang="gez">ሆኮሙ፡ ከመ፡ ማዕበለ፡ ባሕር፡</foreign> <ref cRef="Sir." loc="29,18">Sir. 29,18</ref>; <foreign xml:lang="gez">የሀውኮ፡ ነፋስ፡ ለማየ፡ ባሕር፡</foreign> <ref cRef="Jsp." loc="332">Jsp. p. 332</ref>; <foreign xml:lang="gez">ነፋሳት፡ የሀውክዋ፡ ለሐመር፡</foreign> <ref cRef="Chrys. ho." loc="11">Chrys. ho. 11</ref>; <ref cRef="Ps." loc="59,2">Ps. 59,2</ref>; <ref cRef="4 Esr." loc="1,19">4 Esr. 1,19</ref> (Laur.); <ref cRef="Job" loc="9,6">Job 9,6</ref>; <ref cRef="Luc." loc="15,8">Luc. 15,8</ref> <lbl expand="romanae editionis">rom.</lbl>; <foreign xml:lang="gez">ተመሰሎሙ፡ ለእለ፡ ይለክፉ፡ ምንተኒ፡ በአጽባዕቶሙ፡ ወየሀውኩ፡ ኵለንታሁ፡</foreign> <foreign xml:lang="grc">καὶ ποιούντων περιφέρεσθαι</foreign> <ref cRef="Chrys. ho." loc="2">Chrys. ho. 2</ref>; <lbl expand="cum">c.</lbl> <foreign xml:lang="gez">እመካን፡</foreign> <cit type="translation" xml:lang="la">
+                                <quote> loco movere </quote>
+                            </cit>, ut <foreign xml:lang="gez">ኢተክህሎሙ፡ ከመ፡ ይሁክዋ፡ ለሐመር፡ እምካን፡</foreign> <ref cRef="Sx. Hed." loc="28.">Sx. Hed. 28.</ref> </sense> <sense n="2" xml:id="D2"> <cit type="translation" xml:lang="la">
+                                <quote> concitare </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> commovere </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> exciere </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> perturbare </quote>
+                            </cit>animum alicujus. (<foreign xml:lang="grc">σαλεύειν</foreign>, <foreign xml:lang="grc">ταράσσειν</foreign>, <foreign xml:lang="grc">συνταράσσειν</foreign>, <foreign xml:lang="grc">θορυβεῖν</foreign>) <ref cRef="Job" loc="19,6">Job 19,6</ref>; <ref cRef="Ps." loc="17,5">Ps. 17,5</ref>; <ref cRef="Ps." loc="41,6">Ps. 41,6</ref>; <ref cRef="Ps." loc="41,15">Ps. 41,15</ref>; <ref cRef="Ps. " loc="2,5">Ps.  2,5</ref>; <ref cRef="Prov." loc="12,25">Prov. 12,25</ref>; <ref cRef="Sap." loc="18,19">Sap. 18,19</ref>; <ref cRef="Sir." loc="28,14">Sir. 28,14</ref>; <ref cRef="Jes." loc="10,33">Jes. 10,33</ref>; <ref cRef="Jes." loc="30,28">Jes. 30,28</ref>; <foreign xml:lang="gez">ኢትሁክ፡ ርእሰከ፡</foreign> <foreign xml:lang="grc">μὴ στρέβλου σεαυτόν</foreign> <ref cRef="Herm." loc="76">Herm. p. 76</ref>; <ref cRef="Joh." loc="11,33">Joh. 11,33</ref>; in bonam partem: <foreign xml:lang="gez">ሆከቶ፡ ጸጋ፡ እግዚአብሔር፡ ከመ፡ ይሑር፡ ኀበ፡ ገዳመ፡ አስቄጥስ፡</foreign> <ref cRef="Sx. Teq." loc="20.">Sx. Teq. 20.</ref> </sense> <sense n="3" xml:id="D3"> <cit type="translation" xml:lang="la">
+                                <quote> turbare </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> disturbare </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> obturbare </quote>
+                            </cit>, <ref cRef="Sir." loc="11,34">Sir. 11,34</ref>; <ref cRef="Job" loc="8,3">Job 8,3</ref>; <ref cRef="Job" loc="34,10">Job 34,10</ref>; (Johannes Antiochenus absentia sua) <foreign xml:lang="gez">ፈቀደ፡ ይሁክ፡ ቅድስተ፡ ሲኖዶስ፡</foreign> <cit type="translation" xml:lang="la">
+                                <quote> synodum obturbare voluit </quote>
+                            </cit>, <ref cRef="Epist. Synod. ad Joh. in Cyr." loc="113">Epist. Synod. ad Joh. in Cyr. f. 113</ref>; <foreign xml:lang="gez">ሆከ፡ ለክብረ፡ ሞቱ፡</foreign> <cit type="translation" xml:lang="la">
+                                <quote> turbavit exequias ejus </quote>
+                            </cit> <ref cRef="Enc." loc="">Enc. </ref>
+                        </sense> <sense n="4" xml:id="D4"> <cit type="translation" xml:lang="la">
+                                <quote> excitare </quote>
+                            </cit> <cit type="translation" xml:lang="la">
+                                <quote> ad seditionem </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> turbas </quote>
+                            </cit> <ref cRef="Marc." loc="15,11">Marc. 15,11</ref>; <ref cRef="Act." loc="24,5">Act. 24,5</ref>; <ref cRef="2 Thess. " loc="2,3">2 Thess.  2,3</ref>.</sense> <sense n="5" xml:id="D5"> <cit type="translation" xml:lang="la">
+                                <quote> labefactare </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> vacillare facere </quote>
+                            </cit>animum: <foreign xml:lang="gez">ሰይጣን፡ ሆከ፡ ሕሊናሃ፡</foreign> <ref cRef="Clem." loc="222">Clem. f. 222</ref>; <foreign xml:lang="grc">πλανῶν τὰ ἔθνη</foreign> (<foreign xml:lang="gez">የሀውኮሙ፡ ለአሕዛብ፡</foreign>) <ref cRef="Job" loc="12,23">Job 12,23</ref>.</sense> </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

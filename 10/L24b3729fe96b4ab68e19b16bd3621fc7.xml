@@ -1,0 +1,88 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ድንጋግ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="LB" when="2018-05-03">root</change>
+            <change who="AE" when="2018-11-02">omikron durch o ersetzt,</change>
+        </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L24b3729fe96b4ab68e19b16bd3621fc7" n="8080">
+               <form>
+                  <foreign xml:lang="gez">ድንጋግ</foreign>
+               <rs type="root"/>
+                    </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain"> <gramGrp> <pos expand="Substantivum">subst.</pos> </gramGrp> [etymon perobscurum est; videas annon cum <foreign xml:lang="gez">ጠቃ፡</foreign> vel <foreign xml:lang="gez">ጥቃ፡</foreign> componendum sit, si quidem <foreign xml:lang="gez">ደቀቀ፡ ደገገ፡ ደግደገ፡ ጠቀቀ፡ ጠንቀቀ፡</foreign> ejusdem familiae sunt] <sense n="1" xml:id="D1"> <cit type="translation" xml:lang="la">
+                                <quote> ora </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> crepido </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> ripa </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> litus </quote>
+                            </cit>, fluminis <ref cRef="Kuf." loc="8">Kuf. 8</ref>; <ref cRef="Kuf." loc="45">Kuf. 45</ref>; <ref cRef="Jos." loc="3,15">Jos. 3,15</ref>; <ref cRef="Jos." loc="4,18">Jos. 4,18</ref>; <ref cRef="4 Reg." loc="2,13">4 Reg. 2,13</ref> (v. <foreign xml:lang="gez">ድጋግ፡</foreign>); <ref cRef="Dan. " loc="12,5">Dan.  12,5</ref>; <ref cRef="Hez." loc="47,6">Hez. 47,6</ref> <lbl expand="sequens">seq.</lbl>; <ref cRef="Jes." loc="19,7">Jes. 19,7</ref> <lbl expand="varia lectio">var.</lbl>, <foreign xml:lang="gez">ኀበ፡ ድንጋገ፡ ማይ፡</foreign> <ref cRef="Sir." loc="24,14">Sir. 24,14</ref>; maris: <ref cRef="Kuf." loc="49">Kuf. 49</ref>; <ref cRef="Gen." loc="22,17">Gen. 22,17</ref>; <ref cRef="Ex." loc="14,30">Ex. 14,30</ref>; <ref cRef="Act." loc="27,40">Act. 27,40</ref> <lbl expand="romanae editionis">rom.</lbl>; <foreign xml:lang="gez">ድንጋግ፡ ዘሐይቅ፡</foreign> <cit type="translation" xml:lang="la">
+                                <quote> ora litoris </quote>
+                            </cit> Org.</sense> <sense n="2" xml:id="D2"> <cit type="translation" xml:lang="la">
+                                <quote> terminus </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> limes </quote>
+                            </cit>: quae cogitatio pervenire potest <foreign xml:lang="gez">ውስተ፡ ድንጋገ፡ ውዳሴኪ፡</foreign> Org. — Voc. Ae.: <foreign xml:lang="gez">አድያም፡ ከንፊፍ፡ ደወል፡ ሐይቅ፡ ድንጋግ፡ ጽንፍ፡ ወሰን፡ ገበዝ፡ ብ፡ ዳር፡</foreign>; <cit type="translation" xml:lang="la">
+                                <quote> aliud </quote>
+                            </cit>: <foreign xml:lang="gez">ድንጋግ፡ ጽንፍ፡ ሐይቅ፡ ክንፊፍ፡ ዘ፡ ፬ ዳር።</foreign> </sense> </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

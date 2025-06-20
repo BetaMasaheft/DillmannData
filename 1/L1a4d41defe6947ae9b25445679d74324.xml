@@ -1,0 +1,83 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ጠቀመ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="LB" when="2018-05-08">root</change>
+        </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L1a4d41defe6947ae9b25445679d74324" n="8844">
+               <form>
+                  <foreign xml:lang="gez">ጠቀመ</foreign>
+               <rs type="root"/>
+                    </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain"> <subc>I,1</subc> [<foreign xml:lang="syr">ܬܚܶܡ ܬܰܚܶܡ</foreign> <foreign xml:lang="ar">تَخَمَ</foreign> <cit type="translation" xml:lang="la">
+                            <quote> limitavit </quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                            <quote> terminum posuit </quote>
+                        </cit>; <foreign xml:lang="ar">تَخْمٌ</foreign> (etiam <foreign xml:lang="ar">طخم</foreign>) <cit type="translation" xml:lang="la">
+                            <quote> limes </quote>
+                        </cit>] <gramGrp> <pos expand="Subjunctivus">Subj.</pos> </gramGrp> <foreign xml:lang="gez">ይጥቅም፡</foreign>, <cit type="translation" xml:lang="la">
+                            <quote> muro cingere </quote>
+                        </cit> locum, <cit type="translation" xml:lang="la">
+                            <quote> muro circumdato limitare </quote>
+                        </cit> vel <cit type="translation" xml:lang="la">
+                            <quote> munire </quote>
+                        </cit>, <lbl expand="cum">c.</lbl> <gramGrp> <case value="accusativus">Acc.</case> </gramGrp> loci: <foreign xml:lang="gez">ከመ፡ ይሕንጽ፡ ውእተ፡ መካነ፡ ወይጥቅም፡ ዐጸደ፡</foreign> <ref cRef="Kuf." loc="117">Kuf. p. 117</ref>; Timotheus patriarcha Alex. XXII <foreign xml:lang="gez">ሐነጸ፡ አብያተ፡ ክርስቲያናት፡ ብዙኃተ፡ ወጠቀመ፡ ወሐደሰ፡ ብዙኃነ፡ እምኔሆሙ፡</foreign> <ref cRef="Sx. Haml." loc="26">Sx. Haml. 26</ref>; <lbl expand="cum">c.</lbl> <gramGrp> <case value="accusativus">Acc.</case> </gramGrp> muri: <foreign xml:lang="gez">እለ፡ ያፈቅሩ፡ ሕገ፡ ይጠቅሙ፡ ለርእሶሙ፡ ቅጽረ፡</foreign> <ref cRef="Prov." loc="28,4">Prov. 28,4</ref>. </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,89 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ተሀየየ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="AE" when="2017-06-15">Korrektur der Korrektur: DiL.1425 -&gt; DiL. Es sollte generell überlegt werden, ob diese Form des Aggiornamento von Dillmanns Griechisch nicht doch wieder entfernt werden sollte, das Greek Word Study Tool toleriert dieses iota subscriptum.</change>
+            <change who="AE" when="2017-06-15">{DiL \*grc*παρασιωπᾷν\*} hinzugefügt.</change>
+        </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="Lb6a4e61afd7140a5b7696f2a265cde13" n="86">
+               <form>
+                  <foreign xml:lang="gez">ተሀየየ</foreign>
+               </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain"> <subc>III,2</subc> <sense n="1" xml:id="D1"> <gramGrp> <pos expand="not found">refl.</pos> </gramGrp>: sibi rem vilem vel levem aestimare, i.e. <cit type="translation" xml:lang="la">
+                                <quote> vilipendere </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> parvi facere </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> negligere </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> praetermittere </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> non curare </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> derelinquere </quote>
+                            </cit>(<foreign xml:lang="grc">ἐξουθενεῖν</foreign>, <foreign xml:lang="grc">ἀμελεῖν</foreign>, <foreign xml:lang="grc">παρορᾶν</foreign> {DiL <foreign xml:lang="grc">παρορᾷν</foreign>}, <foreign xml:lang="grc">παρασιωπᾶν</foreign> {DiL <foreign xml:lang="grc">παρασιωπᾷν</foreign>}, <foreign xml:lang="grc">ἀπειπεῖν</foreign>, <foreign xml:lang="grc">ἐγκαταλείπειν</foreign>) <lbl expand="cum">c.</lbl> <gramGrp> <case value="accusativus">Acc.</case> </gramGrp> <lbl expand="persona">pers.</lbl> vel rei: <foreign xml:lang="gez">ኢትትሀየይ፡ ትእዛዘ፡ እምከ፡</foreign> <ref cRef="Prov." loc="1,7">Prov. 1,7</ref>; <ref cRef="Prov." loc="3,21">Prov. 3,21</ref>; <foreign xml:lang="gez">ተሀየዩ፡ ሥርዐቶ፡</foreign> <ref cRef="Clem." loc="213">Clem. f. 213</ref>; <foreign xml:lang="gez">ኢይትሄየዮ፡</foreign> (<foreign xml:lang="gez">ለትእዛዝ፡</foreign>) <ref cRef="Jsp." loc="300">Jsp. p. 300</ref>; <foreign xml:lang="gez">እሙንቱ፡ ተሀየዩ፡ ወኀለፉ፡</foreign> <foreign xml:lang="grc">ἀμελήσαντες ἀπῆλθον</foreign> <ref cRef="Matth." loc="22,5">Matth. 22,5</ref>; <foreign xml:lang="gez">አነ፡ ተሀየይክዎሙ፡</foreign> <ref cRef="Jer." loc="38,32">Jer. 38,32</ref>; <ref cRef="Jer." loc="4,17">Jer. 4,17</ref>; <foreign xml:lang="gez">ትትሄየይ፡ ኀጣይኣ፡ ሰብእ፡</foreign> <foreign xml:lang="grc">παρορᾷς ἁμαρτήματα</foreign> <ref cRef="Sap." loc="11,24">Sap. 11,24</ref>; <foreign xml:lang="gez">ተሀየይኩኪ፡</foreign> <foreign xml:lang="grc">παρορῶ σε</foreign> <ref cRef="Jes." loc="57,11">Jes. 57,11</ref>; <ref cRef="Ps. " loc="26,15">Ps.  26,15</ref>; <ref cRef="Ps." loc="54,1">Ps. 54,1</ref>; <ref cRef="Ps." loc="137,9">Ps. 137,9</ref>; <ref cRef="Hebr." loc="8,9">Hebr. 8,9</ref>; <ref cRef="Lev." loc="5,21">Lev. 5,21</ref>; <foreign xml:lang="grc">παρελεύσεταί με</foreign> <ref cRef="Jes." loc="33,22">Jes. 33,22</ref>; <foreign xml:lang="gez">ተሀየየኒ፡ ሣህሉ፡</foreign> <foreign xml:lang="grc">ἀπείπατό με ἔλεος</foreign> <ref cRef="Job" loc="6,14">Job 6,14</ref>; <ref cRef="Job " loc="10,3">Job  10,3</ref>; <foreign xml:lang="grc">ἐγκαταλιπεῖν</foreign> <ref cRef="Hebr." loc="13,5">Hebr. 13,5</ref>; <foreign xml:lang="gez">ለዕቡያን፡ ይትሄየዮሙ፡ እግዚአብሔር፡</foreign> <foreign xml:lang="grc">ἀντιτάσσεται</foreign> <ref cRef="Jac." loc="4,6">Jac. 4,6</ref>.</sense> <sense n="2" xml:id="D2"> <gramGrp> <pos expand="passivum">pass.</pos> </gramGrp>: <cit type="translation" xml:lang="la">
+                                <quote> negligi </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> derelinqui </quote>
+                            </cit>: <foreign xml:lang="gez">ብእሲ፡ ዐማፂ፡ ይትሄየይ፡</foreign> <foreign xml:lang="grc">παρασιωπηθήσεται</foreign> <ref cRef="Prov. " loc="12,2">Prov.  12,2</ref> (Cod. Bodl. Bruc.; <lbl expand="varia lectio">var.</lbl> <foreign xml:lang="gez">ይጌጊ፡</foreign>). – <cit type="translation" xml:lang="la">
+                                <quote> Voc. Ae. </quote>
+                            </cit>: <foreign xml:lang="gez">ተሀየየ፡ ዘ፡ ተደናቈረ፡</foreign> </sense> </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

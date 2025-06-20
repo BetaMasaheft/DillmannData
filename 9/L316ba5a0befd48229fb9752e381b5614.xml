@@ -1,0 +1,110 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ጸባኢት </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L316ba5a0befd48229fb9752e381b5614" n="9339">
+               <form>
+                  <foreign xml:lang="gez">ጸባኢት</foreign>
+               </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain">
+                  <gramGrp>
+                     <pos expand="Substantivum">subst.</pos>
+                  </gramGrp>, <gramGrp>
+                     <gen value="femininus">fem.</gen>
+                  </gramGrp> et <gramGrp>
+                     <gen value="masculinum">m.</gen>
+                  </gramGrp>, <sense n="1" xml:id="D1">
+                     <cit type="translation" xml:lang="la">
+                        <quote>exercitus</quote>
+                     </cit>, <cit type="translation" xml:lang="la">
+                        <quote>copiae armatorum</quote>
+                     </cit>, <cit type="translation" xml:lang="la">
+                        <quote>turma militum</quote>
+                     </cit>: <foreign xml:lang="gez">ከመ፡ ይትቃተሉ፡ ምስለ፡ ጸባኢት፡ ጽንዕት፡</foreign> (v.
+                        <foreign xml:lang="gez">ጽኑዕ፡</foreign>) <ref cRef="Judith" loc="5,23">Judith
+                        5,23</ref>; <foreign xml:lang="gez">ጠፍኡ፡ እምጸባኢተ፡ እግዚአብሔር፡ </foreign>
+                     <ref cRef="Judith" loc="16,12">Judith 16,12</ref>; <foreign xml:lang="gez">ትዕይንተ፡ ጸባኢት፡</foreign>
+                     <ref cRef="Jes." loc="22,6">Jes. 22,6</ref>; 1 <ref cRef="Reg." loc="17,10">Reg. 17,10</ref>; <ref cRef="Ps." loc="26,6">Ps. 26,6</ref>; <foreign xml:lang="gez">ሮዱኒ፡ ጸባኢት፡ ኀያል፡</foreign>
+                     <foreign xml:lang="grc">πόλεμος</foreign>
+                     <ref cRef="Job" loc="22,10">Job 22,10</ref>; <foreign xml:lang="gez">አንተ፡
+                        ዘትቀጠቅጥ፡ ጸባኢተ፡</foreign>
+                     <ref cRef="Judith" loc="9,7">Judith 9,7</ref>; <ref cRef="Ps." loc="75,3">Ps.
+                        75,3</ref>; <foreign xml:lang="grc">μονόζωνοι </foreign>
+                     <ref cRef="4 Reg." loc="24,2">4 Reg. 24,2</ref>.</sense>
+                  <sense n="2" xml:id="D2">
+                     <cit type="translation" xml:lang="la">
+                        <quote>bellum</quote>
+                     </cit>, <foreign xml:lang="grc">πόλεμος</foreign>, non tantum, ubi <cit type="translation" xml:lang="la">
+                        <quote>exercitus bellum gerentes</quote>
+                     </cit> facile substituere licet, ut: <foreign xml:lang="gez">ድምፀ፡
+                        ጸባኢት፡</foreign>
+                     <ref cRef="Ex." loc="32,17">Ex. 32,17</ref>; <ref cRef="Matth." loc="24,6">Matth. 24,6</ref>; <ref cRef="Marc." loc="13,7">Marc. 13,7</ref>; <foreign xml:lang="gez">ኢበጸባኢት፡</foreign>
+                     <ref cRef="Hos." loc="1,7">Hos. 1,7</ref>; <foreign xml:lang="gez">እመ፡ መጽኦሙ፡
+                        ጸባኢት፡</foreign>
+                     <ref cRef="Ep. Jer." loc="48,">Ep. Jer. 48,</ref> sed etiam aliâs, ut: <foreign xml:lang="gez">እለ፡ በጽሑ፡ እምጸባኢት፡</foreign>
+                     <ref cRef="2 Par." loc="28,12">2 Par. 28,12</ref>; <foreign xml:lang="gez">ወነሥአ፡ </foreign> (pro <foreign xml:lang="gez">አንሥአ፡</foreign>) <foreign xml:lang="gez">ጸባኢተ፡</foreign>
+                     <foreign xml:lang="grc">ἐγεῖραι πόλεμον</foreign>
+                     <ref cRef="1 Esr." loc="1,23">1 Esr. 1,23</ref>
+                     <cb n="1283" xml:id="c1283"/> – <lbl expand="Vocabularium Aethiopicum, -a -a.">Voc. Ae.</lbl>: <foreign xml:lang="gez">ጸባኢት፡ ዘ፡ አርበኞች።</foreign>
+                  </sense>
+               </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

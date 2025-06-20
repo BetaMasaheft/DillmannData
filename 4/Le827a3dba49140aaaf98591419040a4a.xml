@@ -1,0 +1,99 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ነጐድጓድ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="Le827a3dba49140aaaf98591419040a4a" n="8702">
+               <form>
+                  <foreign xml:lang="gez">ነጐድጓድ</foreign>
+               </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain">
+                  <gramGrp>
+                     <pos expand="nomen actionis">n. act.</pos>
+                  </gramGrp> et <gramGrp>
+                     <pos expand="Substantivum">subst.</pos>
+                  </gramGrp>, (<gramGrp>
+                     <gen value="masculinum">m.</gen>
+                  </gramGrp>), <lbl expand="pluralis">Pl.</lbl>
+                  <foreign xml:lang="gez">ነጐድጓዳት፡ </foreign>
+                  <sense n="1" xml:id="D1">
+                     <cit type="translation" xml:lang="la">
+                        <quote>pultatio</quote>
+                     </cit>: (tamquam Infin. Verbi <lbl expand="construitur cum">c.c.</lbl>
+                     <gramGrp>
+                        <case value="accusativus">Acc.</case>
+                     </gramGrp>): <foreign xml:lang="gez">አመ፡ ነጐድጔድ፡</foreign> (sic pro <foreign xml:lang="gez">ነጐድጓድ፡</foreign> si non <foreign xml:lang="gez">ነጐድጒድ፡</foreign>) <foreign xml:lang="gez">ኆኅተ፡ </foreign>
+                     <ref cRef="Chrys. Ta." loc="28.">Chrys. Ta. 28.</ref>
+                  </sense>
+                  <sense n="2" xml:id="D2">
+                     <cit type="translation" xml:lang="la">
+                        <quote>tonitru</quote>
+                     </cit>: <ref cRef="Ps." loc="76,17">Ps. 76,17</ref>; <ref cRef="Ps." loc="103,8">Ps. 103,8</ref>; <ref cRef="Job" loc="40,4">Job 40,4</ref>; <ref cRef="Sir." loc="35,10">Sir. 35,10</ref>; <ref cRef="Am." loc="4,13">Am.
+                        4,13</ref>; <ref cRef="Kuf." loc="2">Kuf. 2</ref>; <ref cRef="Hen. " loc="17,3">Hen. 17,3</ref>; <ref cRef="Hen." loc="41,3">Hen. 41,3</ref>;
+                        <ref cRef="Hen." loc="59,2">Hen. 59,2</ref>; <ref cRef="Hen." loc="60,14">Hen. 60,14</ref>
+                     <lbl expand="sequens">seq.</lbl>; <ref cRef="Apoc." loc="4,5">Apoc. 4,5</ref>;
+                        <ref cRef="Apoc." loc="6,1">Apoc. 6,1</ref>; <ref cRef="Apoc." loc="10,3">Apoc. 10,3</ref>; <ref cRef="Apoc. " loc="10,4">Apoc. 10,4</ref>; <foreign xml:lang="gez">ደቂቀ፡ ነጐድጓድ፡</foreign>
+                     <ref cRef="Marc." loc="3,17">Marc. 3,17</ref>; Joannes <foreign xml:lang="gez">ወልደ፡ ነጐድጓድ፡</foreign> Cod. Mus. Brit. LIV, <ref cRef="Nr." loc="7">Nr.
+                        7</ref>; <foreign xml:lang="gez">ነጐድጓዳት፡</foreign>
+                     <ref cRef="Kuf." loc="6.">Kuf. p. 6.</ref>
+                  </sense>
+               </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

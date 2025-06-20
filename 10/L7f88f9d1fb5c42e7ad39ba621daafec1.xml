@@ -1,0 +1,85 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ዘ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="AE" when="2018-03-09">Verschachtelungen,</change>
+            <change who="AE" when="2018-03-09">und nochmal,</change>
+        <change who="AE" when="2018-10-03">Verschachtelung,</change>
+        <change who="MK" when="2022-08-29">added cross refernce </change></revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L7f88f9d1fb5c42e7ad39ba621daafec1" n="7442">
+               <form>
+                  <foreign xml:lang="gez">ዘ</foreign>
+               </form>
+               <sense xml:id="Dmain" xml:lang="la" source="#dillmann"> nota Genitivi (<bibl><ptr target="bm:Dillmann1857Gramm"/>gramm.</bibl> § 145; § 186). <sense n="1" xml:id="D1"> Sicut <gramGrp> <pos expand="pronomen">pron.</pos> <pos expand="relativum">rel.</pos> </gramGrp> <foreign xml:lang="gez">ዘ፡</foreign>, ita notam Genitivi <foreign xml:lang="gez">ዘ፡</foreign> secundum genera et numeros eorum a quibus pendet nominum variare licet, <lbl expand="scilicet">sc.</lbl> <lbl expand="Singularis">Sing.</lbl> <gramGrp> <gen value="not found">m.</gen> </gramGrp> <foreign xml:lang="gez">ዘ፡</foreign>, <gramGrp> <gen value="femininus">fem.</gen> </gramGrp> <foreign xml:lang="gez">እንተ፡</foreign>, <lbl expand="pluralis">Pl.</lbl> <lbl expand="cum">c.</lbl> <foreign xml:lang="gez">እለ፡</foreign>, ut: <foreign xml:lang="gez">ዕፀ፡ በለን፡ እንተ፡ ላሕ፡</foreign> <ref cRef="Gen." loc="35,8">Gen. 35,8</ref>; <ref cRef="Gen." loc="2,4">Gen. 2,4</ref>; <foreign xml:lang="gez">መኃትው፡ እለ፡ ወርቅ፡</foreign> <ref cRef="Apoc." loc="1,20">Apoc. 1,20</ref>; <ref cRef="Jac." loc="5,14">Jac. 5,14</ref>; at plerumque <foreign xml:lang="gez">ዘ፡</foreign> post nomina utriusque generis et numeri usurpatur.
+</sense> <sense n="2" xml:id="D2"> Ejus usus potissimus hic est: <sense n="a" xml:id="D2a"> ubi nomen regens statum constructum non admittit, ut: <foreign xml:lang="gez">ማርያ፡ እንተ፡ ያዕቆብ፡</foreign> Maria Jacobi <ref cRef="Matth." loc="27,56">Matth. 27,56</ref>; <ref cRef="Matth." loc="2,5">Matth. 2,5</ref>; <foreign xml:lang="gez">ዘመኑ፡ አንተ፡</foreign> cujus es tu? <ref cRef="1 Reg." loc="30,13">1 Reg. 30,13</ref>; vel duos Genitivos sibi subjunctos habet (quorum alter statu constr., alter nota <foreign xml:lang="gez">ዘ፡</foreign> significatur), ut: <foreign xml:lang="gez">ብእሲትከ፡ እንተ፡ ንእስከ፡</foreign> uxor <cb n="1032" xml:id="c1032"/> tua juventutis tuae <ref cRef="Mal." loc="2,14">Mal. 2,14</ref>; <foreign xml:lang="gez">አዋልዲኪ፡ እለ፡ ሐቅል፡</foreign> <ref cRef="Hez." loc="26,8">Hez. 26,8</ref>; <ref cRef="Gen." loc="30,14">Gen. 30,14</ref>; <ref cRef="Gen." loc="38,14">Gen. 38,14</ref>; <ref cRef="Gen." loc="44,2">Gen. 44,2</ref>; <ref cRef="Gen." loc="45,13">Gen. 45,13</ref>; <ref cRef="Jud." loc="6,25">Jud. 6,25</ref>; <ref cRef="Matth." loc="26,28">Matth. 26,28</ref>; <foreign xml:lang="gez">ኦዘክርስቶስ፡ አፍቅሮተ፡ ሰብእ፡</foreign> Deg.; vel Genitivus alia voce interjecta a suo nomine sejunctus est, ut: <foreign xml:lang="gez">በዕለት፡ ዐባይ፡ እንተ፡ ኵነኔ፡</foreign> <ref cRef="Hen. " loc="10,6">Hen.  10,6</ref>; <ref cRef="Hen." loc="72,2">Hen. 72,2</ref>; vel ad nomen statui constr. subjunctum aliud additur, ut: <foreign xml:lang="gez">መራኁተ፡ ሞት፡ ወዘሲኦል፡</foreign> <ref cRef="Apoc." loc="1,18">Apoc. 1,18</ref>; <ref cRef="Apoc." loc="17,5">Apoc. 17,5</ref>; <foreign xml:lang="gez">አብያቲከ፡ ወዘዐበይትከ፡</foreign> <ref cRef="Ex." loc="10,6">Ex. 10,6</ref>; <ref cRef="Jes." loc="65,7">Jes. 65,7</ref>; <ref cRef="Tob. " loc="3,5">Tob.  3,5</ref>; <ref cRef="Jud." loc="15,5">Jud. 15,5</ref>; <ref cRef="Gen." loc="30,37">Gen. 30,37</ref>; <ref cRef="Hen." loc="41,5">Hen. 41,5</ref>.
+</sense> <sense n="b" xml:id="D2b"> ubi nomen cui Genitivus subjunctus est vel reticere vel non repetere libet: <foreign xml:lang="gez">ይከውኑ፡ ኵሎሙ፡ ዘአምላክ፡</foreign> omnes erunt <ref cRef="Dei Hen. " loc="1,8">Dei Hen.  1,8</ref>; <ref cRef="Ps." loc="61,11">Ps. 61,11</ref>; <ref cRef="Gen." loc="50,19">Gen. 50,19</ref>; <ref cRef="Marc." loc="9,41">Marc. 9,41</ref>; <ref cRef="1 Cor." loc="3,23">1 Cor. 3,23</ref>; <foreign xml:lang="gez">ላህም፡ ለእመ፡ ወግዐ፡ ዘካልኡ፡</foreign> (i.e. bovem <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> alius </t:quote></cit>) <ref cRef="Ex." loc="21,35">Ex. 21,35</ref>; <foreign xml:lang="gez">ቃል፡ ቃለ፡ ያዕቆብ፡ ወእደው፡ እለ፡ ዔሳው፡</foreign> <ref cRef="Kuf." loc="26">Kuf. 26</ref>; <ref cRef="Gen. " loc="44,30">Gen.  44,30</ref>; <ref cRef="Gen." loc="48,22">Gen. 48,22</ref>; <ref cRef="Matth." loc="28,3">Matth. 28,3</ref>.
+</sense> 
+</sense> <sense n="3" xml:id="D3"> Praeterea de significatione voculae <foreign xml:lang="gez">ዘ፡</foreign> notanda sunt haec: <sense n="a" xml:id="D3a"> Usurpatur de materia, e qua quid factum est <sense n="α" xml:id="D3aα"> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> ex </t:quote></cit>: <foreign xml:lang="gez">ምሕራማቲኪ፡ ገብሩ፡ ዘቀርነ፡ ነጌ፡</foreign> <foreign xml:lang="grc">ἐξ</foreign> <ref cRef="Hez." loc="27,6">Hez. 27,6</ref>; <foreign xml:lang="gez">ግበር፡ ለከ፡ ታቦተ፡ እንተ፡ ዕፅ፡</foreign> <foreign xml:lang="grc">ἐκ ξύλων</foreign> <ref cRef="Gen. " loc="6,14">Gen.  6,14</ref>; <ref cRef="Ex." loc="25,13">Ex. 25,13</ref> annot.; <ref cRef="Gen." loc="27,3">Gen. 27,3</ref>.
+</sense> <sense n="β" xml:id="D3aβ"> substantivis materiae praepositum adjectiva materiae efficit: <foreign xml:lang="gez">ጽላት፡ እለ፡ እብን፡</foreign> <ref cRef="Ex." loc="34,4">Ex. 34,4</ref>; <foreign xml:lang="gez">ዘዕፅ፡</foreign> <ref cRef="Jer." loc="35,13">Jer. 35,13</ref>; <foreign xml:lang="gez">ዘብሩር፡</foreign> <ref cRef="Num." loc="7,13">Num. 7,13</ref>; <foreign xml:lang="gez">ዘጸጕረ፡ ገመል፡</foreign> <ref cRef="Marc." loc="1,6">Marc. 1,6</ref>; al.
+</sense> 
+</sense> <sense n="b" xml:id="D3b"> Crebro (sicut <foreign xml:lang="ar">ذو</foreign>) simul vim pronominis demonstrativi in se continet: <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> is qui est </t:quote></cit> alicujus i.e. <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> pertinens ad </t:quote></cit> aliquem vel aliquid, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> praeditus </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> possidens </t:quote></cit>. <sense n="α" xml:id="D3bα"> <foreign xml:lang="gez">ለክሙ፡ ለእለ፡ ብሔረ፡ ሮሜ፡</foreign> <ref cRef="Rom." loc="1,15">Rom. 1,15</ref>; <foreign xml:lang="gez">በእንተ፡ እለ፡ ጌዴዎን፡</foreign> <ref cRef="Hebr." loc="11,32">Hebr. 11,32</ref>; <foreign xml:lang="gez">እምነ፡ እለ፡ ሳኦል፡</foreign> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> ex hominibus </t:quote></cit> i.e. <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> servis Sauli </t:quote></cit> <ref cRef="1 Reg." loc="21,7">1 Reg. 21,7</ref>; <foreign xml:lang="gez">እለ፡ ኢዩ፡</foreign> <ref cRef="4 Reg." loc="9,17">4 Reg. 9,17</ref>; <ref cRef="Ex." loc="38,22">Ex. 38,22</ref>; <foreign xml:lang="gez">ኵሎሙ፡ እለ፡ ቤቱ፡</foreign> <ref cRef="Kuf." loc="16">Kuf. 16</ref>; <foreign xml:lang="gez">ምስለ፡ እለ፡ አዛርያ፡</foreign> Dan. apocr. 3,25; <foreign xml:lang="gez">ዕደው፡ እለ፡ ዳታን፡ ወአቤሮን፡</foreign> <ref cRef="Sir. " loc="45,18">Sir.  45,18</ref>; <foreign xml:lang="gez">አኮ፡ ክመ፡ ዘበለስ፡ ዘትገብሩ፡</foreign> <foreign xml:lang="grc">τὸ τῆς συκῆς</foreign> <ref cRef="Matth." loc="21,21">Matth. 21,21</ref>; <ref cRef="Matth." loc="16,23">Matth. 16,23</ref>; <ref cRef="Matth. " loc="22,21">Matth.  22,21</ref>.
+</sense> <sense n="β" xml:id="D3bβ"> <foreign xml:lang="gez">ዘለምጽ፡</foreign> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> lepra praeditus </t:quote></cit> vel <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> affectus </t:quote></cit> i.e. leprosus <ref cRef="Matth." loc="8,2">Matth. 8,2</ref>; <ref cRef="Matth." loc="10,8">Matth. 10,8</ref>; <foreign xml:lang="gez">ዘጋኔን፡</foreign> <ref cRef="Matth." loc="4,24">Matth. 4,24</ref>; <ref cRef="Matth." loc="9,32">Matth. 9,32</ref>; <foreign xml:lang="gez">ዘሢበት፡</foreign> <ref cRef="Lev." loc="19,32">Lev. 19,32</ref>; <foreign xml:lang="gez">ዘሕብር፡</foreign> <ref cRef="Gen." loc="31,8">Gen. 31,8</ref>; <foreign xml:lang="gez">ዘጽድቅ፡</foreign> <ref cRef="Lev." loc="19,36">Lev. 19,36</ref>; <foreign xml:lang="gez">እለ፡ ዐመፃ፡</foreign> <ref cRef="Hen." loc="95,7">Hen. 95,7</ref>; <foreign xml:lang="gez">ዘሥጋ፡</foreign> <ref cRef="Gen." loc="6,17">Gen. 6,17</ref>; <ref cRef="Gen." loc="7,15">Gen. 7,15</ref>; <foreign xml:lang="gez">ዘነፍስ፡</foreign> <ref cRef="Jes." loc="40,5">Jes. 40,5</ref>; <ref cRef="Jes." loc="49,26">Jes. 49,26</ref>; <foreign xml:lang="gez">ዘመንፈስ፡</foreign> <ref cRef="Jos." loc="10,28">Jos. 10,28</ref>; <ref cRef="Jos." loc="10,30">Jos. 10,30</ref>; <ref cRef="Gen." loc="7,22">Gen. 7,22</ref>; al.
+</sense> 
+</sense> 
+</sense> <sense n="4" xml:id="D4"> Nota Genitivi <foreign xml:lang="gez">ዘ፡</foreign> ubi duplicatur, <lbl expand="scilicet">sc.</lbl> <foreign xml:lang="gez">ዘዘ፡</foreign>, vim distributivam nanciscitur, ut <ref cRef="Gen." loc="24,22">Gen. 24,22</ref>; plura exempla <lbl expand="videas">vid. sub</lbl> <foreign xml:lang="gez">ዚአሁ፡</foreign> 
+</sense> </sense>
+               
+            <sense xml:id="Tmain" xml:lang="en" source="#traces"><cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">za</t:quote></cit> <sense n="C">for the usage of <foreign xml:lang="gez">ዘ</foreign> in front of the names of feasts <lbl expand="videas">vid.</lbl> <foreign xml:lang="gez">ሆሳዕና፡</foreign> (Grébaut) 
+</sense> </sense></entry>
+         </div>
+      </body>
+   </text>
+</TEI>

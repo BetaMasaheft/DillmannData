@@ -1,0 +1,138 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ማኅተም </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L332dda2e686c47639e388135cb156358" n="4587">
+               <form>
+                  <foreign xml:lang="gez">ማኅተም</foreign>
+               </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain">
+                  <gramGrp>
+                     <pos expand="Substantivum">subst.</pos>
+                  </gramGrp>, plerumque <gramGrp>
+                     <gen value="masculinum">m.</gen>
+                  </gramGrp>, <lbl expand="pluralis">Pl.</lbl>
+                  <foreign xml:lang="gez">መኃትምት፡ </foreign> (<foreign xml:lang="gez">መኃትም፡</foreign>) et <foreign xml:lang="gez">ማኅተማት፡</foreign>
+                  <sense n="1" xml:id="D1">
+                     <cit type="translation" xml:lang="la">
+                        <quote>claustrum</quote>
+                     </cit>: <foreign xml:lang="gez">እንዘ፡ ኢያርኁ፡ ማኅተመ፡ ድንግልና፡</foreign> Lit.;
+                        <foreign xml:lang="gez">ይወድዮሙ፡</foreign> (<foreign xml:lang="gez">ለኃጥኣን፡</foreign>) <foreign xml:lang="gez">ውስተ፡ ማኅተመ፡ ረሲዓን፡</foreign> (i.e.
+                     in infernum) Ssal. Req.</sense>
+                  <sense n="2" xml:id="D2">
+                     <cit type="translation" xml:lang="la">
+                        <quote>sigillum</quote>
+                     </cit> et (is, quo imprimitur sigillum) <cit type="translation" xml:lang="la">
+                        <quote>annulus signatorius</quote>
+                     </cit>, <ref cRef="Apoc. " loc="5,1">Apoc. 5,1</ref>; <ref cRef="Apoc." loc="5,2">Apoc. 5,2</ref>; <ref cRef="Apoc." loc="6,">Apoc. 6,</ref>l <lbl expand="sequens">seq.</lbl>; <foreign xml:lang="gez">ዘኀተምኪ፡ በ፯መኃትምት፡
+                     </foreign> Rel. Bar.; <foreign xml:lang="gez">መሣንቅ፡ በማኅተሞን፡</foreign>
+                     <ref cRef="Tob." loc="9,5">Tob. 9,5</ref>; Dan. apocr. 13,14; <foreign xml:lang="gez">ዳኅንኑ፡ ማኅተም፡</foreign>
+                     <ref cRef="Dan. apocr." loc="13,17">Dan. apocr. 13,17</ref>; <foreign xml:lang="gez">ማኅተመ፡ ጽድቅ፡</foreign>
+                     <ref cRef="4 Esr." loc="6,78">4 Esr. 6,78</ref>; <foreign xml:lang="gez">መኑ፡
+                        ይሠይም፡ ማኅተመ፡ ጥበብ፡ ዲበ፡ ከናፍርየ፡</foreign>
+                     <ref cRef="Sir." loc="22,27">Sir. 22,27</ref>; <foreign xml:lang="grc">δακτύλιος</foreign>
+                     <ref cRef="Esth." loc="8,8">Esth. 8,8</ref>; <ref cRef="Esth." loc="8,10">Esth.
+                        8,10</ref>; <ref cRef="Tob." loc="1,22">Tob. 1,22</ref>; <foreign xml:lang="gez">ምጽዋቱ፡ ለሰብእ፡ ከመ፡ ማኅተም፡ ምስሌሁ፡</foreign>
+                     <foreign xml:lang="grc">σφραγίς</foreign>
+                     <ref cRef="Sir." loc="17,22">Sir. 17,22</ref>; <ref cRef="Ex." loc="35,22">Ex.
+                        35,22</ref>; <foreign xml:lang="grc">γλύμμα </foreign> vel <foreign xml:lang="grc">ἐκτύπωμα σφραγῖδος</foreign>
+                     <foreign xml:lang="gez">ዐይነ፡ ማኅተም፡</foreign>
+                     <ref cRef="Ex." loc="28,11">Ex. 28,11</ref>; <ref cRef="Sir." loc="38,27">Sir.
+                        38,27</ref>; <ref cRef="Sir." loc="45,12">Sir. 45,12</ref>; <foreign xml:lang="gez">አርአያ፡ ማኅተም፡</foreign>
+                     <ref cRef="Ex." loc="28,32">Ex. 28,32</ref>; <foreign xml:lang="grc">γλύφειν
+                        γλύμματα σφραγίδων</foreign>
+                     <foreign xml:lang="gez">ኀሪወ፡ ማኅተም፡</foreign>
+                     <ref cRef="Sir." loc="38,27">Sir. 38,27</ref>. <sense n="a" xml:id="D2a">
+                        <cit type="translation" xml:lang="la">
+                           <quote>imago impressa</quote>
+                        </cit>: <foreign xml:lang="gez">መብርሄያት፡ ወማኅተማት፡</foreign>
+                        <ref cRef="Ex. " loc="28,26">Ex. 28,26</ref> C (<foreign xml:lang="he">אוּרִים</foreign>
+                        <foreign xml:lang="he">וְתֻמִּים</foreign>)</sense>
+                     <sense n="b" xml:id="D2b">
+                        <cit type="translation" xml:lang="la">
+                           <quote>character</quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                           <quote>signum</quote>
+                        </cit>, <foreign xml:lang="grc">χάραγμα</foreign>
+                        <ref cRef="Apoc. " loc="19,20">Apoc. 19,20</ref> (aliâs <foreign xml:lang="gez">ትእምርት፡</foreign>); <ref cRef="Org." loc="1.">Org. 1.</ref>
+                     </sense>
+                     <sense n="c" xml:id="D2c">
+                        <cit type="translation" xml:lang="la">
+                           <quote>signaculum</quote>
+                        </cit> (<foreign xml:lang="grc">σφραγίς</foreign>) i.e. chrisma inunctum,
+                        quo confirmantur baptizati: <foreign xml:lang="gez">ማኅተመ፡ እግዚአብሔር፡ ዘውእቱ፡
+                           ቅብአ፡ ሜሮን፡ ቅዱስ፡</foreign> F.M. 28,1; et quodvis aliud <cit type="translation" xml:lang="la">
+                           <quote>signaculum</quote>
+                        </cit>, quo aliquis obsignatus est, ut: <foreign xml:lang="gez">ኢያፍርሁኒ፡
+                           ቀታልያኒሃ፡ ለነፍስ፤ እስመ፡ ማኅተምየ፡ ደምከ፡ ቅዱስ፤</foreign>
+                        <ref cRef="Sx. Mag." loc="27 ">Sx. Mag. 27 </ref> Enc.</sense>
+                     <sense n="3" xml:id="D23">
+                        <cit type="translation" xml:lang="la">
+                           <quote>opus typis expressum</quote>
+                        </cit>, ut: <foreign xml:lang="gez">ንሕነ፡ ገበርነ፡ ዘንተ፡ ማኅተመ፡ ወኀተምነ፡
+                           መጻሕፍተ፡</foreign>
+                        <lbl expand="Novum Testamentum">N.T.</lbl>
+                        <lbl expand="romanae editionis">rom.</lbl> f. 76; <lbl expand="Novum Testamentum">N.T.</lbl>
+                        <lbl expand="romanae editionis">rom.</lbl> f. 157.</sense>
+                  </sense>
+               </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

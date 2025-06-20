@@ -1,0 +1,81 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ጠፍላሕት </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="LB" when="2018-05-08">root</change>
+        </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="Lb89de1da97f843d2b8fc9b709c242218" n="9057">
+               <form>
+                  <foreign xml:lang="gez">ጠፍላሕት</foreign>
+               <rs type="root"/>
+                    </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain"> <gramGrp> <pos expand="Substantivum">subst.</pos> </gramGrp>, <gramGrp> <gen value="femininus">fem.</gen> </gramGrp> et <gramGrp> <gen value="not found">m.</gen> </gramGrp>, <lbl expand="pluralis">Pl.</lbl> <foreign xml:lang="gez">ጠፋልሕ፡</foreign>, rarius <foreign xml:lang="gez">ጠፋልሕት፡</foreign>, <lbl expand="pluralis">Pl.</lbl> <lbl expand="pluralis">Pl.</lbl> <foreign xml:lang="gez">ጠፋልሓት፡</foreign> [ut videtur, frustum metalli, a <foreign xml:lang="he">פלג פלח</foreign> (an <cit type="translation" xml:lang="la">
+                            <quote> rotundum? </quote>
+                        </cit> a <foreign xml:lang="he">פלךְ</foreign> <foreign xml:lang="ar">فلك</foreign>) si quidem <foreign xml:lang="gez">ጠ</foreign> et <foreign xml:lang="gez">ተ</foreign> defrormatum est] <cit type="translation" xml:lang="la">
+                            <quote> numus </quote>
+                        </cit> argenteus, in specie <cit type="translation" xml:lang="la">
+                            <quote> drachma </quote>
+                        </cit> et <cit type="translation" xml:lang="la">
+                            <quote> didrachmum </quote>
+                        </cit>: <foreign xml:lang="gez">ወሀብክዎ፡ ፲ወ፯ ጠፋልሐ፡ ሰቅለ፡</foreign> (v. <foreign xml:lang="gez">ሰቅል፡</foreign>) <foreign xml:lang="gez">ዘብሩር፡</foreign> <ref cRef="Jer." loc="39,9">Jer. 39,9</ref>; <foreign xml:lang="gez">በ፲ ወ፭ ጠፋልሐ፡ ብሩር፡</foreign> <ref cRef="Hos." loc="3,2">Hos. 3,2</ref>; <ref cRef="Gen. " loc="20,14">Gen.  20,14</ref>; <ref cRef="Gen." loc="20,16">Gen. 20,16</ref>; <ref cRef="Gen." loc="23,15">Gen. 23,15</ref>; <ref cRef="Gen." loc="23,16">Gen. 23,16</ref>; <ref cRef="Jos." loc="17,21">Jos. 17,21</ref>; <foreign xml:lang="gez">አሐቲ፡ ጠፍላሕት፡</foreign> et <foreign xml:lang="gez">ዐሥሩ፡ ጠፋልሕተ፡ አግሙስ፡</foreign> <ref cRef="Luc." loc="15,8">Luc. 15,8</ref> <lbl expand="romanae editionis">rom.</lbl>; <foreign xml:lang="gez">ዲናራት፡ ወጠፋልሐ፡ ብሩር፡</foreign> F.N. 26; <foreign xml:lang="gez">ጠፋልሓት፡</foreign> F.N. 36. – <lbl expand="Vocabularium Aethiopicum, -a -a">Voc. Ae.</lbl>: <cb n="1249" xml:id="c1249"/> <foreign xml:lang="gez">ጠፋልሕ፡ ዘ፡ ጥብቅ፡</foreign> <lbl expand="vel">v.</lbl> <foreign xml:lang="gez">ጥብብቅ፡</foreign>; <cit type="translation" xml:lang="la">
+                            <quote> aliud </quote>
+                        </cit>: <foreign xml:lang="gez">ሰቅል፡ ወገመስ፡ ወዲድርክም፡ ወጠፋልሕ፡ ዘ፡ በበ፡ ፪ ድሪም።</foreign> </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

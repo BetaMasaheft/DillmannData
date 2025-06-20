@@ -1,0 +1,125 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng"
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="gez">አደግሲኒ</title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref></p>
+            <p><ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref></p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+         <listPrefixDef>
+            <prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="MK" when="2022-03-03">added new entry</change>
+         <change who="MK" when="2022-03-09">added witness</change>
+         <change who="MK" when="2022-03-10">added example </change>
+         <change who="MK" when="2022-04-20">added examples</change>
+         <change who="MK" when="2022-04-29">added examples</change>
+         <change who="MK" when="2022-05-18">added cross reference </change>
+         <change who="MK" when="2022-05-18">correction</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="Lc882801600d04105abbda7b932d3db96" n="12766">
+               <form><foreign xml:lang="gez">አደግሽኝ</foreign></form>
+               <sense xml:id="Tmain" xml:lang="en" source="#traces">
+                  <cit type="transcription" xml:lang="gez">
+                     <quote>ʾadagšǝñ</quote>
+                  </cit>, <foreign xml:lang="gez">አደግሲኒ</foreign>
+                  <cit type="transcription" xml:lang="gez">
+                     <quote>ʾadagsini</quote>
+                  </cit>, <foreign xml:lang="gez">አደግሽን፡</foreign>
+                  <cit type="transcription" xml:lang="gez">
+                     <quote>ʾadagšǝn</quote>
+                  </cit>, <foreign xml:lang="gez">አደግሽኝ፡</foreign>
+                  <cit type="transcription" xml:lang="gez">
+                     <quote>ʾadagšǝñ</quote>
+                  </cit>, <foreign xml:lang="gez">አደግሺኝ፡</foreign>
+                  <cit type="transcription" xml:lang="gez">
+                     <quote>ʾadagšiñ</quote>
+                  </cit>, <foreign xml:lang="gez">አደግሺኚ፡</foreign>
+                  <cit type="transcription" xml:lang="gez">
+                     <quote>ʾadagšiñi</quote>
+                  </cit>
+                  <gramGrp><pos expand="Substantivum">subst.</pos></gramGrp> meaning unknown
+                     <foreign xml:lang="gez">እዳ፡ አጐጓ፡ ዘይቤ፡ አደግሺኝ፡ በኃይላይ።</foreign> ‘<cit type="translation" xml:lang="fr">
+                     <quote>Eddā Aguaguā, c’est-à-dire l’Adagešiñ Baḫāylāy</quote>
+                  </cit>’ <bibl><ptr target="bm:ContiRossini1909LiberT"/><citedRange unit="page"> 14
+                        l. 21–22 (ed.)</citedRange></bibl>, <bibl><ptr target="bm:ContiRossini1910LiberV"/><citedRange unit="page"> 15 l. 17–18
+                        (tr.)</citedRange></bibl>; <foreign xml:lang="gez">ወአደግሲኒ፡ አፍኒን፡</foreign>
+                     ‘<cit type="translation" xml:lang="fr">
+                     <quote>l’adagsini, Afnin </quote>
+                  </cit>’ <bibl><ptr target="bm:ContiRossini1909LiberT"/><citedRange unit="page"> 37
+                        l. 14 (ed.)</citedRange></bibl>, <bibl><ptr target="bm:ContiRossini1910LiberV"/><citedRange unit="page"> 44 l. 2–3
+                        (tr.)</citedRange></bibl>; <bibl><ptr target="bm:ContiRossini1909LiberT"/><citedRange unit="page"> 38 l. 14 (ed.)</citedRange></bibl>, <bibl><ptr target="bm:ContiRossini1910LiberV"/><citedRange unit="page"> 45 l. 9
+                        (tr.)</citedRange></bibl>; <foreign xml:lang="gez">ወማእከለ፡ ባሕር፡
+                     ወአደግሲኒሁ፡</foreign> ‘<cit type="translation" xml:lang="fr">
+                     <quote>au māʾekala bāḥr et à son adagsini</quote>
+                  </cit>’ <bibl><ptr target="bm:ContiRossini1909LiberT"/><citedRange unit="page"> 40
+                        l. 14 (ed.)</citedRange></bibl>, <bibl><ptr target="bm:ContiRossini1910LiberV"/><citedRange unit="page"> 47 l. 27
+                        (tr.)</citedRange></bibl>; <foreign xml:lang="gez">በአደግሺኚ፡ በክፋዕ፡ በዕዉራይ፡
+                     በአንፊ፡ አተር፡ የተሠሩ፡ ደ[ብተራ]፡ ወልደ፡ ጊዮርጊስ፡ ደ[ብተራ]፡ ሣህሉ</foreign> ‘<cit type="translation" xml:lang="fr">
+                     <quote>Dans Addagešeñi, dans Kefāʿ, dans ʿEwurāy, dans Anfi Atar, ont été
+                        nomes: le dabtarā Walda Giyorgis, le Dabtarā Sāhlu</quote>
+                  </cit>’ <bibl><ptr target="bm:ContiRossini1909LiberT"/><citedRange unit="page"> 64
+                        l. 23–25 (ed.)</citedRange></bibl>, <bibl><ptr target="bm:ContiRossini1910LiberV"/><citedRange unit="page"> 73 l. 36–37
+                        (tr.)</citedRange></bibl>; <foreign xml:lang="gez">አደግሽን፡ ተክሎም፡
+                     ዘአድግዳድ፡</foreign> ‘<cit type="translation" xml:lang="fr">
+                     <quote>l’adagešen Taklom, de Ad-Gedād</quote>
+                  </cit>’ <bibl><ptr target="bm:ContiRossini1909LiberT"/><citedRange unit="page"> 75
+                        l. 16–17 (ed.)</citedRange></bibl>, <bibl><ptr target="bm:ContiRossini1910LiberV"/><citedRange unit="page"> 90 l. 28
+                        (tr.)</citedRange></bibl>; <foreign xml:lang="gez">ወአደግሽኝ፡ ጊዮርጊስ፡
+                     ዘጽምብላ፡</foreign> ‘<cit type="translation" xml:lang="fr">
+                     <quote>et l’adagešeñ Giyorgis, de Ṣembelā</quote>
+                  </cit>’ <bibl><ptr target="bm:ContiRossini1909LiberT"/><citedRange unit="page"> 75
+                        l. 19–20 (ed.)</citedRange></bibl>, <bibl><ptr target="bm:ContiRossini1910LiberV"/><citedRange unit="page"> 90 l. 31
+                        (tr.)</citedRange></bibl>
+                  <sense n="C" xml:id="TC"><lbl expand="videas">vid.</lbl> also <foreign xml:lang="gez">አደግሽነት፡</foreign></sense>
+                  <nd/>
+               </sense>
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

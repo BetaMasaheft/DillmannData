@@ -1,0 +1,92 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> አብቀወ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="AE" when="2018-08-21">Verschachtelung,</change>
+        </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L2bbe8fc09e804ed1aaf18383a839cfbb" n="3965">
+               <form>
+                  <foreign xml:lang="gez">አብቀወ</foreign>
+               </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain"> <subc>II,1</subc> <cit type="translation" xml:lang="la">
+                            <quote> dirumpere </quote>
+                        </cit> i.e. <sense n="1" xml:id="D1"> <cit type="translation" xml:lang="la">
+                                <quote> distendere </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> aperire os </quote>
+                            </cit> (fauces), <cit type="translation" xml:lang="la">
+                                <quote> hiare </quote>
+                            </cit>, <lbl expand="sequens">seq.</lbl> vel omisso <foreign xml:lang="gez">አፈ፡</foreign>; <sense n="a" xml:id="D1a"> devorandi causa: <foreign xml:lang="gez">አብቁ፡ አፉከ፡</foreign> <ref cRef="Hez." loc="2,8">Hez. 2,8</ref>; Judaeorum fame enectorum <foreign xml:lang="gez">መብዝኅቶሙ፡ ኢክህሉ፡ ያብቅዉ፡ አፉሆሙ፡</foreign> (sc. <foreign xml:lang="gez">ለበሊዕ፡</foreign>) <ref cRef="Jsp." loc="369">Jsp. p. 369</ref>; <foreign xml:lang="gez">አብቀዉ፡ አፉሆሙ፡ ላዕሌሆሙ፡</foreign> <ref cRef="Jes." loc="9,12">Jes. 9,12</ref>; <ref cRef="Ps." loc="21,13">Ps. 21,13</ref>; de terra et orco: <ref cRef="Gen." loc="4,11">Gen. 4,11</ref>; <ref cRef="Num." loc="16,30">Num. 16,30</ref>; <ref cRef="Ps." loc="68,19">Ps. 68,19</ref>; <ref cRef="Ps." loc="105,18">Ps. 105,18</ref>; <ref cRef="Jes." loc="5,14">Jes. 5,14</ref>.</sense> <sense n="b" xml:id="D1b"> irridendi causa: <ref cRef="Ps." loc="34,24">Ps. 34,24</ref>; <foreign xml:lang="gez">አብቀዉ፡ አፉሆሙ፡ ላዕሌኪ፡</foreign> <ref cRef="Thren." loc="2,16">Thren. 2,16</ref>; <foreign xml:lang="gez">ላዕለ፡ መኑ፡ አብቀውክሙ፡ አፉክሙ፡</foreign> <ref cRef="Jes." loc="57,4">Jes. 57,4</ref>.</sense> <sense n="c" xml:id="D1c"> ob taedium et languorem, <cit type="translation" xml:lang="la">
+                                    <quote> oscitare </quote>
+                                </cit>: <foreign xml:lang="gez">ሶበ፡ ይስእል፡ ነዳይ፡ ያበቁ፡</foreign> (v. <foreign xml:lang="gez">ያበቁ፡ አፉሁ፡</foreign>) <foreign xml:lang="gez">እስከ፡ እዘኒሁ፡</foreign> <ref cRef="Sir." loc="21,5">Sir. 21,5</ref>.</sense> <sense n="d" xml:id="D1d"> <cit type="translation" xml:lang="la">
+                                    <quote> inhiare </quote>
+                                </cit>, <cit type="translation" xml:lang="la">
+                                    <quote> hiando captare </quote>
+                                </cit>: <foreign xml:lang="gez">አብቀዉ፡ ውስተ፡ ነፋስ፡</foreign> <foreign xml:lang="grc">εἵλκυσαν ἄνεμον</foreign> <ref cRef="Jer. " loc="14,6">Jer.  14,6</ref>.</sense> </sense> <sense n="2" xml:id="D2"> <cit type="translation" xml:lang="la">
+                                <quote> hiare </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> hiscere </quote>
+                            </cit>, de ore: <foreign xml:lang="gez">አፈ፡ ኃጥእ፡ አብቀወ፡ ላዕሌየ፡</foreign> <foreign xml:lang="grc">ἠνοίχθη</foreign> <ref cRef="Ps." loc="108,1">Ps. 108,1</ref>; <foreign xml:lang="gez">አብቂዎ፡ አፉየ፡ ኢተጋብአ፡ እንከ፡</foreign> <ref cRef="Hez." loc="33,22">Hez. 33,22</ref>.</sense> <sense n="3" xml:id="D3"> <cit type="translation" xml:lang="la">
+                                <quote> dehiscere facere </quote>
+                            </cit> terram, in ea <cit type="translation" xml:lang="la">
+                                <quote> rimam facere </quote>
+                            </cit>: <foreign xml:lang="gez">አብቅዋ፡ ለገዳም፡</foreign> <ref cRef="Hen." loc="10,4">Hen. 10,4</ref>.</sense> </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

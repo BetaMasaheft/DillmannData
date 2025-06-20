@@ -1,0 +1,163 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> አብርሀ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L64a8f144ee37445e956f9074e27cf5f0" n="3861">
+               <form>
+                  <foreign xml:lang="gez">አብርሀ</foreign>
+               </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain"> <subc>II,1</subc> <sense n="1" xml:id="D1"> trans., <lbl expand="construitur cum">c.c.</lbl>
+                     <gramGrp>
+                        <case value="accusativus">Acc.</case>
+                     </gramGrp>, <cit type="translation" xml:lang="la">
+                        <quote>lucere facere</quote>
+                     </cit>, <cit type="translation" xml:lang="la">
+                        <quote>lucidum reddere</quote>
+                     </cit>, <cit type="translation" xml:lang="la">
+                        <quote>collustrare</quote>
+                     </cit>, <cit type="translation" xml:lang="la">
+                        <quote>illustrare</quote>
+                     </cit>, <cit type="translation" xml:lang="la">
+                        <quote>illuminare</quote>
+                     </cit>, aliquem <ref cRef="Luc." loc="11,36">Luc. 11,36</ref>; lucernam <ref cRef="Ps." loc="17,31">Ps. 17,31</ref>; lumina (<cit type="translation" xml:lang="la">
+                        <quote>accendere</quote>
+                     </cit>): <foreign xml:lang="gez">አብርሆ፡ ብርሃናት፡</foreign> (ceremonia funebris)
+                        <ref cRef="Genz." loc="84">Genz. f. 84</ref>; <foreign xml:lang="gez">አንደዱ፡
+                        እሳት፡ ወአብርሁ፡</foreign>
+                     <foreign xml:lang="grc">ἅψαντες πῦρ εἰς φαῦσιν</foreign>
+                     <ref cRef="Judith" loc="13,13">Judith 13,13</ref>; <foreign xml:lang="gez">ኣበርሃ፡ ለጥበብ፡ ከመ፡ ጎሕ፡ </foreign>
+                     <ref cRef="Sir." loc="24,32">Sir. 24,32</ref>; tenebras <ref cRef="Ps." loc="17,31">Ps. 17,31</ref>; oculos <ref cRef="Ps." loc="12,4">Ps.
+                        12,4</ref>; <ref cRef="Ps." loc="18,9">Ps. 18,9</ref>; Sir, 31,20; <foreign xml:lang="gez">አብርሀ፡ አዕይንትየ፡</foreign>
+                     <cit type="translation" xml:lang="la">
+                        <quote>visum mihi</quote>
+                     </cit> (caeco) reddidit <ref cRef="Sx. Nah." loc="15">Sx. Nah. 15</ref>; faciem
+                        <ref cRef="Ps." loc="103,17">Ps. 103,17</ref>; <foreign xml:lang="gez">አብርህ፡
+                        ገጸ፡ እምቅብእ፡ </foreign>
+                     <ref cRef="Sx. Ter" loc="23 ">Sx. Ter 23 </ref>Enc.; <cit type="translation" xml:lang="la">
+                        <quote>hilarem reddere</quote>
+                     </cit>, <cit type="translation" xml:lang="la">
+                        <quote>exhilarare</quote>
+                     </cit> faciem alicujus <ref cRef="Koh." loc="8,1">Koh. 8,1</ref>; <foreign xml:lang="gez">ላሕያ፡ ለብእሲት፡ ያበርሆ፡ ለገጻ፡</foreign>
+                     <ref cRef="Sir." loc="36,27">Sir. 36,27</ref>; faciem suam (de Deo) <ref cRef="Ps." loc="79,4">Ps. 79,4</ref>; <foreign xml:lang="gez">አብርህ፡ ገጸከ፡
+                        ላዕለ፡ መቅደስከ፡ </foreign>
+                     <ref cRef="Dan." loc="9,17">Dan. 9,17</ref>. <sense n="a" xml:id="D1a">
+                        <cit type="translation" xml:lang="la">
+                           <quote>in lucem proferre</quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                           <quote>manifestum facere</quote>
+                        </cit>
+                        <ref cRef="2 Tim." loc="1,10">2 Tim. 1,10</ref>; <ref cRef="1 Cor. " loc="4,5">1 Cor. 4,5</ref>.</sense>
+                     <sense n="b" xml:id="D1b">
+                        <cit type="translation" xml:lang="la">
+                           <quote>illustrare</quote>
+                        </cit> i.e. explanare alicui aliquid <ref cRef="Asc. Jes." loc="7,8">Asc.
+                           Jes. 7,8</ref>.</sense>
+                     <sense n="c" xml:id="D1c">
+                        <cit type="translation" xml:lang="la">
+                           <quote>illuminare</quote>
+                        </cit> animos: <foreign xml:lang="gez">አብርሀ፡ አልባቢሆሙ፡ ለሰብአ፡ ይእቲ፡ ሀገር፡ በሃይማኖተ፡
+                           ኢየሱስ፡</foreign>
+                        <ref cRef="Sx. Masc." loc="24">Sx. Masc. 24</ref>; <lbl expand="collatio, -is vel collectivum, -e">coll.</lbl>
+                        <ref cRef="Ps." loc="118,130">Ps. 118,130</ref>.</sense>
+                     <sense n="2" xml:id="D12"> intrans. <cit type="translation" xml:lang="la">
+                           <quote>lucem emittere</quote>
+                        </cit> vel <cit type="translation" xml:lang="la">
+                           <quote>praebere</quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                           <quote>lucere</quote>
+                        </cit>, <lbl expand="cum">c.</lbl>
+                        <foreign xml:lang="gez">ለ፡</foreign>
+                        <cit type="translation" xml:lang="la">
+                           <quote>alicui</quote>
+                        </cit>, <lbl expand="cum">c.</lbl>
+                        <foreign xml:lang="gez">ላዕለ፡</foreign> vel <foreign xml:lang="gez">ዲበ፡ </foreign>
+                        <cit type="translation" xml:lang="la">
+                           <quote>super</quote>
+                        </cit>, <lbl expand="cum">c.</lbl>
+                        <foreign xml:lang="gez">ውስተ፡</foreign>
+                        <cit type="translation" xml:lang="la">
+                           <quote>in</quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                           <quote>ad</quote>
+                        </cit>: de astris <ref cRef="Gen." loc="1,14">Gen. 1,14</ref>; <ref cRef="Gen." loc="1,15">Gen. 1,15</ref>; <ref cRef="Gen." loc="1,16">Gen.
+                           1,16</ref>; <ref cRef="Gen." loc="1,17">Gen. 1,17</ref>; <ref cRef="Kuf." loc="2">Kuf. 2</ref>; <ref cRef="Job " loc="25,5">Job 25,5</ref>; <ref cRef="Job" loc="31,26">Job 31,26</ref>; <foreign xml:lang="gez">ፀሓይ፡
+                           ያበርህ፡ ወያርኢ፡ ላዕለ፡ ኵሉ፡ </foreign>
+                        <ref cRef="Sir." loc="42,16">Sir. 42,16</ref>; <ref cRef="Jes." loc="60,19">Jes. 60,19</ref>; <ref cRef="Jer." loc="38,35">Jer. 38,35</ref>; <ref cRef="Hen." loc="14,18">Hen. 14,18</ref>; <ref cRef="Apoc." loc="21,23">Apoc. 21,23</ref>; lucerna <ref cRef="Matth." loc="5,15">Matth.
+                           5,15</ref>; <ref cRef="Sir." loc="26,17">Sir. 26,17</ref>; fulmine <ref cRef="Luc." loc="17,24">Luc. 17,24</ref>; igne <ref cRef="Hen." loc="71,2">Hen. 71,2</ref>; <ref cRef="Hen." loc="72,4">Hen. 72,4</ref>;
+                           <ref cRef="Ps. " loc="104,37">Ps. 104,37</ref>; facie <ref cRef="Matth." loc="17,2">Matth. 17,2</ref>; <foreign xml:lang="gez">አብርሂ፡ አብርሂ፡ ኢየሩሳሌም፡ </foreign>
+                        <foreign xml:lang="grc">φωτίζου</foreign>
+                        <ref cRef="Jes." loc="60,1">Jes. 60,1</ref>; de viis <ref cRef="Prov. " loc="4,18">Prov. 4,18</ref>; Deus <foreign xml:lang="gez">ያበርህ፡ ውስተ፡
+                           ፍናዊከ፡</foreign>
+                        <ref cRef="Job" loc="22,28">Job 22,28</ref>; <ref cRef="Apoc. " loc="22,5">Apoc. 22,5</ref>; <foreign xml:lang="gez">እግዚአብሔር፡ ያበርህ፡ ሊተ፡</foreign>
+                        <ref cRef="Ps." loc="26,1">Ps. 26,1</ref>; <lbl expand="cum">c.</lbl>
+                        <foreign xml:lang="gez">ለ፡</foreign>
+                        <cit type="translation" xml:lang="la">
+                           <quote>lucere alicui</quote>
+                        </cit> passim i.q. <cit type="translation" xml:lang="la">
+                           <quote>illuminare aliquem</quote>
+                        </cit>
+                        <foreign xml:lang="grc">φοτίζειν</foreign> ut <ref cRef="Eph." loc="3,9">Eph. 3,9</ref>; Eph, 5,13; <ref cRef="Joh." loc="1,9">Joh. 1,9</ref>.
+                           <cb n="0500" xml:id="c0500"/>
+                     </sense>
+                  </sense>
+               </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

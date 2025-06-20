@@ -1,0 +1,102 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ደርገ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="PL" when="2017-11-22">fix for https://github.com/BetaMasaheft/Dillmann/issues/178</change>
+        <change who="LB" when="2018-05-03">root</change>
+        </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L3596534dc2784269b89a704f5646da97" n="7927">
+               <form>
+                  <foreign xml:lang="gez">ደርገ</foreign>
+               <rs type="root"/>
+                    </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain"> <subc>I,1</subc> [vicinum <foreign xml:lang="gez">ደረከ፡</foreign>; e significatu <cit type="translation" xml:lang="la">
+                            <quote> calcandi </quote>
+                        </cit> et <cit type="translation" xml:lang="la">
+                            <quote> gradiendi </quote>
+                        </cit> (<foreign xml:lang="he">דרג</foreign> <foreign xml:lang="ar">درج</foreign> <foreign xml:lang="syr">ܕܪܓ</foreign>) proficiscitur <cit type="translation" xml:lang="la">
+                            <quote> sequi </quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                            <quote> assequi </quote>
+                        </cit> (<foreign xml:lang="ar">ادرك</foreign>) et <cit type="translation" xml:lang="la">
+                            <quote> sese invicem sequi </quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                            <quote> contineri </quote>
+                        </cit> (ut <foreign xml:lang="ar">طَرْقَةٌ</foreign> <cit type="translation" xml:lang="la">
+                            <quote> ordo </quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                            <quote> series </quote>
+                        </cit>, <foreign xml:lang="ar">درّك</foreign>), <cit type="translation" xml:lang="la">
+                            <quote> duplicare </quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                            <quote> obducere </quote>
+                        </cit> (<foreign xml:lang="ar">اطرق</foreign>, <foreign xml:lang="ar">طَرَقٌ</foreign>) et <cit type="translation" xml:lang="la">
+                            <quote> complicare </quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                            <quote> convolvere </quote>
+                        </cit> (<foreign xml:lang="ar">درج</foreign> I. II. IV)] <gramGrp> <pos expand="Subjunctivus">Subj.</pos> </gramGrp> <foreign xml:lang="gez">ይድረግ፡</foreign>, <cit type="translation" xml:lang="la">
+                            <quote> connexum </quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                            <quote> conjunctum esse inter se </quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                            <quote> cohaerere </quote>
+                        </cit>: <foreign xml:lang="gez">ወይደርጉ፡</foreign> (v. <foreign xml:lang="gez">ወይደረጉ፡</foreign>, <lbl expand="vel">v.</lbl> <foreign xml:lang="gez">ወይዴረጉ፡</foreign>) <foreign xml:lang="gez">፪</foreign> <foreign xml:lang="grc">δύο συνεζευγμέναι πρὸς ἀλλήλας</foreign> <ref cRef="Hez. " loc="1,11">Hez.  1,11</ref>; <foreign xml:lang="gez">ይድረግ፡ ዕሩየ፡</foreign> <foreign xml:lang="grc">κατὰ τὸ αὐτὸ ἔσονται ἴσοι</foreign> <ref cRef="Ex." loc="26,24">Ex. 26,24</ref>. </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

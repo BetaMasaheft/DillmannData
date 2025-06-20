@@ -1,0 +1,84 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title> ኬ </title>
+                <author>Alessandro Bausi</author>
+                <author>Andreas Ellwardt</author>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+                <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+                <pubPlace>Hamburg</pubPlace>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file
+                        is licensed under the Creative Commons Attribution-ShareAlike Non Commercial
+                        4.0. </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                        Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice
+                            latino. Adiectum est vocabularium tigre dialecti septentrionalis
+                            compilatum</emph> a W. Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+                </p>
+                <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced
+                        Grant TraCES (Grant Agreement 338756)</ref>
+                </p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>A digital edition of the Lexicon in TEI.</p>
+            <listPrefixDef>
+                <prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/>
+            </listPrefixDef>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="la">latin</language>
+                <language ident="it">Italian</language>
+                <language ident="gez">Gǝʿǝz</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="syr">Syriac</language>
+                <language ident="ar">Arabic</language>
+                <language ident="sa">Sanskrit</language>
+                <language ident="geo">Georgian</language>
+                <language ident="cop">Coptic</language>
+                <language ident="osa">Old South Arabian</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+            <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+            <change who="AE" when="2017-04-19">last updated txt file and doc file of
+                Lexicon</change>
+            <change who="PL" when="2017-01-16">updated lexicon XML file adding nested
+                senses</change>
+            <change who="LB" when="2018-03-19">root</change>
+            <change who="LB" when="2018-03-19">root</change>
+        <change who="ES" when="2024-02-28">nesting</change></revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <entry xml:id="L5b8c71c0bfc548a0821733ae41e29202" n="5965">
+                    <form>
+                        <foreign xml:lang="gez">ኬ</foreign>
+                        <rs type="root"/>
+                        <rs type="root"/>
+                    </form>
+                    <sense xml:id="Dmain" xml:lang="la" source="#dillmann"> particula (inseparabilis) suffixa [sine dubio e forma pleniore, ut <foreign xml:lang="he">כֵּן</foreign>, extenuata, <lbl expand="videas">vid.</lbl> <bibl><ptr target="bm:Dillmann1857Gramm"/>gramm.</bibl> § 64, b; <bibl><ptr target="bm:Dillmann1857Gramm"/>gramm.</bibl> § 169, 1]; antecedenti literae <foreign xml:lang="gez">ግ</foreign>, vocali destitutae, assimilare licet literam <foreign xml:lang="gez">ከ</foreign>, ut <foreign xml:lang="gez">እኅድጌ፡</foreign> pro <foreign xml:lang="gez">እኅድግኬ፡</foreign> <ref cRef="Gen." loc="33,15">Gen. 33,15</ref>; at <foreign xml:lang="gez">ዑቅኬ፡</foreign> <ref cRef="Job" loc="1,8">Job 1,8</ref>. Proprie: <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> sic </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> ita </t:quote></cit>i.e. <sense n="1" xml:id="D1"> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> igitur </t:quote></cit>, <sense n="a" xml:id="D1a"> conclusive vel consecutive: <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> ergo </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> itaque </t:quote></cit>, <foreign xml:lang="grc">οὖν</foreign> <ref cRef="Matth." loc="5,19">Matth. 5,19</ref>; <ref cRef="Matth." loc="5,23">Matth. 5,23</ref>; <ref cRef="Matth." loc="5,48">Matth. 5,48</ref>; <ref cRef="Matth." loc="6,2">Matth. 6,2</ref>; <ref cRef="Matth." loc="6,8">Matth. 6,8</ref>; <ref cRef="Matth." loc="6,9">Matth. 6,9</ref>; <ref cRef="Matth." loc="6,34">Matth. 6,34</ref>; <ref cRef="Matth." loc="7,12">Matth. 7,12</ref>; <ref cRef="Matth." loc="7,24">Matth. 7,24</ref>; <ref cRef="Matth." loc="10,31">Matth. 10,31</ref> al.; <foreign xml:lang="gez">በዝኬ፡ አእምሩ፡</foreign> <ref cRef="Ep. Jer." loc="28">Ep. Jer. 28</ref>; <foreign xml:lang="grc">ἄρα</foreign> <ref cRef="Sap." loc="5,6">Sap. 5,6</ref>; <ref cRef="Luc." loc="11,20">Luc. 11,20</ref>; <ref cRef="1 Cor." loc="15,14">1 Cor. 15,14</ref>; 1 <ref cRef="Cor." loc="15,18">Cor. 15,18</ref>; <ref cRef="Gal." loc="2,21">Gal. 2,21</ref>; <foreign xml:lang="gez">ናሁኬ፡</foreign> <foreign xml:lang="grc">ἄρα οὖν</foreign> <ref cRef="Rom." loc="9,16">Rom. 9,16</ref>; <ref cRef="Rom." loc="9,18">Rom. 9,18</ref>; <foreign xml:lang="grc">ὥστε</foreign> <ref cRef="Matth." loc="12,12">Matth. 12,12</ref>; <ref cRef="Matth." loc="19,6">Matth. 19,6</ref>; <ref cRef="Matth." loc="23,31">Matth. 23,31</ref>; <ref cRef="Marc. " loc="10,8">Marc.  10,8</ref> al.; <foreign xml:lang="grc">τοίνυν</foreign> <ref cRef="1 Cor." loc="9,26">1 Cor. 9,26</ref>; <ref cRef="Sap." loc="1,11">Sap. 1,11</ref>; etiam ubi Graecus particulam respondentem non exhibet, ut: <foreign xml:lang="gez">እመኬ፡ አቡክሙ፡ አነ፡</foreign> <ref cRef="Mal." loc="1,6">Mal. 1,6</ref>; <foreign xml:lang="gez">እመሰኬ፡</foreign> <ref cRef="Job" loc="8,4">Job 8,4</ref>; <foreign xml:lang="gez">እመኬ፡</foreign> <ref cRef="Job" loc="9,29">Job 9,29</ref>; <foreign xml:lang="gez">ዮምኬ፡</foreign> <ref cRef="Tob." loc="6,11">Tob. 6,11</ref>; <foreign xml:lang="gez">ሰማዕኩኬ፡</foreign> <ref cRef="Jer." loc="23,25">Jer. 23,25</ref>; nec non cum <foreign xml:lang="gez">እንከ፡</foreign> componitur, ut: <foreign xml:lang="gez">ኬ፡ እንከ፡</foreign> <ref cRef="Matth." loc="3,8">Matth. 3,8</ref>; <ref cRef="Matth." loc="6,31">Matth. 6,31</ref>; <ref cRef="Matth." loc="10,26">Matth. 10,26</ref>; <ref cRef="Rom." loc="3,31">Rom. 3,31</ref>; <ref cRef="Gal." loc="3,29">Gal. 3,29</ref>; <foreign xml:lang="gez">እፎኬ፡</foreign> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> quanto </t:quote></cit> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> minus </t:quote></cit> vel <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> quanto </t:quote></cit> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> magis! </t:quote></cit> <lbl expand="videas">vid. sub</lbl>. <foreign xml:lang="gez">እፎ፡</foreign> 
+</sense> <sense n="b" xml:id="D1b"> adhibetur recipiendae orationi (in epanalepsi), <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> igitur </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> inquam </t:quote></cit>, ut: <foreign xml:lang="gez">ከመዝኬ፡ ውእቱ፡ ቤቶሙ፡ ለዐማፅያን፡ ወዝኬ፡ ውእቱ፡ ግዕዞሙ፡</foreign> <ref cRef="Job" loc="18,21">Job 18,21</ref>; <foreign xml:lang="gez">ከማሁኬ፡</foreign> <ref cRef="Sir. " loc="18,16">Sir.  18,16</ref>; <ref cRef="4 Esr." loc="6,35">4 Esr. 6,35</ref>; <foreign xml:lang="gez">አኮኬ፡ ዘንተ፡ ጾመ፡</foreign> <ref cRef="Jes." loc="58,6">Jes. 58,6</ref>; <ref cRef="Matth." loc="1,17">Matth. 1,17</ref>; <ref cRef="Rom." loc="11,5">Rom. 11,5</ref>.
+</sense> <sense n="c" xml:id="D1c"> inservit nectendis sententiis, (ubi ad novi quid proceditur, quod cum iis quae antea dicta sunt quodam consequentiae vel successionis vinculo junctum est), <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> jam </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> jam </t:quote></cit> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> vero </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> porro </t:quote></cit> (quare ad vim particulae <foreign xml:lang="gez">ኒ፡</foreign> et Graecae <foreign xml:lang="grc">δέ</foreign> prope accedit), ut: <foreign xml:lang="gez">ወእመኬ፡</foreign> <foreign xml:lang="grc">ἐὰν δέ</foreign> <ref cRef="Gen." loc="18,28">Gen. 18,28</ref>; <ref cRef="Gen." loc="18,30">Gen. 18,30</ref>; <foreign xml:lang="gez">ወእቤሎ፡ ዝኬ፡ ማኅፈድ፡ ምንት፡ ውእቱ፡</foreign> <foreign xml:lang="grc">ὁ δέ πύργος</foreign>, <foreign xml:lang="grc">φημί</foreign>, <foreign xml:lang="grc">τίς ἐστιν</foreign> (postquam quid sit <foreign xml:lang="grc">ἡ πέτρα καὶ ἡ πύλη</foreign> explicitum est <ref cRef="Herm." loc="87">Herm. p. 87</ref>) <ref cRef="Herm." loc="88">Herm. p. 88</ref> <hi rend="sup">b</hi>; <foreign xml:lang="gez">ወእቤሎ፡ እሊኬ፡ ደናግል፡ መኑ፡ እሙንቱ፡</foreign> <ref cRef="Herm. " loc="88">Herm.  p. 88</ref> <hi rend="sup">b</hi>.
+</sense> 
+</sense><sense n="2" xml:id="D2"> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> sane </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> quidem </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> utique </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> vero </t:quote></cit>, ut: <foreign xml:lang="gez">ርእዩ፡ እመ፡ ይዌልጡ፡ አሕዛብ፡ አማልክቲሆሙ፡ እንዘኬ፡</foreign> (v. <foreign xml:lang="gez">እንዘ፡ ኬ፡</foreign>) <foreign xml:lang="gez">ኢኮኑ፡ አማልክተ፡</foreign> <ref cRef="Jer." loc="2,11">Jer. 2,11</ref>. Crebro usurpatur <sense n="a" xml:id="D2a"> ad distinguenda vocabula ea, in quae vis orationis cadit: <foreign xml:lang="gez">አንቲሂኬ፡ ዘመውኪ፡</foreign> <foreign xml:lang="grc">καὶ σύ</foreign> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> tu </t:quote></cit> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> vero </t:quote></cit> <ref cRef="Jer." loc="3,1">Jer. 3,1</ref>; <ref cRef="Jac." loc="4,12">Jac. 4,12</ref>; <foreign xml:lang="gez">አንኬ፡ ውእቱ፡</foreign> <foreign xml:lang="grc">ἐγώ εἰμι</foreign> <ref cRef="Jes." loc="43,25">Jes. 43,25</ref>; <ref cRef="Jes." loc="48,17">Jes. 48,17</ref>; <foreign xml:lang="gez">ሶቤሃኬ፡</foreign> <foreign xml:lang="grc">τότε</foreign> <ref cRef="Jes." loc="58,9">Jes. 58,9</ref>; <ref cRef="Jes." loc="58,10">Jes. 58,10</ref>; <foreign xml:lang="gez">ዝኬ፡</foreign> <ref cRef="1 Tim. " loc="2,3">1 Tim.  2,3</ref> rom; <foreign xml:lang="gez">ወይንኬ፡ አልቦሙ፡</foreign> <ref cRef="Joh." loc="2,3">Joh. 2,3</ref>; <foreign xml:lang="gez">ሠናይኬ፡ ቃለ፡ እግዚአብሔር፡</foreign> <ref cRef="Jes." loc="39,8">Jes. 39,8</ref>; advenientes salutantur: <foreign xml:lang="gez">ሠናይኬ፡ ምጽአትክሙ፡</foreign> <ref cRef="Sx. Nah." loc="14">Sx. Nah. 14</ref>; <foreign xml:lang="gez">ውእቱኬ፡</foreign> <ref cRef="Herm." loc="88">Herm. p. 88</ref> <hi rend="sup">a</hi>; quare cum particula <foreign xml:lang="gez">ሰ፡</foreign> (ejusdem fere potestatis) componi solet: <foreign xml:lang="gez">አንሰኬ፡ ወ</foreign> – <foreign xml:lang="gez">ሰ፡</foreign> <foreign xml:lang="grc">ἐγὼ μέν</foreign> – <foreign xml:lang="grc">ὁ δέ</foreign> <ref cRef="Matth." loc="3,11">Matth. 3,11</ref>; <ref cRef="Asc. Jes." loc="8,11">Asc. Jes. 8,11</ref>; <foreign xml:lang="gez">አንትሙሰኬ፡</foreign> <foreign xml:lang="grc">ὑμεῖς δέ</foreign> <ref cRef="Matth." loc="23,8">Matth. 23,8</ref>; <foreign xml:lang="gez">ይእዜሰኬ፡</foreign> <ref cRef="Jes." loc="14,15">Jes. 14,15</ref>; <ref cRef="Rom. " loc="3,21">Rom.  3,21</ref>; <ref cRef="Rom." loc="7,17">Rom. 7,17</ref>; <cb n="0812" xml:id="c0812"/> <foreign xml:lang="gez">ኦሪትሰኬ፡</foreign> <ref cRef="Rom. " loc="5,20">Rom.  5,20</ref>.
+</sense> <sense n="b" xml:id="D2b"> ad intendendam orationem, vim praecedentis vocis augendam: <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> vero </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> quaeso </t:quote></cit>, ut: <foreign xml:lang="gez">ናሁኬ፡</foreign> <ref cRef="1 Reg. " loc="23,3">1 Reg.  23,3</ref>; <ref cRef="Job" loc="1,12">Job 1,12</ref>; <ref cRef="Jes." loc="7,14">Jes. 7,14</ref>; <foreign xml:lang="gez">ነዋኬ፡</foreign> <ref cRef="1 Par." loc="11,1">1 Par. 11,1</ref>; 1 <ref cRef="Par." loc="17,1">Par. 17,1</ref>; in specie in adhortationibus, <foreign xml:lang="grc">δή</foreign>, ut: <ref cRef="Ps." loc="93,8">Ps. 93,8</ref>; <ref cRef="Asc. Jes." loc="3,10">Asc. Jes. 3,10</ref>; <foreign xml:lang="gez">ዑቅኬ፡</foreign> <ref cRef="Job" loc="1,8">Job 1,8</ref>; <foreign xml:lang="gez">እስኪኬ፡</foreign> <ref cRef="Jes." loc="57,13">Jes. 57,13</ref>; <ref cRef="Jer." loc="17,15">Jer. 17,15</ref>; <foreign xml:lang="gez">ስማዕኬ፡</foreign> <ref cRef="Job" loc="37,1">Job 37,1</ref>; <ref cRef="Jes." loc="39,5">Jes. 39,5</ref>; <foreign xml:lang="gez">ኀልይዎኬ፡</foreign> <ref cRef="Mal." loc="1,1">Mal. 1,1</ref>; <foreign xml:lang="gez">አርምምኬ፡</foreign> <ref cRef="Am. " loc="6,10">Am.  6,10</ref>.</sense>
+</sense> </sense>
+
+                </entry>
+            </div>
+        </body>
+    </text>
+</TEI>

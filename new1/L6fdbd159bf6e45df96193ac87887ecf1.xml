@@ -1,0 +1,106 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="gez">ነጋሪት</title>
+                <author>Alessandro Bausi</author>
+                <author>Andreas Ellwardt</author>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+                <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+                <pubPlace>Hamburg</pubPlace>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-sa-nc/4.0/"> This file
+                        is licensed under the Creative Commons Attribution-ShareAlike Non Commercial
+                        4.0. </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                        Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice
+                            latino. Adiectum est vocabularium tigre dialecti septentrionalis
+                            compilatum</emph> a W. Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+                </p>
+                <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced
+                        Grant TraCES (Grant Agreement 338756)</ref>
+                </p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>A digital edition of the Lexicon in TEI.</p>
+            <listPrefixDef>
+                <prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/>
+            </listPrefixDef>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="la">latin</language>
+                <language ident="it">Italian</language>
+                <language ident="gez">Gǝʿǝz</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="syr">Syriac</language>
+                <language ident="ar">Arabic</language>
+                <language ident="sa">Sanskrit</language>
+                <language ident="geo">Georgian</language>
+                <language ident="cop">Coptic</language>
+                <language ident="osa">Old South Arabian</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change who="PL" when="2019-05-10">restored change made by Magda before crash on
+                5.9.2019</change>
+            <change who="MK" when="2019-08-31">corr</change>
+            <change who="MK" when="2022-05-13">added cross references</change>
+            <change who="MK" when="2022-05-13">correction</change>
+            <change who="MK" when="2022-06-14">added examples</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <entry xml:id="L6fdbd159bf6e45df96193ac87887ecf1" n="12591">
+                    <form>
+                        <foreign xml:lang="gez">ነጋሪት</foreign>
+                    </form>
+                    <sense xml:id="Tmain" xml:lang="en" source="#traces">
+                        <cit type="transcription" xml:lang="gez">
+                            <quote> nagārit </quote>
+                        </cit>
+                        <gramGrp>
+                            <pos expand="Substantivum">subst.</pos>
+                        </gramGrp>
+                        <cit type="translation" xml:lang="en">
+                            <quote> kettledrum </quote>
+                        </cit>
+                        <foreign xml:lang="gez">ነጋርትኒ፡ ፭ጽንድ፡ ወዓላማ፡ ጽሩር፡ ወራስ፡ ቍርዕ፡ ብዙኅ፡
+                            ተነሥአ፡</foreign> ‘<cit type="translation" xml:lang="fr">
+                            <quote> (les Turcs) prirent cinq paires de nagārit, un étendard et
+                                nombre de cottes de mailles et de casques </quote>
+                        </cit>’ <bibl><ptr target="bm:ContiRossini1907SarsaDengel"/><citedRange unit="page"> 128 l. 23–24 (ed.)</citedRange></bibl>, <bibl><ptr target="bm:ContiRossini1907SarsaDengelV"/><citedRange unit="page">
+                                146 l. 3–5 (tr.)</citedRange></bibl>; <foreign xml:lang="gez">፫ነጋሪት፡
+                            ብርት።</foreign> ‘<cit type="translation" xml:lang="fr">
+                            <quote>trois gros tambours en métal </quote>
+                        </cit>’ <bibl><ptr target="bm:ContiRossini1909LiberT"/><citedRange unit="page"> 50 l. 6 (ed.)</citedRange></bibl>, <bibl><ptr target="bm:ContiRossini1910LiberV"/><citedRange unit="page"> 60 l. 7
+                                (tr.)</citedRange></bibl>; <foreign xml:lang="gez">፩፡ ነጋሪት፡
+                            ብርት፡</foreign> ‘<cit type="translation" xml:lang="fr">
+                            <quote>un nagārit en fer </quote>
+                        </cit>’ <bibl><ptr target="bm:ContiRossini1909LiberT"/><citedRange unit="page"> 65 l. 20 (ed.)</citedRange></bibl>, <bibl><ptr target="bm:ContiRossini1910LiberV"/><citedRange unit="page"> 79 l. 6
+                                (tr.)</citedRange></bibl>; <foreign xml:lang="gez">ወሶበ፡ ይቤሎሙ፡ ኢየሐውር፡
+                            ሃገርየ፧ ሶቤሃ፡ አምጽኡ፡ ሎቱ፡ ፈረስ፡ ምስለ፡ ነጋሪት፡ ወሰንደቅ፡</foreign> ‘<cit type="translation" xml:lang="fr">
+                            <quote>Lorsqu’il eut dit: «Je n’irai pas dans mon pays!», ils lui
+                                conduisirent un cheval avec un nagārit et l’étendard</quote>
+                        </cit>’ <bibl><ptr target="bm:ContiRossini1909LiberT"/><citedRange unit="page"> 82 l. 5–6 (ed.)</citedRange></bibl>, <bibl><ptr target="bm:ContiRossini1910LiberV"/><citedRange unit="page"> 98 l.
+                                22–24 (tr.)</citedRange></bibl>
+                        <sense n="C" xml:id="TC"> for <foreign xml:lang="gez">በዓለ፡ ነጋሪት፡</foreign>
+                            <lbl expand="videas">vid.</lbl>
+                            <ref type="external" target="https://betamasaheft.eu/Dillmann/lemma/L33a2c869e7e343a0859911ef499b9068"><foreign xml:lang="gez">በዓል፡</foreign></ref> (TraCES) </sense>
+                        <nd/>
+                    </sense>
+                </entry>
+            </div>
+        </body>
+    </text>
+</TEI>

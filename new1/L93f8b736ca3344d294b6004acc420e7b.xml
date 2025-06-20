@@ -1,0 +1,110 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng"
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="gez">መክብብ</title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref></p>
+            <p><ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref></p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+         <listPrefixDef>
+            <prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="MK" when="2022-04-22">added entry</change>
+         <change who="MK" when="2022-04-22">correction</change>
+         <change who="MK" when="2022-04-29">added trans.</change>
+         <change who="MK" when="2022-04-29">added example</change>
+         <change who="MK" when="2022-04-29">added example</change>
+         <change who="MK" when="2022-04-29">added example</change>
+         <change who="MK" when="2022-04-29">added translation</change>
+         <change who="MK" when="2022-06-01">correction</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L93f8b736ca3344d294b6004acc420e7b" n="12810">
+               <form><foreign xml:lang="gez">መክብብ</foreign></form>
+               <sense xml:id="Tmain" xml:lang="en" source="#traces">
+                  <cit type="transcription" xml:lang="gez">
+                     <quote>makbǝb</quote>
+                  </cit>
+                  <gramGrp><pos expand="Substantivum">subst.</pos></gramGrp> (title) high-ranking
+                  priest <bibl><ptr target="bm:Marrassini1993AmdaSeyon"/><citedRange unit="page"> 68
+                        l. 10 (ed.)</citedRange></bibl>
+                  <ref cRef="Chron. Am." loc="53">Chron. Am. 53</ref>; <foreign xml:lang="gez">ወወልዱሰ፡ በእደ፡ ማርያም፡ ንጉሥነ፡ ነቢሮ፡ ኀቤሃ፡ አፍጠነ፡ ሱራሬሃ፡ ወዓምዱ፡ ዘይብልዎ፡ ረሰዩ፡ መክብበ፡ ወአሠርገዎ፡
+                     በአልባሰ፡ ወርቅ፡ ወብሩር፡</foreign> ‘<cit type="translation" xml:lang="fr">
+                     <quote> Son fils Baʾeda Mâryâm, pendant son séjour dans le pays, hâta la
+                        construction de cette église et y plaça, en qualité de Makbeb, un homme
+                        nommé Amdu, qu’il revêtit d’ornements d’or et d’argent.</quote>
+                  </cit>’ <bibl><ptr target="bm:Perruchon1893Zarayaeqob"/><citedRange unit="page">
+                        121 l. 11, 122 l. 1–2 (ed.), p. 121 l. 11–13, 122 l. 1–2
+                     (tr.)</citedRange></bibl>; <foreign xml:lang="gez">ወሰመየ፡ አስማተ፡ ሥዩማኒሁ፡ እንዘ፡ ይብል፡
+                     መክብበ፡ ቤተ፡ ክርስቲያን። ወቀይሕሰ፡ ገበዝ፡ ወረባነ፡ ደብር፡ ዘቀኝጌታ፡ ወግራጌታ፡ ቤት፡ ጠባቂ፡ ጌታ። ወአሰርገዎሙ፡
+                     በአልባሰ፡ ሠናያት። ወለሠርጐ፡ መክብብሰ፡ አልቦ፡ ዘይትዔየረዩ። ወአክበሮ፡ ጥቀ፡ እምኵሎሙ፡ ሊቃነ፡ ካህናት፡ ዘመካናት፡
+                     እለ፡ ቀደምዎሙ። ወኵሎሙ፡ ሥዩማን፡ ዘታሕቴሁ፡ ዘመራሕያን። ወለኵሎሙ፡ ደብተራ፡ አክበሮሙ፡ ንጉሥ፡ ጥቀ፡
+                     በበመዓርጊሆሙ።</foreign> ‘<cit type="translation" xml:lang="fr">
+                     <quote>Il donna aux chefs de cette église les noms de Makbeba Bêta Kerestiyân,
+                        de Qayeḥsa Gabaz, Rabâna Daber, de Qañ Gêtâ, de Gĕrâ Gêtâ et de Bêt Tabâqi
+                        Gêtâ (?) et il les revêtit de beaux habits; mais il n’y en avait pas un qui
+                        égalât en beauté ceux du Makbeb, car le roi voulut lui donner un éclat que
+                        n’avait jamais eu aucun pontife avant lui. Il combla aussi d’honneurs tous
+                        les choums placés sous les ordres du Makbeb, en qualité de catéchistes, et
+                        tous les clercs suivant leur grade.</quote>
+                  </cit>’ <bibl><ptr target="bm:Perruchon1893Zarayaeqob"/><citedRange unit="page">
+                        170 l. 2–10 (ed.), 170 l. 2–10 (tr.)</citedRange></bibl>; <foreign xml:lang="gez">እንዘ፡ ቃለ፡ ንጉሥ፡ ወበዓለ፡ [መጽሐፍ፡] ወልደ፡ ደራትዮስ፡ መክብብ፡ አፈው፡
+                     ወዓስቦ፡</foreign> ‘<cit type="translation" xml:lang="fr">
+                     <quote> [Ces ordres ont été donnés] pendant que le porte-parole du roi et
+                        baʿāla maṣḥaf(?), Walda Darātyos, les makbeb Afaw et ʿĀsebo</quote>
+                  </cit>’ <bibl><ptr target="bm:ContiRossini1909LiberT"/><citedRange unit="page"> 72
+                        l. 8–9 (ed.)</citedRange></bibl>, <bibl><ptr target="bm:ContiRossini1910LiberV"/><citedRange unit="page"> 86 l. 24–26
+                        (tr.)</citedRange></bibl> (ʿIl <foreign xml:lang="gez">መክብብ፡</foreign> come
+                  preposto ecclesiastico p. es. in <bibl><ptr target="bm:Perruchon1893Zarayaeqob"/><citedRange unit="page"> 121; 170</citedRange></bibl> (dove compare anche
+                  il titolo di <foreign xml:lang="gez">መክብበ፡ ቤተ፡ ክርስቲያን፡</foreign>, “unusual” per
+                        <bibl><ptr target="bm:Taddesse1972Church"/><citedRange unit="page">
+                        287</citedRange></bibl>).ʾ <bibl><ptr target="bm:Marrassini1993AmdaSeyon"/><citedRange unit="page"> 69 n. 4</citedRange></bibl>) <nd/>
+               </sense>
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

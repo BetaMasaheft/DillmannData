@@ -1,0 +1,87 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ኀነቀ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="LB" when="2018-03-07">root</change>
+        </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="La10c8b03244046b6bafd2632f5d6d507" n="4593">
+               <form>
+                  <foreign xml:lang="gez">ኀነቀ</foreign>
+               <rs type="root"/>
+                    </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain"> <subc>I,1</subc> [amh. <foreign xml:lang="gez">አነቀ፡</foreign>; <foreign xml:lang="ar">خَنَقَ</foreign>, <foreign xml:lang="syr">ܚܢܰܩ</foreign>, <foreign xml:lang="he">חָנַק</foreign>; vicinum est <foreign xml:lang="gez">ዐነቀ፡</foreign>] <gramGrp> <pos expand="Subjunctivus">Subj.</pos> </gramGrp> <foreign xml:lang="gez">ይኀንቅ፡</foreign> <sense n="1" xml:id="D1"> <cit type="translation" xml:lang="la">
+                                <quote> angere </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> suffocare </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> fauces </quote>
+                            </cit> <cit type="translation" xml:lang="la">
+                                <quote> comprimere </quote>
+                            </cit>: <foreign xml:lang="gez">ኀነቀኒ፡ አፈ፡ መልበስየ፡</foreign> <ref cRef="Job" loc="30,18">Job 30,18</ref>; <foreign xml:lang="gez">የኀንቀኒ፡</foreign> <ref cRef="Job" loc="7,19">Job 7,19</ref>; <foreign xml:lang="gez">ኀነቆ፡ መንፈስ፡ እኩይ፡</foreign> 1 <ref cRef="Reg." loc="16,14">Reg. 16,14</ref>; <ref cRef="1 Reg." loc="16,15">1 Reg. 16,15</ref>; <ref cRef="Matth." loc="18,28">Matth. 18,28</ref>; <foreign xml:lang="gez">ወሰዶ፡</foreign> (<foreign xml:lang="gez">ለሰይጣን፡</foreign>) <foreign xml:lang="gez">እንዘ፡ የኀንቆ፡ ክሣዶ፡ ወያረውጾ፡ ጕጉአ፡</foreign> <ref cRef="Gad. T.H." loc="">Gad. T.H. </ref>; de anima: nos poenitentes <foreign xml:lang="gez">ንኅንቃ፡ ለነፍስነ፡ ወንልጕማ፡ ከመ፡ ፈረስ፡ ኀያል፡ ወድሩክ፡</foreign> Chrys. <ref cRef="Ta." loc="31">Ta. 31</ref>; de plantis (<cit type="translation" xml:lang="la">
+                                <quote> suffocare </quote>
+                            </cit> <foreign xml:lang="grc">ἀποπνίγειν</foreign>) <ref cRef="Matth." loc="13,7">Matth. 13,7</ref>; <ref cRef="Marc." loc="4,19">Marc. 4,19</ref>; <ref cRef="Phlx. " loc="4.">Phlx.  4.</ref> </sense> <sense n="2" xml:id="D2"> <cit type="translation" xml:lang="la">
+                                <quote> strangulare </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> suffocando necare </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> laqueo interimere </quote>
+                            </cit>, <ref cRef="1 Reg. " loc="17,35">1 Reg.  17,35</ref>; <ref cRef="Nah." loc="2,12">Nah. 2,12</ref> (var. <foreign xml:lang="gez">ዐነቀ፡</foreign>), <ref cRef="Sx. Teq." loc="5">Sx. Teq. 5</ref>; <ref cRef="Sx. Teq. " loc="18.">Sx. Teq.  18.</ref> </sense> </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

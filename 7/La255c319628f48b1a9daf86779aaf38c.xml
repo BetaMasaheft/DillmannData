@@ -1,0 +1,158 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ዖም </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="La255c319628f48b1a9daf86779aaf38c" n="7223">
+               <form>
+                  <foreign xml:lang="gez">ዖም</foreign>
+               </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain">
+                  <gramGrp>
+                     <pos expand="Substantivum">subst.</pos>
+                  </gramGrp>, <gramGrp>
+                     <gen value="masculinum">m.</gen>
+                  </gramGrp> et <gramGrp>
+                     <gen value="femininus">fem.</gen>
+                  </gramGrp>, <lbl expand="collatio, -is vel collectivum, -e">coll.</lbl> et <lbl expand="singularis">Sing.</lbl>, <lbl expand="pluralis">Pl.</lbl>
+                  <foreign xml:lang="gez">ዖማት፡ </foreign> et plerumque <foreign xml:lang="gez">አዕዋም፡</foreign>
+                  <cit type="translation" xml:lang="la">
+                     <quote>densa arborum</quote>
+                  </cit> vel <cit type="translation" xml:lang="la">
+                     <quote>virgultorum</quote>
+                  </cit>, <cit type="translation" xml:lang="la">
+                     <quote>saltus</quote>
+                  </cit>, <cit type="translation" xml:lang="la">
+                     <quote>silva</quote>
+                  </cit>, <cit type="translation" xml:lang="la">
+                     <quote>nemus</quote>
+                  </cit>: <foreign xml:lang="grc">ἕλος</foreign> vel <foreign xml:lang="grc">ἕλη</foreign>
+                  <ref cRef="Jes." loc="19,6">Jes. 19,6</ref> (<cit type="translation" xml:lang="la">
+                     <quote>carectum</quote>
+                  </cit>); <foreign xml:lang="gez">ይበቍል፡ ዖም፡ ውስተ፡ በድው፡</foreign>
+                  <ref cRef="Jes." loc="35,7">Jes. 35,7</ref>; <ref cRef="Jes." loc="41,18">Jes.
+                     41,18</ref>; <ref cRef="Jes." loc="42,15">Jes. 42,15</ref>; <foreign xml:lang="grc">δρυμός</foreign>, <foreign xml:lang="grc">δρυμοί</foreign>
+                  <ref cRef="Jos." loc="17,15">Jos. 17,15</ref>; <ref cRef="Koh." loc="2,6">Koh.
+                     2,6</ref>; <ref cRef="Ps." loc="131,6">Ps. 131,6</ref>; <ref cRef="Hez." loc="20,46">Hez. 20,46</ref>; <ref cRef="Hez. " loc="20,47">Hez. 20,47</ref>;
+                     <ref cRef="Jes." loc="9,18">Jes. 9,18</ref>
+                  <lbl expand="varia lectio">var.</lbl>; <ref cRef="Jes." loc="10,18">Jes.
+                     10,18</ref>; <ref cRef="Jes." loc="21,13">Jes. 21,13</ref>; <ref cRef="Jes." loc="27,9">Jes. 27,9</ref>; <ref cRef="Jes." loc="29,17">Jes. 29,17</ref>; <ref cRef="Jes." loc="32,15">Jes. 32,15</ref>; <ref cRef="Jes. " loc="32,19">Jes.
+                     32,19</ref>; <ref cRef="Jes." loc="65,10">Jes. 65,10</ref>; <ref cRef="Jer." loc="5,6">Jer. 5,6</ref>; <ref cRef="Jer." loc="26,23">Jer. 26,23</ref>; <ref cRef="Jer." loc="33,18">Jer. 33,18</ref>; <foreign xml:lang="gez">ዖም፡ ብዙኅ፡ </foreign>
+                  <ref cRef="4 Esr." loc="2,24">4 Esr. 2,24</ref>; <ref cRef="4 Esr." loc="9,24">4
+                     Esr. 9,24</ref>; <ref cRef="4 Esr." loc="9,29">4 Esr. 9,29</ref>; <foreign xml:lang="gez">ተኀብኡ፡ ውስተ፡ ዖም፡ </foreign>
+                  <foreign xml:lang="grc">εἰς τὰ ἄλση</foreign>
+                  <ref cRef="Jer." loc="4,29">Jer. 4,29</ref>; <foreign xml:lang="gez">ዖም፡
+                     ገዳም፡</foreign>
+                  <foreign xml:lang="grc">ἄλσος δρυμοῦ </foreign>
+                  <ref cRef="Jer." loc="33,18">Jer. 33,18</ref>; <foreign xml:lang="gez">ይነብሩ፡ ውስተ፡
+                     ዖም፡</foreign>
+                  <foreign xml:lang="grc">ἐν ὕλαις</foreign>
+                  <ref cRef="Job" loc="38,40">Job 38,40</ref>; <foreign xml:lang="grc">ὕλη </foreign>
+                  <ref cRef="Jes." loc="10,17">Jes. 10,17</ref>; <ref cRef="Jac." loc="3,5">Jac.
+                     3,5</ref>; <foreign xml:lang="gez">አዕዋም፡</foreign>
+                  <ref cRef="Ps." loc="28,8">Ps. 28,8</ref>; <foreign xml:lang="gez">ነዋኅት፡
+                     አዕዋም፡</foreign>
+                  <foreign xml:lang="grc">ὕψος δρυμοῦ </foreign>
+                  <ref cRef="Jes." loc="37,24">Jes. 37,24</ref>; <foreign xml:lang="gez">ውስተ፡
+                     አዕዋሚሃ፡</foreign>
+                  <ref cRef="Jer." loc="21,14">Jer. 21,14</ref>; <foreign xml:lang="gez">ዕፀ፡
+                     አዕዋም፡</foreign>
+                  <foreign xml:lang="grc">τὰ ξύλα τοῦ αγροῦ </foreign>
+                  <ref cRef="Joel" loc="1,19">Joel 1,19</ref>; <ref cRef="Num." loc="24,6">Num.
+                     24,6</ref>; <foreign xml:lang="gez">ዖማት፡</foreign>
+                  <ref cRef="Kuf." loc="7.">Kuf. p. 7.</ref>
+                  <sense n="a" xml:id="Da">
+                     <cit type="translation" xml:lang="la">
+                        <quote>lucus</quote>
+                     </cit>, deorum: <ref cRef="Deut." loc="16,21">Deut. 16,21</ref>; <ref cRef="Ex." loc="34,13">Ex. 34,13</ref>; <ref cRef="2 Par." loc="14,3">2 Par.
+                        14,3</ref>; <ref cRef="Kuf." loc="1.">Kuf. 1.</ref>
+                  </sense>
+                  <sense n="b" xml:id="Db">
+                     <cit type="translation" xml:lang="la">
+                        <quote>arbores </quote>
+                     </cit>et <cit type="translation" xml:lang="la">
+                        <quote>arbor </quote>
+                     </cit>(densa, opaca, procera): <foreign xml:lang="gez">ዖመ፡ ባሳን፡</foreign>
+                     <foreign xml:lang="grc">δρύες</foreign>
+                     <ref cRef="Zach." loc="11,2">Zach. 11,2</ref>; <foreign xml:lang="gez">ውስተ፡
+                        ዖም፡</foreign>
+                     <foreign xml:lang="grc">ἐν πάσῃ δρυΐ </foreign>
+                     <ref cRef="Jer." loc="2,34">Jer. 2,34</ref>; <ref cRef="Kuf." loc="122">Kuf. p.
+                        122</ref>; <foreign xml:lang="gez">ላዕለ፡ ኵሉ፡ ዖመ፡ ባሳን፡ </foreign>
+                     <ref cRef="Jes." loc="2,13">Jes. 2,13</ref>
+                     <lbl expand="varia lectio">var.</lbl>; <foreign xml:lang="gez">ታሕተ፡ ኵሉ፡ ዖም፡ ዘቦ፡
+                        ጽላሎተ፡ </foreign>
+                     <foreign xml:lang="grc">ξύλου κατασκίου</foreign>
+                     <ref cRef="Jer." loc="2,20">Jer. 2,20</ref>
+                     <foreign xml:lang="gez">ኵሉ፡ ዖም፡ ጽፉቅ፡</foreign>
+                     <ref cRef="4 Reg." loc="16,4">4 Reg. 16,4</ref>; <foreign xml:lang="gez">ታሕተ፡
+                        ኵሉ፡ ዕፀወ፡ ዖም፡</foreign>
+                     <foreign xml:lang="grc">ξύλου ἀλσώσους</foreign>
+                     <ref cRef="Jer. " loc="3,6">Jer. 3,6</ref>; <foreign xml:lang="gez">ዖም፡
+                        ዘይት፡</foreign> Lud. ex Org.; in provincia <foreign xml:lang="gez">ከተታ፡</foreign> homines <foreign xml:lang="gez">ዖም፡ </foreign>
+                     <cb n="0995" xml:id="c0995"/>
+                     <foreign xml:lang="gez">ዐባየ፡</foreign> divinis honoribus afficiebant, Gad.
+                     T.H.; <foreign xml:lang="gez">አዕዋም፡</foreign> (fructiferae) Kuf. p. 47;
+                        <foreign xml:lang="gez">እለ፡ ያሰግሉ፡ ውስተ፡ አዕዋም፡ ወአእባን፡</foreign>
+                     <ref cRef="Clem. " loc="178.">Clem. f. 178.</ref>
+                  </sense>
+               </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

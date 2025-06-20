@@ -1,0 +1,114 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ጉባኤ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="MK" when="2018-11-28">new menaing</change>
+         <change who="MK" when="2018-11-30">added comment</change>
+            <change who="MK" when="2019-08-30">corr</change>
+          <change who="MK" when="2019-08-30">corr</change>
+          <change who="PL" when="2019-10-24">replaced d'Abb Cat references with bibliographical reference #7</change>
+        </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L8f5fa9c212e24d4e99b1a64b7d1e4205" n="8463">
+               <form>
+                  <foreign xml:lang="gez">ጉባኤ</foreign>
+               </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain"> (passim <foreign xml:lang="gez">ጕባኤ፡</foreign>) <gramGrp> <pos expand="Substantivum">subst.</pos> </gramGrp>, <gramGrp> <gen value="not found">m.</gen> </gramGrp> et <gramGrp> <gen value="femininus">fem.</gen> </gramGrp>, <lbl expand="pluralis">Pl.</lbl> <foreign xml:lang="gez">ጉባኤያት፡</foreign>, <sense n="1" xml:id="D1"> <cit type="translation" xml:lang="la">
+                                <quote> collectio </quote>
+                            </cit>, frugum <ref cRef="Ex." loc="23,16">Ex. 23,16</ref>; canonum <foreign xml:lang="gez">ጉባኤ፡ ቀኖናት፡</foreign> F.M. 1,2; (<foreign xml:lang="gez">ጉባኤ፡ ነቢያት፡</foreign> 
+                   <bibl><ptr target="bm:Abbadie1859Cat"/><citedRange unit="page">65</citedRange></bibl>).</sense> <sense n="2" xml:id="D2"> <cit type="translation" xml:lang="la">
+                                <quote> confluvium </quote>
+                            </cit> <ref cRef="Kuf." loc="7 ">Kuf. p. 7 </ref> <lbl expand="annotatio">ann.</lbl> 8 et 9.</sense> <sense n="3" xml:id="D3"> <cit type="translation" xml:lang="la">
+                                <quote> congregatio </quote>
+                            </cit>: <foreign xml:lang="gez">በመካነ፡ ጉባኤያት፡</foreign> (sc. populi) <foreign xml:lang="gez">ዘከመ፡ መራሕብት፡ ወምሥያጣት፡</foreign> F.N. 40. <sense n="a" xml:id="D3a"> <cit type="translation" xml:lang="la">
+                                    <quote> caterva </quote>
+                                </cit>, <cit type="translation" xml:lang="la">
+                                    <quote> multitudo </quote>
+                                </cit>, <cit type="translation" xml:lang="la">
+                                    <quote> turba </quote>
+                                </cit>: <foreign xml:lang="gez">ተጋብኡ፡ ላዕሌሆሙ፡ እምሮም፡ ጉባኤ፡ ብዙኅ፡</foreign> <ref cRef="Jsp." loc="375">Jsp. p. 375</ref>; <foreign xml:lang="gez">ጉባኤ፡ ፀርየ፡ ዝሩ፡</foreign> (o Michael!) <ref cRef="Sx. Nah." loc="12 ">Sx. Nah. 12 </ref>Enc.; <foreign xml:lang="gez">ጉባኤ፡ ሐራ፡</foreign> Org.</sense> <sense n="b" xml:id="D3b"> <cit type="translation" xml:lang="la">
+                                    <quote> concilium </quote>
+                                </cit>, <cit type="translation" xml:lang="la">
+                                    <quote> synodus </quote>
+                                </cit>, Syn. creberrime; F.N.; <foreign xml:lang="gez">ጉባኤ፡ ኤጲስ፡ ቆጶሳት፡</foreign> <ref cRef="Can. Ap." loc="27">Can. Ap. 27</ref>; <cb n="1173" xml:id="c1173"/> <foreign xml:lang="gez">ገብረ፡ ጉባኤ፡</foreign> <ref cRef="Clem." loc="185">Clem. f. 185</ref>; Dioscurus Alx. <foreign xml:lang="gez">ጸሐፈ፡ መጽሐፈ፡ ጉባኤ፡</foreign> (epistolam synodicam) ad <ref cRef="Severum Sx. Teq. " loc="17.">Severum Sx. Teq.  17.</ref> </sense> <sense n="c" xml:id="D3c"> <cit type="translation" xml:lang="la">
+                                    <quote> coetus </quote>
+                                </cit>: <foreign xml:lang="gez">ቤተ፡ ክርስቲያን፡ እንተ፡ ላዕለ፡ ኵሉ፡ ጉባኤ፡ ዘሐዋርያት፡</foreign> <ref cRef="Lit." loc="163,4">Lit. 163,4</ref>; <foreign xml:lang="gez">ቤተ፡ ክርስቲያን፡ አሐቲ፡ ጉባኤ፡ እንተ፡ ሐዋርያት፡</foreign> <ref cRef="Org." loc="1.">Org. 1.</ref> </sense> </sense> </sense>
+               
+            <sense xml:lang="en" source="#traces" xml:id="Tmain"> <foreign xml:lang="gez">ጉባኤ፡ ሐዋርያት፡</foreign> <cit type="transcription" xml:lang="gez">
+                            <quote>gubaʾe ḥawāryāt</quote>
+                        </cit>, correctly <foreign xml:lang="gez">ጉቡኣን፡ ሐዋርያት፡</foreign> <cit type="transcription" xml:lang="gez">
+                            <quote>gubuʾān ḥawāryāt</quote>
+                        </cit> feast of the apostles Peter and Paul <foreign xml:lang="gez">ወኀለፈ፡ ተከዜ፡ በእግር፡ እምድኅረ፡ ጉባኤ፡ ሐዋርያት፡ ወከረመ፡ ንጉሥ፡ በታቦር።</foreign> ‘<cit type="translation" xml:lang="de">
+                            <quote>Dieser durchquerte den (Fluß) Takkāzē nach dem Festtage des Apostelkonzil</quote>
+                        </cit>’ <bibl>
+                            <ptr target="bm:Kropp1988LebnaI"/>
+                            <citedRange unit="page"> 18 l. 7-8 (ed.)</citedRange>
+                        </bibl>, <bibl>
+                            <ptr target="bm:Kropp1988LebnaII"/>
+                            <citedRange unit="page"> 17 l. 4-5 (tr.)</citedRange>
+                        </bibl> (‘Gemeint ist Fest der vereinigten (beiden) Apostel, nämlich Petrus und Paulus und der 72 Jünger. Es wird korrekt <cit type="transcription" xml:lang="gez">
+                            <quote>gubuʾān ḥawāryāt</quote>
+                        </cit> gennant, so <bibl>
+                            <ptr target="bm:Guidi1893DueFrammenti"/>
+                            <citedRange unit="page"> 583</citedRange>
+                        </bibl> und n.l. Dieses Fest steht am Ende des Apostelfastens (ab trinitatis nach Pfingsten) am 5. Ḥamlē = julianisch 29. Juni. {...}.’ <bibl>
+                            <ptr target="bm:Kropp1988LebnaII"/>
+                            <citedRange unit="page"> 17 n. 77</citedRange>
+                        </bibl>)</sense>
+                </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

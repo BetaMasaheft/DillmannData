@@ -1,0 +1,72 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ተመረየ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="MK" when="2023-12-09">added Gr</change><change who="MK" when="2023-12-09">corr</change><change who="MK" when="2024-01-04">added Les</change></revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L277c016ea90f4d23b2a0e363d7145aa2" n="1240">
+               <form>
+                  <foreign xml:lang="gez">ተመረየ</foreign>
+               </form>
+               <sense xml:id="Dmain" xml:lang="la" source="#dillmann"> <subc>III,2</subc> et <foreign xml:lang="gez">ተማረየ፡</foreign> <subc>III,3</subc> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> hariolari </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> divinare </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> augurari </t:quote></cit>: <foreign xml:lang="gez">ዘይትሜረይ፡ በከዋክብት፡ ወበአእባን፡ ወበዕፀው፡</foreign> <ref cRef="Clem." loc="245">Clem. f. 245</ref>; <ref cRef="Clem." loc="224">Clem. f. 224</ref>; <foreign xml:lang="gez">ዘያሰገል፡ ወዘይትሜረይ፡</foreign> <ref cRef="Clem." loc="128">Clem. f. 128</ref>; <ref cRef="Clem." loc="178">Clem. f. 178</ref>; <foreign xml:lang="gez">ለተመርዮ፡ ወለተሰግሎ፡</foreign> <ref cRef="Kuf." loc="11">Kuf. 11</ref>; <foreign xml:lang="gez">ዘይትሜረይ፡ በሰገል፡</foreign> <ref cRef="Kedr f." loc="65">Kedr f. 65</ref>; <foreign xml:lang="gez">ዘይትማረይ፡ ወዘያበውኦሙ፡ ውስተ፡ ቤቱ፡ ለመሠርያን፡</foreign> F.N. 11; F.N. 3; <foreign xml:lang="gez">ኵሉ፡ ተማርዮ፡ እምኀይለ፡ አጋንንት፡ ወኵሉ፡ ተነብዮ፡ እምኀይለ፡ መንፈስ፡ ቅዱስ፡</foreign> M.M. f. 314. </sense>
+               
+            <sense xml:id="Tmain" xml:lang="en" source="#traces"> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">tamarraya</t:quote></cit>, <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">tamāraya</t:quote></cit> <sense n="G" xml:id="TG"> <foreign xml:lang="gez">ተማረየ፡</foreign> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">tamāraya</t:quote></cit> <subc>III,3</subc> <foreign xml:lang="gez">ይትማረይ፡</foreign> «<cit type="translation" xml:lang="fr"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">exercer la sorcellerie</t:quote></cit>» ― <foreign xml:lang="am">ጠነቈለ፡</foreign> Ms. <ref type="BM" target="BNFabb217">BNFabb217</ref>, fol. 37r. <lb/>
+ <bibl><ptr target="bm:Grebaut1952SuppLexicon"/><citedRange unit="page"> 86</citedRange></bibl> 
+</sense> <sense n="L" xml:id="TL"> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">mry</t:quote></cit> <foreign xml:lang="gez">ተመረየ</foreign> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">tamarraya</t:quote></cit>, <foreign xml:lang="gez">ተማረየ</foreign> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">tamāraya</t:quote></cit> <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">act as a soothsayer</t:quote></cit>, <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">divine</t:quote></cit>, <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">practice divination</t:quote></cit>, <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">perform magic</t:quote></cit> <bibl><ptr target="bm:Leslau1987dic"/><citedRange unit="page"> 362a</citedRange></bibl> 
+</sense> </sense></entry>
+         </div>
+      </body>
+   </text>
+</TEI>

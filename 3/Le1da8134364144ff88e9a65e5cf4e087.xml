@@ -1,0 +1,92 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+   ተፀፍረ፡
+  </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project.
+                                    https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/">
+                                        This file is licensed under the Creative Commons
+                                        Attribution-ShareAlike Non Commercial 4.0. </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann, Christian Friedrich August. <emph>Lexicon linguae
+                                            aethiopicae, cum indice latino. Adiectum est
+                                            vocabularium tigre dialecti septentrionalis
+                                            compilatum</emph> a W. Munziger. Lipsiae: Th.O. Weigel,
+                                        1865.</ref>
+            </p>
+            <p>
+               <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant TraCES (Grant Agreement 338756)</ref>
+            </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2017-05-16">sent missing txt entries</change>
+         <change who="PL" when="2017-05-16">updated lexicon XML file adding nested senses</change>
+      <change who="AE" when="2018-10-21">Nachbearbeitung,</change>
+            <change who="AE" when="2018-10-21">nochmal,</change>
+        </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="Le1da8134364144ff88e9a65e5cf4e087" n="9785">
+               <form>
+                  <foreign xml:lang="gez">ተፀፍረ</foreign>
+               </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain"> <subc>III,1</subc>, rarius <foreign xml:lang="gez">ተፀፈረ፡</foreign>, <sense n="1" xml:id="D1"> refl. <sense n="a" xml:id="D1a"> <cit type="translation" xml:lang="la">
+                                    <quote>sibi plectere</quote>
+                                </cit>, <cit type="translation" xml:lang="la">
+                                    <quote>torquere</quote>
+                                </cit> crines: <foreign xml:lang="gez">ተሠነየት፡ ወተፀፍረት፡</foreign> (v. <foreign xml:lang="gez">ወተፀፈረት፡</foreign>) <foreign xml:lang="gez">ርእሳ፡</foreign> <ref cRef="4 Reg." loc="9,30">4 Reg. 9,30</ref>; <foreign xml:lang="gez">በተፀፍሮ፡ ሥዕርቶን፡</foreign> <ref cRef="1 Tim." loc="2,9">1 Tim. 2,9</ref>; <ref cRef="1 Petr." loc="3,3">1 Petr. 3,3</ref>; <ref cRef="Clem. f." loc="137.">Clem. f. 137.</ref> </sense> <sense n="b" xml:id="D1b"> <cit type="translation" xml:lang="la">
+                                    <quote>se applicare</quote>
+                                </cit> (<cit type="translation" xml:lang="la">
+                                    <quote>amplecti</quote>
+                                </cit>): <foreign xml:lang="gez">ተፀፍረ፡ ቦቱ፡ ዝኩ፡ ዐጸደ፡ ወይን፡</foreign> <foreign xml:lang="grc">περιπεπλεγμένη πρὸς αὐτόν</foreign> <ref cRef="Hez." loc="17,7">Hez. 17,7</ref>; <foreign xml:lang="gez">ወኵሉ፡ አብድ፡ ዘከመዝ፡</foreign> <foreign xml:lang="gez">ይፀፈር፡</foreign>(v. <foreign xml:lang="gez">ይፃመር፡</foreign>) <foreign xml:lang="grc">τοιούτοις συμπλέκεται</foreign> <ref cRef="Prov." loc="20,1">Prov. 20,1</ref>. </sense> </sense> <sense n="2" xml:id="D2"> pass. <sense n="a" xml:id="D2a"> <cit type="translation" xml:lang="la">
+                                    <quote>plecti</quote>
+                                </cit>, <cit type="translation" xml:lang="la">
+                                    <quote>contorqueri</quote>
+                                </cit>, <cit type="translation" xml:lang="la">
+                                    <quote>necti</quote>
+                                </cit>: <foreign xml:lang="gez">አክሊለ፡</foreign> <foreign xml:lang="gez">ስብሐት፡ ዘተፀፍረ፡</foreign> <ref cRef="Jes." loc="28,5">Jes. 28,5</ref>; <foreign xml:lang="gez">ኢይፀፈር፡ ሥዕርተኪ፡ በዲቤኪ፡</foreign> <ref cRef="Hez." loc="24,17">Hez. 24,17</ref>; <foreign xml:lang="gez">አሕባለ፡ ኃጥኣን፡ ተፀፍራ፡</foreign>(v. <foreign xml:lang="gez">ተፀፈራ፡</foreign>) <ref cRef="Genz. f." loc="135">Genz. f. 135</ref>; v. <foreign xml:lang="gez">ተፃፈራ፡</foreign><subc>III,3</subc>) <foreign xml:lang="gez">ላዕሌየ፡</foreign> <ref cRef="Ps." loc="118,61">Ps. 118,61</ref>. </sense> <sense n="b" xml:id="D2b"> transl., <cit type="translation" xml:lang="la">
+                                    <quote>contexi</quote>
+                                </cit>: <foreign xml:lang="gez">ኀጢአትየ፡ ዘተፀፍረ፡ በእዴየ፡</foreign> <foreign xml:lang="grc">συνεπλάκησαν</foreign> <ref cRef="Thren. " loc="1,14">Thren.  1,14</ref>; nos homines <foreign xml:lang="gez">ተፀፈርነ፡ በህላዌነ፡ እምእለ፡ ኢይትአየያ፡</foreign>(ex inaequalibus i.e. e corpore et animo) Cyr. ad <ref cRef="Theod. f." loc="16">Theod. f. 16</ref>; <foreign xml:lang="gez">ዕለተ፡ እግዚአብሔር፡ ወፅአት፡ ወተፀፍረት፡ ወሠረጸት፡ በትር፡</foreign> <ref cRef="Hez." loc="7,10">Hez. 7,10</ref>. </sense> <sense n="c" xml:id="D2c"> <cit type="translation" xml:lang="la">
+                                    <quote>implicari</quote>
+                                </cit>, <cit type="translation" xml:lang="la">
+                                    <quote>illaqueari</quote>
+                                </cit>: <ref cRef="2 Petr. " loc="2,20">2 Petr.  2,20</ref>; <foreign xml:lang="gez">ይፀፈር፡</foreign>(v. <foreign xml:lang="gez">ይሠገር፡</foreign>) <foreign xml:lang="grc">ἐμπλακήσεται</foreign> <ref cRef="Prov." loc="28,18">Prov. 28,18</ref>.</sense> </sense> </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

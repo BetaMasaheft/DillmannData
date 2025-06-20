@@ -1,0 +1,71 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> እግር </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="LB" when="2018-03-19">root</change>
+        <change who="MK" when="2022-02-10">added new entry</change><change who="MK" when="2022-02-25">added new witness</change><change who="MK" when="2022-05-20">correction</change><change who="MK" when="2022-05-20">added transl.</change><change who="MK" when="2022-05-20">added example</change></revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L85b7f391c82644808226985d6aac0c60" n="5910">
+               <form>
+                  <foreign xml:lang="gez">እግር</foreign>
+               <rs type="root"/>
+                    </form>
+               <sense xml:id="Dmain" xml:lang="la" source="#dillmann"> <gramGrp> <pos expand="Substantivum">subst.</pos> </gramGrp>, <gramGrp> <gen value="femininus">fem.</gen> </gramGrp> et <gramGrp> <gen value="not found">m.</gen> </gramGrp> [<foreign xml:lang="he">רֶגֶל</foreign>, <foreign xml:lang="syr">ܪܶܓܠܳܐ</foreign>, <foreign xml:lang="ar">رِجْلٌ</foreign>; in dialecto Mandaeorum <foreign xml:lang="syr">ܥܶܓܪܳܐ</foreign>; in dialecto Arabum vulgari <foreign xml:lang="ar">إِجْر</foreign>; quamquam etiam radicis <foreign xml:lang="gez">ረገለ፡</foreign>: vestigium superest in <foreign xml:lang="gez">ሰረገላ፡</foreign> q.v.], <lbl expand="pluralis">Pl.</lbl> <foreign xml:lang="gez">እገር፡</foreign> rarius <foreign xml:lang="gez">አእጋር፡</foreign>, <sense n="1" xml:id="D1"> <cit type="translation" xml:lang="la"><quote> pes </quote></cit>: <foreign xml:lang="gez">ኢየኀልፍ፡ እንተ፡ ህየ፡ እግረ፡ ሰብእ፡ ወእንስሳ፡</foreign> <ref cRef="Hez. " loc="29,11">Hez.  29,11</ref>; bestiarum <ref cRef="Matth." loc="7,6">Matth. 7,6</ref>; <foreign xml:lang="gez">ክልኤ፡ እግር፡</foreign> <ref cRef="Am." loc="3,12">Am. 3,12</ref>; <foreign xml:lang="gez">ርቱዕ፡ እገሪሆሙ፡</foreign> <ref cRef="Hez." loc="1,7">Hez. 1,7</ref>; <foreign xml:lang="gez">ዘአርባዕቱ፡ እግሩ፡</foreign> vel <foreign xml:lang="gez">እገሪሁ፡</foreign> <cit type="translation" xml:lang="la"><quote> quadrupes </quote></cit> <ref cRef="Ex." loc="9,9">Ex. 9,9</ref>; <ref cRef="Lev." loc="11,23">Lev. 11,23</ref>; <foreign xml:lang="gez">ዘብዙኅ፡ እገሪሁ፡</foreign> <cit type="translation" xml:lang="la"><quote> multipes </quote></cit> <ref cRef="Lev." loc="11,42">Lev. 11,42</ref>; hominum: <foreign xml:lang="gez">ኪደተ፡ እግረ፡ ብእሲ፡</foreign> <ref cRef="4 Esr." loc="5,7">4 Esr. 5,7</ref>; <foreign xml:lang="gez">ከመ፡ እግር፡ ሙቁሕ፡</foreign> <ref cRef="Sir." loc="21,19">Sir. 21,19</ref>; <foreign xml:lang="gez">እግር፡ ፅዉስ፡</foreign> <ref cRef="Sir." loc="25,23">Sir. 25,23</ref>; <ref cRef="Job " loc="13,27">Job  13,27</ref>; <ref cRef="Job" loc="18,8">Job 18,8</ref>; <ref cRef="Job" loc="31,7">Job 31,7</ref>; <ref cRef="Matth." loc="4,6">Matth. 4,6</ref>; <ref cRef="Matth." loc="10,14">Matth. 10,14</ref>; <foreign xml:lang="gez">ወይቀውማ፡ እገሪሁ፡</foreign> <ref cRef="Zach." loc="14,4">Zach. 14,4</ref>; <foreign xml:lang="gez">እገሪሆሙ፡ ይረውጻ፡</foreign> <ref cRef="Prov. " loc="1,16">Prov.  1,16</ref>; <foreign xml:lang="gez">ወድቀ፡ ውስተ፡ እገሪሃ፡ ለዮዲት፡</foreign> <ref cRef="Judith" loc="14,7">Judith 14,7</ref>; <ref cRef="Job " loc="33,11">Job  33,11</ref>; <ref cRef="Jer." loc="12,5">Jer. 12,5</ref>; <ref cRef="Ps." loc="17,36">Ps. 17,36</ref>; <ref cRef="Ps." loc="72,2">Ps. 72,2</ref>; <ref cRef="Cant." loc="5,3">Cant. 5,3</ref>; <foreign xml:lang="gez">ኀበ፡ እገሪሁ፡</foreign> <cit type="translation" xml:lang="la"><quote> ad pedes ejus </quote></cit> <ref cRef="Ruth" loc="3,4">Ruth 3,4</ref>; <ref cRef="Ruth" loc="3,7">Ruth 3,7</ref>; <ref cRef="Ruth" loc="3,8">Ruth 3,8</ref>; <foreign xml:lang="gez">አእጋር፡</foreign> <ref cRef="Job" loc="13,27">Job 13,27</ref>; <ref cRef="Sap." loc="14,11">Sap. 14,11</ref>; <ref cRef="Prov." loc="6,18">Prov. 6,18</ref>; <ref cRef="2 Reg." loc="19,24">2 Reg. 19,24</ref>; <foreign xml:lang="gez">በእግር፡</foreign> <cit type="translation" xml:lang="la"><quote> pede </quote></cit> <ref cRef="Matth." loc="14,13">Matth. 14,13</ref>; <ref cRef="Act." loc="20,13">Act. 20,13</ref> Platt; <ref cRef="Ps." loc="65,5">Ps. 65,5</ref>; <foreign xml:lang="gez">በእግሩ፡</foreign> <ref cRef="Jud." loc="4,15">Jud. 4,15</ref>; <ref cRef="Jud." loc="4,17">Jud. 4,17</ref>; <foreign xml:lang="gez">በእገሪሆሙ፡</foreign> <ref cRef="2 Reg." loc="15,16">2 Reg. 15,16</ref>; <foreign xml:lang="gez">እንተ፡ እግር፡</foreign> <cit type="translation" xml:lang="la"><quote> pede </quote></cit> <ref cRef="Marc." loc="6,33">Marc. 6,33</ref>; <ref cRef="Act." loc="20,13">Act. 20,13</ref> <lbl expand="romanae editionis">rom.</lbl>; <foreign xml:lang="gez">በእግረ፡ ዚአየ፡</foreign> <cit type="translation" xml:lang="la"><quote> in pedibus </quote></cit> i.e. <cit type="translation" xml:lang="la"><quote> vestigiis meis </quote></cit> <ref cRef="Gen." loc="30,30">Gen. 30,30</ref>; <foreign xml:lang="gez">በእግረ፡ ደቂቅ፡</foreign> <cit type="translation" xml:lang="la"><quote> pedibus </quote></cit> i.e. <cit type="translation" xml:lang="la"><quote> gressibus puerorum </quote></cit> <ref cRef="Gen." loc="33,14">Gen. 33,14</ref>; <foreign xml:lang="gez">ዘበእግር፡</foreign> <cit type="translation" xml:lang="la"><quote> pedes </quote></cit> <ref cRef="Judith" loc="7,2">Judith 7,2</ref>.</sense> <sense n="2" xml:id="D2"> Varie transfertur: <sense n="a" xml:id="D2a"> <cit type="translation" xml:lang="la"><quote> pes </quote></cit> sellae <ref cRef="Herm." loc="19">Herm. p. 19</ref>; literae <ref cRef="M.M." loc="f. 246">M.M. f. 246</ref> (<lbl expand="videas">vid. sub</lbl> <foreign xml:lang="gez">ስሑብ፡</foreign>).</sense> <sense n="b" xml:id="D2b"> <cit type="translation" xml:lang="la"><quote> imum </quote></cit> rei: <foreign xml:lang="gez">ታሰክቦ፡ ለግኑዝ፡ ኀበ፡ እግረ፡ ታቦት፡</foreign> <ref cRef="Genz." loc="69.">Genz. f. 69.</ref> </sense> <sense n="c" xml:id="D2c"> <cit type="translation" xml:lang="la"><quote> pes </quote></cit>, nomen mensurae, ut: <foreign xml:lang="gez">ለጽላሎት፡ በግንቦት፡ ፳ወ፩ እግር፡ ወመንፈቀ፡ እግር፡</foreign>, in Appendice Codicis Cyrilli (<ref cRef="Ethiopic Ms. Nr." loc="3 ">Ethiopic Ms. Nr. 3 </ref>in the library of the Eastindia House), creberrime.</sense> <sense n="d" xml:id="D2d"> „<cit type="translation" xml:lang="la"><quote> pes </quote></cit> clavis: <foreign xml:lang="gez">እግረ፡ መራኁት፡</foreign>, Mss. Colb., incertum quid sibi velit“ Lud.</sense> <sense n="e" xml:id="D2e"> <cit type="translation" xml:lang="la"><quote> radius </quote></cit> solis: <foreign xml:lang="gez">በእግረ፡ አሚር፡</foreign> <foreign xml:lang="grc">ὑπὸ ἀκτίνων ἡλίου</foreign> <ref cRef="Sap." loc="2,4">Sap. 2,4</ref>; <foreign xml:lang="gez">እገሪሃ፡ ለፀሓይ፡</foreign> <ref cRef="Hen." loc="75,4">Hen. 75,4</ref>; <ref cRef="Hen." loc="106,5">Hen. 106,5</ref>; <ref cRef="Hen." loc="106,10">Hen. 106,10</ref>; <foreign xml:lang="gez">በረቀ፡ ሥጋሆሙ፡ ከመ፡ እግረ፡ ፀሓይ፡</foreign> <ref cRef="Macc." loc="2">Macc. f. 2</ref>; Lud. e Mss. Colb. [cfr. पाद; alii Semitae frequentant <foreign xml:lang="he">קֶרֶן</foreign>].</sense> <sense n="f" xml:id="D2f"> <foreign xml:lang="gez">እግረ፡ ሐመር፡</foreign> <cit type="translation" xml:lang="la"><quote> prora </quote></cit> <ref cRef="Act." loc="27,30">Act. 27,30</ref> <lbl expand="romanae editionis">rom.</lbl> (<foreign xml:lang="gez">ርእሰ፡ ሐመር፡</foreign> <cit type="translation" xml:lang="la"><quote> puppis </quote></cit> <ref cRef="Act." loc="27,29">Act. 27,29</ref>) si quidem lectio bona est. — <cit type="translation" xml:lang="la"><quote> Voc </quote></cit>. <cit type="translation" xml:lang="la"><quote> Ae </quote></cit>.: <foreign xml:lang="gez">አእጋር፡ ብ፡ እግሮች።</foreign> </sense> </sense> </sense>
+               
+            <sense xml:id="Tmain" xml:lang="en" source="#traces"> <cit type="transcription" xml:lang="gez"><quote>ʾǝgr</quote></cit> <foreign xml:lang="gez">እግር፡ ዛቍኔ፡</foreign> <cit type="transcription" xml:lang="gez"><quote>ʾǝgr zāqʷǝne</quote></cit> <foreign xml:lang="gez">እግር፡ ዘቍኔ፡</foreign> <cit type="transcription" xml:lang="gez"><quote>ʾǝgr zaqʷǝne</quote></cit> (title ?) meaning unknown <foreign xml:lang="gez">እግር፡ ዛቍኔ፡ ሙሴ፡</foreign> ‘<cit type="translation" xml:lang="fr"><quote>le eger zāquenē, </quote></cit>’ <bibl><ptr target="bm:ContiRossini1909LiberT"/><citedRange unit="page"> 27 l. 13 (ed.)</citedRange></bibl>, <bibl><ptr target="bm:ContiRossini1910LiberV"/><citedRange unit="page"> 31 l. 8 (tr.)</citedRange></bibl>; <foreign xml:lang="gez">ወእግር፡ ዛቍኔ፡ ጋሞ፡</foreign> ‘<cit type="translation" xml:lang="fr"><quote>l’eger zāquenē, Gāmmo</quote></cit>’ <bibl><ptr target="bm:ContiRossini1909LiberT"/><citedRange unit="page"> 36 l. 14 (ed.)</citedRange></bibl>, <bibl><ptr target="bm:ContiRossini1910LiberV"/><citedRange unit="page"> 43 l. 1 (tr.)</citedRange></bibl>; <foreign xml:lang="gez">እግር፡ ዘቍኔ፡ ተክሌ፡</foreign> ‘<cit type="translation" xml:lang="fr"><quote>l’eger zaquenē, Taklē</quote></cit>’ <bibl><ptr target="bm:ContiRossini1909LiberT"/><citedRange unit="page"> 33 l. 15 (ed.)</citedRange></bibl>, <bibl><ptr target="bm:ContiRossini1910LiberV"/><citedRange unit="page"> 38 l. 31 (tr.)</citedRange></bibl>, <lbl expand="videas">vid.</lbl> <foreign xml:lang="gez">ዛቍኔ፡</foreign> </sense></entry>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,104 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> አሜን </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L70109c5dee7340739b8ee5b93116559d" n="5477">
+               <form>
+                  <foreign xml:lang="gez">አሜን</foreign>
+               </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain">
+                  <gramGrp>
+                     <pos expand="adverbium, adverbialiter">adv.</pos>
+                     <pos expand="nomen peregrinum">peregr.</pos>
+                  </gramGrp>
+                  <lbl expand="scilicet">sc.</lbl>
+                  <foreign xml:lang="grc">ἀμήν</foreign>, <foreign xml:lang="he">אָמֵן</foreign>,
+                     <cit type="translation" xml:lang="la">
+                     <quote>certo</quote>
+                  </cit>, <cit type="translation" xml:lang="la">
+                     <quote>profecto</quote>
+                  </cit>, <cit type="translation" xml:lang="la">
+                     <quote>ita sit</quote>
+                  </cit>, <cit type="translation" xml:lang="la">
+                     <quote>fiat!</quote>
+                  </cit>
+                  <foreign xml:lang="grc">γένοιτο γένοιτο</foreign>
+                  <foreign xml:lang="gez">አሜን፡ ወአሜን፡ </foreign>
+                  <ref cRef="Num." loc="5,22">Num. 5,22</ref>; <ref cRef="Deut." loc="27,15">Deut.
+                     27,15</ref>
+                  <lbl expand="sequens">seq.</lbl>; <ref cRef="Judith" loc="13,20">Judith
+                     13,20</ref>; <foreign xml:lang="grc">ἀμήν </foreign>
+                  <ref cRef="2 Esr." loc="15,13">2 Esr. 15,13</ref>; <ref cRef="2 Esr." loc="18,6">2
+                     Esr. 18,6</ref>; <ref cRef="Tob." loc="8,8">Tob. 8,8</ref>; <ref cRef="Matth." loc="5,18">Matth. 5,18</ref>
+                  <lbl expand="romanae editionis">rom.</lbl>; <ref cRef="Matth." loc="6,13">Matth.
+                     6,13</ref>; <ref cRef="Matth. " loc="24,2">Matth. 24,2</ref>
+                  <lbl expand="romanae editionis">rom.</lbl>; <ref cRef="Joh." loc="6,32">Joh.
+                     6,32</ref>
+                  <lbl expand="romanae editionis">rom.</lbl>; <ref cRef="Rom." loc="1,25">Rom.
+                     1,25</ref>; <ref cRef="Rom." loc="15,33">Rom. 15,33</ref>; <ref cRef="Rom." loc="16,27">Rom. 16,27</ref>; <ref cRef="Gal." loc="1,5">Gal. 1,5</ref>; <ref cRef="Apoc." loc="1,7">Apoc. 1,7</ref>
+                  <lbl expand="romanae editionis">rom.</lbl>; <ref cRef="Apoc." loc="5,14">Apoc.
+                     5,14</ref>; <ref cRef="Apoc." loc="7,12">Apoc. 7,12</ref>; <ref cRef="Apoc." loc="19,4">Apoc. 19,4</ref> al.; <foreign xml:lang="gez">በቃለ፡ አሜን፡</foreign>
+                  (v. <foreign xml:lang="gez">አሚን፡</foreign>) <foreign xml:lang="gez">አድመፁ፡ ወገብሩ፡
+                     በዓለ፡ </foreign>
+                  <ref cRef="Sx. Masc." loc="10 ">Sx. Masc. 10 </ref>Enc.; in fine orationum et
+                  librorum ter repetere solent <foreign xml:lang="gez">አሜን፡</foreign> Abyssini. </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

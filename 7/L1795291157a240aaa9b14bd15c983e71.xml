@@ -1,0 +1,152 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ዝሉፍ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L1795291157a240aaa9b14bd15c983e71" n="7463">
+               <form>
+                  <foreign xml:lang="gez">ዝሉፍ</foreign>
+               </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain">
+                  <gramGrp>
+                     <pos expand="participium">part.</pos>
+                  </gramGrp>
+                  <sense n="1" xml:id="D1">
+                     <cit type="translation" xml:lang="la">
+                        <quote>continuus</quote>
+                     </cit>, <cit type="translation" xml:lang="la">
+                        <quote>perpetuus</quote>
+                     </cit>, sed non nisi adverbialiter: <cit type="translation" xml:lang="la">
+                        <quote>perpetuo</quote>
+                     </cit>, <cit type="translation" xml:lang="la">
+                        <quote>in perpetuum</quote>
+                     </cit> (<cit type="translation" xml:lang="la">
+                        <quote>aeternum</quote>
+                     </cit>), <cit type="translation" xml:lang="la">
+                        <quote>ad finem usque</quote>
+                     </cit>, <cit type="translation" xml:lang="la">
+                        <quote>prorsus</quote>
+                     </cit>, <cit type="translation" xml:lang="la">
+                        <quote>plane</quote>
+                     </cit>, <foreign xml:lang="gez">ዝሉፈ፡</foreign>
+                     <ref cRef="Ex." loc="21,6">Ex. 21,6</ref>, et plerumque <foreign xml:lang="gez">ለዝሉፉ፡</foreign> (<bibl>
+                        <ptr target="bm:Dillmann1857Gramm"/>gramm.</bibl> § 163,2) <ref cRef="Ex." loc="27,21">Ex. 27,21</ref>; <foreign xml:lang="grc">διὰ παντός</foreign>
+                     <ref cRef="Lev." loc="11,42">Lev. 11,42</ref>; <foreign xml:lang="grc">εἰς
+                        τέλος</foreign>
+                     <ref cRef="1 Par." loc="28,9">1 Par. 28,9</ref>; <ref cRef="Ps." loc="9,6">Ps.
+                        9,6</ref>; <ref cRef="Ps." loc="9,19">Ps. 9,19</ref>; <ref cRef="Ps." loc="73,1">Ps. 73,1</ref>; <ref cRef="Hez." loc="22,30">Hez. 22,30</ref>;
+                        <ref cRef="Dan." loc="2,34">Dan. 2,34</ref>; <ref cRef="Judith" loc="7,30">Judith 7,30</ref>; <ref cRef="Job" loc="20,7">Job 20,7</ref>; <ref cRef="Sir." loc="10,13">Sir. 10,13</ref>; <foreign xml:lang="grc">καθόλου</foreign>
+                     <ref cRef="Hez. " loc="17,14">Hez. 17,14</ref>; <foreign xml:lang="grc">εἰς τὸ
+                        λοιπόν</foreign>
+                     <ref cRef="Judith" loc="11,3">Judith 11,3</ref>; <foreign xml:lang="grc">ἐνδελεχῶς</foreign>
+                     <ref cRef="Sir." loc="20,26">Sir. 20,26</ref>; <foreign xml:lang="grc">εἰς τὸν
+                        αἰῶνα</foreign> vel <foreign xml:lang="grc">ἕως αἰῶνος</foreign>
+                     <ref cRef="Sir." loc="11,33">Sir. 11,33</ref>; <ref cRef="Sir." loc="24,9">Sir.
+                        24,9</ref>; <ref cRef="4 Esr." loc="7,10">4 Esr. 7,10</ref>; <ref cRef="4 Esr." loc="8,35">4 Esr. 8,35</ref>; <ref cRef="4 Esr." loc="9,21">4
+                        Esr. 9,21</ref>; et <foreign xml:lang="gez">እስከ፡ ለዝሉፉ፡</foreign>
+                     <ref cRef="Job" loc="23,3">Job 23,3</ref>.</sense>
+                  <sense n="2" xml:id="D2"> de hominibus <sense n="a" xml:id="D2a">
+                        <cit type="translation" xml:lang="la">
+                           <quote>pertinax</quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                           <quote>pervicax</quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                           <quote>obstinatus</quote>
+                        </cit>: <foreign xml:lang="grc">ἄτακτος</foreign>
+                        <ref cRef="1 Thess." loc="5,14">1 Thess. 5,14</ref>; <foreign xml:lang="grc">ἀνυπότακτοι </foreign>
+                        <foreign xml:lang="gez">ዝሉፋን፡ እለ፡ ኢይትኤዘዙ፡</foreign>
+                        <ref cRef="Tit." loc="1,6">Tit. 1,6</ref>; 1 <ref cRef="Tim." loc="1,9">Tim.
+                           1,9</ref>; <foreign xml:lang="gez">ኢትኩን፡ ዝሉፈ፡ በልሳንከ፡</foreign>
+                        <foreign xml:lang="grc">μὴ ἐνέδρευε τῇ γλώσσῃ σου</foreign>
+                        <ref cRef="Sir." loc="5,14">Sir. 5,14</ref>; castiga filium, <foreign xml:lang="gez">ከመ፡ ኢይኩን፡ ዝሉፈ፡</foreign>
+                        <ref cRef="Did." loc="22">Did. 22</ref>; <foreign xml:lang="gez">ዝሉፍ፡
+                           ለይትገሠጽ፡</foreign>
+                        <ref cRef="Kid." loc="9.">Kid. f. 9.</ref>
+                     </sense>
+                     <sense n="b" xml:id="D2b"> celeriter procedens i.e. <sense n="α" xml:id="D2bα">
+                           <cit type="translation" xml:lang="la">
+                              <quote>praeceps</quote>
+                           </cit>, <cit type="translation" xml:lang="la">
+                              <quote>temerarius</quote>
+                           </cit>: <foreign xml:lang="grc">προπετής </foreign>
+                           <ref cRef="2 Tim." loc="3,4">2 Tim. 3,4</ref>; <cb n="1036" xml:id="c1036"/>
+                           <foreign xml:lang="grc">προαλής </foreign>
+                           <ref cRef="Sir." loc="30,8">Sir. 30,8</ref>.</sense>
+                        <sense n="β" xml:id="D2bβ">
+                           <cit type="translation" xml:lang="la">
+                              <quote>audax</quote>
+                           </cit>, <cit type="translation" xml:lang="la">
+                              <quote>insolens</quote>
+                           </cit>, <foreign xml:lang="gez">ዝልፍት፡ </foreign>
+                           <foreign xml:lang="grc">θρασεῖα</foreign>
+                           <ref cRef="Sir." loc="22,5">Sir. 22,5</ref>; <foreign xml:lang="gez">ነፍስ፡
+                              ዝልፍት፡</foreign>
+                           <foreign xml:lang="grc">ψυχὴ τολμηρά </foreign>
+                           <ref cRef="Sir." loc="19,3">Sir. 19,3</ref>; <foreign xml:lang="grc">ὑπερήφανος</foreign>
+                           <ref cRef="Rom." loc="1,30">Rom. 1,30</ref>; <foreign xml:lang="gez">ኅቡላን፡ ወዝሉፋን፡</foreign>
+                           <foreign xml:lang="grc">τολμηταὶ αὐθάδεις</foreign>
+                           <ref cRef="2 Petr." loc="2,10">2 Petr. 2,10</ref>; <foreign xml:lang="grc">λαπιστής</foreign>
+                           <ref cRef="Sir." loc="20,7">Sir. 20,7</ref>. – (<ref cRef="Job" loc="28,18">Job 28,18</ref>
+                           <foreign xml:lang="gez">ዝሉፍ፡ ወዕንቡዝ፡</foreign> pro <foreign xml:lang="grc">μετέωρα καὶ γαβίς</foreign>).</sense>
+                     </sense>
+                  </sense>
+               </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,114 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> አልጸቀ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L4d21857bfd3b42b0b0243311b7300471" n="471">
+               <form>
+                  <foreign xml:lang="gez">አልጸቀ</foreign>
+               </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain"> <subc>II,1</subc> <sense n="1" xml:id="D1">
+                     <cit type="translation" xml:lang="la">
+                        <quote>propius admovere</quote>
+                     </cit>, <cit type="translation" xml:lang="la">
+                        <quote>proximum reddere</quote>
+                     </cit> aliquem vel aliquid; <foreign xml:lang="gez">ታለጽቆሙ፡ ለርኁቃን፡</foreign>
+                     Lit. Joh.</sense>
+                  <sense n="2" xml:id="D2">
+                     <cit type="translation" xml:lang="la">
+                        <quote>prope esse ad</quote>
+                     </cit> (cfr. <foreign xml:lang="ar">أَقْرَبَ</foreign>, <foreign xml:lang="he">הִקְרִיב</foreign>), <cit type="translation" xml:lang="la">
+                        <quote>parum abesse ut</quote>
+                     </cit>, <cit type="translation" xml:lang="la">
+                        <quote>prope accedere</quote>
+                     </cit>, <cit type="translation" xml:lang="la">
+                        <quote>appropinquare</quote>
+                     </cit>, <cit type="translation" xml:lang="la">
+                        <quote>instare</quote>
+                     </cit>; de loco: <foreign xml:lang="gez">አልጺቆ፡ ኀበ፡ ቤቱ፡</foreign>
+                     <ref cRef="Luc." loc="7,6">Luc. 7,6</ref>; <foreign xml:lang="gez">አልጺቆ፡
+                        ለኢየሩሳሌም፡ </foreign>
+                     <ref cRef="Marc." loc="11,1">Marc. 11,1</ref>; <foreign xml:lang="gez">አልጸቀ፡
+                        መንገለ፡</foreign> (Platt: <foreign xml:lang="gez">ለ</foreign>)<foreign xml:lang="gez">ሀገር፡</foreign>
+                     <ref cRef="Act." loc="9,3">Act. 9,3</ref>
+                     <lbl expand="romanae editionis">rom.</lbl>; <foreign xml:lang="gez">አልጺቆ፡ ይባእ፡
+                        ሀገረ፡</foreign>
+                     <ref cRef="Jon." loc="3,4">Jon. 3,4</ref>; <foreign xml:lang="gez">አልጸቀ፡
+                        ዘያጸድቀኒ፡</foreign>
+                     <ref cRef="Jes." loc="50,8">Jes. 50,8</ref>; de tempore: <foreign xml:lang="gez">አልጸቀት፡ ኵነኔክሙ፡</foreign>
+                     <ref cRef="Jes." loc="41,21">Jes. 41,21</ref>; <ref cRef="Jes." loc="56,1">Jes.
+                        56,1</ref>; <foreign xml:lang="gez">አልጸቀት፡ ዕለተ፡ እግዚአብሔር፡</foreign>
+                     <ref cRef="Joel" loc="1,15">Joel 1,15</ref>; <ref cRef="Hez." loc="9,1">Hez.
+                        9,1</ref>; <ref cRef="Hez." loc="30,3">Hez. 30,3</ref>; <ref cRef="Joh." loc="6,8">Joh. 6,8</ref>; <foreign xml:lang="gez">ሕይወትኒ፡ አልጸቀት፡
+                        ለመቃብር፡</foreign>
+                     <ref cRef="Sir." loc="51,6">Sir. 51,6</ref>; <lbl expand="construitur cum">c.c.</lbl>
+                     <foreign xml:lang="gez">ለ</foreign> et Infin., ut <foreign xml:lang="gez">አልጸቀት፡ ነፍሱ፡ ለመዊት፡</foreign>
+                     <ref cRef="Job" loc="33,22">Job 33,22</ref>; <ref cRef="Jes." loc="39,1">Jes.
+                        39,1</ref>; <foreign xml:lang="gez">አልጸቀት፡ ለወሊድ፡ </foreign>
+                     <ref cRef="Jes." loc="26,17">Jes. 26,17</ref>, vel <lbl expand="cum">c.</lbl>
+                     <gramGrp>
+                        <pos expand="Subjunctivus">Subj.</pos>
+                     </gramGrp> verbi: <foreign xml:lang="gez">አልጸቀት፡ ትምጻእ፡ ዕለት፡ </foreign>
+                     <ref cRef="Jer." loc="31,16">Jer. 31,16</ref>; <ref cRef="Judith" loc="11,12">Judith 11,12</ref>; <ref cRef="Jes." loc="38,12">Jes. 38,12</ref>; <ref cRef="4 Esr." loc="4,21">4 Esr. 4,21</ref>; <ref cRef="Ps." loc="21,11">Ps.
+                        21,11</ref>; <ref cRef="Marc." loc="5,23">Marc. 5,23</ref>; <foreign xml:lang="gez">አልጸቀት፡ ትፃእ፡ ነፍሳ፡</foreign>
+                     <ref cRef="Gen." loc="35,18">Gen. 35,18</ref>.</sense>
+               </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

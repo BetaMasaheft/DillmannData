@@ -1,0 +1,84 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> አንጎገወ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="AE" when="2018-10-04">Verschachtelung,</change>
+        </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L2e82745cb84f415697f7e66c9bf9ad21" n="8554">
+               <form>
+                  <foreign xml:lang="gez">አንጎገወ</foreign>
+               </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain"> V <sense n="1" xml:id="D1"> intransit. <sense n="a" xml:id="D1a"> <cit type="translation" xml:lang="la">
+                                    <quote> hinc illinc oberrare </quote>
+                                </cit>, <cit type="translation" xml:lang="la">
+                                    <quote> vagari </quote>
+                                </cit>, <ref cRef="Jer." loc="27,6">Jer. 27,6</ref>; Did. <lbl expand="edidit">ed.</lbl> <ref cRef="Platt p." loc="101">Platt p. 101</ref>; <foreign xml:lang="gez">ታንጎጉ፡</foreign> (v. <foreign xml:lang="gez">ታንጕጕ፡</foreign>) <ref cRef="Prov." loc="7,12">Prov. 7,12</ref>; <ref cRef="Did." loc="2">Did. 2</ref> (ed. <ref cRef="Platt p." loc="10">Platt p. 10</ref>).</sense> <sense n="b" xml:id="D1b"> <cit type="translation" xml:lang="la">
+                                    <quote> aberrare </quote>
+                                </cit> a lege, praeceptis: <foreign xml:lang="gez">ያንጎግዉ፡ በካልእ፡</foreign> (v. <foreign xml:lang="gez">ለካልእ፡</foreign>) <foreign xml:lang="gez">ሥርዐት፡</foreign> <ref cRef="Sap." loc="14,23">Sap. 14,23</ref>; <foreign xml:lang="gez">አንጎግዎ፡ ዘስሒት፡</foreign> H.A.; <foreign xml:lang="gez">የዐቅቡ፡ አልባቢሆሙ፡ እምአንጎግዎት፡ ውስተ፡ ኅሊናት፡ እኪት፡</foreign> <ref cRef="Phlx." loc="91.">Phlx. 91.</ref> </sense> <sense n="c" xml:id="D1c"> <cit type="translation" xml:lang="la">
+                                    <quote> animo fluctuari </quote>
+                                </cit>, <cit type="translation" xml:lang="la">
+                                    <quote> incertum </quote>
+                                </cit> vel <cit type="translation" xml:lang="la">
+                                    <quote> dubium haesitare </quote>
+                                </cit>: <foreign xml:lang="gez">እንዘ፡ ተሐምሙ፡ ልበክሙ፡ ወታንጎግዉ፡</foreign> <ref cRef="Jer." loc="8,18">Jer. 8,18</ref>.</sense> </sense> <sense n="2" xml:id="D2"> transit. <cit type="translation" xml:lang="la">
+                                <quote> oberrare facere </quote>
+                            </cit>: <foreign xml:lang="gez">አነ፡ ኣንጎግዋ፡</foreign> <ref cRef="Hos." loc="2,16">Hos. 2,16</ref>; <foreign xml:lang="gez">ኣንጎግወከ፡ ምስለ፡ ሰራዊትክ፡</foreign> <ref cRef="Hez. " loc="38,4">Hez.  38,4</ref>; <foreign xml:lang="gez">አንጎገዎሙ፡ ውስተ፡ አድባር፡</foreign> <ref cRef="Jer." loc="27,6">Jer. 27,6</ref> <lbl expand="varia lectio">var.</lbl>; Satanas <foreign xml:lang="gez">ያንጎጉ፡ አልባቢሆሙ፡ እምሀገር፡ ኀበ፡ ሀገር፡</foreign> <ref cRef="Phlx. " loc="102.">Phlx.  102.</ref> </sense> </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

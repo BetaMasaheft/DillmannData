@@ -1,0 +1,83 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ገንዶር </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="LB" when="2018-05-04">root</change>
+        </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="Lf693634a9e0f408f8f7357d29b41c127" n="8514">
+               <form>
+                  <foreign xml:lang="gez">ገንዶር</foreign>
+               <rs type="root"/>
+                    </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain"> <gramGrp> <pos expand="Substantivum">subst.</pos> </gramGrp>, <lbl expand="pluralis">Pl.</lbl> <foreign xml:lang="gez">ገንዶራት፡</foreign> [an a <foreign xml:lang="ar">قَمْطَرَ كَمَتْرَ</foreign>? <lbl expand="videas">vid.</lbl> <foreign xml:lang="gez">ቀምጠራ፡</foreign>, <foreign xml:lang="ar">قِمَطْرٌ</foreign> <cit type="translation" xml:lang="la">
+                            <quote> vinculum pedis ligneum </quote>
+                        </cit>] <sense n="1" xml:id="D1"> <cit type="translation" xml:lang="la">
+                                <quote> compes </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> pedica </quote>
+                            </cit>: <foreign xml:lang="gez">አክብዶ፡ ገንዶራቲሁ፡</foreign> <foreign xml:lang="grc">τὰς πέδας</foreign> <ref cRef="Sir." loc="30,38">Sir. 30,38</ref>.</sense> <sense n="2" xml:id="D2"> <lbl expand="secundum">sec.</lbl> Lud.: „<cit type="translation" xml:lang="la">
+                                <quote> jugum </quote>
+                            </cit> quod boum collis dum arationi assuescunt imponitur.“ „Metaph. <cit type="translation" xml:lang="la">
+                                <quote> jugum </quote>
+                            </cit> pro coactione vel afflictione“, <ref cRef="Org." loc="1.">Org. 1.</ref> – <lbl expand="Vocabularium Aethiopicum, -a -a">Voc. Ae.</lbl>: <foreign xml:lang="gez">ገንዶራት፡ ብ፡ የወፈን፡ ዛዝላ፡ ወስክምት፡ ቀምበርሂ፡ ይ፡</foreign>; <cit type="translation" xml:lang="la">
+                                <quote> aliud </quote>
+                            </cit>: <foreign xml:lang="gez">ገንዶራት፡ ዘ፡ ወስከምት፡</foreign> </sense> </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

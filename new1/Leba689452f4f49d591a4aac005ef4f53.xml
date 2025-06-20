@@ -1,0 +1,122 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="gez">አረሳዊ</title>
+                <author>Alessandro Bausi</author>
+                <author>Andreas Ellwardt</author>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+                <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+                <pubPlace>Hamburg</pubPlace>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file
+                        is licensed under the Creative Commons Attribution-ShareAlike Non Commercial
+                        4.0. </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                        Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice
+                            latino. Adiectum est vocabularium tigre dialecti septentrionalis
+                            compilatum</emph> a W. Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+                </p>
+                <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced
+                        Grant TraCES (Grant Agreement 338756)</ref>
+                </p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>A digital edition of the Lexicon in TEI.</p>
+            <listPrefixDef>
+                <prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/>
+            </listPrefixDef>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="la">latin</language>
+                <language ident="it">Italian</language>
+                <language ident="gez">Gǝʿǝz</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="syr">Syriac</language>
+                <language ident="ar">Arabic</language>
+                <language ident="sa">Sanskrit</language>
+                <language ident="geo">Georgian</language>
+                <language ident="cop">Coptic</language>
+                <language ident="osa">Old South Arabian</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change who="MK" when="2018-08-31">new entry</change>
+            <change who="MK" when="2018-08-31">saving</change>
+            <change who="MK" when="2018-08-31">rest of the entry</change>
+            <change who="MK" when="2018-08-31">added lang coding</change>
+            <change who="MK" when="2018-08-31">corr</change>
+            <change who="MK" when="2018-08-31">corr</change>
+            <change who="MK" when="2018-08-31">new entry, to be peer-reviewed</change>
+            <change who="MK" when="2019-12-05">corr</change>
+            <change who="MK" when="2019-12-11">corrected spelling</change>
+            <change who="MK" when="2019-12-11">added coma</change>
+            <change who="MK" when="2019-12-11">corr Greek</change>
+            <change who="MK" when="2019-12-11">added pos</change>
+            <change who="MK" when="2022-10-17">correction</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <entry xml:id="Leba689452f4f49d591a4aac005ef4f53" n="12416">
+                    <form>
+                        <foreign xml:lang="gez">አረሳዊ</foreign>
+                    </form>
+                    <sense xml:id="Tmain" xml:lang="en" source="#traces">
+                        <cit type="transcription" xml:lang="gez">
+                            <t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> ʾarasāwi </t:quote>
+                        </cit>
+                        <gramGrp><pos expand="not found">adj. rel.</pos>, here as subst.</gramGrp>
+                        <cit type="translation" xml:lang="en">
+                            <t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> heretic </t:quote>
+                        </cit>, ‘<cit type="translation" xml:lang="it">
+                            <t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> eretico </t:quote>
+                        </cit>’ <foreign xml:lang="gez">አላ፡ ለእመ፡ ነገረ፡ ከመ፡ ዘሤሞ፡ ቀዳሚ፡ ካህነ፡ አረሳዊ፡ ውእቱ፡
+                            እምቅድመ፡ ጥምቀት፡ ዘበአማን፡</foreign>
+                        <cit type="translation" xml:lang="it">
+                            <t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> Ma se ha dichiarato che
+                                colui che lo nominò per primo [sacerdote] era eretico, prima del
+                                vero battesimo </t:quote>
+                        </cit>
+                        <bibl><ptr target="bm:Bausi1995SenodosT"/><citedRange unit="page"> 269 l.
+                                13-14, 270 l. 1 (ed.)</citedRange></bibl>, <bibl><ptr target="bm:Bausi1995SenodosV"/><citedRange unit="page"> 103 l. 30–31
+                                (tr.)</citedRange></bibl> (‘Il termine <foreign xml:lang="gez">አረሳዊ፡</foreign>, assente da <bibl><ptr target="bm:Dillmann1865Lexicon"/></bibl>, è in tutti i mss. (escluso il solo S), così come nuovamente,
+                        con attestazione più contrastata ma comunque sicura, in A2:70:5. Si trova
+                        anche in <bibl><ptr target="bm:Horner1904Canones"/><citedRange unit="page">
+                                Tx 48 = Vs 185</citedRange></bibl>: <foreign xml:lang="gez">ወኢመኑሂ፡
+                            እምአሮሳዊያን፡</foreign> interpretato: «by any heretics»; è messo a testo
+                        nell’edizione <bibl><ptr target="bm:Duensing1946Hippolyt"/><citedRange unit="page"> 146–147</citedRange></bibl>: <foreign xml:lang="gez">ወኢመኑሂ፡ እምአረሳዊያን፡</foreign> pur con qualche riserva (<bibl><ptr target="bm:Duensing1946Hippolyt"/><citedRange unit="page">
+                                11</citedRange></bibl>: «Der Äthiope hat für das Wort eine Form
+                        gewählt, die man schwerlich anders als ‘Arianer’ deuten kann. Hier hat er
+                        einfach solche, die ihm als Häretiker <foreign xml:lang="grc">κατ᾽ἐξοχήν</foreign>bekannt waren, in den Text gesetzt»), e tradotto
+                        perciò «keiner von den Arianern (?)», secondo la lezione <foreign xml:lang="gez">እምአርዮሳዊያን፡</foreign> del ms. C. Per <foreign xml:lang="gez">አረሳዊ፡</foreign> il senso sicuro di «eretico» è garantito
+                        dalle recensioni etiopiche parallele e dal testo arabo <bibl><ptr target="bm:Troupeau1976Catalogue"/><citedRange unit="page"> 235 f.
+                                49v</citedRange></bibl>
+                        <foreign xml:lang="ar">ارتيق</foreign> al canone 70 e <bibl><ptr target="bm:Troupeau1976Catalogue"/><citedRange unit="page"> 235 f.
+                                48r</citedRange></bibl>
+                        <foreign xml:lang="ar">اراتيقوس</foreign> al canone 63. Il termine potrebbe
+                        essere formazione aggettivale in -āwi (<bibl><ptr target="bm:Dillmann1907Ethiopic"/><citedRange unit="page"> 106 e
+                                254</citedRange></bibl>), forse di età relativamente recente, sul
+                        termine antico «<foreign xml:lang="gez">አርስስ፡</foreign> vel <foreign xml:lang="gez">አርሲስ፡</foreign>» n. prgr. sc. <foreign xml:lang="grc">αϊρεσις</foreign>
+                        <bibl><ptr target="bm:Dillmann1865Lexicon"/><citedRange unit="page">
+                                741–742</citedRange></bibl>. Non è quindi necessario interpretare il
+                        termine come «a transliteration of the Greek word <foreign xml:lang="grc">αἵρεσις</foreign>» <bibl><ptr target="bm:Eshetu1988ApostolicTradition"/><citedRange unit="page"> 59 n. 30</citedRange></bibl>, su cui
+                        l’autore fonda una diretta dipendenza del testo etiopico dal greco (da
+                        escludere per numerosi altri motivi).’ <bibl><ptr target="bm:Bausi1995SenodosV"/><citedRange unit="page"> 103–104 n.
+                                8</citedRange></bibl>) <nd/>
+                    </sense>
+                </entry>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,176 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ክፍል </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L2d09e7f32b424ad9a9cafdcad1dc9d51" n="6378">
+               <form>
+                  <foreign xml:lang="gez">ክፍል</foreign>
+               </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain">
+                  <gramGrp>
+                     <pos expand="Substantivum">subst.</pos>
+                  </gramGrp>, plerumque <gramGrp>
+                     <gen value="masculinum">m.</gen>
+                  </gramGrp>, <lbl expand="pluralis">Pl.</lbl>
+                  <foreign xml:lang="gez">ክፍላት፡</foreign> et <foreign xml:lang="gez">አክፋል፡</foreign>
+                  <sense n="1" xml:id="D1">
+                     <cit type="translation" xml:lang="la">
+                        <quote>divisio</quote>
+                     </cit>, vox technica arithmeticae, <ref cRef="Abush." loc="11 ">Abush. 11 </ref>
+                     <lbl expand="sequens">seq.</lbl>; <foreign xml:lang="gez">ዘመጽአ፡</foreign> vel
+                        <foreign xml:lang="gez">ዘወጽአ፡ እምክፍል፡</foreign> quod efficitur divisione
+                     (vel: quotus), <ref cRef="Abush." loc="11 ">Abush. 11 </ref>
+                     <lbl expand="sequens">seq.</lbl>
+                  </sense>
+                  <sense n="2" xml:id="D2">
+                     <cit type="translation" xml:lang="la">
+                        <quote>pars</quote>
+                     </cit>: <ref cRef="Joh." loc="19,23">Joh. 19,23</ref>; <ref cRef="Jos." loc="18,6">Jos. 18,6</ref>; <foreign xml:lang="gez">ክፍል፡</foreign> et
+                        <foreign xml:lang="gez">ክፍላት፡</foreign>
+                     <ref cRef="Hen." loc="60,12">Hen. 60,12</ref>; <foreign xml:lang="gez">ኵሉ፡
+                        በበክፍሉ፡ ምግባረ፡ ሰብእ፡</foreign>
+                     <ref cRef="Hen." loc="90,41">Hen. 90,41</ref>; <foreign xml:lang="gez">ሠጠጦ፡
+                     </foreign> (<foreign xml:lang="gez">ለመጽሐፍ፡</foreign>) <foreign xml:lang="gez">በበክፍል፡</foreign>
+                     <ref cRef="Sx. Teq." loc="9">Sx. Teq. 9</ref>; <foreign xml:lang="gez">፬ ክፍለ፡
+                        ዓመት፡</foreign>
+                     <ref cRef="Hen. " loc="82,4">Hen. 82,4</ref>; <ref cRef="Hen." loc="82,11">Hen.
+                        82,11</ref>; pars diei <ref cRef="Hen." loc="72,10">Hen. 72,10</ref>;
+                        <foreign xml:lang="gez">ለዐሠርቱ፡ ክፍል፡ ተሠርዐ፡ ዓለም፡</foreign>
+                     <ref cRef="4 Esr." loc="14,9">4 Esr. 14,9</ref>; <foreign xml:lang="gez">ክፍላት፡</foreign> (in quas regnum divisum est) <ref cRef="Jsp." loc="347">Jsp. p. 347</ref>; de partibus i.e. sectis populi Judaeorum (Pharis.,
+                     Sadd., Ess.) <ref cRef="Jsp." loc="300.">Jsp. p. 300.</ref>
+                  </sense>
+                  <sense n="3" xml:id="D3">
+                     <cit type="translation" xml:lang="la">
+                        <quote>pars rata</quote>
+                     </cit>, <cit type="translation" xml:lang="la">
+                        <quote>portio</quote>
+                     </cit> (quae alicui obtigit), <foreign xml:lang="grc">μερίς</foreign>, <ref cRef="Gen." loc="14,24">Gen. 14,24</ref>; <ref cRef="Gen." loc="43,34">Gen.
+                        43,34</ref>; <ref cRef="Gen." loc="47,27">Gen. 47,27</ref>; <ref cRef="Lev." loc="7,33">Lev. 7,33</ref>; <ref cRef="Lev." loc="7,35">Lev. 7,35</ref>;
+                        <ref cRef="Num. " loc="18,20">Num. 18,20</ref>; <ref cRef="Deut." loc="12,12">Deut. 12,12</ref>; <ref cRef="1 Reg." loc="1,4">1 Reg.
+                     1,4</ref>; <ref cRef="1 Reg." loc="1,5">1 Reg. 1,5</ref>; <ref cRef="1 Reg." loc="9,23">1 Reg. 9,23</ref>; <ref cRef="1 Reg." loc="9,24">1 Reg.
+                        9,24</ref>; <ref cRef="Sir." loc="7,31">Sir. 7,31</ref>; <ref cRef="Sir." loc="14,9">Sir. 14,9</ref>; <foreign xml:lang="gez">እስራኤል፡ ኮነ፡ ክፍለ፡
+                        እግዚአብሔር፡</foreign>
+                     <ref cRef="Sir." loc="17,17">Sir. 17,17</ref>; <foreign xml:lang="gez">ክፍልየ፡
+                        እግዚአብሔር፡</foreign>
+                     <ref cRef="Thren." loc="3,24">Thren. 3,24</ref>; <ref cRef="Ps." loc="118,57">Ps. 118,57</ref>; <foreign xml:lang="gez">ክፍለ፡ ቈናጽል፡ ይኩኑ፡</foreign>
+                     <ref cRef="Ps." loc="62,9">Ps. 62,9</ref>; <foreign xml:lang="gez">ክፍለ፡
+                        ዕፄ፡</foreign>
+                     <ref cRef="Sir." loc="10,11">Sir. 10,11</ref>; <foreign xml:lang="gez">እንዘ፡
+                        ይፌንዉ፡ ክፍለ፡ ለቢጾሙ፡</foreign>
+                     <ref cRef="Esth." loc="9,19">Esth. 9,19</ref>; <ref cRef="2 Esr." loc="18,10">2
+                        Esr. 18,10</ref>; <foreign xml:lang="gez">ዘረከበ፡ ክፍለ፡ በትንሣኤ፡</foreign>
+                     <foreign xml:lang="grc">ὁ ἔχων μέρος ἐν</foreign>
+                     <cit type="translation" xml:lang="la">
+                        <quote>(qui habet partem in)</quote>
+                     </cit>
+                     <ref cRef="Apoc." loc="20,6">Apoc. 20,6</ref>; <foreign xml:lang="gez">አልብከ፡
+                        ክፍለ፡ ምስሌየ፡ </foreign>
+                     <ref cRef="Joh." loc="13,8">Joh. 13,8</ref>;<bibl>
+                        <ptr target="bm:Ludolf1691Commentarius"/> Lud. Comm. hist.</bibl> p. 328 n.
+                     79; <foreign xml:lang="gez">መፍቀሬ፡ አፈድፍዶ፡ ክፍል፡</foreign>
+                     <cit type="translation" xml:lang="la">
+                        <quote>qui portionem praeter alios praecipuam habere amat</quote>
+                     </cit>, <bibl>
+                        <ptr target="bm:Ludolf1691Commentarius"/> Lud. Comm. hist. </bibl>p. 319 n.
+                     60; <foreign xml:lang="gez">ዝንቱ፡ ውእቱ፡ አክፋሊሆሙ፡ </foreign>
+                     <ref cRef="Jos." loc="19,51">Jos. 19,51</ref>; passim <cit type="translation" xml:lang="la">
+                        <quote>sors</quote>
+                     </cit>: <ref cRef="Hen." loc="103,3">Hen. 103,3</ref>; <ref cRef="Hen." loc="67,1">Hen. 67,1</ref>;<bibl>
+                        <ptr target="bm:Ludolf1691Commentarius"/> Lud. Comm. hist.</bibl> p. 495 n.
+                     8.</sense>
+                  <sense n="4" xml:id="D4">
+                     <cit type="translation" xml:lang="la">
+                        <quote>sectio</quote>
+                     </cit>, <cit type="translation" xml:lang="la">
+                        <quote>classis</quote>
+                     </cit>, <cit type="translation" xml:lang="la">
+                        <quote>ordo</quote>
+                     </cit>, <foreign xml:lang="grc">διαιρέσεις</foreign>, <foreign xml:lang="gez">ክፍል፡</foreign> et <foreign xml:lang="gez">ክፍላት፡</foreign>
+                     <ref cRef="1 Par." loc="26,1">1 Par. 26,1</ref>; <ref cRef="1 Par." loc="26,12">1 Par. 26,12</ref>; <ref cRef="1 Par." loc="27,1">1 Par. 27,1</ref>
+                     <lbl expand="sequens">seq.</lbl>; sunt <foreign xml:lang="gez">፫ ክፍለ፡
+                        መሐላ፡</foreign> (tria genera juramenti) F.M. 22,5; F.M. 5,2 (<lbl expand="videas">vid.</lbl>
+                     <foreign xml:lang="gez">ተከፍለ፡</foreign>); <foreign xml:lang="gez">መዓርገ፡ ክህነት፡
+                        ትትከፈል፡ ለኀበ፡ ብዙኃን፡ ክፍላት፡</foreign> F.M. 25,1; in specie <sense n="a" xml:id="D4a">
+                        <cit type="translation" xml:lang="la">
+                           <quote>sectio libri</quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                           <quote>caput</quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                           <quote>capitulum</quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                           <quote>lectio</quote>
+                        </cit>: <foreign xml:lang="gez">ኣስተጋብእ፡ ሎሙ፡ ክፍላተ፡ በዘዚአሁ፡ ጾታሁ፡ እምኵሉ፡ ጉባኤ፡
+                           ቀኖናት፡</foreign> F.M. 1,2; <foreign xml:lang="gez">ክፍል፡ ቀዳማዊ፡ ይትከፈል፡ ኀበ፡
+                           ፫፡ አክፋል፡</foreign> F.N. 24,1; <foreign xml:lang="gez">አክፋል፡ እንተ፡ ትትነበብ፡
+                           ላዕለ፡ መቃብራት፡</foreign>
+                        <ref cRef="Genz. " loc="135">Genz. f. 135</ref>; <foreign xml:lang="gez">ክፍላት፡</foreign> F.N. 12.</sense>
+                     <sense n="b" xml:id="D4b">
+                        <cit type="translation" xml:lang="la">
+                           <quote>pars</quote>
+                        </cit> vel <cit type="translation" xml:lang="la">
+                           <quote>caput</quote>
+                        </cit> materiae tractandae: <foreign xml:lang="gez">እግዚእን፡ አስተጋብአ፡ ሥርዐተ፡
+                           ፍድፋዴ፡ ዓለማውያን፡ ላዕለ፡ ፫ ክፍል፡</foreign> ({hat den Vorzug der <ref cRef="Weltlichen in" loc="3 ">Weltlichen in 3 </ref>Punkten
+                        zusammengefaßt}) <ref cRef="Phlx." loc="4,">Phlx. 4,</ref> al.</sense>
+                  </sense>
+               </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

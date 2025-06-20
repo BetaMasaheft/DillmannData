@@ -1,0 +1,108 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng"
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="gez">ውራጅ</title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref></p>
+            <p><ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref></p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+         <listPrefixDef>
+            <prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="MK" when="2022-03-16">added entry</change>
+         <change who="MK" when="2022-04-14">added examples</change>
+         <change who="MK" when="2022-07-14">added variant and examples</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L36905ebb6bbb4252b407cdcc09b3a159" n="12776">
+               <form><foreign xml:lang="gez">ውራጅ</foreign></form>
+               <sense xml:id="Tmain" xml:lang="en" source="#traces"><cit type="transcription" xml:lang="gez">
+                     <t:quote xmlns:t="http://www.tei-c.org/ns/1.0">wǝrrāǧ</t:quote>
+                  </cit>, <foreign xml:lang="gez">ውራጂ፡</foreign>
+                  <cit type="transcription" xml:lang="gez">
+                     <t:quote xmlns:t="http://www.tei-c.org/ns/1.0">wǝrrāǧi</t:quote>
+                  </cit>, <foreign xml:lang="gez">ውራድ፡</foreign>
+                  <cit type="transcription" xml:lang="gez">
+                     <t:quote xmlns:t="http://www.tei-c.org/ns/1.0">wǝrrād</t:quote>
+                  </cit>
+                  <gramGrp><pos expand="Substantivum">subst.</pos></gramGrp> meaning uncertain,
+                  discarded garment which is no longer worn but is given for charity or worn only at
+                  home <bibl><ptr target="bm:Guidi1901Vocabolario"/><citedRange unit="page">
+                        568–569</citedRange></bibl>
+                  <foreign xml:lang="gez">ፉጠት፡ ዘሓሪር፡ ፭ ውራድ፡ [a margine illeggibile] ፲፭ ልብሰ፡ አርዋ፡ ፩
+                     ዘነቦ፡ ፬</foreign> ‘<cit type="translation" xml:lang="it">
+                     <t:quote xmlns:t="http://www.tei-c.org/ns/1.0">5 fasce di seta, 15 werad, 1
+                        veste di tessuto di seta, 4 zanabo,</t:quote>
+                  </cit>’ <bibl><ptr target="bm:Bausi1994ManoscrittiEritreaParteI"/><citedRange unit="page"> 43 VI l. 20–21 (ed.), 36 l. 17–18 (tr.)</citedRange></bibl>;
+                     <foreign xml:lang="gez">ፉጠት፡ ዘሐሪር፡ ፬። ወቀሚስ፡ ውራድ፡ ፱[፡]</foreign> ‘<cit type="translation" xml:lang="it">
+                     <t:quote xmlns:t="http://www.tei-c.org/ns/1.0">4 fasce di seta, 9 tuniche
+                        werād,</t:quote>
+                  </cit>’ <bibl><ptr target="bm:Bausi1994ManoscrittiEritreaParteI"/><citedRange unit="page"> 64 l. 6 (ed.), 53 l. 12 (tr.)</citedRange></bibl>; <foreign xml:lang="gez">እንበለ፡ መምሕር፡ ዘኃረይዎ፡ መነኮሳተ፡ ደብር፡ ውለውእቱ፡ መምሕር፡ ይሠይሞ፡ ንጉሥ፡ በአክሊል፡
+                     ወውራጅ፡</foreign> ‘<cit type="translation" xml:lang="fr">
+                     <t:quote xmlns:t="http://www.tei-c.org/ns/1.0">hormis le supérieur [du
+                        couvent], que les moines du couvent choisissaient et que le roi nommait en
+                        lui donnant la couronne et le warrāǧ </t:quote>
+                  </cit>’ <bibl><ptr target="bm:ContiRossini1909LiberT"/><citedRange unit="page"> 46
+                        l. 2–4 (ed.)</citedRange></bibl>, <bibl><ptr target="bm:ContiRossini1910LiberV"/><citedRange unit="page"> 55 l. 8–10
+                        (tr.)</citedRange></bibl>; <foreign xml:lang="gez">እስትቡሌ፡ {Ms. Éth.
+                     d’Abbadie 97 f. 95r has እስትሌ፡} ውራጅ፡ ቀቢስ፡ ፩።</foreign> ‘<cit type="translation" xml:lang="fr">
+                     <t:quote xmlns:t="http://www.tei-c.org/ns/1.0">une aube usée (?) de
+                        Constantinople (?) </t:quote>
+                  </cit>’ <bibl><ptr target="bm:ContiRossini1909LiberT"/><citedRange unit="page">71
+                        l. 12–13 (ed.)</citedRange></bibl>, <bibl><ptr target="bm:ContiRossini1910LiberV"/><citedRange unit="page"> 85 l. 26–27
+                        (tr.)</citedRange></bibl>; <foreign xml:lang="gez">መስቱብ፡ ውራጂ፡ ቀቢስ፡
+                     ፩።</foreign> ‘<cit type="translation" xml:lang="fr">
+                     <t:quote xmlns:t="http://www.tei-c.org/ns/1.0">une aube useé (?) mak{sic}tub
+                     </t:quote>
+                  </cit>’ <bibl><ptr target="bm:ContiRossini1909LiberT"/><citedRange unit="page"> 71
+                        l. 21 (ed.)</citedRange></bibl>, <bibl><ptr target="bm:ContiRossini1910LiberV"/><citedRange unit="page"> 86 l. 3
+                        (tr.)</citedRange></bibl>
+               </sense>
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

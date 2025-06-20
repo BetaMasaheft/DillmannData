@@ -1,0 +1,129 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ሳንይ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L33596ce7263640c6843a4e87bcda6437" n="2837">
+               <form>
+                  <foreign xml:lang="gez">ሳንይ</foreign>
+               </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain">
+                  <gramGrp>
+                     <pos expand="adjectivum">adj.</pos>
+                  </gramGrp> (<foreign xml:lang="ar">ثَانٍ</foreign>), nonnisi in <gramGrp>
+                     <gen value="femininus">fem.</gen>
+                  </gramGrp>
+                  <foreign xml:lang="gez">ሳኒት፡</foreign>, passim <foreign xml:lang="gez">ሰኒት፡</foreign>, usitatur: <cit type="translation" xml:lang="la">
+                     <quote>postera dies</quote>
+                  </cit> vel <cit type="translation" xml:lang="la">
+                     <quote>nox</quote>
+                  </cit>, <cit type="translation" xml:lang="la">
+                     <quote>postriduum</quote>
+                  </cit>: <foreign xml:lang="gez">በሳኒት፡ ዕለት፡</foreign>
+                  <ref cRef="Num." loc="7,18">Num. 7,18</ref>; <ref cRef="Jos." loc="6,14">Jos.
+                     6,14</ref>; <ref cRef="Jud." loc="20,24">Jud. 20,24</ref>; <ref cRef="Jud. " loc="20,25">Jud. 20,25</ref>; etiam omissa voce <foreign xml:lang="gez">ዕለት፡</foreign>, ut: <foreign xml:lang="gez">ለለ፡ ይጸብሕ፡ ሰኒት፡</foreign>
+                  <ref cRef="Sx. Jac." loc="8 ">Sx. Jac. 8 </ref>Enc.; <foreign xml:lang="gez">እምሳኒተ፡ ሰንበት፡</foreign>
+                  <ref cRef="Lev." loc="23,15">Lev. 23,15</ref>; <foreign xml:lang="gez">በሳኒተ፡ ዕለት፡ </foreign>
+                  <ref cRef="Jos." loc="10,32">Jos. 10,32</ref>; <foreign xml:lang="gez">በሳኒተ፡
+                     በልዐ፡</foreign>
+                  <ref cRef="Jos." loc="5,12">Jos. 5,12</ref>; <foreign xml:lang="gez">በሳኒታ፡
+                     ለቀዳሚት፡</foreign>
+                  <ref cRef="Lev." loc="23,11">Lev. 23,11</ref>. – At plerumque suff. <cit type="translation" xml:lang="la">
+                     <quote>â</quote>
+                  </cit> subjunctum habet: <foreign xml:lang="gez">ሳኒታ፡</foreign>
+                  <cit type="translation" xml:lang="la">
+                     <quote>postera</quote>
+                  </cit> (<cit type="translation" xml:lang="la">
+                     <quote>ejus dies</quote>
+                  </cit>): <foreign xml:lang="gez">ኢታአምር፡ ዘትወልድ፡ ሳኒታ፡</foreign>
+                  <ref cRef="Prov." loc="3,28">Prov. 3,28</ref>; <foreign xml:lang="gez">አመ፡
+                     ሳኒታ፡</foreign>
+                  <ref cRef="Ex." loc="21,21">Ex. 21,21</ref>; <foreign xml:lang="gez">በሳኒታ፡ </foreign>
+                  <cit type="translation" xml:lang="la">
+                     <quote>postridie</quote>
+                  </cit>
+                  <ref cRef="1 Reg." loc="11,11">1 Reg. 11,11</ref>; <ref cRef="2 Par." loc="7,9">2
+                     Par. 7,9</ref>; <ref cRef="Jer." loc="20,3">Jer. 20,3</ref>; <ref cRef="Judith" loc="7,1">Judith 7,1</ref>; <ref cRef="Matth. " loc="27,62">Matth. 27,62</ref>;
+                     <cit type="translation" xml:lang="la">
+                     <quote>postera nocte</quote>
+                  </cit>
+                  <ref cRef="4 Esr." loc="10,74">4 Esr. 10,74</ref>; <foreign xml:lang="gez">አመ፡
+                     ሳኒታ፡ ሌሊት፡ </foreign>
+                  <ref cRef="4 Esr." loc="11,1">4 Esr. 11,1</ref>; <foreign xml:lang="gez">በሳኒታ፡
+                     ዕለት፡</foreign>
+                  <ref cRef="4 Esr." loc="10,4">4 Esr. 10,4</ref>; <ref cRef="Kuf. " loc="21">Kuf.
+                     21</ref>; <ref cRef="Judith" loc="7,6">Judith 7,6</ref>; <ref cRef="Ex." loc="2,13">Ex. 2,13</ref>; <foreign xml:lang="gez">በሳኒታ፡ ዕለት፡ እምዘ፡
+                     ቀተለ፡</foreign>
+                  <ref cRef="Jer. " loc="48,4">Jer. 48,4</ref>; <foreign xml:lang="gez">በዕለት፡
+                     ሳኒታ፡</foreign>
+                  <ref cRef="Kuf." loc="2">Kuf. 2</ref>; <foreign xml:lang="gez">አመ፡ ሳኒታ፡ ዕለተ፡
+                     በዓል፡</foreign>
+                  <ref cRef="Esth." loc="7,2">Esth. 7,2</ref>. Deinde voci <foreign xml:lang="gez">ሳኒታ፡ </foreign> tamquam statui constr. nomina vel pronomina subjungunt:
+                     <foreign xml:lang="gez">በሳኒታ፡ ፋስካ፡</foreign>
+                  <foreign xml:lang="grc">τῇ ἐπαύριον τοῦ πάσχα </foreign>
+                  <ref cRef="Num." loc="33,3">Num. 33,3</ref>; <foreign xml:lang="gez">በሳኒታ፡
+                     ሠርቅ፡</foreign>
+                  <foreign xml:lang="grc">τῇ ἐπαύριον τοῦ μηνός</foreign>
+                  <ref cRef="1 Reg." loc="20,27">1 Reg. 20,27</ref>; <foreign xml:lang="gez">በሌሊት፡
+                     ዘይፈቅዱ፡ በሳኒታሃ፡ ቍርባነ፡ ይንሥኡ፡</foreign> F.M. 10,3; <ref cRef="Lev." loc="23,11">Lev. 23,11</ref>; <ref cRef="Lev." loc="23,16">Lev. 23,16</ref>
+                  <lbl expand="annotatio">ann.</lbl>
+               </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

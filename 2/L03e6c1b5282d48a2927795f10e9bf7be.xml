@@ -1,0 +1,85 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ግእዘ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="LB" when="2018-05-04">root</change>
+        </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L03e6c1b5282d48a2927795f10e9bf7be" n="8531">
+               <form>
+                  <foreign xml:lang="gez">ግእዘ</foreign>
+               <rs type="root"/>
+                    </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain"> (etiam <foreign xml:lang="gez">ግዕዘ፡</foreign>) <subc>I,1</subc> [ni fallor, emollitum e <foreign xml:lang="he">קוּץ קוּט</foreign> <foreign xml:lang="gez">ቈጥዐ፡</foreign>, sicut <foreign xml:lang="syr">ܓܥܰܨ ܓܥܻܝܙܳܐ</foreign>; <lbl expand="videas">vid.</lbl> etiam, <foreign xml:lang="gez">ገየጸ፡</foreign>] <gramGrp> <pos expand="Subjunctivus">Subj.</pos> </gramGrp> <foreign xml:lang="gez">ይግአዝ፡</foreign> <sense n="1" xml:id="D1"> <cit type="translation" xml:lang="la">
+                                <quote> fastidire </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> indignari </quote>
+                            </cit>, <lbl expand="cum">c.</lbl> <gramGrp> <case value="accusativus">Acc.</case> </gramGrp>: <foreign xml:lang="gez">ገአዝኩ፡ ሕይወትየ፡</foreign> <ref cRef="Kuf." loc="98 ">Kuf. p. 98 </ref>(<foreign xml:lang="he">קצתי</foreign> apud Hebr., <foreign xml:lang="grc">προσώχθικα</foreign> apud <ref cRef="LXX Gen." loc="27,46">LXX Gen. 27,46</ref>); <foreign xml:lang="grc">χολᾶν τινί</foreign> <ref cRef="Joh." loc="7,23">Joh. 7,23</ref> <lbl expand="romanae editionis">rom.</lbl>; <foreign xml:lang="grc">πικραίνεσθαι</foreign> <ref cRef="Col." loc="3,19">Col. 3,19</ref> Platt. <cb n="1183" xml:id="c1183"/> </sense> <sense n="2" xml:id="D2"> <cit type="translation" xml:lang="la">
+                                <quote> improbare </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> vituperare </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> reprehendere </quote>
+                            </cit>, <lbl expand="cum">c.</lbl> <gramGrp> <case value="accusativus">Acc.</case> </gramGrp> rei vel <lbl expand="persona">pers.</lbl>: <foreign xml:lang="gez">ለምንት፡ እንከ፡ ትግእዝ፡ ፈቃደ፡ እግዚአብሔር፡</foreign> <foreign xml:lang="grc">ἀπαναίνῃ</foreign> <ref cRef="Sir." loc="41,4">Sir. 41,4</ref>; <foreign xml:lang="grc">κρίνειν</foreign> <ref cRef="Rom." loc="2,1">Rom. 2,1</ref>; <foreign xml:lang="gez">ግእዝናሆሙ፡</foreign> <ref cRef="Rom." loc="3,9">Rom. 3,9</ref>; <ref cRef="Rom." loc="14,3">Rom. 14,3</ref>; <ref cRef="Rom." loc="14,4">Rom. 14,4</ref>; <ref cRef="Rom." loc="14,13">Rom. 14,13</ref>; <ref cRef="Jac." loc="4,11">Jac. 4,11</ref>; <ref cRef="Col." loc="2,16">Col. 2,16</ref>; <foreign xml:lang="gez">ምንተ፡ ረከቡ፡ በላዕሌየ፡ በዘይግእዙኒ፡</foreign> <ref cRef="Jer." loc="2,5">Jer. 2,5</ref>; <foreign xml:lang="gez">ወአልቦ፡ እምውስቴቶሙ፡ ዘግእዘ፡</foreign> <foreign xml:lang="grc">ἐνεκάλεσεν</foreign> <ref cRef="Sir." loc="46,19">Sir. 46,19</ref>; <lbl expand="cum">c.</lbl> <gramGrp> <case value="accusativus">Acc.</case> </gramGrp> rei et <foreign xml:lang="gez">በላዕለ፡</foreign> pers. <ref cRef="Rom." loc="2,1">Rom. 2,1</ref>.</sense> <sense n="3" xml:id="D3"> <cit type="translation" xml:lang="la">
+                                <quote> exprobrare </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> conviciari </quote>
+                            </cit>, <lbl expand="cum">c.</lbl> <gramGrp> <case value="accusativus">Acc.</case> </gramGrp>: <foreign xml:lang="gez">ግእዘ፡ ጽንዐ፡ ልቦሙ፡</foreign> <foreign xml:lang="grc">ὠνείδισε</foreign> <ref cRef="Marc." loc="16,14">Marc. 16,14</ref>; <foreign xml:lang="gez">ሶበ፡ ይግእዘከ፡ ዐርክከ፡</foreign> <ref cRef="Prov." loc="25,8">Prov. 25,8</ref>; <foreign xml:lang="gez">ግእዞ፡ ሕዝብ፡ ለሙሴ፡</foreign> <foreign xml:lang="grc">ἐλοιδορεῖτο</foreign> <ref cRef="Ex. " loc="17,2">Ex.  17,2</ref>; <ref cRef="Ex." loc="17,7">Ex. 17,7</ref>.</sense> </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,73 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ድኩም </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="MK" when="2022-12-09">added compound </change></revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L224e119ea8c249cbaffaf84a6e919e7b" n="8100">
+               <form>
+                  <foreign xml:lang="gez">ድኩም</foreign>
+               </form>
+               <sense xml:id="Dmain" xml:lang="la" source="#dillmann"> <gramGrp> <pos expand="participium">part.</pos> </gramGrp> (passim <foreign xml:lang="gez">ድኵም፡</foreign>) <sense n="1" xml:id="D1"> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> tener </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> mollis </t:quote></cit>: <foreign xml:lang="gez">ድኩማን፡ ደቂቅ፡</foreign> <foreign xml:lang="grc">ἁπαλώτερα</foreign> <ref cRef="Gen." loc="33,13">Gen. 33,13</ref>; de ramo arboris <ref cRef="Matth." loc="24,32">Matth. 24,32</ref>; <foreign xml:lang="gez">ልሳን፡ ድክምት፡</foreign> <foreign xml:lang="grc">μαλακή</foreign> <ref cRef="Prov." loc="25,15">Prov. 25,15</ref>; <foreign xml:lang="grc">τρυφερός</foreign> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> delicatus </t:quote></cit> <foreign xml:lang="gez">ድክምት፡</foreign> <ref cRef="Deut." loc="28,56">Deut. 28,56</ref> (<lbl expand="videas">vid.</lbl> <foreign xml:lang="gez">ለምለም፡</foreign> <ref cRef="Deut." loc="28,54">Deut. 28,54</ref>).
+</sense> <sense n="2" xml:id="D2"> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> lassus </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> fessus </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> languidus </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> infirmus </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> debilis </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> imbecillus </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> invalidus </t:quote></cit>: <foreign xml:lang="gez">እስመ፡ ድኩማን፡ እሙንቱ፡ እስመ፡ ፈድፋደ፡ ሰትዩ፡</foreign> <ref cRef="Judith" loc="13,1">Judith 13,1</ref>; <foreign xml:lang="grc">νωθρός</foreign> <ref cRef="Sir." loc="11,12">Sir. 11,12</ref>; <foreign xml:lang="gez">ድኩማን፡ እምኀበ፡ እግዚአብሔር፡</foreign> <foreign xml:lang="grc">ἐκλελυμένοι</foreign> <ref cRef="Jes." loc="51,20">Jes. 51,20</ref>; <foreign xml:lang="grc">ἀδύνατοι</foreign> <foreign xml:lang="gez">ድኩማን፡</foreign> <ref cRef="Job " loc="24,4">Job  24,4</ref>; <ref cRef="Joel" loc="4,10">Joel 4,10</ref>; <foreign xml:lang="gez">ሖሩ፡ ድኩማኒሆሙ፡</foreign> <foreign xml:lang="grc">ἐν οὐκ ἰσχύϊ</foreign> <ref cRef="Thren." loc="1,6">Thren. 1,6</ref>; <foreign xml:lang="grc">ἀσθενής</foreign> <ref cRef="Job" loc="4,3">Job 4,3</ref>; <ref cRef="Job" loc="5,15">Job 5,15</ref>; <ref cRef="1 Reg." loc="2,4">1 Reg. 2,4</ref>; <ref cRef="Prov." loc="24,73">Prov. 24,73</ref>; <ref cRef="Matth." loc="26,41">Matth. 26,41</ref>; <ref cRef="Rom." loc="6,19">Rom. 6,19</ref>; <ref cRef="4 Esr." loc="7,11">4 Esr. 7,11</ref>; <ref cRef="1 Petr." loc="2,11">1 Petr. 2,11</ref> (gloss.); <foreign xml:lang="gez">ላእከ፡ ዚአሁ፡ ድኩም፡</foreign> <ref cRef="Sx. Ter" loc="16 ">Sx. Ter 16 </ref>Enc.; <foreign xml:lang="gez">ልደትኪ፡ እማሕፀነ፡ ድክምት፡ ሥጋ፡</foreign> <ref cRef="Sx. Genb." loc="1 ">Sx. Genb. 1 </ref>Enc.; <foreign xml:lang="gez">መንግሥት፡ ድኩም፡</foreign> <ref cRef="Hez. " loc="17,14">Hez.  17,14</ref>; de fide: <foreign xml:lang="gez">ዘድኩም፡ ሃይማኖት፡</foreign> <ref cRef="Rom." loc="14,1">Rom. 14,1</ref>; <foreign xml:lang="grc">τὰ ἀσθενῆ στοιχεῖα</foreign> <ref cRef="Gal." loc="4,9">Gal. 4,9</ref>; de oculis: <foreign xml:lang="gez">አዕይንቲሃ፡ ድኩም፡</foreign> <ref cRef="Kuf." loc="28">Kuf. 28</ref>; de medicamento minus efficace: <foreign xml:lang="gez">ፈውስ፡ ድኩም፡</foreign> <ref cRef="Chrys. ho." loc="17.">Chrys. ho. 17.</ref> 
+</sense> </sense>
+               
+            <sense xml:id="Tmain" xml:lang="en" source="#traces"><cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">dǝkum</t:quote></cit> <sense n="G"> <foreign xml:lang="gez">ድኩመ፡ ልብ፡</foreign> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">dǝkuma lǝbb</t:quote></cit> «<cit type="translation" xml:lang="fr"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">découragé</t:quote></cit>» <foreign xml:lang="gez">ወዓዲ፡ ሮምሎስ፡ ፈርሀ፡ ወኮነ፡ ድኩመ፡ ልብ፡ ወእምብዝኀ፡ ፍርሃቱ፡ ተጠየቀ፡ እምኀበ፡ ማእምራን፡ ወመናፍስት፡ ርኩሳን።</foreign> <bibl><ptr target="bm:Zotenberg1883JohnNikiu"/><citedRange unit="page"> 175</citedRange></bibl>, <lbl expand="videas">vid.</lbl> <ref type="external" target="https://betamasaheft.eu/Dillmann/lemma/Ld4ac6e6d36b544f29d4db3578fd6037d"><foreign xml:lang="gez">ልብ፡</foreign></ref> <lb/>
+ <bibl><ptr target="bm:Grebaut1952SuppLexicon"/><citedRange unit="page"> 33</citedRange></bibl> 
+</sense> </sense></entry>
+         </div>
+      </body>
+   </text>
+</TEI>

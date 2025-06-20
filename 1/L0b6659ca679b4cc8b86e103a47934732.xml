@@ -1,0 +1,102 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> አንበጣ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L0b6659ca679b4cc8b86e103a47934732" n="4961">
+               <form>
+                  <foreign xml:lang="gez">አንበጣ</foreign>
+               </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain">
+                  <gramGrp>
+                     <pos expand="Substantivum">subst.</pos>
+                  </gramGrp>, plerumque <gramGrp>
+                     <gen value="masculinum">m.</gen>
+                  </gramGrp>, <lbl expand="singularis">sing.</lbl> et <lbl expand="collatio, -is vel collectivum, -e">coll.</lbl>, <lbl expand="pluralis">Pl.</lbl>
+                  <foreign xml:lang="gez">አናብጥ፡</foreign> [amh. <lbl expand="idem">id.</lbl>] <cit type="translation" xml:lang="la">
+                     <quote>locusta</quote>
+                  </cit>, <cit type="translation" xml:lang="la">
+                     <quote>locustae</quote>
+                  </cit> (sec. Lud.: locusta aethiopica maxima; <lbl expand="videas">vid.</lbl>
+                  <bibl>
+                     <ptr target="bm:Ludolf1681Historia"/>
+                     <bibl>
+                        <ptr target="bm:Ludolf1681Historia"/>Lud. hist. </bibl>
+                  </bibl>Ae. <subc>I,1</subc>3 n. 16, et <ref cRef="Harris II. Anh." loc="38">Harris II. Anh. p.
+                     38</ref>); <sense n="a" xml:id="Da">
+                     <lbl expand="singularis">sing.</lbl>, <ref cRef="Lev." loc="11,22">Lev.
+                        11,22</ref>; <ref cRef="Koh." loc="12,5">Koh. 12,5</ref>; <ref cRef="Ex." loc="10,19">Ex. 10,19</ref>.</sense>
+                  <sense n="b" xml:id="Db">
+                     <lbl expand="collatio, -is vel collectivum, -e">coll.</lbl>: <ref cRef="Ex." loc="10,4">Ex. 10,4</ref>
+                     <lbl expand="sequens">seq.</lbl>; <ref cRef="Deut." loc="28,38">Deut.
+                        28,38</ref>; <ref cRef="Kuf." loc="48">Kuf. 48</ref>; <ref cRef="Jud." loc="6,5">Jud. 6,5</ref>; <ref cRef="3 Reg." loc="8,37">3 Reg. 8,37</ref>
+                        (<foreign xml:lang="grc">βροῦχος</foreign>); <ref cRef="2 Par." loc="6,28">2
+                        Par. 6,28</ref>; <ref cRef="Jes." loc="33,4">Jes. 33,4</ref>; <ref cRef="Jes." loc="40,22">Jes. 40,22</ref>; <ref cRef="Jer." loc="26,23">Jer.
+                        26,23</ref>; <ref cRef="Jer." loc="28,14">Jer. 28,14</ref>; <ref cRef="Joel" loc="1,4">Joel 1,4</ref>; <ref cRef="Joel" loc="2,25">Joel 2,25</ref>; <ref cRef="Am." loc="7,1">Am. 7,1</ref>; <ref cRef="Nah." loc="3,15">Nah.
+                        3,15</ref>; <ref cRef="Prov." loc="24,62">Prov. 24,62</ref>; <ref cRef="Ps. " loc="77,51">Ps. 77,51</ref>; <ref cRef="Ps." loc="104,32">Ps.
+                        104,32</ref>; <ref cRef="2 Par." loc="7,13">2 Par. 7,13</ref>; <ref cRef="Sir." loc="43,17">Sir. 43,17</ref>; <ref cRef="Judith" loc="2,20">Judith 2,20</ref>; <ref cRef="Sap." loc="16,9">Sap. 16,9</ref>; <ref cRef="Apoc." loc="9,3">Apoc. 9,3</ref>; <ref cRef="Apoc. " loc="9,7">Apoc.
+                        9,7</ref>; <ref cRef="Marc." loc="1,6">Marc. 1,6</ref>; <ref cRef="Matth." loc="3,4">Matth. 3,4</ref>; <ref cRef="Clem." loc="249.">Clem. f. 249.</ref>
+                  </sense>
+                  <sense n="c" xml:id="Dc">
+                     <lbl expand="pluralis">Pl.</lbl>
+                     <ref cRef="Num." loc="13,33">Num. 13,33</ref>; <ref cRef="Apoc." loc="9,7">Apoc. 9,7</ref> Platt. Aliae locustae species sunt <foreign xml:lang="gez">ደጎብያ፡</foreign>, <foreign xml:lang="gez">አናኵዕ፡</foreign>.</sense>
+               </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,90 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ፍርሀት </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="AE" when="2018-07-14">Kosmetisches,</change>
+        </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="Lc5640887a98f44f39c65631804239085" n="9890">
+               <form>
+                  <foreign xml:lang="gez">ፍርሀት</foreign>
+               </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain"> (etiam <foreign xml:lang="gez">ፍርሃት፡</foreign>) <gramGrp> <pos expand="nomen actionis">n. act.</pos> </gramGrp> et <gramGrp> <pos expand="Substantivum">subst.</pos> </gramGrp>, <gramGrp> <gen value="femininus">fem.</gen> </gramGrp> et <gramGrp> <gen value="not found">m.</gen> </gramGrp>, <lbl expand="pluralis">Pl.</lbl> <foreign xml:lang="gez">ፍርሀታት፡</foreign> <cit type="translation" xml:lang="la">
+                            <quote> timor </quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                            <quote> metus </quote>
+                        </cit>, (<cit type="translation" xml:lang="la">
+                            <quote> terror </quote>
+                        </cit>), <cit type="translation" xml:lang="la">
+                            <quote> formido </quote>
+                        </cit>, <ref cRef="Marc." loc="4,41">Marc. 4,41</ref>; <ref cRef="Luc." loc="2,9">Luc. 2,9</ref>; <ref cRef="Jon." loc="1,16">Jon. 1,16</ref>; <ref cRef="Ps." loc="2,11">Ps. 2,11</ref>; <ref cRef="Ps. " loc="54,6">Ps.  54,6</ref>; <ref cRef="Ex." loc="15,16">Ex. 15,16</ref>; <ref cRef="Ex." loc="23,27">Ex. 23,27</ref>; <ref cRef="Jes." loc="7,25">Jes. 7,25</ref>; <ref cRef="Jes." loc="19,16">Jes. 19,16</ref>; <foreign xml:lang="gez">ፍርሀተ፡ ልብ፡</foreign> <ref cRef="Sir." loc="40,5">Sir. 40,5</ref>; <ref cRef="Hen." loc="1,5">Hen. 1,5</ref>; <ref cRef="Hen." loc="13,3">Hen. 13,3</ref>; <ref cRef="Matth." loc="28,8">Matth. 28,8</ref>; <ref cRef="1 Joh." loc="4,18">1 Joh. 4,18</ref>; <ref cRef="2 Cor." loc="7,5">2 Cor. 7,5</ref>; <ref cRef="2 Cor. " loc="7,15">2 Cor.  7,15</ref>; <foreign xml:lang="gez">በእንተ፡ ፍርሀት፡</foreign> <ref cRef="Apoc." loc="18,15">Apoc. 18,15</ref>, al. crebro; <lbl expand="construitur cum">c.c.</lbl> <foreign xml:lang="gez">እምነ፡</foreign>, ut: <foreign xml:lang="gez">ፍርሀት፡ እምንዴት፡</foreign> <foreign xml:lang="grc">δέος πενίας</foreign> <ref cRef="Chrys. Ta." loc="34,">Chrys. Ta. 34,</ref> <lbl expand="cum">c.</lbl> <foreign xml:lang="gez">እምቅድመ፡</foreign> <ref cRef="Deut." loc="2,25">Deut. 2,25</ref>; vel per st. constr.: <foreign xml:lang="gez">ፍርሀተ፡ ሞት፡</foreign> <ref cRef="Sir." loc="40,5">Sir. 40,5</ref>; <ref cRef="Hebr." loc="2,15">Hebr. 2,15</ref>; <foreign xml:lang="gez">እምፍርሀቱ፡ ተሀውኩ፡</foreign> <ref cRef="Matth." loc="28,4">Matth. 28,4</ref>; <ref cRef="Joh." loc="7,13">Joh. 7,13</ref>; <ref cRef="Joh." loc="19,38">Joh. 19,38</ref>; <foreign xml:lang="gez">ፈኑ፡ ፍርሀተከ፡ ላዕለ፡ ኵሉ፡ አሕዛብ፡</foreign> <cb n="1353" xml:id="c1353"/> <ref cRef="Sir." loc="33,2">Sir. 33,2</ref>; <foreign xml:lang="gez">ፍርሀተ፡ ዚአሁ፡</foreign> <ref cRef="Judith" loc="2,28">Judith 2,28</ref>; <ref cRef="Hez." loc="32,23">Hez. 32,23</ref>; <ref cRef="Gen." loc="35,5">Gen. 35,5</ref>; <ref cRef="Deut." loc="11,25">Deut. 11,25</ref>; <ref cRef="Jos." loc="2,9">Jos. 2,9</ref>. <sense n="a" xml:id="Da"> <cit type="translation" xml:lang="la">
+                                <quote> timor </quote>
+                            </cit> vel <cit type="translation" xml:lang="la">
+                                <quote> reverentia </quote>
+                            </cit>, Dei: <foreign xml:lang="gez">ፍርሀተ፡ እግዚአብሔር፡</foreign> (i.q. <foreign xml:lang="gez">ፈሪሀ፡ እግዚአብሔር፡</foreign>) <ref cRef="Sir." loc="9,16">Sir. 9,16</ref>; <ref cRef="Sir. " loc="16,2">Sir.  16,2</ref>; <ref cRef="Sir." loc="27,3">Sir. 27,3</ref>; <foreign xml:lang="gez">መንፈሰ፡ ፍርሀተ፡ እግዚአብሔር፡</foreign> <ref cRef="Jes." loc="11,3">Jes. 11,3</ref>; <foreign xml:lang="gez">እወዲ፡ ፍርሀትየ፡ ውስተ፡ ልቦሙ፡</foreign> <ref cRef="Jes." loc="39,40">Jes. 39,40</ref>; <ref cRef="Gen." loc="20,11">Gen. 20,11</ref>; <ref cRef="Ex." loc="20,20">Ex. 20,20</ref>; <ref cRef="Rom." loc="3,18">Rom. 3,18</ref> al.; hominum: <ref cRef="Rom." loc="13,7">Rom. 13,7</ref>; <foreign xml:lang="gez">ፍርሀተ፡ ገጽ፡</foreign> (&gt;deMenschenfurcht&gt;) F.N. 43,3.</sense> <sense n="b" xml:id="Db"> <cit type="translation" xml:lang="la">
+                                <quote> id quod timetur </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> formido </quote>
+                            </cit>: <ref cRef="Gen." loc="31,53">Gen. 31,53</ref>; <foreign xml:lang="gez">እሬስየኪ፡ ፍርሀተ፡ ለዘ፡ ርእየኪ፡</foreign> Lud. e Vit. Barb.</sense> <sense n="c" xml:id="Dc"> <lbl expand="pluralis">Pl.</lbl> <foreign xml:lang="gez">ፍርሀታት፡</foreign> <cit type="translation" xml:lang="la">
+                                <quote> terrores </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> pericula </quote>
+                            </cit>: <ref cRef="Phlx." loc="4">Phlx. 4</ref>; <foreign xml:lang="gez">ፍርሀታት፡ ወምንዳቤያት፡</foreign> <ref cRef="Phlx." loc="46.">Phlx. 46.</ref> </sense> </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,133 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ኪን </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="Lfe7ecf0868314cd8b78f34321aa70a93" n="6336">
+               <form>
+                  <foreign xml:lang="gez">ኪን</foreign>
+               </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain">
+                  <gramGrp>
+                     <pos expand="Substantivum">subst.</pos>
+                  </gramGrp>, <gramGrp>
+                     <gen value="masculinum">m.</gen>
+                  </gramGrp>, <sense n="1" xml:id="D1">
+                     <cit type="translation" xml:lang="la">
+                        <quote>ars</quote>
+                     </cit>, <cit type="translation" xml:lang="la">
+                        <quote>ars operosa</quote>
+                     </cit>, <cit type="translation" xml:lang="la">
+                        <quote>opificium</quote>
+                     </cit>, <cit type="translation" xml:lang="la">
+                        <quote>artificium</quote>
+                     </cit>: <foreign xml:lang="grc">τέχνη</foreign>
+                     <ref cRef="Apoc." loc="18,22">Apoc. 18,22</ref>; <foreign xml:lang="gez">ዘእንበለ፡
+                        ኪን፡ </foreign>
+                     <ref cRef="Sap." loc="14,4">Sap. 14,4</ref>; <foreign xml:lang="gez">በሥነ፡
+                        ኪኑ፡</foreign>
+                     <foreign xml:lang="grc">εὐμαθῶς</foreign>
+                     <ref cRef="Sap." loc="13,11">Sap. 13,11</ref>; opificis <ref cRef="Act." loc="18,3">Act. 18,3</ref>
+                     <lbl expand="romanae editionis">rom.</lbl>; <foreign xml:lang="gez">ኪነ፡
+                        ዕንቍ፡</foreign>
+                     <ref cRef="Ex." loc="35,33">Ex. 35,33</ref>; <foreign xml:lang="gez">ዘቦቱ፡ ኪነ፡
+                        በወርቅ፡</foreign>
+                     <ref cRef="1 Par." loc="22,15">1 Par. 22,15</ref>; <ref cRef="1 Par." loc="22,16">1 Par. 22,16</ref>; <foreign xml:lang="gez">ኢትትማከር፡ ምስለ፡ አብድ፡
+                        እንበይነ፡ ኪን፡</foreign>
+                     <ref cRef="Sir." loc="37,11">Sir. 37,11</ref>; <foreign xml:lang="gez">ከመ፡
+                        ይጥበቡ፡ በኪኖሙ፡ </foreign>
+                     <ref cRef="Sir." loc="38,34">Sir. 38,34</ref>; <ref cRef="Sir." loc="39,1">Sir.
+                        39,1</ref>; <foreign xml:lang="gez">ኪን፡ ዘሕንጸት፡ </foreign>
+                     <cit type="translation" xml:lang="la">
+                        <quote>architectura</quote>
+                     </cit>
+                     <ref cRef="Jsp." loc="330">Jsp. p. 330</ref>; monachorum alii <foreign xml:lang="gez">ያአምሩ፡ ኪነ፡ ወተግባረ፡</foreign> <ref cRef="Gad. Za Mich.">Gad. Za Mich.</ref> ; <foreign xml:lang="gez">ተምህረ፡ ኪነ፡ እድ፡ ለሲሳየ፡ ዕለቱ፡</foreign>
+                     <ref cRef="Phlx." loc="1">Phlx. 1</ref>; <foreign xml:lang="gez">ኪነ፡ ሥራይ፡ </foreign>
+                     <cit type="translation" xml:lang="la">
+                        <quote>ars magica</quote>
+                     </cit>
+                     <ref cRef="Clem." loc="253">Clem. f. 253</ref>; <ref cRef="Did." loc="32.">Did.
+                        32.</ref>
+                  </sense>
+                  <sense n="2" xml:id="D2">
+                     <cit type="translation" xml:lang="la">
+                        <quote>ars</quote>
+                     </cit> i.e. <cit type="translation" xml:lang="la">
+                        <quote>techna</quote>
+                     </cit>, dolus, <cit type="translation" xml:lang="la">
+                        <quote>fraus</quote>
+                     </cit>: <foreign xml:lang="gez">ርእዩ፡ ኪኖ፡ ወምግባሮ፡ ለሰይጣን፡</foreign>
+                     <ref cRef="Did." loc="32,">Did. 32,</ref> al.</sense>
+                  <sense n="3" xml:id="D3">
+                     <cit type="translation" xml:lang="la">
+                        <quote>artificium</quote>
+                     </cit>, <cit type="translation" xml:lang="la">
+                        <quote>opus arte factum</quote>
+                     </cit>, <cit type="translation" xml:lang="la">
+                        <quote>machina</quote>
+                     </cit>: <foreign xml:lang="gez">ይብሎኑ፡ ኪን፡ ለቤንያሁ፡</foreign>
+                     <foreign xml:lang="grc">τὸ πλάσμα τῷ πλάσαντι </foreign>
+                     <ref cRef="Jes." loc="29,16">Jes. 29,16</ref>; Judaei <foreign xml:lang="gez">አውዐዩ፡ ሞግዐ፡ ኀጺን፡ ወኵሎ፡ ኪነ፡ ዘንዋየ፡ ፀብእ፡</foreign>
+                     <ref cRef="Jsp." loc="358">Jsp. p. 358</ref>; <ref cRef="Jsp." loc="359.">Jsp.
+                        p. 359.</ref>
+                  </sense>
+               </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,101 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ፈራሂ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="Lce345a7071e54ee58e8b40dc297b6744" n="9891">
+               <form>
+                  <foreign xml:lang="gez">ፈራሂ</foreign>
+               </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain">
+                  <gramGrp>
+                     <pos expand="nomen agentis">n. ag.</pos>
+                  </gramGrp>, <gramGrp>
+                     <gen value="femininus">fem.</gen>
+                  </gramGrp>
+                  <foreign xml:lang="gez">ፈራሂት፡</foreign>, <lbl expand="pluralis">Pl.</lbl>
+                  <foreign xml:lang="gez">ፈራህያን፡</foreign>, <foreign xml:lang="gez">ፈራህያት፡</foreign>, <cit type="translation" xml:lang="la">
+                     <quote>timens</quote>
+                  </cit>, <cit type="translation" xml:lang="la">
+                     <quote>reveritus</quote>
+                  </cit>: <foreign xml:lang="gez">ፈራህያነ፡ ይከውኑ፡ </foreign>
+                  <foreign xml:lang="grc">κατάφοβοι</foreign>
+                  <ref cRef="Prov." loc="29,16">Prov. 29,16</ref>; plerumque <foreign xml:lang="gez">ፈራሄ፡ እግዚአብሔር፡</foreign>
+                  <cit type="translation" xml:lang="la">
+                     <quote>Deum</quote>
+                  </cit>
+                  <cit type="translation" xml:lang="la">
+                     <quote>colens</quote>
+                  </cit>, <cit type="translation" xml:lang="la">
+                     <quote>pius</quote>
+                  </cit> (<note>gottesfürchtig</note>) <ref cRef="3 Reg." loc="18,3">3 Reg.
+                     18,3</ref>; <ref cRef="Prov." loc="8,13">Prov. 8,13</ref>; <ref cRef="Kuf." loc="18">Kuf. 18</ref>; <ref cRef="Sir. " loc="10,24">Sir. 10,24</ref>; <ref cRef="Sir." loc="15,1">Sir. 15,1</ref>; <ref cRef="Sir." loc="31,16">Sir.
+                     31,16</ref>; <foreign xml:lang="grc">θεοσεβής</foreign>, <foreign xml:lang="grc">εὐσεβής</foreign>
+                  <ref cRef="Job" loc="1,1">Job 1,1</ref>; <ref cRef="Sir." loc="1,25">Sir.
+                     1,25</ref>; <foreign xml:lang="gez">ብእሲት፡ ፈራሂተ፡ እግዚአብሔር፡</foreign>
+                  <ref cRef="Judith" loc="8,31">Judith 8,31</ref>; <ref cRef="Judith" loc="11,17">Judith 11,17</ref>; <ref cRef="Dan. apocr." loc="1,2">Dan. apocr. 1,2</ref>
+                  <lbl expand="varia lectio">var.</lbl>; <ref cRef="Joh." loc="9,31">Joh.
+                  9,31</ref>; <foreign xml:lang="gez">ፈራህያነ፡ እግዚአብሔር፡</foreign>
+                  <ref cRef="2 Esr." loc="17,2">2 Esr. 17,2</ref>; <ref cRef="Ps." loc="14,5">Ps.
+                     14,5</ref>; <ref cRef="Sir." loc="10,19">Sir. 10,19</ref> al.; <lbl expand="construitur cum">c.c.</lbl>
+                  <foreign xml:lang="gez">እምነ፡</foreign>, ut: <foreign xml:lang="gez">ፈራሂ፡ እምነ፡
+                     እግዚአብሔር፡</foreign> F.N. 43,2. </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

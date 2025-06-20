@@ -1,0 +1,91 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> አትረፈ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="AE" when="2017-08-15">Verbalstammangabe korrigiert; da stand irgendwas von grc vor der II</change>
+            <change who="AE" when="2017-08-15">das zweite c) gehört zu der 1) davor</change>
+            <change who="AE" when="2017-08-15">weiteres fröhliches Herumgebastele an der selben Stelle</change>
+            <change who="AE" when="2017-08-15">und noch'n Versuch...</change>
+            <change who="AE" when="2017-08-15">und weiteres Herumgefummele</change>
+            <change who="AE" when="2017-08-15">wenn's jetzt nicht klappt, laß ich's bleiben!</change>
+        <change who="MK" when="2019-08-15">added new meaning</change>
+            <change who="MK" when="2019-08-17">added new menaing </change>
+            <change who="MK" when="2019-08-17">added new sentence</change>
+            <change who="MK" when="2019-08-17">added grammatical info</change>
+            <change who="MK" when="2019-08-17">added ref</change>
+            <change who="MK" when="2019-08-17">added new menaing </change>
+            <change who="MK" when="2019-08-21">corr</change>
+            <change who="PL" when="2019-08-30">test</change>
+            <change who="PL" when="2019-08-30">test</change>
+            <change who="PL" when="2019-08-30">reverted test</change>
+            <change who="PL" when="2019-08-30">test</change>
+            <change who="PL" when="2019-08-30">test</change>
+            <change who="PL" when="2019-08-30">test</change>
+            <change who="PL" when="2019-08-30">test with ¶</change>
+            <change who="PL" when="2019-08-30">test</change>
+        <change who="MK" when="2019-12-06">corrected nesting</change><change who="MK" when="2019-12-06">corr</change><change who="MK" when="2019-12-06">corr</change><change who="MK" when="2019-12-06">corr</change><change who="MK" when="2019-12-06">corr</change><change who="MK" when="2019-12-13">corr. spelling</change></revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L57b10f54a15e4ab9810cd59bcfca0f21" n="4270">
+               <form>
+                  <foreign xml:lang="gez">አትረፈ</foreign>
+               </form>
+               <sense xml:id="Dmain" xml:lang="la" source="#dillmann"> ΙΙ,1 <sense n="1" xml:id="D1"> <cit type="translation" xml:lang="la"><quote> reliquum </quote></cit> vel <cit type="translation" xml:lang="la"><quote> residuum </quote></cit> <cit type="translation" xml:lang="la"><quote> facere </quote></cit>, <cit type="translation" xml:lang="la"><quote> relinquere </quote></cit>, <ref cRef="Ex." loc="10,5">Ex. 10,5</ref>; <ref cRef="Ex." loc="12,10">Ex. 12,10</ref>; <ref cRef="Ex." loc="16,19">Ex. 16,19</ref>; <ref cRef="Deut." loc="2,34">Deut. 2,34</ref>; <ref cRef="Deut. " loc="28,41">Deut.  28,41</ref>; <ref cRef="Jos." loc="10,28">Jos. 10,28</ref>; <ref cRef="Jos." loc="10,39">Jos. 10,39</ref>; <ref cRef="Ruth" loc="2,">Ruth 2,</ref> 14; <ref cRef="Ruth" loc="2,18">Ruth 2,18</ref>; <ref cRef="1 Reg." loc="25,22">1 Reg. 25,22</ref>; <ref cRef="4 Reg." loc="10,14">4 Reg. 10,14</ref>; 4 <ref cRef="Reg." loc="25,12">Reg. 25,12</ref>; <ref cRef="Kuf." loc="10">Kuf. 10</ref>; <ref cRef="Kuf." loc="16">Kuf. 16</ref>; <ref cRef="Kuf." loc="32">Kuf. 32</ref>; <foreign xml:lang="gez">አትረፈ፡ ለነ፡ ዘርአ፡</foreign> <ref cRef="Jes." loc="1,9">Jes. 1,9</ref>; <foreign xml:lang="gez">ከመ፡ ኢያትርፍ፡</foreign> <ref cRef="Jes." loc="5,14">Jes. 5,14</ref>; <ref cRef="Jer." loc="8,">Jer. 8,</ref> 3; <ref cRef="Jer." loc="50,6">Jer. 50,6</ref>; <ref cRef="Joel" loc="1,4">Joel 1,4</ref>; <ref cRef="Tob." loc="1,20">Tob. 1,20</ref>; <ref cRef="Rom." loc="9,29">Rom. 9,29</ref>; <ref cRef="Rom." loc="11,4">Rom. 11,4</ref>. <sense n="a" xml:id="D1a"> <cit type="translation" xml:lang="la"><quote> superstitem relinquere </quote></cit>: <foreign xml:lang="gez">እመቦ፡ ዘሞተ፡ ወአትረፈ፡ ውሉደ፡</foreign> F.N. 52.</sense> <sense n="b" xml:id="D1b"> <cit type="translation" xml:lang="la"><quote> reponere </quote></cit>, <cit type="translation" xml:lang="la"><quote> reservare </quote></cit> <ref cRef="Gen." loc="27,36">Gen. 27,36</ref>; Herodes <foreign xml:lang="gez">አትረፋ፡ ለርእሱ፡</foreign> (Joannis Bapt.) <foreign xml:lang="gez">ቅዱስት፡ ውስተ፡ ቤቱ፡</foreign> <ref cRef="Sx. Jac." loc="30">Sx. Jac. 30</ref>; <foreign xml:lang="gez">አትረፍኩ፡ ነገርየ፡ በእንተ፡ ዘኀጣእኩ፡ ከርታሰ፡ ወጸሓፌ፡</foreign> (<cit type="translation" xml:lang="la"><quote> sufflaminavi </quote></cit>) <bibl><ptr target="bm:Ludolf1691Commentarius"/></bibl>, p. 507 <gramGrp> <pos expand="nomen">n.</pos> </gramGrp> 59.</sense> <sense n="c" xml:id="D1c"> in arithmetica, Abush. (<lbl expand="videas">vid.</lbl> <foreign xml:lang="gez">ተርፈ፡</foreign> <gramGrp> <pos expand="nomen">n.</pos> </gramGrp> 1,c) </sense> </sense> <sense n="2" xml:id="D2"> <cit type="translation" xml:lang="la"><quote> reliquum </quote></cit> i.e. <cit type="translation" xml:lang="la"><quote> abunde habere </quote></cit>, <cit type="translation" xml:lang="la"><quote> abundare </quote></cit> re, <lbl expand="cum">c.</lbl> <gramGrp> <case value="accusativus">Acc.</case> </gramGrp> <ref cRef="Luc." loc="15,17">Luc. 15,17</ref>; <ref cRef="2 Cor." loc="9,8">2 Cor. 9,8</ref>. </sense> </sense>
+               
+            <sense xml:id="Tmain" xml:lang="en" source="#traces"> <cit type="transcription" xml:lang="gez"><quote> ʾatrafa </quote></cit> <sense n="1" xml:id="T1"> <cit type="translation" xml:lang="en"><quote> add </quote></cit> <foreign xml:lang="gez">ኢያኅፀፀ፡ እምዝንቱ፡ ኍልቍ፡ ወኢያትረፈ።</foreign> ‘<cit type="translation" xml:lang="fr"><quote> il n’a pas diminué ce nombre et n’en a rien retranché </quote></cit>’ <bibl><ptr target="bm:ContiRossini1907SarsaDengel"/><citedRange unit="page"> 113 l. 4-5 (ed.)</citedRange></bibl>, <bibl><ptr target="bm:ContiRossini1907SarsaDengelV"/><citedRange unit="page"> 128 l. 17 (tr.)</citedRange></bibl>, <foreign xml:lang="gez">በእንተ፡ ዝንቱ፡ ኵሉ፡ ዘዘከርናሆሙ፡ ረሰይነ፡ ፱አንቀጸ፡ ዝንቱ፡ መጽሐፍ፡ ወአትረፍነ፡ እምኍልቈ፡ ፰አንቀጸ፡ መጽሐፉ፡ ለዮሴፍ፡ ወልደ፡ ኮርዮን።</foreign> ‘<cit type="translation" xml:lang="fr"><quote> Pour tout ce que nous venons de rappeler, nous avons choisi (la division) de ce livre en neuf chapitres et nous avons abandonné (la division) en huit chapitres du livre de Joseph, fils de Gorion </quote></cit>’ <bibl><ptr target="bm:ContiRossini1907SarsaDengel"/><citedRange unit="page"> 5-7 (ed.)</citedRange></bibl>, <bibl><ptr target="bm:ContiRossini1907SarsaDengelV"/><citedRange unit="page"> 128 l. 17-20 (tr.)</citedRange></bibl> (<bibl><ptr target="bm:Praetorius1910RezSarsaDengel"/></bibl> proposes this meaning against Conti Rossini’s translations in the above examples. He provides the following rendering of both examples: ‘er hat dieser Zahl nicht abgezogen noch hinzugefügt’, ‘und wir haben hinzugefügt zu der Zahl der acht Kapitel des Buches des Gorioniden’. He links this sense of <foreign xml:lang="gez">አትረፈ፡</foreign> with <lbl expand="videas">vid.</lbl> <foreign xml:lang="gez">ትሩፍ፡</foreign> <cit type="translation" xml:lang="de"><quote> überschüssig </quote></cit>, <cit type="translation" xml:lang="en"><quote> excessive </quote></cit> and <foreign xml:lang="gez">ዘይተርፍ፡</foreign> <cit type="translation" xml:lang="de"><quote> mehr </quote></cit> <cit type="translation" xml:lang="en"><quote> more </quote></cit>.) </sense> <sense n="2" xml:id="T2"> <cit type="translation" xml:lang="en"><quote> keep for oneself </quote></cit> (with or without <foreign xml:lang="gez">ለ-</foreign> + Pronominal suff. <bibl><ptr target="bm:Praetorius1910RezSarsaDengel"/><citedRange unit="page"> 619</citedRange></bibl>) <foreign xml:lang="gez">እስመ፡ ተርፈ፡ ሎቱ፡ ብዙኅ፡ እምዘ፡ ነሥእዎ፡ ወዘነሥአሂ፡ ኢያተርፈ፡</foreign> ‘<cit type="translation" xml:lang="fr"><quote> en effet, à chacun restait une quantité plus grande que se qu’il avait pris, et (le roi) ne gardait pas pour lui ce qu’il venait de saisir </quote></cit>’ <bibl><ptr target="bm:ContiRossini1907SarsaDengel"/><citedRange unit="page"> 115 l. 25-26 (ed.)</citedRange></bibl>, <bibl><ptr target="bm:ContiRossini1907SarsaDengelV"/><citedRange unit="page"> 131 l. 19-21 (tr.)</citedRange></bibl>, <foreign xml:lang="gez">ወሀቡ፡ አምኃ፡ ለንጉሥ፡ ወዘይደሉ፡ ሎሙ፡ አትረፉ፡ መክሊቶሙ፡</foreign> ‘<cit type="translation" xml:lang="fr"><quote> il donnèrent des cadeaux au roi, et ils retinrent pour eux-mêmes, comme leur part, ce qui leur convenait </quote></cit>’ <bibl><ptr target="bm:ContiRossini1907SarsaDengel"/><citedRange unit="page"> 117 l. 16-17 (ed.)</citedRange></bibl>, <bibl><ptr target="bm:ContiRossini1907SarsaDengelV"/><citedRange unit="page"> 133 l. 22-23 (tr.)</citedRange></bibl>, <foreign xml:lang="gez">ሎቱሰ፡ ዘአትረፈ፡ ኢነአምር፡ ኍላቌሆን፡</foreign> ‘<cit type="translation" xml:lang="fr"><quote> nous ne connaissons pas le nombre des autres qu’il garda pour lui-même </quote></cit>’ <bibl><ptr target="bm:ContiRossini1907SarsaDengel"/><citedRange unit="page"> 106 l. 12-13 (ed.)</citedRange></bibl>, <bibl><ptr target="bm:ContiRossini1907SarsaDengelV"/><citedRange unit="page"> 121 l. 2-3 (tr.)</citedRange></bibl> </sense> <sense n="3" xml:id="T3"> <cit type="translation" xml:lang="en"><quote> catch </quote></cit>, <cit type="translation" xml:lang="en"><quote> get </quote></cit> <foreign xml:lang="gez">ወአትረፈ፡ እምኔሆሙ፡ መጠነ፡ ፶፡ ዕደው፡ እኁዛነ፡ ወልታ፡ ወኵናት።</foreign> ‘<cit type="translation" xml:lang="fr"><quote> il arrêta environ cinquante hommes armés de boucliers et de javelots </quote></cit>’ <foreign xml:lang="gez">ወእንዘ፡ ይትመየጡ፡ አትረፉ፡ ሰብአ፡ ሀገር፡ ብዙኅ፡ እምዘ፡ ማህረኩ፡</foreign> ‘<cit type="translation" xml:lang="fr"><quote> pendant qu’ils revenaient en arrière, les paysans reprirent une grande partie de ce qu’ils avaient pillé </quote></cit>’ <bibl><ptr target="bm:ContiRossini1907SarsaDengel"/><citedRange unit="page"> 129 l. 15-16 (ed.)</citedRange></bibl>, <bibl><ptr target="bm:ContiRossini1907SarsaDengelV"/><citedRange unit="page"> 147 l. 1-3 (tr.)</citedRange></bibl> </sense> </sense>
+                </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

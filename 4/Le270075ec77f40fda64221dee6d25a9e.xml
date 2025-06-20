@@ -1,0 +1,106 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="gez">ሰዋ</title>
+                <author>Alessandro Bausi</author>
+                <author>Andreas Ellwardt</author>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+                <publisher>TraCES project.
+                                    https://www.traces.uni-hamburg.de/</publisher>
+                <pubPlace>Hamburg</pubPlace>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/">
+                                        This file is licensed under the Creative Commons
+                                        Attribution-ShareAlike Non Commercial 4.0. </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+                </p>
+                <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>A digital edition of the Lexicon in TEI.</p>
+        <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="la">latin</language>
+                <language ident="it">Italian</language>
+                <language ident="gez">Gǝʿǝz</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="syr">Syriac</language>
+                <language ident="ar">Arabic</language>
+                <language ident="sa">Sanskrit</language>
+                <language ident="geo">Georgian</language>
+                <language ident="cop">Coptic</language>
+                <language ident="osa">Old South Arabian</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change who="MK" when="2018-02-13">Added entry</change>
+            <change who="MK" when="2018-02-26">added meaning </change>
+            <change who="MK" when="2018-04-16">corr</change>
+            <change who="MK" when="2018-04-16">corr</change>
+            <change who="MK" when="2018-04-16">corr</change>
+            <change who="MK" when="2018-04-16">corr</change>
+        <change who="PL" when="2019-04-12">iso 639-2 amh to iso 639-1 am</change>
+            <change who="MK" when="2019-08-31">corr</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <entry xml:id="Le270075ec77f40fda64221dee6d25a9e" n="12291">
+                    <form>
+                        <foreign xml:lang="am">ሰዋ</foreign>
+                    </form>
+                    <sense xml:lang="en" source="#traces" xml:id="Tmain"> <cit type="transcription" xml:lang="gez">
+                            <quote> sawā </quote>
+                        </cit> <gramGrp>
+                            <pos expand="Substantivum">subst.</pos>
+                        </gramGrp> ‘Il termino usato per birra è <foreign xml:lang="gez">ሰዋ</foreign>, un termine che non appare in autorevoli lessici gəʼəz come il Dillmann (è stato però registrato da <bibl>
+                            <ptr target="bm:Leslau1987dic"/>
+                            <citedRange unit="page">520a</citedRange>
+                        </bibl>). I maestri ammettono di aver appreso il lemma <foreign xml:lang="gez">ሰዋ</foreign> durante la loro formazione linguistica del gəʼəz e aggiungono che <foreign xml:lang="gez">ሰዋ</foreign> veniva tradotto dai loro precettori con la voce təgrəña <foreign xml:lang="ti">ጌሶ</foreign> (cf. <bibl>
+                            <ptr target="bm:Girmatsion1983DictTgr"/>
+                            <citedRange unit="page">584</citedRange>
+                        </bibl>). Il concetto di birra non è comunque estraneo alla lingua gəʼəz. C’è infatti la parola <foreign xml:lang="gez">ምዝር</foreign>, che Dillmann rende con “cerevisia”, <bibl>
+                            <ptr target="bm:Dillmann1865Lexicon"/>
+                            <citedRange unit="page"> 1302</citedRange>
+                        </bibl>. Si può quindi presumere che il passaggio morfematico sia avvenuto da <foreign xml:lang="gez">ጽዋዕ</foreign> a <foreign xml:lang="gez">ሰዋ</foreign>.’ <bibl>
+                            <ptr target="bm:Tedros2007Demyanos"/>
+                            <citedRange unit="page"> 41 (153) n. 67</citedRange>
+                        </bibl>; ʻ«Sawa» {<foreign xml:lang="gez">ሰዋ</foreign>} o «suʿa» {<foreign xml:lang="gez">ሱዐ</foreign>}, secondo lʼinsolita grafia adottata in questo testo, è il nome tigrino della popolare bevanda che in amarico è chiamata «ṭallā» {<foreign xml:lang="am">ጠላ</foreign>}, ottenuta dalla fermentazione di una graminacea detta in entrambe le lingue «dāgussā» {<foreign xml:lang="am">ዳጉሳ</foreign>}; cf. <bibl>
+                            <ptr target="bm:Marrassini1986IyasusMoa"/>
+                            <citedRange unit="page">192 n. 30</citedRange>
+                        </bibl>.ʼ <bibl>
+                            <ptr target="bm:Lusini1996AbsadiII"/>
+                            <citedRange unit="page"> 66 n. 40</citedRange>
+                        </bibl> <sense n="L" xml:id="TL"> <cit type="transcription" xml:lang="gez">
+                                <quote> sawā </quote>
+                            </cit> <foreign xml:lang="gez">ሰዋ</foreign>, <cit type="transcription" xml:lang="gez">
+                                <quote> sewā </quote>
+                            </cit> <foreign xml:lang="gez">ሴዋ</foreign>, <cit type="transcription" xml:lang="gez">
+                                <quote> śəwā </quote>
+                            </cit> <foreign xml:lang="gez">ሥዋ</foreign> <cit type="translation" xml:lang="en">
+                                <quote> drink fermented from corn or barley, the gešo-plant used for fermenting beer </quote>
+                            </cit> <bibl>
+                                <ptr target="bm:Leslau1987dic"/>
+                                <citedRange unit="page">520a</citedRange>
+                            </bibl> <nd/> </sense> </sense>
+                </entry>
+            </div>
+        </body>
+    </text>
+</TEI>

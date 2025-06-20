@@ -1,0 +1,115 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng"
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="gez">ደበና</title>
+                <author>Alessandro Bausi</author>
+
+            </titleStmt>
+            <publicationStmt>
+                <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+                <publisher>TraCES project.
+                                    https://www.traces.uni-hamburg.de/</publisher>
+                <pubPlace>Hamburg</pubPlace>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-sa-nc/4.0/">
+                                        This file is licensed under the Creative Commons
+                                        Attribution-ShareAlike Non Commercial 4.0. </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+                </p>
+                <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>A digital edition of the Lexicon in TEI.</p>
+            <listPrefixDef>
+                <prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/>
+            </listPrefixDef>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="la">latin</language>
+                <language ident="it">Italian</language>
+                <language ident="gez">Gǝʿǝz</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="syr">Syriac</language>
+                <language ident="ar">Arabic</language>
+                <language ident="sa">Sanskrit</language>
+                <language ident="geo">Georgian</language>
+                <language ident="cop">Coptic</language>
+                <language ident="osa">Old South Arabian</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change who="MK" when="2022-03-11">added entry</change>
+            <change who="MK" when="2022-03-11">added emample</change>
+            <change who="MK" when="2022-03-11">added pages</change>
+            <change who="MK" when="2022-03-11">added example</change>
+            <change who="MK" when="2022-03-14">added cross reference </change>
+            <change who="MK" when="2022-03-14">correction</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <entry xml:id="Lffe98ef4ff0f434f82be29e1c4de85d2" n="12771">
+                    <form>
+                        <foreign xml:lang="gez">ደበና</foreign>
+                    </form>
+                    <sense xml:id="Tmain" xml:lang="en" source="#traces">
+                        <cit type="transcription" xml:lang="gez">
+                            <quote>dabanā</quote>
+                        </cit>, <foreign xml:lang="gez">ድበና፡</foreign> <cit type="transcription" xml:lang="gez">
+                            <quote>dǝbanā</quote>
+                        </cit>, <foreign xml:lang="gez">ደበነ፡</foreign> <cit type="transcription" xml:lang="gez">
+                            <quote>dabana</quote>
+                        </cit> <gramGrp>
+                            <pos expand="Substantivum">subst.</pos>
+                        </gramGrp> <cit type="translation" xml:lang="en">
+                            <quote>royal tent</quote>
+                        </cit> <bibl>
+                            <ptr target="bm:Abbadie1881Dict"/>
+                            <citedRange unit="page"> 774b</citedRange>
+                        </bibl> <foreign xml:lang="gez">ወጌራ፡ መንግሥትኒ፡ ዘውእቱ፡ ዘውድ፡ አግበረ፡ ሎቱ፡ እምወርቅ፡ ጽሩይ። ደበናሂ፡ ምስለ፡ መንጠዋልዕ፡ አስፈየ።</foreign> ‘<cit type="translation" xml:lang="pt">
+                            <quote>e o capacete real, que é a corôa, Ihe mandou fazer de ouro puro; e ainda mandou coser uma dabana com cortinas</quote>
+                        </cit>’ <bibl>
+                            <ptr target="bm:Pereira1892Susenyos"/>
+                            <citedRange unit="page"> 60 l. 86–87 (ed.)</citedRange>
+                        </bibl>, <bibl>
+                            <ptr target="bm:Pereira1900Susenyos"/>
+                            <citedRange unit="page"> 47 l. 25–27 (tr.)</citedRange>
+                        </bibl>; <foreign xml:lang="gez">ወምህርካሂ፡ ብዙኅ፡ ተረከበ፡ ወደበናሂ፡ ተሰልበ።</foreign> ‘<cit type="translation" xml:lang="pt">
+                            <quote>E encontrou-se muita presa, e tambem foi tomada uma dabana</quote>
+                        </cit>’ <bibl>
+                            <ptr target="bm:Pereira1892Susenyos"/>
+                            <citedRange unit="page"> 80 l. 52–53 (ed.)</citedRange>
+                        </bibl>, <bibl>
+                            <ptr target="bm:Pereira1900Susenyos"/>
+                            <citedRange unit="page"> 62 l. 33–34 (tr.)</citedRange>
+                        </bibl>; <foreign xml:lang="gez">ወንጉሥኒ፡ ወረደ፡ እምነ፡ ዓቀብ፡ መንገለ፡ መትሕት፡ ወአትከለ፡ ደበና።</foreign> ‘<cit type="translation" xml:lang="pt">
+                            <quote>e tambem o Rei desecu da encosta para baixo, e mandou armar a dabana</quote>
+                        </cit>’ <bibl>
+                            <ptr target="bm:Pereira1892Susenyos"/>
+                            <citedRange unit="page"> 117 l. 48–49 (ed.)</citedRange>
+                        </bibl>, <bibl>
+                            <ptr target="bm:Pereira1900Susenyos"/>
+                            <citedRange unit="page"> 91 l. 26–28 (tr.)</citedRange>
+                        </bibl> <sense n="C" xml:id="TC">for <foreign xml:lang="gez">ዓቄት፡ ደበና፡</foreign> <lbl expand="videas">vid.</lbl> <foreign xml:lang="gez">ዓቄት፡</foreign>
+                        </sense> <nd/> </sense>
+                </entry>
+            </div>
+        </body>
+    </text>
+</TEI>

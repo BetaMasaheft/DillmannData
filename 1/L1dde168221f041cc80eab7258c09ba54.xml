@@ -1,0 +1,77 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>ብሕተI. </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="LB" when="2018-02-23">root</change>
+        <change who="MK" when="2024-11-25">added gr and les </change><change who="MK" when="2024-11-25">added gr 2 </change><change who="MK" when="2024-11-26">added part 2 of Gr</change><change who="MK" when="2025-02-19">deleted redundant it</change></revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L1dde168221f041cc80eab7258c09ba54" n="3831" type="hom">
+               <form>
+                  <foreign xml:lang="gez">ብሕተ</foreign>
+                        <seg type="hom">I. </seg>
+                    <rs type="root"/>
+                    </form>
+               <sense xml:id="Dmain" xml:lang="la" source="#dillmann"> <subc>I,1</subc> [denom. a <foreign xml:lang="gez">መባሕት፡</foreign> q.v. sub <foreign xml:lang="gez">ቦሐ፡</foreign>] <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> copiam </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> facultatem </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> potestatem </t:quote></cit> rei <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> nancisci </t:quote></cit> vel <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> habere </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> pollere </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> posse </t:quote></cit>: <foreign xml:lang="gez">ሶበ፡ ብሕትኩ፡ እልእክ፡ ዘይጼውዐከ፡</foreign> <foreign xml:lang="grc">καιρὸν μεταλαβών</foreign> <ref cRef="Act." loc="24,25">Act. 24,25</ref> Platt; de Christo: <foreign xml:lang="gez">እንዘ፡ ትብሕት፡ አንተ፡ በኵለሄ፡</foreign> <ref cRef="Org." loc="2.">Org. 2.</ref> </sense>
+               
+            <sense xml:id="Tmain" xml:lang="en" source="#traces"> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">bǝḥta</t:quote></cit> <sense n="G" xml:id="TG"> <foreign xml:lang="gez">ብሕተ፡</foreign> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">bǝḥta</t:quote></cit> <subc>I,1</subc> <foreign xml:lang="gez">ይብሕት፡</foreign>, <foreign xml:lang="gez">ይብሐት፡</foreign> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">imperio, potestate praeditus fuit</t:quote></cit>, <cit type="translation" xml:lang="fr"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">être investi du pouvoir suprême</t:quote></cit> ― <foreign xml:lang="am">ሰለጠነ፡</foreign> Ms. Roma, Biblioteca Nazionale Centrale di Roma, Orientale 134, p. 66. <lb/>
+ La forme <foreign xml:lang="gez">ብሕቶት፡</foreign> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">bǝḥtot</t:quote></cit> présentée par E. Goodspeed comme ayant la même signification que <lbl expand="videas">vid.</lbl> <ref type="external" target="https://betamasaheft.eu/Dillmann/lemma/Le3e7ad12a3284250acb60a305a452954"><foreign xml:lang="gez">መብሐት፡</foreign></ref> <cit type="translation" xml:lang="fr"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">pouvoir</t:quote></cit>, <cit type="translation" xml:lang="fr"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">moyen</t:quote></cit>, <cit type="translation" xml:lang="fr"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">faculté</t:quote></cit>, <cit type="translation" xml:lang="fr"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">permission</t:quote></cit>, <cit type="translation" xml:lang="fr"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">autorisation</t:quote></cit>, manque dans le <bibl><ptr target="bm:Dillmann1865Lexicon"/></bibl>. Texte et référence: <foreign xml:lang="gez">ወአንተኒ፡ አሳዊሮስ፡ ትጠብሖ፡ ለኵሉ፡ ካህን፡ ዘይፈልጦ፡ ለወለድ፡ ወለኵሉ፡ ዘይክሕድ፡ ብሕቶቶ፡ ለዋሕድ፡ ወይከፍሎ፡ ለ፪፡ ግዕዝ፡ ወለ፪፡ አምሳል።</foreign> <bibl><ptr target="bm:GoodspeedCrum1907Severus"/><citedRange unit="page"> 33</citedRange></bibl>. <lb/>
+ Le contexte où se trouve le vocable <foreign xml:lang="gez">ብሕቶት፡</foreign> exige un autre sens; la forme <foreign xml:lang="gez">ብሕቶት፡</foreign>, elle aussi, réclame une autre origine. Ce mot provient du radical inusité <foreign xml:lang="gez">በሐተ፡</foreign>, d’où dérivent <foreign xml:lang="gez">ብሑት፡</foreign> <cit type="translation" xml:lang="fr"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">unique</t:quote></cit>, <foreign xml:lang="gez">ባሕቲት፡</foreign> <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">solitude</t:quote></cit>, <foreign xml:lang="gez">ባሕተወ፡</foreign> <cit type="translation" xml:lang="fr"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">être seul</t:quote></cit>, <foreign xml:lang="gez">ብሕትው፡</foreign> <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">seul</t:quote></cit>, <foreign xml:lang="gez">ብሕቱት፡</foreign> <cit type="translation" xml:lang="fr"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">seule</t:quote></cit>. Le vocable <foreign xml:lang="gez">ብሕቶት፡</foreign> s’insère dans le groupe des mots dont la désinence est en ‘ōt’, comme <foreign xml:lang="gez">ምልኮት፡</foreign>, <foreign xml:lang="gez">ጽላሎት፡</foreign>, <foreign xml:lang="gez">ጥብዖት፡</foreign>, <foreign xml:lang="gez">ሃይማኖት፡</foreign>, etc. Ce mot signifie <cit type="translation" xml:lang="fr"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">solitude</t:quote></cit>, <cit type="translation" xml:lang="fr"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">unité</t:quote></cit>, <cit type="translation" xml:lang="fr"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">unicité</t:quote></cit>. Dans le contexte théologique où il se trouve, il semble devoir être traduit par <cit type="translation" xml:lang="fr"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">unicité</t:quote></cit>. Voici la traduction proposée du texte cité plus haut: «Pour toi, ô Sévère, tu retrancheras tout prêtre qui partage le Fils et quinconque nie l’unicité de l’Unique et le partage en deux natures et deux apparences.» <lb/>
+ <bibl><ptr target="bm:Grebaut1952SuppLexicon"/><citedRange unit="page"> 184</citedRange></bibl> 
+</sense> <sense n="L" xml:id="TL"> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">bḥt</t:quote></cit> II, <foreign xml:lang="gez">ብሕተ</foreign> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">bǝḥta</t:quote></cit> (yǝbḥat) <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">have power</t:quote></cit>, <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">have capacity</t:quote></cit>, <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">have means</t:quote></cit>, <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">prevail</t:quote></cit> <bibl><ptr target="bm:Leslau1987dic"/><citedRange unit="page"> 92b</citedRange></bibl> 
+</sense> </sense></entry>
+         </div>
+      </body>
+   </text>
+</TEI>

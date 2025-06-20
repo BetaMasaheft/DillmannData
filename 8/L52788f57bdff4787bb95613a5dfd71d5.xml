@@ -1,0 +1,83 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>ገመጸI</title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="LB" when="2018-05-04">root</change>
+            <change who="LB" when="2018-05-04">root</change>
+        </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L52788f57bdff4787bb95613a5dfd71d5" n="8343" type="hom">
+               <form>
+                  <foreign xml:lang="gez">ገመጸ</foreign>
+                        <seg type="hom">I</seg>
+                    <rs type="root"/>
+                    </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain"> <subc>I,1</subc> [<foreign xml:lang="ar">غمض</foreign>?] <gramGrp> <pos expand="Subjunctivus">Subj.</pos> </gramGrp> <foreign xml:lang="gez">ይግምጽ፡</foreign> <sense n="1" xml:id="D1"> transit. <cit type="translation" xml:lang="la">
+                                <quote> flectere </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> inflectere </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> inclinare </quote>
+                            </cit>: <foreign xml:lang="gez">እምንእሶሙ፡ ግምጽ፡ ክሳዳሙ፡</foreign> <foreign xml:lang="grc">κάμψον τὸν τράχηλον</foreign> <ref cRef="Sir." loc="7,23">Sir. 7,23</ref> <lbl expand="varia lectio">var.</lbl>; <foreign xml:lang="gez">ወርቅ፡ ገመጾሙ፡ ልቦሙ፡ ለነገሥት፡</foreign> <foreign xml:lang="grc">ἐξέκλινε</foreign> <ref cRef="Sir." loc="8,2">Sir. 8,2</ref>; in specie: jus, ut: <foreign xml:lang="gez">ለገሚጸ፡ ፍትሕ፡</foreign> <ref cRef="Ex." loc="23,2">Ex. 23,2</ref>; <ref cRef="Deut." loc="27,19">Deut. 27,19</ref>; <ref cRef="1 Reg." loc="8,3">1 Reg. 8,3</ref>; <foreign xml:lang="gez">ኢትግምጽ፡ ፍትሖ፡ ለእጓለ፡ ማውታ፡ በእንተ፡ ንዴቱ፡</foreign> <ref cRef="Clem." loc="94">Clem. f. 94</ref>; <ref cRef="Clem." loc="160">Clem. f. 160</ref>; <foreign xml:lang="gez">ከመ፡ ኢይግምጹ፡ ፍትሐ፡</foreign> <ref cRef="Clem." loc="227">Clem. f. 227</ref>; <foreign xml:lang="gez">ኢትግምጽ፡ ፍትሐ፡ ነዳይ፡</foreign> <ref cRef="Did." loc="4">Did. 4</ref>; <ref cRef="Macc." loc="10">Macc. f. 10</ref>; <ref cRef="Kedr f." loc="28.">Kedr f. 28.</ref> </sense> <sense n="2" xml:id="D2"> intransit.: <cit type="translation" xml:lang="la">
+                                <quote> flecti </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> inclinare </quote>
+                            </cit>, <foreign xml:lang="gez">ከመ፡ ኢትግምጽ፡ ነፍስከ፡ መንገሌሃ፡</foreign> <ref cRef="Sir." loc="9,9">Sir. 9,9</ref>; de limite: <foreign xml:lang="gez">ወትገምጽ፡ እምህየ፡ መንገለ፡</foreign> … <ref cRef="Kuf." loc="8.">Kuf. 8.</ref> </sense> </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

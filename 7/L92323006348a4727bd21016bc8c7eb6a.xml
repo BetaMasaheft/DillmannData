@@ -1,0 +1,85 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ፀር </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="MK" when="2019-04-23">added cross-reference </change>
+            <change who="MK" when="2019-04-23">corr</change>
+            <change who="MK" when="2019-04-23">corr</change>
+        </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L92323006348a4727bd21016bc8c7eb6a" n="9688">
+               <form>
+                  <foreign xml:lang="gez">ፀር</foreign>
+               </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain"> <gramGrp> <pos expand="Substantivum">subst.</pos> </gramGrp>, <gramGrp> <gen value="not found">m.</gen> </gramGrp> et <gramGrp> <gen value="femininus">fem.</gen> </gramGrp>, <lbl expand="">sing.</lbl> et <lbl expand="collatio, -is vel collectivum,&#xA;                            -e">coll.</lbl>, <lbl expand="pluralis">Pl.</lbl> <foreign xml:lang="gez">አፅራር፡</foreign> <cit type="translation" xml:lang="la">
+                            <quote> inimicus </quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                            <quote> adversarius </quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                            <quote> hostis </quote>
+                        </cit>: <foreign xml:lang="gez">ይከውነከ፡ ፀረከ፡</foreign> <ref cRef="Sir." loc="37,4">Sir. 37,4</ref>; <foreign xml:lang="gez">ኮኖሙ፡ ፀሮሙ፡</foreign> <ref cRef="Jes." loc="63,10">Jes. 63,10</ref>; <foreign xml:lang="gez">ፀርየ፡</foreign> <ref cRef="Thren." loc="1,9">Thren. 1,9</ref>; <ref cRef="Thren." loc="2,4">Thren. 2,4</ref>; <foreign xml:lang="gez">ወፀር፡ ይእቲ፡ ሀገር፡</foreign> <ref cRef="2 Esr." loc="4,19">2 Esr. 4,19</ref>; <lbl expand="collatio, -is vel collectivum,&#xA;                            -e">coll.</lbl>: <ref cRef="Gen." loc="22,17">Gen. 22,17</ref>; <ref cRef="Ps. " loc="42,2">Ps.  42,2</ref>; <ref cRef="Ps." loc="58,1">Ps. 58,1</ref>; <ref cRef="Ps." loc="68,6">Ps. 68,6</ref>; <foreign xml:lang="gez">ከመ፡ ኢይደቅ፡ ቅድሜሆሙ፡ ለፀርየ፡</foreign> <ref cRef="Sir. " loc="23,3">Sir.  23,3</ref>; <ref cRef="Sir." loc="45,2">Sir. 45,2</ref>; <ref cRef="Jes." loc="1,24">Jes. 1,24</ref>; <ref cRef="Jes." loc="26,11">Jes. 26,11</ref>; <ref cRef="Jes." loc="42,13">Jes. 42,13</ref>; <ref cRef="Jes." loc="59,18">Jes. 59,18</ref>; <ref cRef="Jes." loc="66,6">Jes. 66,6</ref>; <ref cRef="Dan." loc="4,16">Dan. 4,16</ref>; <ref cRef="Nah." loc="1,2">Nah. 1,2</ref>; <ref cRef="Matth." loc="10,36">Matth. 10,36</ref>; <foreign xml:lang="gez">እንዘ፡ ፀሩ፡ ንሕነ፡ ለእግዚአብሔር፡</foreign> <ref cRef="Rom. " loc="5,10">Rom.  5,10</ref>; <ref cRef="Num." loc="10,9">Num. 10,9</ref>; <ref cRef="Num." loc="24,8">Num. 24,8</ref>; <ref cRef="Deut." loc="23,10">Deut. 23,10</ref>; <ref cRef="2 Reg." loc="24,13">2 Reg. 24,13</ref>; <ref cRef="Ps." loc="9,6">Ps. 9,6</ref>; <ref cRef="Ps." loc="43,7">Ps. 43,7</ref>; <ref cRef="Ps." loc="104,22">Ps. 104,22</ref>; <foreign xml:lang="gez">ኵሎሙ፡ ፀርነ፡</foreign> <ref cRef="2 Esr." loc="16,1">2 Esr. 16,1</ref>; <foreign xml:lang="gez">መላእክተ፡ ፀር፡</foreign> <ref cRef="Sir." loc="33,12">Sir. 33,12</ref>; <foreign xml:lang="gez">ሶበ፡ አመንደብዎ፡ ፀሩ፡</foreign> <ref cRef="Sir." loc="46,5">Sir. 46,5</ref>; <ref cRef="Jes." loc="11,13">Jes. 11,13</ref>; <ref cRef="Jer." loc="6,25">Jer. 6,25</ref>; <cb n="1328" xml:id="c1328"/> <ref cRef="Jer." loc="27,7">Jer. 27,7</ref>; <ref cRef="Judith" loc="8,33">Judith 8,33</ref>; <ref cRef="Judith " loc="13,14">Judith  13,14</ref>, al. crebro; <foreign xml:lang="gez">አፅራሪሁ፡</foreign> <ref cRef="Sap." loc="10,12">Sap. 10,12</ref>; <foreign xml:lang="gez">አፅራሪከ፡</foreign> <ref cRef="Jsp." loc="350">Jsp. p. 350</ref>; <ref cRef="Sx. Haml." loc="27 ">Sx. Haml. 27 </ref>Enc. </sense>
+               
+            <sense xml:lang="en" source="#traces" xml:id="Tmain"> <cit type="transcription" xml:lang="gez">
+                            <quote>ḍar</quote>
+                        </cit> part of <gramGrp>
+                            <pos expand="nomen proprium">n. pr.</pos>
+                        </gramGrp> (personal name) <lbl expand="videas">vid.</lbl> <ref type="external" target="https://betamasaheft.eu/Dillmann/lemma/L00ca26f26dfd4d0ea19bf872ad5b61c6">
+                            <foreign xml:lang="gez">ድብ፡ ፀር፡</foreign>
+                        </ref> </sense>
+                </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

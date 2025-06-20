@@ -1,0 +1,92 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ገዚፍ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="Lf7fe241bcd4f41fc8ec60771eec63bfa" n="8624">
+               <form>
+                  <foreign xml:lang="gez">ገዚፍ</foreign>
+               </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain">
+                  <gramGrp>
+                     <pos expand="adjectivum">adj.</pos>
+                  </gramGrp>
+                  <cit type="translation" xml:lang="la">
+                     <quote>crassus</quote>
+                  </cit>, <cit type="translation" xml:lang="la">
+                     <quote>spissus</quote>
+                  </cit>, (<cit type="translation" xml:lang="la">
+                     <quote>densus</quote>
+                  </cit>), de corpore hominis: <foreign xml:lang="gez">ገዚፋን፡</foreign>
+                  <foreign xml:lang="grc">παχεῖς </foreign>
+                  <ref cRef="Chrys. Ta." loc="15">Chrys. Ta. 15</ref>; rex Indiae erat <foreign xml:lang="gez">ገዚፍ፡ ጥቀ፡</foreign>, Alexander M. autem <foreign xml:lang="gez">ድግዱግ፡</foreign>
+                  <ref cRef="Jsp." loc="283">Jsp. p. 283</ref>; <foreign xml:lang="gez">ገዚፈ፡
+                     አባል፡</foreign> (<lbl expand="oppositum, -o, -nitur">opp.</lbl>
+                  <foreign xml:lang="gez">ረቂቀ፡ አባል፡</foreign>) <ref cRef="Fal." loc="53">Fal. f.
+                     53</ref>; <foreign xml:lang="gez">ለምንት፡ አውሰብከ፡ ብእሲተ፡ ንእስተ፡ ወአንተኒ፡ ብእሲ፡ ገዚፍ፡
+                     ወዐቢይ፡</foreign>
+                  <ref cRef="Fal." loc="81">Fal. f. 81</ref>; de vestibus, tegumentis: <foreign xml:lang="gez">ይልበሱ፡ ፅሙዳን፡ ልብሰ፡ ገዚፈ፡ እምነ፡ ፀምር፡</foreign> F.N. 23; <foreign xml:lang="gez">ይቀንቱ፡ ሐቌሆሙ፡ በቅናት፡ እምአምእስት፡ ገዚፋን፡</foreign> F.N. 10,6; <foreign xml:lang="gez">ሠቀ፡ ጸጕር፡ ገዚፈ፡</foreign> (Acc.) <ref cRef="Sx. Genb." loc="11 ">Sx. Genb. 11 </ref>Enc.; de baculis: <foreign xml:lang="gez">አብትር፡ ዘኀጺን፡
+                     ገዚፋት፡</foreign> <ref cRef="Gad. T.H." loc="">Gad. T.H.</ref>; <foreign xml:lang="gez">ይዝብጥዎሙ፡ በገዚፋን፡ አብትር፡ </foreign>
+                  <ref cRef="Macc." loc="2">Macc. f. 2</ref>; <foreign xml:lang="gez">ዘበጡ፡ በገዚፍ፡
+                     ዕፀው፡</foreign>
+                  <ref cRef="Sx. Nah." loc="25 ">Sx. Nah. 25 </ref> Enc.; de columna <foreign xml:lang="gez">ገዚፍ፡ ዐምድ፡</foreign>
+                  <ref cRef="Sx. Pag." loc="1 ">Sx. Pag. 1 </ref>Enc. </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

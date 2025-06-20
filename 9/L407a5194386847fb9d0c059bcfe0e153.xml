@@ -1,0 +1,74 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ተሀጕለ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="MK" when="2022-09-27">added Grabaut</change><change who="MK" when="2022-09-29">added Leslau</change><change who="MK" when="2022-09-29">added Leslau</change><change who="MK" when="2023-07-31">added Gr</change><change who="MK" when="2023-07-31">correction</change></revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L407a5194386847fb9d0c059bcfe0e153" n="118">
+               <form>
+                  <foreign xml:lang="gez">ተሀጕለ</foreign>
+               </form>
+               <sense xml:id="Dmain" xml:lang="la" source="#dillmann"> (nonnunquam <foreign xml:lang="gez">ተሀጐለ፡</foreign>) <subc>III,1</subc> (ad interitum vocari, i.e.) <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> perire </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> interire </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> perdi </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> pessum ire </t:quote></cit>(<foreign xml:lang="grc">ἀπόλλυμαι</foreign>, <foreign xml:lang="grc">ἀπόλωλα</foreign>) <foreign xml:lang="gez">ተሀጕለት፡ ግብጽ፡</foreign> <ref cRef="Ex." loc="10,7">Ex. 10,7</ref>; <ref cRef="Jer. " loc="31,15">Jer.  31,15</ref>; <ref cRef="Hez." loc="26,2">Hez. 26,2</ref>; <ref cRef="Jes." loc="15,2">Jes. 15,2</ref>; <foreign xml:lang="gez">ይትሀጐል፡ ብዕል፡ በንታፌ፡</foreign> <ref cRef="Koh. " loc="5,13">Koh.  5,13</ref>; <foreign xml:lang="gez">ራእዩ፡ ይትሀጐል፡</foreign> <ref cRef="Jac." loc="1,11">Jac. 1,11</ref>; <foreign xml:lang="gez">ዝቅት፡ ይትሀጐሉ፡</foreign> <ref cRef="Matth." loc="9,17">Matth. 9,17</ref>; <foreign xml:lang="gez">ይትሀጐል፡ ፩ እምነ፡ አባልከ፡</foreign> 5,29; <foreign xml:lang="gez">ተሀጐልኩ፡</foreign> <ref cRef="Job" loc="3,11">Job 3,11</ref>; <foreign xml:lang="gez">እለ፡ ተሀጕሉ፡</foreign> <ref cRef="Jes." loc="27,13">Jes. 27,13</ref>; <ref cRef="Jes." loc="48,19">Jes. 48,19</ref>; <ref cRef="Jes." loc="57,1">Jes. 57,1</ref>; <ref cRef="Jer." loc="34,12">Jer. 34,12</ref>; <ref cRef="Ps." loc="48,10">Ps. 48,10</ref>; <ref cRef="Ps." loc="67,2">Ps. 67,2</ref>; <ref cRef="Ps." loc="72,19">Ps. 72,19</ref>; <ref cRef="Ps." loc="101,27">Ps. 101,27</ref>; <ref cRef="4 Esr." loc="9,32">4 Esr. 9,32</ref>; <ref cRef="4 Esr." loc="9,34">4 Esr. 9,34</ref>; <ref cRef="Jud." loc="5,31">Jud. 5,31</ref>; <ref cRef="Num. " loc="17,27">Num.  17,27</ref>; <foreign xml:lang="gez">አባግዕ፡ ዘተገድፈ፡ ወተሀጕለ፡</foreign> <ref cRef="Matth." loc="10,6">Matth. 10,6</ref>; <ref cRef="Matth." loc="18,11">Matth. 18,11</ref>; <ref cRef="Luc." loc="13,3">Luc. 13,3</ref>; <ref cRef="Luc." loc="19,10">Luc. 19,10</ref>; <ref cRef="Joh." loc="10,10">Joh. 10,10</ref>; <ref cRef="Lit." loc="173,4">Lit. 173,4</ref>; <foreign xml:lang="gez">ተሀጕሎት፡</foreign> <ref cRef="4 Esr." loc="7,35">4 Esr. 7,35</ref>; <ref cRef="4 Esr." loc="8,34">4 Esr. 8,34</ref>; <foreign xml:lang="gez">እለ፡ ተሀጕሉ፡ እምበድው፡</foreign> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> qui deserto perierunt </t:quote></cit> <ref cRef="Hen." loc="61,5">Hen. 61,5</ref>; <foreign xml:lang="gez">ተሀጕሉ፡ እምነ፡ ማእከለ፡ ትዕይንት፡</foreign> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> perierunt de medio castrorum </t:quote></cit> <ref cRef="Num." loc="16,33">Num. 16,33</ref>; <ref cRef="Hen." loc="62,2">Hen. 62,2</ref>. </sense>
+               
+            <sense xml:id="Tmain" xml:lang="en" source="#traces"> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">tahagʷla</t:quote></cit>, <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">tahagʷala</t:quote></cit>, <foreign xml:lang="gez">ተኀጕለ፡</foreign> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">taḫagʷla</t:quote></cit>, <foreign xml:lang="gez">ተሐጕለ፡</foreign> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">taḥagʷla</t:quote></cit> <sense n="G" xml:id="TG"><foreign xml:lang="gez">ተሀጐለ</foreign> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">tahagʷala</t:quote></cit> <subc>III,1</subc> (2e rad. vocalisée ‘ua’) <cit type="translation" xml:lang="fr"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">être anéanti</t:quote></cit>, <cit type="translation" xml:lang="fr"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">périr</t:quote></cit> (sens général). <foreign xml:lang="gez">ውእቱሰ፡ ተጸወነ፡ ኀበ፡ ምስዋረ፡ ዐምድ፡ ወተደለወ፡ ለቀትለ፡ እሙ። ወተንሥአት፡ እኅታ፡ ወአኀዘታ፡ እንዘ፡ ትብል፡ ለምንት፡ ተሀጐልነ፡ እምካልኣኒሆሙ፡ ወዝንቱሰ፡ ዘጕንዱ፡ እኩይ፡ ኢይክል፡ ፈሪየ፡ ሠናየ፡ ንዒ፡ እኅትየ፡ ኪያኪኒ፡ ኢያህጕልኪ።</foreign> <bibl><ptr target="bm:Bezold1905KebraN"/><citedRange unit="page"> 106</citedRange></bibl>. <lb/>
+ <bibl><ptr target="bm:Grebaut1952SuppLexicon"/><citedRange unit="page"> 14</citedRange></bibl> <lb/>
+ <foreign xml:lang="gez">ተሐጕለ፡</foreign> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">taḥagʷla</t:quote></cit> <subc>III,1</subc> <foreign xml:lang="gez">ይትሐጐል፡</foreign> «<cit type="translation" xml:lang="fr"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">être perdu, ruiné, gâté</t:quote></cit>» ― <foreign xml:lang="am">ጠፋ፡</foreign> Ms. <ref type="BM" target="BNFabb217">BNFabb217</ref>, fol. 29v. <lb/>
+ <bibl><ptr target="bm:Grebaut1952SuppLexicon"/><citedRange unit="page"> 65</citedRange></bibl> 
+</sense> <sense n="L" xml:id="TL"> <foreign xml:lang="gez">ተሀጕለ</foreign> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">tahagʷla</t:quote></cit>, <foreign xml:lang="gez">ተሀጐለ</foreign> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">tahagʷala</t:quote></cit>, (<bibl><ptr target="bm:AlaqaTayya1965MSawasew"/></bibl>) <foreign xml:lang="gez">ተኀጕለ፡</foreign> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">taḫagʷla</t:quote></cit> <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">perish</t:quote></cit>, <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">be destroyed</t:quote></cit>, <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">be ruined</t:quote></cit>, <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">be lost</t:quote></cit>, <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">fail</t:quote></cit>, <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">die</t:quote></cit> <bibl><ptr target="bm:Leslau1987dic"/><citedRange unit="page"> 215b</citedRange></bibl> 
+</sense> </sense></entry>
+         </div>
+      </body>
+   </text>
+</TEI>

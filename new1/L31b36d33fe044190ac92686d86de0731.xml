@@ -1,0 +1,111 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="gez">ጕዕጕዕት</title>
+                <author>Alessandro Bausi</author>
+                <author>Andreas Ellwardt</author>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+                <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+                <pubPlace>Hamburg</pubPlace>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file
+                        is licensed under the Creative Commons Attribution-ShareAlike Non Commercial
+                        4.0. </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                        Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice
+                            latino. Adiectum est vocabularium tigre dialecti septentrionalis
+                            compilatum</emph> a W. Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+                </p>
+                <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced
+                        Grant TraCES (Grant Agreement 338756)</ref>
+                </p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>A digital edition of the Lexicon in TEI.</p>
+            <listPrefixDef>
+                <prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/>
+            </listPrefixDef>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="la">latin</language>
+                <language ident="it">Italian</language>
+                <language ident="gez">Gǝʿǝz</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="syr">Syriac</language>
+                <language ident="ar">Arabic</language>
+                <language ident="sa">Sanskrit</language>
+                <language ident="geo">Georgian</language>
+                <language ident="cop">Coptic</language>
+                <language ident="osa">Old South Arabian</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change who="MK" when="2018-11-13">added new entry, to be peer-reviewed</change>
+            <change who="MK" when="2018-11-13">corr</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <entry xml:id="L31b36d33fe044190ac92686d86de0731" n="12448">
+                    <form>
+                        <foreign xml:lang="gez">ጕዕጕዕት</foreign>
+                    </form>
+                    <sense xml:lang="en" source="#traces" xml:id="Tmain">
+                        <cit type="transcription" xml:lang="gez">
+                            <quote>gʷǝʿgʷǝʿt</quote>
+                        </cit>
+                        <pos expand="Substantivum">subst.</pos> probably <cit type="translation" xml:lang="en">
+                            <quote>big and fatty neck</quote>
+                        </cit>, ‘<cit type="translation" xml:lang="it">
+                            <quote>collo grosso ed adiposo</quote>
+                        </cit>’ <foreign xml:lang="gez">ወነሥአ፡ እብነ፡ ወወገረ፡ ኀበ፡ ውእቱ፡ ዱር፡ ወዘበጦ፡ ለውእቱ፡
+                            ዐማፂ፡ ኀበ፡ ዐፅመ፡ ጕዕጕዕቱ፡ ወፈደፋደ፡ አፃመዎ፡</foreign> ‘<cit type="translation" xml:lang="it">
+                            <quote>Prese una pietra e la scagliò nella foresta, e colpì quell’iniquo
+                                sull’osso del collo e lo ferì seriamente</quote>
+                        </cit>’ <bibl>
+                            <ptr target="bm:Bausi2003Libanos"/>
+                            <citedRange unit="page"> 146 § 373 (ed.)</citedRange>
+                        </bibl>, <bibl>
+                            <ptr target="bm:Bausi2003LibanosTr"/>
+                            <citedRange unit="page"> 83 § 373 (tr.)</citedRange>
+                        </bibl> (‘«collo»: il termine è <cit type="transcription" xml:lang="gez">
+                            <quote>gʷeʿgʷeʿt</quote>
+                        </cit>, non attestato in etiopico, ma dal probabile significato di «collo
+                        grosso ed adiposo», da confrontare con il tigrino <cit type="transcription" xml:lang="gez">
+                            <quote>gʷāʿgʷeʿē</quote>
+                        </cit> «avere il collo assai adiposo di persona molto grossa», vd. <bibl>
+                            <ptr target="bm:DaBassano1918DictTgr"/>
+                            <citedRange unit="page"> 892</citedRange>
+                        </bibl>; similmente <bibl>
+                            <ptr target="bm:1996DictTigrinya"/>
+                            <citedRange unit="page"> 859</citedRange>
+                        </bibl>; <bibl>
+                            <ptr target="bm:Tekka1999DictTigrinya"/>
+                            <citedRange unit="page"> 917-918</citedRange>
+                        </bibl>; <bibl>
+                            <ptr target="bm:GermaTsion1994DictTigrinya"/>
+                            <citedRange unit="page"> 597</citedRange>
+                        </bibl>; <bibl>
+                            <ptr target="bm:Kane2000DictTgrVol2"/>
+                            <citedRange unit="page"> 2340</citedRange>
+                        </bibl>.’ <bibl>
+                            <ptr target="bm:Bausi2003LibanosTr"/>
+                            <citedRange unit="page"> 83-84 n. 55</citedRange>
+                        </bibl>) <nd/>
+                    </sense>
+                </entry>
+            </div>
+        </body>
+    </text>
+</TEI>

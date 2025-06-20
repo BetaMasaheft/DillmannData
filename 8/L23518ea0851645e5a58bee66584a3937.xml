@@ -1,0 +1,157 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ሰዐረ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="LB" when="2018-02-15">root</change>
+        <change who="AE" when="2018-05-29">Verschachtelung,</change>
+            <change who="AE" when="2018-05-29">Sprachkennung,</change>
+            <change who="MK" when="2019-08-14">added new meaning</change>
+            <change who="MK" when="2019-08-14">corr</change>
+        </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L23518ea0851645e5a58bee66584a3937" n="2987">
+               <form>
+                  <foreign xml:lang="gez">ሰዐረ</foreign>
+               <rs type="root"/>
+                    </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain"> transit. et <foreign xml:lang="gez">ስዕረ፡</foreign> intransit. <subc>I,1</subc> [potestas verbi prima est in <cit type="translation" xml:lang="la">
+                            <quote> disscindendo </quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                            <quote> dirumpendo </quote>
+                        </cit>, <lbl expand="conferas">cfr.</lbl> <foreign xml:lang="he">שׁער</foreign> et <foreign xml:lang="syr">ܬܪܰܥ</foreign>, Ges. thes. p. 1459; amh. <foreign xml:lang="gez">ሻረ፡</foreign>] <gramGrp> <pos expand="Subjunctivus">Subj.</pos> </gramGrp> <foreign xml:lang="gez">ይስዐር፡</foreign> <sense n="A" xml:id="DA"> transit. <sense n="1" xml:id="DA1"> <cit type="translation" xml:lang="la">
+                                    <quote> rescindere </quote>
+                                </cit>, <cit type="translation" xml:lang="la">
+                                    <quote> dirumpere </quote>
+                                </cit>, <cit type="translation" xml:lang="la">
+                                    <quote> dissolvere </quote>
+                                </cit>, <cit type="translation" xml:lang="la">
+                                    <quote> violare </quote>
+                                </cit>: <foreign xml:lang="gez">ሰዐረ፡ ታእኃሁ፡</foreign> <foreign xml:lang="grc">διαλύει φιλίαν</foreign> <ref cRef="Sir." loc="22,20">Sir. 22,20</ref>; <foreign xml:lang="gez">ሰዐረ፡ ኪዳነ፡ ዘኮነ፡ ምስሌሁ፡ ወምስለ፡ አይሁድ፡</foreign> <ref cRef="Jsp." loc="296">Jsp. p. 296</ref>; <foreign xml:lang="gez">ስዒረ፡ ጾም፡</foreign> <ref cRef="Clem." loc="255">Clem. f. 255</ref>; <foreign xml:lang="gez">ሰዐራ፡ ሰንበታትየ፡</foreign> <foreign xml:lang="grc">ἐβεβήλουν</foreign> <ref cRef="Hez." loc="23,38">Hez. 23,38</ref>.</sense> <sense n="2" xml:id="DA2"> <cit type="translation" xml:lang="la">
+                                    <quote> solvere </quote>
+                                </cit>, <cit type="translation" xml:lang="la">
+                                    <quote> abolere </quote>
+                                </cit>, <cit type="translation" xml:lang="la">
+                                    <quote> abrogare </quote>
+                                </cit>, <cit type="translation" xml:lang="la">
+                                    <quote> irritum facere </quote>
+                                </cit>, <foreign xml:lang="grc">καταλύειν</foreign> <foreign xml:lang="gez">ኦሪተ፡</foreign> <ref cRef="Matth." loc="5,17">Matth. 5,17</ref>; <ref cRef="Rom." loc="14,20">Rom. 14,20</ref>; <foreign xml:lang="grc">ἀκυροῦν</foreign> <ref cRef="Matth." loc="15,6">Matth. 15,6</ref>; <ref cRef="Marc." loc="7,13">Marc. 7,13</ref>; <foreign xml:lang="grc">καταργεῖν</foreign> <ref cRef="Rom." loc="3,31">Rom. 3,31</ref>; <ref cRef="Rom." loc="6,6">Rom. 6,6</ref>; <ref cRef="Eph." loc="2,15">Eph. 2,15</ref>.</sense> <sense n="3" xml:id="DA3"> <cit type="translation" xml:lang="la">
+                                    <quote> abscindere</quote>
+                                </cit>, <cit type="translation" xml:lang="la">
+                                    <quote> auferre </quote>
+                                </cit>, <cit type="translation" xml:lang="la">
+                                    <quote> removere </quote>
+                                </cit>, <cit type="translation" xml:lang="la">
+                                    <quote> cessare facere </quote>
+                                </cit>: <foreign xml:lang="grc">ἀφαιρεῖν</foreign> <foreign xml:lang="gez">ሰዐረ፡ እግዚአብሔር፡ ኵሎ፡ አንብዐ፡ እምኵሉ፡ ገጽ፡</foreign> <ref cRef="Jes." loc="25,8">Jes. 25,8</ref>; <foreign xml:lang="gez">ሰዐሩ፡ እምኔነ፡ ትምህርተ፡</foreign> <ref cRef="Jes." loc="30,11">Jes. 30,11</ref>; <foreign xml:lang="grc">ἐξαίρειν</foreign> <foreign xml:lang="gez">እስዕር፡ ዝሙታ፡ እምቅድመ፡ ገጻ፡ እስዕር፡ እምአህጉረ፡ ይሁዳ፡ ቃለ፡ ሐሤት፡</foreign> <foreign xml:lang="grc">καταλύσω</foreign> <ref cRef="Jer." loc="7,34">Jer. 7,34</ref>; <ref cRef="Jer." loc="16,9">Jer. 16,9</ref>; <foreign xml:lang="gez">ይስዕር፡ ኵሎ፡ ዕንዚራተኪ፡</foreign> <ref cRef="Hez." loc="26,31">Hez. 26,31</ref>; <foreign xml:lang="grc">παραλύειν</foreign> <ref cRef="Jes." loc="23,9">Jes. 23,9</ref>; <foreign xml:lang="gez">እስዕር፡ መንግሥተ፡ እምቤተ፡ እስራኤል፡</foreign> <foreign xml:lang="grc">καταπαύσω</foreign> <ref cRef="Hos." loc="1,4">Hos. 1,4</ref>; <foreign xml:lang="gez">አርዑተ፡ እስዕር፡ እምክሣዶሙ፡</foreign> <foreign xml:lang="grc">συντρίψω</foreign> <ref cRef="Jer." loc="37,8">Jer. 37,8</ref>; <foreign xml:lang="grc">καταργεῖν τινά</foreign> <ref cRef="Hebr." loc="2,14">Hebr. 2,14</ref>; <ref cRef="2 Thess." loc="2,8">2 Thess. 2,8</ref>.</sense> <sense n="4" xml:id="DA4"> in specie: <cit type="translation" xml:lang="la">
+                                    <quote> removere </quote>
+                                </cit> aliquem a munere <foreign xml:lang="gez">ሰዐረኒ፡ እምግብየ፡</foreign> <ref cRef="Luc." loc="16,4">Luc. 16,4</ref>; <ref cRef="Act." loc="13,22">Act. 13,22</ref>; <ref cRef="3 Reg." loc="2,27">3 Reg. 2,27</ref>; <foreign xml:lang="gez">ያነብር፡ ነገሥተ፡ ወይስዕር፡</foreign> <ref cRef="Dan." loc="2,21">Dan. 2,21</ref>.</sense> <sense n="5" xml:id="DA5"> <cit type="translation" xml:lang="la">
+                                    <quote> dirimere </quote>
+                                </cit> (concionem), <cit type="translation" xml:lang="la">
+                                    <quote> dimittere </quote>
+                                </cit>, <foreign xml:lang="grc">ἀπολύειν</foreign> <ref cRef="Marc." loc="6,36">Marc. 6,36</ref>; <ref cRef="Marc." loc="6,45">Marc. 6,45</ref>; <ref cRef="Marc." loc="8,3">Marc. 8,3</ref>; <ref cRef="Luc." loc="2,29">Luc. 2,29</ref>; <foreign xml:lang="gez">ሰዐረኒ፡ እምነ፡ ምድር፡</foreign> <ref cRef="Tob." loc="3,13">Tob. 3,13</ref>.</sense> <sense n="6" xml:id="DA6"> <cit type="translation" xml:lang="la">
+                                    <quote> exscindere </quote>
+                                </cit>, <cit type="translation" xml:lang="la">
+                                    <quote> exstinguere </quote>
+                                </cit>, <cit type="translation" xml:lang="la">
+                                    <quote> delere </quote>
+                                </cit>: <foreign xml:lang="grc">περιεῖλεν</foreign> <ref cRef="1 Reg." loc="28,3">1 Reg. 28,3</ref>; <foreign xml:lang="gez">እስዕር፡ ትዕቢቶሙ፡ ለኃጥኣን፡</foreign> <foreign xml:lang="grc">ἀπολῶ</foreign> <ref cRef="Jes." loc="13,11">Jes. 13,11</ref>; <ref cRef="Ps. " loc="20,10">Ps.  20,10</ref>; <foreign xml:lang="grc">ἀπαλλάξαι</foreign> <ref cRef="Jer." loc="39,31">Jer. 39,31</ref> <lbl expand="varia lectio">var.</lbl>; <foreign xml:lang="gez">ሰዐሮሙ፡ እምነ፡ ምድር፡ ዝክሮሙ፡</foreign> <foreign xml:lang="grc">κατέπαυσεν</foreign> <ref cRef="Sir." loc="10,17">Sir. 10,17</ref>; <cb n="0391" xml:id="c0391"/> <foreign xml:lang="gez">እስዕሮሙ፡ እምዝንቱ፡ ብሔር፡ አስማቲሆሙ፡</foreign> <foreign xml:lang="grc">ἐξαρῶ</foreign> <ref cRef="Zeph. " loc="1,4">Zeph.  1,4</ref>; <foreign xml:lang="gez">ንስዐር፡ ዝክሮ፡ እምድር፡</foreign> <foreign xml:lang="grc">ἄρωμεν</foreign> <ref cRef="Prov." loc="1,12">Prov. 1,12</ref>; <foreign xml:lang="grc">ἐξαλείψει</foreign> <ref cRef="Deut." loc="29,19">Deut. 29,19</ref>; <foreign xml:lang="grc">παύσω</foreign> <ref cRef="Deut. " loc="32,26">Deut.  32,26</ref>.</sense> </sense> <sense n="B" xml:id="DB"> intransit. <foreign xml:lang="gez">ስዕረ፡</foreign> <cit type="translation" xml:lang="la">
+                                <quote> abrumpi </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> aboleri </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> irritum fieri </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> cessare </quote>
+                            </cit>: <foreign xml:lang="gez">ስዕረኑ፡ ቃለ፡ ወንጌል፡ ቅዱስ፡</foreign> <ref cRef="Sx. Jac." loc="1">Sx. Jac. 1</ref>; <foreign xml:lang="gez">ኢይስዐር፡ እምኔክሙ፡ ገብር፡</foreign> <ref cRef="Jos." loc="9,21">Jos. 9,21</ref>; <foreign xml:lang="gez">ይስዐር፡ እምግብሩ፡</foreign> <ref cRef="Num." loc="8,25">Num. 8,25</ref> FH.</sense> </sense>
+               
+            <sense xml:lang="en" source="#traces" xml:id="Tmain"> <cit type="transcription" xml:lang="gez">
+                            <quote>saʿara</quote>
+                        </cit> <sense n="A" xml:id="TA"> <sense n="7" xml:id="TA7"> <cit type="translation" xml:lang="en">
+                                    <quote>take</quote>
+                                </cit>, <cit type="translation" xml:lang="en">
+                                    <quote>capture</quote>
+                                </cit>, <cit type="translation" xml:lang="en">
+                                    <quote>seize</quote>
+                                </cit> <foreign xml:lang="gez">ዝንቱ፡ ትእምርት፡ ይኩነነ፡ ከመ፡ ሠዓርነ፡ አምባ፡ ሶበ፡ ንወግር፡ ነፍጠ፡</foreign> ‘<cit type="translation" xml:lang="fr">
+                                    <quote>Nous donnerons le signal que nous avons pris l’ambā, quand nous tirerons avec les fusils</quote>
+                                </cit>’ <bibl>
+                                    <ptr target="bm:ContiRossini1907SarsaDengel"/>
+                                    <citedRange unit="page"> 107 l., 26-27 (ed.)</citedRange>
+                                </bibl>, <bibl>
+                                    <ptr target="bm:ContiRossini1907SarsaDengelV"/>
+                                    <citedRange unit="page"> 122 l. 21-22 (tr.)</citedRange>
+                                </bibl>, <foreign xml:lang="gez">ወምስለ፡ ዝኒ፡ ርእየ፡ እምቅድመዝ፡ ግርማ፡ ፀብኡ፡ ለዝንቱ፡ ንጉሥ፡ ከመ፡ ሠዓሮሙ፡ ለአምባ፡ ዘረዳኢ፡ ወለእምባ፡ ዘካሌፍ እኁሁ፡</foreign> ‘<cit type="translation" xml:lang="fr">
+                                    <quote>Il avait même déjà vu combien sont redoutables les combats de ce roi , lors de la prise de l’ambā de Radāʾi et de l’ambā de Kālēf, son frère</quote>
+                                </cit>’ <bibl>
+                                    <ptr target="bm:ContiRossini1907SarsaDengel"/>
+                                    <citedRange unit="page"> 109 l. 22-24 (ed.)</citedRange>
+                                </bibl>, <bibl>
+                                    <ptr target="bm:ContiRossini1907SarsaDengelV"/>
+                                    <citedRange unit="page"> 124 l. 22-24 (tr.)</citedRange>
+                                </bibl>, <foreign xml:lang="gez">እምድኅረ፡ ተስዕሮቱ፡ ለሽከና፡ አምባ፡ አስተሓመመ፡ ጥቀ፡ ዝንቱ፡ ንጉሥ፡ መሲሓዊ፡ በእንተ፡ ሥዒሮቱ፡ ለወርቅ፡ አምባ፡</foreign> ‘<cit type="translation" xml:lang="fr">
+                                    <quote>Après la prise de Šekanā Ambā, le roi chrétien réfléchit beaucoup comment il pouvait prendre Warq Ambā</quote>
+                                </cit>’ <bibl>
+                                    <ptr target="bm:ContiRossini1907SarsaDengel"/>
+                                    <citedRange unit="page"> 106 l. 20-21 (ed.)</citedRange>
+                                </bibl>, <bibl>
+                                    <ptr target="bm:ContiRossini1907SarsaDengelV"/>
+                                    <citedRange unit="page"> 121 l. 12-14 (tr.)</citedRange>
+                                </bibl> </sense>
+                        </sense> </sense>
+                </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

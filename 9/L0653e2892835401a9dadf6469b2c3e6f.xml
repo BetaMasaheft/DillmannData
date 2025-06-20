@@ -1,0 +1,79 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ሠሉስ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="MK" when="2019-08-09">added new entry, PoS to be determined </change>
+            <change who="MK" when="2019-08-09">added transl. </change>
+        <change who="MK" when="2022-08-19">correction</change><change who="MK" when="2022-08-19">correction</change><change who="MK" when="2024-04-08">added gr and les</change><change who="MK" when="2024-04-08">added sub</change></revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L0653e2892835401a9dadf6469b2c3e6f" n="1695">
+               <form>
+                  <foreign xml:lang="gez">ሠሉስ</foreign>
+               </form>
+               <sense xml:id="Dmain" xml:lang="la" source="#dillmann"> <gramGrp> <pos expand="nomen">nom.</pos> </gramGrp> temporale, <sense n="1" xml:id="D1"> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> tres </t:quote></cit> (dies) et <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> tertius </t:quote></cit> (dies): <foreign xml:lang="gez">ሠሉሰ፡ ዕለተ፡</foreign> <ref cRef="Ex." loc="10,22">Ex. 10,22</ref>; <ref cRef="Ex." loc="10,23">Ex. 10,23</ref>; <ref cRef="1 Reg." loc="30,12">1 Reg. 30,12</ref>; <ref cRef="Jon." loc="2,1">Jon. 2,1</ref>; <ref cRef="Matth." loc="12,40">Matth. 12,40</ref>; <foreign xml:lang="gez">ሠሉሰ፡ መዋዕለ፡</foreign> <ref cRef="Judith" loc="12,7">Judith 12,7</ref>; <ref cRef="4 Esr." loc="13,64">4 Esr. 13,64</ref>; <cb n="0232" xml:id="c0232"/> <ref cRef="2 Esr. " loc="8,15">2 Esr.  8,15</ref>; <foreign xml:lang="gez">ምሕዋረ፡ ሠሉስ፡ ዕለት፡</foreign> <ref cRef="Judith" loc="2,21">Judith 2,21</ref>; <foreign xml:lang="gez">እስከ፡ ሠሉስ፡ መዋዕል፡</foreign> <ref cRef="Esth." loc="4,16">Esth. 4,16</ref>; <foreign xml:lang="gez">በሠሉስ፡ ዕለት፡</foreign> <ref cRef="Joh." loc="2,19">Joh. 2,19</ref>; <ref cRef="Marc." loc="14,58">Marc. 14,58</ref> (omisso <foreign xml:lang="gez">ዕለት፡</foreign> in <lbl expand="">ed. rom.</lbl>); <foreign xml:lang="gez">አመ፡ ሠሉሱ፡ ለሠርቀ፡ ወርኅ፡</foreign> <ref cRef="2 Esr." loc="6,15">2 Esr. 6,15</ref>; <gramGrp> <pos expand="pronomen suffixum">pron. suff.</pos> </gramGrp> admittit: <foreign xml:lang="gez">ደወይኩ፡ ሠሉስየ፡ ዮም፡</foreign> <ref cRef="1 Reg." loc="30,13">1 Reg. 30,13</ref>; <ref cRef="1 Reg." loc="21,5">1 Reg. 21,5</ref>. 
+</sense> <sense n="2" xml:id="D2"> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> feria tertia </t:quote></cit> hebdomadis, ut: <foreign xml:lang="gez">በሠሉስ፡ ዕለት፡</foreign> <ref cRef="Did." loc="29">Did. 29</ref>; <foreign xml:lang="gez">ሠሉስ፡ ዘፋሲካ፡</foreign> Cod. Mus. Brit. XXIX, 44 vel <foreign xml:lang="gez">ሠሉስ፡ ፋሲካ፡</foreign> Mavâs. 44. 
+</sense> </sense>
+               
+            <sense xml:id="Tmain" xml:lang="en" source="#traces"> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> śalusa </t:quote></cit> <lb/>
+ <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> the day after tomorrow </t:quote></cit> <foreign xml:lang="gez">ውእቱሰ፡ አስተጐናደየ፡ ነገረ፡ እንዘ፡ ይብል፤ ጌሰመ፡ ወሠሉሰ፡ ይኩን።</foreign> ‘<cit type="translation" xml:lang="fr"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> Il essaya de différer la chose en disant : “On fera cela demain , après-demain!” </t:quote></cit>’ <bibl><ptr target="bm:ContiRossini1907SarsaDengel"/><citedRange unit="page"> 47 l. 34–35 (ed.)</citedRange></bibl>, <bibl><ptr target="bm:ContiRossini1907SarsaDengelV"/><citedRange unit="page"> 55 l. 36–37 (tr.)</citedRange></bibl> <sense n="G" xml:id="TG"> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">śalus</t:quote></cit> <foreign xml:lang="gez">ሠሉስ፡</foreign> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">śalus</t:quote></cit> «<cit type="translation" xml:lang="fr"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">trois</t:quote></cit> (mascl.), <cit type="translation" xml:lang="fr"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">mardi</t:quote></cit>» ― <foreign xml:lang="am">ሶስት፡</foreign>, <foreign xml:lang="am">ማክሰኞ፡</foreign> Ms. <ref type="BM" target="BNFabb217">BNFabb217</ref>, fol. 49r. <lb/>
+ <bibl><ptr target="bm:Grebaut1952SuppLexicon"/><citedRange unit="page"> 121</citedRange></bibl> 
+</sense> <sense n="L" xml:id="TL"> <foreign xml:lang="gez">ሠሉስ</foreign> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">śalus</t:quote></cit> <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">after tomorrow</t:quote></cit>, <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">three</t:quote></cit> (days), <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">the third day of the week or month</t:quote></cit>, <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">Tuesday</t:quote></cit> <lb/>
+ <foreign xml:lang="gez">ሠሉሰ</foreign> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">śalusa</t:quote></cit> (Lt) <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">after tomorrow</t:quote></cit> <bibl><ptr target="bm:Leslau1987dic"/><citedRange unit="page"> 529b</citedRange></bibl> 
+</sense> </sense>
+                </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

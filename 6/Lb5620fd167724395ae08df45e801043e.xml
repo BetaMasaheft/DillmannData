@@ -1,0 +1,78 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ባሕታዊ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="AE" when="2018-11-02">Rho durch P ersetzt etc.,</change>
+        <change who="MK" when="2024-01-31">added cross ref</change><change who="MK" when="2024-11-27">added gr and les </change><change who="MK" when="2024-11-27">added sub</change></revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="Lb5620fd167724395ae08df45e801043e" n="3845">
+               <form>
+                  <foreign xml:lang="gez">ባሕታዊ</foreign>
+               </form>
+               <sense xml:id="Dmain" xml:lang="la" source="#dillmann"> <gramGrp> <pos expand="nomen agentis">n. ag.</pos> </gramGrp> et <gramGrp> <pos expand="adjectivum">adj.</pos> </gramGrp> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> solus </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> solitarius </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> solivagus </t:quote></cit>: <foreign xml:lang="gez">ዖፍ፡ ባሕታዊ፡</foreign> <ref cRef="Ps." loc="101,8">Ps. 101,8</ref>; <foreign xml:lang="gez">ርድአኒ፡ ሊተ፡ ለባሕታዊት፡</foreign> <foreign xml:lang="grc">τῇ μόνῃ</foreign> <ref cRef="Esth." loc="4,17">Esth. 4,17</ref> apocr.; <ref cRef="Kuf." loc="5">Kuf. 5</ref>; <sense n="a" xml:id="Da"> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> derelictus </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> desertus </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> orbus </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> ope destitutus </t:quote></cit>: <foreign xml:lang="grc">μονογενής</foreign> <ref cRef="Ps." loc=" 24,17">Ps.  24,17</ref>; <foreign xml:lang="gez">ተሣሀልኮሙ፡ ለክልኤ፡ ባሕታዊያን፡</foreign> <ref cRef="Tob." loc="8,17">Tob. 8,17</ref>; <foreign xml:lang="grc">μονότροπος</foreign> <ref cRef="Ps." loc="67,6">Ps. 67,6</ref>; <foreign xml:lang="grc">πένης</foreign> <ref cRef="Ps." loc="81,4">Ps. 81,4</ref>; <foreign xml:lang="grc">πτωχός</foreign> <ref cRef="Ps." loc="101 ">Ps. 101 </ref>in tit.; <foreign xml:lang="grc">ἀδύνατοι</foreign> <foreign xml:lang="gez">ባሕታውያን፡</foreign> <ref cRef="Job" loc="24,7">Job 24,7</ref>; <foreign xml:lang="grc">προςήλυτοι</foreign> <ref cRef="2 Par." loc="2,17">2 Par. 2,17</ref> (v. <foreign xml:lang="gez">ፈላስያን፡</foreign>). <ref cRef="2 Par." loc="15,9">2 Par. 15,9</ref>; <foreign xml:lang="grc">ἀνυπονόητος</foreign> <ref cRef="Sir." loc="11,5">Sir. 11,5</ref>. 
+</sense> <sense n="b" xml:id="Db"> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> anachoreta </t:quote></cit> <ref cRef="Org." loc="6">Org. 6</ref>; <foreign xml:lang="gez">ባሕታዊ፡ ዘሞቅሐ፡ ርእሶ፡ በጾማዕቱ፡</foreign> F.M. 3,7; Phlx. crebro; <gramGrp> <gen value="femininus">fem.</gen> </gramGrp> <foreign xml:lang="gez">ባሕታዊት፡</foreign> F.M. 6,10; <foreign xml:lang="gez">መነኮስ፡ ባሕታዊ፡</foreign> <ref cRef="Sx. Tachs." loc="23.">Sx. Tachs. 23.</ref> <cb n="0498" xml:id="c0498"/> 
+</sense> </sense>
+               
+            <sense xml:id="Tmain" xml:lang="en" source="#traces"> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">bāḥǝtāwi</t:quote></cit> <sense n="G" xml:id="TG"> <foreign xml:lang="gez">ብሕትው፡</foreign> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">bǝḥtǝw</t:quote></cit>, <foreign xml:lang="gez">ባሕታዊ፡</foreign> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">bāḥǝtāwi</t:quote></cit> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">solus</t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">unicus</t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">eremita</t:quote></cit>, <cit type="translation" xml:lang="fr"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">seul</t:quote></cit>, <cit type="translation" xml:lang="fr"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">ermite</t:quote></cit> ― <foreign xml:lang="am">ብቸኛ፡</foreign> Ms. Roma, Biblioteca Nazionale Centrale di Roma, Orientale 134, p. 66. <lb/>
+ <bibl><ptr target="bm:Grebaut1952SuppLexicon"/><citedRange unit="page"> 185</citedRange></bibl> 
+</sense> <sense n="L" xml:id="TL"> <foreign xml:lang="gez">ባሕታዊ፡</foreign> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">bāḥǝtāwi</t:quote></cit> <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">hermit</t:quote></cit>, <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">anachorite</t:quote></cit>, <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">one who lives in solitude</t:quote></cit>, <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">solitary</t:quote></cit>, <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">deserted</t:quote></cit> <bibl><ptr target="bm:Leslau1987dic"/><citedRange unit="page"> 92b</citedRange></bibl> 
+</sense> <sense n="C" xml:id="TC"> <sense n="a" xml:id="TCa"> <lbl expand="videas">vid.</lbl> also <foreign xml:lang="gez">ብሕትው፡</foreign> 
+</sense> <sense n="b" xml:id="TCb"> for <foreign xml:lang="gez">መነኮስ፡ ባሕታዊ፡</foreign> <lbl expand="videas">vid.</lbl> <foreign xml:lang="gez">መነኮስ፡</foreign> 
+</sense> 
+</sense> </sense></entry>
+         </div>
+      </body>
+   </text>
+</TEI>

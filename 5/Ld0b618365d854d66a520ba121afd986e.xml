@@ -1,0 +1,72 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ቅኔ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="MK" when="2022-11-03">removed merged part</change><change who="MK" when="2022-11-03">correction</change><change who="MK" when="2022-11-03">correction</change></revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="Ld0b618365d854d66a520ba121afd986e" n="3522">
+               <form>
+                  <foreign xml:lang="gez">ቅኔ</foreign>
+               </form>
+               <sense xml:id="Dmain" xml:lang="la" source="#dillmann"> <gramGrp> <pos expand="Substantivum">subst.</pos> </gramGrp>, plerumque <gramGrp> <gen value="not found">m.</gen> </gramGrp> <sense n="1" xml:id="D1"> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> servitus </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> servitium </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> ministerium </t:quote></cit>: <foreign xml:lang="gez">ቅኔ፡ እኩይ፡</foreign> <ref cRef="Jes." loc="14,3">Jes. 14,3</ref>; <foreign xml:lang="gez">ቅኔ፡ መሪር፡</foreign> Enc.; <foreign xml:lang="gez">ቤተ፡ ቅኔ፡</foreign> <ref cRef="Jer." loc="41,13">Jer. 41,13</ref>; <ref cRef="Mich." loc="6,4">Mich. 6,4</ref>; <foreign xml:lang="gez">በብዝኀ፡ ቅኔሃ፡</foreign> <ref cRef="Thren." loc="1,3">Thren. 1,3</ref>; <ref cRef="Judith" loc="8,23">Judith 8,23</ref>; <ref cRef="2 Esr." loc="9,8">2 Esr. 9,8</ref>; <ref cRef="Kuf. " loc="46">Kuf.  46</ref>; <foreign xml:lang="gez">ቅኔ፡ ግብርናተ፡ ፈርዖን፡</foreign> <ref cRef="Org." loc="1">Org. 1</ref>; <foreign xml:lang="gez">መንፈሰ፡ ቅኔ፡</foreign> <ref cRef="Rom." loc="8,15">Rom. 8,15</ref>; <foreign xml:lang="gez">አርዑተ፡ ቅኔ፡</foreign> <ref cRef="Gal." loc="5,">Gal. 5,</ref>l; <foreign xml:lang="gez">ኅዳጠ፡ ትጻሙ፡ በቅኔሃ፡</foreign> (<foreign xml:lang="grc">ἐργασία</foreign>) <ref cRef="Sir." loc="6,19">Sir. 6,19</ref>; <ref cRef="Ps." loc="103,15">Ps. 103,15</ref>; <ref cRef="Ps." loc="146,9">Ps. 146,9</ref>. 
+</sense> <sense n="2" xml:id="D2"> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> labor </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> opera </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> opus </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> negotium </t:quote></cit>, in specie <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> opus agricolae </t:quote></cit>: <foreign xml:lang="gez">ቅኔ፡ እደዊነ፡ ኢናፅርዕ፡</foreign> <ref cRef="Did." loc="13">Did. 13</ref>; <foreign xml:lang="gez">እምቅኔ፡ እደዊሃ፡ ትሁብ፡ ለነዳያን፡</foreign> <ref cRef="Did." loc="14">Did. 14</ref>; <foreign xml:lang="grc">ἐργασία</foreign> <ref cRef="2 Par." loc="4,11">2 Par. 4,11</ref>; <ref cRef="2 Par." loc="5,1">2 Par. 5,1</ref>; in agro <ref cRef="Kuf." loc="3">Kuf. 3</ref>; <foreign xml:lang="gez">ግብር፡ ዘቅኔ፡</foreign> <foreign xml:lang="grc">ἔργον λατρευτόν</foreign> <ref cRef="Lev." loc="23,7">Lev. 23,7</ref>; de disciplina ascetica, Lud. ex Enc.; <foreign xml:lang="gez">ይገብር፡ ቅኔሁ፡ በዲበ፡ ምስካቡ፡</foreign> Lud. e V.S. 
+</sense> <sense n="3" xml:id="D3"> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> muneris functio </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> ministerium </t:quote></cit> sacrum in templo, ecclesia; <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> officium </t:quote></cit>; <foreign xml:lang="grc">λειτουργία</foreign> <ref cRef="Sap." loc="18,21">Sap. 18,21</ref>; <foreign xml:lang="gez">ቅኔ፡ ቤተ፡ ክርስቲያን፡</foreign> <ref cRef="Did." loc="12">Did. 12</ref>; <foreign xml:lang="gez">ሥርዐተ፡ ቅኔ፡ ቤተ፡ ክርስቲያን፡</foreign> <ref cRef="Kid." loc="18.">Kid. 18.</ref> 
+</sense> </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

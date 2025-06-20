@@ -1,0 +1,160 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng"
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="gez">ሀልዎ</title>
+            <editor>Alessandro Bausi</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>Hiob-Ludolf-Zentrum für Äthiopistik</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>The origin of the lexicon is in a thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann, Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum
+                     indice latino. Adiectum est vocabularium tigre dialecti septentrionalis
+                     compilatum</emph> a W. Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>Additional records were created by the project <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/"> TraCES (ERC Advanced Grant, Grant
+                  Agreement 338756)</ref>
+            </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+         <listPrefixDef>
+            <prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="MK" when="2022-08-09">added new entry</change>
+         <change who="MK" when="2022-08-09">added text</change>
+         <change who="MK" when="2022-08-09">added text</change>
+         <change who="MK" when="2022-08-09">added example</change>
+         <change who="MK" when="2022-08-09">added structure</change>
+         <change who="MK" when="2022-08-09">added structure</change>
+         <change who="MK" when="2022-08-09">added senses</change>
+         <change who="MK" when="2022-08-09">added cross reference </change>
+         <change who="MK" when="2022-08-09">added bibliography</change>
+         <change who="MK" when="2022-08-10">correction</change>
+         <change who="MK" when="2022-08-11">corections</change>
+         <change who="MK" when="2022-08-11">correction</change>
+         <change who="MK" when="2022-08-15">added cross ref</change>
+         <change who="MK" when="2022-08-15">added ref</change>
+         <change who="MK" when="2022-08-16">correction</change>
+         <change who="MK" when="2022-08-18">added pos</change>
+         <change who="MK" when="2022-09-14">added transliteration</change>
+         <change who="MK" when="2022-09-14">added transliteration</change>
+         <change who="MK" when="2022-10-10">correction</change>
+         <change who="MK" when="2022-10-10">correction</change>
+         <change who="MK" when="2022-10-10">correction</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L6eb57b4154f4410c98848053aaaec9ff" n="12896">
+               <form>
+                  <foreign xml:lang="gez">ሀልዎ</foreign>
+               </form>
+               <sense xml:id="Tmain" xml:lang="en" source="#traces">
+                  <cit type="transcription" xml:lang="gez">
+                     <t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> hallǝwo </t:quote>
+                  </cit>
+                  <gramGrp>
+                     <pos expand="infinitivus nominalis,&#xA;                            nominascens">Infin. nom.</pos>
+                  </gramGrp>
+                  <sense n="G" xml:id="TG">
+                     <foreign xml:lang="gez">ሀልዎ</foreign>
+                     <cit type="transcription" xml:lang="gez">
+                        <t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> hallǝwo </t:quote>
+                     </cit> (<gramGrp>
+                        <pos expand="infinitivus nominalis,&#xA;                            nominascens">Infin. nom.</pos>
+                     </gramGrp>), présente dans la langue théologique souvent les mêmes sens que les
+                     noms abstraits {<lbl expand="videas">vid.</lbl>} <foreign xml:lang="gez">ህላዌ፡</foreign> et {<lbl expand="videas">vid.</lbl>} <foreign xml:lang="gez">ህሉና፡</foreign>, <cit type="translation" xml:lang="fr">
+                        <t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> existence </t:quote>
+                     </cit>, <cit type="translation" xml:lang="fr">
+                        <t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> présence </t:quote>
+                     </cit>, <cit type="translation" xml:lang="fr">
+                        <t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> essence </t:quote>
+                     </cit>, <cit type="translation" xml:lang="fr">
+                        <t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> nature </t:quote>
+                     </cit>, <cit type="translation" xml:lang="fr">
+                        <t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> substance </t:quote>
+                     </cit>, <foreign xml:lang="grc">φύσις</foreign>, <foreign xml:lang="grc">οὐσία</foreign>, <foreign xml:lang="grc">ὑπόστασις</foreign>. L’expression
+                     théologique fréquemment usitée <foreign xml:lang="gez">ኅቡረ፡ ህላዌ፡</foreign>
+                        (<foreign xml:lang="grc">ὁμούσιος</foreign>) se substitue parfois à
+                     l’expression <foreign xml:lang="gez">ኅቡረ፡ ሀልዎ፡</foreign>. <lb/>
+                     <foreign xml:lang="gez">ሀልዎ፡</foreign> «<cit type="translation" xml:lang="fr">
+                        <t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> existence </t:quote>
+                     </cit>, <cit type="translation" xml:lang="fr">
+                        <t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> l’être </t:quote>
+                     </cit>» –– <foreign xml:lang="gez">መኖር፡</foreign>, Ms. Paris, BnF, d’Abbadie
+                     217, fol. 9r. <lb/>
+                     <foreign xml:lang="gez">ሀልዎ፡</foreign> «<cit type="translation" xml:lang="la">
+                        <t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> persona </t:quote>
+                     </cit>» –– <foreign xml:lang="gez">መኖር፡</foreign>, Ms. Roma, Biblioteca
+                     Nazionale Centrale di Roma, Orientale 134, p. 1. <lb/>
+                     <foreign xml:lang="gez">ሀልዎ፡</foreign>
+                     <cit type="translation" xml:lang="fr">
+                        <t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> l’existence </t:quote>
+                     </cit>, en opposition à <foreign xml:lang="gez">ኢሀልዎ፡</foreign>
+                     <cit type="translation" xml:lang="fr">
+                        <t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> le néant </t:quote>
+                     </cit>. <foreign xml:lang="gez">እግዚአብሔር፡ ዘገብረ፡ ኵሎ፡ እምኀበ፡ ኢሀልዎ፡ ኀበ፡ ሀልዎ፡ በሥልጣነ፡
+                        መለኮቱ፡ ጽኑዕ፡ በኵሉ፡ ግብር።</foreign>
+                     <bibl><ptr target="bm:Zotenberg1883JohnNikiu"/><citedRange unit="page">
+                           159</citedRange></bibl>. <lb/>
+                     <foreign xml:lang="gez">ሀልዎት፡</foreign>
+                     <cit type="transcription" xml:lang="gez">
+                        <t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> hallǝwot </t:quote>
+                     </cit>
+                     <cit type="translation" xml:lang="fr">
+                        <t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> existence </t:quote>
+                     </cit>, (synonyme de <foreign xml:lang="gez">ሀልዎ፡</foreign>). <foreign xml:lang="gez">ነገር፡ በእንተ፡ ምሥጢረ፡ መለኮት፡ ኢሀሎ፡ አብ፡ እምቅድመ፡ ወልድ፡ ወኢሀሎ፡ ወልድ፡ እምቅድመ፡
+                        አብ፡ ወኢሀሎ፡ መንፈስ፡ ቅዱስ፡ ቅድመ፡ አብ፡ ወወልድ። ሀልዎቶሙ፡ እምቅድመ፡ ፍጥረተ፡ ዓለም። ወአሐዱ፡ ውእቱ፡
+                        ሀልዎቶሙ፡ እምድኅረ፡ ፍጥረተ፡ ዓለም። ፫ስመ፡ ሠለስቲሆሙ፡ ብሂል፡ እግዚአብሔር፡ ዕሩይ፡ መለኮቶሙ፡ ወ፩ውእቱ፡
+                        ሀልዎቶሙ፡ እምቅድመ፡ ሰማይ፡ ወምድር። አልቦ፡ ማኅለቅተ፡ ለሀልዎቶሙ።</foreign>
+                     <bibl><ptr target="bm:Perruchon1903Mysteres"/><citedRange unit="page">
+                           2</citedRange></bibl>
+                     <lb/>
+                     <foreign xml:lang="gez">ሀልዎት፡</foreign> «<cit type="translation" xml:lang="la">
+                        <t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> praesentia </t:quote>
+                     </cit>» –– Ms. Roma, Biblioteca Nazionale Centrale di Roma, Orientale 134, p.
+                     1. <lb/>
+                     <bibl><ptr target="bm:Grebaut1952SuppLexicon"/><citedRange unit="page">
+                           3</citedRange></bibl>
+                  </sense>
+                  <sense n="C" xml:id="TC">
+                     <lbl expand="videas">vid.</lbl> also <ref type="external" target="https://betamasaheft.eu/Dillmann/lemma/L5de5861916074716a3aeac07398d35fd">
+                        <foreign xml:lang="gez">ሀለወ፡</foreign></ref> esp. 1f) </sense>
+                  <nd/>
+               </sense>
+
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,90 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ጸሊም </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="AE" when="2018-10-24">Verschachtelung,</change>
+        </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="Lefd7a12ee7544e4e8d2095c7c3e79b07" n="9144">
+               <form>
+                  <foreign xml:lang="gez">ጸሊም</foreign>
+               </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain"> <gramGrp> <pos expand="adjectivum">adj.</pos> </gramGrp>, <gramGrp> <gen value="femininus">fem.</gen> </gramGrp> <foreign xml:lang="gez">ጸላም፡</foreign> <sense n="1" xml:id="D1"> <cit type="translation" xml:lang="la">
+                                <quote> niger </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> ater </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> fuscus </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> nigricans </quote>
+                            </cit>, de capillis <ref cRef="Cant." loc="5,11">Cant. 5,11</ref>; <ref cRef="Lev." loc="13,37">Lev. 13,37</ref>; fuligine <ref cRef="Thren." loc="4,8">Thren. 4,8</ref> (<lbl expand="videas">vid.</lbl> <foreign xml:lang="gez">ሕመት፡</foreign>); Herm. p. 74; atramento: <foreign xml:lang="gez">ዘጽሑፍ፡ በጸሊም፡</foreign> <ref cRef="Abush." loc="33">Abush. 33</ref>; calceis: <foreign xml:lang="gez">አሣእን፡ ጸሊም፡</foreign> <ref cRef="Hez." loc="16,10">Hez. 16,10</ref>; equis: <ref cRef="Apoc." loc="6,5">Apoc. 6,5</ref>; <foreign xml:lang="gez">አፍራስ፡ ጸሊማን፡</foreign> <ref cRef="Zach." loc="1,8">Zach. 1,8</ref>; <ref cRef="Zach." loc="6,2">Zach. 6,2</ref>; <ref cRef="Zach." loc="6,6">Zach. 6,6</ref>; bubus <ref cRef="Hen." loc="85,8">Hen. 85,8</ref>; <ref cRef="Hen." loc="86,2">Hen. 86,2</ref>; cute hominis: <foreign xml:lang="gez">ኵሎሙ፡ ኢትዮጵያ፡ ዘጸሊም፡ ሥጋሆሙ፡</foreign> <ref cRef="Clem." loc="26">Clem. f. 26</ref>; <foreign xml:lang="gez">ጸላም፡ አነ፡</foreign> <ref cRef="Cant. " loc="1,5">Cant.  1,5</ref>; in specie <sense n="a" xml:id="D1a"> <foreign xml:lang="gez">ጸሊም፡</foreign> vel <foreign xml:lang="gez">ብእሲ፡ ጸሊም፡</foreign> <cit type="translation" xml:lang="la">
+                                    <quote> nigrita </quote>
+                                </cit>, (quem Romani dicunt <cit type="translation" xml:lang="la">
+                                    <quote> Aethiopem </quote>
+                                </cit>): <ref cRef="Act." loc="13,1">Act. 13,1</ref> <lbl expand="romanae editionis">rom.</lbl>; <foreign xml:lang="gez">ብእሲ፡ ጸሊም፡</foreign> <ref cRef="Jer." loc="13,23">Jer. 13,23</ref> <lbl expand="versio altera">vers. alt.</lbl>; <foreign xml:lang="gez">ገብር፡ ጸሊም፡</foreign> <ref cRef="Gad. T.H." loc="">Gad. T.H. </ref>; <foreign xml:lang="gez">አባ፡ ሙሴ፡ ጸሊም፡</foreign> <ref cRef="Sx. Sen." loc="24">Sx. Sen. 24</ref>; <ref cRef="Phlx." loc="19.">Phlx. 19.</ref> </sense> <sense n="b" xml:id="D1b"> <foreign xml:lang="gez">ጸሊም፡</foreign> <cit type="translation" xml:lang="la">
+                                    <quote> pullum </quote>
+                                </cit>, <cit type="translation" xml:lang="la">
+                                    <quote> vestes atrae </quote>
+                                </cit>: <foreign xml:lang="gez">ይመጽእ፡ ለቢሶ፡ ጸሊመ፡</foreign> <ref cRef="Jsp." loc="315">Jsp. p. 315</ref>; <foreign xml:lang="gez">ምንትኑ፡ ለበስከ፡ ጸሊማተ፡</foreign> <ref cRef="Fal." loc="68.">Fal. f. 68.</ref> </sense> </sense> <sense n="2" xml:id="D2"> <cit type="translation" xml:lang="la">
+                                <quote> tenebrosus </quote>
+                            </cit> (<cit type="translation" xml:lang="de">
+                                <quote>finster</quote>
+                            </cit>): <foreign xml:lang="gez">ቤት፡ ጸሊም፡</foreign> <ref cRef="Sx. Hed." loc="13.">Sx. Hed. 13.</ref> </sense> </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

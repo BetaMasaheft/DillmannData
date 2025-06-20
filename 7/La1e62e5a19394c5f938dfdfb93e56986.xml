@@ -1,0 +1,125 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ቀጸላ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="La1e62e5a19394c5f938dfdfb93e56986" n="3687">
+               <form>
+                  <foreign xml:lang="gez">ቀጸላ</foreign>
+               </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain">
+                  <gramGrp>
+                     <pos expand="Substantivum">subst.</pos>
+                  </gramGrp>, sing, et <lbl expand="collatio, -is vel collectivum, -e">coll.</lbl>,
+                     <lbl expand="pluralis">Pl.</lbl>
+                  <foreign xml:lang="gez">ቀጸላት፡ </foreign> (<ref cRef="Jes." loc="3,19">Jes.
+                     3,19</ref>) <sense n="1" xml:id="D1">
+                     <cit type="translation" xml:lang="la">
+                        <quote>serta</quote>
+                     </cit>, <cit type="translation" xml:lang="la">
+                        <quote>corona</quote>
+                     </cit>, <cit type="translation" xml:lang="la">
+                        <quote>diadema</quote>
+                     </cit>, <cit type="translation" xml:lang="la">
+                        <quote>mitra</quote>
+                     </cit>, <cit type="translation" xml:lang="la">
+                        <quote>ornamentum capitis</quote>
+                     </cit>, <foreign xml:lang="grc">στέφανος</foreign> et <foreign xml:lang="grc">στέφανοι</foreign>
+                     <ref cRef="Sir." loc="45,12">Sir. 45,12</ref>; <ref cRef="Ep. Jer." loc="9">Ep.
+                        Jer. 9</ref>; <ref cRef="Apoc." loc="9,7">Apoc. 9,7</ref>; <foreign xml:lang="grc">μίτρα</foreign>
+                     <ref cRef="Bar." loc="5,2">Bar. 5,2</ref>; <foreign xml:lang="grc">κόσμος τοῦ
+                        προςώπου </foreign> vel <foreign xml:lang="grc">τῆς κεφαλῆς</foreign>
+                     <foreign xml:lang="gez">ቀጸላሆን፡</foreign> (v. <foreign xml:lang="gez">ቀጸላቲሆን፡</foreign> et <foreign xml:lang="gez">ቀጽላቲሆን፡</foreign>) <ref cRef="Jer." loc="3,19">Jer. 3,19</ref>; <ref cRef="Jer." loc="3,24">Jer.
+                        3,24</ref>; <foreign xml:lang="grc">διάδημα</foreign>
+                     <ref cRef="Jes." loc="62,3">Jes. 62,3</ref>; <ref cRef="Apoc." loc="12,3">Apoc.
+                        12,3</ref>. Erat “insigne praefectorum vel proregum Aethiopiae”,
+                     Lud.</sense>
+                  <sense n="2" xml:id="D2"> ambitus, <cit type="translation" xml:lang="la">
+                        <quote>limbus</quote>
+                     </cit>, <cit type="translation" xml:lang="la">
+                        <quote>margo</quote>
+                     </cit>, <cit type="translation" xml:lang="la">
+                        <quote>taenia</quote>
+                     </cit>, <foreign xml:lang="grc">στεφάνη</foreign>
+                     <ref cRef="Ex." loc="25,">Ex. 25,</ref> 24.25; <ref cRef="Ex." loc="27,3">Ex.
+                        27,3</ref>; <ref cRef="Ex." loc="30,3">Ex. 30,3</ref>; <ref cRef="Ex." loc="30,4">Ex. 30,4</ref>; etiam <ref cRef="Ex." loc="25,11">Ex. 25,11</ref>
+                     in <lbl expand="cum">c.</lbl>
+                  </sense>
+                  <sense n="3" xml:id="D3">
+                     <cit type="translation" xml:lang="la">
+                        <quote>lamina</quote>
+                     </cit>, <cit type="translation" xml:lang="la">
+                        <quote>bractea</quote>
+                     </cit> (<lbl expand="videas">vid.</lbl>
+                     <foreign xml:lang="gez">ቈጽል፡</foreign>), <foreign xml:lang="grc">πέταλον</foreign>
+                     <ref cRef="Ex." loc="29,6">Ex. 29,6</ref>, <lbl expand="collatio, -is vel collectivum, -e">coll.</lbl>
+                     <ref cRef="Apoc." loc="19,12">Apoc. 19,12</ref> Platt.</sense>
+                  <sense n="4" xml:id="D4">
+                     <cit type="translation" xml:lang="la">
+                        <quote>tabula</quote>
+                     </cit>
+                     <cit type="translation" xml:lang="la">
+                        <quote>e lapide</quote>
+                     </cit> fissili (cfr. amh. <foreign xml:lang="gez">ቀጠላ፡</foreign>): <foreign xml:lang="gez">ቀጸላ፡ ጸሊም፡</foreign> et <foreign xml:lang="gez">ጸዐዳ፡ </foreign>
+                     <ref cRef="Chron. Ax." loc="93">Chron. Ax. f. 93</ref>; <ref cRef="Chron. Ax." loc="95.">Chron. Ax. 95.</ref>
+                  </sense>
+               </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

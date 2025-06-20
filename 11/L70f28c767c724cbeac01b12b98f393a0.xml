@@ -1,0 +1,108 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ተከዘ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="LB" when="2018-03-06">root</change>
+        <change who="AE" when="2018-10-03">Verschachtelung,</change>
+        </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L70f28c767c724cbeac01b12b98f393a0" n="4348">
+               <form>
+                  <foreign xml:lang="gez">ተከዘ</foreign>
+               <rs type="root"/>
+                    </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain"> <subc>I,2</subc> (quamquam <ref cRef="Platt" loc="2 ">Platt 2 </ref> <ref cRef="Cor." loc="2,4">Cor. 2,4</ref> <foreign xml:lang="gez">ትትክዙ፡</foreign> <subc>I,1</subc> exhibet) [amh. <lbl expand="idem">id.</lbl>; ejusdem familiae videntur <foreign xml:lang="gez">ሐዘነ፡</foreign> q.v.; <foreign xml:lang="ar">حَزَّةٌ</foreign> <cit type="translation" xml:lang="la">
+                            <quote> dolor animi </quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                            <quote> aegritudo </quote>
+                        </cit>; <foreign xml:lang="ar">وَحَشَ</foreign> IV nec non <foreign xml:lang="he">כָּעַס</foreign>] <sense n="1" xml:id="D1"> <cit type="translation" xml:lang="la">
+                                <quote> maerere </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> contristari </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> tristem </quote>
+                            </cit>vel <cit type="translation" xml:lang="la">
+                                <quote> aegrum animi esse </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> lugere </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> tetricum esse </quote>
+                            </cit>, <foreign xml:lang="grc">λυπεῖσθαι</foreign> <ref cRef="Matth." loc="17,23">Matth. 17,23</ref>; <ref cRef="Matth." loc="18,31">Matth. 18,31</ref>; <ref cRef="Matth. " loc="19,22">Matth.  19,22</ref>; <ref cRef="Joh." loc="16,21">Joh. 16,21</ref>; Joh.16,22; <ref cRef="Rom." loc="9,2">Rom. 9,2</ref>; <ref cRef="2 Cor." loc="7,9">2 Cor. 7,9</ref>; <ref cRef="Phil." loc="2,28">Phil. 2,28</ref>; <ref cRef="Jes." loc="8,21">Jes. 8,21</ref>; <ref cRef="Jes." loc="57,17">Jes. 57,17</ref>; <ref cRef="Dan." loc="6,14">Dan. 6,14</ref>; <foreign xml:lang="gez">ተከዘ፡ ዮናስ፡ ዐቢየ፡ ትካዘ፡</foreign> <ref cRef="Jon." loc="4,1">Jon. 4,1</ref>; <ref cRef="4 Reg." loc="13,19">4 Reg. 13,19</ref>; <ref cRef="Esth." loc="1,12">Esth. 1,12</ref>; <ref cRef="Tob." loc="3,1">Tob. 3,1</ref>; <ref cRef="Tob." loc="3,10">Tob. 3,10</ref>; <foreign xml:lang="grc">περίλζπον εἶναι</foreign> <ref cRef="Ps. " loc="41,6">Ps.  41,6</ref>; <ref cRef="Ps." loc="41,15">Ps. 41,15</ref>; <ref cRef="Ps." loc="42,5">Ps. 42,5</ref>; <foreign xml:lang="grc">κακοπαθεῖν</foreign> <ref cRef="Jac." loc="5,13">Jac. 5,13</ref>; <foreign xml:lang="grc">στενάζειν</foreign> <ref cRef="Jes." loc="19,8">Jes. 19,8</ref>; <ref cRef="Jes." loc="21,2">Jes. 21,2</ref>; <ref cRef="Sir." loc="30,20">Sir. 30,20</ref>; <ref cRef="Marc. " loc="8,12">Marc.  8,12</ref>; <foreign xml:lang="grc">θραύεσθαι</foreign> <ref cRef="1 Reg." loc="20,34">1 Reg. 20,34</ref>; <foreign xml:lang="grc">στυγνάζειν</foreign> <ref cRef="Marc." loc="10,22">Marc. 10,22</ref>; <foreign xml:lang="grc">ῥᾳθυμεῖν</foreign> <ref cRef="Gen. " loc="42,1">Gen.  42,1</ref>; <foreign xml:lang="grc">σκυθρωπάζειν</foreign> <ref cRef="Jer." loc="27,13">Jer. 27,13</ref>; <foreign xml:lang="gez">ለዘይላሑ፡ ወዘይቴክዝ፡ አስትዮ፡ ወይነ፡</foreign> <ref cRef="Sir." loc="34,29">Sir. 34,29</ref>; <lbl expand="construitur cum">c.c.</lbl> <foreign xml:lang="gez">በእንተ፡</foreign> pers. vel rei <ref cRef="1 Reg." loc="20,34">1 Reg. 20,34</ref>; <ref cRef="2 Reg." loc="19,2">2 Reg. 19,2</ref>; <ref cRef="Hez." loc="9,4">Hez. 9,4</ref>; <ref cRef="4 Esr." loc="10,16">4 Esr. 10,16</ref>; <ref cRef="4 Esr." loc="10,54">4 Esr. 10,54</ref>; <ref cRef="Matth." loc="14,9">Matth. 14,9</ref>; <lbl expand="sequens">seq.</lbl> <foreign xml:lang="gez">እስመ፡</foreign> <ref cRef="Gen." loc="34,7">Gen. 34,7</ref>; <lbl expand="cum">c.</lbl> <foreign xml:lang="gez">በላዕለ፡</foreign> pers. <ref cRef="1 Thess." loc="4,13">1 Thess. 4,13</ref>; <lbl expand="cum">c.</lbl> <foreign xml:lang="gez">በ፡</foreign>, ut: <foreign xml:lang="gez">በመኳንንት፡ ረሲዓን፡ ይቴክዙ፡ ዕደው፡</foreign> <ref cRef="Prov. " loc="29,2">Prov.  29,2</ref>; <ref cRef="Sir." loc="26,28">Sir. 26,28</ref>; <lbl expand="cum">c.</lbl> <foreign xml:lang="gez">ለ፡</foreign> pers., ut: <foreign xml:lang="gez">ተክዙ፡ ለርእስክሙ፡</foreign> <foreign xml:lang="grc">λυπεῖσθε ἐφ᾽ ἑαυτούς</foreign> <ref cRef="Jes." loc="15,2">Jes. 15,2</ref>; <foreign xml:lang="gez">እቴክዝ፡ ላቲ፡</foreign> <cit type="translation" xml:lang="la">
+                                <quote> condoleo illi </quote>
+                            </cit>, Lud. e Vit. Mar.; <lbl expand="cum">c.</lbl> <gramGrp> <pos expand="pronomen suffixum">pron. suff.</pos> <case value="dativus">Dat.</case> </gramGrp>, ut: <foreign xml:lang="gez">በእሉ፡ ሠለስቱ፡ ተከዘኒ፡</foreign> (<cit type="translation" xml:lang="la">
+                                <quote> mihi </quote>
+                            </cit>) <foreign xml:lang="gez">ልብየ፡</foreign> <ref cRef="Sir." loc="26,28">Sir. 26,28</ref>. </sense> <sense n="2" xml:id="D2"> <cit type="translation" xml:lang="la">
+                                <quote> cura </quote>
+                            </cit> vel <cit type="translation" xml:lang="la">
+                                <quote> sollicitudine affectum esse </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> sollicitum </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> anxium esse </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> laborare </quote>
+                            </cit> de re, <cit type="translation" xml:lang="la">
+                                <quote> curis </quote>
+                            </cit> vel <cit type="translation" xml:lang="la">
+                                <quote> negotiis occupatum esse </quote>
+                            </cit>: <foreign xml:lang="grc">φροντίζειν</foreign> <foreign xml:lang="gez">ተክዝ፡ ትካዞሙ፡</foreign> <ref cRef="Sir." loc="35,1">Sir. 35,1</ref>; <foreign xml:lang="gez">ይቴክዝ፡</foreign> <foreign xml:lang="grc">χρηματίζει</foreign> 3 Reg.18,27; <foreign xml:lang="grc">μεριμνᾶν</foreign> <foreign xml:lang="gez">ተክዞ፡</foreign> <ref cRef="Matth." loc="6,27">Matth. 6,27</ref>; <ref cRef="Matth. " loc="6,31">Matth.  6,31</ref>; <lbl expand="construitur cum">c.c.</lbl> <foreign xml:lang="gez">በእንተ፡</foreign>, ut: <foreign xml:lang="gez">ኢይቴክዝ፡ በእንተ፡ ቤቱ፡</foreign> <ref cRef="Prov." loc="29,39">Prov. 29,39</ref>; <ref cRef="Did." loc="3">Did. 3</ref>; <ref cRef="1 Reg." loc="9,5">1 Reg. 9,5</ref>; <foreign xml:lang="gez">አልቦ፡ ዘይቴክዝ፡ በእንቲአኪ፡</foreign> (<foreign xml:lang="grc">δειλιάσει</foreign>) <ref cRef="Jer." loc="15,5">Jer. 15,5</ref>; <ref cRef="Kuf." loc="43">Kuf. 43</ref>; <lbl expand="cum">c.</lbl> <foreign xml:lang="gez">ለ፡</foreign> <ref cRef="Matth." loc="6,25">Matth. 6,25</ref>; <ref cRef="Matth." loc="6,34">Matth. 6,34</ref>; <lbl expand="cum">c.</lbl> <gramGrp> <case value="accusativus">Acc.</case> </gramGrp> rei: <foreign xml:lang="gez">ተከዘ፡ እግዚአብሔር፡ ስእለቶሙ፡</foreign> (<cit type="translation" xml:lang="de">
+                                <quote>kümmerte sich um ihr Gebet</quote>
+                            </cit>) <ref cRef="Sx. Mij." loc="14">Sx. Mij. 14</ref>; <foreign xml:lang="gez">ቦዐርከ፡ ዘእንበይነ፡ ከርሡ፡ ይቴክዝ፡ ለከ፡ ሕማመከ፡</foreign> <foreign xml:lang="grc">συμπονεῖ σοι</foreign> <ref cRef="Sir." loc="37,5">Sir. 37,5</ref>; <foreign xml:lang="gez">ዘኢይቴክዝ፡ ፍርሀተ፡</foreign> <foreign xml:lang="grc">οὐ καταπτήξει φόβον</foreign> <ref cRef="Sir. " loc="35,18">Sir.  35,18</ref>.</sense> </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

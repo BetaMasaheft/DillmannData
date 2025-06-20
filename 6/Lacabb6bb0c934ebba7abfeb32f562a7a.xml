@@ -1,0 +1,81 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> እስትንፋስ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="MK" when="2018-10-22">added cross-reference</change>
+        </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="Lacabb6bb0c934ebba7abfeb32f562a7a" n="5331">
+               <form>
+                  <foreign xml:lang="gez">እስትንፋስ</foreign>
+               </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain"> <gramGrp> <pos expand="Substantivum">subst.</pos> </gramGrp>, <gramGrp> <gen value="not found">m.</gen> </gramGrp> et <gramGrp> <gen value="femininus">fem.</gen> </gramGrp>, <cit type="translation" xml:lang="la">
+                            <quote> spiratio </quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                            <quote> respiratio </quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                            <quote> spiritus </quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                            <quote> halitus </quote>
+                        </cit>, <foreign xml:lang="grc">πνοή</foreign>, <ref cRef="Ps." loc="17,18">Ps. 17,18</ref>; <ref cRef="Ps." loc="32,6">Ps. 32,6</ref>; <ref cRef="Clem." loc="145">Clem. f. 145</ref>; <ref cRef="Sap." loc="2,2">Sap. 2,2</ref>; <cb n="0710" xml:id="c0710"/> <foreign xml:lang="gez">እነግረክሙ፡ እስትንፋሰ፡ ቃልየ፡</foreign> <ref cRef="Prov." loc="1,23">Prov. 1,23</ref>; <ref cRef="Prov." loc="11,13">Prov. 11,13</ref> <lbl expand="varia lectio">var.</lbl>; <ref cRef="Prov." loc="20,27">Prov. 20,27</ref>; <ref cRef="Prov." loc="24,12">Prov. 24,12</ref>; <ref cRef="Hen." loc="108,10">Hen. 108,10</ref>; <foreign xml:lang="gez">እስትንፋሱ፡ ሀለወት፡ ላዕሌሁ፡</foreign> <ref cRef="Asc. Jes." loc="6,11">Asc. Jes. 6,11</ref>; <ref cRef="Jsp." loc="283">Jsp. p. 283</ref>; <foreign xml:lang="gez">ሰላም፡ ለእስትንፋስኪ፡</foreign> I <ref cRef="Sal. Mar." loc="16">Sal. Mar. 16</ref>; <ref cRef="Lit." loc="173,4">Lit. 173,4</ref>; <foreign xml:lang="gez">እስከ፡ ድኃሪት፡ እስትንፋስ፡</foreign> <cit type="translation" xml:lang="la">
+                            <quote> ad extremum usque spiritum </quote>
+                        </cit> <ref cRef="Lit." loc="164,3">Lit. 164,3</ref>; <ref cRef="Sx. Genb." loc="11">Sx. Genb. 11</ref>; <foreign xml:lang="gez">መንፈሰ፡ እስትንፋስ፡</foreign> <ref cRef="Kuf." loc="2.">Kuf. 2.</ref> </sense>
+               
+            <sense xml:lang="en" source="#traces" xml:id="Tmain"> <lbl expand="videas">vid.</lbl> also <foreign xml:lang="gez">ምስትንፋስ፡</foreign> </sense>
+                </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

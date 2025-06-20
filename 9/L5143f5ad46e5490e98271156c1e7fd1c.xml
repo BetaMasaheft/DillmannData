@@ -1,0 +1,130 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> መቅበርት </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L5143f5ad46e5490e98271156c1e7fd1c" n="3427">
+               <form>
+                  <foreign xml:lang="gez">መቅበርት</foreign>
+               </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain">
+                  <gramGrp>
+                     <pos expand="Substantivum">subst.</pos>
+                  </gramGrp>, plerumque <gramGrp>
+                     <gen value="masculinum">m.</gen>
+                  </gramGrp>, <lbl expand="pluralis">Pl.</lbl>
+                  <foreign xml:lang="gez">መቃብር፡</foreign>, <lbl expand="pluralis">Pl.</lbl>
+                  <lbl expand="pluralis">Pl.</lbl>
+                  <foreign xml:lang="gez">መቃብራት፡</foreign>, <cit type="translation" xml:lang="la">
+                     <quote>sepulchrum</quote>
+                  </cit>
+                  <sense n="a" xml:id="Da">
+                     <lbl expand="singularis">sing.</lbl>
+                     <foreign xml:lang="gez">መቅበርት፡</foreign>
+                     <ref cRef="Jes." loc="53,9">Jes. 53,9</ref>; <ref cRef="Jes." loc="57,2">Jes.
+                        57,2</ref>; Sx. <ref cRef="Teq." loc="1">Teq. 1</ref>; <lbl expand="pluralis">Pl.</lbl>
+                     <foreign xml:lang="gez">መቃብር፡</foreign>
+                     <cit type="translation" xml:lang="la">
+                        <quote>sepulchra</quote>
+                     </cit>
+                     <ref cRef="Koh." loc="8,10">Koh. 8,10</ref>; <ref cRef="Jes. " loc="65,4">Jes.
+                        65,4</ref>; <ref cRef="Jer." loc="8,1">Jer. 8,1</ref>; <ref cRef="Hez." loc="37,12">Hez. 37,12</ref>; <ref cRef="Matth." loc="23,27">Matth.
+                        23,27</ref>; <ref cRef="Marc." loc="5,2">Marc. 5,2</ref>; <ref cRef="Marc." loc="5,3">Marc. 5,3</ref>.</sense>
+                  <sense n="b" xml:id="Db">
+                     <foreign xml:lang="gez">መቃብር፡</foreign>
+                     <sense n="α" xml:id="Dbα">
+                        <cit type="translation" xml:lang="la">
+                           <quote>sepulchrum</quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                           <quote>coemeterium</quote>
+                        </cit>: <foreign xml:lang="gez">መቃብረ፡ አበዊከ፡ </foreign>
+                        <ref cRef="Kuf." loc="32">Kuf. 32</ref>; <ref cRef="Matth." loc="27,7">Matth. 27,7</ref>.</sense>
+                     <sense n="β" xml:id="Dbβ">
+                        <cit type="translation" xml:lang="la">
+                           <quote>sepulchrum</quote>
+                        </cit>
+                        <ref cRef="Jes." loc="22,16">Jes. 22,16</ref>; <ref cRef="Job" loc="17,1">Job 17,1</ref>; <foreign xml:lang="gez">ወትኩነኒ፡ እምየ፡ መቃብርየ፡</foreign>
+                        <ref cRef="Jer." loc="20,17">Jer. 20,17</ref>; <foreign xml:lang="gez">መቃብረ፡
+                           ራሔል፡ </foreign>
+                        <ref cRef="Kuf." loc="32">Kuf. 32</ref>; <foreign xml:lang="gez">ውስተ፡
+                           ፩መቃብር፡</foreign>
+                        <ref cRef="Tob." loc="4,4">Tob. 4,4</ref>; <foreign xml:lang="gez">መቃብር፡
+                           ክሡት፡</foreign>
+                        <ref cRef="Rom." loc="3,13">Rom. 3,13</ref>; <ref cRef="Gen." loc="23,4">Gen. 23,4</ref>; <ref cRef="Gen. " loc="23,6">Gen. 23,6</ref>; <ref cRef="Hez." loc="32,24">Hez. 32,24</ref>
+                        <lbl expand="sequens">seq.</lbl>; <ref cRef="Matth." loc="28,1">Matth.
+                           28,1</ref>; <ref cRef="Joh." loc="19,42">Joh. 19,42</ref>; <lbl expand="pluralis">Pl.</lbl>
+                        <foreign xml:lang="gez">መቃብራት፡</foreign>
+                        <cit type="translation" xml:lang="la">
+                           <quote>sepulchra</quote>
+                        </cit>
+                        <ref cRef="Kuf." loc="22">Kuf. 22</ref>; <ref cRef="Matth." loc="8,28">Matth. 8,28</ref>; <ref cRef="Matth. " loc="27,52">Matth.
+                        27,52</ref>.</sense>
+                     <sense n="γ" xml:id="Dbγ">
+                        <foreign xml:lang="grc">ᾅδης</foreign> (<cit type="translation" xml:lang="la">
+                           <quote>inferna</quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                           <quote>inferi</quote>
+                        </cit>) <ref cRef="Job " loc="17,13">Job 17,13</ref>; <ref cRef="Job" loc="17,16">Job 17,16</ref>; <ref cRef="Sir." loc="14,16">Sir.
+                           14,16</ref>; <ref cRef="Sir." loc="17,27">Sir. 17,27</ref>; <ref cRef="Sir." loc="48,5">Sir. 48,5</ref>; <ref cRef="Sir." loc="51,6">Sir.
+                           51,6</ref>.</sense>
+                  </sense>
+               </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

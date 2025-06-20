@@ -1,0 +1,74 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> እንስሳ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="AE" when="2017-11-30">Korrekturen in den Referenzen</change>
+        <change who="MK" when="2023-02-28">added cross ref</change><change who="MK" when="2023-02-28">added Traces</change></revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="Lbca64567c7414490a03522062bed078b" n="2949">
+               <form>
+                  <foreign xml:lang="gez">እንስሳ</foreign>
+               </form>
+               <sense xml:id="Dmain" xml:lang="la" source="#dillmann"> <gramGrp> <pos expand="Substantivum">subst.</pos> </gramGrp>, plerumque <gramGrp> <gen value="not found">m.</gen> </gramGrp>, <lbl expand="collatio, -is vel collectivum,&#xA;                            -e">coll.</lbl> et <lbl expand="">sing.</lbl>, <lbl expand="pluralis">Pl.</lbl> <foreign xml:lang="gez">እንስሳት፡</foreign> (<ref cRef="F.N." loc="17">F.N. 17</ref>), <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> animal </t:quote></cit> („a facultate locomotiva sic dictum, sicut <foreign xml:lang="ar">مَاشِيَةٌ</foreign>,“ Lud.) <sense n="1" xml:id="D1"> in specie: <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> quadrupedes </t:quote></cit>, <foreign xml:lang="grc">τετράποδα</foreign> <ref cRef="Gen." loc="1,24">Gen. 1,24</ref>; <ref cRef="Ex. " loc="9,9">Ex.  9,9</ref>; <ref cRef="Ex. " loc="9,10">Ex.  9,10</ref>; <ref cRef="Lev." loc="20,15">Lev. 20,15</ref>; <ref cRef="Num." loc="35,3">Num. 35,3</ref>; <ref cRef="Job" loc="12,7">Job 12,7</ref>; <ref cRef="Job" loc="18,3">Job 18,3</ref>; <ref cRef="Job" loc="35,11">Job 35,11</ref>. 
+</sense> <sense n="2" xml:id="D2"> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> quadrupedes domesticae </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> pecus </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> jumentum </t:quote></cit> (boves, oves, asini, cameli, al.) <foreign xml:lang="grc">κτῆνος</foreign>, <foreign xml:lang="grc">κτήνη</foreign> <ref cRef="Gen." loc="6,19">Gen. 6,19</ref>; <ref cRef="Gen." loc="30,29">Gen. 30,29</ref>; <ref cRef="Gen." loc="47,1">Gen. 47,1</ref>; <ref cRef="Gen." loc="47,16">Gen. 47,16</ref>; <ref cRef="Job" loc="1,3">Job 1,3</ref>; <ref cRef="Job" loc="1,10">Job 1,10</ref>; <ref cRef="Job " loc="42,12">Job  42,12</ref>; <ref cRef="Koh." loc="3,18">Koh. 3,18</ref>; <ref cRef="Prov." loc="12,10">Prov. 12,10</ref>; <ref cRef="Ps." loc="146,10">Ps. 146,10</ref>; <ref cRef="1 Reg." loc="23,5">1 Reg. 23,5</ref>; <ref cRef="Ex." loc="9,3">Ex. 9,3</ref> <lbl expand="sequens">seq.</lbl>; <ref cRef="Ex." loc="20,17">Ex. 20,17</ref>; <ref cRef="Lev." loc="11,2">Lev. 11,2</ref> <lbl expand="sequens">seq.</lbl>; <ref cRef="Num." loc="32,1">Num. 32,1</ref>; <ref cRef="Jes." loc="46,1">Jes. 46,1</ref>; <ref cRef="Jes." loc="63,14">Jes. 63,14</ref>; <ref cRef="Jer." loc="7,20">Jer. 7,20</ref>; <ref cRef="Sir." loc="7,22">Sir. 7,22</ref>; <ref cRef="Sir." loc="40,8">Sir. 40,8</ref>; <ref cRef="Joh." loc="4,12">Joh. 4,12</ref>; <ref cRef="Apoc." loc="18,13">Apoc. 18,13</ref>; <foreign xml:lang="grc">βουκόλια</foreign> <ref cRef="1 Reg." loc="30,20">1 Reg. 30,20</ref>; <foreign xml:lang="gez">ከመ፡ እንስሳ፡</foreign> <foreign xml:lang="grc">ἴσα βουσίν</foreign> <ref cRef="Job" loc="40,10">Job 40,10</ref>; <foreign xml:lang="grc">μόσχος</foreign> <ref cRef="Hez." loc="1,10">Hez. 1,10</ref>; <foreign xml:lang="gez">እንስሳየ፡ ዘእጼአን፡</foreign> <ref cRef="2 Esr." loc="12,14">2 Esr. 12,14</ref>; <foreign xml:lang="grc">ζῶον</foreign> <ref cRef="Hebr." loc="13,11">Hebr. 13,11</ref>; <foreign xml:lang="grc">θηρίον</foreign> <ref cRef="Hebr." loc="12,20">Hebr. 12,20</ref>. 
+</sense> <sense n="3" xml:id="D3"> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> animal </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> bestia </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> brutum </t:quote></cit> in genere; <foreign xml:lang="grc">ζῶον</foreign> <foreign xml:lang="gez">ኵሉ፡ እንስሳ፡ ያፈቅር፡ ዘመዶ፡</foreign> <ref cRef="Sir." loc="13,15">Sir. 13,15</ref>; <ref cRef="Sir." loc="43,25">Sir. 43,25</ref>; <ref cRef="2 Petr." loc="2,12">2 Petr. 2,12</ref>; <foreign xml:lang="gez">፪እንስሳ፡</foreign> (behemoth et leviathan) <ref cRef="4 Esr." loc="4,56">4 Esr. 4,56</ref>; <foreign xml:lang="gez">እንስሳ፡ ገዳም፡</foreign> <ref cRef="Ps." loc="79,14">Ps. 79,14</ref>; brutum <ref cRef="Ps." loc="72,22">Ps. 72,22</ref>; convicii causa impingitur haereticis, <ref cRef="Sx. Enc." loc="">Sx. Enc. </ref> Hoc nomine appellantur <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> quatuor animalia coelestia </t:quote></cit>: <foreign xml:lang="gez">፬እንስሳ፡</foreign> <ref cRef="Hez." loc="1,5">Hez. 1,5</ref> <lbl expand="sequens">seq.</lbl>; <ref cRef="Apoc." loc="4,6">Apoc. 4,6</ref>; <ref cRef="Lit." loc="165,1">Lit. 165,1</ref>; <ref cRef="Sx. Hed." loc="8">Sx. Hed. 8</ref>; <ref cRef="Cod. Mus. Brit. XXIX" loc=", 11">Cod. Mus. Brit. XXIX , 11</ref>; al. 
+</sense> </sense>
+               
+            <sense xml:id="Tmain" xml:lang="en" source="#traces"><cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">ʾǝnsǝsā</t:quote></cit> <sense n="C" xml:id="TC"> for <foreign xml:lang="gez">ሐዋሬ፡ እንስሳ፡</foreign> <lbl expand="videas">vid.</lbl> <foreign xml:lang="gez">ሐዋሪ፡</foreign> (TraCES) 
+</sense> </sense></entry>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,130 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ቀዲሙ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="Lde9adbe598b54527ab8259b40a118ffb" n="3616">
+               <form>
+                  <foreign xml:lang="gez">ቀዲሙ</foreign>
+               </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain">
+                  <gramGrp>
+                     <pos expand="adverbium, adverbialiter">adv.</pos>
+                  </gramGrp> (<bibl>
+                     <ptr target="bm:Dillmann1857Gramm"/>gramm.</bibl> § 163,2) <sense n="1" xml:id="D1">
+                     <cit type="translation" xml:lang="la">
+                        <quote>primum</quote>
+                     </cit>, <cit type="translation" xml:lang="la">
+                        <quote>primo</quote>
+                     </cit>
+                     <ref cRef="Gen." loc="43,20">Gen. 43,20</ref>; <ref cRef="Joh." loc="5,4">Joh.
+                        5,4</ref>; <ref cRef="Joh." loc="8,7">Joh. 8,7</ref>; <ref cRef="Joh." loc="18,13">Joh. 18,13</ref>.</sense>
+                  <sense n="2" xml:id="D2">
+                     <cit type="translation" xml:lang="la">
+                        <quote>prius</quote>
+                     </cit>, <cit type="translation" xml:lang="la">
+                        <quote>antehac</quote>
+                     </cit>, <cit type="translation" xml:lang="la">
+                        <quote>antea</quote>
+                     </cit>, <foreign xml:lang="gez">እለ፡ ያአምርዎ፡ ቀዲሙ፡ </foreign>
+                     <ref cRef="Job" loc="42,11">Job 42,11</ref>; <ref cRef="Jer." loc="7,12">Jer.
+                        7,12</ref>; <foreign xml:lang="gez">እለ፡ ቀዲሙ፡ ትፈርህዎሙ፡ </foreign>
+                     <ref cRef="Jes." loc="33,7">Jes. 33,7</ref>; <ref cRef="Jes." loc="16,13">Jes.
+                        16,13</ref>; <ref cRef="4 Esr." loc="5,1">4 Esr. 5,1</ref>; <ref cRef="4 Esr." loc="10,43">4 Esr. 10,43</ref>; <ref cRef="4 Esr." loc="10,44">4 Esr. 10,44</ref>; <ref cRef="Hen." loc="16,2">Hen. 16,2</ref>; <ref cRef="1 Petr." loc="2,10">1 Petr. 2,10</ref>; <ref cRef="1 Petr." loc="3,20">1 Petr. 3,20</ref>; <ref cRef="1 Tim." loc="1,13">1 Tim. 1,13</ref>; <ref cRef="Joh." loc="16,4">Joh. 16,4</ref>; <cit type="translation" xml:lang="la">
+                        <quote>olim</quote>
+                     </cit>, <cit type="translation" xml:lang="la">
+                        <quote>quondam</quote>
+                     </cit>, <cit type="translation" xml:lang="la">
+                        <quote>antiquitus</quote>
+                     </cit>
+                     <ref cRef="1 Reg." loc="9,9">1 Reg. 9,9</ref>; <ref cRef="Kuf." loc="29">Kuf.
+                        29</ref>; <ref cRef="Jes." loc="52,4">Jes. 52,4</ref>; <ref cRef="Judith" loc="5,7">Judith 5,7</ref>;</sense>
+                  <sense n="3" xml:id="D3"> praepositiones et notam Genitivi (<foreign xml:lang="gez">ዘ፡</foreign>) et st. constr. ante se fert, et significandis adjectivis <cit type="translation" xml:lang="la">
+                        <quote>prior</quote>
+                     </cit>, <cit type="translation" xml:lang="la">
+                        <quote>praeteritus</quote>
+                     </cit>, <cit type="translation" xml:lang="la">
+                        <quote>pristinus</quote>
+                     </cit>, <cit type="translation" xml:lang="la">
+                        <quote>priscus</quote>
+                     </cit> al. inservit: <foreign xml:lang="gez">መዋዕለ፡ ቀዲሙ፡</foreign>
+                     <foreign xml:lang="grc">αἱ ἡμέραι αἱ πρότεραι Ν</foreign>um. 6,12; <foreign xml:lang="gez">በመዋዕለ፡ ቀዲሙ፡ </foreign>
+                     <foreign xml:lang="grc">ἐξ ἡμερῶν ἀρχαίων</foreign>
+                     <ref cRef="Jes." loc="37,26">Jes. 37,26</ref>; <foreign xml:lang="gez">ዘቀዲሙ፡</foreign>
+                     <foreign xml:lang="grc">τὰ πρότερον </foreign>
+                     <ref cRef="Jes." loc="41,22">Jes. 41,22</ref>; <foreign xml:lang="grc">τὰ
+                        ἀρχαῖα</foreign>
+                     <ref cRef="Jes." loc="43,18">Jes. 43,18</ref>; <foreign xml:lang="grc">τὰ
+                        πρότερα</foreign>
+                     <ref cRef="Jes." loc="48,3">Jes. 48,3</ref>; <ref cRef="Jes." loc="65,17">Jes.
+                        65,17</ref>; <foreign xml:lang="gez">አኮ፡ ዘቀዲሙ፡ መዋዕል፡</foreign>
+                     <foreign xml:lang="grc">οὐ προτέραις ἡμέραις</foreign>
+                     <ref cRef="Jes." loc="48,7">Jes. 48,7</ref>; <foreign xml:lang="gez">በዘቀዲሙ፡
+                        መዋዕል፡</foreign>
+                     <ref cRef="Hez. " loc="38,17">Hez. 38,17</ref>; <foreign xml:lang="gez">አበዊሆሙ፡
+                        ዘቀዲሙ፡</foreign>
+                     <ref cRef="Jer." loc="11,10">Jer. 11,10</ref>; <foreign xml:lang="gez">እምቀዲሙ፡</foreign>
+                     <foreign xml:lang="grc">ἀπ᾽ ἀρχῆς</foreign>
+                     <ref cRef="Jes. " loc="48,8">Jes. 48,8</ref>; <ref cRef="Joh." loc="1,2">Joh.
+                        1,2</ref>; nec non praedicati vice fungitur <ref cRef="Apoc." loc="12,9">Apoc. 12,9</ref>
+                  </sense>
+               </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

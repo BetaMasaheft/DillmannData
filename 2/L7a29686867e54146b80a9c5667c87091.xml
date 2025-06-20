@@ -1,0 +1,83 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ጥብጣቤ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="AE" when="2017-11-01">da war ein l zuviel</change>
+        <change who="AE" when="2017-12-14">Referenzen</change>
+        </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L7a29686867e54146b80a9c5667c87091" n="8928">
+               <form>
+                  <foreign xml:lang="gez">ጥብጣቤ</foreign>
+               </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain"> <gramGrp> <pos expand="not found">subst.</pos> </gramGrp>, <gramGrp> <gen value="not found">m.</gen> </gramGrp> et <gramGrp> <gen value="femininus">fem.</gen> </gramGrp>, <sense n="1" xml:id="D1"> <cit type="translation" xml:lang="la">
+                                <quote> scutica </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> lorum </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> flagellum </quote>
+                            </cit>: sumsit <foreign xml:lang="gez">ጥብጣቤ፡ ሐብል፡</foreign> in manum <ref cRef="Sx. Sen." loc="27">Sx. Sen. 27</ref>; <foreign xml:lang="gez">ከመ፡ ይዝብጥዎ፡ በአብትር፡ ወድኅሬሁ፡ በጥብጣቤ፡</foreign> <ref cRef="Macc." loc="2">Macc. f. 2</ref>; <foreign xml:lang="gez">ቀሠፈታ፡ በጥብጣቤ፡</foreign> <ref cRef="Sx. Masc." loc="10">Sx. Masc. 10</ref>; <ref cRef="F.N." loc=" 48">F.N.  48</ref>; <foreign xml:lang="gez">ቀሠፍዎ፡ በጥብጣቤ፡ ላህም፡</foreign> <ref cRef="Sx. Sen." loc="27">Sx. Sen. 27</ref>; <ref cRef="Sx. Hed." loc="1">Sx. Hed. 1</ref>; <ref cRef="Sx. Haml." loc="8 Enc.">Sx. Haml. 8 Enc.</ref>; <foreign xml:lang="gez">ቀሠፎ፡ በጥብጣቤ፡ አነዳ፡ ላህም፡</foreign> <ref cRef="Sx. Mag." loc="6">Sx. Mag. 6</ref>; <foreign xml:lang="gez">ይቅሥፍዎ፡ በጥብጣቤ፡ ዐቢየ፡ መቅሠፍተ፡</foreign> <ref cRef="F.M." loc=" 6,8">F.M.  6,8</ref>; ut percuterent eum <foreign xml:lang="gez">በጥብጣቤ፡ ፍቱል፡</foreign> Lud. e <ref cRef="V.S." loc="">V.S. </ref>; <foreign xml:lang="gez">መቅሠፍት፡ ዘጥብጣቤ፡ እሳት፡</foreign> <ref cRef="Org." loc="6.">Org. 6.</ref> </sense> <sense n="2" xml:id="D2"> <cit type="translation" xml:lang="la">
+                                <quote> flagellatio </quote>
+                            </cit>: <foreign xml:lang="gez">ወለእመ፡ ኢይገብር፡ ዘንተ፡ አሰፈዎ፡ ጥብጣቤ፡ ወቀትለ፡</foreign> <ref cRef="Jsp." loc="297">Jsp. p. 297</ref>; <foreign xml:lang="gez">ዘተጽዕረ፡ በምንዳቤ፡ ወዘሐመ፡ በጥብጣቤ፡</foreign> <ref cRef="Sx. Ter" loc="15 Enc.">Sx. Ter 15 Enc.</ref>; <foreign xml:lang="gez">ጥብጣቤ፡ በአብትረ፡ ኀጺን፡</foreign> Lud. e <ref cRef="V.S." loc="">V.S. </ref>
+                        </sense> <sense n="3" xml:id="D3"> <cit type="translation" xml:lang="la">
+                                <quote> plaga flagelli </quote>
+                            </cit>: Pilatus flagellavit Christum <foreign xml:lang="gez">፵ ጥብጣቤ፡</foreign> Lud. e <ref cRef="Libr. Myst." loc="">Libr. Myst. </ref>
+                        </sense> </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

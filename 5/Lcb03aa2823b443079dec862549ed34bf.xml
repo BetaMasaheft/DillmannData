@@ -1,0 +1,146 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ዝናም </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="Lcb03aa2823b443079dec862549ed34bf" n="7621">
+               <form>
+                  <foreign xml:lang="gez">ዝናም</foreign>
+               </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain">
+                  <gramGrp>
+                     <pos expand="Substantivum">subst.</pos>
+                     <gen value="masculinum">m.</gen>
+                  </gramGrp> et <gramGrp>
+                     <gen value="femininus">fem.</gen>
+                  </gramGrp> (ut <ref cRef="2 Par." loc="6,26">2 Par. 6,26</ref>; <ref cRef="Hen." loc="100,12">Hen. 100,12</ref>), <lbl expand="pluralis">Pl.</lbl>
+                  <foreign xml:lang="gez">ዝናማት፡</foreign>
+                  <cit type="translation" xml:lang="la">
+                     <quote>pluvia</quote>
+                  </cit>: <ref cRef="Gen." loc="7,4">Gen. 7,4</ref>; <ref cRef="Ex." loc="9,33">Ex.
+                     9,33</ref>; <ref cRef="Deut." loc="11,17">Deut. 11,17</ref>; 1 <ref cRef="Reg." loc="12,17">Reg. 12,17</ref>; <ref cRef="1 Reg." loc="12,18">1 Reg.
+                  12,18</ref>; <ref cRef="Ps." loc="104,30">Ps. 104,30</ref>; <ref cRef="Koh." loc="11,3">Koh. 11,3</ref>; <ref cRef="Prov." loc="5,10">Prov. 5,10</ref>; <ref cRef="4 Esr." loc="2,58">4 Esr. 2,58</ref>; <ref cRef="Hen." loc="2,3">Hen.
+                     2,3</ref>; <ref cRef="Jer. " loc="14,4">Jer. 14,4</ref>; <ref cRef="Judith" loc="8,31">Judith 8,31</ref>; <ref cRef="Act." loc="14,17">Act. 14,17</ref>;
+                     <ref cRef="Hebr." loc="6,7">Hebr. 6,7</ref>; <foreign xml:lang="gez">ዝናመ፡ ክረምት፡ </foreign>
+                  <ref cRef="Hez." loc="34,26">Hez. 34,26</ref>; <ref cRef="Job" loc="37,5">Job
+                     37,5</ref>; <foreign xml:lang="gez">ይትከዐው፡ ዝናም፡ እምውስተ፡ ደመና፡ </foreign>
+                  <ref cRef="Job" loc="36,27">Job 36,27</ref>; <foreign xml:lang="gez">ደመና፡
+                     ዝናም፡</foreign>
+                  <ref cRef="Sir." loc="32,26">Sir. 32,26</ref>; <ref cRef="Jes." loc="18,4">Jes.
+                     18,4</ref>; <foreign xml:lang="gez">ሶበ፡ ይወርድ፡ ዝናም፡ እምሰማይ፡</foreign>
+                  <ref cRef="Jes." loc="55,10">Jes. 55,10</ref>; <foreign xml:lang="gez">ዝናመ፡
+                     ረከበ፡</foreign>
+                  <ref cRef="4 Esr." loc="8,49">4 Esr. 8,49</ref>; <foreign xml:lang="gez">ዝናመ፡ ተወን፡
+                     ወመፀው፡</foreign>
+                  <foreign xml:lang="grc">ὑετὸς πρώϊμος καὶ ὄψιμος</foreign>
+                  <ref cRef="Jer. " loc="5,24">Jer. 5,24</ref>; <foreign xml:lang="gez">ዝናመ፡ ክረምት፡
+                     ዘቀዳሚ፡ ወዘደኃሪ፡</foreign>
+                  <ref cRef="Hos." loc="6,3">Hos. 6,3</ref>; <foreign xml:lang="gez">ዝናመ፡ ጸዳይ፡
+                     ወመፀው፡</foreign>
+                  <ref cRef="Zach." loc="10,1">Zach. 10,1</ref>; <foreign xml:lang="gez">ዝናም፡
+                     ብዙኅ፡</foreign>
+                  <ref cRef="Sx. Hed." loc="25 ">Sx. Hed. 25 </ref>Enc.; <foreign xml:lang="gez">ዝናማት፡</foreign>
+                  <ref cRef="Kuf." loc="12">Kuf. 12</ref>; <foreign xml:lang="gez">ወረዱ፡
+                     ዝናማት፡</foreign>
+                  <ref cRef="Clem." loc="24">Clem. f. 24</ref>; <foreign xml:lang="gez">ዝናማት፡
+                     እሙራት፡</foreign>
+                  <ref cRef="Prov." loc="25,14">Prov. 25,14</ref>; <foreign xml:lang="gez">ባርክ፡
+                     ነፋሳት፡ ሰማይ፡ወዝናማት፡ </foreign>
+                  <ref cRef="Lit." loc="164,4">Lit. 164,4</ref>; <ref cRef="Kedr f." loc="14">Kedr
+                     f. 14</ref>; <ref cRef="Sx. Haml." loc="10 ">Sx. Haml. 10 </ref>Enc. <sense n="a" xml:id="Da">
+                     <cit type="translation" xml:lang="la">
+                        <quote>imber</quote>
+                     </cit>: <foreign xml:lang="gez">ኀያል፡ ዝናም፡</foreign>
+                     <ref cRef="Job" loc="38,25">Job 38,25</ref>; <ref cRef="Job" loc="38,26">Job
+                        38,26</ref>; <ref cRef="Job " loc="38,27">Job 38,27</ref>; <ref cRef="Job" loc="38,28">Job 38,28</ref>; <foreign xml:lang="gez">ዝናመ፡ ሞገድ፡</foreign>
+                     <ref cRef="Prov." loc="28,3">Prov. 28,3</ref>; <foreign xml:lang="gez">ዝናም፡ ከመ፡
+                        አይኅ፡</foreign>
+                     <ref cRef="Hez." loc="13,11">Hez. 13,11</ref>; <ref cRef="Matth." loc="7,25">Matth. 7,25</ref>; <ref cRef="Matth." loc="7,27">Matth. 7,27</ref>;
+                        <foreign xml:lang="gez">ዝናመ፡ ድምሳሴ፡</foreign> (sc. diluvii) <ref cRef="Sx. Ter" loc="6 ">Sx. Ter 6 </ref> Enc.</sense>
+                  <sense n="b" xml:id="Db">
+                     <cit type="translation" xml:lang="la">
+                        <quote>tempus pluvium</quote>
+                     </cit> (<cit type="translation" xml:lang="la">
+                        <quote>hiems</quote>
+                     </cit>): <foreign xml:lang="gez">ስድስተ፡ ወርኀ፡ ዝናም፡ </foreign>
+                     <ref cRef="Kuf." loc="12">Kuf. 12</ref>; <foreign xml:lang="gez">ማእከለ፡ ጸዳይ፡
+                        ወዝናም፡</foreign>
+                     <ref cRef="Kuf. " loc="29.">Kuf. 29.</ref>
+                  </sense>
+                  <sense n="c" xml:id="Dc">
+                     <cit type="translation" xml:lang="la">
+                        <quote>casus nivis</quote>
+                     </cit>, <cit type="translation" xml:lang="la">
+                        <quote>ningor</quote>
+                     </cit>: <foreign xml:lang="gez">ነኪር፡</foreign>
+                     <cb n="1054" xml:id="c1054"/>
+                     <foreign xml:lang="gez">ለልብ፡ ዝናሙ፡</foreign>
+                     <ref cRef="Sir." loc="43,18">Sir. 43,18</ref>.</sense>
+                  <sense n="d" xml:id="Dd">
+                     <cit type="translation" xml:lang="la">
+                        <quote>ros</quote>
+                     </cit>, <foreign xml:lang="grc">δρόσος</foreign>, <foreign xml:lang="gez">አኮኑ፡
+                        ዝናም፡ ያቈርሮ፡ ለመርቄ፡</foreign>
+                     <ref cRef="Sir." loc="18,16">Sir. 18,16</ref>; <foreign xml:lang="gez">ዝናም፡
+                        እምከመ፡ ወረደ፡ </foreign>
+                     <ref cRef="Sir." loc="43,22">Sir. 43,22</ref>.</sense>
+               </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

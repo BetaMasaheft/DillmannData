@@ -1,0 +1,81 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ክዳን </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+               <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+            </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+         <listPrefixDef>
+            <prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+         <change who="MK" when="2022-07-19">added compound </change>
+         <change who="MK" when="2022-07-19">correction</change>
+         <change who="MK" when="2022-07-19">correction</change>
+      <change who="ES" when="2024-02-28">nesting</change></revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L3d94857580fc4c2882c8a638f7595a20" n="6362">
+               <form>
+                  <foreign xml:lang="gez">ክዳን</foreign>
+               </form>
+               <sense xml:id="Dmain" xml:lang="la" source="#dillmann"> <gramGrp> <pos expand="Substantivum">subst.</pos> </gramGrp>, plerumque <gramGrp> <gen value="not found">m.</gen> </gramGrp>, <lbl expand="pluralis">Pl.</lbl> <foreign xml:lang="gez">ክዳናት፡</foreign> <sense n="1" xml:id="D1"> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> tegumentum </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> operimentum </t:quote></cit>, <foreign xml:lang="grc">σκέπη</foreign> <ref cRef="Job " loc="24,8">Job  24,8</ref> <foreign xml:lang="gez">ክዳን፡ በዘ፡ ይትገለበቡ፡ እምጠል፡</foreign> <ref cRef="Jes." loc="4,6">Jes. 4,6</ref>; <foreign xml:lang="gez">ክዳነ፡ ዐዘቅት፡</foreign> <ref cRef="2 Reg." loc="17,19">2 Reg. 17,19</ref>; <foreign xml:lang="gez">ከሠተ፡ ክዳነ፡ አቡሁ፡</foreign> <ref cRef="Kuf." loc="33">Kuf. 33</ref>; <foreign xml:lang="gez">ከሠተ፡ ክዳናተ፡ ወልዱ፡</foreign> <ref cRef="Kuf." loc="41.">Kuf. 41.</ref> <sense n="a" xml:id="D1a"> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> velum </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> aulaeum </t:quote></cit>, <foreign xml:lang="grc">καταπέτασμα</foreign> <ref cRef="Ex. " loc="37,16">Ex.  37,16</ref>; <foreign xml:lang="grc">δέῤῥεις</foreign> <foreign xml:lang="gez">ክዳናት፡</foreign> <ref cRef="Jer." loc="10,20">Jer. 10,20</ref>.
+</sense> <sense n="b" xml:id="D1b"> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> stragulum </t:quote></cit>: <foreign xml:lang="gez">ክዳንከ፡ ዘታሕተ፡ ገቦከ፡</foreign> <foreign xml:lang="grc">στρῶμα</foreign>, <ref cRef="Prov." loc="22,27">Prov. 22,27</ref>; <foreign xml:lang="grc">μαχβάρ</foreign> <ref cRef="4 Reg." loc="8,15">4 Reg. 8,15</ref>.
+</sense> 
+</sense><sense n="2" xml:id="D2"> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> indumentum </t:quote></cit> <ref cRef="Jes." loc="63,2">Jes. 63,2</ref>; <foreign xml:lang="gez">ክዳናት፡</foreign> <ref cRef="Chrys. Ta. " loc="18.">Chrys. Ta.  18.</ref> <sense n="a" xml:id="D2a"> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> amiculum </t:quote></cit> <foreign xml:lang="grc">ἀναβολή</foreign> <ref cRef="Hez." loc="5,3">Hez. 5,3</ref>. <cb n="0876" xml:id="c0876"/> 
+</sense> <sense n="b" xml:id="D2b"> in specie: <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> tunica </t:quote></cit>, <foreign xml:lang="grc">χιτών</foreign>, <ref cRef="Gen." loc="37,3">Gen. 37,3</ref>; <ref cRef="Gen." loc="37,31">Gen. 37,31</ref>; <ref cRef="Gen." loc="37,32">Gen. 37,32</ref>; <foreign xml:lang="gez">ከደነኒ፡ ክዳነ፡ ሐሤት፡</foreign> <ref cRef="Jes." loc="61,10">Jes. 61,10</ref>; <ref cRef="2 Reg." loc="13,18">2 Reg. 13,18</ref>; <ref cRef="Matth." loc="10,10">Matth. 10,10</ref> Platt; <ref cRef="Luc." loc="3,11">Luc. 3,11</ref>; <ref cRef="Luc." loc="6,29">Luc. 6,29</ref>; <foreign xml:lang="gez">ክዳናት፡</foreign> <ref cRef="Act." loc="9,39">Act. 9,39</ref> </sense>
+</sense> </sense>
+
+               <sense xml:id="Tmain" xml:lang="en" source="#traces"> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> kǝdān </t:quote></cit>, <foreign xml:lang="gez">ክደን፡</foreign> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> kǝdan </t:quote></cit> <foreign xml:lang="gez">ክዳነ፡ ሥዕል፡</foreign> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> kǝdāna śǝʿl </t:quote></cit> <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> cover for images </t:quote></cit> <foreign xml:lang="gez">[sic]፪ክደነ፡ ስዕል፡</foreign> ‘<cit type="translation" xml:lang="it"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> copertura per le immagini, </t:quote></cit>’ <bibl><ptr target="bm:Bausi1994ManoscrittiEritreaParteI"/><citedRange unit="page"> 44 VII l. 3 (ed.), 38 VII l. 3–4 (tr.)</citedRange></bibl>; <foreign xml:lang="gez">ክዳነ፡ ሥዕል፡ ፩፡</foreign> ‘<cit type="translation" xml:lang="it"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> 1 copertura per le immagini, </t:quote></cit>’ <bibl><ptr target="bm:Bausi1994ManoscrittiEritreaParteI"/><citedRange unit="page"> 44 IX l. 4 (ed.), 39 IX 5–6 (tr.)</citedRange></bibl> </sense>
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,89 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ዓለም </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="LB" when="2018-04-03">root</change>
+            <change who="AE" when="2018-04-12">Verschachtelungen,</change>
+            <change who="AE" when="2018-04-12">Verschachtelung + Bibl</change>
+        <change who="MK" when="2024-01-31">added cross ref</change><change who="MK" when="2024-11-21">added cross ref</change><change who="MK" when="2024-11-21">added les </change></revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="Ld51df0545aa047a4ae12b379c92f0265" n="6918">
+               <form>
+                  <foreign xml:lang="gez">ዓለም</foreign>
+               <rs type="root"/>
+                    </form>
+               <sense xml:id="Dmain" xml:lang="la" source="#dillmann"> <gramGrp> <pos expand="Substantivum">subst.</pos> </gramGrp>, <gramGrp> <gen value="not found">m.</gen> </gramGrp> et <gramGrp> <gen value="femininus">fem.</gen> </gramGrp> (ut <ref cRef="Jes." loc="14,17">Jes. 14,17</ref>; <ref cRef="Jes." loc="34,1">Jes. 34,1</ref>; <ref cRef="4 Esr." loc="1,19">4 Esr. 1,19</ref> <lbl expand="varia lectio">var.</lbl>; <ref cRef="Ps. " loc="9,8">Ps.  9,8</ref>; <ref cRef="Ps." loc="92,2">Ps. 92,2</ref>), <lbl expand="pluralis">Pl.</lbl> <foreign xml:lang="gez">ዓለማት፡</foreign> [<foreign xml:lang="he">עוֹלָם</foreign> <foreign xml:lang="syr">ܥܳܠܰܡ</foreign> <foreign xml:lang="ar">عَالَمٌ</foreign>; de hujus nominis perantiqui etymo <lbl expand="videas">vid.</lbl> <bibl><ptr target="bm:Ewald1855LehrbHebr"/><citedRange unit="page"> 91</citedRange></bibl>] <sense n="1" xml:id="D1"> <sense n="a" xml:id="D1a"> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> aevum </t:quote></cit>,<cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> saeculum </t:quote></cit>,<cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> tempus antiquum </t:quote></cit>: <foreign xml:lang="gez">ዓለምነ፡</foreign> <ref cRef="Ps." loc="89,8">Ps. 89,8</ref>; Henoch <foreign xml:lang="gez">ኮነ፡ አርአያ፡ ለዓለም፡ ከመ፡ ይነስሑ፡</foreign> <foreign xml:lang="grc">γενεαί</foreign> <ref cRef="Sir." loc="44,16">Sir. 44,16</ref>; <foreign xml:lang="gez">ቀደምተ፡ ዓለም፡</foreign> <ref cRef="Sir." loc="2,10">Sir. 2,10</ref>; <ref cRef="Job" loc="8,8">Job 8,8</ref>; <foreign xml:lang="gez">በከመ፡ መዋዕለ፡ ዓለም፡</foreign> <ref cRef="Mich." loc="7,14">Mich. 7,14</ref>; <foreign xml:lang="gez">እምዓለም፡</foreign> <ref cRef="Jer." loc="2,20">Jer. 2,20</ref>. 
+</sense> <sense n="b" xml:id="D1b"> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> tempus remotissimum </t:quote></cit> sive praeteritum sive futurum, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> tempus perpetuum </t:quote></cit>,<cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> saecula </t:quote></cit>,<cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> aeternitas </t:quote></cit>, <foreign xml:lang="grc">αἰών</foreign>, <foreign xml:lang="grc">αἰῶνες</foreign>, Deus <foreign xml:lang="gez">ንጉሠ፡ ዓለም፡</foreign> <ref cRef="Tob." loc="13,6">Tob. 13,6</ref>; <ref cRef="Kuf." loc="12">Kuf. 12</ref>; <ref cRef="Kuf." loc="25">Kuf. 25</ref>; <foreign xml:lang="gez">እግዚአ፡ ዓለማት፡</foreign> <ref cRef="Hen." loc="81,10">Hen. 81,10</ref>; <foreign xml:lang="gez">በኵሉ፡ ዓለማት፡ ዘይመጽእ፡</foreign> <ref cRef="Judae" loc="25">Judae 25</ref>; <foreign xml:lang="gez">እስከ፡ ኵሎን፡ ዓለማት፡</foreign> <ref cRef="Kuf." loc="22">Kuf. 22</ref>; <foreign xml:lang="gez">አበ፡ ዓለም፡</foreign> <ref cRef="Jes." loc="9,6">Jes. 9,6</ref> <lbl expand="versio altera">vers. alt.</lbl>; <foreign xml:lang="gez">እስከ፡ መዋዕለ፡ ዓለም፡</foreign> <ref cRef="Jes." loc="18,7">Jes. 18,7</ref>. <sense n="α" xml:id="D1bα"> <foreign xml:lang="gez">እምዓለም፡</foreign> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> ab aeterno </t:quote></cit> <ref cRef="Jer." loc="7,7">Jer. 7,7</ref>; <ref cRef="Hen. " loc="14,1">Hen.  14,1</ref>; <ref cRef="Ps." loc="102,16">Ps. 102,16</ref>, al. 
+</sense> <sense n="β" xml:id="D1bβ"> <foreign xml:lang="gez">ለዓለም፡</foreign> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> in aeternum </t:quote></cit> vel<cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> perpetuum </t:quote></cit> <ref cRef="Job" loc="7,16">Job 7,16</ref>; <ref cRef="Jer." loc="3,5">Jer. 3,5</ref>; <ref cRef="Jes." loc="28,28">Jes. 28,28</ref> al., vel <foreign xml:lang="gez">ለዓለመ፡ ዓለም፡</foreign> <ref cRef="Ps." loc="9,5">Ps. 9,5</ref>; <ref cRef="Ps." loc="9,40">Ps. 9,40</ref>; <ref cRef="Sir." loc="24,9">Sir. 24,9</ref>, vel <foreign xml:lang="gez">እስከ፡ ለዓለም፡</foreign> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> usque in aeternum </t:quote></cit> <ref cRef="Kuf." loc="22">Kuf. 22</ref>; <ref cRef="Jes." loc="32,14">Jes. 32,14</ref>; <ref cRef="Jes. " loc="44,7">Jes.  44,7</ref>; <ref cRef="Jes." loc="45,17">Jes. 45,17</ref>; <ref cRef="Jer." loc="7,7">Jer. 7,7</ref>; <ref cRef="Ps." loc="89,2">Ps. 89,2</ref>. 
+</sense> <sense n="γ" xml:id="D1bγ"> <foreign xml:lang="gez">ዘለዓለም፡</foreign> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> aeternus </t:quote></cit>vel<cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> perpetuus </t:quote></cit>, <ref cRef="Gen." loc="21,33">Gen. 21,33</ref>; <ref cRef="Job" loc="33,12">Job 33,12</ref>; <ref cRef="Job" loc="34,17">Job 34,17</ref>; <ref cRef="Jes." loc="51,11">Jes. 51,11</ref>; <ref cRef="Jes." loc="54,8">Jes. 54,8</ref>; <ref cRef="Jes." loc="61,7">Jes. 61,7</ref>; <ref cRef="Hez." loc="35,9">Hez. 35,9</ref>; <ref cRef="Tit." loc="3,7">Tit. 3,7</ref> al.; <foreign xml:lang="gez">ቊርባኖሙ፡ ዘለዓለም፡</foreign> (<cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> perpetuum </t:quote></cit>vel<cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> juge </t:quote></cit>) Lit. Joh. c)<cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> homines </t:quote></cit> singulorum <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> aevorum </t:quote></cit>vel<cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> saeculorum </t:quote></cit>, <foreign xml:lang="grc">γενεά</foreign> <ref cRef="Ps." loc="48,20">Ps. 48,20</ref>; <foreign xml:lang="gez">ዓለም፡ ቀደምት፡</foreign> <ref cRef="2 Petr." loc="2,5">2 Petr. 2,5</ref>. d)<cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> aeon </t:quote></cit>vel<cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> saeculum </t:quote></cit>, quatenus hic aeon aeoni venturo opponitur a Judaeis et Christianis (<cit type="translation" xml:lang="de"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> Weltlauf </t:quote></cit>): <ref cRef="4 Esr." loc="5,31">4 Esr. 5,31</ref>; <ref cRef="4 Esr." loc="5,32">4 Esr. 5,32</ref>; <ref cRef="4 Esr." loc="5,33">4 Esr. 5,33</ref>; <ref cRef="4 Esr." loc="14,8">4 Esr. 14,8</ref> <lbl expand="sequens">seq.</lbl>; <foreign xml:lang="gez">ዝንቱ፡ ዓለም፡</foreign> <ref cRef="Rom." loc="8,5">Rom. 8,5</ref>; <ref cRef="Rom." loc="8,18">Rom. 8,18</ref>; <ref cRef="Rom." loc="12,2">Rom. 12,2</ref>; <foreign xml:lang="gez">ዝዓለም፡</foreign> et <foreign xml:lang="gez">ዘይመጽእ፡ ዓለም፡</foreign> Org. 
+</sense> 
+</sense> 
+</sense> <sense n="2" xml:id="D2"> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> mundus </t:quote></cit>,<sense n="a" xml:id="D2a"> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> rerum universitas </t:quote></cit>,<cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> res creatae </t:quote></cit>, <ref cRef="Gen." loc="2,2">Gen. 2,2</ref>; <foreign xml:lang="gez">እምቅድመ፡ ይትፈጠር፡ ዓለም፡</foreign> <ref cRef="Sir." loc="24,9">Sir. 24,9</ref>; <foreign xml:lang="gez">ውስተ፡ ኵሉ፡ ዓለም፡</foreign> <foreign xml:lang="grc">ἐν ἀμετρήτῳ κτίσει</foreign> <ref cRef="Sir." loc="16,17">Sir. 16,17</ref>; <foreign xml:lang="gez">እምፍጥረተ፡ ዓለም፡</foreign> <ref cRef="Job" loc="3,18">Job 3,18</ref>; <ref cRef="4 Esr." loc="2,35">4 Esr. 2,35</ref>; <ref cRef="Joh." loc="17,24">Joh. 17,24</ref>; <ref cRef="1 Petr." loc="1,20">1 Petr. 1,20</ref>; <ref cRef="Hebr. " loc="4,3">Hebr.  4,3</ref>; <ref cRef="Rom." loc="1,20">Rom. 1,20</ref>; <ref cRef="Rom." loc="8,20">Rom. 8,20</ref> (<foreign xml:lang="grc">κτίσις</foreign>); laudant eum coeli et terrae <foreign xml:lang="gez">ምስለ፡ ኵሉ፡ ዓለሞሙ፡</foreign> (<foreign xml:lang="grc">σὺν τῷ κόσμῳ αὐτῶν</foreign>) <ref cRef="Lit. Orth." loc="">Lit. Orth. </ref>; <foreign xml:lang="gez">እምቅድመ፡ ዓለም፡</foreign> <foreign xml:lang="grc">ἀπ</foreign>’ <foreign xml:lang="grc">ἀρχῆς κόσμου</foreign> <ref cRef="Matth. " loc="24,21">Matth.  24,21</ref>; <ref cRef="Hen." loc="41,4">Hen. 41,4</ref>; <foreign xml:lang="gez">እምቅድመ፡ ዓለም፡ ወእስከ፡ ለዓለም፡</foreign> <foreign xml:lang="grc">ἀπὸ τοῦ αἰῶνος καὶ ἕως τοῦ αἰῶνος</foreign> <ref cRef="1 Par." loc="29,10">1 Par. 29,10</ref>; <cb n="0952" xml:id="c0952"/> <ref cRef="Ps." loc="89,2">Ps. 89,2</ref>. 
+</sense> <sense n="b" xml:id="D2b"> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> orbis terrarum </t:quote></cit>: <foreign xml:lang="gez">መልአ፡ ኵሉ፡ ዓለም፡ ማየ፡</foreign> <ref cRef="Kuf." loc="5">Kuf. 5</ref>; <foreign xml:lang="grc">οἰκουμένη</foreign> <ref cRef="Ps." loc="9,8">Ps. 9,8</ref>; <ref cRef="Ps. " loc="18,4">Ps.  18,4</ref>; <ref cRef="Ps." loc="92,2">Ps. 92,2</ref>; <ref cRef="Ps." loc="95,10">Ps. 95,10</ref>; <ref cRef="Jes." loc="10,14">Jes. 10,14</ref>; <ref cRef="Jes." loc="10,22">Jes. 10,22</ref>; Jes.13,5; <ref cRef="Jes." loc="13,9">Jes. 13,9</ref>; <ref cRef="Jes. " loc="14,17">Jes.  14,17</ref>; <ref cRef="Jes." loc="24,1">Jes. 24,1</ref>; <ref cRef="Jes." loc="34,1">Jes. 34,1</ref>; <ref cRef="Jes." loc="37,18">Jes. 37,18</ref>; <ref cRef="Jer." loc="10,12">Jer. 10,12</ref>; <ref cRef="Thren." loc="4,12">Thren. 4,12</ref>; <ref cRef="Luc." loc="2,1">Luc. 2,1</ref>; <ref cRef="Luc." loc="4,5">Luc. 4,5</ref>; <ref cRef="Luc." loc="21,26">Luc. 21,26</ref>; <ref cRef="Luc." loc="23,44">Luc. 23,44</ref>; <foreign xml:lang="gez">ኵሉ፡ ዓለም፡</foreign> <foreign xml:lang="grc">πάσης τῆς γῆς</foreign> <ref cRef="Judith" loc="11,1">Judith 11,1</ref>; <foreign xml:lang="grc">κόσμος</foreign> <ref cRef="Rom." loc="1,8">Rom. 1,8</ref>; <ref cRef="Rom." loc="3,6">Rom. 3,6</ref>; <ref cRef="Matth." loc="4,8">Matth. 4,8</ref>; <ref cRef="Matth." loc="26,13">Matth. 26,13</ref>; <ref cRef="Clem." loc="153">Clem. f. 153</ref>; <ref cRef="Clem." loc="168 ">Clem. f. 168 </ref>al. 
+</sense> <sense n="c" xml:id="D2c"> passim <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> incolae terrae </t:quote></cit>,<cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> homines </t:quote></cit>: <foreign xml:lang="gez">ኵሉ፡ ዓለም፡</foreign> <ref cRef="Gen." loc="11,1">Gen. 11,1</ref>; <ref cRef="Apoc." loc="12,9">Apoc. 12,9</ref>; <ref cRef="Act." loc="19,27">Act. 19,27</ref>; <ref cRef="Joh." loc="7,4">Joh. 7,4</ref>; <ref cRef="Joh." loc="12,19">Joh. 12,19</ref>. 
+</sense> <sense n="d" xml:id="D2d"> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> mundus </t:quote></cit>vel<cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> saeculum </t:quote></cit> sensu biblico et ecclesiastico, quatenus opponitur <sense n="α" xml:id="D2dα"> Deo, rebus divinis, ecclesiae: <ref cRef="Joh." loc="8,23">Joh. 8,23</ref>; <ref cRef="Joh." loc="9,39">Joh. 9,39</ref>; <ref cRef="Joh." loc="14,17">Joh. 14,17</ref>; <ref cRef="Joh." loc="14,27">Joh. 14,27</ref>; <ref cRef="Joh." loc="16,11">Joh. 16,11</ref>; <ref cRef="1 Joh." loc="2,15">1 Joh. 2,15</ref>; <ref cRef="1 Joh." loc="2,16">1 Joh. 2,16</ref>; <ref cRef="Matth." loc="18,7">Matth. 18,7</ref>; <foreign xml:lang="gez">ፍትወተዝ፡ ዓለም፡</foreign> <ref cRef="Tit." loc="2,12">Tit. 2,12</ref>; <foreign xml:lang="gez">ፍትወታተ፡ ወጣዕመ፡ ዝዓለም፡</foreign> <ref cRef="Clem." loc="153.">Clem. f. 153.</ref> 
+</sense> <sense n="β" xml:id="D2dβ"> vitae monachorum et eremitarum, ut: <foreign xml:lang="gez">ነበረ፡ ውስተ፡ ዓለም፡ እምቅድመ፡ ይመንኵስ፡ ፳ ዓመተ፡</foreign> <ref cRef="Sx. Haml." loc="8">Sx. Haml. 8</ref>; <ref cRef="Masc." loc="14">Masc. 14</ref>; <foreign xml:lang="gez">ፈለሱ፡ ገዳመ፡ ወመነኑ፡ ዓለመ፡</foreign> <ref cRef="Clem. " loc="153.">Clem.  f. 153.</ref> 
+</sense> 
+</sense> 
+</sense> </sense>
+               
+            <sense xml:id="Tmain" xml:lang="en" source="#traces"><cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">ʿālam</t:quote></cit> <sense n="C" xml:id="TC"> <sense n="a" xml:id="TCa"> for <foreign xml:lang="gez">መናኔ፡ ዓለም፡</foreign> <lbl expand="videas">vid.</lbl> <foreign xml:lang="gez">መናኒ፡</foreign> (Leslau) 
+</sense> <sense n="b" xml:id="TCb"> for <foreign xml:lang="gez">በሓውርተ፡ ዓለም፡</foreign> <lbl expand="videas">vid.</lbl> <foreign xml:lang="gez">ብሔር፡</foreign> (Leslau) 
+</sense> 
+</sense> </sense></entry>
+         </div>
+      </body>
+   </text>
+</TEI>

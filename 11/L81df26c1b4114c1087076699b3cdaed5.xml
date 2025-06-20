@@ -1,0 +1,81 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ብእሲ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="AE" when="2019-07-30">Verschachtelung,</change>
+            <change who="AE" when="2019-07-30">$ entfernt,</change>
+        <change who="MK" when="2023-02-28">added cross ref</change></revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L81df26c1b4114c1087076699b3cdaed5" n="4018">
+               <form>
+                  <foreign xml:lang="gez">ብእሲ</foreign>
+               </form>
+               <sense xml:id="Dmain" xml:lang="la" source="#dillmann"> <gramGrp> <pos expand="Substantivum">subst.</pos> </gramGrp> [vir a vi, strenuitate, fortitudine dictus, sicut <foreign xml:lang="he">גֶּבֶר</foreign>], <gramGrp> <gen value="not found">m.</gen> </gramGrp>, nonnisi in <lbl expand="">sing.</lbl> usitatum (pro <lbl expand="pluralis">Pl.</lbl> frequentant <foreign xml:lang="gez">ዕደው፡</foreign>) <sense n="1" xml:id="D1"> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> vir </t:quote></cit>, <foreign xml:lang="grc">ἀνήρ</foreign> sexcenties, ut <ref cRef="Gen." loc="4,23">Gen. 4,23</ref>; <ref cRef="Gen. " loc="19,8">Gen.  19,8</ref>; <ref cRef="Gen." loc="39,1">Gen. 39,1</ref>; <ref cRef="Gen." loc="39,2">Gen. 39,2</ref>; <ref cRef="Gen." loc="42,11">Gen. 42,11</ref>; <ref cRef="Num." loc="31,35">Num. 31,35</ref>; <ref cRef="Deut." loc="22,5">Deut. 22,5</ref>; <ref cRef="Jud." loc="3,29">Jud. 3,29</ref>; <ref cRef="Jos." loc="4,4">Jos. 4,4</ref>; <ref cRef="Jos." loc="7,14">Jos. 7,14</ref>; <ref cRef="Jos." loc="7,15">Jos. 7,15</ref>; <ref cRef="Ps." loc="33,9">Ps. 33,9</ref>; <ref cRef="1 Reg." loc="2,33">1 Reg. 2,33</ref>; <ref cRef="1 Reg." loc="4,12">1 Reg. 4,12</ref>; <ref cRef="1 Reg." loc="6,19">1 Reg. 6,19</ref>; <ref cRef="1 Reg." loc="9,1">1 Reg. 9,1</ref>; 1 <ref cRef="Reg." loc="9,2">Reg. 9,2</ref>; <ref cRef="1 Reg." loc="9,22">1 Reg. 9,22</ref>; <ref cRef="1 Reg." loc="13,15">1 Reg. 13,15</ref>; <ref cRef="1 Reg." loc="17,33">1 Reg. 17,33</ref>; <ref cRef="2 Reg." loc="17,8">2 Reg. 17,8</ref>; <ref cRef="Dan." loc="8,15">Dan. 8,15</ref>; <ref cRef="1 Tim. " loc="2,12">1 Tim.  2,12</ref>. <sense n="a" xml:id="D1a"> <lbl expand="oppositum, -o, -nitur">opp.</lbl> feminae <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> mas </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> masculus </t:quote></cit> (sed nonnisi de homine) <ref cRef="Gen." loc="4,1">Gen. 4,1</ref>; <ref cRef="1 Reg." loc="1,11">1 Reg. 1,11</ref>; <foreign xml:lang="gez">ትወልድ፡ ወልደ፡ ብእሴ፡</foreign> F.N. 24,6 (aliâs <foreign xml:lang="gez">ተባዕት፡</foreign>, <foreign xml:lang="gez">ሮስ፡</foreign>, <foreign xml:lang="gez">ዕድ፡</foreign>).
+</sense> <sense n="b" xml:id="D1b"> <lbl expand="oppositum, -o, -nitur">opp.</lbl> pueris et senibus: <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> vir fortis </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> juvenis </t:quote></cit>, <ref cRef="1 Reg." loc="9,2">1 Reg. 9,2</ref>; <ref cRef="1 Reg." loc="26,15">1 Reg. 26,15</ref>; <ref cRef="3 Reg." loc="2,2">3 Reg. 2,2</ref>; <ref cRef="Job" loc="38,3">Job 38,3</ref>; <foreign xml:lang="gez">አመ፡ ኮንኩ፡ ብእሴ፡</foreign> <foreign xml:lang="grc">ὅτε ἐγενόμην ἀνήρ</foreign> <ref cRef="Tob." loc="1,9">Tob. 1,9</ref>; <foreign xml:lang="gez">ተፈሣሕ፡ ብእሲ፡ በውርዙትከ፡</foreign> <foreign xml:lang="grc">νεανίσκε ἐν νεότητί σου</foreign> <ref cRef="Koh." loc="11,9">Koh. 11,9</ref>.
+</sense> <sense n="c" xml:id="D1c"> crebro <lbl expand="oppositum, -o, -nitur">opp.</lbl> uxori: <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> maritus </t:quote></cit> (aliâs <foreign xml:lang="gez">ምት፡</foreign>): <ref cRef="Matth." loc="19,3">Matth. 19,3</ref>; Marc.10,2; <ref cRef="Rom." loc="7,2">Rom. 7,2</ref>; <ref cRef="Rom." loc="7,3">Rom. 7,3</ref>; <ref cRef="1 Cor." loc="7,2">1 Cor. 7,2</ref>; <ref cRef="Gen." loc="3,6">Gen. 3,6</ref>; <foreign xml:lang="gez">ብእሲ፡ ምስለ፡ ብእሲቱ፡</foreign> <ref cRef="Jer." loc="6,11">Jer. 6,11</ref>; <ref cRef="4 Esr. " loc="9,42">4 Esr.  9,42</ref>; <ref cRef="4 Esr." loc="9,44">4 Esr. 9,44</ref>; <lbl expand="videas">vid.</lbl> <foreign xml:lang="gez">ብእሲተ፡ ብእሲ፡</foreign> sub <foreign xml:lang="gez">ብእሲት፡</foreign> 
+</sense> 
+</sense> <sense n="2" xml:id="D2"> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> homo </t:quote></cit>, <foreign xml:lang="grc">ἄνθρωπος</foreign>, creberrime, ut <ref cRef="Gen. " loc="6,9">Gen.  6,9</ref>; <ref cRef="Gen." loc="32,25">Gen. 32,25</ref>; <ref cRef="Gen." loc="37,15">Gen. 37,15</ref>; <ref cRef="Gen." loc="41,33">Gen. 41,33</ref>; <ref cRef="Gen." loc="42,11">Gen. 42,11</ref>; <ref cRef="Ex." loc="2,11">Ex. 2,11</ref>; <ref cRef="1 Reg." loc="13,14">1 Reg. 13,14</ref>; <ref cRef="Ps. " loc="51,6">Ps.  51,6</ref>; <ref cRef="Ps." loc="87,4">Ps. 87,4</ref>; <ref cRef="Joh." loc="16,21">Joh. 16,21</ref>; <ref cRef="Joh." loc="19,5">Joh. 19,5</ref>; <ref cRef="2 Cor." loc="12,2">2 Cor. 12,2</ref>; <ref cRef="Phil." loc="2,7">Phil. 2,7</ref>; <ref cRef="Rom." loc="5,12">Rom. 5,12</ref>; <ref cRef="Rom. " loc="5,16">Rom.  5,16</ref>; <ref cRef="Rom." loc="5,17">Rom. 5,17</ref>; <ref cRef="Rom." loc="5,18">Rom. 5,18</ref>; <foreign xml:lang="gez">ብእሲ፡ አብድ፡</foreign> <ref cRef="Sir." loc="4,27">Sir. 4,27</ref>; <ref cRef="Sir." loc="23,15">Sir. 23,15</ref>; <foreign xml:lang="gez">ብእሲ፡ ዘማዊ፡</foreign> <ref cRef="Sir." loc="23,17">Sir. 23,17</ref>; <ref cRef="Sir." loc="25,7">Sir. 25,7</ref>; <foreign xml:lang="gez">ብእሲ፡ ጠቢብ፡</foreign> <ref cRef="Sir." loc="20,27">Sir. 20,27</ref>; <foreign xml:lang="gez">ብሉይ፡ ብእሲ፡</foreign> <foreign xml:lang="grc">ὁ παλαιὸς ἄνθρωπος</foreign> <ref cRef="Eph." loc="4,22">Eph. 4,22</ref>; <ref cRef="Rom." loc="6,6">Rom. 6,6</ref>; <foreign xml:lang="gez">ሐዲስ፡ ብእሲ፡</foreign> <ref cRef="Eph." loc="4,24">Eph. 4,24</ref>; <foreign xml:lang="gez">ቀዳማዊ፡ ብእሲ፡</foreign> <ref cRef="1 Cor." loc="15,47">1 Cor. 15,47</ref>; <foreign xml:lang="gez">ብእሴ፡ እግዚአብሔር፡</foreign> <ref cRef="1 Tim." loc="6,11">1 Tim. 6,11</ref>; <ref cRef="1 Reg." loc="9,6">1 Reg. 9,6</ref>; <ref cRef="1 Reg." loc="9,10">1 Reg. 9,10</ref>. <cb n="0520" xml:id="c0520"/> <sense n="a" xml:id="D2a"> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> aliquis </t:quote></cit> <ref cRef="Jud." loc="6,8">Jud. 6,8</ref>; <ref cRef="Cant." loc="8,7">Cant. 8,7</ref>; <ref cRef="Matth." loc="18,12">Matth. 18,12</ref>; <ref cRef="Marc." loc="14,13">Marc. 14,13</ref>; <ref cRef="Luc." loc="8,27">Luc. 8,27</ref>; <ref cRef="Act. " loc="8,27">Act.  8,27</ref>; <foreign xml:lang="gez">ብእሲ፡ ዘይብል፡</foreign> <ref cRef="Sx. Mij." loc="14 ">Sx. Mij. 14 </ref>Enc.; <ref cRef="Sx. Mag." loc="29 ">Sx. Mag. 29 </ref> (Lud.); maxime in libris ex Arabico translatis.
+</sense> <sense n="b" xml:id="D2b"> repetitum <foreign xml:lang="gez">ብእሲ፡ ብእሲ፡</foreign> vel <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> quisque </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> quilibet </t:quote></cit> <ref cRef="Hez." loc="14,4">Hez. 14,4</ref>; <ref cRef="Ex." loc="16,29">Ex. 16,29</ref>; <ref cRef="Lev." loc="15,2">Lev. 15,2</ref>; <ref cRef="Lev." loc="17,8">Lev. 17,8</ref>; <ref cRef="Lev." loc="17,10">Lev. 17,10</ref>; <ref cRef="Lev." loc="18,6">Lev. 18,6</ref>, vel <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> singuli </t:quote></cit> <ref cRef="Cant." loc="3,8">Cant. 3,8</ref>; <ref cRef="2 Esr." loc="14,19">2 Esr. 14,19</ref>.
+</sense> <sense n="c" xml:id="D2c"> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> alter </t:quote></cit>: <foreign xml:lang="gez">ብእሲ፡ ቢጾ፡</foreign> <ref cRef="Jes." loc="19,2">Jes. 19,2</ref>; <ref cRef="Jes." loc="41,6">Jes. 41,6</ref>; <foreign xml:lang="gez">ብእሲ፡ እምቢጹ፡</foreign> <ref cRef="Koh." loc="4,4">Koh. 4,4</ref>; <foreign xml:lang="gez">ብእሲ፡ እኁሁ፡</foreign> <ref cRef="Jes." loc="9,19">Jes. 9,19</ref>; <ref cRef="Hebr." loc="8,11">Hebr. 8,11</ref>; <foreign xml:lang="gez">ብእሲ፡ ዲበ፡ ብእሲ፡</foreign> <ref cRef="Jes." loc="3,5">Jes. 3,5</ref>.
+</sense> <sense n="d" xml:id="D2d"> passim in <lbl expand="status constructus">st. c.</lbl>, sequente nomine rei vel qualitatis, eum notat, cui illa tamquam attributum convenit, ut: <foreign xml:lang="gez">ብእሴ፡ ሰላም፡</foreign> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> pacificus </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> pacis amator </t:quote></cit> <ref cRef="Ps." loc="36,39">Ps. 36,39</ref>; <foreign xml:lang="gez">ብእሴ፡ ሐቅል፡</foreign> <foreign xml:lang="grc">ἄγροικος</foreign> <ref cRef="Gen." loc="25,27">Gen. 25,27</ref>; <foreign xml:lang="gez">ብእሴ፡ ዕዳከ፡</foreign> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> debitor tuus </t:quote></cit> <ref cRef="Deut." loc="24,11">Deut. 24,11</ref>; <foreign xml:lang="gez">ብእሴ፡ ደም፡</foreign> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> sanguinolentus </t:quote></cit> <ref cRef="Ps." loc="5,7">Ps. 5,7</ref>; <ref cRef="2 Reg." loc="16,7">2 Reg. 16,7</ref>; <ref cRef="2 Reg." loc="16,8">2 Reg. 16,8</ref>, vel <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> mortis reus </t:quote></cit> <foreign xml:lang="grc">ἀνὴρ θανάτου</foreign> <ref cRef="3 Reg." loc="2,26">3 Reg. 2,26</ref>; <foreign xml:lang="gez">ብእሴ፡ ዐመፃ፡</foreign> <ref cRef="2 Thess." loc="2,3">2 Thess. 2,3</ref>.
+</sense> 
+</sense> </sense>
+               
+            <sense xml:id="Tmain" xml:lang="en" source="#traces"><cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">bǝʾǝsi</t:quote></cit> <sense n="C"> for <foreign xml:lang="gez">ሐዋሬ፡ ብእሲ፡</foreign> <lbl expand="videas">vid.</lbl> <foreign xml:lang="gez">ሐዋሪ፡</foreign> (TraCES) 
+</sense> </sense></entry>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,98 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ተጻዐቀ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L6f4017ede0b74fc8a13b69f9a6c9cba9" n="9500">
+               <form>
+                  <foreign xml:lang="gez">ተጻዐቀ</foreign>
+               </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain"> <subc>III,3</subc> (etiam <foreign xml:lang="gez">ተጸዐቀ፡</foreign> <subc>III,1</subc> scriptum) <cit type="translation" xml:lang="la">
+                     <quote>sese invicem premere</quote>
+                  </cit> ob angustiam loci, de turba, multitudine: <ref cRef="Act." loc="21,35">Act.
+                     21,35</ref>; sese vulnerarunt <foreign xml:lang="gez">እንዘ፡ ይጸዐቁ፡ ፩ ላዕለ፡
+                     ካልኡ፡</foreign>
+                  <ref cRef="Macc." loc="2.">Macc. f. 2.</ref>
+                  <sense n="a" xml:id="Da"> de rebus, ut de fulminibus continuo fragore et fulgure sese quasi
+                     prementibus vel excipientibus: <foreign xml:lang="gez">አመ፡ ይጻዐቁ፡ ነጥረ፡ መባርቅት፡ </foreign>
+                     <ref cRef="Org." loc="4.">Org. 4.</ref>
+                  </sense>
+                  <sense n="b" xml:id="Db">
+                     <cit type="translation" xml:lang="la">
+                        <quote>premere</quote>
+                     </cit> aliquem, de multitudine conferta: <cb n="1305" xml:id="c1305"/>
+                     <foreign xml:lang="gez">አኮሁ፡ ሰብእ፡ ይጠወቅ፡ ወይጻዐቀከ፡</foreign>
+                     <ref cRef="Luc." loc="8,45">Luc. 8,45</ref> Platt; <foreign xml:lang="gez">ተጻዕቆት፡</foreign>
+                     <cit type="translation" xml:lang="la">
+                        <quote>pressura</quote>
+                     </cit>, <cit type="translation" xml:lang="la">
+                        <quote>necessitas</quote>
+                     </cit>: <foreign xml:lang="gez">አመ፡ ተጻዕቆተ፡ ትካዝ፡</foreign> Fal. ab initio;
+                        <foreign xml:lang="gez">ባልሖሙ፡ እምነ፡ ገዓር፡ ወተጻዕቆተ፡ ግብር፡ ዘነበሩ፡ ባቲ፡</foreign>
+                     <ref cRef="Chrys. ho." loc="27.">Chrys. ho. 27.</ref>
+                  </sense>
+                  <sense n="c" xml:id="Dc">
+                     <cit type="translation" xml:lang="la">
+                        <quote>confertim se premere</quote>
+                     </cit> ad aliquem: quum videret <foreign xml:lang="gez">ከመ፡ ይጸዐቁ፡ ሰብእ፡
+                        ኀቤሁ፡</foreign> <ref cRef="Gad. Za Mich.">Gad. Za Mich.</ref> </sense>
+               </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

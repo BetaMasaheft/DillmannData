@@ -1,0 +1,88 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ጉንባሕ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="AE" when="2017-12-17">Referenzen + Sprachkennung,</change>
+        <change who="LB" when="2018-05-04">root</change>
+        </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L870f1ace514d458d92b60d13dd2e7582" n="8485">
+               <form>
+                  <foreign xml:lang="gez">ጉንባሕ</foreign>
+               <rs type="root"/>
+                    </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain"> <gramGrp> <pos expand="Substantivum">subst.</pos> </gramGrp> incertae significationis, quod Lud. cum <foreign xml:lang="ar">جُنْبُحٌ</foreign> <cit type="translation" xml:lang="la">
+                            <quote> crassus </quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                            <quote> longus </quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                            <quote> altus </quote>
+                        </cit> composuit. Non reperitur nisi compositum, <lbl expand="scilicet">sc.</lbl> <foreign xml:lang="gez">አባጕንባሕ፡</foreign> vel <foreign xml:lang="gez">አበጉንባሕ፡</foreign> (pro <foreign xml:lang="gez">አበ፡ ጉንባሕ፡</foreign>) vel <foreign xml:lang="gez">ዖፈ፡ ጉንባሕ፡</foreign>, quo nomine appelatur avis quaedam Abyssinica grandis, <lbl expand="scilicet">sc.</lbl> <cit type="translation" xml:lang="la">
+                            <quote> bucerus Abyssinicus </quote>
+                        </cit> (<cit type="translation" xml:lang="de">
+                            <quote> der abyssinische Hornvogel </quote>
+                        </cit>), amharice <foreign xml:lang="gez">እርኩም፡</foreign> vel <foreign xml:lang="gez">ሕርኩም፡</foreign>; de hac ave <lbl expand="videas">vid.</lbl> (non tam Ludolfi Comm. hist. p. 161 qui eam <cit type="translation" xml:lang="la">
+                            <quote> Casuarium </quote>
+                        </cit> interpretatur, quam) <ref cRef="Bruce III p." loc="102">Bruce III p. 102</ref>; <ref cRef="Bruce V p." loc=" 172-175">Bruce V p.  172-175</ref> ubi ejus descriptio et effigies exhibetur; <ref cRef="Bruce V p." loc=" 291">Bruce V p.  291</ref>; <ref cRef="Harris I" loc="256">Harris I 256</ref>; <ref cRef="Harris I" loc="329 ">Harris I 329 </ref>(ubi ejus nomen Tigrensis <foreign xml:lang="gez">አባ፡ ጎምባ፡</foreign> a <foreign xml:lang="gez">ጎምቦ፡</foreign> <cit type="translation" xml:lang="la">
+                            <quote> urceus </quote>
+                        </cit> repetitur); <ref cRef="Harris II" loc="93">Harris II 93</ref>; <ref cRef="Harris Anh." loc="44.">Harris Anh. p. 44.</ref> – Ejus nomen legitur: <ref cRef="Deut." loc="14,18">Deut. 14,18</ref> ubi Gr. <foreign xml:lang="grc">πελεκάν</foreign> (<cit type="translation" xml:lang="la">
+                            <quote> pelecanus </quote>
+                        </cit>, aliâs <foreign xml:lang="gez">አድገ፡ መረብ፡</foreign>) habet; et <ref cRef="Fal." loc="17 ">Fal. f. 17 </ref>ubi <foreign xml:lang="gez">ዖፈ፡ ጉንባሕ፡</foreign> prudentiâ (<foreign xml:lang="gez">ጥበብ፡</foreign>), leo robore (<foreign xml:lang="gez">ኀይል፡</foreign>) insignis dicitur. </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

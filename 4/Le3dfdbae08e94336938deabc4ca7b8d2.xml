@@ -1,0 +1,99 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ዘለፋ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="Le3dfdbae08e94336938deabc4ca7b8d2" n="7476">
+               <form>
+                  <foreign xml:lang="gez">ዘለፋ</foreign>
+               </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain">
+                  <gramGrp>
+                     <pos expand="Substantivum">subst.</pos>
+                  </gramGrp> (sec. Lud. passim <foreign xml:lang="gez">ዘላፋ፡ </foreign> scriptum), <gramGrp>
+                     <gen value="masculinum">m.</gen>
+                  </gramGrp> et <gramGrp>
+                     <gen value="femininus">fem.</gen>
+                  </gramGrp>, <sense n="1" xml:id="D1">
+                     <cit type="translation" xml:lang="la">
+                        <quote>reprehensio</quote>
+                     </cit>, <cit type="translation" xml:lang="la">
+                        <quote>objurgatio</quote>
+                     </cit>,<cit type="translation" xml:lang="la">
+                        <quote> correctio</quote>
+                     </cit>, <cit type="translation" xml:lang="la">
+                        <quote>admonitio</quote>
+                     </cit>, <ref cRef="Num. " loc="5,18">Num. 5,18</ref>; <ref cRef="Ps." loc="72,14">Ps. 72,14</ref>; <ref cRef="Prov." loc="1,23">Prov. 1,23</ref>;
+                        <foreign xml:lang="gez">ዘለፋ፡ ክሡት፡</foreign>
+                     <ref cRef="Prov." loc="27,5">Prov. 27,5</ref>; <foreign xml:lang="grc">ἔλεγξις</foreign>
+                     <ref cRef="Job" loc="23,2">Job 23,2</ref>; <ref cRef="Sir." loc="41,4">Sir.
+                        41,4</ref>; <ref cRef="Hen." loc="14,1">Hen. 14,1</ref>; <ref cRef="Joh. " loc="8,9">Joh. 8,9</ref>; <foreign xml:lang="gez">አነብብ፡ ዘለፋ፡ ርእስየ፡</foreign>
+                     Org.; <foreign xml:lang="gez">ዘለፋ፡ ኀጣውእ፡</foreign> Org.</sense>
+                  <sense n="2" xml:id="D2">
+                     <cit type="translation" xml:lang="la">
+                        <quote>redargutio</quote>
+                     </cit>, <cit type="translation" xml:lang="la">
+                        <quote>refutatio</quote>
+                     </cit>, <foreign xml:lang="grc">γαυρίαμα </foreign> (<cit type="translation" xml:lang="la">
+                        <quote>argutiae?</quote>
+                     </cit>) <ref cRef="Job" loc="13,12">Job 13,12</ref>; <foreign xml:lang="gez">ንጽሕፍ፡ እንከ፡ ዘለፋሁ፡ ለንስጥኖስ፡</foreign> M.M. f. 27.</sense>
+               </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

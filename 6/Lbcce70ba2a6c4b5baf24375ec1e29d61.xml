@@ -1,0 +1,101 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ገፍዐ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="LB" when="2018-05-04">root</change>
+        </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="Lbcce70ba2a6c4b5baf24375ec1e29d61" n="8742">
+               <form>
+                  <foreign xml:lang="gez">ገፍዐ</foreign>
+               <rs type="root"/>
+                    </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain"> vel <foreign xml:lang="gez">ገፍአ፡</foreign> <subc>I,1</subc> [<foreign xml:lang="ar">جَفَا</foreign> <cit type="translation" xml:lang="la">
+                            <quote> duriter et inique tractavit </quote>
+                        </cit>; <cit type="translation" xml:lang="la">
+                            <quote> injuria affecit </quote>
+                        </cit>] <gramGrp> <pos expand="Subjunctivus">Subj.</pos> </gramGrp> <foreign xml:lang="gez">ይግፋዕ፡</foreign> <sense n="1" xml:id="D1"> <cit type="translation" xml:lang="la">
+                                <quote> comprimere </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> arcte complecti </quote>
+                            </cit>, <ref cRef="Jud." loc="16,29">Jud. 16,29</ref>.</sense> <sense n="2" xml:id="D2"> <cit type="translation" xml:lang="la">
+                                <quote> reprimere </quote>
+                            </cit>: <foreign xml:lang="gez">ሀብት፡ ዘበጽሚት፡ ይገፍዕ፡</foreign> (v. <foreign xml:lang="gez">ያጠፍእ፡</foreign>) <foreign xml:lang="gez">መዐተ፡</foreign> <foreign xml:lang="grc">ἀνατρέπει</foreign> (<foreign xml:lang="he">יִכְפֶּה</foreign> de quo <lbl expand="videas">vid.</lbl> Ges. thes. p. 704) <ref cRef="Prov." loc="21,14">Prov. 21,14</ref>; <cit type="translation" xml:lang="la">
+                                <quote> repulit </quote>
+                            </cit> instantem Lud. e Vit. Baam.</sense> <sense n="3" xml:id="D3"> <cit type="translation" xml:lang="la">
+                                <quote> opprimere </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> injuria afficere </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> vim inferre </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> injuriam facere </quote>
+                            </cit>: <foreign xml:lang="gez">ይገፍዕ፡</foreign> <foreign xml:lang="grc">ἄτοπα ποιεῖν</foreign> <ref cRef="Job" loc="34,12">Job 34,12</ref>; <foreign xml:lang="gez">ለሊሁ፡ ይገፍዕ፡</foreign> <foreign xml:lang="grc">ἠδίκησε</foreign> <ref cRef="Sir." loc="13,3">Sir. 13,3</ref>; <ref cRef="Hez." loc="22,7">Hez. 22,7</ref>; <ref cRef="Ex. " loc="2,13">Ex.  2,13</ref>; <lbl expand="cum">c.</lbl> <gramGrp> <case value="accusativus">Acc.</case> </gramGrp> <lbl expand="persona">pers.</lbl>: <ref cRef="Ex." loc="23,9">Ex. 23,9</ref>; <ref cRef="1 Reg." loc="12,3">1 Reg. 12,3</ref>; <ref cRef="1 Reg." loc="12,4">1 Reg. 12,4</ref>; <ref cRef="Ps." loc="34,1">Ps. 34,1</ref>; <ref cRef="Kuf." loc="28">Kuf. 28</ref>; <ref cRef="Job " loc="24,10">Job  24,10</ref>; <ref cRef="Jes." loc="3,15">Jes. 3,15</ref>; <ref cRef="Jes." loc="51,23">Jes. 51,23</ref>; <ref cRef="Ep. Jer." loc="13">Ep. Jer. 13</ref>; <ref cRef="4 Esr." loc="12,46">4 Esr. 12,46</ref>; <ref cRef="Prov." loc="24,44">Prov. 24,44</ref>; <ref cRef="Hez." loc="22,29">Hez. 22,29</ref>; <ref cRef="Hen." loc="10,15">Hen. 10,15</ref>; <ref cRef="Hen." loc="15,11">Hen. 15,11</ref>; <ref cRef="Matth." loc="20,13">Matth. 20,13</ref>; <ref cRef="Luc." loc="19,8">Luc. 19,8</ref>; <foreign xml:lang="gez">ግፍዕክሙ፡ ዘትገፍዑ፡</foreign> <ref cRef="Hen." loc="98,8">Hen. 98,8</ref>. <sense n="a" xml:id="D3a"> <cit type="translation" xml:lang="la">
+                                    <quote> impetum facere </quote>
+                                </cit>, <cit type="translation" xml:lang="la">
+                                    <quote> irruere </quote>
+                                </cit> <cit type="translation" xml:lang="la">
+                                    <quote> in </quote>
+                                </cit>aliquem vel aliquid <ref cRef="Matth." loc="7,25">Matth. 7,25</ref>; <ref cRef="Luc." loc="6,48">Luc. 6,48</ref>. <cb n="1213" xml:id="c1213"/> </sense> <sense n="b" xml:id="D3b"> <cit type="translation" xml:lang="la">
+                                    <quote> vim facere in </quote>
+                                </cit>aliquid, <cit type="translation" xml:lang="la">
+                                    <quote> violenter rapere </quote>
+                                </cit> aliquid, <foreign xml:lang="gez">አባ፡ ሙሴ፡ ጸሊም፡ ገፍዓ፡ ለመንግሥተ፡ ሰማያት፡ በከመ፡ ይቤ፡ ወንጌል፡</foreign> (<ref cRef="Matth." loc="11,12">Matth. 11,12</ref>; <ref cRef="Luc." loc="16,16">Luc. 16,16</ref>) <ref cRef="Sx. Sen." loc="24.">Sx. Sen. 24.</ref> </sense> </sense> </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

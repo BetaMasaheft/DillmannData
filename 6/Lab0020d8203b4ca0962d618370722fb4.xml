@@ -1,0 +1,88 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> አርአያ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="AE" when="2018-08-23">Verschachtelung, Referenzen,</change>
+            <change who="AE" when="2018-08-23">nochmal,</change>
+        <change who="MK" when="2024-07-19">added gr and les </change><change who="MK" when="2024-07-19">added sub</change><change who="MK" when="2024-07-19">corr</change><change who="MK" when="2024-07-19">added les 2</change></revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="Lab0020d8203b4ca0962d618370722fb4" n="2248">
+               <form>
+                  <foreign xml:lang="gez">አርአያ</foreign>
+               </form>
+               <sense xml:id="Dmain" xml:lang="la" source="#dillmann"> <gramGrp> <pos expand="Substantivum">subst.</pos> </gramGrp>, plerumque <gramGrp> <gen value="not found">m.</gen> </gramGrp> <sense n="1" xml:id="D1"> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> imago </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> similitudo </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> species </t:quote></cit> (<foreign xml:lang="grc">ὁμοιότης</foreign>, <foreign xml:lang="grc">εἰκών</foreign>) <ref cRef="Gen." loc="1,12">Gen. 1,12</ref>; <ref cRef="Gen. " loc="1,26">Gen.  1,26</ref>; <ref cRef="Jac." loc="3,9">Jac. 3,9</ref>; <ref cRef="4 Reg." loc="16,10">4 Reg. 16,10</ref>; <foreign xml:lang="gez">ገብሮ፡ በአርአያ፡ ዚአሁ፡</foreign> <ref cRef="Sap." loc="2,23">Sap. 2,23</ref>; <ref cRef="Sap." loc="7,26">Sap. 7,26</ref> (<foreign xml:lang="grc">εἰκών</foreign>); <ref cRef="Sap. " loc="17,20">Sap.  17,20</ref>; <foreign xml:lang="gez">ከመዝ፡ አርአያ፡ አምሳለ፡ ስብሐቲሁ፡</foreign> <ref cRef="Hez." loc="2,1">Hez. 2,1</ref>; Christus <foreign xml:lang="gez">አርአያሁ፡ ለእግዚአብሔር፡</foreign> <ref cRef="2 Cor." loc="4,4">2 Cor. 4,4</ref>; <foreign xml:lang="gez">አርአያ፡ ገጹ፡</foreign> <foreign xml:lang="grc">χαρακτὴρ τῆς ὑποστάσεως αὐτοῦ</foreign> <ref cRef="Hebr." loc="1,3">Hebr. 1,3</ref> <lbl expand="romanae editionis">rom.</lbl>; <foreign xml:lang="gez">መልክዐ፡ አርአያሁ፡ ለዘወለዶ፡</foreign> <foreign xml:lang="grc">χαρακτὴρ τῆς ὑποστάσεως τοῦ γεννήσαντος αὐτόν</foreign> <ref cRef="Cyr. c. Pall." loc="67.">Cyr. c. Pall. f. 67.</ref> <sense n="a" xml:id="D1a"> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> effigies </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> imago picta </t:quote></cit> <ref cRef="Hez." loc="23,14">Hez. 23,14</ref>; <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> sculpta </t:quote></cit> <ref cRef="Ex. " loc="28,32">Ex.  28,32</ref>. 
+</sense> <sense n="b" xml:id="D1b"> passim usurpatur praepositionis et conjunctionis instar <sense n="α" xml:id="D1bα"> <foreign xml:lang="gez">በአርአያሆን፡</foreign> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> secundum similitudinem earum </t:quote></cit> (<foreign xml:lang="grc">ἐπί</foreign> <lbl expand="cum">c.</lbl> <gramGrp> <case value="accusativus">Acc.</case> </gramGrp>) <ref cRef="Gen." loc="30,38">Gen. 30,38</ref>; <ref cRef="Gen." loc="30,39">Gen. 30,39</ref>. 
+</sense> <sense n="β" xml:id="D1bβ"> <foreign xml:lang="gez">አርአያ፡</foreign> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> ceu </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> tamquam </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> instar </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> quasi </t:quote></cit> <ref cRef="Sx. Tachs." loc="27 Enc.">Sx. Tachs. 27 Enc.</ref>; <foreign xml:lang="gez">አርአያ፡ ብዙኅ፡ ዝናም፡</foreign> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> magnae pluviae instar </t:quote></cit> <ref cRef="Sx. Teq." loc="25 Enc.">Sx. Teq. 25 Enc.</ref>; <foreign xml:lang="gez">አርአያ፡ ይነውም፡ ዘልፈ፡</foreign> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> tamquam semper dormiret </t:quote></cit> <ref cRef="Sx. Ter" loc="21 Enc.">Sx. Ter 21 Enc.</ref>; <foreign xml:lang="gez">አርአያ፡ ዘ፡</foreign> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> eodem modo quo </t:quote></cit> <bibl><ptr target="bm:Ludolf1691Commentarius"/></bibl> p. 502 n. 39. 
+</sense> 
+</sense> 
+</sense> <sense n="2" xml:id="D2"> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> norma </t:quote></cit>; <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> forma </t:quote></cit> vel <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> species </t:quote></cit> rei ab artifice imitandae, <foreign xml:lang="grc">παράδειγμα</foreign> <ref cRef="Ex." loc="25,9">Ex. 25,9</ref>; <ref cRef="1 Par." loc="28,11">1 Par. 28,11</ref> <lbl expand="sequens">seq.</lbl>; <foreign xml:lang="gez">አርአያ፡ ምስለ፡ ቀዳሚ፡ አርአያሁ፡ ይዔሪ፡</foreign> <foreign xml:lang="grc">ἡ εἰκὼν ὡς τὸ ἀρχέτυπον</foreign> <ref cRef="Cyr. ad Theod." loc="12">Cyr. ad Theod. f. 12</ref>; etiam <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> norma </t:quote></cit> doctrinae <ref cRef="Rom." loc="6,17">Rom. 6,17</ref>. 
+</sense> <sense n="3" xml:id="D3"> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> exemplum </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> exemplar </t:quote></cit> <sense n="a" xml:id="D3a"> ad imitandum propositum (<foreign xml:lang="grc">παράδειγμα</foreign>, <foreign xml:lang="grc">τύπος</foreign>) <ref cRef="Joh. " loc="13,15">Joh.  13,15</ref>; <foreign xml:lang="gez">ኮነ፡ አርአያ፡ ለዓለም፡ ከመ፡ ይነስሑ፡</foreign> <ref cRef="Sir. " loc="44,16">Sir.  44,16</ref>; <ref cRef="Jac." loc="5,10">Jac. 5,10</ref>; <ref cRef="1 Thess." loc="1,7">1 Thess. 1,7</ref>; <ref cRef="2 Thess." loc="3,9">2 Thess. 3,9</ref>; <ref cRef="Tit." loc="2,7">Tit. 2,7</ref>; <ref cRef="1 Tim." loc="4,12">1 Tim. 4,12</ref>; <ref cRef="1 Petr. " loc="5,3">1 Petr.  5,3</ref>; <ref cRef="Cyr." loc="102">Cyr. f. 102</ref>; <foreign xml:lang="gez">ኩኖሙ፡ አርአያ፡</foreign> <ref cRef="Clem." loc="118">Clem. f. 118</ref>; <ref cRef="Kid." loc="3.">Kid. 3.</ref> 
+</sense> <sense n="b" xml:id="D3b"> ad terrendos et admonendos alios, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> spectaculum </t:quote></cit>: <ref cRef="Hen." loc="27,3">Hen. 27,3</ref>; <ref cRef="Hen." loc="62,12">Hen. 62,12</ref>; <ref cRef="Judae" loc="7">Judae 7</ref>; <foreign xml:lang="gez">ይከውኑ፡ አርአያ፡ ለኵሉ፡ ዘሥጋ፡</foreign> <foreign xml:lang="grc">εἰς ὅρασιν</foreign> <ref cRef="Jes. " loc="66,24">Jes.  66,24</ref>. 
+</sense> <sense n="c" xml:id="D3c"> libri (transcriptum), <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> apographum </t:quote></cit>: <foreign xml:lang="gez">ወሀቦ፡ አርአያሃ፡</foreign> (<foreign xml:lang="gez">ለመጽሐፍ፡</foreign>) <foreign xml:lang="gez">ያርእያሃ፡ ለአስቴር፡</foreign> <ref cRef="Esth." loc="4,8">Esth. 4,8</ref>; <foreign xml:lang="gez">አርአያ፡ መጽሐፉ፡ ለኤርምያስ፡</foreign> <foreign xml:lang="grc">ἀντίγραφον ἐπιστολῆς</foreign> <ref cRef="Ep. Jer." loc="1.">Ep. Jer. 1.</ref> 
+</sense> 
+</sense> <sense n="4" xml:id="D4"> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> typus </t:quote></cit> aliam rem significans, <foreign xml:lang="grc">ὑπόδειγμα</foreign> <ref cRef="Hebr." loc="8,5">Hebr. 8,5</ref>; <foreign xml:lang="gez">አርአያ፡ ወጽላሎት፡</foreign> (rerum futurarum) <ref cRef="Clem." loc="206">Clem. f. 206</ref>; <ref cRef="Clem." loc="208">Clem. f. 208</ref>; et <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> antitypus </t:quote></cit> <ref cRef="1 Petr." loc="3,21">1 Petr. 3,21</ref> (coll. <ref cRef="Hebr." loc="9,24">Hebr. 9,24</ref>). 
+</sense> <sense n="5" xml:id="D5"> passim i.q. <foreign xml:lang="gez">ርእየት፡</foreign> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> facies </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> species </t:quote></cit>, ut: <foreign xml:lang="gez">ታሤኒ፡ ገጻ፡ ወታሰረጕ፡ አርአያሃ፡</foreign> <ref cRef="Sx. Mag." loc="5.">Sx. Mag. 5.</ref> 
+</sense> </sense>
+               
+            <sense xml:id="Tmain" xml:lang="en" source="#traces"> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">ʾarʾayā</t:quote></cit> <sense n="G" xml:id="TG"> <foreign xml:lang="gez">አርአያ፡</foreign> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">ʾarʾayā</t:quote></cit> «<cit type="translation" xml:lang="fr"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">exemple</t:quote></cit>, <cit type="translation" xml:lang="fr"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">modèle</t:quote></cit>, <cit type="translation" xml:lang="fr"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">image</t:quote></cit>, <cit type="translation" xml:lang="fr"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">figure</t:quote></cit>, <cit type="translation" xml:lang="fr"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">aspect</t:quote></cit>, <cit type="translation" xml:lang="fr"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">type</t:quote></cit>; (adverbe) <cit type="translation" xml:lang="fr"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">comme</t:quote></cit>, <cit type="translation" xml:lang="fr"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">semblablement</t:quote></cit>, <cit type="translation" xml:lang="fr"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">à l’instar de</t:quote></cit>» ― <foreign xml:lang="am">አምሳያ፡</foreign>, <foreign xml:lang="am">አብነት፡</foreign> Ms. <ref type="BM" target="BNFabb217">BNFabb217</ref>, fol. 60v. <lb/>
+ <bibl><ptr target="bm:Grebaut1952SuppLexicon"/><citedRange unit="page"> 154</citedRange></bibl> 
+</sense> <sense n="L" xml:id="TL"> <foreign xml:lang="gez">አርአያ</foreign> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">ʾarʾayā</t:quote></cit> <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">exemplar</t:quote></cit>, <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">similitude</t:quote></cit>, <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">likeness</t:quote></cit>, <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">example</t:quote></cit>, <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">appearance</t:quote></cit>, <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">spectacle</t:quote></cit>, <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">figure</t:quote></cit>, <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">form</t:quote></cit>, <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">shape</t:quote></cit>, <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">type</t:quote></cit>, <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">image</t:quote></cit>, <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">aspect</t:quote></cit>, <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">norm</t:quote></cit>, <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">pattern</t:quote></cit>, <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">model</t:quote></cit>, <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">standard</t:quote></cit>, <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">copy</t:quote></cit>, <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">transcription</t:quote></cit>; <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">just as</t:quote></cit>, <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">like</t:quote></cit>, <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">as</t:quote></cit> <lb/>
+ <foreign xml:lang="gez">አርአያ፡ ዘ</foreign> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">ʾarʾayā za</t:quote></cit> + imperfect <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">the same way as</t:quote></cit> + verb <lb/>
+ <bibl><ptr target="bm:Leslau1987dic"/><citedRange unit="page"> 459a</citedRange></bibl> 
+</sense> </sense></entry>
+         </div>
+      </body>
+   </text>
+</TEI>

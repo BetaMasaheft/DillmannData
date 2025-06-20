@@ -1,0 +1,74 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> አለበወ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="MK" when="2022-12-12">added Gr</change><change who="MK" when="2022-12-12">added Les</change><change who="MK" when="2022-12-12">added Gr</change><change who="MK" when="2022-12-12">removed G</change><change who="MK" when="2022-12-12">correction</change></revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="Leebc7045f4b4460ca9b6c368379dd2da" n="301">
+               <form>
+                  <foreign xml:lang="gez">አለበወ</foreign>
+               </form>
+               <sense xml:id="Dmain" xml:lang="la" source="#dillmann"> <subc>II,2</subc> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> percipere </t:quote></cit> vel <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> intelligere facere </t:quote></cit>; <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> intelligentem </t:quote></cit> vel <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> prudentem reddere </t:quote></cit>; <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> edocere </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> instruere </t:quote></cit> (<foreign xml:lang="grc">συνετίζειν</foreign>, <foreign xml:lang="grc">συμβιβάζειν</foreign>, <foreign xml:lang="grc">δεικνύναι</foreign> al.) <lbl expand="cum">c.</lbl> <gramGrp> <case value="accusativus">Acc.</case> </gramGrp> <lbl expand="persona">pers.</lbl> et rei vel <foreign xml:lang="gez">በእንተ፡</foreign> rei: <foreign xml:lang="gez">ዕፅ፡ ዘያሌቡ፡ ሠናየ፡ ወእኩየ፡</foreign> <ref cRef="Gen." loc="2,9">Gen. 2,9</ref>; <ref cRef="Gen." loc="2,17">Gen. 2,17</ref>; <foreign xml:lang="gez">ዘአለበወኒ፡</foreign> <ref cRef="Ps." loc="15,7">Ps. 15,7</ref>; <ref cRef="Ps." loc="31,10">Ps. 31,10</ref>; <ref cRef="1 Petr." loc="5,10">1 Petr. 5,10</ref>; <ref cRef="4 Esr." loc="14,10">4 Esr. 14,10</ref>; <foreign xml:lang="gez">አሌብወከ፡ ዘሀለወከ፡ ትንብብ፡</foreign> <ref cRef="Ex." loc="4,12">Ex. 4,12</ref>; <foreign xml:lang="gez">ፍኖተ፡ ጽድቅከ፡ አለብወኒ፡</foreign> <ref cRef="Ps." loc="118,27">Ps. 118,27</ref>; <ref cRef="Dan." loc="8,16">Dan. 8,16</ref>; <ref cRef="Dan." loc="9,22">Dan. 9,22</ref>; <ref cRef="Jud." loc="13,23">Jud. 13,23</ref>; <foreign xml:lang="gez">ከመ፡ ያለብዎሙ፡ ለእስራኤል፡ ሕጎ፡</foreign> <ref cRef="Sir." loc="45,17">Sir. 45,17</ref>. </sense>
+               
+            <sense xml:id="Tmain" xml:lang="en" source="#traces"> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">ʾalabawa</t:quote></cit> <sense n="G" xml:id="TG"> <foreign xml:lang="gez">አለበወ፡</foreign> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">ʾalabbawa</t:quote></cit> <subc>II,2</subc> «<cit type="translation" xml:lang="fr"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">inspirer</t:quote></cit> (ordre divin)» <foreign xml:lang="gez">ሶበ፡ በጽሐ፡ ኀቤሃ፡ ወርእየ፡ ስነ፡ ገጻ፡ ወአርአያሃ፡ ዘአምሳለ፡ መላእክት፡ አለበወቶ፡ ጸጋ፡ እግዚአብሔር፡ ከመ፡ ኢይቅትላ፡ አላ፡ ወሰዳ፡ ምስሌሁ፡ ኀበ፡ መኰንን።</foreign> <bibl><ptr target="bm:Guidi1906SynaxSane"/><citedRange unit="page"> 58</citedRange></bibl> <lb/>
+ <bibl><ptr target="bm:Grebaut1952SuppLexicon"/><citedRange unit="page"> 33–34</citedRange></bibl> <lb/>
+ <foreign xml:lang="gez">አለበወ፡</foreign> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">ʾalabbawa</t:quote></cit> <subc>II,2</subc> <foreign xml:lang="gez">ያሌቡ፡</foreign>, <foreign xml:lang="gez">ያለቡ፡</foreign> «<cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">edocuit</t:quote></cit>» ― <foreign xml:lang="am">አሳሰበ፡</foreign> Ms. Roma, Biblioteca Nazionale Centrale di Roma, Orientale 134, p. 5. <lb/>
+ <bibl><ptr target="bm:Grebaut1952SuppLexicon"/><citedRange unit="page"> 34</citedRange></bibl> 
+</sense> <sense n="L" xml:id="TL"> <foreign xml:lang="gez">አለበወ</foreign> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">ʾalabbawa</t:quote></cit> causative of <lbl expand="videas">vid.</lbl> <foreign xml:lang="gez">ለበወ</foreign> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">labbawa</t:quote></cit>; also <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">instruct</t:quote></cit>, <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">give understanding</t:quote></cit>, <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">make intelligent</t:quote></cit>, (<bibl><ptr target="bm:Grebaut1952SuppLexicon"/><citedRange unit="page"> 33–34</citedRange></bibl>) <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">inspire</t:quote></cit> <bibl><ptr target="bm:Leslau1987dic"/><citedRange unit="page"> 306a</citedRange></bibl> 
+</sense> </sense></entry>
+         </div>
+      </body>
+   </text>
+</TEI>

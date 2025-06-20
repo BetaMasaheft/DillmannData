@@ -1,0 +1,137 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="gez">ጋሣ</title>
+                <author>Alessandro Bausi</author>
+                <author>Andreas Ellwardt</author>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+                <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+                <pubPlace>Hamburg</pubPlace>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-sa-nc/4.0/"> This file
+                        is licensed under the Creative Commons Attribution-ShareAlike Non Commercial
+                        4.0. </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                        Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice
+                            latino. Adiectum est vocabularium tigre dialecti septentrionalis
+                            compilatum</emph> a W. Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+                </p>
+                <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced
+                        Grant TraCES (Grant Agreement 338756)</ref>
+                </p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>A digital edition of the Lexicon in TEI.</p>
+            <listPrefixDef>
+                <prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/>
+            </listPrefixDef>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="la">latin</language>
+                <language ident="it">Italian</language>
+                <language ident="gez">Gǝʿǝz</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="syr">Syriac</language>
+                <language ident="ar">Arabic</language>
+                <language ident="sa">Sanskrit</language>
+                <language ident="geo">Georgian</language>
+                <language ident="cop">Coptic</language>
+                <language ident="osa">Old South Arabian</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change who="VP" when="2019-04-10">new entry </change>
+            <change who="VP" when="2019-04-10">small correction in the Reference: 57 instead of
+                56</change>
+            <change who="VP" when="2019-04-10">correction in the Bibliography</change>
+            <change who="VP" when="2019-04-10">Orthographic correction</change>
+            <change who="VP" when="2019-04-10">correction</change>
+            <change who="PL" when="2019-04-10">test correction</change>
+            <change who="PL" when="2019-04-10">test correction</change>
+            <change who="PL" when="2019-04-10">correction</change>
+            <change who="PL" when="2019-04-10">entered again the abbreviations in
+                Marrassini</change>
+            <change who="PL" when="2019-04-10">test</change>
+            <change who="PL" when="2019-04-10">test</change>
+            <change who="PL" when="2019-04-10">added back abbreviations</change>
+            <change who="PL" when="2019-04-10">test</change>
+            <change who="PL" when="2019-04-10">test</change>
+            <change who="PL" when="2019-04-10">test</change>
+            <change who="VP" when="2019-04-10">bm:Perruchon1889guerresAmda added</change>
+            <change who="VP" when="2019-04-10">[page, 202]bm:Marrassini1993AmdaSeyon moved</change>
+            <change who="VP" when="2019-04-10">small correction: "of" insted of "in" </change>
+            <change who="VP" when="2019-04-10">"(ed.)" and "(app.)" in the Bibliography</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <entry xml:id="L2a8d6951bf904c3f8d2b54398e01283b" n="12546">
+                    <form>
+                        <foreign xml:lang="gez">ጋሣ</foreign>
+                    </form>
+                    <sense xml:lang="en" source="#traces" xml:id="Tmain">
+                        <cit type="transcription" xml:lang="gez">
+                            <quote>gāśā</quote>
+                        </cit>, <foreign xml:lang="gez">ጋሳ</foreign>
+                        <cit type="transcription" xml:lang="gez">
+                            <quote>gāsā</quote>
+                        </cit>
+                        <pos expand="nomen proprium">n. pr.</pos> (place name) <foreign xml:lang="gez">ጋሣ</foreign>
+                        <bibl>
+                            <ptr target="bm:Marrassini1993AmdaSeyon"/>
+                            <citedRange unit="page"> 68:20 (ed.); 82:5 (ed.)</citedRange>
+                        </bibl>
+                        <ref cRef="Chron. Am." loc="57">Chron. Am. 57</ref>
+                        <ref cRef="Chron. Am." loc="95">Chron. Am. 95</ref>
+                        <foreign xml:lang="gez">ጋሳ</foreign>
+                        <bibl>
+                            <ptr target="bm:Marrassini1993AmdaSeyon"/>
+                            <citedRange unit="page"> 100:1 (ed.)</citedRange>
+                        </bibl>
+                        <ref cRef="Chron. Am." loc="155">Chron. Am. 155</ref>. In the critical
+                        apparatus of <bibl>
+                            <ptr target="bm:Marrassini1993AmdaSeyon"/>
+                        </bibl> see in particular the variant <foreign xml:lang="gez">ጋላ</foreign>
+                        of <ref type="BM" target="BNFet143">BNFet143</ref> (= P), <ref type="BM" target="BNFabb118">BNFabb118</ref> (= A2), <ref type="BM" target="BLorient821">BLorient821</ref> (= L), <bibl>
+                            <ptr target="bm:Marrassini1993AmdaSeyon"/>
+                            <citedRange unit="page"> 68 n. 53 (app.); 82 n. 15 (app.)</citedRange>
+                        </bibl>, and in <ref type="BM" target="FSUor38">FSUor38</ref>, (=R) <bibl>
+                            <ptr target="bm:Marrassini1993AmdaSeyon"/>
+                            <citedRange unit="page"> 100 n. 1 (app.)</citedRange>
+                        </bibl> (ʿUn toponimo <cit type="transcription" xml:lang="gez">
+                            <quote>Gāla</quote>
+                        </cit> non esiste in ʿAmda Ṣeyon, ed è perciò inutile l'ipotesi (già di per
+                        sé debolissima) di <bibl>
+                            <ptr target="bm:Tedeschi1978Amda"/>
+                            <citedRange unit="page"> 139</citedRange>
+                        </bibl> (la pianura Galalu); già Perruchon, nella n. 2 p. 497 di <bibl>
+                            <ptr target="bm:EstevesPereira1890Victorias"/>
+                        </bibl>, ammetteva un errore suo o dei copisti Haylu, con <foreign xml:lang="gez">ላ</foreign> al posto del <foreign xml:lang="gez">ሳ</foreign> originario, facendo seguito ai suoi stessi dubbi avanzati
+                        in <bibl>
+                            <ptr target="bm:Perruchon1889guerresAmda"/>
+                            <citedRange unit="page"> 341 n. 1</citedRange>
+                        </bibl>. Da notare la grave assenza di <cit type="transcription" xml:lang="gez">
+                            <quote>Gāśā</quote>
+                        </cit> da <bibl>
+                            <ptr target="bm:Huntingford1965Victorieṣ"/>
+                        </bibl>.ʾ <bibl>
+                            <ptr target="bm:Marrassini1993AmdaSeyon"/>
+                            <citedRange unit="page"> 202</citedRange>
+                        </bibl>) <nd/>
+                    </sense>
+                </entry>
+            </div>
+        </body>
+    </text>
+</TEI>

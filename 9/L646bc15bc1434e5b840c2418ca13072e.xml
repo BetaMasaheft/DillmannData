@@ -1,0 +1,128 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> መ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="LB" when="2018-01-30">root</change>
+        </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L646bc15bc1434e5b840c2418ca13072e" n="1038">
+               <form>
+                  <foreign xml:lang="gez">መ</foreign>
+               <rs type="root"/>
+                    </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain"> (rarissime <foreign xml:lang="gez">ማ፡</foreign>) vocula enclitica (<bibl>
+                            <ptr target="bm:Dillmann1857Gramm"/>gramm.</bibl> § 63,a et § 162). <sense n="1" xml:id="D1"> Fuit primitus pronomen interrogativum (<foreign xml:lang="ar">مَا</foreign>, <foreign xml:lang="he">מָה</foreign>, <foreign xml:lang="syr">ܡܳܐ</foreign>) <cit type="translation" xml:lang="la">
+                                <quote> quid? </quote>
+                            </cit> deinde relativum <cit type="translation" xml:lang="la">
+                                <quote> quod </quote>
+                            </cit>; variae particulae pronominales cum ea compositae sunt, ut: <foreign xml:lang="gez">ማእዜ፡</foreign>, <foreign xml:lang="gez">ሚመ፡</foreign>, <foreign xml:lang="gez">እስመ፡</foreign>, <foreign xml:lang="gez">ከመ፡</foreign>, <foreign xml:lang="gez">ክመ፡</foreign> </sense> <sense n="2" xml:id="D2"> Dehinc aliis vocibus suffixa enunciationi quandum coloris varietatem admiscet. <sense n="a" xml:id="D2a"> Creberrime pronominibus et <cb n="0142" xml:id="c0142"/> particulis interrogativis suffixa <cit type="translation" xml:lang="la">
+                                    <quote> –ne </quote>
+                                </cit>, <cit type="translation" xml:lang="la">
+                                    <quote> –nam </quote>
+                                </cit>, <cit type="translation" xml:lang="la">
+                                    <quote> tandem </quote>
+                                </cit> (germanicum: <note>wohl</note>, <note>denn</note>) denotat, et levem vel dubitationem vel intentionem interrogationi immiscet: <foreign xml:lang="gez">መኑመ፡ አንተ፡</foreign> <ref cRef="Joh." loc="1,21">Joh. 1,21</ref>; <ref cRef="Joh." loc="1,22">Joh. 1,22</ref> <lbl expand="romanae editionis">rom.</lbl>; <ref cRef="Gen." loc="27,33">Gen. 27,33</ref>; <foreign xml:lang="gez">ምንትኑመ፡</foreign> <ref cRef="Jac." loc="4,14">Jac. 4,14</ref> Platt; <ref cRef="1 Petr." loc="2,20">1 Petr. 2,20</ref> Platt; <ref cRef="Matth." loc="11,8">Matth. 11,8</ref>; <ref cRef="Matth." loc="11,9">Matth. 11,9</ref>; <foreign xml:lang="gez">ምንተኑመ፡</foreign> <ref cRef="Luc." loc="7,25">Luc. 7,25</ref>; <ref cRef="Marc." loc="10,3">Marc. 10,3</ref>; <foreign xml:lang="gez">በምንትኑመ፡</foreign> <ref cRef="Job" loc="22,10">Job 22,10</ref>; <foreign xml:lang="gez">አይቴኑመ፡</foreign> <ref cRef="Luc." loc="8,25">Luc. 8,25</ref> <lbl expand="romanae editionis">rom.</lbl>; <ref cRef="Jer." loc="17,15">Jer. 17,15</ref> (ubi unus codicum a me inspectus <foreign xml:lang="gez">አይቴኑማ፡</foreign> praebet); <foreign xml:lang="gez">አይቴመ፡</foreign> <ref cRef="Hez." loc="13,12">Hez. 13,12</ref>; <foreign xml:lang="gez">እፎመ፡</foreign> <ref cRef="Kuf." loc="35">Kuf. 35</ref>; <ref cRef="Job" loc="11,5">Job 11,5</ref>; <ref cRef="Sap." loc="11,26">Sap. 11,26</ref>; <ref cRef="Sap." loc="13,9">Sap. 13,9</ref>; <ref cRef="Ex. " loc="2,18">Ex.  2,18</ref>; <ref cRef="Job" loc="7,45">Job 7,45</ref>; <foreign xml:lang="gez">እፎኑመ፡</foreign> <ref cRef="Rom." loc="3,6">Rom. 3,6</ref>; <ref cRef="Rom." loc="4,3">Rom. 4,3</ref>; <foreign xml:lang="gez">ማእዜኑመ፡</foreign> <ref cRef="Gen." loc="30,30">Gen. 30,30</ref>; <foreign xml:lang="gez">ዝኑመ፡</foreign> <ref cRef="Kuf." loc="134.">Kuf. p. 134.</ref> – Rarius, ut: <foreign xml:lang="gez">ምስለ፡ ብዙኅ፡ ምሕረት፡ ታሄልወነ፡ ወማእዜመ፡ እመ፡</foreign> (<foreign xml:lang="grc">ὅταν</foreign>, <cit type="translation" xml:lang="la">
+                                    <quote> quandocumque </quote>
+                                </cit>) <foreign xml:lang="gez">ፈቀድከ፡ እስመ፡ ክሂል፡ ሀሎ፡ ኀቤከ፡</foreign> <ref cRef="Sap." loc="12,18">Sap. 12,18</ref>.</sense> <sense n="b" xml:id="D2b"> Pronominibus personalibus subjuncta distinctionis vim auget, et <cit type="translation" xml:lang="la">
+                                    <quote> –dem </quote>
+                                </cit>, <cit type="translation" xml:lang="la">
+                                    <quote> –met </quote>
+                                </cit>, <cit type="translation" xml:lang="la">
+                                    <quote> ipse </quote>
+                                </cit> significat, ut <ref cRef="Jud." loc="9,48">Jud. 9,48</ref> F; <cit type="translation" xml:lang="la">
+                                    <quote> Jesus Christus heri et hodie </quote>
+                                </cit> <foreign xml:lang="gez">ወውእቱመ፡ እስከ፡ ለዓለም፡</foreign> <cit type="translation" xml:lang="la">
+                                    <quote> et idem in aeternum </quote>
+                                </cit> Cyr. ad <ref cRef="Theod." loc="23">Theod. f. 23</ref>; <foreign xml:lang="grc">ὁ Λόγος</foreign> <cit type="translation" xml:lang="la">
+                                    <quote> non mutatur </quote>
+                                </cit>: <foreign xml:lang="gez">አላ፡ ለዝላፉ፡ ውእቱመ፡ ይሄሉ፡</foreign> Cyr. ad <ref cRef="Theod." loc="15">Theod. f. 15</ref>; <foreign xml:lang="gez">ከማሁመ፡</foreign> <ref cRef="Hen." loc="23,2">Hen. 23,2</ref>; <foreign xml:lang="gez">ወመንፈስ፡ ቅዱስ፡ ከማሁመ፡ ውእቱ፡</foreign> <cit type="translation" xml:lang="la">
+                                    <quote> et Sp. S. itidem se habet </quote>
+                                </cit> Org.</sense> <sense n="c" xml:id="D2c"> Cuilibet enunciationis verbo annecti potest, quo restringatur et ita distinguatur, ut ante caetera emineat; significat <cit type="translation" xml:lang="la">
+                                    <quote> quidem </quote>
+                                </cit>, <cit type="translation" xml:lang="la">
+                                    <quote> certe </quote>
+                                </cit>, <cit type="translation" xml:lang="la">
+                                    <quote> tantum </quote>
+                                </cit>, <cit type="translation" xml:lang="la">
+                                    <quote> etiam </quote>
+                                </cit> et alia hujus generis particulas, nec non in nostris linguis intentione vocis exprimi potest: <foreign xml:lang="gez">ዝንቱመ፡</foreign> <foreign xml:lang="grc">τοῦτό γε</foreign> Cyr. ad <ref cRef="Theod." loc="15">Theod. f. 15</ref>; <foreign xml:lang="gez">እመሰ፡ በዛቲመ፡ ምክንያት፡ ተሠገወ፡</foreign> <cit type="translation" xml:lang="la">
+                                    <quote> si ob hanc tantum causam </quote>
+                                </cit> (nec ob aliam)<cit type="translation" xml:lang="la">
+                                    <quote> incarnatus est </quote>
+                                </cit> Cyr. ad <ref cRef="Theod." loc="13">Theod. f. 13</ref>; <foreign xml:lang="gez">አኮመ፡</foreign> <cit type="translation" xml:lang="la">
+                                    <quote> nequaquam </quote>
+                                </cit> Cyr. ad <ref cRef="Reg." loc="29">Reg. f. 29</ref>; <foreign xml:lang="gez">አይድዑኒ፡ እስኩመ፡</foreign> <cit type="translation" xml:lang="la">
+                                    <quote> quaeso tandem </quote>
+                                </cit> <ref cRef="Jsp. " loc="372">Jsp.  p. 372</ref>; <foreign xml:lang="gez">ራብዕመ፡</foreign> <cit type="translation" xml:lang="la">
+                                    <quote> vel quartus </quote>
+                                </cit> <ref cRef="Job" loc="1,18">Job 1,18</ref>; <foreign xml:lang="gez">በእንተ፡ ዓለማውያንመ፡ ይቤ፡ እግዚእነ፡</foreign> <cit type="translation" xml:lang="la">
+                                    <quote> de saecularibus quidem ait </quote>
+                                </cit> <ref cRef="Phlx." loc="3">Phlx. 3</ref>; <foreign xml:lang="gez">ወይእዜሰኬመ፡ ጻድቅ፡ ኢይትረከብ፡ ዲበ፡ ምድር፡</foreign> <cit type="translation" xml:lang="la">
+                                    <quote> nunc autem certe </quote>
+                                </cit> (<lbl expand="oppositum, -o, -nitur">opp.</lbl> aevo priore) <ref cRef="Phlx. " loc="228.">Phlx.  228.</ref> Singuli auctores hac particula admodum delectantur, ut interpretes <cit type="translation" xml:lang="la">
+                                    <quote> Cyrilli </quote>
+                                </cit>, <cit type="translation" xml:lang="la">
+                                    <quote> Chrysostomi </quote>
+                                </cit>, <cit type="translation" xml:lang="la">
+                                    <quote> Philexii </quote>
+                                </cit>, auctores <cit type="translation" xml:lang="la">
+                                    <quote> Antiphonarum </quote>
+                                </cit>, al.</sense> </sense> </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

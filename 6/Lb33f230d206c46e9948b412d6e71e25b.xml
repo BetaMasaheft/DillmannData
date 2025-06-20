@@ -1,0 +1,125 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ነገፈ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="LB" when="2018-03-16">root</change>
+        <change who="MK" when="2018-08-20">corr</change>
+            <change who="MK" when="2018-08-20">new meaning </change>
+            <change who="MK" when="2018-08-21">added new meaning, to be peer-reviewed</change>
+            <change who="MK" when="2018-08-21">corr</change>
+            <change who="MK" when="2018-08-22">corr</change>
+            <change who="MK" when="2018-08-29">added dots</change>
+            <change who="MK" when="2018-08-30">corr</change>
+        </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="Lb33f230d206c46e9948b412d6e71e25b" n="5234">
+               <form>
+                  <foreign xml:lang="gez">ነገፈ</foreign>
+               <rs type="root"/>
+                    </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain"> <subc>I,1</subc> [<foreign xml:lang="he">נִקַּף</foreign> <cit type="translation" xml:lang="la">
+                            <quote> decussit </quote>
+                        </cit> <foreign xml:lang="he">נֹקֶף</foreign> <cit type="translation" xml:lang="la">
+                            <quote> decussio </quote>
+                        </cit>, <foreign xml:lang="he">נָגַף</foreign> <foreign xml:lang="ar">نَقَفَ</foreign> <cit type="translation" xml:lang="la">
+                            <quote> percussit </quote>
+                        </cit>; in lingua Amh. usitatur <foreign xml:lang="gez">አረገፈ፡</foreign> <cit type="translation" xml:lang="la">
+                            <quote> to beat out </quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                            <quote> to shake off </quote>
+                        </cit>, <ref cRef="Isenb." loc="49">Isenb. p. 49</ref>] <gramGrp> <pos expand="Subjunctivus">Subj.</pos> </gramGrp> <foreign xml:lang="gez">ይንግፍ፡</foreign> <sense n="1" xml:id="D1"> <cit type="translation" xml:lang="la">
+                                <quote> excutere </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> decutere </quote>
+                            </cit>, pulverem <ref cRef="Matth." loc="10,14">Matth. 10,14</ref>; <ref cRef="Marc." loc="6,11">Marc. 6,11</ref>; <ref cRef="Luc." loc="9,10">Luc. 9,10</ref>; <ref cRef="Act. " loc="13,51">Act.  13,51</ref>; vestem: <foreign xml:lang="gez">ነገፍኩ፡ ጽንፈ፡ ልብስየ፡</foreign> et <foreign xml:lang="gez">ከመዝ፡ ለይንግፎ፡ እግዚአብሔር፡ ለኵሉ፡ ብእሲ፡</foreign> <ref cRef="2 Esr." loc="15,13">2 Esr. 15,13</ref>; <ref cRef="Act." loc="18,6">Act. 18,6</ref>; <foreign xml:lang="gez">ይንግፍ፡ አልባሲሁ፡ ወጸበለ፡ አሣእነ፡ እገሪሁ፡</foreign> F.M. 12,2; manum <ref cRef="Act." loc="28,5">Act. 28,5</ref> Platt; <foreign xml:lang="gez">ኵሉ፡ ዘቀተሎ፡ ነገፈ፡ እዴሁ፡</foreign> <ref cRef="Sir. " loc="22,2">Sir.  22,2</ref>; folia arboris: (quicumque eam praeterit) <foreign xml:lang="gez">ይነግፍ፡ ቈጽላ፡</foreign> <ref cRef="Fal." loc="64">Fal. f. 64</ref>; vitam <ref cRef="4 Esr." loc="14,10">4 Esr. 14,10</ref>. <sense n="a" xml:id="D1a"> <lbl expand="translate">transl.</lbl>: <foreign xml:lang="gez">ነገፎሙ፡ ለግብጽ፡ ማእከለ፡ ባሕር፡</foreign> <ref cRef="Ex." loc="14,27">Ex. 14,27</ref>; <ref cRef="2 Esr. " loc="15,13">2 Esr.  15,13</ref>.</sense> <sense n="b" xml:id="D1b"> <lbl expand="sequens">seq.</lbl> <foreign xml:lang="gez">ላሐ፡</foreign> <cit type="translation" xml:lang="la">
+                                    <quote> deponere luctum </quote>
+                                </cit>, <cit type="translation" xml:lang="la">
+                                    <quote> se consolari </quote>
+                                </cit>, <cit type="translation" xml:lang="la">
+                                    <quote> consolationem admittere </quote>
+                                </cit>, <foreign xml:lang="grc">παρακαλεῖσθαι</foreign>, <ref cRef="Gen." loc="37,35">Gen. 37,35</ref>; <foreign xml:lang="gez">ነጊፎ፡ ላሐ፡</foreign> <ref cRef="Gen." loc="38,12">Gen. 38,12</ref>; <foreign xml:lang="gez">ንግፍ፡ ላሐከ፡</foreign> <ref cRef="Sir." loc="38,17">Sir. 38,17</ref>; <ref cRef="Sir." loc="38,23">Sir. 38,23</ref>; <ref cRef="Jer." loc="38,15">Jer. 38,15</ref>; omisso <foreign xml:lang="gez">ላሐ፡</foreign> <ref cRef="Kuf. " loc="124.">Kuf.  p. 124.</ref> </sense> <sense n="2" xml:id="D12"> <cit type="translation" xml:lang="la">
+                                    <quote> dejicere </quote>
+                                </cit>, de arbore cujus folia decidunt: <foreign xml:lang="gez">ዕፀ፡ ጠርቤንቶስ፡ እንተ፡ ነገፈት፡ ቈጽላ፡</foreign> <ref cRef="Jes." loc="1,30">Jes. 1,30</ref>.</sense> </sense> </sense>
+               
+            <sense xml:lang="en" source="#traces" xml:id="Tmain"> <sense n="3" xml:id="T3"> <cit type="transcription" xml:lang="gez">
+                                <quote>nagafa</quote>
+                            </cit> <pos expand="not found">v.</pos> <cit type="translation" xml:lang="en">
+                                <quote>fall</quote>
+                            </cit>, ‘<cit type="translation" xml:lang="it">
+                                <quote>cadere</quote>
+                            </cit>’ <foreign xml:lang="gez">ወይቤላ፡ ለቅንፍዝ፡ ይንግፍ፡ ጸጕርኪ፡ በኀይለ፡ አምላኪየ፡ ወሶበ፡ ይቤ፡ ከመዝ፡ ነገፈ፡ ጸጕራ፡ ወኮነት፡ ዕራቃ።</foreign> ‘<cit type="translation" xml:lang="it">
+                                <quote>e disse all’istrice: «Ti cadano i peli, per la potenza del mio Dio!» E cuando gli ebbe detto questo gli caddero i peli, e rimase nudo</quote>
+                            </cit>’ <bibl>
+                                <ptr target="bm:Marrassini2003GabraManfasQeddusTextus"/>
+                                <citedRange unit="page"> 303 (ed.)</citedRange>
+                            </bibl>, <bibl>
+                                <ptr target="bm:Marrassini2003GabraManfasQeddusVersio"/>
+                                <citedRange unit="page"> 106 (tr.)</citedRange>
+                            </bibl> (‘Nuovo significato di <foreign xml:lang="gez">ነገፈ፡</foreign> nel senso di «cadere» (altrimenti «scuotere», «perdere» (foglie), <bibl>
+                                <ptr target="bm:Dillmann1865Lexicon"/>
+                                <citedRange unit="page"> 65</citedRange>
+                            </bibl> e <bibl>
+                                <ptr target="bm:Leslau1987dic"/>
+                                <citedRange unit="page"> 391</citedRange>
+                            </bibl>.’ <bibl>
+                                <ptr target="bm:Marrassini2003GabraManfasQeddusVersio"/>
+                                <citedRange unit="page"> 106 n. 35 </citedRange>
+                            </bibl>) </sense>
+                    </sense>
+                </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

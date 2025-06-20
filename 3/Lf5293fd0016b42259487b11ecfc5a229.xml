@@ -1,0 +1,87 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ገመደ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="LB" when="2018-05-04">root</change>
+        </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="Lf5293fd0016b42259487b11ecfc5a229" n="8334">
+               <form>
+                  <foreign xml:lang="gez">ገመደ</foreign>
+               <rs type="root"/>
+                    </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain"> <subc>I,1</subc> [<foreign xml:lang="ar">جَمَدَ</foreign>; vicinum <foreign xml:lang="gez">ገዘመ፡</foreign>] <gramGrp> <pos expand="Subjunctivus">Subj.</pos> </gramGrp> <foreign xml:lang="gez">ይግምድ፡</foreign> <sense n="1" xml:id="D1"> <cit type="translation" xml:lang="la">
+                                <quote> secare </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> amputare </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> abscidere </quote>
+                            </cit>: <foreign xml:lang="gez">ዘእንበለ፡ ይግምድዎ፡</foreign> <ref cRef="Job" loc="8,12">Job 8,12</ref>; <ref cRef="Jes." loc="38,12">Jes. 38,12</ref> <lbl expand="varia lectio">var.</lbl>; <ref cRef="Num." loc="13,23">Num. 13,23</ref>; <ref cRef="Joh." loc="15,2">Joh. 15,2</ref> <lbl expand="romanae editionis">rom.</lbl> <sense n="a" xml:id="D1a"> <cit type="translation" xml:lang="la">
+                                    <quote> putare </quote>
+                                </cit> vites: <ref cRef="Lev." loc="25,3">Lev. 25,3</ref>; <ref cRef="Lev." loc="25,4">Lev. 25,4</ref>; <foreign xml:lang="gez">ጊዜ፡ ገሚድ፡ በጽሐ፡</foreign> <ref cRef="Cant." loc="2,12">Cant. 2,12</ref>; Deg.; <ref cRef="Jes." loc="5,6">Jes. 5,6</ref>.</sense> <sense n="b" xml:id="D1b"> <cit type="translation" xml:lang="la">
+                                    <quote> demetere </quote>
+                                </cit>, <cit type="translation" xml:lang="la">
+                                    <quote> decerpere </quote>
+                                </cit>, fruges: <foreign xml:lang="gez">ኢገመዱ፡ ፍሬ፡ በረከት፡</foreign> <ref cRef="Chrys. ho." loc="26">Chrys. ho. 26</ref>; uvas: <foreign xml:lang="gez">ይገምዱ፡ አስካለ፡</foreign> <ref cRef="Jes." loc="18,5">Jes. 18,5</ref>.</sense> <sense n="2" xml:id="D12"> <cit type="translation" xml:lang="la">
+                                    <quote> caedere </quote>
+                                </cit>, ligna: <foreign xml:lang="gez">ገመደ፡ ጾረ፡ ዕፀው፡</foreign> <ref cRef="Jud. " loc="9,48">Jud.  9,48</ref>; de gladio: <foreign xml:lang="gez">እስከ፡ ማእዜኑ፡ ትገምዲ፡ መጥባሕት፡</foreign> <foreign xml:lang="grc">κόψεις</foreign> <ref cRef="Jer." loc="29,6">Jer. 29,6</ref>.</sense> <sense n="3" xml:id="D13"> <cit type="translation" xml:lang="la">
+                                    <quote> dissecare </quote>
+                                </cit>: <ref cRef="Lev." loc="1,8">Lev. 1,8</ref>; <foreign xml:lang="gez">ገመዱ፡ መሌሊቶሙ፡ ከመ፡ ሥጋ፡ ውስተ፡ጽህርት፡</foreign> <ref cRef="Mich." loc="3,3">Mich. 3,3</ref>; <ref cRef="Joh." loc="19,24">Joh. 19,24</ref>. – Scholion <lbl expand="Vocabularium Aethiopicum, -a -a">Voc. Ae.</lbl>: vide sub <foreign xml:lang="gez">መተረ፡</foreign>, aliud: <foreign xml:lang="gez">ገሚድ፡ ዘ፡ መቅረጽ።</foreign> <cb n="1150" xml:id="c1150"/> </sense> </sense> </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

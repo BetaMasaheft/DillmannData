@@ -1,0 +1,77 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ሐበለ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="LB" when="2018-01-29">root</change>
+        <change who="MK" when="2023-02-07">added Gr and Les</change></revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="Lcc129b1d8ab6470e9274b3ca30aa75c0" n="740">
+               <form>
+                  <foreign xml:lang="gez">ሐበለ</foreign>
+               <rs type="root"/>
+                    </form>
+               <sense xml:id="Dmain" xml:lang="la" source="#dillmann"> <subc>I,1</subc> [<foreign xml:lang="he">חָבַל</foreign> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> funem adstrinxit, ligavit; pignore obligavit; perverse egit </t:quote></cit>; eas quae huic vicinae sunt radices, <lbl expand="videas">vid.</lbl> in Ges. thes. p. 438; <foreign xml:lang="ar">حَبَلَ</foreign> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> laqueo cepit </t:quote></cit> feram; <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> fune strinxit </t:quote></cit>; <foreign xml:lang="ar">خَبَلَ</foreign> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> ligavit </t:quote></cit>] <sense n="1" xml:id="D1"> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> ligare </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> religare </t:quote></cit> vel <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> torquere </t:quote></cit> comam <foreign xml:lang="gez">እምሐብሎታ፡</foreign> (<foreign xml:lang="gez">ለዮዲት፡</foreign>) <foreign xml:lang="gez">አኀዞሙ፡ ለሜዶን፡ ምምዓ፤ ወፋርስኒ፡ ደንገፁ፡ እምቅብዓ፡</foreign> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> tortis crinibus </t:quote></cit> <ref cRef="Sx. Masc." loc="10 ">Sx. Masc. 10 </ref>Enc. (<lbl expand="videas">vid.</lbl> <foreign xml:lang="gez">ሐብላት፡</foreign>).
+</sense> <sense n="2" xml:id="D2"> laqueos tendere alicui i.e. <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> dolum intendere </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> dolo capere </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> insidiari </t:quote></cit>: <foreign xml:lang="gez">አኮ፡ ሠናይ፡ ለመኳንንተ፡ ጽድቅ፡ ሐቢል፡</foreign> <foreign xml:lang="grc">ἐπιβουλεύειν</foreign> <ref cRef="Prov." loc="17,26">Prov. 17,26</ref>; <lbl expand="cum">c.</lbl> <gramGrp> <case value="accusativus">Acc.</case> </gramGrp>, ut: <foreign xml:lang="gez">የሐብሉ፡ አዕርክቲሆሙ፡</foreign> <foreign xml:lang="grc">ἐνεδρεύειν</foreign> <ref cRef="Prov." loc="26,19">Prov. 26,19</ref>.
+</sense> <sense n="3" xml:id="D3"> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> prave agere </t:quote></cit> in aliquem, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> perverse uti </t:quote></cit>: <foreign xml:lang="gez">ብእሲ፡ እኩይ፡ የሐብል፡ አዕርክተ፡</foreign> <foreign xml:lang="grc">ἀποπειρᾶται φίλων</foreign> <ref cRef="Prov." loc="16,29">Prov. 16,29</ref> (<lbl expand="videas">vid.</lbl> <foreign xml:lang="gez">ሕብል፡</foreign> et <foreign xml:lang="gez">ሕቡል፡</foreign>).
+</sense> </sense>
+               
+            <sense xml:id="Tmain" xml:lang="en" source="#traces"><cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">ḥabala</t:quote></cit> <sense n="G"> <foreign xml:lang="gez">ሐበለ፡</foreign> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">ḥabala</t:quote></cit> <subc>I,1</subc> <foreign xml:lang="gez">የሐብል፡</foreign>, <foreign xml:lang="gez">ይሕበል፡</foreign> «<cit type="translation" xml:lang="fr"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">tromper</t:quote></cit>, <cit type="translation" xml:lang="fr"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">ruser</t:quote></cit>» ― <foreign xml:lang="am">አበለ፡</foreign> Ms. <ref type="BM" target="BNFabb217">BNFabb217</ref>, fol. 24v. <lb/>
+ <bibl><ptr target="bm:Grebaut1952SuppLexicon"/><citedRange unit="page"> 50</citedRange></bibl> 
+</sense> <sense n="L"> <foreign xml:lang="gez">ሐበለ</foreign> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">ḥabala</t:quote></cit>, <foreign xml:lang="gez">ሐብለ፡</foreign> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">ḥabla</t:quote></cit> (yǝḥbǝl, yǝḥbal) <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">act craftily</t:quote></cit>, <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">deceive</t:quote></cit>, <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">tell a lie</t:quote></cit>, <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">use guile</t:quote></cit>, <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">plot</t:quote></cit>, <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">lie in wait</t:quote></cit>, <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">ensnare</t:quote></cit>, (<bibl><ptr target="bm:AlaqaTayya1965MSawasew"/></bibl>) <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">be dissolute</t:quote></cit>, <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">be lustful</t:quote></cit> <bibl><ptr target="bm:Leslau1987dic"/><citedRange unit="page"> 223b</citedRange></bibl> 
+</sense> </sense></entry>
+         </div>
+      </body>
+   </text>
+</TEI>

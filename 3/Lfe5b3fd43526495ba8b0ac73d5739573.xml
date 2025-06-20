@@ -1,0 +1,113 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ጕዕትያ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="LB" when="2018-05-04">root</change>
+            <change who="MK" when="2018-10-22">added new meaning</change>
+            <change who="MK" when="2018-10-22">added new meaning, to be peer-reviewed</change>
+            <change who="MK" when="2018-10-22">corr</change>
+            <change who="MK" when="2018-10-22">corr</change>
+            <change who="MK" when="2018-10-22">corr</change>
+            <change who="MK" when="2018-11-02">corr</change>
+        </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="Lfe5b3fd43526495ba8b0ac73d5739573" n="8568">
+               <form>
+                  <foreign xml:lang="gez">ጕዕትያ</foreign>
+               <rs type="root"/>
+                    </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain"> <gramGrp> <pos expand="Substantivum">subst.</pos> </gramGrp>, ni fallor, <gramGrp> <pos expand="not found">peregr.</pos> </gramGrp> <lbl expand="scilicet">sc.</lbl> <foreign xml:lang="grc">γοητεία</foreign> <sense n="1" xml:id="D1"> <cit type="translation" xml:lang="la">
+                                <quote> praestigia </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> artes magicae </quote>
+                            </cit>: <foreign xml:lang="gez">በከመ፡ ሰርሐ፡ በሥራያቲሁ፡ ወበብዝኀ፡ ጕዕትያሁ፡</foreign> (de mago quodam) <ref cRef="Clem." loc="252.">Clem. f. 252.</ref> </sense> <sense n="2" xml:id="D2"> <cit type="translation" xml:lang="la">
+                                <quote> vanitas </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> inanitas </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> fallacia </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> frustratio </quote>
+                            </cit>: <foreign xml:lang="gez">ስብሐቶሙ፡ ኢኮነ፡ ከመ፡ ስብሐተ፡ ዝንቱ፡ ዓለም፡ ኀላፊ፡ በጕዕትያ፡ እለ፡ ይነብሩ፡</foreign> <ref cRef="Clem." loc="280">Clem. f. 280</ref>; <foreign xml:lang="gez">እምድኅረ፡ ብዙኅ፡ ጕዕትያ፡</foreign> <ref cRef="Phlx. " loc="14">Phlx.  14</ref>; Adam panem suum comedebat <foreign xml:lang="gez">በሀፍ፡ በጕዕትያ፡ ወጻማ፡</foreign> <ref cRef="Macc." loc="11">Macc. f. 11</ref>; <foreign xml:lang="gez">በፈቃደ፡ እግዚአብሔር፡ ተውህበ፡ ኵሉ፡ መንግሥተ፡ ዓለም፡ ለዘርአ፡ ሴም፡ ወግብርናት፡ ለዘርአ፡ ካም፡ ወጕዕትያ፡ ለዘርአ፡ ያፌት፡</foreign> <ref cRef="Kebr. Nag." loc="73.">Kebr. Nag. 73.</ref> <cb n="1187" xml:id="c1187"/> </sense> </sense>
+               
+            <sense xml:lang="en" source="#traces" xml:id="Tmain">
+                        <cit type="transcription" xml:lang="gez">
+                            <quote>gʷǝʿtǝyā</quote>
+                        </cit> <cit type="translation" xml:lang="en">
+                            <quote>fatigue</quote>
+                        </cit>, <cit type="translation" xml:lang="en">
+                            <quote>tiredness</quote>
+                        </cit>, ‘<cit type="translation" xml:lang="fr">
+                            <quote>fatigue</quote>
+                        </cit>’ <foreign xml:lang="gez">ወተሐረምክሙ፡ ከመ፡ ትሖሩ፡ በፍኖተ፡ ጸባብ፡ በረኃብ፡ ወበጽምእ፡ በሐፍ፡ ወበድካም፡ በቍር፡ ወበዕርቃን፡ በጕዕትያ፡ ወበአባር፡ ወኃጢአ፡ እክል፡ ወበኵሉ፡ ምንዳቤ፡ ወዓፀባ፡ ዘይበጽሖሙ፡ ለአግብርተ፡ እግዚአብሔር፡</foreign> ‘<cit type="translation" xml:lang="fr">
+                            <quote>Vous avez fait des vœux, afin d’aller dans la voie étroite, la faim, la soif, la chaleur, l’épuisement, le froid, la nudité, la fatigue, la sécheresse, la manque de nourriture, et dans toute détresse et difficulté qui arrive aux serviteurs de Dieu</quote>
+                        </cit>’ <bibl>
+                            <ptr target="bm:Beylot1976NabyudTextus"/>
+                            <citedRange unit="page"> 18 l. 14-17 (ed.)</citedRange>
+                        </bibl>, <bibl>
+                            <ptr target="bm:Beylot1976NabyudVersio"/>
+                            <citedRange unit="page"> 16 (tr.)</citedRange>
+                        </bibl> (‘Sens de <foreign xml:lang="gez">ጕዕትያ፡</foreign> indiqué par <bibl>
+                            <ptr target="bm:daMag1953"/>
+                            <citedRange unit="page"> 522</citedRange>
+                        </bibl>.’ <bibl>
+                            <ptr target="bm:Beylot1976NabyudVersio"/>
+                            <citedRange unit="page"> 16 n 80</citedRange>
+                        </bibl>) </sense>
+                </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,126 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ባሕቲት </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="AE" when="2018-08-07">Verschachtelung,</change>
+        </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="La320bde8c90b4a769a9826eafc8004e2" n="3839">
+               <form>
+                  <foreign xml:lang="gez">ባሕቲት</foreign>
+               </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain"> <gramGrp> <pos expand="Substantivum">subst.</pos> </gramGrp>, proprie <cit type="translation" xml:lang="la">
+                            <quote> solitudo </quote>
+                        </cit>, cum affixis pronominibus <lbl expand="persona">pers.</lbl> usurpatur, et circumscribendis adjectivis vel adverbiis aliarum linguarum inservit (sicut <foreign xml:lang="he">לְבַד</foreign> <foreign xml:lang="syr">ܒܰܠܚܽܘܕ</foreign> <foreign xml:lang="ar">وَحْدٌ</foreign>; <bibl>
+                            <ptr target="bm:Dillmann1857Gramm"/>gramm.</bibl> § 157,2; <bibl>
+                            <ptr target="bm:Dillmann1857Gramm"/>gramm.</bibl> § 163,2). <sense n="1" xml:id="D1"> Subjunctis pronominibus suff. omnium personarum (nota formas quasdam anomalas <ref cRef="Ex." loc="36,12">Ex. 36,12</ref> annot.) <sense n="a" xml:id="D1a"> <cit type="translation" xml:lang="la">
+                                    <quote> solus </quote>
+                                </cit> (et unicus, et solitarius); non de personis tantum usurpatur sed etiam de rebus, ut <ref cRef="Gen." loc="34,22">Gen. 34,22</ref>; <ref cRef="Gen." loc="47,26">Gen. 47,26</ref>; <ref cRef="Ex." loc="22,26">Ex. 22,26</ref>; (nihil edebat) <foreign xml:lang="gez">ዘእንበለ፡ በቀዳሚት፡ ሰንበት፡ ወበዕለት፡ እሑድ፡ ባሕቲቶሙ፡</foreign> <ref cRef="Sx. Mag." loc="5">Sx. Mag. 5</ref>; <foreign xml:lang="gez">ወአኮ፡ ለአፅምዖ፡ ባሕቲቱ፡</foreign> <ref cRef="Jac." loc="1,22">Jac. 1,22</ref>; explere potest vicem subjecti: <foreign xml:lang="gez">ባሕቲትከኑ፡ መልአክ፡ አንተ፡</foreign> <foreign xml:lang="grc">σὺ μόνος εἶ ἄρχων</foreign>; <ref cRef="Jes." loc="10,8">Jes. 10,8</ref>; praedicati: <foreign xml:lang="gez">ሶበ፡ ይሄልዉ፡ ባሕቲቶሙ፡</foreign> <ref cRef="Asc. Jes." loc="11,8">Asc. Jes. 11,8</ref>; appositionis (id quod longe frequentissimum est): <foreign xml:lang="gez">ኖኅ፡ ባሕቲቱ፡</foreign> <ref cRef="Kuf." loc="5">Kuf. 5</ref>; <foreign xml:lang="gez">እግዚአብሔር፡ ባሕቲቱ፡ ጻድቅ፡</foreign> <ref cRef="Sir." loc="18,2">Sir. 18,2</ref>; <ref cRef="Jos." loc="22,20">Jos. 22,20</ref>; <foreign xml:lang="gez">አነ፡ ባሕቲትየ፡</foreign> <ref cRef="Job" loc="1,15">Job 1,15</ref>; <ref cRef="Jes." loc="49,21">Jes. 49,21</ref>; <ref cRef="Tob." loc="6,15">Tob. 6,15</ref>; <foreign xml:lang="gez">ምንተ፡ በጻሕከ፡ ባሕቲትከ፡</foreign> <ref cRef="1 Reg." loc="21,1">1 Reg. 21,1</ref>; <ref cRef="Judae" loc="4">Judae 4</ref>; <foreign xml:lang="gez">እፎ፡ ነበረት፡ ባሕቲታ፡ ሀገር፡</foreign> <ref cRef="Thren." loc="1,1">Thren. 1,1</ref>; <foreign xml:lang="gez">ባሕቲትየ፡ እነብር፡</foreign> <foreign xml:lang="grc">καταμόνας</foreign> <ref cRef="Jer." loc="15,17">Jer. 15,17</ref>; <foreign xml:lang="gez">ባሕቲቶሙ፡ ይነብሩ፡</foreign> <ref cRef="Sir." loc="30,9">Sir. 30,9</ref>; <foreign xml:lang="gez">ወትተርፍ፡ ባሕቲታ፡ ምድሮሙ፡ በድወ፡</foreign> <ref cRef="Jes." loc="6,11">Jes. 6,11</ref>, nonnumquam in <gramGrp> <case value="accusativus">Acc.</case> </gramGrp>, ut: <foreign xml:lang="gez">እንዘ፡ ናንሶሱ፡ ባሕቲተነ፡</foreign> (v. <foreign xml:lang="gez">ባሕቲትነ፡</foreign>) <ref cRef="Dan. apocr." loc="1,36">Dan. apocr. 1,36</ref>; <foreign xml:lang="gez">ለከ፡ ለባሕቲትከ፡</foreign> <ref cRef="Ps." loc="50,5">Ps. 50,5</ref>; <foreign xml:lang="gez">ኪያሁ፡ ባሕቲቶ፡</foreign> <ref cRef="Matth." loc="4,10">Matth. 4,10</ref>; <ref cRef="Matth." loc="10,42">Matth. 10,42</ref>; cuivis st. constructo subjungere licet: <foreign xml:lang="gez">በፈቃደ፡ ባሕቲቱ፡</foreign> <cit type="translation" xml:lang="la">
+                                    <quote> sua solius voluntate </quote>
+                                </cit> F.N. 6; <foreign xml:lang="gez">አኮ፡ በእንተ፡ ባሕቲቶሙ፡ ዘእብል፡</foreign> (Platt: <foreign xml:lang="gez">በእንተ፡ እሉ፡ ባሕቲቶሙ፡</foreign>) <ref cRef="Joh." loc="17,20">Joh. 17,20</ref> <lbl expand="romanae editionis">rom.</lbl>; <ref cRef="Rom. " loc="4,23">Rom.  4,23</ref>; <foreign xml:lang="gez">አኮ፡ ለባሕቲትየ፡ ዘጻመውኩ፡</foreign> <foreign xml:lang="grc">οὐκ ἐμοὶ μόνῳ</foreign> <ref cRef="Sir." loc="24,34">Sir. 24,34</ref>; <ref cRef="Rom." loc="3,29">Rom. 3,29</ref>.</sense> <sense n="b" xml:id="D1b"> praefixis praepositionibus <sense n="α" xml:id="D1bα"> <foreign xml:lang="gez">በ፡</foreign> <cit type="translation" xml:lang="la">
+                                        <quote> seorsum </quote>
+                                    </cit>, <cit type="translation" xml:lang="la">
+                                        <quote> solitarie </quote>
+                                    </cit> (secum, sine arbitris): <foreign xml:lang="gez">በባሕቲቶሙ፡</foreign> <foreign xml:lang="grc">καθ᾽ ἑαυτούς</foreign> <ref cRef="Zach." loc="12,12">Zach. 12,12</ref> <lbl expand="sequens">seq.</lbl>; <foreign xml:lang="gez">ሠሐቀት፡ በባሕቲታ፡</foreign> <foreign xml:lang="grc">ἐν ἑαυτῇ</foreign> <ref cRef="Gen." loc="18,12">Gen. 18,12</ref>; <cb n="0497" xml:id="c0497"/> <foreign xml:lang="gez">በባሕቲቶሙ፡ ተስእልዎ፡</foreign> <cit type="translation" xml:lang="la">
+                                        <quote> quum soli </quote>
+                                    </cit> (cum eo) <cit type="translation" xml:lang="la">
+                                        <quote> essent </quote>
+                                    </cit>, <cit type="translation" xml:lang="la">
+                                        <quote> interrogarunt </quote>
+                                    </cit> <ref cRef="Marc." loc="4,10">Marc. 4,10</ref>; <ref cRef="Matth." loc="18,15">Matth. 18,15</ref>.</sense> <sense n="β" xml:id="D1bβ"> <foreign xml:lang="gez">እንተ፡</foreign> <cit type="translation" xml:lang="la">
+                                        <quote> seorsum </quote>
+                                    </cit>, <cit type="translation" xml:lang="la">
+                                        <quote> separatim </quote>
+                                    </cit>: <foreign xml:lang="gez">አቀሞን፡ እንተ፡ ባሕቲቶን፡</foreign> <ref cRef="Gen." loc="21,28">Gen. 21,28</ref>; <ref cRef="Gen. " loc="21,29">Gen.  21,29</ref>; <ref cRef="Gen." loc="32,17">Gen. 32,17</ref>; <ref cRef="Gen." loc="43,32">Gen. 43,32</ref>; <ref cRef="Ex." loc="29,26">Ex. 29,26</ref>; <ref cRef="Ex." loc="36,12">Ex. 36,12</ref>; <ref cRef="Jud." loc="7,5">Jud. 7,5</ref>; <ref cRef="3 Reg." loc="18,6">3 Reg. 18,6</ref>; <ref cRef="Matth." loc="17,1">Matth. 17,1</ref>; <ref cRef="Matth." loc="17,19">Matth. 17,19</ref>.</sense> </sense> <sense n="c" xml:id="D1c"> praemissa negatione <foreign xml:lang="gez">አኮ፡</foreign> et sequente <foreign xml:lang="gez">ዓዲ፡</foreign> vel <foreign xml:lang="gez">ወዓዲ፡</foreign> vel <foreign xml:lang="gez">ዓዲ፡</foreign> — <foreign xml:lang="gez">ኒ፡</foreign>, <foreign xml:lang="gez">ዓዲ፡</foreign> — <foreign xml:lang="gez">ሂ፡</foreign> <cit type="translation" xml:lang="la">
+                                    <quote> non solum </quote>
+                                </cit> (<cit type="translation" xml:lang="la">
+                                    <quote> tantum </quote>
+                                </cit>, <cit type="translation" xml:lang="la">
+                                    <quote> modo </quote>
+                                </cit>) — <cit type="translation" xml:lang="la">
+                                    <quote> sed etiam </quote>
+                                </cit> <ref cRef="1 Cor." loc="5,10">1 Cor. 5,10</ref>; <ref cRef="Joh." loc="13,9">Joh. 13,9</ref>; <ref cRef="Act." loc="21,13">Act. 21,13</ref>; <ref cRef="Rom. " loc="4,12">Rom.  4,12</ref>; <ref cRef="Rom." loc="5,3">Rom. 5,3</ref>; <ref cRef="Rom." loc="8,23">Rom. 8,23</ref>; <ref cRef="Rom." loc="9,10">Rom. 9,10</ref>; <ref cRef="Rom." loc="9,24">Rom. 9,24</ref>; <ref cRef="Rom." loc="16,4">Rom. 16,4</ref>; <ref cRef="Phil." loc="2,27">Phil. 2,27</ref>; 1 <ref cRef="Thess." loc="1,5">Thess. 1,5</ref>; <ref cRef="Hebr." loc="12,26">Hebr. 12,26</ref>.</sense> </sense> <sense n="2" xml:id="D2"> Subjuncto <gramGrp> <pos expand="pronomen">pron.</pos> </gramGrp> III. p. <gramGrp> <gen value="not found">m.</gen> </gramGrp> <lbl expand="">sing.</lbl>, <lbl expand="scilicet">sc.</lbl> <foreign xml:lang="gez">ባሕቲቱ፡</foreign> (rarius in <gramGrp> <case value="accusativus">Acc.</case> </gramGrp> ut <ref cRef="4 Esr." loc="9,27">4 Esr. 9,27</ref> bis): <cit type="translation" xml:lang="la">
+                                <quote> solum </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> tantum </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> modo </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> solummodo </quote>
+                            </cit> <ref cRef="Gen." loc="2,6">Gen. 2,6</ref>; <foreign xml:lang="gez">ኢ</foreign> vel <foreign xml:lang="gez">አኮ፡</foreign> — <foreign xml:lang="gez">ባሕቲቱ፡</foreign> — <foreign xml:lang="gez">አላ፡</foreign> vel <foreign xml:lang="gez">አላ፡</foreign> — <foreign xml:lang="gez">ኒ፡</foreign> <ref cRef="Sap." loc="19,14">Sap. 19,14</ref>; <ref cRef="Phlx." loc="31">Phlx. 31</ref>; <ref cRef="1 Joh." loc="2,2">1 Joh. 2,2</ref>; <ref cRef="1 Joh. " loc="5,6">1 Joh.  5,6</ref>. — (De significatu <foreign xml:lang="gez">ባሕቲት፡</foreign> <cit type="translation" xml:lang="la">
+                                <quote> unica </quote>
+                            </cit> i.e. <cit type="translation" xml:lang="la">
+                                <quote> carissima </quote>
+                            </cit>, quam Ludolfus affert, vehementer dubito; etenim <ref cRef="Sx. Teq." loc="25 Enc.">Sx. Teq. 25 Enc.</ref> <foreign xml:lang="gez">ለባሕቲትከ፡</foreign> non <cit type="translation" xml:lang="la">
+                                <quote> tuae </quote>
+                            </cit> (animae) <cit type="translation" xml:lang="la">
+                                <quote> carissimae </quote>
+                            </cit> sed <cit type="translation" xml:lang="la">
+                                <quote> tibi soli </quote>
+                            </cit> significat; pariter Lud. comm. hist. p. 30<ref cRef="3 Nr." loc="10 ">3 Nr. 10 </ref> <foreign xml:lang="gez">ግበሩ፡ በዓላ፡ ለባሕቲትየ፡</foreign> non „<cit type="translation" xml:lang="la">
+                                <quote> celebrate festum unicae </quote>
+                            </cit> (carissimae) <cit type="translation" xml:lang="la">
+                                <quote> meae </quote>
+                            </cit>“ sed „<cit type="translation" xml:lang="la">
+                                <quote> festum ejus mihi soli </quote>
+                            </cit>“ (sicut <foreign xml:lang="gez">ሊተ፡</foreign> <bibl>
+                                <ptr target="bm:Ludolf1691Commentarius"/>
+                            </bibl>. p. 30<ref cRef="3 Nr." loc="11">3 Nr. 11</ref>) exponendum videtur).</sense> </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

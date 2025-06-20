@@ -1,0 +1,121 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> አብቈለ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="Lf95c523883e749dcb5444604da4314ab" n="3959">
+               <form>
+                  <foreign xml:lang="gez">አብቈለ</foreign>
+               </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain"> <subc>II,1</subc> <sense n="1" xml:id="D1">
+                     <cit type="translation" xml:lang="la">
+                        <quote>germinare</quote>
+                     </cit>, <cit type="translation" xml:lang="la">
+                        <quote>producere</quote>
+                     </cit>, <cit type="translation" xml:lang="la">
+                        <quote>efferre</quote>
+                     </cit>, <cit type="translation" xml:lang="la">
+                        <quote>agere</quote>
+                     </cit>: <foreign xml:lang="gez">ታብቍል፡ ምድር፡ ሐመልማለ፡ ሣዕር፡</foreign>
+                     <ref cRef="Gen." loc="1,11">Gen. 1,11</ref>: <ref cRef="Jac." loc="5,18">Jac.
+                        5,18</ref>; <foreign xml:lang="gez">አብቈልኩ፡ ሥርውየ፡</foreign>
+                     <ref cRef="Sir." loc="24,12">Sir. 24,12</ref>; <foreign xml:lang="gez">አብቍሉ፡
+                        ጽጌክሙ፡ ከመ፡ ጽጌ፡ ረዳ፡</foreign>
+                     <ref cRef="Sir." loc="39,14">Sir. 39,14</ref>; <foreign xml:lang="gez">ዘአብቈለ፡
+                        ቀርነ፡ ወጽፍረ፡</foreign>
+                     <ref cRef="Ps." loc="68,36">Ps. 68,36</ref>; <ref cRef="Org." loc="3">Org.
+                        3</ref>; <lbl expand="translate">transl.</lbl>
+                     <ref cRef="Jos." loc="45,8">Jos. 45,8</ref>
+                     <lbl expand="varia lectio">var.</lbl>
+                  </sense>
+                  <sense n="2" xml:id="D2"> crescere sinere i.e. <cit type="translation" xml:lang="la">
+                        <quote>promittere</quote>
+                     </cit>, <cit type="translation" xml:lang="la">
+                        <quote>alere</quote>
+                     </cit> capillos: <foreign xml:lang="gez">አብቈለ፡ ድምድማ፡</foreign>
+                     <ref cRef="1 Cor." loc="11,14">1 Cor. 11,14</ref>.</sense>
+                  <sense n="3" xml:id="D3">
+                     <cit type="translation" xml:lang="la">
+                        <quote>germinare facere</quote>
+                     </cit> vel <cit type="translation" xml:lang="la">
+                        <quote>crescere facere</quote>
+                     </cit>, de <ref cRef="Deo Gen." loc="2,9">Deo Gen. 2,9</ref>; <ref cRef="Ps." loc="103,15">Ps. 103,15</ref>; <ref cRef="Ps. " loc="146,9">Ps. 146,9</ref>;
+                        <foreign xml:lang="gez">ኣበቍል፡ ዖመ፡</foreign>
+                     <ref cRef="Jes." loc="41,18">Jes. 41,18</ref>; <foreign xml:lang="gez">ዘርእ፡
+                        ዘያበቍል፡ ፈጣሪከ፡</foreign>
+                     <ref cRef="Sir." loc="7,15">Sir. 7,15</ref>; <ref cRef="Ps." loc="131,18">Ps.
+                        131,18</ref>; de pluvia: <foreign xml:lang="gez">ከመ፡ ያብቍል፡ ሣዕረ፡ በውስተ፡
+                        ገዳም፡</foreign>
+                     <ref cRef="Job" loc="38,27">Job 38,27</ref>; <ref cRef="Jes. " loc="55,10">Jes.
+                        55,10</ref>.</sense>
+                  <sense n="4" xml:id="D4">
+                     <cit type="translation" xml:lang="la">
+                        <quote>plantare</quote>
+                     </cit>, <cit type="translation" xml:lang="la">
+                        <quote>serere</quote>
+                     </cit>: <foreign xml:lang="gez">ዕፀ፡</foreign>
+                     <ref cRef="Ex." loc="10,5">Ex. 10,5</ref>; <foreign xml:lang="gez">ዕፅ፡
+                        ዘእግዚአብሔር፡ አብቈለ፡</foreign>
+                     <ref cRef="Jes." loc="44,14">Jes. 44,14</ref>; <ref cRef="Hez." loc="17,5">Hez.
+                        17,5</ref>; <ref cRef="Hez." loc="17,22">Hez. 17,22</ref>; <lbl expand="translate">transl.</lbl>: populum <ref cRef="2 Reg." loc="7,10">2
+                        Reg. 7,10</ref>.</sense>
+               </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

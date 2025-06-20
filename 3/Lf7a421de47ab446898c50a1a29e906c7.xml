@@ -1,0 +1,103 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ርግብ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="MK" when="2018-02-08">Added expression</change>
+            <change who="MK" when="2018-02-08">Added two dots</change>
+            <change who="MK" when="2018-04-03">added vid.</change>
+            <change who="MK" when="2018-04-03">added brackets </change>
+            <change who="AE" when="2018-04-13">Bibl Dillmann</change>
+            <change who="MK" when="2018-04-16">corr</change>
+            <change who="MK" when="2018-04-16">corr</change>
+            <change who="MK" when="2018-04-16">corr</change>
+        <change who="MK" when="2019-03-11">corr</change>
+            <change who="MK" when="2019-03-11">corr</change>
+            <change who="MK" when="2019-04-11">corr</change>
+        </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="Lf7a421de47ab446898c50a1a29e906c7" n="2380">
+               <form>
+                  <foreign xml:lang="gez">ርግብ</foreign>
+               </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain"> <gramGrp> <pos expand="Substantivum">subst.</pos> </gramGrp>, plerumque <gramGrp> <gen value="femininus">fem.</gen> </gramGrp>, <lbl expand="collatio, -is vel collectivum,&#xA;                            -e">coll.</lbl> et <lbl expand="">sing.</lbl>, <lbl expand="pluralis">Pl.</lbl> <foreign xml:lang="gez">አርጋብ፡</foreign> [ut videtur, proprie: avis pavida, trepida, <lbl expand="videas">vid.</lbl> <bibl>
+                            <ptr target="bm:Bochart1794HierozII"/>
+                            <citedRange unit="page"> 555</citedRange>
+                        </bibl>] <cit type="translation" xml:lang="la">
+                            <quote> columba </quote>
+                        </cit>, <foreign xml:lang="grc">περιστερά</foreign>, collect. <ref cRef="Matth. " loc="10,16">Matth.  10,16</ref>; <ref cRef="Jes." loc="60,8">Jes. 60,8</ref>; <foreign xml:lang="gez">ኮኑ፡ ከመ፡ ርግብ፡ እለ፡ የሐፅና፡ ውስተ፡ ኰኵሕ፡</foreign> <ref cRef="Jer." loc="31,28">Jer. 31,28</ref>; <foreign xml:lang="gez">ርግብ፡ ዘይትሜሀር፡ ሰሪረ፡</foreign> <ref cRef="Hez." loc="7,16">Hez. 7,16</ref>; <ref cRef="Lev." loc="1,14">Lev. 1,14</ref>; <foreign xml:lang="gez">እጕለ፡ ርግብ፡</foreign> <cit type="translation" xml:lang="la">
+                            <quote> pulli columbarum </quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                            <quote> pipiones </quote>
+                        </cit> <ref cRef="Lev." loc="5,7">Lev. 5,7</ref>; <ref cRef="Lev." loc="12,6">Lev. 12,6</ref>; <ref cRef="Lev." loc="12,8">Lev. 12,8</ref>; <ref cRef="Luc." loc="2,24">Luc. 2,24</ref>; <lbl expand="">sing.</lbl> <ref cRef="Gen." loc="8,8">Gen. 8,8</ref>; <ref cRef="Ps." loc="54,6">Ps. 54,6</ref>; <ref cRef="Jes." loc="38,14">Jes. 38,14</ref>; <ref cRef="Jes." loc="59,11">Jes. 59,11</ref>; <ref cRef="Zeph." loc="3,1">Zeph. 3,1</ref>; <ref cRef="Cant." loc="1,15">Cant. 1,15</ref>; <ref cRef="Matth." loc="3,16">Matth. 3,16</ref>; <ref cRef="Clem." loc="25">Clem. f. 25</ref>; <ref cRef="Rel. Bar." loc="">Rel. Bar. </ref>; <gramGrp> <gen value="masculinus">masc.</gen> </gramGrp> <cb n="0317" xml:id="c0317"/> <ref cRef="4 Esr." loc="3,33">4 Esr. 3,33</ref> Laur.; <foreign xml:lang="gez">ርግበ፡ ገዳም፡</foreign> <foreign xml:lang="grc">χελιδὼν ἀγροῦ</foreign> <ref cRef="Jer." loc="8,7">Jer. 8,7</ref>; <lbl expand="translate">transl.</lbl> ad blandam mulieris compellationem <ref cRef="Cant." loc="2,10">Cant. 2,10</ref>; <foreign xml:lang="gez">ርግብየ፡ ኅሪት፡</foreign> <ref cRef="III Sal. Mar. " loc="16">III Sal. Mar.  16</ref>; <lbl expand="pluralis">Pl.</lbl> <ref cRef="Matth." loc="21,12">Matth. 21,12</ref> <lbl expand="romanae editionis">rom.</lbl>; <ref cRef="Joh." loc="2,14">Joh. 2,14</ref>; <ref cRef="Reg. Pach." loc="">Reg. Pach. </ref>; <ref cRef="Sx. Ter" loc="22.">Sx. Ter 22.</ref> </sense>
+               
+            <sense xml:lang="en" source="#traces" xml:id="Tmain"> <foreign xml:lang="gez">አርጋበ፡ መርጡል</foreign> <cit type="transcription" xml:lang="gez">
+                            <quote> ʾargāba marṭul </quote>
+                        </cit> <cit type="translation" xml:lang="it">
+                            <quote> ‘colombe della testimonianzaʼ </quote>
+                        </cit> (‘L’agiografo us <foreign xml:lang="gez">መርጡል፡</foreign> un calco del greco martyrion, «testimonianza», <bibl>
+                            <ptr target="bm:Dillmann1865Lexicon"/>
+                            <citedRange unit="page">171</citedRange>
+                        </bibl>. Il termine più ovvio sarebbe stato {<lbl expand="videas">vid.</lbl>} <foreign xml:lang="gez">ስምዕ፡</foreign>. Secondo il linguaggio della «Terza Regola» di Pacomio, «la colomba» (cf. Mt. 10,16) è una metafora che simboleggia i monaci, cf. <bibl>
+                            <ptr target="bm:Dillmann1866Chrestomathia"/>
+                            <citedRange unit="page">63-69</citedRange>
+                        </bibl>.ʼ <bibl>
+                            <ptr target="bm:Tedros2009TawaldaMadehnVittore"/>
+                            <citedRange unit="page"> 45 (125) n. 48 </citedRange>
+                        </bibl>, <lbl expand="videas">vid.</lbl> <foreign xml:lang="gez">መርጡል፡</foreign> </sense>
+                </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

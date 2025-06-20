@@ -1,0 +1,139 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ጽፉቅ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="Lf1eee01f20a340e28ce72af75a4b3c1a" n="9619">
+               <form>
+                  <foreign xml:lang="gez">ጽፉቅ</foreign>
+               </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain">
+                  <gramGrp>
+                     <pos expand="participium">part.</pos>
+                  </gramGrp>
+                  <sense n="1" xml:id="D1">
+                     <cit type="translation" xml:lang="la">
+                        <quote>densus</quote>
+                     </cit>: <sense n="a" xml:id="D1a"> de sylvis, arboribus, frondibus, (<cit type="translation" xml:lang="la">
+                           <quote>opacus</quote>
+                        </cit>): <foreign xml:lang="gez">ታሕተ፡ ኵሉ፡ ዖም፡ ጽፉቅ፡ ዘቦ፡ ጽላሎተ፡</foreign>
+                        <ref cRef="3 Reg." loc="14,23">3 Reg. 14,23</ref>; <ref cRef="4 Reg." loc="16,4">4 Reg. 16,4</ref>; <foreign xml:lang="gez">ረከበ፡ ዕፀ፡ ጽፍቅተ፡
+                           ወነበረ፡ ወአጽለለ፡</foreign> Rel. Bar.; <foreign xml:lang="gez">ዕፅ፡ ዘጽፉቅ፡
+                           ቈጽሉ፡</foreign>
+                        <ref cRef="Sir." loc="14,18">Sir. 14,18</ref>; <ref cRef="Hez." loc="31,3">Hez. 31,3</ref>; <ref cRef="Dan." loc="4,18">Dan. 4,18</ref>; <foreign xml:lang="gez">አዕዋም፡ ጽፉቃት፡ እለ፡ ያጸልሉ፡</foreign>
+                        <ref cRef="Sap. " loc="17,17">Sap. 17,17</ref>.</sense>
+                     <sense n="b" xml:id="D1b"> de nubibus, tenebris (<cit type="translation" xml:lang="la">
+                           <quote>spissus</quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                           <quote>crassus</quote>
+                        </cit>): <foreign xml:lang="gez">ከመ፡ ጽፉቅ፡ ደመናት፡</foreign>
+                        <ref cRef="Clem." loc="3">Clem. f. 3</ref>; <foreign xml:lang="gez">ጽልመት፡
+                           ጽፉቅ፡</foreign>
+                        <ref cRef="Jes." loc="5,30">Jes. 5,30</ref>; <ref cRef="Jes." loc="8,22">Jes. 8,22</ref>; <ref cRef="Sap." loc="19,16">Sap. 19,16</ref>.</sense>
+                     <sense n="c" xml:id="D1c"> de hominibus: <cit type="translation" xml:lang="la">
+                           <quote>confertus</quote>
+                        </cit>, <foreign xml:lang="gez">ጽፉቅ፡ ሰብእ፡ </foreign>
+                        <ref cRef="Marc." loc="2,4">Marc. 2,4</ref>; <ref cRef="Luc." loc="5,19">Luc. 5,19</ref>; <foreign xml:lang="gez">ጻዕቀ፡ ሰብእ፡ ጽፉቅ፡ </foreign>
+                        <ref cRef="Jsp." loc="343">Jsp. p. 343</ref>; <foreign xml:lang="gez">ጽፍቅት፡
+                           ከመ፡ ሮማን፡ ቅድስት፡ ሀገረ፡ ናግራን፤ ምዕዝት፡ ከመ፡ ዕጣን፡</foreign> Deg.</sense>
+                     <sense n="d" xml:id="D1d"> de concione, urbe: <cit type="translation" xml:lang="la">
+                           <quote>frequens</quote>
+                        </cit>, <foreign xml:lang="gez">ማኅበር፡ ጽፉቅ፡ </foreign>
+                        <ref cRef="Sx. Haml." loc="7 ">Sx. Haml. 7 </ref>Enc.; <ref cRef="Org." loc="6.">Org. 6.</ref>
+                     </sense>
+                     <sense n="e" xml:id="D1e"> de rebus: <cit type="translation" xml:lang="la">
+                           <quote>multitudine abundans</quote>
+                        </cit>, <foreign xml:lang="gez">አመ፡ ጽፉቅ፡ ንዋይየ፡</foreign>
+                        <foreign xml:lang="grc">ὅτε ἤμην ὑλώδης λίαν </foreign>
+                        <ref cRef="Job" loc="29,5">Job 29,5</ref>.</sense>
+                     <sense n="f" xml:id="D1f">
+                        <cit type="translation" xml:lang="la">
+                           <quote>aptus</quote>
+                        </cit>: <foreign xml:lang="gez">ጽፉቅ፡ ድዶሙ፡</foreign>
+                        <foreign xml:lang="grc">συμφωνοῦσιν αἱ ἁρμογαὶ αὐτῶν</foreign>
+                        <ref cRef="Herm." loc="11.">Herm. p. 11.</ref>
+                     </sense>
+                     <sense n="2" xml:id="D12">
+                        <cit type="translation" xml:lang="la">
+                           <quote>frequens</quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                           <quote>creber</quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                           <quote>perpetuus</quote>
+                        </cit>: <foreign xml:lang="gez">ጽፉቅ፡ በዋኤ፡ ቤታ፡</foreign>
+                        <ref cRef="Prov." loc="29,45">Prov. 29,45</ref>; Did. <lbl expand="edidit">ed.</lbl>
+                        <ref cRef="Platt p." loc="14">Platt p. 14</ref>; <foreign xml:lang="gez">ኢተክህሎሙ፡</foreign> (sc. Hasmonaeis restauratio templi) <foreign xml:lang="gez">በእንተ፡ ጸብእ፡ ጽፉቅ፡ ዘኮነ፡ ላዕሌሆሙ፡</foreign>
+                        <ref cRef="Jsp." loc="330">Jsp. p. 330</ref>; <ref cRef="Jsp." loc="366.">Jsp. p. 366.</ref> – Adv. <foreign xml:lang="gez">ጽፉቀ፡</foreign>
+                        <cit type="translation" xml:lang="la">
+                           <quote>crebro</quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                           <quote>frequenter</quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                           <quote>continenter</quote>
+                        </cit>: <ref cRef="Luc." loc="5,33">Luc. 5,33</ref>; <ref cRef="4 Esr." loc="3,11">4 Esr. 3,11</ref>; <ref cRef="Jsp." loc="331">Jsp. p.
+                           331</ref>; <ref cRef="Jsp." loc="356">Jsp. p. 356</ref>; <ref cRef="Kid." loc="4">Kid. f. 4</ref>; <foreign xml:lang="grc">ἐκτενῶς</foreign>
+                        <ref cRef="1 Petr." loc="1,22">1 Petr. 1,22</ref>. – <lbl expand="Vocabularium Aethiopicum, -a -a.">Voc. Ae.</lbl>: <foreign xml:lang="gez">ጽፉቅ፡ ዘ፡ ግንኙ፡</foreign>; <cit type="translation" xml:lang="la">
+                           <quote>aliud</quote>
+                        </cit>: <foreign xml:lang="gez">ጽፉቅ፡ ጽዑቅ፡ ጥዉቅ፡ ዘ፡ ጭንቅ፡</foreign>
+                     </sense>
+                  </sense>
+               </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

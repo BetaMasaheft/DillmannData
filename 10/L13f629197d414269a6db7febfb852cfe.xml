@@ -1,0 +1,74 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ሣረረ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="LB" when="2018-02-14">root</change>
+        <change who="MK" when="2024-08-26">added gr and les </change><change who="MK" when="2024-08-26">added sub</change></revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L13f629197d414269a6db7febfb852cfe" n="1757">
+               <form>
+                  <foreign xml:lang="gez">ሣረረ</foreign>
+               <rs type="root"/>
+                    </form>
+               <sense xml:id="Dmain" xml:lang="la" source="#dillmann"> <subc>I,3</subc> [prima radicis <foreign xml:lang="syr">ܫܰܪ</foreign> <foreign xml:lang="he">שָׁרַר</foreign> potestas est: <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> firmus </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> stabilis </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> solidus </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> durus fuit </t:quote></cit>, quare <foreign xml:lang="gez">ሣረረ፡</foreign> proprie <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> firmavit </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> stabilivit </t:quote></cit> significare videtur. In libris mss. melioris notae frequentius <foreign xml:lang="gez">ሣረረ፡</foreign> quam <foreign xml:lang="gez">ሳረረ፡</foreign> exscripta occurrit, quare eam sicut vicinam <foreign xml:lang="gez">ሠረወ፡</foreign> sub litera <foreign xml:lang="gez">ሠ፡</foreign> inserere haud dubitavimus] <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> fundare </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> fundamentum jacere </t:quote></cit>, <lbl expand="construitur cum">c.c.</lbl> <gramGrp> <case value="accusativus">Acc.</case> </gramGrp> <ref cRef="Job" loc="26,11">Job 26,11</ref>; <ref cRef="Job" loc="38,4">Job 38,4</ref>; <ref cRef="Prov." loc="3,19">Prov. 3,19</ref>; <ref cRef="Ps." loc="101,26">Ps. 101,26</ref>; <ref cRef="Ps." loc="103,6">Ps. 103,6</ref>; <ref cRef="Ps." loc="103,9">Ps. 103,9</ref>; <ref cRef="Sir." loc="50,2">Sir. 50,2</ref>; <ref cRef="Jes. " loc="14,32">Jes.  14,32</ref>; <ref cRef="Jes." loc="44,28">Jes. 44,28</ref>; <ref cRef="Jes." loc="48,13">Jes. 48,13</ref>; <ref cRef="Jes." loc="51,16">Jes. 51,16</ref>; <ref cRef="Zach." loc="1,16">Zach. 1,16</ref>; <ref cRef="Hagg." loc="2,18">Hagg. 2,18</ref>; <ref cRef="2 Esr." loc="3,10">2 Esr. 3,10</ref>; <ref cRef="Hebr. " loc="1,10">Hebr.  1,10</ref>; <ref cRef="1 Cor." loc="3,12">1 Cor. 3,12</ref> <lbl expand="romanae editionis">rom.</lbl> Transl.: <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> pro fundamento ponere </t:quote></cit> thesin seu propositionem Lud. e V.S. – <lbl expand="Vocabularium Aethiopicum, -a -a">Voc. Ae.</lbl>: <foreign xml:lang="gez">ሣረረ፡ ዘ፡ ተከለ፡</foreign> </sense>
+               
+            <sense xml:id="Tmain" xml:lang="en" source="#traces"> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">śārara</t:quote></cit>, <foreign xml:lang="gez">ሳረረ፡</foreign> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">sārara</t:quote></cit> <sense n="G" xml:id="TG"> <foreign xml:lang="gez">ሳረረ፡</foreign> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">sārara</t:quote></cit> <subc>I,3</subc> <foreign xml:lang="gez">ይሳርር፡</foreign> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">fundavit</t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">posuit thesim</t:quote></cit>, <cit type="translation" xml:lang="fr"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">fonder</t:quote></cit>, <cit type="translation" xml:lang="fr"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">poser un problème</t:quote></cit> ― <foreign xml:lang="am">ሰራ፡</foreign> Ms. Roma, Biblioteca Nazionale Centrale di Roma, Orientale 134, p. 44. <lb/>
+ <bibl><ptr target="bm:Grebaut1952SuppLexicon"/><citedRange unit="page"> 165</citedRange></bibl> 
+</sense> <sense n="L" xml:id="TL"> <foreign xml:lang="gez">ሣረረ</foreign> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">śārara</t:quote></cit>, (<bibl><ptr target="bm:Ludolf1699Lexicon"/></bibl>, <bibl><ptr target="bm:Grebaut1952SuppLexicon"/><citedRange unit="page"> 165</citedRange></bibl>) <foreign xml:lang="gez">ሳረረ</foreign> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">sārara</t:quote></cit> <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">lay a foundation</t:quote></cit>, <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">found</t:quote></cit>, <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">establish</t:quote></cit>, <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">build</t:quote></cit>, <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">construct</t:quote></cit> <bibl><ptr target="bm:Leslau1987dic"/><citedRange unit="page"> 534b</citedRange></bibl> 
+</sense> </sense></entry>
+         </div>
+      </body>
+   </text>
+</TEI>

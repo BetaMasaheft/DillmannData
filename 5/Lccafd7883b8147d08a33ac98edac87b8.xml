@@ -1,0 +1,133 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ካዕበት </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="Lccafd7883b8147d08a33ac98edac87b8" n="6313">
+               <form>
+                  <foreign xml:lang="gez">ካዕበት</foreign>
+               </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain">
+                  <gramGrp>
+                     <pos expand="Substantivum">subst.</pos>
+                  </gramGrp>
+                  <sense n="1" xml:id="D1">
+                     <cit type="translation" xml:lang="la">
+                        <quote>duplum</quote>
+                     </cit>: <foreign xml:lang="gez">ወሀቦ፡ እግዚአብሔር፡ ለኢዮብ፡ ካዕበተ፡ ኵሉ፡ ንዋዩ፡ እምቀዲሙ፡
+                     </foreign> (v. <foreign xml:lang="gez">ካዕበ፡ ኵሎ፡ ንዋዮ፡</foreign>) <ref cRef="Job" loc="42,10">Job 42,10</ref>; <foreign xml:lang="gez">ቦ፡ ዘይሁበከ፡
+                        ወካዕበቶ፡</foreign> (v. <foreign xml:lang="gez">ወክዕበቶ፡</foreign>) <foreign xml:lang="gez">ይትፈደየከ፡</foreign>
+                     <ref cRef="Sir." loc="20,10">Sir. 20,10</ref>; <foreign xml:lang="gez">ዘይነውኆ፡
+                        ካዕበቶ፡</foreign> (v. <foreign xml:lang="gez">ክዕበቶ፡</foreign>) <cit type="translation" xml:lang="la">
+                        <quote>duplo</quote>
+                     </cit>
+                     <ref cRef="Sir." loc="50,2">Sir. 50,2</ref>; <foreign xml:lang="gez">ካዕበተ፡
+                        ኀጢአታ፡ </foreign>
+                     <ref cRef="Jes." loc="40,2">Jes. 40,2</ref>; <foreign xml:lang="gez">እፈድዮሙ፡
+                        ካዕበተ፡ ዐመፃሆሙ፡</foreign>
+                     <ref cRef="Jer. " loc="16,18">Jer. 16,18</ref>; <ref cRef="Zach." loc="9,12">Zach. 9,12</ref>; <ref cRef="Ex." loc="16,5">Ex. 16,5</ref>; <ref cRef="Ex." loc="16,22">Ex. 16,22</ref>; <ref cRef="Ex." loc="22,3">Ex.
+                        22,3</ref>; <ref cRef="Gen." loc="43,12">Gen. 43,12</ref>; <foreign xml:lang="gez">በአተ፡ ካዕበት፡</foreign>
+                     <foreign xml:lang="grc">τὸ σπήλαιον τὸ διπλοῦν</foreign>
+                     <ref cRef="Gen." loc="23,9">Gen. 23,9</ref>
+                     <lbl expand="sequens">seq.</lbl>; <ref cRef="Gen." loc="25,9">Gen. 25,9</ref>;
+                        <ref cRef="Kuf." loc="19">Kuf. 19</ref>; <foreign xml:lang="gez">ትከውን፡ ዕለት፡
+                        ካዕበተ፡ ሌሊት፡</foreign>
+                     <ref cRef="Hen." loc="72,14">Hen. 72,14</ref>.</sense>
+                  <sense n="2" xml:id="D2">
+                     <cit type="translation" xml:lang="la">
+                        <quote>duae partes</quote>
+                     </cit>
+                     <ref cRef="Hen." loc="72,10">Hen. 72,10</ref>.</sense>
+                  <sense n="3" xml:id="D3"> praemittitur aliis nominibus numeralibus, ut latinum <cit type="translation" xml:lang="la">
+                        <quote>-plum</quote>
+                     </cit>, <cit type="translation" xml:lang="la">
+                        <quote>-plex</quote>
+                     </cit> significetur: <foreign xml:lang="gez">ይፍዲ፡ ህየንተ፡ ዘሰረቀ፡ ፭ ካዕበተ፡ </foreign>
+                     <cit type="translation" xml:lang="la">
+                        <quote>quincuplex</quote>
+                     </cit> F.M. 17,6; <foreign xml:lang="gez">፬ ካዕበተ፡ </foreign> (Acc.) <cit type="translation" xml:lang="la">
+                        <quote>quadruplum</quote>
+                     </cit>, F.M. 17,7.</sense>
+                  <sense n="4" xml:id="D4"> Adv. <foreign xml:lang="gez">ካዕበተ፡</foreign>
+                     <sense n="a" xml:id="D4a">
+                        <cit type="translation" xml:lang="la">
+                           <quote>duplum</quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                           <quote>duplo magis</quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                           <quote>duplicitur</quote>
+                        </cit>: <foreign xml:lang="gez">ለይኩን፡ ካዕበተ፡ ላዕሌየ፡ መንፈስ፡ ቅዱስ፡ ዘዲቤከ፡</foreign>
+                        <ref cRef="4 Reg." loc="2,9">4 Reg. 2,9</ref>; <foreign xml:lang="gez">ካዕበተክሙ፡</foreign>
+                        <cit type="translation" xml:lang="la">
+                           <quote>duplo magis quam vos</quote>
+                        </cit>
+                        <ref cRef="Matth. " loc="23,15">Matth. 23,15</ref>.</sense>
+                     <sense n="b" xml:id="D4b">
+                        <cit type="translation" xml:lang="la">
+                           <quote>bis</quote>
+                        </cit>: <foreign xml:lang="gez">ካዕበተ፡ ምክዕቢተ፡</foreign> (v. <foreign xml:lang="gez">ምክዕቢት፡</foreign>) <ref cRef="Apoc." loc="18,6">Apoc.
+                           18,6</ref>; <foreign xml:lang="gez">ካዕበተ፡ ሱበዔ፡ ሰየፍት፡</foreign> (i.e. XIV)
+                           <ref cRef="Sx. Genb." loc="14 ">Sx. Genb. 14 </ref>Enc.; <foreign xml:lang="gez">ካዕበተ፡ ዐሥሩ፡</foreign>
+                        <ref cRef="Sx. Nah." loc="1 ">Sx. Nah. 1 </ref>Enc; <foreign xml:lang="gez">ካዕበተ፡ ፳ </foreign>
+                        <ref cRef="Sx. Tachs." loc="14 ">Sx. Tachs. 14 </ref>Enc.</sense>
+                  </sense>
+               </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

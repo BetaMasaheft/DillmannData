@@ -1,0 +1,111 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ሰብዐቱ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L8f37a495d4b144cf81775ed07e8a53ff" n="2737">
+               <form>
+                  <foreign xml:lang="gez">ሰብዐቱ</foreign>
+               </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain"> vel <foreign xml:lang="gez">ሰባዕቱ፡</foreign>,
+                  raro sine suff. <cit type="translation" xml:lang="la">
+                     <quote>û</quote>
+                  </cit>, <lbl expand="scilicet">sc.</lbl>
+                  <foreign xml:lang="gez">ሰብዐት፡</foreign> (ut <ref cRef="Jos." loc="6,13">Jos.
+                     6,13</ref>), <gramGrp>
+                     <pos expand="nomen">nom.</pos>
+                     <pos expand="numerale">num.</pos>
+                  </gramGrp>, plerumque masculinis junctum, <gramGrp>
+                     <case value="accusativus">Acc.</case>
+                  </gramGrp>
+                  <foreign xml:lang="gez">ሰብዐተ፡</foreign> vel <foreign xml:lang="gez">ሰባዕተ፡</foreign>, <cit type="translation" xml:lang="la">
+                     <quote>septem</quote>
+                  </cit>
+                  <ref cRef="Gen." loc="29,27">Gen. 29,27</ref>; <ref cRef="Gen." loc="41">Gen.
+                     41</ref>; <ref cRef="Deut." loc="7,1">Deut. 7,1</ref>; <foreign xml:lang="gez">ሰብዐቱ፡ ኖሎት፡</foreign>
+                  <ref cRef="Mich." loc="5,4">Mich. 5,4</ref>; <foreign xml:lang="gez">ሰብዐቱ፡
+                     ዐይን፡</foreign> vel <foreign xml:lang="gez">አዕይንት፡</foreign>
+                  <ref cRef="Zach." loc="3,9">Zach. 3,9</ref>; <ref cRef="Zach. " loc="4,2">Zach.
+                     4,2</ref>; <foreign xml:lang="gez">ሰብዐቱ፡ ቈላተ፡</foreign> (Acc.) <ref cRef="Jes." loc="11,15">Jes. 11,15</ref>; <ref cRef="Tob." loc="3,8">Tob. 3,8</ref>; <ref cRef="Tob. " loc="12,15">Tob. 12,15</ref>; <cb n="0363" xml:id="c0363"/>
+                  <ref cRef="4 Esr." loc="6,55">4 Esr. 6,55</ref>; <ref cRef="Apoc." loc="1,4">Apoc.
+                     1,4</ref>; <ref cRef="Apoc." loc="1,11">Apoc. 1,11</ref>; <ref cRef="Apoc." loc="1,20">Apoc. 1,20</ref> Platt; <ref cRef="Apoc." loc="5,1">Apoc. 5,1</ref>;
+                     <ref cRef="Apoc. " loc="5,6">Apoc. 5,6</ref>; <lbl expand="cum">c.</lbl> suff.
+                     <foreign xml:lang="gez">ሰብዐቲሆሙ፡</foreign>
+                  <ref cRef="1 Reg." loc="16,10">1 Reg. 16,10</ref>; <ref cRef="Kuf." loc="16">Kuf.
+                     16</ref>; <ref cRef="Kuf." loc="34">Kuf. 34</ref>; <ref cRef="Marc." loc="12,22">Marc. 12,22</ref>; <foreign xml:lang="gez">ሰባዕቱ፡ ሰባዕቱ፡</foreign>
+                  <cit type="translation" xml:lang="la">
+                     <quote>septeni</quote>
+                  </cit>
+                  <ref cRef="Gen." loc="7,2">Gen. 7,2</ref>
+                  <lbl expand="sequens">seq.</lbl> – <foreign xml:lang="gez">ሰብዐተ፡</foreign>
+                  <cit type="translation" xml:lang="la">
+                     <quote>septies</quote>
+                  </cit>
+                  <ref cRef="Jos." loc="6,16">Jos. 6,16</ref> (at legendum videtur <foreign xml:lang="gez">ሳብዕተ፡</foreign>
+                  <cit type="translation" xml:lang="la">
+                     <quote>septimum</quote>
+                  </cit>). – <foreign xml:lang="gez">እለ፡ ሰባዕቱ፡</foreign> vocabat Ludolfi Gregorius
+                     <cit type="translation" xml:lang="la">
+                     <quote>septemtriones</quote>
+                  </cit> vel <cit type="translation" xml:lang="la">
+                     <quote>ursam majorem</quote>
+                  </cit>. </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

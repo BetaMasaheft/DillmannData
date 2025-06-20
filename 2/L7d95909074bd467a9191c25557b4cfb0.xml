@@ -1,0 +1,110 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ግፍዕ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L7d95909074bd467a9191c25557b4cfb0" n="8747">
+               <form>
+                  <foreign xml:lang="gez">ግፍዕ</foreign>
+               </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain">
+                  <gramGrp>
+                     <pos expand="Substantivum">subst.</pos>
+                     <gen value="masculinum">m.</gen>
+                  </gramGrp> et <gramGrp>
+                     <gen value="femininus">fem.</gen>
+                  </gramGrp> (ut <ref cRef="Hen." loc="99,15">Hen. 99,15</ref>) <cit type="translation" xml:lang="la">
+                     <quote>oppressio</quote>
+                  </cit>, <cit type="translation" xml:lang="la">
+                     <quote>vis</quote>
+                  </cit>, <cit type="translation" xml:lang="la">
+                     <quote>violentia</quote>
+                  </cit>, <cit type="translation" xml:lang="la">
+                     <quote>injuria</quote>
+                  </cit>: <foreign xml:lang="gez">ዐመፃ፡ ወግፍዕ፡</foreign>
+                  <ref cRef="Kuf. " loc="35">Kuf. 35</ref>; <ref cRef="Jer." loc="6,7">Jer.
+                     6,7</ref>; <ref cRef="Hen." loc="10,16">Hen. 10,16</ref>; <ref cRef="Hen." loc="10,20">Hen. 10,20</ref>; <ref cRef="Hen." loc="13,2">Hen. 13,2</ref>; <ref cRef="Hen." loc="91,5">Hen. 91,5</ref>; <ref cRef="Hen." loc="91,6">Hen.
+                     91,6</ref>; <ref cRef="Hen." loc="98,8">Hen. 98,8</ref>; <ref cRef="Hen. " loc="99,15">Hen. 99,15</ref>; <foreign xml:lang="grc">ἀδικία</foreign>
+                  <ref cRef="Jes." loc="33,15">Jes. 33,15</ref>; <foreign xml:lang="gez">ከመ፡ ትግበሩ፡
+                     ላዕሌነ፡ ዐቢየ፡ ግፍዐ፡</foreign>
+                  <ref cRef="Judith" loc="7,24">Judith 7,24</ref>; <foreign xml:lang="grc">ἀδικήματα </foreign>
+                  <ref cRef="Jer." loc="22,17">Jer. 22,17</ref>; injuria quam quis patitur: <foreign xml:lang="gez">ግፍዕክሙ፡ </foreign>
+                  <ref cRef="1 Petr." loc="2,20">1 Petr. 2,20</ref>. <sense n="a" xml:id="Da"> injuria verbis
+                     facta: <foreign xml:lang="gez">ነገረ፡ ግፍዕ፡</foreign>
+                     <foreign xml:lang="grc">λόγος ἄδικος</foreign>
+                     <ref cRef="Prov." loc="29,12">Prov. 29,12</ref>; <foreign xml:lang="gez">ወባሕቱ፡
+                        እነግረከ፡ ግፍዐከ፡</foreign>
+                     <ref cRef="Job" loc="33,8">Job 33,8</ref>.</sense>
+                  <sense n="b" xml:id="Db">
+                     <foreign xml:lang="gez">በግፍዕ፡</foreign>
+                     <cit type="translation" xml:lang="la">
+                        <quote>injuriâ</quote>
+                     </cit>, <cit type="translation" xml:lang="la">
+                        <quote>praeter jus</quote>
+                     </cit>, <cit type="translation" xml:lang="la">
+                        <quote>immerito</quote>
+                     </cit>: <foreign xml:lang="gez">አሕመመኒ፡ በግፍዕ፡</foreign>
+                     <ref cRef="Job" loc="34,6">Job 34,6</ref>; <foreign xml:lang="grc">ἀδίκως</foreign>
+                     <ref cRef="Prov." loc="19,5">Prov. 19,5</ref>; <foreign xml:lang="gez">የሐምም፡
+                        በግፍዕ፡</foreign>
+                     <ref cRef="1 Petr." loc="2,19">1 Petr. 2,19</ref>.</sense>
+               </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

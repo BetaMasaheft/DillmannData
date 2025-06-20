@@ -1,0 +1,111 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ማሕረፅ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L44dea080a6664a469a284a6d21058af0" n="676">
+               <form>
+                  <foreign xml:lang="gez">ማሕረፅ</foreign>
+               </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain">
+                  <gramGrp>
+                     <pos expand="Substantivum">subst.</pos>
+                  </gramGrp>, <gramGrp>
+                     <gen value="masculinum">m.</gen>
+                  </gramGrp> et <gramGrp>
+                     <gen value="femininus">fem.</gen>
+                  </gramGrp>
+                  <sense n="1" xml:id="D1">
+                     <cit type="translation" xml:lang="la">
+                        <quote>mola</quote>
+                     </cit>: <foreign xml:lang="gez">አመት፡ እንተ፡ ትነብር፡ ዲበ፡ ማሕረፅ፡</foreign>
+                     <ref cRef="Ex." loc="11,5">Ex. 11,5</ref>; <ref cRef="Kuf." loc="49">Kuf.
+                        49</ref>; <foreign xml:lang="gez">ንሥኢ፡ ማሕረፀ፡ ወሕርፂ፡ ሐሪፀ፡</foreign>
+                     <ref cRef="Jes." loc="47,2">Jes. 47,2</ref>; <foreign xml:lang="gez">የሐርፅዎ፡
+                        በማሕረፅ፡</foreign>
+                     <ref cRef="Num." loc="11,8">Num. 11,8</ref>; <foreign xml:lang="gez">ቤተ፡
+                        ማሕረፅ፡</foreign>
+                     <ref cRef="Jer." loc="52,11">Jer. 52,11</ref> (var.); <foreign xml:lang="gez">ቃለ፡ ማሕረፅ፡ </foreign>
+                     <ref cRef="Jsp." loc="367">Jsp. p. 367</ref>; <foreign xml:lang="gez">በአሐዱ፡
+                        ማሕረፅ፡</foreign>
+                     <ref cRef="Matth." loc="24,41">Matth. 24,41</ref>
+                     <lbl expand="romanae editionis">rom.</lbl>; <foreign xml:lang="gez">በአሐቲ፡
+                        ማሕረፅ፡</foreign>
+                     <ref cRef="Luc." loc="17,35">Luc. 17,35</ref>
+                     <lbl expand="romanae editionis">rom.</lbl> – De molis Abyssinorum consulere
+                     licet, quae Ludolfus in Comm. ad hist. <ref cRef="Aeth." loc="565 ">Aeth. p.
+                        565 </ref> disputavit.</sense>
+                  <sense n="2" xml:id="D2"> molae pars inferior, <cit type="translation" xml:lang="la">
+                        <quote>catillus</quote>
+                     </cit> (pars superior est <foreign xml:lang="gez">መድሔ፡</foreign> q.v.),
+                        <foreign xml:lang="grc">ὁ μύλος</foreign>, <foreign xml:lang="gez">እብን፡ ዐቢይ፡
+                        ከመ፡ ማሕረፅ፡</foreign>
+                     <ref cRef="Apoc." loc="18,21">Apoc. 18,21</ref>; <ref cRef="Deut." loc="24,6">Deut. 24,6</ref>; <foreign xml:lang="gez">ስባረ፡ ማሕረፅ፡</foreign>
+                     <ref cRef="Jud." loc="9,53">Jud. 9,53</ref>; <foreign xml:lang="gez">ማሕረፀ፡
+                        ጾሩ፡</foreign>
+                     <ref cRef="Thren." loc="5,13">Thren. 5,13</ref>
+                     <lbl expand="varia lectio">var.</lbl>; <foreign xml:lang="grc">μύλος ὀνικός </foreign>
+                     <foreign xml:lang="gez">ማሕረፀ፡ አድግ፡</foreign>
+                     <ref cRef="Matth." loc="18,6">Matth. 18,6</ref>; <ref cRef="Marc." loc="9,42">Marc. 9,42</ref> („intelligunt Aethiopes catillum molae trusatilis seu
+                     jumentariae, quales in Aegypto dantur“, Lud. in <lbl expand="lexicon">lex.</lbl>
+                     <lbl expand="columna">col.</lbl> 277). – <lbl expand="Vocabularium Aethiopicum, -a -a.">Voc. Ae.</lbl>: <foreign xml:lang="gez">ማሕረፅ፡ ዘ፡ ወፍጭ፡</foreign> (pro <foreign xml:lang="gez">መፍጭ፡</foreign>).</sense>
+               </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

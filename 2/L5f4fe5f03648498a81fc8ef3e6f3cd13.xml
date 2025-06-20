@@ -1,0 +1,86 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ዘውዕ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="AE" when="2017-11-01">Ergänzung aus den Addenda ergänzt.</change>
+            <change who="AE" when="2017-11-01">Strukturierung nach erfolgter Ergänzung aus den Addenda upgedatet.</change>
+            <change who="AE" when="2017-11-01">Korrektur der vorherigen Korrektur</change>
+        </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L5f4fe5f03648498a81fc8ef3e6f3cd13" n="7669">
+               <form>
+                  <foreign xml:lang="gez">ዘውዕ</foreign>
+               </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain"> (passim <foreign xml:lang="gez">ዛውዕ፡</foreign> scriptum) <gramGrp> <pos expand="not found">subst.</pos> </gramGrp> <sense n="1" xml:id="D1"> <cit type="translation" xml:lang="la">
+                                <quote> sermones inanes </quote>
+                            </cit> vel <cit type="translation" xml:lang="la">
+                                <quote> ludicri </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> nugae </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> fabulae </quote>
+                            </cit>; <cit type="translation" xml:lang="la">
+                                <quote> lascivia </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> petulantia </quote>
+                            </cit>, <foreign xml:lang="grc">ἀδολεσχίαι</foreign> <ref cRef="Ps. " loc="118,85">Ps.  118,85</ref>; <foreign xml:lang="gez">ዘውዐ፡ ነገር፡ ዘይፈጥሩ፡</foreign> <foreign xml:lang="grc">γενεαλογίαις ἀπεράντοις</foreign> <ref cRef="1 Tim." loc="1,4">1 Tim. 1,4</ref> Platt; <foreign xml:lang="gez">ነገረ፡ ዘውዕ፡</foreign> Lud. e Ssal. Req.; <foreign xml:lang="gez">አውግረ፡ ዘውዕ፡</foreign> (v. <foreign xml:lang="gez">ዛውዕ፡</foreign>) <foreign xml:lang="grc">βωμοὶ τοῦ γέλωτος</foreign> <ref cRef="Am." loc="7,9">Am. 7,9</ref>; <foreign xml:lang="gez">እመቦ፡ ዘይትረከብ፡ በሠሐቅ፡ ወበዛውዕ፡ ይገሥጾ፡ ዲያቆን፡ ወይረስዮሙ፡</foreign> <cb n="1061" xml:id="c1061"/> <foreign xml:lang="gez">ያርምሙ፡</foreign> (sc. inter sacra celebranda) <ref cRef="Did." loc="12">Did. 12</ref>; poenitens se removeat a rebus mundanis <foreign xml:lang="gez">እንዘ፡ ኢያብዝኅ፡ ሠሐቀ፡ ወዘውዐ፡</foreign> <ref cRef="Clem." loc="239">Clem. f. 239</ref>; <foreign xml:lang="gez">ዘውዕ፡</foreign> inter notas impiorum enumeratur <ref cRef="Kid." loc="16">Kid. f. 16</ref>; baptizandus dicat: <foreign xml:lang="gez">እክሕደከ፡ ሰይጣን፡ ወኵሎ፡ ሥልጣነከ፡ ወኵሎ፡ ዛውዐከ፡ ወኵሎ፡ ፍትወተከ፡ ወኵሎ፡ ምግባረከ፡</foreign> <ref cRef="Kid." loc="26">Kid. f. 26</ref>; <ref cRef="Asc. Jes." loc="2,7">Asc. Jes. 2,7</ref>.</sense> <sense n="2" xml:id="D2"> {<ref target="#c1433"/> <cit type="translation" xml:lang="la">
+                                <quote> occupatio otiosa, nugatoria </quote>
+                            </cit>, ut <foreign xml:lang="gez">በፅርዐተ፡ ዘውዑ፡</foreign> <foreign xml:lang="grc">ἐν ἐπιμελείᾳ ἀργίας αὐτοῦ</foreign> <ref cRef="Sap." loc="13,13">Sap. 13,13</ref> in Abb. LV; <foreign xml:lang="gez">ወወሀበ፡ ለእለ፡ ምስሌሁ፡ በጕሃን፡ ወዘውዕ፡</foreign> <foreign xml:lang="grc">μυστήρια καὶ τελετάς</foreign> <ref cRef="Sap." loc="14,15">Sap. 14,15</ref> in Abb. LV}</sense> </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

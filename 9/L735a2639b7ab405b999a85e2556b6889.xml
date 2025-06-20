@@ -1,0 +1,155 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ፍትወት </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L735a2639b7ab405b999a85e2556b6889" n="10002">
+               <form>
+                  <foreign xml:lang="gez">ፍትወት</foreign>
+               </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain"> (etiam <foreign xml:lang="gez">ፍቶት፡</foreign> Lud. e Cant. Mar.), <gramGrp>
+                     <pos expand="nomen">n.</pos>
+                  </gramGrp> act. et <gramGrp>
+                     <pos expand="Substantivum">subst.</pos>
+                  </gramGrp>, <gramGrp>
+                     <gen value="masculinum">m.</gen>
+                  </gramGrp> et <gramGrp>
+                     <gen value="femininus">fem.</gen>
+                  </gramGrp>, <lbl expand="pluralis">Pl.</lbl>
+                  <foreign xml:lang="gez">ፍትወታት፡ </foreign>
+                  <cit type="translation" xml:lang="la">
+                     <quote>cupiditas</quote>
+                  </cit>
+                  <sense n="a" xml:id="Da">
+                     <cit type="translation" xml:lang="la">
+                        <quote>concupiscentia</quote>
+                     </cit>, <cit type="translation" xml:lang="la">
+                        <quote>appetitus</quote>
+                     </cit>, <cit type="translation" xml:lang="la">
+                        <quote>libido</quote>
+                     </cit>: <ref cRef="Ps." loc="9,24">Ps. 9,24</ref>; <ref cRef="Ps." loc="77,33">Ps. 77,33</ref>; <ref cRef="Num. " loc="11,34">Num. 11,34</ref>; <ref cRef="Num." loc="11,35">Num. 11,35</ref>; <ref cRef="Sir." loc="23,5">Sir.
+                        23,5</ref>, <foreign xml:lang="gez">ተዐገሥ፡ እምፍትወተ፡ እኩይ፡ </foreign> (v.
+                        <foreign xml:lang="gez">እምፍትወት፡</foreign>) <foreign xml:lang="grc">ὀρέξεων</foreign>
+                     <ref cRef="Sir." loc="18,30">Sir. 18,30</ref>; <foreign xml:lang="gez">ፍትወተ፡
+                        ልቡ፡</foreign>
+                     <ref cRef="Sir. " loc="27,6">Sir. 27,6</ref>; <foreign xml:lang="gez">እምኵሉ፡
+                        ፍትወተ፡ ብእሲ፡ ይእቲ፡ ተዐቢ፡</foreign>
+                     <ref cRef="Sir." loc="36,27">Sir. 36,27</ref>; <foreign xml:lang="gez">እኪት፡
+                        ፍትወት፡</foreign>
+                     <ref cRef="Sir." loc="37,3">Sir. 37,3</ref>; <ref cRef="Jer." loc="9,14">Jer.
+                        9,14</ref>; <ref cRef="Jer." loc="16,12">Jer. 16,12</ref>; <foreign xml:lang="gez">ፍትወተ፡ ረሲዓን፡</foreign>
+                     <ref cRef="Prov." loc="12,12">Prov. 12,12</ref>; <foreign xml:lang="gez">ፍትወት፡</foreign> (collect.) <foreign xml:lang="gez">ይቀትላሁ፡ </foreign>
+                     <ref cRef="Prov." loc="21,25">Prov. 21,25</ref>; <foreign xml:lang="gez">ፍትወተ፡
+                        ረባሕ፡</foreign>
+                     <ref cRef="Sap." loc="14,2">Sap. 14,2</ref>; <foreign xml:lang="gez">ፍትወቱ፡
+                        ለሥጋ፡</foreign> vel <foreign xml:lang="gez">ለዐይን፡ </foreign>
+                     <ref cRef="1 Joh." loc="2,16">1 Joh. 2,16</ref>; <ref cRef="1 Petr." loc="2,11">1 Petr. 2,11</ref>; <ref cRef="Rom." loc="6,12">Rom. 6,12</ref>; <ref cRef="Rom." loc="7,7">Rom. 7,7</ref>
+                     <lbl expand="sequens">seq.</lbl>; <ref cRef="Gal." loc="5,16">Gal. 5,16</ref>;
+                        <ref cRef="Gal." loc="5,24">Gal. 5,24</ref>; <ref cRef="Joh." loc="8,44">Joh. 8,44</ref>; <ref cRef="Marc." loc="4,19">Marc. 4,19</ref> al.;
+                     concupiscentia carnalis vel venerea <ref cRef="Dan. apocr." loc="1,11">Dan.
+                        apocr. 1,11</ref>; <ref cRef="Dan. apocr." loc="1,56">Dan. apocr.
+                     1,56</ref>; <ref cRef="Jer." loc="2,24">Jer. 2,24</ref>;<bibl>
+                        <ptr target="bm:Ludolf1691Commentarius"/> Lud. Comm. hist.</bibl> p. 316;
+                     al.; <foreign xml:lang="gez">ሕማመ፡ ፍትወተ፡ ዝሙት፡</foreign> Lud. e Vit. Dan.;
+                        <foreign xml:lang="gez">ፍትወታቲሁ፡ ለዝ፡ ዓለም፡</foreign>
+                     <ref cRef="Phlx." loc="3">Phlx. 3</ref>; <ref cRef="Clem." loc="153">Clem. f.
+                        153</ref>; <foreign xml:lang="gez">ለእመ፡ ፈተውነ፡ ፍትወታተ፡ ንሕነ፡ ንረክብ፡</foreign>
+                     <ref cRef="Sx. Sen." loc="16.">Sx. Sen. 16.</ref>
+                  </sense>
+                  <sense n="b" xml:id="Db">
+                     <cit type="translation" xml:lang="la">
+                        <quote>desiderium</quote>
+                     </cit> et <cit type="translation" xml:lang="la">
+                        <quote>res</quote>
+                     </cit>
+                     <cit type="translation" xml:lang="la">
+                        <quote>desiderata</quote>
+                     </cit>: <ref cRef="Ps." loc="9,41">Ps. 9,41</ref>; <ref cRef="Ps." loc="20,2">Ps. 20,2</ref>; <ref cRef="Ps." loc="37,9">Ps. 37,9</ref>; <ref cRef="Ps." loc="111,9">Ps. 111,9</ref>; <foreign xml:lang="gez">ኢያደምዕ፡ ፍትወቶ፡</foreign>
+                     <ref cRef="Job" loc="20,20">Job 20,20</ref>; <foreign xml:lang="gez">ያጸግበከ፡
+                        እምፍትወተ፡ ነፍስከ፡ </foreign>
+                     <ref cRef="Jes." loc="58,11">Jes. 58,11</ref>; <foreign xml:lang="gez">ፍትወታ፡
+                        ለጥበብ፡</foreign>
+                     <ref cRef="Sap. " loc="6,21">Sap. 6,21</ref>.</sense>
+                  <sense n="c" xml:id="Dc">
+                     <cit type="translation" xml:lang="la">
+                        <quote>deliciae</quote>
+                     </cit>: <foreign xml:lang="gez">ፍትወተ፡ አዕይንቲሆሙ፡</foreign>
+                     <foreign xml:lang="grc">ἐπιθυμήματα</foreign>
+                     <ref cRef="Hez." loc="24,25">Hez. 24,25</ref>; <ref cRef="Thren." loc="1,7">Thren. 1,7</ref>; <ref cRef="Thren." loc="1,10">Thren. 1,10</ref>; <foreign xml:lang="gez">እለ፡ ይገብሩ፡ ፍትወተ፡ ነፍሶሙ፡</foreign>
+                     <foreign xml:lang="grc">καταθύμια</foreign>
+                     <ref cRef="Jes." loc="44,9">Jes. 44,9</ref>; <foreign xml:lang="gez">ኵሉ፡ ፍትወት፡ </foreign>
+                     <foreign xml:lang="grc">ὅλος ἐπιθυμία</foreign>
+                     <ref cRef="Cant." loc="5,16">Cant. 5,16</ref>; <foreign xml:lang="gez">ብእሴ፡
+                        ፍትወት፡ አንተ፡</foreign>
+                     <ref cRef="Dan." loc="9,23">Dan. 9,23</ref>; <ref cRef="Dan." loc="10,11">Dan.
+                        10,11</ref>; <ref cRef="Dan. " loc="10,19">Dan. 10,19</ref>.</sense>
+                  <sense n="d" xml:id="Dd">
+                     <cit type="translation" xml:lang="la">
+                        <quote>studium</quote>
+                     </cit>, <foreign xml:lang="grc">προαίρεσις</foreign>
+                     <ref cRef="Koh." loc="1,14">Koh. 1,14</ref>; <ref cRef="Koh." loc="2,11">Koh.
+                        2,11</ref>; <ref cRef="Koh." loc="2,22">Koh. 2,22</ref>.</sense>
+                  <sense n="e" xml:id="De">
+                     <cit type="translation" xml:lang="la">
+                        <quote>voluntas</quote>
+                     </cit> Dei, <ref cRef="1 Joh." loc="2,17">1 Joh. 2,17</ref>.</sense>
+               </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

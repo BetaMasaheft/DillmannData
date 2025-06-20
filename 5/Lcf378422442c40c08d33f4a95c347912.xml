@@ -1,0 +1,95 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ጽህቀ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="LB" when="2018-05-15">root</change>
+        </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="Lcf378422442c40c08d33f4a95c347912" n="9118">
+               <form>
+                  <foreign xml:lang="gez">ጽህቀ</foreign>
+               <rs type="root"/>
+                    </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain"> <subc>I,1</subc> [<foreign xml:lang="he">שׁוּק</foreign> <foreign xml:lang="ar">شَاقَ</foreign>] <gramGrp> <pos expand="Subjunctivus">Subj.</pos> </gramGrp> <foreign xml:lang="gez">ይጽሀቅ፡</foreign> <sense n="1" xml:id="D1"> <cit type="translation" xml:lang="la">
+                                <quote> cupire </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> desiderare </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> expetere </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> desiderio teneri </quote>
+                            </cit> vel <cit type="translation" xml:lang="la">
+                                <quote> affectum esse </quote>
+                            </cit>, <foreign xml:lang="gez">ይጽህቅ፡ በነፍሱ፡</foreign> <ref cRef="1 Reg." loc="2,33">1 Reg. 2,33</ref>; <ref cRef="Hen." loc="21,5">Hen. 21,5</ref>; <lbl expand="cum">c.</lbl> <gramGrp> <case value="accusativus">Acc.</case> </gramGrp>: <foreign xml:lang="gez">የኀሥሡ፡ ወይጽህቁ፡ ገጾ፡ ለሰሎሞን፡</foreign> <ref cRef="2 Par. " loc="9,23">2 Par.  9,23</ref>; <lbl expand="cum">c.</lbl> <foreign xml:lang="gez">ኀበ፡</foreign> rei: <foreign xml:lang="gez">ኅሊናሁ፡ ይጽህቅ፡ ኀበ፡ ምንኵስና፡</foreign> <ref cRef="Sx. Masc." loc="14">Sx. Masc. 14</ref>; <lbl expand="sequens">seq.</lbl> <gramGrp> <pos expand="Subjunctivus">Subj.</pos> </gramGrp> verbi: <ref cRef="Rom." loc="15,23">Rom. 15,23</ref>; <ref cRef="Phil. " loc="2,26">Phil.  2,26</ref>; <lbl expand="cum">c.</lbl> <foreign xml:lang="gez">ለ፡</foreign> et Infin.: <foreign xml:lang="gez">ይጽህቁ፡ ለሰሚዕ፡</foreign> <ref cRef="Chrys. ho." loc="4.">Chrys. ho. 4.</ref> </sense> <sense n="2" xml:id="D2"> desiderare i.e. <cit type="translation" xml:lang="la">
+                                <quote> opus habere </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> indigere </quote>
+                            </cit>, <lbl expand="cum">c.</lbl> <gramGrp> <case value="accusativus">Acc.</case> </gramGrp>: <ref cRef="Act." loc="17,25">Act. 17,25</ref> Platt; <ref cRef="1 Thess." loc="4,12">1 Thess. 4,12</ref> (c. <foreign xml:lang="gez">ኀበ፡</foreign> Platt); <lbl expand="sequens">seq.</lbl> <gramGrp> <pos expand="Subjunctivus">Subj.</pos> </gramGrp> vel <foreign xml:lang="gez">ከመ፡</foreign> <lbl expand="cum">c.</lbl> <gramGrp> <pos expand="Subjunctivus">Subj.</pos> </gramGrp> verbi, <ref cRef="Luc." loc="14,18">Luc. 14,18</ref>.</sense> <sense n="3" xml:id="D3"> <cit type="translation" xml:lang="la">
+                                <quote> sollicitum esse </quote>
+                            </cit> de re, <cit type="translation" xml:lang="la">
+                                <quote> studiosum esse </quote>
+                            </cit> rei, <cit type="translation" xml:lang="la">
+                                <quote> curam habere </quote>
+                            </cit> rei, <lbl expand="cum">c.</lbl> <foreign xml:lang="gez">ለ፡</foreign> pers.: <foreign xml:lang="gez">እጽህቅ፡ ለክሙ፡ ዘልፈ፡</foreign> <ref cRef="2 Petr." loc="1,12">2 Petr. 1,12</ref>; <foreign xml:lang="gez">ጽህቅሙ፡ ለነ፡</foreign> <foreign xml:lang="grc">σπουδή</foreign> <ref cRef="2 Cor." loc="7,12">2 Cor. 7,12</ref>; <ref cRef="Phil." loc="2,4">Phil. 2,4</ref> Platt; <ref cRef="Rom." loc="1,15">Rom. 1,15</ref>; <lbl expand="cum">c.</lbl> <foreign xml:lang="gez">ለ፡</foreign> rei: <foreign xml:lang="gez">ኢንጽሀቅ፡ ለግብረ፡ ዓለም፡</foreign> <ref cRef="Chrys. Ta." loc="27">Chrys. Ta. 27</ref>; <lbl expand="cum">c.</lbl> <foreign xml:lang="gez">በ፡</foreign> rei: <foreign xml:lang="gez">እጽህቅ፡ ባቲ፡ በልብየ፡</foreign> <foreign xml:lang="grc">φροντίσας</foreign> <ref cRef="Sap." loc="8,17">Sap. 8,17</ref>; <lbl expand="cum">c.</lbl> <foreign xml:lang="gez">በእንተ፡</foreign> <ref cRef="Phil." loc="2,25">Phil. 2,25</ref>; <ref cRef="2 Cor." loc="7,12">2 Cor. 7,12</ref> Platt; <foreign xml:lang="gez">እንዘ፡ ትጽህቅ፡ በእንቲአየ፡</foreign> <ref cRef="Org." loc="4">Org. 4</ref>; <lbl expand="sequens">seq.</lbl> <gramGrp> <pos expand="Subjunctivus">Subj.</pos> </gramGrp> verbi: <ref cRef="1 Thess." loc="2,17">1 Thess. 2,17</ref> (<foreign xml:lang="grc">σπουδάζειν</foreign>); <ref cRef="Gal." loc="2,10">Gal. 2,10</ref>; vel <lbl expand="sequens">seq.</lbl> <foreign xml:lang="gez">ለ፡</foreign> <lbl expand="cum">c.</lbl> Infin. <foreign xml:lang="gez">ንጽሀቅ፡ ለአጥርዮተ፡ ዝንቱ፡</foreign> <ref cRef="Chrys. Ta. " loc="34">Chrys. Ta.  34</ref>; <foreign xml:lang="gez">መፍትውኬ፡ ንጻሙ፡ በእንተ፡ ሙታን፡ ወንጽሀቅ፡ ለዘክሮቶሙ፡</foreign> <ref cRef="Genz. " loc="147">Genz.  f. 147</ref>; <gramGrp> <pos expand="absolute">abs.</pos> </gramGrp>: <foreign xml:lang="grc">προθυμία</foreign> <ref cRef="2 Cor." loc="9,2">2 Cor. 9,2</ref>; <foreign xml:lang="gez">እስመ፡ ጽሂቆ፡ ፈነወኒ፡ በነግህ፡</foreign> Rel. Bar.; <foreign xml:lang="gez">በጽሂቅ፡ ወአስተሓምሞ፡</foreign> <ref cRef="Sx. Mij." loc="12 ">Sx. Mij. 12 </ref>Enc.; <cb n="1255" xml:id="c1255"/> <foreign xml:lang="gez">ጽሂቅ፡</foreign> <cit type="translation" xml:lang="la">
+                                <quote> cura </quote>
+                            </cit> et <cit type="translation" xml:lang="la">
+                                <quote> studium </quote>
+                            </cit> <ref cRef="Kid." loc="20.">Kid. f. 20.</ref> – <lbl expand="Vocabularium Aethiopicum, -a -a">Voc. Ae.</lbl>: <foreign xml:lang="gez">ሠምረ፡ ፈቀደ፡ ጽህቀ፡ ዘ፡ ወደደ፡</foreign> </sense> </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,83 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ኀላዊ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="MK" when="2018-11-19">added new comment</change>
+            <change who="MK" when="2018-11-19">corr</change>
+            <change who="MK" when="2018-11-19">corr</change>
+            <change who="MK" when="2018-11-19">corr</change>
+            <change who="MK" when="2018-11-19">added Leslau</change>
+            <change who="MK" when="2018-11-19">added new witness, to be peer-reviewed</change>
+        <change who="MK" when="2023-01-19">added Gr</change><change who="MK" when="2023-01-19">added Pl</change><change who="MK" when="2023-01-19">added Gr 2</change></revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="Lf83aa7f0deac4ffa94875489f3d3f109" n="4421">
+               <form>
+                  <foreign xml:lang="gez">ኀላዊ</foreign>
+               </form>
+               <sense xml:id="Dmain" xml:lang="la" source="#dillmann"> <gramGrp> <pos expand="nomen agentis">n. ag.</pos> </gramGrp> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> custos </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> vigil </t:quote></cit>: <foreign xml:lang="gez">ኀላዌ፡ ብዕራይ፡</foreign> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> custos boum </t:quote></cit>, (in lingua Tigrensi), Lud. sine <lbl expand="auctore, auctoritate">auct.</lbl> </sense>
+               
+            <sense xml:id="Tmain" xml:lang="en" source="#traces"> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> ḫallāwi </t:quote></cit>, <foreign xml:lang="gez">ሐላዊ፡</foreign><cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">ḥalawi</t:quote></cit>, <lbl expand="pluralis">Pl.</lbl> <foreign xml:lang="gez">ሐላውያን፡</foreign><cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">ḥalawǝyān</t:quote></cit> <sense n="1" xml:id="T1"> ‘<cit type="translation" xml:lang="it"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> guardiano </t:quote></cit>’ <foreign xml:lang="gez">ኖላዊ፡ ዘመዓልት፡ ኀላዊ፡ ዘሌሊት፡</foreign> ‘<cit type="translation" xml:lang="it"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> pastore diurno, guardiano notturno </t:quote></cit>’ <bibl><ptr target="bm:Bausi2003Libanos"/><citedRange unit="page"> 175 § 450 (ed.)</citedRange></bibl>, <bibl><ptr target="bm:Bausi2003LibanosTr"/><citedRange unit="page"> 100 § 450 (tr.)</citedRange></bibl> (‘«guardiano»: testo <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> ḫallāwi </t:quote></cit> {...} <bibl><ptr target="bm:KidaneWaldGeezGramDict"/><citedRange unit="page"> 477</citedRange></bibl> riporta dal <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> Deggʷā </t:quote></cit> esattamente l’espressione che compare qui; si trata probabilmente di un tigrinismo, vd. per tutti <bibl><ptr target="bm:Kane2000DictTgrVol1"/><citedRange unit="page"> 158</citedRange></bibl>.’ <bibl><ptr target="bm:Bausi2003LibanosTr"/><citedRange unit="page"> 100 n. 82</citedRange></bibl> ) 
+</sense> <sense n="G" xml:id="TG"> <foreign xml:lang="gez">ሐላዊ፡</foreign><cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">ḥalawi</t:quote></cit>, <lbl expand="pluralis">Pl.</lbl> <foreign xml:lang="gez">ሐላውያን፡</foreign><cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">ḥalawǝyān</t:quote></cit> «<cit type="translation" xml:lang="fr"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">gardien</t:quote></cit>» ― <foreign xml:lang="am">ጠባቂ፡</foreign> Ms. <ref type="BM" target="BNFabb217">BNFabb217</ref>, fol. 20v. <foreign xml:lang="gez">ሐላዊ፡ ዘሌሊት፡</foreign> Ms. <ref type="BM" target="BAVet30">BAVet30</ref>, fol. 25r. <lb/>
+ <bibl><ptr target="bm:Grebaut1952SuppLexicon"/><citedRange unit="page"> 43</citedRange></bibl> <lb/>
+ <foreign xml:lang="gez">ኀላዊ፡</foreign> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> ḫallāwi </t:quote></cit> or <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">ḫalāwi</t:quote></cit> {Grébaut does not mention whether here he means a form derived from a <subc>I,1</subc> or <subc>I,2</subc> verb.} <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">custos</t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">vigil</t:quote></cit>, <cit type="translation" xml:lang="fr"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">gardien</t:quote></cit> (de nuit), <cit type="translation" xml:lang="fr"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">veilleur</t:quote></cit>, <cit type="translation" xml:lang="fr"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">vigile</t:quote></cit> <foreign xml:lang="gez">ኀላዊ፡ ዘሌሊት፡</foreign> Ms. <ref type="BM" target="BAVet30">BAVet30</ref>, fol. 25r. <lb/>
+ <bibl><ptr target="bm:Grebaut1952SuppLexicon"/><citedRange unit="page"> 203–204</citedRange></bibl> <lb/>
+ 
+</sense> <sense n="L" xml:id="TL"> <foreign xml:lang="gez">ኀላዊ</foreign> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> ḫallāwi </t:quote></cit> <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> custodian </t:quote></cit> <bibl><ptr target="bm:Leslau1987dic"/><citedRange unit="page"> 262a</citedRange></bibl> 
+</sense> </sense>
+                </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

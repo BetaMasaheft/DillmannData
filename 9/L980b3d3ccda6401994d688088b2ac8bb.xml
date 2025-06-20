@@ -1,0 +1,87 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ሐስል </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L980b3d3ccda6401994d688088b2ac8bb" n="684">
+               <form>
+                  <foreign xml:lang="gez">ሐስል</foreign>
+               </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain">
+                  <gramGrp>
+                     <pos expand="Substantivum">subst.</pos>
+                  </gramGrp> (sarcina, fascis) <cit type="translation" xml:lang="la">
+                     <quote>saccus frumentarius</quote>
+                  </cit>, <foreign xml:lang="grc">μάρσιππος</foreign>
+                  <ref cRef="Gen." loc="42,27">Gen. 42,27</ref>; <ref cRef="Gen." loc="42,28">Gen.
+                     42,28</ref>; <ref cRef="Gen." loc="44,2">Gen. 44,2</ref>; <ref cRef="Gen." loc="44,12">Gen. 44,12</ref>; <foreign xml:lang="grc">σάκκος</foreign>
+                  <ref cRef="Lev." loc="11,32">Lev. 11,32</ref>; <ref cRef="Kuf." loc="43">Kuf.
+                     43</ref>; <lbl expand="pluralis">Pl.</lbl>
+                  <foreign xml:lang="gez">አሕስል፡</foreign>
+                  <ref cRef="Gen." loc="42,25">Gen. 42,25</ref>; <ref cRef="Gen." loc="42,35">Gen.
+                     42,35</ref>; <ref cRef="Gen." loc="43,11">Gen. 43,11</ref>; <ref cRef="Gen." loc="43,22">Gen. 43,22</ref>; <ref cRef="Gen. " loc="44,1">Gen. 44,1</ref>;
+                     <ref cRef="Kuf." loc="42,">Kuf. 42,</ref> et <foreign xml:lang="gez">አሕሳል፡</foreign> vid. <ref cRef="Gen." loc="42,25">Gen. 42,25</ref>
+                  <lbl expand="annotatio">ann.</lbl>; <foreign xml:lang="gez">ሰረቅት፡ እለ፡ ይፈትሑ፡
+                     አሕሳለ፡</foreign> F.N. 49. –<lbl expand="Vocabularium Aethiopicum, -a -a.">Voc. Ae.</lbl>: <foreign xml:lang="gez">ሐስል፡ ዘ፡ ዳውላ።</foreign> (Significationem <cit type="translation" xml:lang="la">
+                     <quote>corbis</quote>
+                  </cit> huic voci attribuit Gregorius Lud. <lbl expand="lexicon">lex.</lbl>
+                  <lbl expand="columna">col.</lbl> 37). </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,155 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ተዐገለ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="Le3b1d90c3a1a4d489fb51915e7fb5f07" n="7346">
+               <form>
+                  <foreign xml:lang="gez">ተዐገለ</foreign>
+               </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain"> <subc>III,2</subc> [amh. <foreign xml:lang="gez">ታገለ፡</foreign>] antevertendo eripere alicui aliquid i.e. <sense n="1" xml:id="D1">
+                     <cit type="translation" xml:lang="la">
+                        <quote>fraudare</quote>
+                     </cit>, <cit type="translation" xml:lang="la">
+                        <quote>defraudare</quote>
+                     </cit>, <cit type="translation" xml:lang="la">
+                        <quote>fraude et injuria subtrahere </quote>
+                     </cit>
+                     <cb n="1014" xml:id="c1014"/> alicui aliquid (<note>beeinträchtigen</note>,
+                        <note>übervortheilen</note>), <lbl expand="cum">c.</lbl>
+                     <gramGrp>
+                        <case value="accusativus">Acc.</case>
+                     </gramGrp>
+                     <lbl expand="persona">pers.</lbl>: <foreign xml:lang="grc">συκοφαντεῖν</foreign>
+                     <foreign xml:lang="gez">ዘይትዔገል፡ ነዳየ፡ </foreign>
+                     <ref cRef="Prov." loc="14,31">Prov. 14,31</ref>; <ref cRef="Prov." loc="22,16">Prov. 22,16</ref>; <foreign xml:lang="gez">ናሁ፡ አንብዕ፡ ለእለ፡ ይትዔገልዎሙ፡ ወአልቦ፡
+                        ዘይናዝዞሙ፡ እምእደ፡ እለ፡ ይትዔገልዎሙ፡</foreign>
+                     <ref cRef="Koh." loc="4,1">Koh. 4,1</ref>; <ref cRef="Lev." loc="19,11">Lev.
+                        19,11</ref>; <foreign xml:lang="grc">πλεονεκτεῖν</foreign>
+                     <ref cRef="1 Thess." loc="4,6">1 Thess. 4,6</ref>; <ref cRef="2 Cor." loc="7,2">2 Cor. 7,2</ref>; <ref cRef="2 Cor." loc="12,17">2 Cor. 12,17</ref>; <ref cRef="Hab." loc="2,9">Hab. 2,9</ref>; <foreign xml:lang="gez">ይትዔገሎ፡ ባዕል፡
+                        ለነዳይ፡</foreign>
+                     <foreign xml:lang="grc">νομαὶ πλουσίων πτωχοί</foreign>
+                     <ref cRef="Sir." loc="13,19">Sir. 13,19</ref>; <foreign xml:lang="gez">ተዐገልዎሙ፡
+                        ኃጥኣን፡</foreign>
+                     <ref cRef="Job" loc="24,6">Job 24,6</ref>; <foreign xml:lang="grc">κριθῆναι</foreign>
+                     <ref cRef="Matth." loc="5,40">Matth. 5,40</ref>; <lbl expand="cum">c.</lbl>
+                     <foreign xml:lang="gez">ለ፡</foreign> pers. <ref cRef="Luc." loc="3,14">Luc.
+                        3,14</ref>; <gramGrp>
+                        <pos expand="absolute">abs.</pos>
+                     </gramGrp>: <ref cRef="Org." loc="1.">Org. 1.</ref>
+                  </sense>
+                  <sense n="2" xml:id="D2">
+                     <cit type="translation" xml:lang="la">
+                        <quote>injuste et violenter opprimere</quote>
+                     </cit>, <cit type="translation" xml:lang="la">
+                        <quote>vim inferre</quote>
+                     </cit>, <lbl expand="cum">c.</lbl>
+                     <gramGrp>
+                        <case value="accusativus">Acc.</case>
+                     </gramGrp>
+                     <lbl expand="persona">pers.</lbl>: <foreign xml:lang="grc">καταδυναστεύειν</foreign>: <foreign xml:lang="gez">አልቦ፡ ዘተዐገሎ፡
+                        ወኢመኑሂ፡</foreign>
+                     <ref cRef="Sir." loc="48,12">Sir. 48,12</ref>; <ref cRef="Sap." loc="2,10">Sap.
+                        2,10</ref>; <ref cRef="Ex." loc="1,13">Ex. 1,13</ref>; <ref cRef="1 Reg." loc="12,3">1 Reg. 12,3</ref>; <ref cRef="1 Reg." loc="12,4">1 Reg.
+                        12,4</ref>; <ref cRef="Job " loc="29,12">Job 29,12</ref>; <ref cRef="Jer." loc="7,6">Jer. 7,6</ref>; <ref cRef="Jer." loc="22,3">Jer. 22,3</ref>; <ref cRef="Jer." loc="27,33">Jer. 27,33</ref>; <ref cRef="Jac." loc="2,6">Jac.
+                        2,6</ref>; <ref cRef="Act." loc="10,38">Act. 10,38</ref>; <foreign xml:lang="grc">στερεωτέρων αὐτοῦ</foreign>
+                     <ref cRef="Ps." loc="34,12">Ps. 34,12</ref>; <foreign xml:lang="grc">ἐπηρεάζειν</foreign>
+                     <ref cRef="Luc." loc="6,28">Luc. 6,28</ref>; <ref cRef="Kuf." loc="47.">Kuf.
+                        47.</ref>
+                     <sense n="a" xml:id="D2a">
+                        <cit type="translation" xml:lang="la">
+                           <quote>vim afferre </quote>
+                        </cit>feminae, <cit type="translation" xml:lang="la">
+                           <quote>per vim violare</quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                           <quote>vi comprimere</quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                           <quote>stuprare</quote>
+                        </cit>: <foreign xml:lang="gez">ብእሲትየኒ፡ ትትዔገለኒ፡ በቤትየ፡ </foreign>
+                        <foreign xml:lang="grc">βιάζῃ</foreign>
+                        <ref cRef="Esth." loc="7,8">Esth. 7,8</ref>; <ref cRef="Kuf." loc="39">Kuf.
+                           39</ref>; <ref cRef="4 Esr. " loc="10,33">4 Esr. 10,33</ref>; F.M.
+                        6,8.</sense>
+                     <sense n="b" xml:id="D2b">
+                        <cit type="translation" xml:lang="la">
+                           <quote>vi adigere</quote>
+                        </cit>: <foreign xml:lang="gez">ይትዔገልዎ፡ ከመ፡ ይሑር፡</foreign>
+                        <ref cRef="Kuf. " loc="134.">Kuf. p. 134.</ref>
+                     </sense>
+                     <sense n="c" xml:id="D2c">
+                        <cit type="translation" xml:lang="la">
+                           <quote>vim adhibere</quote>
+                        </cit>: <foreign xml:lang="gez">ተዐገለ፡ ለነሢአ፡ መንግሥት፡ እምእኁሁ፡ </foreign>
+                        <ref cRef="Jsp." loc="309.">Jsp. p. 309.</ref>
+                     </sense>
+                     <sense n="d" xml:id="D2d">
+                        <cit type="translation" xml:lang="la">
+                           <quote>exprimere </quote>
+                        </cit>vel <cit type="translation" xml:lang="la">
+                           <quote>extorquere </quote>
+                        </cit>(vi vel fraude) alicui aliquid, <lbl expand="cum">c.</lbl>
+                        <gramGrp>
+                           <case value="accusativus">Acc.</case>
+                        </gramGrp> rei, ut: <foreign xml:lang="gez">ለእመ፡ ተዐገለ፡ ልብሰ፡</foreign> F.N.
+                        35.</sense>
+                  </sense>
+               </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

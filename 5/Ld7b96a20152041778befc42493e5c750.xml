@@ -1,0 +1,90 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ጸምሀየ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="PL" when="2018-01-12">fixed rad abb</change>
+        <change who="LB" when="2018-05-15">root</change>
+        </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="Ld7b96a20152041778befc42493e5c750" n="9224">
+               <form>
+                  <foreign xml:lang="gez">ጸምሀየ</foreign>
+               <rs type="root"/>
+                    </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain"> quadril. I et <foreign xml:lang="gez">ጸምሀየየ፡</foreign> vel <foreign xml:lang="gez">ጸማህየየ፡</foreign> quinquel. I, etiam per <foreign xml:lang="gez">ሐ</foreign>, [referendum ad <foreign xml:lang="he">צָמֵא</foreign> (<foreign xml:lang="gez">ጸምአ፡</foreign>) et <foreign xml:lang="he">צָמַק</foreign>? an inserta nasalis <foreign xml:lang="gez">ን</foreign> (<lbl expand="videas">vid.</lbl> <foreign xml:lang="gez">ጽንሁይ፡</foreign> pro <foreign xml:lang="gez">ጽምሁይ፡</foreign>) vel <foreign xml:lang="gez">ም</foreign> ex <foreign xml:lang="he">צָחָה צָיָה</foreign> <foreign xml:lang="syr">ܨܘܳܐ</foreign> <foreign xml:lang="ar">صَوَا</foreign> et <foreign xml:lang="ar">صَوِىَ</foreign> propagatum?] <cit type="translation" xml:lang="la">
+                            <quote> exarescere </quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                            <quote> marcere </quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                            <quote> marcescere </quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                            <quote> flaccescere </quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                            <quote> flaccere </quote>
+                        </cit>: <foreign xml:lang="gez">ይጸመሂ፡</foreign> <foreign xml:lang="grc">μαρανθήσεται</foreign> <ref cRef="Jac." loc="1,11">Jac. 1,11</ref>; <ref cRef="4 Esr." loc="7,28">4 Esr. 7,28</ref>; <ref cRef="Hen." loc="24,4">Hen. 24,4</ref>; <foreign xml:lang="gez">ይጸመሂ፡ ከመ፡ መሎኬ፡ በውስተ፡ ሐሩር፡</foreign> <ref cRef="Job" loc="24,24">Job 24,24</ref>; <foreign xml:lang="gez">ዘእንበለ፡ ይጸምሂ፡</foreign> (v. <foreign xml:lang="gez">ይጸመሂ፡</foreign>) <ref cRef="Sap." loc="2,8">Sap. 2,8</ref>; <foreign xml:lang="gez">ዘኢይጸመሂ፡</foreign> <cit type="translation" xml:lang="la">
+                            <quote> immarcescibilis </quote>
+                        </cit> <ref cRef="1 Petr." loc="1,4">1 Petr. 1,4</ref>; <ref cRef="1 Petr." loc="5,4">1 Petr. 5,4</ref>; <foreign xml:lang="gez">ርኢ፡ ከመ፡ ኢጸመሃየየ፡</foreign> (sic! pro <foreign xml:lang="gez">ኢጸማህየየ፡</foreign>) <foreign xml:lang="gez">በለስ፡</foreign> Rel. Bar. <sense n="a" xml:id="Da"> de hominibus: <cit type="translation" xml:lang="la">
+                                <quote> languescere </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> contabescere </quote>
+                            </cit>: <foreign xml:lang="gez">ደቂቅኪኑ፡ እለ፡ ጸምሀዩ፡</foreign> (v. <foreign xml:lang="gez">ጸምሀየዩ፡</foreign> et <foreign xml:lang="gez">ጸማህየዩ፡</foreign>) <foreign xml:lang="grc">οἱ ἀπορούμενοι</foreign> <ref cRef="Jes." loc="51,20">Jes. 51,20</ref>; <foreign xml:lang="gez">ይጸመሀይዩ፡</foreign> (Laur.: <foreign xml:lang="gez">ይጸመሀዩ፡</foreign> ni hanc formam ad <subc>III,1</subc> referre malueris) <foreign xml:lang="gez">በፍርሀት፡</foreign> <ref cRef="4 Esr." loc="6,62">4 Esr. 6,62</ref>.</sense> <sense n="b" xml:id="Db"> de veste: <cit type="translation" xml:lang="la">
+                                <quote> veterascere </quote>
+                            </cit>, ut: tunica <foreign xml:lang="gez">ዘኢይጸመሂ፡ ዘልፈ፡</foreign> Lud. ex <ref cRef="Sx. Teq." loc="14 ">Sx. Teq. 14 </ref>Enc. – <lbl expand="Vocabularium Aethiopicum, -a -a">Voc. Ae.</lbl>: <foreign xml:lang="gez">መጽለወ፡ ወጸምሀየየ፡</foreign> (v. <foreign xml:lang="gez">ወጸሀየየ፡</foreign>) <foreign xml:lang="gez">ዘ፡ ጸለጐ፡</foreign>; <lbl expand="Radices Abbadianae (collectio radicum Geez linguae Mss.).">Rad. Abb.</lbl>: <foreign xml:lang="gez">ጸማህየየ፡ ዘ፡ ጸወለገ።</foreign> <cb n="1270" xml:id="c1270"/> </sense> </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

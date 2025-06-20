@@ -1,0 +1,126 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> መንገድ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="Lc4bcf4fb39a94d1b9e3359c4dfc90845" n="5227">
+               <form>
+                  <foreign xml:lang="gez">መንገድ</foreign>
+               </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain"> (raro <foreign xml:lang="gez">መንግድ፡</foreign>), <gramGrp>
+                     <gen value="masculinum">m.</gen>
+                  </gramGrp> et <gramGrp>
+                     <gen value="femininus">fem.</gen>
+                  </gramGrp>, <sense n="1" xml:id="D1">
+                     <cit type="translation" xml:lang="la">
+                        <quote>via publica</quote>
+                     </cit>, <ref cRef="Num." loc="21,22">Num. 21,22</ref>; <foreign xml:lang="gez">ኢትሖሩ፡ መንገደ፡</foreign>
+                     <ref cRef="Jer. " loc="6,25">Jer. 6,25</ref>; <foreign xml:lang="gez">ኢጼሐ፡
+                        መንገደ፡</foreign>
+                     <ref cRef="Jer." loc="10,23">Jer. 10,23</ref>; <foreign xml:lang="gez">ጥቃ፡
+                        መንገድ፡</foreign>
+                     <foreign xml:lang="grc">παρὰ τὴν ὁδόν </foreign>
+                     <ref cRef="Matth." loc="20,30">Matth. 20,30</ref>; <ref cRef="Kuf." loc="100">Kuf. p. 100</ref>; <foreign xml:lang="gez">ይመርሖሙ፡ ፍኖተ፡ መንገድ፡
+                        ዘኢይትአመር፡</foreign>
+                     <ref cRef="Sap." loc="18,3">Sap. 18,3</ref>; <foreign xml:lang="gez">መንገድ፡
+                        ዘሐሠር፡</foreign> via straminis i.e. <cit type="translation" xml:lang="la">
+                        <quote>via lactea</quote>
+                     </cit> in coelo, Lud. (ex <lbl expand="auctore, auctoritate">auct.</lbl>
+                     Kircheri in Supplemento Prodromi et <ref cRef="Lexici Copt." loc="560">Lexici
+                        Copt. p. 560</ref>).</sense>
+                  <sense n="2" xml:id="D2">
+                     <cit type="translation" xml:lang="la">
+                        <quote>iter</quote>
+                     </cit>, <cit type="translation" xml:lang="la">
+                        <quote>profectio</quote>
+                     </cit>, <cit type="translation" xml:lang="la">
+                        <quote>peregrinatio</quote>
+                     </cit>, <foreign xml:lang="grc">ἀπαρτία </foreign>
+                     <ref cRef="Ex." loc="40,30">Ex. 40,30</ref>; <foreign xml:lang="grc">ἀποδημία</foreign>
+                     <ref cRef="Herm." loc="55">Herm. p. 55</ref>; <foreign xml:lang="grc">ἔξοδος</foreign>
+                     <ref cRef="Prov." loc="24,42">Prov. 24,42</ref>; <foreign xml:lang="grc">ὁδοιπορίαι</foreign>
+                     <ref cRef="2 Cor." loc="11,26">2 Cor. 11,26</ref>; <foreign xml:lang="gez">ዘየሐውር፡ መንገደ፡ </foreign>
+                     <ref cRef="Kuf." loc="166">Kuf. p. 166</ref>; <foreign xml:lang="gez">ምስለ፡
+                        መስተኀይል፡ ኢትኅበር፡ መንግደ፡ </foreign> (v. <foreign xml:lang="gez">መንገደ፡</foreign>)
+                        <ref cRef="Sir." loc="8,15">Sir. 8,15</ref>; <foreign xml:lang="grc">πλοῦζ</foreign>
+                     <cit type="translation" xml:lang="la">
+                        <quote>navigatio</quote>
+                     </cit>
+                     <ref cRef="Act." loc="27,9">Act. 27,9</ref>
+                     <lbl expand="romanae editionis">rom.</lbl>; <foreign xml:lang="gez">ምርዋጸ፡ ብእሲ፡
+                        እንተ፡ ይእቲ፡ መንገደ፡ ቀዳሚት፡ ሰንበት፡</foreign>
+                     <cit type="translation" xml:lang="la">
+                        <quote>iter sabbathi</quote>
+                     </cit>
+                     <ref cRef="Act." loc="1,12">Act. 1,12</ref>
+                     <lbl expand="romanae editionis">rom.</lbl>; <foreign xml:lang="gez">ጸሎተ፡ መንገደ፡
+                        ሰማይ፡ </foreign> (inscriptae sunt preces, quae pro moribundis vel mortuis
+                     fiunt) <ref cRef="Genz. " loc="19.">Genz. f. 19.</ref>
+                  </sense>
+                  <sense n="3" xml:id="D3">
+                     <cit type="translation" xml:lang="la">
+                        <quote>mercatura</quote>
+                     </cit>: <foreign xml:lang="gez">ብእሲ፡ ስእነ፡ ከመ፡ ይሴሲ፡ እሞ፡ እመሂ፡ በመንገድ፡ ወእመሂ፡ በግብር፡
+                        ዘይገብሩ፡ ሰብአ፡ ዓለም፡</foreign>
+                     <ref cRef="Clem." loc="219.">Clem. f. 219.</ref>
+                  </sense>
+               </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

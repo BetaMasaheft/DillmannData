@@ -1,0 +1,73 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ጸምአ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="LB" when="2018-05-15">root</change>
+        </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="Ld6ab316b95544277ad00c13f446e045b" n="9244">
+               <form>
+                  <foreign xml:lang="gez">ጸምአ</foreign>
+               <rs type="root"/>
+                    </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain"> <subc>I,1</subc> [<foreign xml:lang="he">צָמֵא</foreign> <foreign xml:lang="ar">ظَمِئَ</foreign>] <gramGrp> <pos expand="Subjunctivus">Subj.</pos> </gramGrp> <foreign xml:lang="gez">ይጽማእ፡</foreign> <cit type="translation" xml:lang="la">
+                            <quote> sitire </quote>
+                        </cit>: <ref cRef="Ruth " loc="2,9">Ruth  2,9</ref>; <ref cRef="Jud." loc="4,19">Jud. 4,19</ref>; <ref cRef="Jud." loc="15,18">Jud. 15,18</ref>; <ref cRef="2 Reg." loc="17,29">2 Reg. 17,29</ref>; <ref cRef="Jes." loc="25,5">Jes. 25,5</ref>; <ref cRef="Jes." loc="55,1">Jes. 55,1</ref>; <ref cRef="Judith" loc="8,30">Judith 8,30</ref>; <foreign xml:lang="gez">ኢንጽማእ፡ እንከ፡</foreign> <ref cRef="Judith" loc="8,31">Judith 8,31</ref>; <foreign xml:lang="gez">ጽምኡ፡</foreign> (Imperat.) <ref cRef="Jes." loc="65,13">Jes. 65,13</ref>; <ref cRef="Sir." loc="51,24">Sir. 51,24</ref>; <ref cRef="Prov." loc="25,21">Prov. 25,21</ref>; <ref cRef="Ps." loc="106,5">Ps. 106,5</ref>; <ref cRef="Joh." loc="4,13">Joh. 4,13</ref>; <ref cRef="Joh. " loc="7,37">Joh.  7,37</ref>; <ref cRef="Matth." loc="25,35">Matth. 25,35</ref>; <cb n="1272" xml:id="c1272"/> <lbl expand="cum">c.</lbl> <gramGrp> <case value="accusativus">Acc.</case> </gramGrp> aquae, al.: <foreign xml:lang="gez">እለ፡ ጸምኡ፡ ማየ፡ በበድው፡</foreign> <ref cRef="Jes." loc="48,21">Jes. 48,21</ref>; <ref cRef="Ex." loc="17,3">Ex. 17,3</ref>; <ref cRef="Ps." loc="142,6">Ps. 142,6</ref>; vel <lbl expand="cum">c.</lbl> <foreign xml:lang="gez">ለ፡</foreign> <ref cRef="Ps." loc="62,2">Ps. 62,2</ref>; <ref cRef="Matth." loc="5,6">Matth. 5,6</ref>; <lbl expand="cum">c.</lbl> <foreign xml:lang="gez">ኀበ፡</foreign> Dei, <ref cRef="Ps." loc="41,2">Ps. 41,2</ref>. </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

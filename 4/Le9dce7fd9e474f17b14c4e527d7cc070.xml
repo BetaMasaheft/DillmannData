@@ -1,0 +1,91 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> አስተቀረበ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="Le9dce7fd9e474f17b14c4e527d7cc070" n="3326">
+               <form>
+                  <foreign xml:lang="gez">አስተቀረበ</foreign>
+               </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain"> <subc>IV,2</subc> et <foreign xml:lang="gez">አስተቃረበ፡</foreign> <subc>IV,3</subc> <cit type="translation" xml:lang="la">
+                     <quote>p</quote>
+                  </cit>
+                  <cit type="translation" xml:lang="la">
+                     <quote>ropinquum facere</quote>
+                  </cit>, <cit type="translation" xml:lang="la">
+                     <quote>admovere</quote>
+                  </cit>, <cit type="translation" xml:lang="la">
+                     <quote>adjungere</quote>
+                  </cit> aliquem vel aliquid sibi, aliis vel (<subc>IV,3</subc>) inter se invicem: <foreign xml:lang="gez">ዘጠቢብ፡ በቃሉ፡ ያስተቄርብ፡ ርእሶ፡</foreign>
+                  <foreign xml:lang="grc">ἑαυτὸν προσφιλῆ ποιήσει </foreign>
+                  <cit type="translation" xml:lang="la">
+                     <quote>se propius</quote>
+                  </cit> (ad necessitudinem vol benevolentiam aliorum) <cit type="translation" xml:lang="la">
+                     <quote>admovet</quote>
+                  </cit>
+                  <ref cRef="Sir." loc="20,13">Sir. 20,13</ref>; <foreign xml:lang="gez">አሌሎሙ፡ ለእለ፡
+                     ያስተቃርቡ፡ ገራህተ፡ ምስለ፡ ገራህት፡</foreign>
+                  <ref cRef="Jes." loc="5,8">Jes. 5,8</ref>; <ref cRef="Did." loc="1">Did. 1</ref>;
+                  (secundum Nestorianos <foreign xml:lang="grc">ὁ Λόγος</foreign> hominem in Maria
+                  natum) <foreign xml:lang="gez">ነሥአ፡ ወኪያሁ፡ አስተቃረቦ፡ ለርእሱ፡</foreign>
+                  <foreign xml:lang="grc">καὶ τοῦτον ἑαυτῷ συνῆψε</foreign> Cyr. c <ref cRef="Pall." loc="74">Pall. f. 74</ref>; Cyr. c. <ref cRef="Pall." loc="85.">Pall. 85.</ref>
+               </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

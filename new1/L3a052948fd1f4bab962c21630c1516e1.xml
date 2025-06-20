@@ -1,0 +1,198 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="gez">ግምዣ</title>
+                <author>Alessandro Bausi</author>
+                <author>Andreas Ellwardt</author>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+                <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+                <pubPlace>Hamburg</pubPlace>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-sa-nc/4.0/"> This file
+                        is licensed under the Creative Commons Attribution-ShareAlike Non Commercial
+                        4.0. </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                        Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice
+                            latino. Adiectum est vocabularium tigre dialecti septentrionalis
+                            compilatum</emph> a W. Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+                </p>
+                <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced
+                        Grant TraCES (Grant Agreement 338756)</ref>
+                </p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>A digital edition of the Lexicon in TEI.</p>
+            <listPrefixDef>
+                <prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/>
+            </listPrefixDef>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="la">latin</language>
+                <language ident="it">Italian</language>
+                <language ident="gez">Gǝʿǝz</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="syr">Syriac</language>
+                <language ident="ar">Arabic</language>
+                <language ident="sa">Sanskrit</language>
+                <language ident="geo">Georgian</language>
+                <language ident="cop">Coptic</language>
+                <language ident="osa">Old South Arabian</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change who="MK" when="2019-05-08">added new entry</change>
+            <change who="MK" when="2022-03-18">added examples</change>
+            <change who="MK" when="2022-03-18">added cross reference</change>
+            <change who="MK" when="2022-03-18">added example</change>
+            <change who="MK" when="2022-03-18">added link</change>
+            <change who="MK" when="2022-04-04">added new example</change>
+            <change who="MK" when="2022-04-11">correction</change>
+            <change who="MK" when="2022-04-11">added etymology</change>
+            <change who="MK" when="2022-04-11">correction</change>
+            <change who="MK" when="2022-04-12">correction</change>
+            <change who="MK" when="2022-05-11">correction</change>
+            <change who="MK" when="2022-05-11">corrections</change>
+            <change who="MK" when="2022-05-11">correction</change>
+            <change who="MK" when="2022-05-11">correction</change>
+            <change who="MK" when="2022-05-11">correction</change>
+            <change who="MK" when="2022-05-11">added example</change>
+            <change who="MK" when="2022-05-11">added example</change>
+            <change who="MK" when="2022-05-11">correction</change>
+            <change who="MK" when="2022-06-14">correction</change>
+            <change who="MK" when="2022-07-13">added examples</change>
+            <change who="MK" when="2022-07-13">added example</change>
+            <change who="MK" when="2022-07-13">added note on Tigrinya</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <entry xml:id="L3a052948fd1f4bab962c21630c1516e1" n="12590">
+                    <form>
+                        <foreign xml:lang="gez">ግምጃ</foreign>
+                    </form>
+                    <sense xml:id="Tmain" xml:lang="en" source="#traces">
+                        <cit type="transcription" xml:lang="gez">
+                            <t:quote xmlns:t="http://www.tei-c.org/ns/1.0">gǝmǧā</t:quote>
+                        </cit>, <foreign xml:lang="gez">ግምዛ፡</foreign>
+                        <cit type="transcription" xml:lang="gez">
+                            <t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> gǝmzā</t:quote>
+                        </cit>, <foreign xml:lang="gez">ግምዘ፡</foreign>
+                        <cit type="transcription" xml:lang="gez">
+                            <t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> gǝmza</t:quote>
+                        </cit>, <foreign xml:lang="gez">ግምዣ፡</foreign>
+                        <cit type="transcription" xml:lang="gez">
+                            <t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> gǝmžā</t:quote>
+                        </cit>
+                        <gramGrp><pos expand="Substantivum">subst.</pos></gramGrp> ‘cloth of silk
+                        and gold thread; colored cloth (usually red, but often with other colors)’
+                                <bibl><ptr target="bm:Kane1990DictAmhVol2"/><citedRange unit="page">
+                                1918a</citedRange></bibl>
+                        <foreign xml:lang="gez">፳ግምዘ[sic]፡ ዘኢብቱክ፡ ፪ግምዘ[sic]፡ መንጦላዕት፡
+                            ዘበዓላት፡</foreign> ‘<cit type="translation" xml:lang="it">
+                            <t:quote xmlns:t="http://www.tei-c.org/ns/1.0">20 stoffe colorate
+                                integre, 2 stoffe colorate da tenda per le festività,</t:quote>
+                        </cit>’ <bibl><ptr target="bm:Bausi1994ManoscrittiEritreaParteI"/><citedRange unit="page"> 41 IV l. 2 (ed.), 30 IV l. 3–4
+                                (tr.)</citedRange></bibl>; <foreign xml:lang="gez">፳ወ፩ግምዛ፡
+                            ዘኢተበትከ፡</foreign> ‘<cit type="translation" xml:lang="it">
+                            <t:quote xmlns:t="http://www.tei-c.org/ns/1.0">21 stoffe colorate
+                                integre,</t:quote>
+                        </cit>’ <bibl><ptr target="bm:Bausi1994ManoscrittiEritreaParteI"/><citedRange unit="page"> 30 IV 10–11 (ed.), 41 IV 7–8
+                                (tr.)</citedRange></bibl>; <foreign xml:lang="gez">ሞጣሕት፡ ዘግምዛ፡
+                            ፵ወ፫፡</foreign> ‘<cit type="translation" xml:lang="it">
+                            <t:quote xmlns:t="http://www.tei-c.org/ns/1.0">43 stole di stoffa
+                                colorata,</t:quote>
+                        </cit>’ <bibl><ptr target="bm:Bausi1994ManoscrittiEritreaParteI"/><citedRange unit="page"> 43 VI l. 20 (ed.), 36 l. 17
+                                (tr.)</citedRange></bibl>; <foreign xml:lang="gez">ቆብዕ፡ ዘግምዛ፡
+                            ፮፡</foreign> ‘<cit type="translation" xml:lang="it">
+                            <t:quote xmlns:t="http://www.tei-c.org/ns/1.0">6 cappucci di stoffa
+                                colorata,</t:quote>
+                        </cit>’ <bibl><ptr target="bm:Bausi1994ManoscrittiEritreaParteI"/><citedRange unit="page"> 43 VI l. 24 (ed.), 36 l. 21
+                                (tr.)</citedRange></bibl>; <foreign xml:lang="gez">[eraso ወ፸]፡ ግምዛ።
+                            ፲ወ፰ግምዛ፡ ዘኢብቱክ።</foreign> ‘<cit type="translation" xml:lang="it">
+                            <t:quote xmlns:t="http://www.tei-c.org/ns/1.0">70 stoffe colorate, 18
+                                stoffe colorate integre,</t:quote>
+                        </cit>’ <bibl><ptr target="bm:Bausi1994ManoscrittiEritreaParteI"/><citedRange unit="page"> 44 IX l. 3 (ed.), 39 IX 4–5
+                                (tr.)</citedRange></bibl>; <foreign xml:lang="gez">ወሞጣሕት፡ ዘወትር፡
+                            ዘግምዛ፡ ፱።</foreign> ‘<cit type="translation" xml:lang="it">
+                            <t:quote xmlns:t="http://www.tei-c.org/ns/1.0">9 stole di filo di
+                                tessuto colorato,</t:quote>
+                        </cit>’ <bibl><ptr target="bm:Bausi1994ManoscrittiEritreaParteI"/><citedRange unit="page"> 64 l. 15 (ed.), 53 l. 22–23
+                                (tr.)</citedRange></bibl>; <foreign xml:lang="gez">ወእምወዓልያኒሁ፡ ቦ፡ እለ፡
+                            የአጥቁ፡ አርዋ፡ ወቦ፡ እለ፡ የአጥቁ፡ መንዱቄ፡ ወካልእኒ፡ ግምዣ፡ ዘዘዚአሁ፡ ኅብሩ።</foreign> ‘<cit type="translation" xml:lang="fr">
+                            <t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> parmi ses hommes, les
+                                uns avaient disposé en signe de révérence leurs vêtements de soie
+                                bleue, d’autres le manduqē, d’autres encore leurs velours, chacun de
+                                sa couleur </t:quote>
+                        </cit>’ <bibl><ptr target="bm:ContiRossini1907SarsaDengel"/><citedRange unit="page"> 38 l. 14–16 (ed.)</citedRange></bibl>, <bibl><ptr target="bm:ContiRossini1907SarsaDengelV"/><citedRange unit="page">
+                                44 l. 22–24 (tr.)</citedRange></bibl>; <foreign xml:lang="gez">ቦዘይሁብ፡ ግምዣ፡ ቀሚስ፡ ምስለ፡ ግምዣ፡ መግነስ፡ ወመጠምጠሚያ፡</foreign> ‘<cit type="translation" xml:lang="fr">
+                            <t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> L’un donna une tunique
+                                avec une pièce de soie et un turban </t:quote>
+                        </cit>’ <bibl><ptr target="bm:ContiRossini1907SarsaDengel"/><citedRange unit="page"> 122 l. 18–20 (ed.)</citedRange></bibl>, <bibl><ptr target="bm:ContiRossini1907SarsaDengelV"/><citedRange unit="page">
+                                139 l. 11 (tr.)</citedRange></bibl>; <foreign xml:lang="gez">ወሰበረ፡
+                            ይእተ፡ አምባ፡ ወቀተለ፡ ብዙኃነ፡ ሰብአ፡ ወአውረደ፡ እምኔሃ፡ ነጋሪተ፡ ወግምጃ።</foreign> ‘<cit type="translation" xml:lang="pt">
+                            <t:quote xmlns:t="http://www.tei-c.org/ns/1.0">e quebrou a mesma amba, e
+                                matou muita gente, e retirou d’ella nagarit e gemja.</t:quote>
+                        </cit>’ <bibl><ptr target="bm:Pereira1892Susenyos"/><citedRange unit="page">
+                                274 l. 1–3 (ed.)</citedRange></bibl>, <bibl><ptr target="bm:Pereira1900Susenyos"/><citedRange unit="page"> 211 l.
+                                16–18 (tr.)</citedRange></bibl>; <foreign xml:lang="gez">ብዙኃ፡ ግምጃ፡
+                            በቀላ፡ ወብዙኃ፡ ጁሕ፡ በቀላ፡</foreign> ‘<cit type="translation" xml:lang="fr">
+                            <t:quote xmlns:t="http://www.tei-c.org/ns/1.0">beaucoup d’étoffes de
+                                soie rouge et de draps rouges</t:quote>
+                        </cit>’ <bibl><ptr target="bm:Guidi1910IyasuIIT"/><citedRange unit="page">
+                                210 l. 14–15 (ed.)</citedRange></bibl>, <bibl><ptr target="bm:Guidi1912IyasuIIV"/><citedRange unit="page"> 220 l. 19
+                                (tr.)</citedRange></bibl>; <foreign xml:lang="gez">፩ግምዣ፡
+                            ድባብ፡</foreign> ‘<cit type="translation" xml:lang="fr">
+                            <t:quote xmlns:t="http://www.tei-c.org/ns/1.0">une ombrelle en
+                                soie</t:quote>
+                        </cit>’ <bibl><ptr target="bm:ContiRossini1909LiberT"/><citedRange unit="page"> 50 l. 5 (ed.)</citedRange></bibl>, <bibl><ptr target="bm:ContiRossini1910LiberV"/><citedRange unit="page"> 60 l.
+                                5–6 (tr.)</citedRange></bibl>; <foreign xml:lang="gez">፭፡ ቀሚስ፡
+                            ግምዣ፡</foreign> ‘<cit type="translation" xml:lang="fr">
+                            <t:quote xmlns:t="http://www.tei-c.org/ns/1.0">cinq aubes en
+                                soie</t:quote>
+                        </cit>’ <bibl><ptr target="bm:ContiRossini1909LiberT"/><citedRange unit="page"> 50 l. 7 (ed.)</citedRange></bibl>, <bibl><ptr target="bm:ContiRossini1910LiberV"/><citedRange unit="page"> 60 l. 7
+                                (tr.)</citedRange></bibl>; <foreign xml:lang="gez">ግምዣ፡ ቀሚስ፡
+                            ፪፡</foreign> ‘<cit type="translation" xml:lang="fr">
+                            <t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> deux aubes en
+                                soie</t:quote>
+                        </cit>’ <bibl><ptr target="bm:ContiRossini1909LiberT"/><citedRange unit="page"> 65 l. 18 (ed.)</citedRange></bibl>, <bibl><ptr target="bm:ContiRossini1910LiberV"/><citedRange unit="page"> 79 l. 4
+                                (tr.)</citedRange></bibl>; <foreign xml:lang="gez">ግምዣ፡ መንጦላዕት፡
+                            ፩።</foreign> ‘<cit type="translation" xml:lang="fr">
+                            <t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> un voile en
+                                soie</t:quote>
+                        </cit>’ <bibl><ptr target="bm:ContiRossini1909LiberT"/><citedRange unit="page"> 71 l. 13 (ed.)</citedRange></bibl>, <bibl><ptr target="bm:ContiRossini1910LiberV"/><citedRange unit="page"> 85 l.
+                                27 (tr.)</citedRange></bibl>
+                        <sense n="E" xml:id="TE">from Amharic <foreign xml:lang="am">ግምጃ</foreign>
+                            <cit type="transcription" xml:lang="gez">
+                                <t:quote xmlns:t="http://www.tei-c.org/ns/1.0">gǝmǧā</t:quote>
+                            </cit>, Tigrinya <foreign xml:lang="ti">ግምጃ</foreign>
+                            <cit type="transcription" xml:lang="gez">
+                                <t:quote xmlns:t="http://www.tei-c.org/ns/1.0">gǝmǧā</t:quote>
+                            </cit>
+                            <bibl><ptr target="bm:DaBassano1918DictTgr"/><citedRange unit="page">
+                                    822</citedRange></bibl>; the meaning of ‘gǝmǧā’ has undergone
+                            change over time: originally the word referred to precious fabric
+                            whereas nowadays it is used for ordinary cotton. <bibl><ptr target="bm:Kane1990DictAmhVol2"/><citedRange unit="page">
+                                    1918a</citedRange></bibl> defines it as ‘cloth of silk and gold
+                            thread’. According to <bibl><ptr target="bm:Dasta1969AmhDict"/><citedRange unit="page"> 272</citedRange></bibl> it is
+                            coloured cloth made of cotton or silk. In contemporary Amharic it refers
+                            to cotton cloth, white or coloured (p.c. Wondwosen Adane). </sense>
+                        <sense n="C" xml:id="TC">for <foreign xml:lang="gez">ግምዣ፡ ቤት፡</foreign>
+                            <lbl expand="videas">vid.</lbl>
+                            <ref type="external" target="https://betamasaheft.eu/Dillmann/lemma/L1e32e08f156f4486bc3949b3fca5eeb8"><foreign xml:lang="gez">ቤት፡</foreign></ref> (TraCES)</sense>
+                    </sense>
+                </entry>
+            </div>
+        </body>
+    </text>
+</TEI>

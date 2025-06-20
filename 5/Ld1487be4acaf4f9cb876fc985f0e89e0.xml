@@ -1,0 +1,80 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ተዘርአ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="AE" when="2018-10-05">Verschachtelung,</change>
+        </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="Ld1487be4acaf4f9cb876fc985f0e89e0" n="7548">
+               <form>
+                  <foreign xml:lang="gez">ተዘርአ</foreign>
+               </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain"> <subc>III,1</subc> <sense n="1" xml:id="D1"> <cit type="translation" xml:lang="la">
+                                <quote> seri </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> seminari </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> conseri </quote>
+                            </cit>, de semine: <foreign xml:lang="gez">ዘርእ፡ ዘይዘራእ፡</foreign> (v. <foreign xml:lang="gez">ዘይዘርእ፡</foreign>) <ref cRef="Lev." loc="11,37">Lev. 11,37</ref>; <ref cRef="Gen." loc="1,11">Gen. 1,11</ref>; <ref cRef="Gen." loc="1,12">Gen. 1,12</ref>; <ref cRef="Gen." loc="1,29">Gen. 1,29</ref> (<foreign xml:lang="gez">ተዘሪኦ፡</foreign>); <ref cRef="Deut. " loc="29,22">Deut.  29,22</ref>; <ref cRef="Matth." loc="13,19">Matth. 13,19</ref> <lbl expand="sequens">seq.</lbl>; <ref cRef="Marc." loc="4,15">Marc. 4,15</ref> <lbl expand="sequens">seq.</lbl>; de agro: <foreign xml:lang="gez">ምድር፡ ዘኢይዘራእ፡</foreign> <ref cRef="Jer." loc="2,2">Jer. 2,2</ref>; <ref cRef="Jes." loc="19,7">Jes. 19,7</ref>; <ref cRef="Num." loc="20,5">Num. 20,5</ref>. <sense n="a" xml:id="D1a"> <lbl expand="translate">transl.</lbl>: <ref cRef="4 Esr. " loc="9,34">4 Esr.  9,34</ref>; <foreign xml:lang="gez">ቃል፡ ዘተዘርአ፡</foreign> <ref cRef="Jac." loc="1,21">Jac. 1,21</ref>.</sense> <sense n="b" xml:id="D1b"> de animatis: <foreign xml:lang="gez">ኅቡረ፡ ተዘራእነ፡ ማእከለ፡ ከርሥኪ፡</foreign> <ref cRef="Kuf." loc="35.">Kuf. 35.</ref> </sense> </sense> <sense n="2" xml:id="D2"> <cit type="translation" xml:lang="la">
+                                <quote> spargi </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> dispergi </quote>
+                            </cit>, de fluidis <ref cRef="Hen." loc="60,16">Hen. 60,16</ref>; <ref cRef="Hen." loc="60,21">Hen. 60,21</ref>; <foreign xml:lang="gez">ተዘርኡ፡</foreign> <foreign xml:lang="grc">διεσπάρησαν</foreign> <ref cRef="Gen." loc="9,19">Gen. 9,19</ref>.</sense> </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

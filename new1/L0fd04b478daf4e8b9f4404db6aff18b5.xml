@@ -1,0 +1,108 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng"
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="gez">ማሕበስ</title>
+                <editor>Alessandro Bausi</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+                <publisher>Hiob-Ludolf-Zentrum für Äthiopistik</publisher>
+                <pubPlace>Hamburg</pubPlace>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-sa-nc/4.0/">
+                                        This file is licensed under the Creative Commons
+                                        Attribution-ShareAlike Non Commercial 4.0. </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p>The origin of the lexicon is in a thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+                </p>
+                <p>Additional records were created by the project <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">
+                  TraCES (ERC Advanced Grant, Grant Agreement 338756)</ref>
+                </p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>A digital edition of the Lexicon in TEI.</p>
+            <listPrefixDef>
+                <prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/>
+            </listPrefixDef>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="la">latin</language>
+                <language ident="it">Italian</language>
+                <language ident="gez">Gǝʿǝz</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="syr">Syriac</language>
+                <language ident="ar">Arabic</language>
+                <language ident="sa">Sanskrit</language>
+                <language ident="geo">Georgian</language>
+                <language ident="cop">Coptic</language>
+                <language ident="osa">Old South Arabian</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change who="MK" when="2022-07-13">added entry</change>
+            <change who="MK" when="2022-07-13">added examples</change>
+            <change who="MK" when="2022-07-13">added examples</change>
+            <change who="MK" when="2022-07-13">added comment</change>
+            <change who="MK" when="2022-07-13">correction</change>
+            <change who="MK" when="2022-07-22">correction</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <entry xml:id="L0fd04b478daf4e8b9f4404db6aff18b5" n="12879">
+                    <form>
+                        <foreign xml:lang="gez">ማኅበስ</foreign>
+                    </form>
+                    <sense xml:id="Tmain" xml:lang="en" source="#traces"> <cit type="transcription" xml:lang="gez">
+                            <t:quote xmlns:t="http://www.tei-c.org/ns/1.0">māḫbas</t:quote>
+                        </cit>, <foreign xml:lang="gez">ማሕበስ፡</foreign> <cit type="transcription" xml:lang="gez">
+                            <t:quote xmlns:t="http://www.tei-c.org/ns/1.0">māḥbas</t:quote>
+                        </cit>, <foreign xml:lang="gez">መሕበስ፡</foreign> <cit type="transcription" xml:lang="gez">
+                            <t:quote xmlns:t="http://www.tei-c.org/ns/1.0">maḥbas</t:quote>
+                        </cit> <gramGrp>
+                            <pos expand="Substantivum">subst.</pos>
+                        </gramGrp> most probably ‘purple-dyed cloth’ (see also the comment below) <foreign xml:lang="gez">፲ወ፱ሞጠሕት፡ ዘጸነሀኒ፡ [sic] አነ፡ ሙሴ፡ ኃጥዕ፡ ዶቲ፡ ምስለ፡ ፉጠቱ፡ ወምስለ፡ ማኅበሱ፡</foreign> ‘<cit type="translation" xml:lang="it">
+                            <t:quote xmlns:t="http://www.tei-c.org/ns/1.0">19 stole che sono rimaste a me, io Musē, peccatore, doti con la sua fascia ed il suo māḥbas 10</t:quote>
+                        </cit>’ <bibl>
+                            <ptr target="bm:Bausi1994ManoscrittiEritreaParteI"/>
+                            <citedRange unit="page"> 41 IV 1–2 (ed.), 30 IV 1–2 (tr.)</citedRange>
+                        </bibl>; <foreign xml:lang="gez">አልባስ፡ ጸዓዳ፡ ፲ወ፭ መሕበስ፡ ፪ ዶቲ፡ ፩</foreign> ‘<cit type="translation" xml:lang="it">
+                            <t:quote xmlns:t="http://www.tei-c.org/ns/1.0">tessuti bianchi 15, 2 maḥbas, 1 doti,</t:quote>
+                        </cit>’ <bibl>
+                            <ptr target="bm:Bausi1994ManoscrittiEritreaParteI"/>
+                            <citedRange unit="page"> 43 VI l. 23 (ed.), 36 l. 19 (tr.)</citedRange>
+                        </bibl>; <foreign xml:lang="gez">፲ወ፬ ጸዓዳ፡ ልብስ፡ ፮ፊቃር፡ ፮ቆብዕ፡ ፬ዘነቦ፡ ፪ማኅበስ፡</foreign> ‘<cit type="translation" xml:lang="it">
+                            <t:quote xmlns:t="http://www.tei-c.org/ns/1.0">14 vesti bianche, 6 cinture, 6 cappucci, 4 zanabo, 2 maḥbas{sic},</t:quote>
+                        </cit>’ <bibl>
+                            <ptr target="bm:Bausi1994ManoscrittiEritreaParteI"/>
+                            <citedRange unit="page"> 44 VII l. 2 (ed.), 38 VII l. 2–3 (tr.)</citedRange>
+                        </bibl>; <foreign xml:lang="gez">ወማሕበስ፡ ፪[፡]</foreign> ‘<cit type="translation" xml:lang="it">
+                            <t:quote xmlns:t="http://www.tei-c.org/ns/1.0">2 māḥbas</t:quote>
+                        </cit>’ <bibl>
+                            <ptr target="bm:Bausi1994ManoscrittiEritreaParteI"/>
+                            <citedRange unit="page"> 64 l. 8 (ed.), 53 l. 14 (tr.)</citedRange>
+                        </bibl> (‘Forse da accostare al tigrino maḥabbasi «asciugatoio» (<bibl>
+                            <ptr target="bm:DaBassano1918DictTgr"/>
+                            <citedRange unit="page"> 52</citedRange>
+                        </bibl>).’ <bibl>
+                            <ptr target="bm:Bausi1997ManoscrittiEritreaParteIII"/>
+                            <citedRange unit="page"> 47b</citedRange>
+                        </bibl>) <sense n="C" xml:id="TC"> <lbl expand="videas">vid.</lbl> also <foreign xml:lang="gez">አዝመር፡</foreign>
+                        </sense> <nd/> </sense>
+                </entry>
+            </div>
+        </body>
+    </text>
+</TEI>

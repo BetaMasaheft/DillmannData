@@ -1,0 +1,134 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ባዕል </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="MK" when="2018-08-29">added new meaning</change>
+            <change who="MK" when="2018-08-29">added new expression, to be peer-reviewed</change>
+            <change who="AE" when="2018-11-22">Verschachtelung etc.,</change>
+            <change who="MK" when="2019-04-09">added cross-reference </change>
+        </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L3fea5842d4f34768ab02bac45e4f0584" n="4074">
+               <form>
+                  <foreign xml:lang="gez">ባዕል</foreign>
+               </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain"> <gramGrp> <pos expand="adjectivum">adj.</pos> </gramGrp> et <gramGrp> <pos expand="Substantivum">subst.</pos> </gramGrp>, <gramGrp> <gen value="femininus">fem.</gen> </gramGrp> <foreign xml:lang="gez">ባዕልት፡</foreign>, <lbl expand="pluralis">Pl.</lbl> <foreign xml:lang="gez">አብዕልት፡</foreign> (<gramGrp> <gen value="not found">m.</gen> </gramGrp> et <gramGrp> <gen value="femininus">fem.</gen> </gramGrp>, ut <ref cRef="Ruth" loc="3,10">Ruth 3,10</ref>) <sense n="1" xml:id="D1"> <cit type="translation" xml:lang="la">
+                                <quote> dives </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> locuples </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> opulentus </quote>
+                            </cit> <ref cRef="Jer." loc="9,23">Jer. 9,23</ref>; <ref cRef="Dan. apocr." loc="1,4">Dan. apocr. 1,4</ref>; <ref cRef="Matth. " loc="19,23">Matth.  19,23</ref>; <ref cRef="Matth." loc="27,57">Matth. 27,57</ref>; <ref cRef="Sir." loc="10,22">Sir. 10,22</ref>; <ref cRef="Sir." loc="13,18">Sir. 13,18</ref>; <ref cRef="Sir." loc="13,19">Sir. 13,19</ref>; <ref cRef="Sir." loc="21,4">Sir. 21,4</ref>; <foreign xml:lang="gez">ባዕል፡ ደንጻዊ፡</foreign> <ref cRef="Sir." loc="25,2">Sir. 25,2</ref>; <ref cRef="Sir." loc="25,30">Sir. 25,30</ref>; <ref cRef="Sir." loc="25,14">Sir. 25,14</ref>; <foreign xml:lang="gez">ብእሲት፡ ክብርት፡ ወባዕልት፡</foreign> <ref cRef="Sx. Haml." loc="15">Sx. Haml. 15</ref>; <ref cRef="Sx. Teq." loc="18">Sx. Teq. 18</ref>; Kebr. <ref cRef="Nag." loc="21">Nag. 21</ref>; <foreign xml:lang="gez">አብዕልት፡</foreign> <ref cRef="Hen." loc="94,8">Hen. 94,8</ref>; <ref cRef="Koh." loc="10,6">Koh. 10,6</ref>; <ref cRef="Jes." loc="5,14">Jes. 5,14</ref>; <ref cRef="Jes." loc="53,9">Jes. 53,9</ref>; <ref cRef="Prov." loc="10,15">Prov. 10,15</ref>; <ref cRef="Ps." loc="48,2">Ps. 48,2</ref>; <ref cRef="1 Tim." loc="6,17">1 Tim. 6,17</ref>; <ref cRef="Jac." loc="2,5">Jac. 2,5</ref>; <ref cRef="Luc." loc="6,24">Luc. 6,24</ref>; <lbl expand="cum">c.</lbl> <foreign xml:lang="gez">በ፡</foreign> rei, ut: <foreign xml:lang="gez">ባዕል፡ በወርቅ፡ ወበብሩር፡</foreign> <ref cRef="Sx. Ter" loc="1.">Sx. Ter 1.</ref> </sense> <sense n="2" xml:id="D2"> <cit type="translation" xml:lang="la">
+                                <quote> possessor </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> dominus </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> herus </quote>
+                            </cit>: <foreign xml:lang="gez">ባዕለ፡ ንዋይ፡</foreign> <ref cRef="Lev." loc="5,24">Lev. 5,24</ref>; <ref cRef="Num." loc="5,7">Num. 5,7</ref>; <foreign xml:lang="gez">ባዕለ፡ ላህም፡</foreign> <ref cRef="Ex." loc="21,28">Ex. 21,28</ref>; <foreign xml:lang="gez">ባዕለ፡ ቤት፡</foreign> <ref cRef="Ex. " loc="22,7">Ex.  22,7</ref>; <ref cRef="Jud." loc="19,22">Jud. 19,22</ref>; <ref cRef="Matth." loc="10,25">Matth. 10,25</ref>; <ref cRef="Marc." loc="14,14">Marc. 14,14</ref>; <ref cRef="Luc." loc="14,21">Luc. 14,21</ref> (<cit type="translation" xml:lang="la">
+                                <quote> paterfamilias </quote>
+                            </cit>); (<foreign xml:lang="gez">ባዕልተ፡ ቤት፡</foreign> <cit type="translation" xml:lang="la">
+                                <quote> materfamilias </quote>
+                            </cit> <ref cRef="3 Reg." loc="17,17">3 Reg. 17,17</ref> Lud., sed <lbl expand="videas">vid.</lbl> <foreign xml:lang="gez">በዓልት፡</foreign>); <foreign xml:lang="gez">ባዕለ፡ ብሔር፡</foreign> <foreign xml:lang="grc">ὁ κύριος τῆς γῆς</foreign> <ref cRef="Gen. " loc="42,33">Gen.  42,33</ref> (<ref cRef="Gen." loc="42,30">Gen. 42,30</ref>); <ref cRef="Gen." loc="43,3">Gen. 43,3</ref>; <foreign xml:lang="gez">ባዕለ፡ ቤተ፡ ነግድ፡</foreign> <cit type="translation" xml:lang="la">
+                                <quote> xenoparochus </quote>
+                            </cit> <ref cRef="Sx. Nah." loc="15">Sx. Nah. 15</ref>; <lbl expand="pluralis">Pl.</lbl> <foreign xml:lang="gez">አብዕልት፡</foreign> <ref cRef="Lev." loc="25,33">Lev. 25,33</ref>; <foreign xml:lang="gez">አግብኦ፡ ለአብዕልቲሃ፡</foreign> <ref cRef="Tob." loc="2,13">Tob. 2,13</ref>; <foreign xml:lang="grc">ἄρχοντες</foreign> <cb n="0529" xml:id="c0529"/> <ref cRef="Job" loc="3,15">Job 3,15</ref>. </sense> <sense n="3" xml:id="D3"> sicut <foreign xml:lang="gez">በዓል፡</foreign> q.v. usurpatur ad significandum eum, qui aliqua re <cit type="translation" xml:lang="la">
+                                <quote> praeditus </quote>
+                            </cit> est, <cit type="translation" xml:lang="la">
+                                <quote> pollet </quote>
+                            </cit>, eam <cit type="translation" xml:lang="la">
+                                <quote> habet </quote>
+                            </cit>, ut: <foreign xml:lang="gez">ባዕለ፡</foreign> (v. <foreign xml:lang="gez">በዓለ፡</foreign>) <foreign xml:lang="gez">ዕዳ፡</foreign> <cit type="translation" xml:lang="la">
+                                <quote> creditor </quote>
+                            </cit> <ref cRef="Jes." loc="24,2">Jes. 24,2</ref>; <ref cRef="Luc." loc="7,41">Luc. 7,41</ref>; <ref cRef="Ps." loc="108,10">Ps. 108,10</ref>; <foreign xml:lang="gez">ባዕለ፡</foreign> (v. <foreign xml:lang="gez">በዓለ፡</foreign>) <foreign xml:lang="gez">ጸጋ፡</foreign> <cit type="translation" xml:lang="la">
+                                <quote> donator </quote>
+                            </cit> (<cit type="translation" xml:lang="la">
+                                <quote> liberalis </quote>
+                            </cit>) <ref cRef="Sx. Masc." loc="28 Enc.">Sx. Masc. 28 Enc.</ref>; <foreign xml:lang="gez">አብዕልተ፡ ነውራት፡</foreign> <cit type="translation" xml:lang="la">
+                                <quote> vitiis </quote>
+                            </cit> (corporis) <cit type="translation" xml:lang="la">
+                                <quote> affecti </quote>
+                            </cit> F.M. 20,5; <foreign xml:lang="gez">አብዕልተ፡ ኀጣውእ፡ ንኡሳት፡</foreign> <cit type="translation" xml:lang="la">
+                                <quote> peccatillis affecti </quote>
+                            </cit> F.M. 1,5; <foreign xml:lang="gez">አበው፡ አብዕልተ፡ ጉባኤ፡ ቅድስት፡</foreign> <cit type="translation" xml:lang="la">
+                                <quote> patres qui S. Synodo interfuerunt </quote>
+                            </cit> F.M. 5,4.</sense> </sense>
+               
+            <sense xml:lang="en" source="#traces" xml:id="Tmain">
+                        <foreign xml:lang="gez">ባዕለ፡ ፋል፡</foreign> <cit type="transcription" xml:lang="gez">
+                            <quote>bāʿla fāl</quote>
+                        </cit> <gramGrp>
+                            <pos expand="Substantivum">subst.</pos>
+                        </gramGrp> <cit type="translation" xml:lang="en">
+                            <quote>one who does witchcraft</quote>
+                        </cit> <foreign xml:lang="gez">አው፡ መምካሪ፡ አው፡ ባዕለ፡ ፋል፡ አው ዘይትነግር፡ በትእምርተ፡ ሐሰት፡</foreign> ‘<cit type="translation" xml:lang="it">
+                            <quote>o persuasore, o che si occupa dei sortilegi o che parla per falsi segni</quote>
+                        </cit>’ <bibl>
+                            <ptr target="bm:Bausi1995SenodosT"/>
+                            <citedRange unit="page"> 68 l. 10-11 (ed.)</citedRange>
+                        </bibl>, <bibl>
+                            <ptr target="bm:Bausi1995SenodosV"/>
+                            <citedRange unit="page"> 33 l. 28 - 34 l. 1 (tr.)</citedRange>
+                        </bibl> (‘Per <foreign xml:lang="gez">ባዕለ፡ ፋል፡</foreign> cf. <bibl>
+                            <ptr target="bm:Guidi1899FethaNagastTranslation"/>
+                            <citedRange unit="page"> Vs n. 2</citedRange>
+                        </bibl>.’ <bibl>
+                            <ptr target="bm:Bausi1995SenodosV"/>
+                            <citedRange unit="page"> 33 l. 28 - 34 l. 1 n. 25</citedRange>
+                        </bibl>), <lbl expand="videas">vid.</lbl> <foreign xml:lang="gez">ፋል፡</foreign>; for <foreign xml:lang="gez">ሰብአ፡ ፋላት፡</foreign> <lbl expand="videas">vid.</lbl> <foreign xml:lang="gez">ሰብእ፡</foreign>
+                    </sense>
+                </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

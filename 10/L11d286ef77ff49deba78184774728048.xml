@@ -1,0 +1,99 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ግሉፍ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L11d286ef77ff49deba78184774728048" n="8273">
+               <form>
+                  <foreign xml:lang="gez">ግሉፍ</foreign>
+               </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain">
+                  <gramGrp>
+                     <pos expand="participium">part.</pos>
+                  </gramGrp>
+                  <cit type="translation" xml:lang="la">
+                     <quote>sculptus</quote>
+                  </cit>, <cit type="translation" xml:lang="la">
+                     <quote>exsculptus</quote>
+                  </cit>, <cit type="translation" xml:lang="la">
+                     <quote>insculptus</quote>
+                  </cit>, <ref cRef="Ex. " loc="36,13">Ex. 36,13</ref>; <ref cRef="Ex." loc="36,21">Ex. 36,21</ref>; <ref cRef="3 Reg." loc="7,46">3 Reg. 7,46</ref>; <ref cRef="3 Reg." loc="10,22">3 Reg. 10,22</ref>; <foreign xml:lang="gez">እብነ፡
+                     ባሕርይ፡ ግሉፍ፡ </foreign>
+                  <ref cRef="Sap." loc="18,24">Sap. 18,24</ref>; <foreign xml:lang="gez">ግሉፍ፡
+                     ኪሩብ፡</foreign>
+                  <ref cRef="Hez." loc="41,18">Hez. 41,18</ref>; <ref cRef="Hez." loc="41,23">Hez.
+                     41,23</ref>
+                  <lbl expand="sequens">seq.</lbl>; <ref cRef="Act." loc="17,29">Act. 17,29</ref>
+                  Platt; <lbl expand="cum">c.</lbl>
+                  <foreign xml:lang="gez">ውስተ፡</foreign>
+                  <ref cRef="Ex." loc="32,16">Ex. 32,16</ref>; <ref cRef="3 Reg. " loc="6,32">3 Reg.
+                     6,32</ref>; <foreign xml:lang="gez">ግሉፍ፡ ውስተ፡ ጽሌ፡ ልቦሙ፡</foreign>
+                  <ref cRef="Jer." loc="17,1">Jer. 17,1</ref>
+                  <lbl expand="varia lectio">var.</lbl>; <foreign xml:lang="gez">ጽላት፡ ጽሑፍ፡
+                     ወግሉፍ፡</foreign>
+                  <ref cRef="Sx. Nah." loc="20">Sx. Nah. 20</ref>; etiam <cit type="translation" xml:lang="la">
+                     <quote>scalptus</quote>
+                  </cit> i.e. <cit type="translation" xml:lang="la">
+                     <quote>dolatus</quote>
+                  </cit>: <foreign xml:lang="gez">በእብን፡ ግሉፍ፡</foreign>
+                  <foreign xml:lang="grc">διὰ λίθων ξυστῶν</foreign> vel <foreign xml:lang="grc">ξεστῶν</foreign>
+                  <ref cRef="1 Esr." loc="6,8">1 Esr. 6,8</ref>. </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

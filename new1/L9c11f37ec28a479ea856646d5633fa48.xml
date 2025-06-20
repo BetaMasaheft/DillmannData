@@ -1,0 +1,125 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="gez">ፃመወ</title>
+                <author>Alessandro Bausi</author>
+                <author>Andreas Ellwardt</author>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+                <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+                <pubPlace>Hamburg</pubPlace>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-sa-nc/4.0/"> This file
+                        is licensed under the Creative Commons Attribution-ShareAlike Non Commercial
+                        4.0. </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                        Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice
+                            latino. Adiectum est vocabularium tigre dialecti septentrionalis
+                            compilatum</emph> a W. Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+                </p>
+                <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced
+                        Grant TraCES (Grant Agreement 338756)</ref>
+                </p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>A digital edition of the Lexicon in TEI.</p>
+            <listPrefixDef>
+                <prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/>
+            </listPrefixDef>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="la">latin</language>
+                <language ident="it">Italian</language>
+                <language ident="gez">Gǝʿǝz</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="syr">Syriac</language>
+                <language ident="ar">Arabic</language>
+                <language ident="sa">Sanskrit</language>
+                <language ident="geo">Georgian</language>
+                <language ident="cop">Coptic</language>
+                <language ident="osa">Old South Arabian</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change who="MK" when="2019-03-11">new entry</change>
+            <change who="MK" when="2019-03-11">corr</change>
+            <change who="MK" when="2019-03-11">corr</change>
+            <change who="MK" when="2019-03-11">corr</change>
+            <change who="MK" when="2019-03-11">corr</change>
+            <change who="MK" when="2019-03-12">added lang encoding</change>
+            <change who="MK" when="2019-03-12">added comment</change>
+            <change who="MK" when="2019-03-12">added biblio</change>
+            <change who="MK" when="2019-03-12">corr</change>
+            <change who="MK" when="2019-03-12">corr</change>
+            <change who="MK" when="2019-03-12">added encoding</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <entry xml:id="L9c11f37ec28a479ea856646d5633fa48" n="12502">
+                    <form>
+                        <foreign xml:lang="gez">ፃመወ</foreign>
+                    </form>
+                    <sense xml:lang="en" source="#traces" xml:id="Tmain">
+                        <cit type="transcription" xml:lang="gez">
+                            <quote>ḍāmawa</quote>
+                        </cit>
+                        <gramGrp>
+                            <pos expand="verbum">v.</pos>
+                        </gramGrp>
+                        <cit type="translation" xml:lang="en">
+                            <quote>restrain oneself</quote>
+                        </cit>, <cit type="translation" xml:lang="en">
+                            <quote>contain oneself</quote>
+                        </cit>, ‘<cit type="translation" xml:lang="it">
+                            <quote>contenersi</quote>
+                        </cit>’ <foreign xml:lang="gez">ይትከሀለከሁ፡ ከዊነ፡ ኄር፡ ወፃምዎ፡ ወአውሥአ፡ ወይቤሎ፡ ፃመውኩሂ፡
+                            ወእፃሙሂ፡ ወዘበእንተ፡ ኂሩት፡ እትሐተት።</foreign> ‘<cit type="translation" xml:lang="it">
+                            <quote>«Puoi insomma comportarti a modo e contenerti?». Rispose e gli
+                                disse: «Mi sono contenuto e mi contengo, e proprio a motivo del mio
+                                onesto comportamento vengo sottoposto ad interrogatorio»</quote>
+                        </cit>’ <bibl>
+                            <ptr target="bm:Bausi2002ActaPhileae"/>
+                            <citedRange unit="page"> 30 (ed.); 42-43 (tr.)</citedRange>
+                        </bibl> (‘<bibl>
+                            <ptr target="bm:Leslau1987dic"/>
+                            <citedRange unit="page"> 151</citedRange>
+                        </bibl> dà il significato generico di «condurre vita ascetica»; i derivati
+                        nominali della radice includono però, accanto al senso fundamentale di
+                        «essere silenzioso», quello di «essere tranquillo, calmo, moderato»; la
+                        traduzione con il verbo «contenersi» ha tenuto conto di questa rosa di
+                        significati; in La 1,3-4 la prima domanda di Culciano <foreign xml:lang="la">Potes iam sobrius effici?</foreign> è articolata in un solo punto; e
+                        non si può escludere che, come avviene per la formula delle risposte di
+                        Filea, Et {i.e. the Ethiopic version} abbia qui tradotto con una endiadi; si
+                        tenga comunque conto della difficoltà di rendere in etiopico <foreign xml:lang="la">sobrius</foreign> nell’accezione propia del punto di vista
+                        culturale di Culciano; la tradizione etiopica è costretta a far uso del
+                        termine che significa correntemente la ascesi cristiana: cfr. <bibl>
+                            <ptr target="bm:Arras1963CollectioVersio"/>
+                            <citedRange unit="page"> 216</citedRange>
+                        </bibl>
+                        <foreign xml:lang="la">«ṣammawa vitam quietis agere. In textu saepe
+                            difficile dictu utrum de vita quietis an de vita ascetica
+                            agatur.»</foreign>, e su ṣammawa = ḍāmmawa <foreign xml:lang="la">«vitam
+                            asceticam et quietis agere»</foreign> . — Sinassario (<bibl>
+                            <ptr target="bm:Colin1987Teqemt"/>
+                            <citedRange unit="page"> 90 l. 13-14</citedRange>
+                        </bibl>) «Introdussero il santo Filea nell’aula del tribunale».’ <bibl>
+                            <ptr target="bm:Bausi2002ActaPhileae"/>
+                            <citedRange unit="page"> 42 n. 2</citedRange>
+                        </bibl>) <nd/>
+                    </sense>
+                </entry>
+            </div>
+        </body>
+    </text>
+</TEI>

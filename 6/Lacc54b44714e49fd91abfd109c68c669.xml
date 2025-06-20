@@ -1,0 +1,118 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ንብረት </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="AE" when="2017-12-08">Referenzen/ Sprachkennung/ Verschachtelung,</change>
+        </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="Lacc54b44714e49fd91abfd109c68c669" n="4926">
+               <form>
+                  <foreign xml:lang="gez">ንብረት</foreign>
+               </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain"> <gramGrp> <pos expand="nomen actionis">n. act.</pos> </gramGrp> et <gramGrp> <pos expand="not found">subst.</pos> </gramGrp>, <gramGrp> <gen value="not found">m.</gen> </gramGrp> et <gramGrp> <gen value="femininus">fem.</gen> </gramGrp> <sense n="1" xml:id="D1"> <cit type="translation" xml:lang="la">
+                                <quote> sessio </quote>
+                            </cit> <ref cRef="Ps." loc="138,1">Ps. 138,1</ref>; <foreign xml:lang="gez">ንብረቶሙ፡ ወተንሥኦቶሙ፡</foreign> <ref cRef="Thren. " loc="3,62">Thren.  3,62</ref>; <foreign xml:lang="gez">ንብረቱ፡ በየማንከ፡</foreign> <ref cRef="Genz." loc="115">Genz. f. 115</ref>; Mavâs. 53. In specie: <cit type="translation" xml:lang="la">
+                                <quote> sessio episcopi </quote>
+                            </cit> vel <cit type="translation" xml:lang="la">
+                                <quote> patriarchae </quote>
+                            </cit> i.e. administratio: <foreign xml:lang="gez">ኑኀ፡ ንብረቱ፡</foreign> <ref cRef="Cat. Cod. Bibl. Bodl." loc="14">Cat. Cod. Bibl. Bodl. p. 14</ref>; <foreign xml:lang="gez">፲፭ዕለት፡ እምንብረቱ፡ ዲበ፡ መንበሩ፡</foreign> <ref cRef="Phlx." loc="15.">Phlx. 15.</ref> </sense> <sense n="2" xml:id="D2"> <cit type="translation" xml:lang="la">
+                                <quote> positio </quote>
+                            </cit>: <foreign xml:lang="gez">ንብረተ፡ ከዋክብት፡</foreign> <foreign xml:lang="grc">ἀστέρων θέσεις</foreign> <ref cRef="Sap." loc="7,19">Sap. 7,19</ref>; <ref cRef="Sap." loc="7,29">Sap. 7,29</ref>; <ref cRef="Cant." loc="4,9">Cant. 4,9</ref>. <sense n="a" xml:id="D2a"> <cit type="translation" xml:lang="la">
+                                    <quote> situs </quote>
+                                </cit>: <foreign xml:lang="gez">ናሁ፡ ንብረታ፡ ለዛቲ፡ ሀገር፡ ሠናይት፡</foreign> <ref cRef="4 Reg. " loc="2,19">4 Reg.  2,19</ref>.</sense> <sense n="b" xml:id="D2b"> <cit type="translation" xml:lang="la">
+                                    <quote> dispositio </quote>
+                                </cit>, <cit type="translation" xml:lang="la">
+                                    <quote> modus </quote>
+                                </cit>: <foreign xml:lang="gez">ንብረተ፡ መናቅዕትኪ፡</foreign> <foreign xml:lang="grc">ῥυθμοὶ μηρῶν</foreign> <ref cRef="Cant." loc="7,2">Cant. 7,2</ref>.</sense> <sense n="c" xml:id="D2c"> <cit type="translation" xml:lang="la">
+                                    <quote> impositio manus </quote>
+                                </cit>: <foreign xml:lang="gez">ንብረተ፡ እድ፡</foreign> Ssal. Req.; etiam nomen orationis liturgicae: <foreign xml:lang="gez">ወእምድኅሬሁ፡ ትብል፡ ንብረተ፡ እድ፡</foreign> <ref cRef="Genz." loc="62 ">Genz. f. 62 </ref>(aliâs: <foreign xml:lang="gez">ጸሎተ፡ አንብሮ፡ እድ፡</foreign>).</sense> <sense n="d" xml:id="D2d"> <cit type="translation" xml:lang="la">
+                                    <quote> institutio </quote>
+                                </cit>, <cit type="translation" xml:lang="la">
+                                    <quote> constitutio </quote>
+                                </cit>: <foreign xml:lang="gez">አዝማድ፡ ዘበንብረት፡</foreign> (<lbl expand="oppositum, -o, -nitur">opp.</lbl> et consanguineis et affinibus et propinquis spiritualibus) ex. gr. collactanei vel pupilli F.N. 24,2; <foreign xml:lang="gez">አብ፡ በንብረት፡ ዘውእቱ፡ ሐፃኒ፡</foreign> <ref cRef="F.N." loc=" 32">F.N.  32</ref>.</sense> </sense> <sense n="3" xml:id="D3"> <sense n="a" xml:id="D3a"> <cit type="translation" xml:lang="la">
+                                    <quote> stabilitas </quote>
+                                </cit>: <foreign xml:lang="gez">ሰአሉ፡ በንብረተ፡ ንግሡ፡ ወኑኀ፡ መዋዕሊሁ፡</foreign> (<cit type="translation" xml:lang="de">
+                                    <quote>sie beteten für</quote>
+                                </cit>) <ref cRef="Jsp." loc="316.">Jsp. p. 316.</ref> </sense> <sense n="b" xml:id="D3b"> <cit type="translation" xml:lang="la">
+                                    <quote> substantia </quote>
+                                </cit>, <cit type="translation" xml:lang="la">
+                                    <quote> res </quote>
+                                </cit>: <foreign xml:lang="gez">ኀላፊ፡ ውእቱ፡ ንብረተዝ፡ ዓለም፡</foreign> <ref cRef="1 Cor." loc="7,29">1 Cor. 7,29</ref>; <ref cRef="1 Cor." loc="7,33">1 Cor. 7,33</ref>; <ref cRef="Col." loc="2,20">Col. 2,20</ref>; <ref cRef="Clem." loc="201">Clem. f. 201</ref>; <ref cRef="Clem. " loc="254.">Clem.  f. 254.</ref> </sense> <sense n="c" xml:id="D3c"> <cit type="translation" xml:lang="la">
+                                    <quote> status </quote>
+                                </cit>, <cit type="translation" xml:lang="la">
+                                    <quote> conditio </quote>
+                                </cit>: <foreign xml:lang="gez">ሠናየ፡ ኮነ፡ ንብረቶሙ፡ ለሕዝብ፡</foreign> <ref cRef="Act." loc="24,3">Act. 24,3</ref>; <foreign xml:lang="gez">ንብረተ፡ ነፍስየ፡ ወሥጋየ፡ በእዴሁ፡ እኁዝ፡</foreign> <ref cRef="Sx. Hed." loc="6 Enc.">Sx. Hed. 6 Enc.</ref>
+                            </sense> <sense n="d" xml:id="D3d"> <cit type="translation" xml:lang="la">
+                                    <quote> vivendi ratio </quote>
+                                </cit>, <cit type="translation" xml:lang="la">
+                                    <quote> vita </quote>
+                                </cit>: <foreign xml:lang="gez">ንብረትየ፡ ዘበንእስየ፡</foreign> <foreign xml:lang="grc">βίωσις</foreign> <ref cRef="Act." loc="26,4">Act. 26,4</ref>; <foreign xml:lang="gez">በላዕለ፡ ውሉዱ፡ ያስተርኢ፡ ንብረቱ፡ ለሰብእ፡</foreign> <ref cRef="Sir." loc="11,28">Sir. 11,28</ref>; <foreign xml:lang="grc">βίος</foreign> <foreign xml:lang="gez">ንብረቱ፡ ከመ፡ ዘኢኮነ፡ ሕያወ፡</foreign> <ref cRef="Sir." loc="40,29">Sir. 40,29</ref>; <foreign xml:lang="gez">ኅዳጥ፡ ውእቱ፡ ወማሕዘን፡ ንብረትነ፡</foreign> <ref cRef="Sap." loc="2,1">Sap. 2,1</ref>; <ref cRef="Sap." loc="2,4">Sap. 2,4</ref>; <ref cRef="Sap." loc="2,15">Sap. 2,15</ref>; <ref cRef="Prov." loc="5,9">Prov. 5,9</ref>; <foreign xml:lang="gez">በብዝኀ፡ ንብረት፡</foreign> <ref cRef="Job" loc="12,12">Job 12,12</ref>; <foreign xml:lang="gez">ከመ፡ በዕሩፍ፡ ወበጽምው፡ ይኩን፡ ንብረትነ፡</foreign> <ref cRef="1 Tim." loc="2,2">1 Tim. 2,2</ref>; <ref cRef="Clem." loc="239">Clem. f. 239</ref>; <foreign xml:lang="gez">ንብረተ፡ ዓለም፡</foreign> <foreign xml:lang="grc">αἱ τοῦ βίου πραγματεῖαι</foreign> <ref cRef="2 Tim." loc="2,4">2 Tim. 2,4</ref>; <foreign xml:lang="grc">ζωή</foreign> <ref cRef="Job" loc="7,1">Job 7,1</ref>.</sense> <sense n="e" xml:id="D3e"> <cit type="translation" xml:lang="la">
+                                    <quote> victus </quote>
+                                </cit>, (<cit type="translation" xml:lang="la">
+                                    <quote> facultates </quote>
+                                </cit>): <foreign xml:lang="gez">ይኩን፡ እምጠለ፡ ምድር፡ ንብረትከ፡</foreign> <ref cRef="Kuf." loc="26">Kuf. 26</ref>; <ref cRef="Marc." loc="12,44">Marc. 12,44</ref> <lbl expand="romanae editionis">rom.</lbl>; <foreign xml:lang="grc">δίαιτα</foreign> <ref cRef="Job" loc="5,3">Job 5,3</ref>; <ref cRef="Job" loc="5,24">Job 5,24</ref>; <foreign xml:lang="grc">βίος</foreign> <ref cRef="Cant." loc="8,7">Cant. 8,7</ref>; <foreign xml:lang="gez">ኀልዮ፡ ንብረት፡</foreign> <ref cRef="Clem." loc="254 ">Clem. f. 254 </ref>(<cit type="translation" xml:lang="de">
+                                    <quote>Sorgen für den Unterhalt</quote>
+                                </cit>).</sense>
+                        </sense> <sense n="4" xml:id="D4"> <cit type="translation" xml:lang="la">
+                                <quote> habitatio </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> commoratio </quote>
+                            </cit>: <foreign xml:lang="gez">በቀዳሚ፡ ንብረቶሙ፡</foreign> <ref cRef="4 Reg." loc="17,25">4 Reg. 17,25</ref>; <foreign xml:lang="gez">ንብረቶሙ፡ ውስተ፡ ገዳም፡</foreign> <ref cRef="Chrys. ho." loc="6">Chrys. ho. 6</ref>; <foreign xml:lang="gez">ዘኢኮነ፡ ምስለ፡ ሰብእ፡ ንብረቱ፡</foreign> <ref cRef="4 Esr." loc="3,50">4 Esr. 3,50</ref>; <ref cRef="Dan." loc="2,11">Dan. 2,11</ref>; <foreign xml:lang="grc">δίαιτα</foreign> <foreign xml:lang="gez">ረሰይኩ፡ ሎቱ፡ ገዳመ፡ ንብረቶ፡</foreign> <ref cRef="Job" loc="39,6">Job 39,6</ref>; <foreign xml:lang="gez">ዘአልቦ፡ ንብረተ፡ ዘኀበ፡ መሲዮ፡ ይበይት፡</foreign> <ref cRef="Sir." loc="36,31">Sir. 36,31</ref>; <foreign xml:lang="grc">κατάσχεσις</foreign> <ref cRef="1 Par." loc="4,33">1 Par. 4,33</ref>; <foreign xml:lang="gez">ቤተ፡ ንብረቶሙ፡</foreign> <ref cRef="Judith" loc="9,13">Judith 9,13</ref>.</sense> </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

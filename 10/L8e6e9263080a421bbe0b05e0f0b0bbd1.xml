@@ -1,0 +1,91 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ኅብስት </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="MK" when="2018-04-20">added new entry</change>
+            <change who="MK" when="2018-04-20">added example</change>
+            <change who="MK" when="2018-04-20">corr</change>
+            <change who="MK" when="2018-04-20">new meaning to be peer-checked</change>
+            <change who="MK" when="2018-04-20">new meaning to be peer-reviewed</change>
+        <change who="MK" when="2018-08-22">added new expression </change>
+            <change who="MK" when="2018-08-22">added new expression</change>
+            <change who="MK" when="2018-08-22">corr</change>
+            <change who="MK" when="2018-08-22">added new expression, to be peer-reviewed</change>
+            <change who="MK" when="2018-08-22">added comment</change>
+            <change who="MK" when="2018-08-22">corr</change>
+            <change who="MK" when="2018-08-22">corr</change>
+            <change who="MK" when="2018-08-29">corr</change>
+            <change who="MK" when="2018-08-29">added dots</change>
+            <change who="MK" when="2019-05-28">corr</change>
+        <change who="MK" when="2019-12-09">added nesting</change><change who="MK" when="2019-12-09">nesting</change><change who="MK" when="2019-12-09">corr. nesting</change><change who="MK" when="2019-12-09">added cross-reference </change><change who="MK" when="2022-07-01">corrections</change><change who="MK" when="2022-07-01">correction</change><change who="MK" when="2022-07-01">corrections</change><change who="MK" when="2022-08-11">correction</change><change who="MK" when="2024-06-06">added les</change><change who="MK" when="2024-06-06">added sub</change><change who="MK" when="2024-06-06">added link</change></revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L8e6e9263080a421bbe0b05e0f0b0bbd1" n="4574">
+               <form>
+                  <foreign xml:lang="gez">ኅብስት</foreign>
+               </form>
+               <sense xml:id="Dmain" xml:lang="la" source="#dillmann"> <gramGrp> <pos expand="Substantivum">subst.</pos> </gramGrp> (<gramGrp> <gen value="femininus">fem.</gen> <pos expand="participium">part.</pos> </gramGrp>, pro <foreign xml:lang="gez">ኅብዝት፡</foreign>, <bibl><ptr target="bm:Dillmann1857Gramm"/>gramm.</bibl> § 57), plerumque <gramGrp> <gen value="not found">m.</gen> </gramGrp>, <lbl expand="pluralis">Pl.</lbl> <foreign xml:lang="gez">ኀባውዝ፡</foreign>, <sense n="1" xml:id="D1"> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> panis </t:quote></cit> (nomen generale) et <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> panes </t:quote></cit>, <ref cRef="Jos." loc="9,3">Jos. 9,3</ref>; <ref cRef="Jos." loc="9,10">Jos. 9,10</ref> (<foreign xml:lang="gez">ኅብስት፡ ይቡስ፡</foreign>, <foreign xml:lang="gez">ሥሕቡብ፡</foreign>, <foreign xml:lang="gez">ንቁዝ፡</foreign>, <foreign xml:lang="gez">ምዉቅ፡</foreign>); <ref cRef="Koh." loc="9,7">Koh. 9,7</ref>; <ref cRef="Koh." loc="11,1">Koh. 11,1</ref>; <foreign xml:lang="gez">ሰአሉ፡ ኅብስተ፡</foreign> <ref cRef="Thren." loc="4,4">Thren. 4,4</ref>; <foreign xml:lang="gez">ኅብስት፡ ሐዲስ፡</foreign> <ref cRef="Lev." loc="23,14">Lev. 23,14</ref>; <foreign xml:lang="gez">ኅብስተ፡ ስገም፡</foreign> <ref cRef="Jud." loc="7,13">Jud. 7,13</ref>; <foreign xml:lang="grc">ἄρτοι</foreign> <ref cRef="Gen. " loc="21,14">Gen.  21,14</ref>; <ref cRef="Gen." loc="24,33">Gen. 24,33</ref>; <ref cRef="Jes." loc="44,15">Jes. 44,15</ref>; <ref cRef="Jes." loc="44,19">Jes. 44,19</ref>; <foreign xml:lang="gez">ኅብስተ፡ ስንዳሌ፡</foreign> <ref cRef="Judith" loc="10,5">Judith 10,5</ref>; <foreign xml:lang="gez">ኅብስት፡ ርኩስ፡</foreign> <ref cRef="Mal." loc="1,7">Mal. 1,7</ref>; <foreign xml:lang="gez">ትገብሮ፡ ለከ፡ ኅብስተ፡</foreign> <ref cRef="Hez." loc="4,9">Hez. 4,9</ref>; <foreign xml:lang="gez">ቅዱስ፡ ኅብስት፡</foreign> <ref cRef="1 Reg." loc="21,4">1 Reg. 21,4</ref>; <foreign xml:lang="gez">ኅብስተ፡ ናእት፡</foreign> <ref cRef="Ex." loc="29,2">Ex. 29,2</ref>; <foreign xml:lang="gez">ኅብስተ፡ ቍርባን፡</foreign> <ref cRef="1 Reg. " loc="21,6">1 Reg.  21,6</ref>; <ref cRef="1 Par." loc="9,32">1 Par. 9,32</ref>; <foreign xml:lang="gez">ኅብስተ፡ ምሥያም፡</foreign> <ref cRef="1 Par." loc="23,29">1 Par. 23,29</ref>; <foreign xml:lang="gez">ኅብስተ፡ በረከት፡</foreign> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> panis benedictionis </t:quote></cit> seu <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> eucharisticus </t:quote></cit>, Syn. (cfr. <ref cRef="1 Cor." loc="10,16">1 Cor. 10,16</ref>); <foreign xml:lang="gez">ኅብስት፡ ዘተርፈ፡ እምትማልም፡</foreign> <ref cRef="F.M." loc="26">F.M. 26</ref>,1; <foreign xml:lang="gez">ሀለዎ፡ ንስሓ፡ ፫ዓመት፡ በኅብስት፡ ወማይ፡</foreign> <ref cRef="Clem." loc="226">Clem. f. 226</ref>; <foreign xml:lang="gez">መብልዑ፡ ለንሱሕ፡ አልቦ፡ ዘእንበለ፡ ኅብስት፡ ወማይ፡ ወጼው፡</foreign> <ref cRef="Clem. " loc="237.">Clem.  f. 237.</ref> 
+</sense> <sense n="2" xml:id="D2"> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> placenta panis </t:quote></cit>, <lbl expand="pluralis">Pl.</lbl> <foreign xml:lang="gez">ኀባውዝ፡</foreign>, ut: <foreign xml:lang="gez">ኅብስተ፡ ናእት፡ አሐቲ፡</foreign> <ref cRef="Lev." loc="8,26">Lev. 8,26</ref>; <ref cRef="Ex." loc="29,23">Ex. 29,23</ref>; <ref cRef="Jer." loc="44,21">Jer. 44,21</ref>; <foreign xml:lang="gez">፲ኅብስት፡</foreign> <ref cRef="Ex." loc="29,2">Ex. 29,2</ref>; <foreign xml:lang="gez">፪፻ኅብስት፡</foreign> <ref cRef="2 Reg." loc="16,1">2 Reg. 16,1</ref>; <foreign xml:lang="gez">ኀባውዘ፡ ቍርባን፡</foreign> <ref cRef="Matth." loc="12,4">Matth. 12,4</ref>; <ref cRef="Kuf." loc="66">Kuf. p. 66</ref>; <ref cRef="Kuf." loc="153 ">Kuf. p. 153 </ref>(ubi <foreign xml:lang="gez">ኀባውዝ፡</foreign> pro cibo et hominum et brutorum usurpatum est). – <lbl expand="Vocabularium Aethiopicum, -a -a">Voc. Ae.</lbl>: <foreign xml:lang="gez">ኅብስት፡ ብ፡ እንጄራ፡</foreign> 
+</sense> </sense>
+               
+            <sense xml:id="Tmain" xml:lang="en" source="#traces"> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">ḫǝbǝst</t:quote></cit>, <lbl expand="pluralis">Pl.</lbl> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">ḫǝbāwǝst</t:quote></cit> <lb/>
+ <ptr target="#D1"/> <sense n="a" xml:id="Ta"> <foreign xml:lang="gez">ኅብስተ፡ በረከት</foreign> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> ḫǝbǝsta barakat </t:quote></cit> <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> ʻbread of blessingʼ </t:quote></cit> (see also the comment below) <foreign xml:lang="gez">ወበቀዳሚት፡ ሰንበት፡ ወዓለ፡ እንዘ፡ ይሜህር፡ ዘእንበለ፡ ይጥዓም፡ እከለ፡ ዘእንበለ፡ ንስቲት፡ ኅብስተ፡ በረከት</foreign> <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> ʻOn the first Sabbath he spent the day teaching, without tasting food except a little bread of blessingʼ </t:quote></cit> <bibl><ptr target="bm:Tedros2015Yonas"/><citedRange unit="page"> 36 (332) l. 13–15 (ed.); 37 (333) l. 15–16 (tr.)</citedRange></bibl> (ʻThe bread of blessing or awlogǝya {<lbl expand="videas">vid.</lbl> <foreign xml:lang="gez">አውሎግያ</foreign>} is the blessed bread which is distributed among the clergy at the end of the Eucharistic celebration, cf. <bibl><ptr target="bm:Anon1955MashafeSaw"/><citedRange unit="page"> 207</citedRange></bibl>.ʼ <bibl><ptr target="bm:Tedros2015Yonas"/><citedRange unit="page"> 37 (333) n. 32</citedRange></bibl>) 
+</sense> <sense n="b" xml:id="Tb"> <foreign xml:lang="gez">ኅብስት፡ ሥሩዕ፡</foreign> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> ḫǝbǝst śǝruʿ </t:quote></cit> <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> bread arranged, served </t:quote></cit> (in a certain way to be eaten), (see also the comments below) <foreign xml:lang="gez">ወዓዲ፡ በኢየሩሳሌም፡ ተበስለ፡ ለርኁባን፡ መብልዕ፡ ኅብስት፡ ሥሩዕ፡</foreign> ‘<cit type="translation" xml:lang="it"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> E inoltre a Gerusalemme venne cotto del pane apparecchiato come cibo per gli affamati </t:quote></cit>’ <bibl><ptr target="bm:Marrassini2003GabraManfasQeddusTextus"/><citedRange unit="page"> 150 (ed.)</citedRange></bibl>, <bibl><ptr target="bm:Marrassini2003GabraManfasQeddusVersio"/><citedRange unit="page"> 50 (tr.)</citedRange></bibl> (‘Cf. Giovanni 21:9 {<bibl><ptr target="bm:wechsler2005EvangeliumIoh"/><citedRange unit="page">123</citedRange></bibl>} (stessa espressione <foreign xml:lang="gez">ኅብስት፡ ሥሩዕ፡</foreign>, con l’equivalente di <foreign xml:lang="gez">ሥሩዕ፡</foreign> mancante nel testo greco).’ <bibl><ptr target="bm:Marrassini2003GabraManfasQeddusVersio"/><citedRange unit="page"> 50 n. 215</citedRange></bibl>. In the Gǝʿǝz-Amharic Bible, <bibl><ptr target="bm:Haddiskidan1982"/><citedRange unit="page"> 471a</citedRange></bibl>, the word <foreign xml:lang="gez">ኅብስት፡</foreign> in <foreign xml:lang="gez">ኅብስት፡ ሥሩዕ፡</foreign> is translated into Amharic as <foreign xml:lang="am">ማዕድ</foreign> ‘table’ . Hence the meaning of <foreign xml:lang="gez">ኅብስት፡ ሥሩዕ፡</foreign> can be rendered as ‘the table which is laid/set.’, <lbl expand="videas">vid.</lbl> <foreign xml:lang="gez">ሥሩዕ፡</foreign>) 
+</sense> <sense n="L" xml:id="TL"> <foreign xml:lang="gez">ኅብስተ፡ ምሥያም፡</foreign> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">ḫǝbǝsta mǝśyām</t:quote></cit> <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">shrewbread</t:quote></cit> lit. ‘bread of setting’; it translates Heb. lęhęm hammaʿǎrękęt; perhaps rather under <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">śym</t:quote></cit> II (<lbl expand="videas">vid.</lbl> <ref type="external" target="https://betamasaheft.eu/Dillmann/lemma/L111elyv827trnzlkjguhh3o8r5h365y4"><foreign xml:lang="gez">ሤመ፡</foreign></ref>) <bibl><ptr target="bm:Leslau1987dic"/><citedRange unit="page"> 540a</citedRange></bibl> 
+</sense> </sense>
+                </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

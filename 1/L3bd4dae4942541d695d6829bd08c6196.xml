@@ -1,0 +1,85 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ዘከረ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="LB" when="2018-04-26">root</change>
+        </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L3bd4dae4942541d695d6829bd08c6196" n="7645">
+               <form>
+                  <foreign xml:lang="gez">ዘከረ</foreign>
+               <rs type="root"/>
+                    </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain"> <subc>I,1</subc> [<foreign xml:lang="he">זָכַר</foreign> <foreign xml:lang="syr">ܕܟܰܪ</foreign> <foreign xml:lang="ar">ذَكَرَ</foreign>; <lbl expand="videas">vid.</lbl> etiam <foreign xml:lang="gez">ዝኅር፡</foreign>] <gramGrp> <pos expand="Subjunctivus">Subj.</pos> </gramGrp> <foreign xml:lang="gez">ይዝክር፡</foreign> (semel in uno codice <ref cRef="Jes." loc="64,9">Jes. 64,9</ref> reperi <foreign xml:lang="gez">ይዝከር፡</foreign>) <sense n="1" xml:id="D1"> <cit type="translation" xml:lang="la">
+                                <quote> meminisse </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> recordari </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> reminisci </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> memorem esse </quote>
+                            </cit>, <lbl expand="cum">c.</lbl> <gramGrp> <case value="accusativus">Acc.</case> </gramGrp>: <ref cRef="Ps." loc="8,5">Ps. 8,5</ref>; <foreign xml:lang="gez">ኢይዝክሩ፡ እንከ፡ስሞ፡</foreign> <ref cRef="Jer." loc="11,19">Jer. 11,19</ref>; <ref cRef="2 Reg." loc="14,11">2 Reg. 14,11</ref>; <cb n="1058" xml:id="c1058"/> <ref cRef="2 Reg." loc="19,19">2 Reg. 19,19</ref>; <ref cRef="3 Reg." loc="17,18">3 Reg. 17,18</ref>; <ref cRef="Ex." loc="23,13">Ex. 23,13</ref>; <ref cRef="Hen." loc="69,14">Hen. 69,14</ref>; <ref cRef="2 Cor." loc="7,15">2 Cor. 7,15</ref>; <ref cRef="Matth. " loc="26,13">Matth.  26,13</ref>; <lbl expand="cum">c.</lbl> <gramGrp> <case value="accusativus">Acc.</case> </gramGrp> et <foreign xml:lang="gez">ለ፡</foreign> pers. aliquid alicui i.e. in commodum ejus: <ref cRef="Ps." loc="19,3">Ps. 19,3</ref>; <ref cRef="Ps." loc="24,7">Ps. 24,7</ref>, vel in detrimentum alicujus: <ref cRef="Ps." loc="78,8">Ps. 78,8</ref>; <ref cRef="Jes. " loc="64,9">Jes.  64,9</ref>.</sense> <sense n="2" xml:id="D2"> <cit type="translation" xml:lang="la">
+                                <quote> memorare </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> mentionem facere </quote>
+                            </cit>: <foreign xml:lang="gez">ስሞ፡ ለቅዱስ፡ ኢትዝክር፡ ሶበ፡ ትምሕል፡</foreign> <ref cRef="Sir." loc="23,9">Sir. 23,9</ref>; <ref cRef="Jer." loc="11,19">Jer. 11,19</ref>; <ref cRef="Ps." loc="82,4">Ps. 82,4</ref>; <foreign xml:lang="gez">አልቦ፡ ዘይዘክሮሙ፡</foreign> (v. <foreign xml:lang="gez">ዘይዜክሮሙ፡</foreign>) <foreign xml:lang="gez">እንከ፡</foreign> <ref cRef="Zach." loc="13,2">Zach. 13,2</ref>; <foreign xml:lang="gez">ኵሎ፡ ዘዘከርነ፡</foreign>M.M. f. 33 al.; <foreign xml:lang="gez">ዘአቅደምነ፡ ዘክሮታ፡ በጥንተ፡ ዛቲ፡ መጽሐፍ፡</foreign> F.M. 2,11;<bibl>
+                                <ptr target="bm:Ludolf1691Commentarius"/>
+                            </bibl> p. 305 n. 18.</sense> </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

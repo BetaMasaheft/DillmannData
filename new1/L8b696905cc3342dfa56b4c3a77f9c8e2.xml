@@ -1,0 +1,122 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="gez">ተኵስ</title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+               <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+            </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+         <listPrefixDef>
+            <prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="MK" when="2018-06-22">added entry</change>
+         <change who="MK" when="2018-07-10">corr</change>
+         <change who="MK" when="2018-07-10">corr</change>
+         <change who="MK" when="2018-07-19">added word </change>
+         <change who="MK" when="2018-07-19">corre</change>
+         <change who="MK" when="2018-07-19">added translation</change>
+         <change who="MK" when="2018-07-20">added meaning</change>
+         <change who="MK" when="2019-12-06">corr</change>
+         <change who="MK" when="2019-12-06">added square brackets</change>
+         <change who="MK" when="2022-06-29">correction</change>
+         <change who="MK" when="2022-06-29">correction</change>
+         <change who="MK" when="2022-06-29">added example and trns.</change>
+         <change who="MK" when="2022-06-29">correction</change>
+         <change who="MK" when="2022-06-29">correction</change>
+         <change who="MK" when="2022-06-29">added bibliography</change>
+         <change who="MK" when="2022-06-29">corrections</change>
+         <change who="MK" when="2022-06-29">correction</change>
+         <change who="MK" when="2022-07-01">correction</change>
+         <change who="MK" when="2022-07-01">added comment</change>
+         <change who="ES" when="2022-08-02">marked up lit. as abbreviation</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L8b696905cc3342dfa56b4c3a77f9c8e2" n="12384">
+               <form>
+                  <foreign xml:lang="am">ተኵስ</foreign>
+               </form>
+               <sense xml:id="Tmain" xml:lang="en" source="#traces">
+                  <cit type="transcription" xml:lang="gez">
+                     <t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> takʷs </t:quote>
+                  </cit>, <foreign xml:lang="gez">ተኳሴ፡</foreign>
+                  <cit type="transcription" xml:lang="gez">
+                     <t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> takʷāse</t:quote>
+                  </cit>
+                  <bibl><ptr target="bm:ContiRossini1909LiberT"/><citedRange unit="page"> 74 n. 12
+                     </citedRange></bibl>
+                  <gramGrp><pos expand="Substantivum">subst.</pos></gramGrp>
+                  <lbl expand="literally">lit.</lbl> ‘cauterizing, brand’, kind of tax paid every
+                  three years to the king; one pays one cow for each ten cows owned; a cow taken as
+                  a tax is marked with a hot metal plate, hence its name ‘cauterizing, brand’ (see
+                  also the comments below) <foreign xml:lang="gez">ወካዕበ፡ አጥፍአ፡ ጸባሕተ፡ ተኵስ፡
+                     ብዙኅ፡</foreign> ‘<cit type="translation" xml:lang="fr">
+                     <t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> Il supprima encore de
+                        nombreuses redevances de … {takʷs} </t:quote>
+                  </cit>’ <bibl><ptr target="bm:Colin2010MadhaninaEgzi"/><citedRange unit="page">
+                        150 (538) l. 21 (ed.), 151 (539) l. 23–24 (tr.)</citedRange></bibl> (‘Est un
+                  mot amharique dont le sens - «tir» ou «incendie» - ne convient guère au contexte
+                  de la phrase.’ <bibl><ptr target="bm:Colin2010MadhaninaEgzi"/><citedRange unit="page"> 151 (539) n. 13 (tr.)</citedRange></bibl>. The editor was
+                  unaware of the other, extended, meaning of the Amharic word.); <foreign xml:lang="gez">ወተኵሰ፡ አልህምትሂ፡ አመ፡ ተአዘዘ፡ ይትርፍ፡ ወኢይቅረብ፡ ውስተ፡ ዓፀዳ፡ ለቅድስት፡ ቤተ፡
+                     ክርስቲያን።</foreign> ‘<cit type="translation" xml:lang="fr">
+                     <t:quote xmlns:t="http://www.tei-c.org/ns/1.0">Lorsque le recouvrement de
+                        l’impôt sur le gros bétail sera ordonné, [le percepteur] s’arrêtera et
+                        n’entrera pas dans l’enceinte (territoire) de la sainte église.</t:quote>
+                  </cit>’ <bibl><ptr target="bm:ContiRossini1909LiberT"/><citedRange unit="page"> 74
+                        l. 19–20 (ed.)</citedRange></bibl>, <bibl><ptr target="bm:ContiRossini1910LiberV"/><citedRange unit="page"> 89 l. 3–5
+                        (tr.)</citedRange></bibl> (‘Il s’agit d’une dîme triennale sur le gros
+                  bétail: cet impôt, qui fut supprimé par le roi Yoḥannes Ier, semble avoir été
+                  établi par le roi Malak Sagad. On l’appelait takuesā «brûlure», parce que les
+                  bœufs choisi par le percepteur étaient marqués eu fer rogue <bibl><ptr target="bm:Barradas1906Tractatus"/><citedRange unit="page">
+                     186</citedRange></bibl>.’ <bibl><ptr target="bm:ContiRossini1910LiberV"/><citedRange unit="page"> 89 n. 5 (tr.)</citedRange></bibl>; for more
+                  details see <bibl><ptr target="bm:FilleulPankhurst1996Account"/><citedRange unit="page"> 90</citedRange></bibl>; <bibl><ptr target="bm:BeckHunting1954RecordsOfEthiopia"/><citedRange unit="page">
+                        88</citedRange></bibl>) <nd/>
+               </sense>
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

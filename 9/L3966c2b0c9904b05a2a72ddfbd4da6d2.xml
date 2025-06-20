@@ -1,0 +1,76 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ርቡዕ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="MK" when="2024-07-08">added gr and les </change><change who="MK" when="2024-07-08">added sub</change><change who="MK" when="2024-07-08">added gr fem</change></revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L3966c2b0c9904b05a2a72ddfbd4da6d2" n="2181">
+               <form>
+                  <foreign xml:lang="gez">ርቡዕ</foreign>
+               </form>
+               <sense xml:id="Dmain" xml:lang="la" source="#dillmann"> <gramGrp> <pos expand="participium">part.</pos> </gramGrp> <sense n="1" xml:id="D1"> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> quadratus </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> quadrangularis </t:quote></cit> <ref cRef="Ex." loc="27,1">Ex. 27,1</ref>; <ref cRef="Ex." loc="28,16">Ex. 28,16</ref>; <ref cRef="Ex." loc="30,2">Ex. 30,2</ref>; <ref cRef="Ex." loc="36,16">Ex. 36,16</ref>; <ref cRef="Gen." loc="6,14">Gen. 6,14</ref>; <foreign xml:lang="gez">ርብዕተ፡ ትገብሩ፡</foreign> <ref cRef="Hez." loc="48,20">Hez. 48,20</ref>; <foreign xml:lang="gez">፭፻ወ፭፻ ርቡዕ፡</foreign> <ref cRef="Hez." loc="45,2">Hez. 45,2</ref>; <ref cRef="Apoc." loc="21,16">Apoc. 21,16</ref>; <ref cRef="Herm." loc="75">Herm. p. 75</ref>; <ref cRef="Jsp. " loc="377.">Jsp.  p. 377.</ref> Hinc <lbl expand="pluralis">Pl.</lbl> <gramGrp> <gen value="femininus">fem.</gen> </gramGrp> <foreign xml:lang="gez">ርቡዓት፡</foreign> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> quatuor latera </t:quote></cit> rei quadratae (<foreign xml:lang="he">רְבָעִים</foreign>): <foreign xml:lang="gez">ርቡዕ፡ ኀበ፡ ፬ ርቡዓቲሁ፡</foreign> <ref cRef="Hez." loc="43,16">Hez. 43,16</ref> <lbl expand="versio nova">vers. nov.</lbl>; <ref cRef="Hez." loc="43,17">Hez. 43,17</ref> <lbl expand="versio nova">vers. nov.</lbl> 
+</sense> <sense n="2" xml:id="D2"> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> quaternarius </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> quadruplex </t:quote></cit>: <foreign xml:lang="gez">መለኮተ፡ አምላክ፡ ኢርቡዕ፡ ውእቱ፡ አላ፡ ሥሉስ፡</foreign> M.M. f. 219; (animalia Ezechielis) <foreign xml:lang="gez">ርቡዓነ፡ ገጽ፡</foreign> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> quatuor vultibus praedita </t:quote></cit> <ref cRef="Org. " loc="3.">Org.  3.</ref> 
+</sense> </sense>
+               
+            <sense xml:id="Tmain" xml:lang="en" source="#traces"> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">rǝbuʿ</t:quote></cit> <gramGrp> <gen value="femininus">fem.</gen> </gramGrp>, <foreign xml:lang="gez">ርብዕት፡</foreign> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">rǝbǝʿt</t:quote></cit>; <lbl expand="pluralis">Pl.</lbl> <foreign xml:lang="gez">ርቡዓን፡</foreign> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">rǝbuʿān</t:quote></cit>, <gramGrp> <gen value="femininus">fem.</gen> </gramGrp> <foreign xml:lang="gez">ርቡዓት፡</foreign> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">rǝbuʿāt</t:quote></cit> <sense n="G" xml:id="TG"> <foreign xml:lang="gez">ርቡዕ፡</foreign> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">rǝbuʿ</t:quote></cit>, <lbl expand="pluralis">Pl.</lbl> <foreign xml:lang="gez">ርቡዓን፡</foreign> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">rǝbuʿān</t:quote></cit> «<cit type="translation" xml:lang="fr"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">quadruplé</t:quote></cit>, <cit type="translation" xml:lang="fr"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">quadruple</t:quote></cit>, <cit type="translation" xml:lang="fr"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">quadrangulaire</t:quote></cit>» ― <foreign xml:lang="am">አራት፡ የሆነ፡</foreign> Ms. <ref type="BM" target="BNFabb217">BNFabb217</ref>, fol. 58v. <lb/>
+ <foreign xml:lang="gez">ርብዕት፡</foreign> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">rǝbǝʿt</t:quote></cit> <gramGrp> <gen value="femininus">fem.</gen> </gramGrp>, <lbl expand="pluralis">Pl.</lbl> <foreign xml:lang="gez">ርቡዓት፡</foreign> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">rǝbuʿāt</t:quote></cit> «<cit type="translation" xml:lang="fr"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">quadruplée</t:quote></cit>» ― <foreign xml:lang="am">አራት፡ የሆነች፡</foreign> Ms. <ref type="BM" target="BNFabb217">BNFabb217</ref>, fol. 58v. <lb/>
+ <bibl><ptr target="bm:Grebaut1952SuppLexicon"/><citedRange unit="page"> 151</citedRange></bibl> 
+</sense> <sense n="L" xml:id="TL"> <foreign xml:lang="gez">ርቡዕ</foreign> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">rǝbuʿ</t:quote></cit> <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">square</t:quote></cit>, <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">squared</t:quote></cit>, <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">fourfold</t:quote></cit>, <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">quadrangular</t:quote></cit>, <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">four-sided</t:quote></cit> <lb/>
+ <foreign xml:lang="gez">ርቡዓት</foreign> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">rǝbuʿāt</t:quote></cit> <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">four sides of a square</t:quote></cit> <bibl><ptr target="bm:Leslau1987dic"/><citedRange unit="page"> 460a</citedRange></bibl> 
+</sense> </sense></entry>
+         </div>
+      </body>
+   </text>
+</TEI>

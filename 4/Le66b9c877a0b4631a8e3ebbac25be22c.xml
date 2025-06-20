@@ -1,0 +1,88 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="gez">ማሴላ</title>
+                <author>Alessandro Bausi</author>
+                <author>Andreas Ellwardt</author>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+                <publisher>TraCES project.
+                                    https://www.traces.uni-hamburg.de/</publisher>
+                <pubPlace>Hamburg</pubPlace>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/">
+                                        This file is licensed under the Creative Commons
+                                        Attribution-ShareAlike Non Commercial 4.0. </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+                </p>
+                <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>A digital edition of the Lexicon in TEI.</p>
+        <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="la">latin</language>
+                <language ident="it">Italian</language>
+                <language ident="gez">Gǝʿǝz</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="syr">Syriac</language>
+                <language ident="ar">Arabic</language>
+                <language ident="sa">Sanskrit</language>
+                <language ident="geo">Georgian</language>
+                <language ident="cop">Coptic</language>
+                <language ident="osa">Old South Arabian</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change who="MK" when="2017-12-13">Added entry</change>
+            <change who="MK" when="2017-12-13">Corrected comma</change>
+            <change who="MK" when="2018-03-12">correction of the lang encoding</change>
+            <change who="MK" when="2018-03-12">added transliteration</change>
+            <change who="MK" when="2018-03-12">added transl</change>
+            <change who="MK" when="2018-03-12">dots</change>
+            <change who="MK" when="2018-03-23">corr</change>
+            <change who="MK" when="2018-03-23">redone entry to be perr-checked</change>
+            <change who="MK" when="2018-04-17">corr</change>
+        <change who="MK" when="2019-04-15">corr</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <entry xml:id="Le66b9c877a0b4631a8e3ebbac25be22c" n="12272">
+                    <form>
+                        <foreign xml:lang="gez">ማሴላ</foreign>
+                    </form>
+                    <sense xml:lang="en" source="#traces" xml:id="Tmain"> <cit type="transcription" xml:lang="gez">
+                            <quote> māselā </quote>
+                        </cit> <pos expand="Substantivum">subst.</pos> <cit type="translation" xml:lang="en">
+                            <quote> sorghum </quote>
+                        </cit> (‘Il termine usato è <foreign xml:lang="gez">ማሴላ፡</foreign> (andropogon sorgum) non attestato in gǝʾǝz ma vicino al tigrino <foreign xml:lang="ti">መሸላ</foreign>, cf. <bibl>
+                            <ptr target="bm:DaBassano1918DictTgr"/>
+                            <citedRange unit="page"> 95</citedRange>
+                        </bibl>, a all’amarico <foreign xml:lang="am">ማሽላ</foreign>, <bibl>
+                            <ptr target="bm:Guidi1901Vocabolario"/>
+                            <citedRange unit="page"> 78</citedRange>
+                        </bibl>.’ <bibl>
+                            <ptr target="bm:Tedros2009TawaldaMadehnVittore"/>
+                            <citedRange unit="page"> 135 (215) n. 58</citedRange>
+                        </bibl>) <nd/> </sense>
+                </entry>
+            </div>
+        </body>
+    </text>
+</TEI>

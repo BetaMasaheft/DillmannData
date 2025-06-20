@@ -1,0 +1,149 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ከተማ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+         <change who="PL" when="2019-09-16">fix for #16</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L18ff689b93b8421ba00509ce81f2f6a5" n="6218">
+               <form>
+                  <foreign xml:lang="gez">ከተማ</foreign>
+               </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain">
+                  <gramGrp>
+                     <pos expand="Substantivum">subst.</pos>
+                  </gramGrp>, <gramGrp>
+                     <gen value="masculinum">m.</gen>
+                  </gramGrp> et <gramGrp>
+                     <gen value="femininus">fem.</gen>
+                  </gramGrp>, <lbl expand="pluralis">Pl.</lbl>
+                  <foreign xml:lang="gez">ከተማት፡</foreign>
+                  <sense n="1" xml:id="D1">
+                     <cit type="translation" xml:lang="la">
+                        <quote>extremum</quote>
+                     </cit>, <cit type="translation" xml:lang="la">
+                        <quote>summum</quote>
+                     </cit>, <cit type="translation" xml:lang="la">
+                        <quote>extremitas</quote>
+                     </cit>, <cit type="translation" xml:lang="la">
+                        <quote>summitas</quote>
+                     </cit> rei, <sense n="a" xml:id="D1a">
+                        <cit type="translation" xml:lang="la">
+                           <quote>extremum</quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                           <quote>finis</quote>
+                        </cit>: <foreign xml:lang="gez">ውስተ፡ ከተማ፡ ምድር፡ </foreign>
+                        <foreign xml:lang="grc">ἐπ᾽ ἄκρα γῆς</foreign>
+                        <ref cRef="Prov." loc="17,24">Prov. 17,24</ref>; <foreign xml:lang="gez">ከተማ፡ በትሩ፡</foreign>
+                        <ref cRef="Gen." loc="47,31">Gen. 47,31</ref>; <ref cRef="1 Reg." loc="14,27">1 Reg. 14,27</ref>; <ref cRef="Hebr. " loc="11,21">Hebr.
+                           11,21</ref>; <foreign xml:lang="gez">ከተማተ፡ አብትር፡</foreign> Lud. e Mss.
+                        Colb.; <foreign xml:lang="gez">ከተማ፡ ነፍስት፡</foreign>
+                        <cit type="translation" xml:lang="la">
+                           <quote>glans</quote>
+                        </cit> membri <ref cRef="Gen." loc="17,11">Gen. 17,11</ref>; <ref cRef="Gen. " loc="17,23">Gen. 17,23</ref>; <ref cRef="Gen." loc="17,25">Gen. 17,25</ref>; <ref cRef="Gen." loc="34,24">Gen. 34,24</ref>; <ref cRef="Ex." loc="4,25">Ex. 4,25</ref>; <foreign xml:lang="gez">ከተማ፡
+                           እድ፡</foreign>, <foreign xml:lang="gez">ከተማ፡ እግር፡</foreign>
+                        <ref cRef="Lev." loc="14,14">Lev. 14,14</ref>; <foreign xml:lang="gez">ከተማ፡
+                           አጽባዕተ፡ እድ፡</foreign>, <foreign xml:lang="gez">ከተማ፡ አጽባዕተ፡ እግር፡</foreign>
+                        <ref cRef="Ex." loc="29,20">Ex. 29,20</ref>; <ref cRef="Lev." loc="8,23">Lev. 8,23</ref>; <foreign xml:lang="gez">ከተማ፡ እዝን፡</foreign>
+                        <cit type="translation" xml:lang="la">
+                           <quote>auricula</quote>
+                        </cit>
+                        <ref cRef="Ex." loc="29,20">Ex. 29,20</ref>; <ref cRef="Lev." loc="8,23">Lev. 8,23</ref>; <foreign xml:lang="gez">ከተማ፡ ዕርፍ፡</foreign>
+                        <ref cRef="Kuf." loc="48.">Kuf. p. 48.</ref>
+                        <cb n="0852" xml:id="c0852"/>
+                     </sense>
+                     <sense n="b" xml:id="D1b">
+                        <cit type="translation" xml:lang="la">
+                           <quote>summum</quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                           <quote>apex</quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                           <quote>vertex</quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                           <quote>fastigium</quote>
+                        </cit>: <foreign xml:lang="gez">ከተማ፡ ሥዕርቶሙ፡</foreign>
+                        <foreign xml:lang="grc">κορυφὴ τριχός </foreign>
+                        <ref cRef="Ps." loc="67,23">Ps. 67,23</ref>; <foreign xml:lang="gez">ከተማሁ፡
+                           ለደብር፡</foreign>
+                        <ref cRef="Ex." loc="19,20">Ex. 19,20</ref>; <ref cRef="Ex." loc="24,17">Ex.
+                           24,17</ref>; <ref cRef="Hen." loc="17,2">Hen. 17,2</ref>; <foreign xml:lang="gez">ላዕለ፡ ውስተ፡ ከተማ፡ አቍጽል፡ </foreign> (arboris) <ref cRef="Macc." loc="20.">Macc. f. 20.</ref>
+                     </sense>
+                     <sense n="c" xml:id="D1c">
+                        <cit type="translation" xml:lang="la">
+                           <quote>cuspis</quote>
+                        </cit>: <foreign xml:lang="gez">ጕጠት፡ ዘሠላስ፡ ከተማት፡</foreign>
+                        <ref cRef="Phlx. " loc="5.">Phlx. 5.</ref>
+                     </sense>
+                     <sense n="d" xml:id="D1d">
+                        <lbl expand="translate">transl.</lbl>: <cit type="translation" xml:lang="la">
+                           <quote>primitiae</quote>
+                        </cit>: <foreign xml:lang="gez">ከተማ፡ ዐውድከ፡ </foreign>
+                        <foreign xml:lang="grc">ἀπαρχαὶ ἅλωνος</foreign>
+                        <ref cRef="Ex. " loc="22,28">Ex. 22,28</ref>.</sense>
+                     <sense n="2" xml:id="D12"> In lingua Aethiopico-amharica <foreign xml:lang="gez">ከተማ፡
+                        </foreign> „vulgo vocantur <cit type="translation" xml:lang="la">
+                           <quote>castra regia</quote>
+                        </cit> scil. <cit type="translation" xml:lang="la">
+                           <quote>summa</quote>
+                        </cit>“ (Lud.), crebro in Annalibus Regum Abyssiniae, ut: <foreign xml:lang="gez">ገብሩ፡ ከተማ፡ በ </foreign> … <ref cRef="Chr. L. Atq." loc="14">Chr. L. Atq. f. 14</ref>; <foreign xml:lang="gez">ሰብአ፡ ከተማ፡ </foreign>
+                        homines qui castra regia sequuntur, Lud.</sense>
+                  </sense>
+               </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

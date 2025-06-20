@@ -1,0 +1,101 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ተጠየቀ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="AE" when="2018-08-14">Verschachtelung, Sprachkennung,</change>
+            <change who="AE" when="2018-08-14">Korrektur,</change>
+        </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="Lfcefd36f34a04e148946e3f40218e650" n="9039">
+               <form>
+                  <foreign xml:lang="gez">ተጠየቀ</foreign>
+               </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain"> <subc>III,2</subc> <sense n="A" xml:id="DA"> Reflex. <sense n="1" xml:id="DA1"> <cit type="translation" xml:lang="la">
+                                    <quote> diligenter sciscitari </quote>
+                                </cit> vel <cit type="translation" xml:lang="la">
+                                    <quote> percontari </quote>
+                                </cit> certum, verum (<cit type="translation" xml:lang="de">
+                                    <quote>sich Gewißheit verschaffen</quote>
+                                </cit>), sedulo interrogare, <lbl expand="cum">c.</lbl> <foreign xml:lang="gez">በኀበ፡</foreign> pers.: <foreign xml:lang="gez">በኀበ፡ ጠቢባን፡ ተጠየቅ፡ በኵሉ፡ ጊዜ፡</foreign> <ref cRef="Sir." loc="27,12">Sir. 27,12</ref>; <lbl expand="cum">c.</lbl> <foreign xml:lang="gez">እምነ፡</foreign> pers. et <gramGrp> <case value="accusativus">Acc.</case> </gramGrp> rei, <foreign xml:lang="grc">ἀκριβοῦν</foreign> <ref cRef="Matth." loc="2,7">Matth. 2,7</ref>; <lbl expand="cum">c.</lbl> <gramGrp> <case value="accusativus">Acc.</case> </gramGrp> <lbl expand="persona">pers.</lbl>: <foreign xml:lang="gez">ተጠየቅዎ፡ ለ ፩ እምእለ፡ ይቀውሙ፡</foreign> <ref cRef="Dan." loc="7,16">Dan. 7,16</ref>; <ref cRef="Dan. " loc="7,19">Dan.  7,19</ref> <lbl expand="varia lectio">var.</lbl>; <lbl expand="cum">c.</lbl> <gramGrp> <case value="accusativus">Acc.</case> </gramGrp> <lbl expand="persona">pers.</lbl> et <foreign xml:lang="gez">በእንተ፡</foreign> rei <ref cRef="Luc. " loc="9,45">Luc.  9,45</ref>.</sense> <sense n="2" xml:id="DA2"> <cit type="translation" xml:lang="la">
+                                    <quote> pro certo cognoscere </quote>
+                                </cit>, <cit type="translation" xml:lang="la">
+                                    <quote> certiorem fieri </quote>
+                                </cit> de re, <lbl expand="cum">c.</lbl> <gramGrp> <case value="accusativus">Acc.</case> </gramGrp>: <foreign xml:lang="gez">እመ፡ ተጠየቀ፡ ብእሲ፡ ደዌሁ፡</foreign> <foreign xml:lang="grc">ἐὰν γνῷ</foreign> <ref cRef="2 Par." loc="6,29">2 Par. 6,29</ref>; <ref cRef="Luc." loc="22,56">Luc. 22,56</ref> Platt.</sense> </sense> <sense n="B" xml:id="DB"> Pass. <sense n="1" xml:id="DB1"> <cit type="translation" xml:lang="la">
+                                    <quote> perspici </quote>
+                                </cit>, <cit type="translation" xml:lang="la">
+                                    <quote> animadverti </quote>
+                                </cit>, <ref cRef="Cod. Mus. Brit. LXXII f." loc="64 ">Cod. Mus. Brit. LXXII f. 64 </ref>(<lbl expand="videas">vid. sub</lbl> <foreign xml:lang="gez">ገለጸ፡</foreign>).</sense> <sense n="2" xml:id="DB2"> <cit type="translation" xml:lang="la">
+                                    <quote> compertum esse </quote>
+                                </cit> alicui: <foreign xml:lang="gez">ተጠየቀ፡ ኀቤነ፡ እስመ፡</foreign> … <ref cRef="Jsp." loc="334.">Jsp. p. 334.</ref> </sense> <sense n="3" xml:id="DB3"> <cit type="translation" xml:lang="la">
+                                    <quote> perspicuum esse </quote>
+                                </cit>, <cit type="translation" xml:lang="la">
+                                    <quote> apparere </quote>
+                                </cit>: <foreign xml:lang="gez">በዝ፡ ተዐውቀ፡ ወተጠየቀ፡</foreign> seq. <foreign xml:lang="gez">ከመ፡</foreign> <ref cRef="Abush." loc="12,">Abush. 12,</ref> al.</sense> <sense n="4" xml:id="DB4"> <cit type="translation" xml:lang="la">
+                                    <quote> probari </quote>
+                                </cit>, in specie <cit type="translation" xml:lang="la">
+                                    <quote> eventu probari </quote>
+                                </cit>, <cit type="translation" xml:lang="la">
+                                    <quote> certum </quote>
+                                </cit> vel <cit type="translation" xml:lang="la">
+                                    <quote> verum fieri </quote>
+                                </cit>: <foreign xml:lang="gez">ለእመ፡ ተጠየቀ፡ ሞተ፡ ንጉሥ፡</foreign> (<cit type="translation" xml:lang="de">
+                                    <quote>sich bestätigt</quote>
+                                </cit>) <ref cRef="Jsp." loc="340">Jsp. p. 340</ref>; <foreign xml:lang="gez">ወበዝ፡ ተጠየቀ፡ ሕልመ፡ አቡሆሙ፡</foreign> <ref cRef="Jsp." loc="302">Jsp. p. 302</ref>; <foreign xml:lang="gez">ወተጠየቀ፡ ሶቤሃ፡ ነገረ፡</foreign> (i.e. vaticinium) <foreign xml:lang="gez">አረጋዊ፡</foreign> <ref cRef="Jsp." loc="302">Jsp. p. 302</ref>; <ref cRef="Jsp. " loc="373.">Jsp.  p. 373.</ref> </sense> </sense> </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

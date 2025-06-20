@@ -1,0 +1,100 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> አንስቲያ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L61c72d47bdcf4ec6af9065fcd18c7659" n="5722">
+               <form>
+                  <foreign xml:lang="gez">አንስቲያ</foreign>
+               </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain"> vel <foreign xml:lang="gez">አንስትያ፡</foreign>
+                  <gramGrp>
+                     <pos expand="Substantivum">subst.</pos>
+                  </gramGrp>
+                  <lbl expand="collatio, -is vel collectivum, -e">coll.</lbl> (<bibl>
+                     <ptr target="bm:Dillmann1857Gramm"/>gramm.</bibl> § 140,IV), <cb n="0772" xml:id="c0772"/>
+                  <sense n="1" xml:id="D1">
+                     <cit type="translation" xml:lang="la">
+                        <quote>mulieres</quote>
+                     </cit>, <cit type="translation" xml:lang="la">
+                        <quote>feminae</quote>
+                     </cit>, usurpari solet pro <foreign xml:lang="gez">አንስት፡</foreign>, ubicumque
+                     pronomina suffigenda sunt, ut <ref cRef="1 Reg." loc="22,19">1 Reg.
+                     22,19</ref>; <ref cRef="Judith " loc="4,10">Judith 4,10</ref>; <ref cRef="Judith" loc="4,11">Judith 4,11</ref>; <ref cRef="Jer." loc="18,21">Jer. 18,21</ref>; <ref cRef="Jer." loc="51,9">Jer. 51,9</ref>; <ref cRef="Rom." loc="1,26">Rom. 1,26</ref>.</sense>
+                  <sense n="2" xml:id="D2"> in specie: <cit type="translation" xml:lang="la">
+                        <quote>maritae</quote>
+                     </cit>, <cit type="translation" xml:lang="la">
+                        <quote>uxores</quote>
+                     </cit>, <cit type="translation" xml:lang="la">
+                        <quote>conjuges</quote>
+                     </cit>, (etiam <cit type="translation" xml:lang="la">
+                        <quote>concubinae</quote>
+                     </cit>); vicem Pluralis vocis <foreign xml:lang="gez">ብእሲት፡ </foreign> obit,
+                     ut: <ref cRef="Kuf." loc="5">Kuf. 5</ref>; <ref cRef="Hen." loc="7,1">Hen.
+                        7,1</ref>; <ref cRef="Hen." loc="15,5">Hen. 15,5</ref>; <ref cRef="Hen." loc="15,7">Hen. 15,7</ref>; <ref cRef="Hen." loc="19,2">Hen. 19,2</ref>;
+                        <ref cRef="4 Esr." loc="10,33">4 Esr. 10,33</ref>; <ref cRef="Gen." loc="6,18">Gen. 6,18</ref>; <ref cRef="Gen." loc="30,26">Gen. 30,26</ref>;
+                        <ref cRef="Gen." loc="32,23">Gen. 32,23</ref>; <ref cRef="Ex." loc="32,2">Ex. 32,2</ref>; <ref cRef="1 Reg." loc="25,43">1 Reg. 25,43</ref>; <ref cRef="2 Reg." loc="2,2">2 Reg. 2,2</ref>; <foreign xml:lang="gez">፯፻
+                        አንስቲያሁ፡</foreign>
+                     <ref cRef="3 Reg." loc="11,1">3 Reg. 11,1</ref>; <ref cRef="Jer." loc="8,10">Jer. 8,10</ref>; <ref cRef="Jer." loc="36,23">Jer. 36,23</ref>; <ref cRef="Gen. " loc="42,8">Gen. 42,8</ref>; <foreign xml:lang="gez">ምስለ፡ አንስትያ፡
+                        ቢጾሙ፡ ይሰክቡ፡</foreign>
+                     <ref cRef="Hez." loc="22,11">Hez. 22,11</ref>; <ref cRef="Matth. " loc="19,8">Matth. 19,8</ref>; <ref cRef="Eph." loc="5,25">Eph. 5,25</ref>; <ref cRef="Eph." loc="5,28">Eph. 5,28</ref>.</sense>
+               </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

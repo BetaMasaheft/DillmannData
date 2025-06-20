@@ -1,0 +1,87 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ሰቀለ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="LB" when="2018-02-14">root</change>
+        </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L4e4d201c413d4abf9ac66b042cb6dd34" n="2641">
+               <form>
+                  <foreign xml:lang="gez">ሰቀለ</foreign>
+               <rs type="root"/>
+                    </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain"> <subc>I,1</subc> [de vicinis <foreign xml:lang="he">שָׁקַל</foreign> <foreign xml:lang="syr">ܬܩܰܠ ܫܩܰܠ</foreign> <foreign xml:lang="ar">ثَقَلَ</foreign> et <foreign xml:lang="ar">شَقَلَ</foreign> <lbl expand="videas">vid.</lbl> Ges. thes. p. 1474] <gramGrp> <pos expand="Subjunctivus">Subj.</pos> </gramGrp> <foreign xml:lang="gez">ይስቅል፡</foreign> <sense n="1" xml:id="D1"> <cit type="translation" xml:lang="la">
+                                <quote> suspendere </quote>
+                            </cit>, <lbl expand="cum">c.</lbl> <gramGrp> <case value="accusativus">Acc.</case> </gramGrp> <foreign xml:lang="gez">ሰቀላ፡ ለምድር፡ ዲበ፡ ዕራቃ፡</foreign> <ref cRef="Job " loc="26,7">Job  26,7</ref>; <foreign xml:lang="gez">ንሕነ፡ ሰቀልናሁ፡ ለሰማይ፡ ዘእንበለ፡ ዐምድ፡</foreign> <ref cRef="Clem." loc="52">Clem. f. 52</ref>; <foreign xml:lang="gez">ዘገብረ፡ ሰማየ፡ ወሰቀሎ፡</foreign> <ref cRef="Jes." loc="42,5">Jes. 42,5</ref> <lbl expand="varia lectio">var.</lbl>; <foreign xml:lang="gez">ሰቀለ፡ መንጠዋልዐ፡ ዘወርቅ፡</foreign> <ref cRef="Chrys. Ta." loc="25">Chrys. Ta. 25</ref>; <lbl expand="cum">c.</lbl> <foreign xml:lang="gez">በ፡</foreign>, <foreign xml:lang="gez">ውስተ፡</foreign>, <foreign xml:lang="gez">ዲበ፡ ላዕለ፡</foreign>, rei, <cit type="translation" xml:lang="la">
+                                <quote> cui </quote>
+                            </cit> vel <cit type="translation" xml:lang="la">
+                                <quote> in </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> ex </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> a </quote>
+                            </cit> qua quid suspenditur: <foreign xml:lang="gez">መትከል፡ በዘይሰቅሉ፡ ቦቱ፡ ኵሎ፡ ንዋየ፡</foreign> <ref cRef="Hez." loc="15,3">Hez. 15,3</ref>; <ref cRef="Hez." loc="17,23">Hez. 17,23</ref>; <ref cRef="Hez." loc="27,10">Hez. 27,10</ref>; <ref cRef="Ps." loc="136,2">Ps. 136,2</ref>; <foreign xml:lang="gez">ንሥኡ፡ ዘንተ፡ ርእሰ፡ ወስቅሉ፡ ውስተ፡ ተድባበ፡ አረፍት፡</foreign> <ref cRef="Judith" loc="14,1">Judith 14,1</ref>; <ref cRef="Judith" loc="14,11">Judith 14,11</ref>; <ref cRef="1 Reg." loc="31,10">1 Reg. 31,10</ref>.</sense> <sense n="2" xml:id="D2"> in specie: suspendio necare, <cit type="translation" xml:lang="la">
+                                <quote> suspendere </quote>
+                            </cit> in arbore, patibulo, furca, cruce; <cit type="translation" xml:lang="la">
+                                <quote> crucifigere </quote>
+                            </cit> <ref cRef="Gen." loc="40,19">Gen. 40,19</ref>; <ref cRef="Deut." loc="21,22">Deut. 21,22</ref>; <ref cRef="Jos." loc="10,26">Jos. 10,26</ref>; <ref cRef="Esth." loc="2,23">Esth. 2,23</ref>; <ref cRef="Esth. " loc="6,4">Esth.  6,4</ref>; <ref cRef="Esth." loc="7,9">Esth. 7,9</ref>; <ref cRef="Esth." loc="7,10">Esth. 7,10</ref>; <foreign xml:lang="gez">ይስቅልዎ፡ ወይቅትልዎ፡</foreign> <ref cRef="2 Esr. " loc="6,11">2 Esr.  6,11</ref>; <ref cRef="Asc. Jes." loc="11,20">Asc. Jes. 11,20</ref>; <ref cRef="Matth." loc="20,19">Matth. 20,19</ref>; <ref cRef="Matth." loc="23,34">Matth. 23,34</ref>; <ref cRef="Matth." loc="26,2">Matth. 26,2</ref>; <ref cRef="Matth." loc="27,22">Matth. 27,22</ref>; <ref cRef="Hebr. " loc="6,6">Hebr.  6,6</ref>; <ref cRef="Gal." loc="5,24">Gal. 5,24</ref>; <foreign xml:lang="gez">ሰቀልዎ፡ መልዕልተ፡ ዕፅ፡ ነዊኅ፡</foreign> <ref cRef="Sx. Mag." loc="4 ">Sx. Mag. 4 </ref> Enc. –</sense> <sense n="3" xml:id="D3"> <cit type="translation" xml:lang="la">
+                                <quote> ponderare </quote>
+                            </cit> Lud. sine <lbl expand="auctore, auctoritate">auct.</lbl> </sense> </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

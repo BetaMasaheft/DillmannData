@@ -1,0 +1,101 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> በደረ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="LB" when="2018-03-01">root</change>
+        </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L7cfeb049852e4b56ba77b1eb005a001c" n="4146">
+               <form>
+                  <foreign xml:lang="gez">በደረ</foreign>
+               <rs type="root"/>
+                    </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain"> <subc>I,1</subc> [i.q. <foreign xml:lang="ar">بَدَرَ</foreign>; significatus radicis primus <cit type="translation" xml:lang="la">
+                            <quote> secare </quote>
+                        </cit> et <cit type="translation" xml:lang="la">
+                            <quote> acutum esse </quote>
+                        </cit> videtur, <lbl expand="collatio, -is vel collectivum,&#xA;                            -e">coll.</lbl> <foreign xml:lang="gez">መተረ፡</foreign> <foreign xml:lang="ar">بَتَرَ</foreign> et <foreign xml:lang="ar">بَادِرَةٌ</foreign> <cit type="translation" xml:lang="la">
+                            <quote> acies </quote>
+                        </cit> gladii; nec non <foreign xml:lang="ar">بَذَّ</foreign>] <gramGrp> <pos expand="Subjunctivus">Subj.</pos> </gramGrp> <foreign xml:lang="gez">ይብድር፡</foreign> <sense n="1" xml:id="D1"> acutum, acrem, vehementem i.e. <cit type="translation" xml:lang="la">
+                                <quote> velocem </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> celerem esse </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> properare </quote>
+                            </cit>: <foreign xml:lang="gez">ይበድሩ፡ እምተኵላተ፡ ዐረብ፡</foreign> <foreign xml:lang="grc">ὀξύτεροι</foreign> <ref cRef="Hab. " loc="1,8">Hab.  1,8</ref>; <foreign xml:lang="gez">ይበድሩ፡ እምነ፡ አንስርት፡ አፍራሲሆሙ፡</foreign> <foreign xml:lang="grc">κουφότεροι</foreign> <ref cRef="Jer." loc="4,13">Jer. 4,13</ref>; <foreign xml:lang="gez">ከመ፡ ይብድር፡ እምረዋጺ፡</foreign> Lud. e Mss. Colb.</sense> <sense n="2" xml:id="D2"> <cit type="translation" xml:lang="la">
+                                <quote> praecurrere </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> praevenire </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> antevertere </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> praevertere </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> antecessisse </quote>
+                            </cit>: <foreign xml:lang="gez">ዘበደረ፡ ወዘሮጸ፡</foreign> <ref cRef="Rom." loc="9,16">Rom. 9,16</ref> Platt; <ref cRef="1 Cor." loc="9,24">1 Cor. 9,24</ref>; <ref cRef="Hen." loc="74,12">Hen. 74,12</ref>; <lbl expand="cum">c.</lbl> <gramGrp> <case value="accusativus">Acc.</case> </gramGrp>: <foreign xml:lang="gez">ብድሮሙ፡ ተንሥእ፡</foreign> <cit type="translation" xml:lang="la">
+                                <quote> ante eos surge </quote>
+                            </cit> <ref cRef="Sir." loc="34,21">Sir. 34,21</ref>; <ref cRef="Phlx." loc="3">Phlx. 3</ref>; <foreign xml:lang="gez">ይበድረኒ፡ ኀበ፡ ገነት፡</foreign> <ref cRef="Phlx." loc="35">Phlx. 35</ref>; <foreign xml:lang="gez">ሕቀ፡ ክመ፡ በደሩክሙ፡</foreign> <ref cRef="2 Reg." loc="17,20">2 Reg. 17,20</ref>; <foreign xml:lang="gez">በደሮ፡ በጺሐ፡ ግያዝ፡</foreign> <ref cRef="4 Reg. " loc="4,31">4 Reg.  4,31</ref>; <foreign xml:lang="gez">በደሮ፡ ለጴጥሮስ፡ በጺሐ፡</foreign> (Platt <foreign xml:lang="gez">በጺሖ፡</foreign>) <foreign xml:lang="gez">ኀበ፡ መቃብር፡</foreign> <ref cRef="Joh. " loc="20,4">Joh.  20,4</ref>; <ref cRef="Joh." loc="20,8">Joh. 20,8</ref>;</sense> <sense n="3" xml:id="D3"> <cit type="translation" xml:lang="la">
+                                <quote> praevertere </quote>
+                            </cit> i.e. <cit type="translation" xml:lang="la">
+                                <quote> potiorem esse </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> praecellere </quote>
+                            </cit>: <foreign xml:lang="gez">ትበድር፡</foreign> (v. <foreign xml:lang="gez">ትትበደር፡</foreign>) <foreign xml:lang="gez">ይእቲ፡ ወትመውእ፡ ለከ፡ ጸላኢከ፡</foreign> <ref cRef="Sir." loc="29,13">Sir. 29,13</ref>; <ref cRef="Hen. " loc="65,8">Hen.  65,8</ref>.</sense> </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

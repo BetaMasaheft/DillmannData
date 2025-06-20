@@ -1,0 +1,124 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ተስፋ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L9dd1535fad9d4095a3a70932e737c1b6" n="3152">
+               <form>
+                  <foreign xml:lang="gez">ተስፋ</foreign>
+               </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain">
+                  <gramGrp>
+                     <pos expand="Substantivum">subst.</pos>
+                  </gramGrp>, <gramGrp>
+                     <gen value="masculinum">m.</gen>
+                  </gramGrp> et <gramGrp>
+                     <gen value="femininus">fem.</gen>
+                  </gramGrp>, <lbl expand="pluralis">Pl.</lbl>
+                  <foreign xml:lang="gez">ተስፋት፡</foreign>
+                  <sense n="1" xml:id="D1">
+                     <cit type="translation" xml:lang="la">
+                        <quote>spes</quote>
+                     </cit>, <cit type="translation" xml:lang="la">
+                        <quote>expsectatio</quote>
+                     </cit>
+                     <ref cRef="Job" loc="4,6">Job 4,6</ref>; <ref cRef="Job" loc="5,16">Job
+                        5,16</ref>; <ref cRef="Job" loc="8,13">Job 8,13</ref>; <ref cRef="Job" loc="11,20">Job 11,20</ref>; <foreign xml:lang="gez">ለዕፅ፡ ቦ፡ ተስፋ፡</foreign>
+                     <ref cRef="Job" loc="14,7">Job 14,7</ref>; <ref cRef="Jer." loc="2,36">Jer.
+                        2,36</ref>; <ref cRef="Hez." loc="37,11">Hez. 37,11</ref>; <ref cRef="Prov. " loc="1,33">Prov. 1,33</ref>; <ref cRef="Prov." loc="11,7">Prov. 11,7</ref>; <ref cRef="Koh." loc="9,4">Koh. 9,4</ref>; <ref cRef="Sir." loc="14,2">Sir. 14,2</ref>; <ref cRef="4 Esr." loc="6,35">4 Esr.
+                        6,35</ref>; <ref cRef="4 Esr." loc="7,22">4 Esr. 7,22</ref>; <ref cRef="Rom." loc="5,4">Rom. 5,4</ref>; <ref cRef="Rom. " loc="8,24">Rom.
+                        8,24</ref>; <ref cRef="Eph." loc="4,4">Eph. 4,4</ref>; <ref cRef="1 Thess." loc="1,3">1 Thess. 1,3</ref>; <foreign xml:lang="gez">እለ፡ ቀብጹ፡ ተስፋሆሙ፡ </foreign>
+                     <cit type="translation" xml:lang="la">
+                        <quote>desperantes</quote>
+                     </cit>
+                     <ref cRef="Sir." loc="17,24">Sir. 17,24</ref>; <foreign xml:lang="gez">ሠናየ፡
+                        ተስፋ፡ </foreign>
+                     <foreign xml:lang="grc">εὔελπις</foreign>
+                     <ref cRef="Sap." loc="12,19">Sap. 12,19</ref>; <lbl expand="cum">c.</lbl> per
+                     st. constr., ut: <foreign xml:lang="gez">ተስፋ፡ ኀይል፡</foreign>
+                     <ref cRef="Prov." loc="14,26">Prov. 14,26</ref>; <foreign xml:lang="gez">አልቦ፡
+                        ተስፋ፡ ወፂእ፡ እምጽልመት፡</foreign>
+                     <ref cRef="Job" loc="15,22">Job 15,22</ref>; <lbl expand="cum">c.</lbl>
+                     <foreign xml:lang="gez">ኀበ፡</foreign>
+                     <ref cRef="Ps." loc="61,5">Ps. 61,5</ref>; <lbl expand="cum">c.</lbl>
+                     <foreign xml:lang="gez">ዲበ፡ </foreign>
+                     <ref cRef="Hen." loc="63,7">Hen. 63,7</ref>; <lbl expand="cum">c.</lbl>
+                     <foreign xml:lang="gez">ለ፡</foreign> et Infin., ut: <foreign xml:lang="gez">እመቦ፡ ተስፋ፡ ለድኂን፡</foreign>
+                     <ref cRef="Clem." loc="256">Clem. f. 256</ref>; <ref cRef="Herm." loc="18">Herm. p. 18</ref>; <cb n="0408" xml:id="c0408"/>
+                     <foreign xml:lang="gez">ተስፋት፡</foreign>
+                     <ref cRef="Phlx." loc="244">Phlx. 244</ref>; Saepius: <cit type="translation" xml:lang="la">
+                        <quote>causa spei</quote>
+                     </cit>; id quod vel a quo speratur: <ref cRef="Gen." loc="49,10">Gen.
+                        49,10</ref>; <ref cRef="Ps." loc="61,7">Ps. 61,7</ref>; <foreign xml:lang="gez">እስመ፡ ውእቱ፡ ተስፋሁ፡</foreign>
+                     <ref cRef="Sir." loc="31,16">Sir. 31,16</ref>; <ref cRef="Jes." loc="24,16">Jes. 24,16</ref>; <ref cRef="Jer." loc="17,7">Jer. 17,7</ref>; <ref cRef="2 Cor." loc="3,4">2 Cor. 3,4</ref>.</sense>
+                  <sense n="2" xml:id="D2">
+                     <cit type="translation" xml:lang="la">
+                        <quote>promissio</quote>
+                     </cit>, <cit type="translation" xml:lang="la">
+                        <quote>promissum</quote>
+                     </cit>, <foreign xml:lang="grc">ἐπαγγελία</foreign>
+                     <ref cRef="Rom. " loc="15,8">Rom. 15,8</ref>; <ref cRef="1 Tim." loc="4,8">1
+                        Tim. 4,8</ref>; <ref cRef="Hebr." loc="6,15">Hebr. 6,15</ref>; <ref cRef="Hebr." loc="11,13">Hebr. 11,13</ref> (<ref cRef="Hebr." loc="12,1">Hebr. 12,1</ref>); <ref cRef="1 Joh." loc="2,25">1 Joh. 2,25</ref>; <ref cRef="Act." loc="1,4">Act. 1,4</ref>; <ref cRef="Act. " loc="26,6">Act.
+                        26,6</ref>; <ref cRef="Luc." loc="24,49">Luc. 24,49</ref>; <foreign xml:lang="gez">እልክቱ፡ ተስፋት፡</foreign>
+                     <ref cRef="Chrys. ho" loc="11">Chrys. ho 11</ref>; Chrys. ho. 23; <foreign xml:lang="gez">ፍኂር፡ ኪዳን፡ ውእቱ፡ ወተስፋ፡</foreign> F.N. 24,3. – <lbl expand="Vocabularium Aethiopicum, -a -a.">Voc. Ae.</lbl>: <foreign xml:lang="gez">ተስፋ፡ ብ፡ አለኝታ።</foreign>
+                  </sense>
+               </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

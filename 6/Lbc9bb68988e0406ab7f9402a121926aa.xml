@@ -1,0 +1,123 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ኖኀ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="LB" when="2018-03-07">root</change>
+        </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="Lbc9bb68988e0406ab7f9402a121926aa" n="5074">
+               <form>
+                  <foreign xml:lang="gez">ኖኀ</foreign>
+               <rs type="root"/>
+                    </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain"> <subc>I,1</subc> [potestas radicis prima fuisse videtur <cit type="translation" xml:lang="la">
+                            <quote> protendi </quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                            <quote> extendi </quote>
+                        </cit>, sive sich strecken, unde <foreign xml:lang="he">נוּחַ</foreign> sich hinstrecken quiescendi causa i.e. <cit type="translation" xml:lang="la">
+                            <quote> quiescere </quote>
+                        </cit>, <foreign xml:lang="ar">نَائِخَةٌ</foreign> <cit type="translation" xml:lang="la">
+                            <quote> terra longinqua </quote>
+                        </cit>; vicina: <foreign xml:lang="ar">نَحَا</foreign> <cit type="translation" xml:lang="la">
+                            <quote> tetendit </quote>
+                        </cit> aliquem versus, <foreign xml:lang="ar">نَحْوٌ</foreign> et <foreign xml:lang="ar">نَاحِيَةٌ</foreign> <cit type="translation" xml:lang="la">
+                            <quote> tractus </quote>
+                        </cit>, nec non <foreign xml:lang="ar">نَاهَ</foreign> <cit type="translation" xml:lang="la">
+                            <quote> eminuit </quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                            <quote> elata fuit res </quote>
+                        </cit>] <gramGrp> <pos expand="Subjunctivus">Subj.</pos> </gramGrp> <foreign xml:lang="gez">ይኑኅ፡</foreign> <sense n="1" xml:id="D1"> <cit type="translation" xml:lang="la">
+                                <quote> extendi </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> protendi </quote>
+                            </cit>: <foreign xml:lang="gez">ኖኃ፡ አዕጹቅየ፡</foreign> <foreign xml:lang="grc">ἐξέτεινα κλάδους μου</foreign> <ref cRef="Sir. " loc="24,16">Sir.  24,16</ref>.</sense> <sense n="2" xml:id="D2"> <cit type="translation" xml:lang="la">
+                                <quote> longum </quote>
+                            </cit> vel <cit type="translation" xml:lang="la">
+                                <quote> longiorem </quote>
+                            </cit> <cit type="translation" xml:lang="la">
+                                <quote> esse </quote>
+                            </cit> vel <cit type="translation" xml:lang="la">
+                                <quote> fieri </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> diuturnum esse </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> in longum se producere </quote>
+                            </cit> vel <cit type="translation" xml:lang="la">
+                                <quote> protrahi </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> prolixum fieri </quote>
+                            </cit>; de tempore: <foreign xml:lang="gez">ይነውኅ፡ መዋዕለ፡ ሕይወቱ፡</foreign> <ref cRef="Koh." loc="8,13">Koh. 8,13</ref>; <ref cRef="Deut." loc="4,40">Deut. 4,40</ref>; <ref cRef="Deut." loc="5,30">Deut. 5,30</ref>; <foreign xml:lang="gez">እመኒ፡ ኖኀ፡ መንበርቶሙ፡ ውስተ፡ ምድር፡</foreign> <ref cRef="Sap." loc="3,17">Sap. 3,17</ref>; <foreign xml:lang="gez">ኖኀ፡ ደዌሃ፡</foreign> <ref cRef="Jsp." loc="272">Jsp. p. 272</ref>; <foreign xml:lang="gez">ሶበ፡ ኖኀ፡ ፀብእ፡</foreign> <ref cRef="Jsp." loc="349">Jsp. p. 349</ref>; <foreign xml:lang="gez">ሶበ፡ ኖኀ፡ ነገር፡ ማእከሌሆሙ፡</foreign> (<cit type="translation" xml:lang="la">
+                                <quote> colloquium corum </quote>
+                            </cit>) <ref cRef="Jsp." loc="291">Jsp. p. 291</ref>; si omnia enumeraremus, <foreign xml:lang="gez">ናሁ፡ ይነውኅ፡ ነገር፡</foreign> F.M. 27,7; <foreign xml:lang="gez">በእፎ፡ ዕለት፡ እምዕለት፡ ትነውኅ፡</foreign> <ref cRef="Sir." loc="36,7">Sir. 36,7</ref>; <ref cRef="Hen." loc="72,9">Hen. 72,9</ref>.</sense> <sense n="3" xml:id="D3"> <cit type="translation" xml:lang="la">
+                                <quote> procerum </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> altum </quote>
+                            </cit> vel <cit type="translation" xml:lang="la">
+                                <quote> altiorem esse </quote>
+                            </cit> vel <cit type="translation" xml:lang="la">
+                                <quote> fieri </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> eminere </quote>
+                            </cit>: <foreign xml:lang="gez">ኖኅኩ፡ ከመ፡ በቀልት፡</foreign> <ref cRef="Sir." loc="24,14">Sir. 24,14</ref>; <foreign xml:lang="gez">ወኖኀ፡ ቆማ፡</foreign> <ref cRef="Hez." loc="19,11">Hez. 19,11</ref>; <ref cRef="Hez." loc="31,14">Hez. 31,14</ref>; <foreign xml:lang="gez">ኖኀ፡ ሠርፁ፡</foreign> <ref cRef="Hez." loc="31,5">Hez. 31,5</ref>; <ref cRef="Hen." loc="26,3">Hen. 26,3</ref>; <lbl expand="cum">c.</lbl> <foreign xml:lang="gez">እምነ፡</foreign> compar.: <ref cRef="1 Reg." loc="10,23">1 Reg. 10,23</ref>; <foreign xml:lang="gez">፩ ይነውኅ፡ እምካልኡ፡</foreign> <ref cRef="Dan." loc="8,3">Dan. 8,3</ref>; <foreign xml:lang="gez">ኖኀ፡ እምሥዕርትየ፡ ጌጋይየ፡</foreign> <ref cRef="Ps." loc="37,4">Ps. 37,4</ref>; <ref cRef="Genz." loc="6">Genz. f. 6</ref>; <ref cRef="Ps." loc="71,16">Ps. 71,16</ref>; <lbl expand="cum">c.</lbl> <gramGrp> <case value="accusativus">Acc.</case> </gramGrp> et rei comparatae et mensurae: <foreign xml:lang="gez">ዘይነውኆ፡ ካዕበቶ፡</foreign> <ref cRef="Sir." loc="50,2">Sir. 50,2</ref>.</sense> <sense n="4" xml:id="D4"> <cit type="translation" xml:lang="la">
+                                <quote> residere </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> requiescere </quote>
+                            </cit> (sicut <foreign xml:lang="he">נוּחַ</foreign>): <foreign xml:lang="gez">ይንበር፡ ይኅድር፡ ወይኑኅ፡</foreign> Lit. Joh.; <ref cRef="M.M." loc="f. 308">M.M. f. 308</ref>; <foreign xml:lang="gez">ኢያረምም፡ ወኢይነውሕ፡</foreign> <ref cRef="4 Esr." loc="2,46">4 Esr. 2,46</ref> <lbl expand="varia lectio">var.</lbl> <cb n="0673" xml:id="c0673"/> </sense> </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

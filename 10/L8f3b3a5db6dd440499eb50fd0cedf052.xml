@@ -1,0 +1,85 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ሰብረዲን </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="VP" when="2017-05-10">corrected entry with bibl and ref</change>
+            <change who="VP" when="2017-05-10">updated entry</change>
+            <change who="VP" when="2017-05-11">correction in the order</change>
+        <change who="VP" when="2017-07-26">information updated: personal name</change>
+        <change who="VP" when="2017-11-23">Abbreviation  [[ +n.pr.+ ]] added and number "4"added  in the Reference.</change>
+            <change who="VP" when="2017-11-24">Small revising of the entry's orthography.</change>
+            <change who="VP" when="2017-12-13">Sence Traces revised</change>
+            <change who="VP" when="2017-12-13">Sence Traces revised</change>
+            <change who="VP" when="2017-12-13">small correction in the Transcription</change>
+            <change who="VP" when="2018-01-24">፡ added after the Lemma; Bibliography and Reference updated.</change>
+            <change who="VP" when="2018-03-22">correction</change>
+        <change who="VP" when="2019-04-09">note added in the Bibiography</change>
+            <change who="VP" when="2019-04-09">Bibliography and Reference updated.</change>
+            <change who="VP" when="2019-04-10">Gender added; Reference and Bibliography updated.</change>
+            <change who="VP" when="2019-04-17">TraCES sense updated (Bibliography and Reference added)</change>
+            <change who="VP" when="2019-04-24">small correction</change>
+        <change who="MK" when="2022-07-01">corrections</change></revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L8f3b3a5db6dd440499eb50fd0cedf052" n="11299">
+               <form>
+                  <foreign xml:lang="gez">ሰብረዲን</foreign>
+               </form>
+               
+               <sense xml:id="Tmain" xml:lang="en" source="#traces"> <cit type="transcription" xml:lang="gez"><quote> sabraddin </quote></cit> <gramGrp> <pos expand="nomen proprium">n. pr.</pos> <gen value="not found">m.</gen> </gramGrp> (personal name) e.g. <cit type="transcription" xml:lang="gez"><quote> Sabraddin </quote></cit>, 11th sultan of the Walasmaʿ dynasty (ʿUndicesimo sultano della dinastia Walasmaʿ, sul quale v. <bibl><ptr target="bm:Taddesse1972Church"/><citedRange unit="page"> 139–144</citedRange></bibl> e <bibl><ptr target="bm:IHAArticle25"/><citedRange unit="page"> 42 n. 1, 44 n. 4</citedRange></bibl>; <bibl><ptr target="bm:Cerulli1943Scrittoriarabi"/><citedRange unit="page"> 286–287</citedRange></bibl>; <bibl><ptr target="bm:IHABook213"/><citedRange unit="page"> 71</citedRange></bibl>; <bibl><ptr target="bm:Cuoq1981IslamEth"/><citedRange unit="page"> 135; 138</citedRange></bibl>. Si vedano inoltre le tavole genealogiche in <bibl><ptr target="bm:Cerulli1943Scrittoriarabi"/><citedRange unit="page"> 286; 287</citedRange></bibl>, e <bibl><ptr target="bm:Cuoq1981IslamEth"/><citedRange unit="page"> 129</citedRange></bibl>. Secondo le cronache musulmane regnò per 5 anni, collocati in genere fra 1331 e 1335; in questo periodo non è impossibile inserire la sua destituzione (qui p. 77), dato che, come notato da <bibl><ptr target="bm:IHABook92"/><citedRange unit="page"> 24</citedRange></bibl>, le cronache musulmane “considerano sempre come anni di regno effettivo di un sovrano musulmano anche quelli da lui passati nella prigione del Negus, o comunque fuori dal trono per effetto della forza delle armi cristiane”.ʾ <bibl><ptr target="bm:Marrassini1993AmdaSeyon"/><citedRange unit="page">51 n. 10 (tr.)</citedRange></bibl>), <bibl><ptr target="bm:Marrassini1993AmdaSeyon"/><citedRange unit="page"> 50 l. 15 (ed.), 60 l. 17 (ed.), 68 l. 17 (ed.), 72 l. 9 (ed.), 76 l. 21 (ed.)</citedRange></bibl> <ref cRef="Chron. Am." loc="4">Chron. Am. 4</ref> <ref cRef="Chron. Am." loc="30">Chron. Am. 30</ref> <ref cRef="Chron. Am." loc="55">Chron. Am. 55</ref> <ref cRef="Chron. Am." loc="67">Chron. Am. 67</ref> <ref cRef="Chron. Am." loc="83">Chron. Am. 83</ref> <nd/> </sense>
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

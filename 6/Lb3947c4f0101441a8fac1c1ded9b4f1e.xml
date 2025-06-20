@@ -1,0 +1,91 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> አስፈጠ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="Lb3947c4f0101441a8fac1c1ded9b4f1e" n="3162">
+               <form>
+                  <foreign xml:lang="gez">አስፈጠ</foreign>
+               </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain"> <subc>II,1</subc> <cit type="translation" xml:lang="la">
+                     <quote>pellicere</quote>
+                  </cit>, <cit type="translation" xml:lang="la">
+                     <quote>seducere</quote>
+                  </cit>, <cit type="translation" xml:lang="la">
+                     <quote>suadendo movere</quote>
+                  </cit>, <cit type="translation" xml:lang="la">
+                     <quote>decipere</quote>
+                  </cit>: <foreign xml:lang="grc">ἀπατᾶν</foreign>
+                  <ref cRef="Gen." loc="3,13">Gen. 3,13</ref>; <ref cRef="Jud." loc="14,15">Jud.
+                     14,15</ref>; <ref cRef="Jud." loc="16,5">Jud. 16,5</ref>; <ref cRef="Judith" loc="12,16">Judith 12,16</ref>; <foreign xml:lang="gez">አስፍጣ፡ ሊተ፡ ለዛቲ፡
+                     ብእሲት፡</foreign>
+                  <foreign xml:lang="grc">πεῖσον</foreign>
+                  <ref cRef="Judith" loc="12,11">Judith 12,11</ref>; <foreign xml:lang="gez">ያሰፍጠከ፡ </foreign>
+                  <foreign xml:lang="grc">ἀποκενώσῃ σε</foreign>
+                  <ref cRef="Sir." loc="13,7">Sir. 13,7</ref>; <foreign xml:lang="grc">καταπείθειν</foreign>
+                  <ref cRef="2 Reg." loc="17,16">2 Reg. 17,16</ref>; <cb n="0409" xml:id="c0409"/>
+                  <foreign xml:lang="gez">አስፍጦ፡</foreign>
+                  <foreign xml:lang="grc">περιφορά</foreign>
+                  <ref cRef="Koh." loc="2,2">Koh. 2,2</ref>; <foreign xml:lang="gez">ያሰፍጡነ፡ ውስተ፡
+                     ዘኢንክል፡ ገቢረ፡</foreign>
+                  <ref cRef="Clem." loc="200.">Clem. f. 200.</ref> – <lbl expand="Vocabularium Aethiopicum, -a -a.">Voc. Ae.</lbl>: <foreign xml:lang="gez">አስፈጠ፡ ኄጠ፡ ዘ፡ ሸነገለ፡ ሐባበለሂ፡ ይ።</foreign>
+               </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

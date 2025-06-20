@@ -1,0 +1,86 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng"
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="gez">ኵስስት</title>
+            <editor>Alessandro Bausi</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>Hiob-Ludolf-Zentrum für Äthiopistik</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>The origin of the lexicon is in a thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann, Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum
+                     indice latino. Adiectum est vocabularium tigre dialecti septentrionalis
+                     compilatum</emph> a W. Munziger. Lipsiae: Th.O. Weigel, 1865.</ref></p>
+            <p>Additional records were created by the project <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/"> TraCES (ERC Advanced Grant, Grant
+                  Agreement 338756)</ref> and follow-up projects at HLCEES</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+         <listPrefixDef>
+            <prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="MB" when="2022-11-14">added a new entry</change>
+         <change who="MB" when="2022-11-14">deleted a blankspace</change>
+         <change who="MB" when="2022-11-14">inserted a blankspace</change>
+         <change who="MB" when="2022-11-14">added cf.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="Ldeda01d56b044cc183e26111a85dff1b" n="12980">
+               <form><foreign xml:lang="gez">ኵስስት</foreign></form>
+               <sense xml:id="Tmain" xml:lang="en" source="#traces">
+                  <cit type="transcription" xml:lang="gez">
+                     <t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> kʷǝsǝst </t:quote>
+                  </cit>
+                  <foreign xml:lang="gez">ኵስስት፡</foreign>
+                  <cit type="transcription" xml:lang="gez">
+                     <t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> kʷǝsǝst </t:quote>
+                  </cit>
+                  <cit type="translation" xml:lang="en">
+                     <t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> pitcher, pot</t:quote>
+                  </cit>
+                  <bibl><ptr target="bm:Zuurmond1989EvangeliumMarc"/><citedRange unit="page">164
+                        (ed.)</citedRange></bibl>; <foreign xml:lang="gez">ወያጠምቁ፡ ጽዋዓተኒ፡ ወኵስስተኒ፡
+                     ወጻህራተኒ፡ ወዐረተኒ፡</foreign> ‘<cit type="translation" xml:lang="en">
+                     <t:quote xmlns:t="http://www.tei-c.org/ns/1.0">And they were dipping into water
+                        chalices and pots and cauldrons and couches (Mk 7:4)</t:quote>
+                  </cit>’ <bibl><ptr target="bm:Zuurmond1989EvangeliumMarc"/><citedRange unit="page">166 (ed.)</citedRange></bibl>; <foreign xml:lang="gez">ወየዐቅቡ፡ ትእዛዘ፡ ሰብእ፡
+                     ጥምቀታተ፡ ኵስስት፡ ወጽዋዓት፡</foreign> ‘<cit type="translation" xml:lang="en">
+                     <t:quote xmlns:t="http://www.tei-c.org/ns/1.0">And they observe the commandment
+                        of man: ablution of pots and chalices (Mk 7:8)</t:quote>
+                  </cit>’ cf. <foreign xml:lang="gez">ኵስኵስት፡</foreign> &gt;L&gt; </sense>
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

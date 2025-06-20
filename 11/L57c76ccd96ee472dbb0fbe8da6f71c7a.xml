@@ -1,0 +1,85 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ጼሐ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="LB" when="2018-05-17">root</change>
+        </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L57c76ccd96ee472dbb0fbe8da6f71c7a" n="9532">
+               <form>
+                  <foreign xml:lang="gez">ጼሐ</foreign>
+               <rs type="root"/>
+                    </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain"> <subc>I,1</subc> [<foreign xml:lang="he">סָחָה סוּהַ</foreign> <foreign xml:lang="ar">سَحَا</foreign> <cit type="translation" xml:lang="la">
+                            <quote> verrendo removit </quote>
+                        </cit>; an etiam <foreign xml:lang="ar">صَاعٌ صَاعَةٌ</foreign> <cit type="translation" xml:lang="la">
+                            <quote> terra plana </quote>
+                        </cit>?] <gramGrp> <pos expand="Subjunctivus">Subj.</pos> </gramGrp> <foreign xml:lang="gez">ይጺሕ፡</foreign>, (purgare), <cit type="translation" xml:lang="la">
+                            <quote> aequare </quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                            <quote> complanare </quote>
+                        </cit>, <sense n="a" xml:id="Da"> viam, <cit type="translation" xml:lang="la">
+                                <quote> sternere </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> munire </quote>
+                            </cit>: <foreign xml:lang="gez">ጺሑ፡ ፍኖተ፡ ቅድመ፡ ገጹ፡</foreign> (<foreign xml:lang="grc">καθαρίσατε</foreign>) <ref cRef="Jes." loc="57,14">Jes. 57,14</ref>; <foreign xml:lang="gez">ጺሑ፡ ፍኖተ፡ ለሕዝብ፡</foreign> <ref cRef="Jes." loc="62,10">Jes. 62,10</ref>; <ref cRef="Jes." loc="40,3">Jes. 40,3</ref>; <ref cRef="Ps." loc="77,55">Ps. 77,55</ref>; <foreign xml:lang="gez">ጼሕከ፡ ፍኖተ፡</foreign> <ref cRef="Ps." loc="79,10">Ps. 79,10</ref>; <ref cRef="Matth." loc="11,10">Matth. 11,10</ref> <foreign xml:lang="gez">ኢጼሐ፡ መንገደ፡</foreign> <ref cRef="Jer." loc="10,23">Jer. 10,23</ref>; <ref cRef="Jsp." loc="358 ">Jsp. p. 358 </ref>(<lbl expand="videas">vid. sub</lbl> <foreign xml:lang="gez">ኰስተረ፡</foreign>); <foreign xml:lang="gez">ንጸይሕ፡ ፍኖተ፡ ለሐመርነ፡</foreign> <ref cRef="Clem." loc="129">Clem. f. 129</ref>; omisso <foreign xml:lang="gez">ፍኖተ፡</foreign>, <ref cRef="Sx. Hed." loc="17 ">Sx. Hed. 17 </ref>Enc.</sense> <sense n="b" xml:id="Db"> alia, ut colles, tumulos, salebrosa: <foreign xml:lang="gez">እጸይሕ፡ ሎሙ፡ አድባረ፡ ወኵሎ፡ ፍኖተ፡</foreign> <ref cRef="Jes." loc="49,11">Jes. 49,11</ref>; <foreign xml:lang="gez">መብእሰ፡</foreign> <ref cRef="Jes." loc="42,16">Jes. 42,16</ref>; cineres busti: <foreign xml:lang="gez">ዘጼሑ፡ ሐመደ፡</foreign> Sx. <ref cRef="Hed." loc="7 ">Hed. 7 </ref>Enc. – <lbl expand="Vocabularium Aethiopicum, -a -a">Voc. Ae.</lbl>: <foreign xml:lang="gez">ጼሐ፡ ኰስተረ፡ ቀጽዐ፡ ዘ፡ ጸረገ፡</foreign>; <cit type="translation" xml:lang="la">
+                                <quote> aliud </quote>
+                            </cit>: <foreign xml:lang="gez">ጼሐ፡ ዘ፡ ጸረገ፡ መንጸረሂ፡ ይ፡ ቈለዘሂ፡ ይ፡</foreign> </sense> </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

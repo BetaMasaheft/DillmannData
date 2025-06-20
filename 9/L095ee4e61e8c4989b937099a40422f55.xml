@@ -1,0 +1,94 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ጸቢብ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L095ee4e61e8c4989b937099a40422f55" n="9318">
+               <form>
+                  <foreign xml:lang="gez">ጸቢብ</foreign>
+               </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain">
+                  <gramGrp>
+                     <pos expand="adjectivum">adj.</pos>
+                  </gramGrp>, <gramGrp>
+                     <gen value="femininus">fem.</gen>
+                  </gramGrp>
+                  <foreign xml:lang="gez">ጸባብ፡</foreign>
+                  <cit type="translation" xml:lang="la">
+                     <quote>angustus</quote>
+                  </cit>, <cit type="translation" xml:lang="la">
+                     <quote>arctus</quote>
+                  </cit>: <foreign xml:lang="gez">መካን፡ ጸቢብ፡</foreign>
+                  <ref cRef="Num." loc="22,26">Num. 22,26</ref>; <foreign xml:lang="gez">እስመ፡ ጸባብ፡
+                     ፍናዊሁ፡</foreign>
+                  <ref cRef="Judith" loc="4,7">Judith 4,7</ref>; <ref cRef="4 Esr." loc="5,3">4 Esr.
+                     5,3</ref>; <ref cRef="4 Esr." loc="5,4">4 Esr. 5,4</ref>; <foreign xml:lang="gez">ዐዘቅት፡ ጸባብ፡</foreign>
+                  <ref cRef="Prov." loc="23,27">Prov. 23,27</ref>; <foreign xml:lang="gez">ማዕምቅ፡
+                     ጸቢብ፡</foreign>
+                  <ref cRef="Hen." loc="88,1">Hen. 88,1</ref>; <foreign xml:lang="gez">ባሕር፡
+                     ጸባብ፡</foreign>
+                  <ref cRef="Zach. " loc="10,11">Zach. 10,11</ref>; <foreign xml:lang="gez">አንቀጽ፡
+                     ጸባብ፡</foreign>
+                  <ref cRef="Matth." loc="7,13">Matth. 7,13</ref>; <ref cRef="Matth." loc="7,14">Matth. 7,14</ref>; <ref cRef="Clem. " loc="167">Clem. f. 167</ref>; <lbl expand="translate">transl.</lbl>: angustus animo, ingenio, <ref cRef="Fal." loc="56">Fal. f. 56</ref>; <ref cRef="Chrys. Ta." loc="19 ">Chrys. Ta. 19
+                     </ref>(<lbl expand="videas">vid. sub</lbl>
+                  <foreign xml:lang="gez">እንግድኣ፡</foreign> col. 1203); <foreign xml:lang="gez">ብእሲ፡
+                     ኑፉቀ፡ ኅሊና፡ መምህረ፡ ዕልወት፡ ጸቢበ፡ እንግድኣ፡ ሙሱነ፡ ሃይማኖት፡</foreign> M.M. f. 108. </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

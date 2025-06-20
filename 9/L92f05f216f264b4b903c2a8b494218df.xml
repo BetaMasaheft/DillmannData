@@ -1,0 +1,75 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> መትከፍት </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="AE" when="2018-05-18">Punkt ergänzt,</change>
+        <change who="MK" when="2024-01-23">added Gr and Les</change><change who="MK" when="2024-01-31">corr page</change></revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L92f05f216f264b4b903c2a8b494218df" n="4356">
+               <form>
+                  <foreign xml:lang="gez">መትከፍት</foreign>
+               </form>
+               <sense xml:id="Dmain" xml:lang="la" source="#dillmann"> rarius <foreign xml:lang="gez">መትከፍ፡</foreign> <pos expand="not found">subst,</pos> <gramGrp> <gen value="not found">m.</gen> </gramGrp> et <gramGrp> <gen value="femininus">fem.</gen> </gramGrp>, <lbl expand="pluralis">Pl.</lbl> <foreign xml:lang="gez">መታከፍ፡</foreign> et <foreign xml:lang="gez">መታክፍት፡</foreign> [<foreign xml:lang="he">כַּתֵף</foreign>, <foreign xml:lang="syr">ܟܰܬܦܳܐ</foreign>, <foreign xml:lang="ar">كِتفٌ</foreign>; vicinum est <foreign xml:lang="gez">ሐዳፍ፡</foreign> q.v. supra <lbl expand="columna">col.</lbl> 130] <cb n="0569" xml:id="c0569"/> <sense n="1" xml:id="D1"> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> humerus </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> scapula </t:quote></cit>, <ref cRef="Gen." loc="21,14">Gen. 21,14</ref>; <ref cRef="Gen." loc="24,15">Gen. 24,15</ref>; <ref cRef="Gen." loc="27,16">Gen. 27,16</ref>; <ref cRef="Gen." loc="49,15">Gen. 49,15</ref>; <ref cRef="Ex. " loc="12,34">Ex.  12,34</ref>; <ref cRef="Ex." loc="28,12">Ex. 28,12</ref>; <ref cRef="Ex." loc="36,9">Ex. 36,9</ref>; <ref cRef="Ex." loc="36,11">Ex. 36,11</ref>; <ref cRef="Ex." loc="36,26">Ex. 36,26</ref>; <ref cRef="Ex." loc="36,28">Ex. 36,28</ref>; <ref cRef="Lev." loc="8,7">Lev. 8,7</ref>; <ref cRef="Jos." loc="9,2">Jos. 9,2</ref>; <ref cRef="Kuf." loc="7">Kuf. 7</ref>; <ref cRef="Jes." loc="9,6">Jes. 9,6</ref>; <ref cRef="Jes." loc="10,27">Jes. 10,27</ref>; <ref cRef="Jes." loc="14,25">Jes. 14,25</ref>; <ref cRef="Jes." loc="46,7">Jes. 46,7</ref>; <foreign xml:lang="gez">ይጸውርዎን፡ በመትከፍት፡</foreign> <ref cRef="Jes." loc="49,22">Jes. 49,22</ref>; <ref cRef="Jes." loc="60,4">Jes. 60,4</ref>; <ref cRef="Hez." loc="12,6">Hez. 12,6</ref>; <ref cRef="Hez." loc="34,21">Hez. 34,21</ref>; <ref cRef="1 Reg." loc="10,23">1 Reg. 10,23</ref>; <ref cRef="Job" loc="31,19">Job 31,19</ref>; <ref cRef="Job" loc="31,22">Job 31,22</ref>; <foreign xml:lang="gez">አትሕት፡ መታክፍቲከ፡ ወተሰከማ፡</foreign> <ref cRef="Sir. " loc="6,25">Sir.  6,25</ref>; <ref cRef="Luc." loc="15,5">Luc. 15,5</ref>; <ref cRef="Matth." loc="23,4">Matth. 23,4</ref>. 
+</sense> <sense n="2" xml:id="D2"> poetice: <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> dorsum </t:quote></cit> jumenti: <foreign xml:lang="gez">ይጼዐን፡ በመታክፉ፡</foreign> <ref cRef="Sx. Haml." loc="26 Enc.">Sx. Haml. 26 Enc.</ref> (Lud.). – Voc. Ae.: <foreign xml:lang="gez">መትከፍት፡ ብ፡ ጫንቃ።</foreign> 
+</sense> </sense>
+               
+            <sense xml:id="Tmain" xml:lang="en" source="#traces"><cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">matkaft</t:quote></cit>, <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">matkaf</t:quote></cit>, <lbl expand="pluralis">Pl.</lbl> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">matakaf</t:quote></cit>, <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">matākǝft</t:quote></cit> <sense n="G" xml:id="TG"> <foreign xml:lang="gez">መትከፍት፡</foreign> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">matkaft</t:quote></cit>, <lbl expand="pluralis">Pl.</lbl> <foreign xml:lang="gez">መታክፍ፡</foreign> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">matākǝf</t:quote></cit> «<cit type="translation" xml:lang="fr"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">le dos</t:quote></cit>» ― <foreign xml:lang="am">ጫንቃ፡</foreign> Ms. <ref type="BM" target="BNFabb217">BNFabb217</ref>, fol. 40r. <lb/>
+ <bibl><ptr target="bm:Grebaut1952SuppLexicon"/><citedRange unit="page"> 95</citedRange></bibl> 
+</sense> <sense n="L" xml:id="TL"> <foreign xml:lang="gez">መትከፍ</foreign> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">matkaf</t:quote></cit>, <foreign xml:lang="gez">መትከፍት</foreign> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">matkaft</t:quote></cit> (<bibl><ptr target="bm:Dillmann1865Lexicon"/><citedRange unit="page"> 568</citedRange></bibl>) <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">shoulder</t:quote></cit>, <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">shoulder blade</t:quote></cit> <bibl><ptr target="bm:Leslau1987dic"/><citedRange unit="page"> 372a</citedRange></bibl> 
+</sense> </sense></entry>
+         </div>
+      </body>
+   </text>
+</TEI>

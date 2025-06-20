@@ -1,0 +1,97 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ሰፈነ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="LB" when="2018-02-15">root</change>
+        </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L043cbc3a279c4ab9b2b604800c482791" n="3137">
+               <form>
+                  <foreign xml:lang="gez">ሰፈነ</foreign>
+               <rs type="root"/>
+                    </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain"> <subc>I,1</subc> [hoc verbum mihi nunc cum <foreign xml:lang="gez">ሰፍሐ፡</foreign> et <foreign xml:lang="gez">ሰፈፈ፡</foreign> cognatum videtur, prima <cit type="translation" xml:lang="la">
+                            <quote> extendendi </quote>
+                        </cit> notione in significatum <cit type="translation" xml:lang="la">
+                            <quote> augescendi </quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                            <quote> invalescendi </quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                            <quote> praepollendi </quote>
+                        </cit> propagata] <sense n="1" xml:id="D1"> <cit type="translation" xml:lang="la">
+                                <quote> invalescere </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> pererebescere </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> praevalere </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> superiorem </quote>
+                            </cit> vel <cit type="translation" xml:lang="la">
+                                <quote> principem evadere </quote>
+                            </cit>: <foreign xml:lang="gez">እስመ፡ ዓዲሁ፡ ኢሰፈነ፡ ስብከቱ፡ በላዕለ፡ ኵሉ፡</foreign> <foreign xml:lang="grc">οὔπω πάντων περιγέγονε τὸ κήρυγμα</foreign> <ref cRef="Chrys. ho." loc="4">Chrys. ho. 4</ref>; <foreign xml:lang="gez">ዐብየ፡ እከይ፡ ወዐመፃ፡ ወዝሙት፡</foreign> jsp. p. 356; <foreign xml:lang="gez">ሰፈነት፡ ኵለሄ፡ እከይ፡ ወዐመፃ፡ ወዝሙት፡</foreign> <ref cRef="Jsp." loc="342">Jsp. p. 342</ref>; <foreign xml:lang="gez">ሶበ፡ ሰፈነ፡ አሚን፡</foreign> (fides christiana) <foreign xml:lang="gez">ላዕለ፡ ኵሉ፡ አሕዛብ፡</foreign> F.N. 45.</sense> <sense n="2" xml:id="D2"> <cit type="translation" xml:lang="la">
+                                <quote> dominari </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> principatum tenere </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> praeesse </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> moderari </quote>
+                            </cit>, <lbl expand="construitur cum">c.c.</lbl> <foreign xml:lang="gez">ላዕለ፡</foreign>, ut: <foreign xml:lang="gez">አንተ፡ ትሰፍን፡ ላዕለ፡ ኵሉ፡</foreign> <foreign xml:lang="grc">σὺ πάντων δεσπόζεις</foreign> vel <foreign xml:lang="grc">ἄρχεις</foreign> <ref cRef="1 Par." loc="29,11">1 Par. 29,11</ref>; <ref cRef="1 Par." loc="29,12">1 Par. 29,12</ref>; <foreign xml:lang="gez">መገብት፡ እለ፡ ይሰፍኑ፡ ላዕለ፡ ቅኔ፡</foreign> <foreign xml:lang="grc">προστάται ἔργου</foreign> <ref cRef="1 Par." loc="29,6">1 Par. 29,6</ref>; <foreign xml:lang="gez">ሰፈነ፡ ላዕለ፡ ብዙኅ፡ አሕዛብ፡</foreign> <ref cRef="Jsp." loc="287">Jsp. p. 287</ref>; <lbl expand="cum">c.</lbl> <foreign xml:lang="gez">ዲበ፡</foreign> Org.; <foreign xml:lang="gez">ሰፈነት፡ ላዕሌሆሙ፡ ድንጋጼ፡ እንተ፡ ኢተሐዘብዋ፡</foreign> <ref cRef="Sap." loc="18,17">Sap. 18,17</ref>; <lbl expand="cum">c.</lbl> <gramGrp> <case value="accusativus">Acc.</case> </gramGrp>: <foreign xml:lang="gez">ናሁ፡ አማርያ፡ ካህን፡ ይሰፍነክሙ፡ በኵሉ፡ ቃለ፡ እግዚአብሔር፡</foreign> 2 <ref cRef="Par." loc="19,11">Par. 19,11</ref>; <foreign xml:lang="gez">ዘይሰፍን፡ ምኔተ፡</foreign> <ref cRef="Phlx." loc="17">Phlx. 17</ref>; <lbl expand="cum">c.</lbl> <foreign xml:lang="gez">ለ፡</foreign>, ut: <foreign xml:lang="gez">ብእሲ፡ ዘይሰፍን፡ ለእስራኤል፡</foreign> <ref cRef="3 Reg." loc="9,5">3 Reg. 9,5</ref>; <gramGrp> <pos expand="absolute">absol.</pos> </gramGrp>: <foreign xml:lang="gez">አመ፡ ይሰፍን፡ ኵርያቍ፡</foreign> <ref cRef="Enc. " loc="12 ">Enc.  12 </ref>Ter; Abush. – <lbl expand="Vocabularium Aethiopicum, -a -a">Voc. Ae.</lbl>: <foreign xml:lang="gez">ሰፈፈ፡ ሰፈነ፡ ብ፡ ሰፋ፡ መላሂ።</foreign> </sense> </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

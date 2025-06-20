@@ -1,0 +1,125 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> መንኰራኵር </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L25bd26a2bbba428fab9661242ba32474" n="6113">
+               <form>
+                  <foreign xml:lang="gez">መንኰራኵር</foreign>
+               </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain"> (raro <foreign xml:lang="gez">መንኵራኵር፡</foreign>) <gramGrp>
+                     <pos expand="Substantivum">subst.</pos>
+                  </gramGrp>, <gramGrp>
+                     <gen value="masculinum">m.</gen>
+                  </gramGrp> et <gramGrp>
+                     <gen value="femininus">fem.</gen>
+                  </gramGrp>, <lbl expand="singularis">sing.</lbl> et <lbl expand="collatio, -is vel collectivum, -e">coll.</lbl>, <lbl expand="pluralis">Pl.</lbl>
+                  <foreign xml:lang="gez">መንኰራኵራት፡</foreign>
+                  <sense n="1" xml:id="D1">
+                     <cit type="translation" xml:lang="la">
+                        <quote>rota</quote>
+                     </cit>, <foreign xml:lang="grc">τροχός</foreign>, <ref cRef="Koh." loc="12,6">Koh. 12,6</ref>; <ref cRef="Prov." loc="20,26">Prov. 20,26</ref>; <ref cRef="Ps. " loc="82,12">Ps. 82,12</ref>; <ref cRef="Hez." loc="1,16">Hez.
+                        1,16</ref>; <foreign xml:lang="gez">መንኰራኵረ፡ ሰረገላ፡</foreign>
+                     <ref cRef="Jes." loc="28,27">Jes. 28,27</ref>; <ref cRef="Jes. " loc="41,15">Jes. 41,15</ref>; <ref cRef="Sir." loc="36,5">Sir. 36,5</ref>; figulus
+                        <foreign xml:lang="gez">ያዐውድ፡ መንኰራኵሪሁ፡ በእገሪሁ፡ </foreign>
+                     <ref cRef="Sir." loc="38,29">Sir. 38,29</ref>; <foreign xml:lang="grc">τροχοί</foreign>
+                     <ref cRef="2 Reg." loc="24,22">2 Reg. 24,22</ref>; <ref cRef="3 Reg. " loc="7,17">3 Reg. 7,17</ref>; <ref cRef="3 Reg." loc="7,18">3 Reg.
+                        7,18</ref>; <ref cRef="3 Reg." loc="7,19">3 Reg. 7,19</ref>; <foreign xml:lang="gez">መንኰራኵረ፡ ሰረገላቲሆሙ፡ </foreign>
+                     <ref cRef="Jes." loc="5,28">Jes. 5,28</ref>; <ref cRef="Nah." loc="3,1">Nah.
+                        3,1</ref>; <ref cRef="Hez." loc="23,24">Hez. 23,24</ref>; <ref cRef="Hez." loc="26,10">Hez. 26,10</ref>; <foreign xml:lang="gez">ከመ፡ ድምፀ፡ መንኰራኵር፡
+                        ዐበይት፡</foreign>
+                     <ref cRef="Clem." loc="11.">Clem. f. 11.</ref>
+                     <sense n="a" xml:id="D1a"> passim pro <cit type="translation" xml:lang="la">
+                           <quote>curru</quote>
+                        </cit>, ut: <foreign xml:lang="gez">በመንኰራኵር፡</foreign>
+                        <foreign xml:lang="grc">ἐν ἁμάξαις</foreign>
+                        <ref cRef="Jes." loc="25,10">Jes. 25,10</ref>; <foreign xml:lang="gez">አስይፍተ፡ መንገን፡ በሊኃት፡ ዘመንኰራኵር፡</foreign>
+                        <cit type="translation" xml:lang="la">
+                           <quote>falces curruum falcatorum</quote>
+                        </cit>
+                        <ref cRef="Sx. Masc." loc="5 ">Sx. Masc. 5 </ref>Enc.; inter ecclesiae
+                        cathedralis Axumiticae vasa recensentur <foreign xml:lang="gez">፯፻፹መንኰራኵራት፡</foreign>, Chron. Ax. (<lbl expand="videas">vid.</lbl> etiam
+                        Isenb. <lbl expand="lexicon">lex.</lbl> p. 33).</sense>
+                     <sense n="b" xml:id="D1b">
+                        <cit type="translation" xml:lang="la">
+                           <quote>rota</quote>
+                        </cit> vel <cit type="translation" xml:lang="la">
+                           <quote>rotae</quote>
+                        </cit> i.e. genus tormentorum: <foreign xml:lang="gez">እምዝ፡ አምጽአ፡ መኰንን፡
+                           መንኰራኵራተ፡ ዘብርት፡ ወአኬድዎ፡</foreign> (<foreign xml:lang="gez">ለቅዱስ፡</foreign>)
+                           <ref cRef="Sx. Jac." loc="13">Sx. Jac. 13</ref>; <foreign xml:lang="gez">ወደይዎ፡ </foreign> (<foreign xml:lang="gez">ለቅዱስ፡</foreign>) <foreign xml:lang="gez">ውስተ፡ መንኰራኵራት፡ ዘርቡብ፡ ታሕቴሁ፡ አፍሓመ፡ እሳት፡</foreign>
+                        <ref cRef="Sx. Tachs." loc="12">Sx. Tachs. 12</ref>; <ref cRef="Sx. Hed." loc="22">Sx. Hed. 22</ref>; <foreign xml:lang="gez">አዘዘ፡ ከመ፡
+                           ይስቅልዎ፡</foreign> (<foreign xml:lang="gez">ለቅዱስ፡</foreign>) <foreign xml:lang="gez">ውስተ፡ መንኰራኵር፡ ወይኰንንዎ፡</foreign> Sx. <ref cRef="Ter" loc="1.">Ter 1.</ref>
+                     </sense>
+                     <sense n="2" xml:id="D12">
+                        <lbl expand="translate">transl.</lbl>: <cit type="translation" xml:lang="la">
+                           <quote>orbita</quote>
+                        </cit>, (<cit type="translation" xml:lang="la">
+                           <quote>semita</quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                           <quote>via</quote>
+                        </cit>), <foreign xml:lang="grc">τροχιαί</foreign>
+                        <ref cRef="Prov." loc="2,15">Prov. 2,15</ref>; <ref cRef="Prov." loc="4,11">Prov. 4,11</ref>; <ref cRef="Prov." loc="4,26">Prov. 4,26</ref>; <ref cRef="Prov. " loc="5,6">Prov. 5,6</ref>; <ref cRef="Prov." loc="5,21">Prov. 5,21</ref>; <ref cRef="Hebr." loc="12,13">Hebr. 12,13</ref>;
+                           <foreign xml:lang="grc">ἄξονες</foreign>
+                        <ref cRef="Prov. " loc="2,9">Prov. 2,9</ref>; <ref cRef="Prov." loc="9,12">Prov. 9,12</ref>.</sense>
+                  </sense>
+               </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

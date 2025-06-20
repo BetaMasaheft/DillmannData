@@ -1,0 +1,106 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ንእስ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="Lf9bf511809d24ffbb0976950cd0077b7" n="5002">
+               <form>
+                  <foreign xml:lang="gez">ንእስ</foreign>
+               </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain">
+                  <gramGrp>
+                     <pos expand="Substantivum">subst.</pos>
+                  </gramGrp>
+                  <sense n="1" xml:id="D1">
+                     <cit type="translation" xml:lang="la">
+                        <quote>infantia</quote>
+                     </cit>, <cit type="translation" xml:lang="la">
+                        <quote>pueritia</quote>
+                     </cit>, <cit type="translation" xml:lang="la">
+                        <quote>adolescentia</quote>
+                     </cit>, <cit type="translation" xml:lang="la">
+                        <quote>juventus</quote>
+                     </cit>: <foreign xml:lang="grc">νηπιότης</foreign>
+                     <ref cRef="Hez." loc="16,43">Hez. 16,43</ref>; <foreign xml:lang="gez">እምንእሱ፡ </foreign>
+                     <ref cRef="Sir." loc="30,12">Sir. 30,12</ref>; <ref cRef="Hos." loc="2,5">Hos.
+                        2,5</ref>; <foreign xml:lang="gez">እምንእሶሙ፡</foreign>
+                     <foreign xml:lang="grc">ἐκ παιδίου</foreign>
+                     <ref cRef="Jes." loc="46,3">Jes. 46,3</ref>; <foreign xml:lang="grc">νεότης</foreign>: <foreign xml:lang="gez">ኀጢአተ፡ ንእስየ፡</foreign>
+                     <ref cRef="Job" loc="13,26">Job 13,26</ref>; <foreign xml:lang="gez">ብእሲተ፡
+                        ንእስከ፡</foreign>
+                     <ref cRef="Prov." loc="5,18">Prov. 5,18</ref>; <foreign xml:lang="gez">እምንእስየ፡</foreign>
+                     <ref cRef="Gen." loc="48,15">Gen. 48,15</ref>; <ref cRef="Matth." loc="19,20">Matth. 19,20</ref>; <ref cRef="Ps." loc="70,18">Ps. 70,18</ref>; <ref cRef="Job" loc="31,18">Job 31,18</ref>; <ref cRef="Sir." loc="6,18">Sir.
+                        6,18</ref>; <ref cRef="Sir." loc="25,3">Sir. 25,3</ref>; <ref cRef="Sir." loc="42,9">Sir. 42,9</ref>; <ref cRef="Jes." loc="47,12">Jes. 47,12</ref>;
+                        <ref cRef="Jes." loc="54,6">Jes. 54,6</ref>; <ref cRef="Jer." loc="2,2">Jer.
+                        2,2</ref>; <ref cRef="Jer." loc="3,24">Jer. 3,24</ref>; <ref cRef="Jer. " loc="3,25">Jer. 3,25</ref>; <ref cRef="Jer." loc="22,21">Jer. 22,21</ref>;
+                        <foreign xml:lang="gez">በንእሶሙ፡</foreign>
+                     <ref cRef="Job" loc="24,5">Job 24,5</ref>; <ref cRef="Job" loc="36,14">Job
+                        36,14</ref>; <foreign xml:lang="grc">παρθενία</foreign>
+                     <ref cRef="Jer." loc="3,4">Jer. 3,4</ref>; <foreign xml:lang="gez">ዘበኀይለ፡ ንእስ፡
+                        ተወልደ፡</foreign>
+                     <ref cRef="4 Esr." loc="3,66">4 Esr. 3,66</ref>.</sense>
+                  <sense n="2" xml:id="D2"> i.q. <foreign xml:lang="gez">ናእስ፡</foreign>
+                     <cit type="translation" xml:lang="la">
+                        <quote>parvitas</quote>
+                     </cit>, Cyr. c. Pall. f. 87 <lbl expand="varia lectio">var.</lbl>
+                  </sense>
+               </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

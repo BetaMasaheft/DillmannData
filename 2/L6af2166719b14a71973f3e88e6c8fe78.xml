@@ -1,0 +1,121 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ድኅር </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="AE" when="2018-11-01">Verschachtelung,</change>
+        </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L6af2166719b14a71973f3e88e6c8fe78" n="8012">
+               <form>
+                  <foreign xml:lang="gez">ድኅር</foreign>
+               </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain"> <gramGrp> <pos expand="Substantivum">subst.</pos> </gramGrp> <sense n="1" xml:id="D1"> <cit type="translation" xml:lang="la">
+                                <quote> pars rei posterior </quote>
+                            </cit> vel <cit type="translation" xml:lang="la">
+                                <quote> postica </quote>
+                            </cit>: <foreign xml:lang="gez">ድኅሬሆሙ፡</foreign> (<gramGrp> <pos expand="pronomen suffixum">pron. suff.</pos> </gramGrp> per <cit type="translation" xml:lang="la">
+                                <quote> ê </quote>
+                            </cit>, quasi <gramGrp> <pos expand="praepositio">praep.</pos> </gramGrp> esset) <foreign xml:lang="gez">ለእልክቱ፡ አልህምት፡ ይኔጽር፡ ውስጠ፡</foreign> <foreign xml:lang="grc">τὰ ὀπίσθια αὐτῶν</foreign> <ref cRef="2 Par." loc="4,4">2 Par. 4,4</ref>; <foreign xml:lang="gez">ገቦሃ፡ ዘድኅር፡</foreign> i.e. <cit type="translation" xml:lang="la">
+                                <quote> puppis </quote>
+                            </cit> (navis) <ref cRef="Act." loc="27,41">Act. 27,41</ref> Platt; <foreign xml:lang="gez">ዘባን፡ እንተ፡ ድኅር፡</foreign> (<lbl expand="oppositum, -o, -nitur">opp.</lbl> <foreign xml:lang="gez">እንግድዓ፡ እንተ፡ ፍጽም፡</foreign>) <ref cRef="Lit." loc="171,2">Lit. 171,2</ref>. Adverbialiter <sense n="a" xml:id="D1a"> <foreign xml:lang="gez">ድኅረ፡</foreign> <cit type="translation" xml:lang="la">
+                                    <quote> retro </quote>
+                                </cit>, <cit type="translation" xml:lang="la">
+                                    <quote> retrorsum </quote>
+                                </cit>, <cit type="translation" xml:lang="la">
+                                    <quote> pone </quote>
+                                </cit>: <ref cRef="Matth." loc="19,30">Matth. 19,30</ref>; <foreign xml:lang="gez">ሜጠ፡ ድኅረ፡ የማኖ፡</foreign> <ref cRef="Thren." loc="2,3">Thren. 2,3</ref>; <foreign xml:lang="gez">ገብኡ፡ ድኅረ፡</foreign> <ref cRef="Clem. " loc="203.">Clem.  f. 203.</ref> </sense> <sense n="b" xml:id="D1b"> <foreign xml:lang="gez">ለድኅር፡</foreign> vel <foreign xml:lang="gez">መንገለ፡ ድኅር፡</foreign> <cit type="translation" xml:lang="la">
+                                    <quote> retro </quote>
+                                </cit>, <cit type="translation" xml:lang="la">
+                                    <quote> retrorsum </quote>
+                                </cit>, <cit type="translation" xml:lang="la">
+                                    <quote> pone </quote>
+                                </cit>: <foreign xml:lang="gez">ይግብኡ፡ ለድኅር፡</foreign> <foreign xml:lang="grc">εἰς τὰ ὀπίσω</foreign> <ref cRef="Cyr. c. Pall." loc="66">Cyr. c. Pall. f. 66</ref>; <foreign xml:lang="gez">ይትመየጥ፡ መንገለ፡ ድኅር፡</foreign> F.M. 27,9; <foreign xml:lang="gez">ከመ፡ ኢይሚጥ፡ መንገለ፡ ድኅር፡ ኵሎ፡ ዘመጽአ፡</foreign> F.M. 16,1.</sense> <sense n="c" xml:id="D1c"> <foreign xml:lang="gez">እምድኅር፡</foreign> <cit type="translation" xml:lang="la">
+                                    <quote> a parte posteriori </quote>
+                                </cit>, <cit type="translation" xml:lang="la">
+                                    <quote> a tergo </quote>
+                                </cit>, <cit type="translation" xml:lang="la">
+                                    <quote> pone </quote>
+                                </cit>: <ref cRef="Ex." loc="14,27">Ex. 14,27</ref>; <ref cRef="Ex." loc="26,22">Ex. 26,22</ref>; <ref cRef="Ex." loc="26,23">Ex. 26,23</ref>; <ref cRef="Apoc." loc="4,6">Apoc. 4,6</ref>; <foreign xml:lang="gez">እምቅድም፡ ወእምድኅር፡</foreign> Mavâs. 17.</sense> <sense n="d" xml:id="D1d"> <foreign xml:lang="gez">በድኅር፡</foreign> <cit type="translation" xml:lang="la">
+                                    <quote> retro </quote>
+                                </cit> vel <cit type="translation" xml:lang="la">
+                                    <quote> postremo </quote>
+                                </cit>: <foreign xml:lang="gez">ለዘተረፈ፡ ብእሲ፡ እምሕዝቡ፡ በድኅር፡</foreign> <ref cRef="Sx. Haml." loc="25 Enc.">Sx. Haml. 25 Enc.</ref>
+                            </sense> </sense> <sense n="2" xml:id="D2"> <cit type="translation" xml:lang="la">
+                                <quote> finis </quote>
+                            </cit> <ref cRef="4 Esr." loc="9,7">4 Esr. 9,7</ref> Laur.; <cit type="translation" xml:lang="la">
+                                <quote> tempus posterum </quote>
+                            </cit> vel <cit type="translation" xml:lang="la">
+                                <quote> futurum </quote>
+                            </cit>: <foreign xml:lang="gez">አሰፈወ፡ ለድኅር፡</foreign> in posterum F.M. 25,3; <foreign xml:lang="gez">አዝማን፡ ዘድኅር፡ ወእለ፡ ኀለፋ፡</foreign> <ref cRef="Sx. Mag." loc="12 Enc.">Sx. Mag. 12 Enc.</ref> Adv. <sense n="a" xml:id="D2a"> <foreign xml:lang="gez">ድኅረ፡</foreign> <sense n="α" xml:id="D2aα"> <cit type="translation" xml:lang="la">
+                                        <quote> post </quote>
+                                    </cit>, <cit type="translation" xml:lang="la">
+                                        <quote> postea </quote>
+                                    </cit>, <cit type="translation" xml:lang="la">
+                                        <quote> deinde </quote>
+                                    </cit>, <cit type="translation" xml:lang="la">
+                                        <quote> tum </quote>
+                                    </cit>, <foreign xml:lang="grc">ὕστερον</foreign> <ref cRef="Prov." loc="23,31">Prov. 23,31</ref>; <ref cRef="Sir." loc="27,23">Sir. 27,23</ref>; <ref cRef="Matth." loc="25,11">Matth. 25,11</ref>; <ref cRef="Joh." loc="13,36">Joh. 13,36</ref>; <ref cRef="4 Esr." loc="6,69">4 Esr. 6,69</ref>; <foreign xml:lang="grc">ἔσχατον</foreign> <ref cRef="Num. " loc="31,2">Num.  31,2</ref>; <foreign xml:lang="grc">μετὰ ταῦτα</foreign> <ref cRef="Joh." loc="13,7">Joh. 13,7</ref>; <ref cRef="Sir." loc="17,23">Sir. 17,23</ref>; <foreign xml:lang="gez">ቅድመ፡ ጠይቅ፡ ወድኅረ፡ ትጌሥጽ፡</foreign> <foreign xml:lang="grc">καὶ τότε</foreign> <ref cRef="Sir." loc="11,7">Sir. 11,7</ref>.</sense> <sense n="β" xml:id="D2aβ"> <cit type="translation" xml:lang="la">
+                                        <quote> postremo </quote>
+                                    </cit>, <cit type="translation" xml:lang="la">
+                                        <quote> tandem </quote>
+                                    </cit>: <ref cRef="Matth." loc="26,60">Matth. 26,60</ref>; <ref cRef="Matth." loc="21,37">Matth. 21,37</ref>; <ref cRef="Hebr." loc="12,11">Hebr. 12,11</ref>; <foreign xml:lang="grc">ἐπ</foreign>ʼ <foreign xml:lang="grc">ἐσχάτῳ</foreign> <ref cRef="Sir." loc="13,7">Sir. 13,7</ref>; <ref cRef="Sir." loc="14,7">Sir. 14,7</ref>; <ref cRef="Sir." loc="34,22">Sir. 34,22</ref>.</sense> </sense> <sense n="b" xml:id="D2b"> <foreign xml:lang="gez">እምድኅረ፡</foreign> <cit type="translation" xml:lang="la">
+                                    <quote> postea </quote>
+                                </cit> <ref cRef="Matth." loc="21,32">Matth. 21,32</ref> Platt. — Voc. Ae.: <foreign xml:lang="gez">ድኅረ፡ ከዋላ፡ ብ፡ ኌላ።</foreign> </sense> </sense> </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

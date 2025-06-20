@@ -1,0 +1,94 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ተስእነ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L05d86547d39f470183b76c7a3e52fb27" n="2871">
+               <form>
+                  <foreign xml:lang="gez">ተስእነ</foreign>
+               </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain"> <subc>III,1</subc> <cit type="translation" xml:lang="la">
+                     <quote>non fieri posse</quote>
+                  </cit>, <cit type="translation" xml:lang="la">
+                     <quote>impossibilem esse</quote>
+                  </cit>; <lbl expand="construitur cum">c.c.</lbl> Nom. rei vel <lbl expand="cum">c.</lbl>
+                  <gramGrp>
+                     <case value="accusativus">Acc.</case>
+                  </gramGrp> Infin., et <lbl expand="cum">c.</lbl>
+                  <foreign xml:lang="gez">በኀበ፡</foreign> pers. vel <lbl expand="cum">c.</lbl>
+                  <gramGrp>
+                     <pos expand="pronomen">pron.</pos>
+                  </gramGrp> suff. (sensu Dativi): <foreign xml:lang="gez">አልቦ፡ ዘይሰአነከ፡</foreign>
+                  <ref cRef="Job" loc="10,13">Job 10,13</ref>; <ref cRef="Job " loc="42,2">Job
+                     42,2</ref>; <ref cRef="Matth." loc="17,20">Matth. 17,20</ref>; <ref cRef="Luc." loc="1,37">Luc. 1,37</ref>; <foreign xml:lang="gez">አልቦ፡ ዘተስእኖ፡</foreign>
+                  <ref cRef="Sir." loc="48,13">Sir. 48,13</ref>; <ref cRef="Gen." loc="18,14">Gen.
+                     18,14</ref>; <ref cRef="Deut." loc="17,8">Deut. 17,8</ref>; <foreign xml:lang="gez">ኵሉ፡ ዘኅቡእ፡ ኢይሰአነከ፡</foreign>
+                  <ref cRef="Dan." loc="4,6">Dan. 4,6</ref>; <ref cRef="Zach." loc="8,6">Zach.
+                     8,6</ref>; <ref cRef="Rom." loc="1,13">Rom. 1,13</ref>; <ref cRef="Hebr." loc="12,17">Hebr. 12,17</ref>; <foreign xml:lang="gez">ኢይሰአን፡ ንሕለቱ፡ </foreign>
+                     (<foreign xml:lang="gez">ለቅጽር፡</foreign>) <ref cRef="Jsp." loc="359">Jsp. p.
+                     359</ref>; <foreign xml:lang="gez">ኢይሰአን፡ በኀቤከ፡ አድኅኖ፡</foreign>
+                  <ref cRef="2 Par." loc="14,11">2 Par. 14,11</ref>; <ref cRef="Luc." loc="18,27">Luc. 18,27</ref>; <foreign xml:lang="gez">ተስእኖ፡ ነዲቀ፡</foreign>
+                  <ref cRef="3 Reg." loc="5,3">3 Reg. 5,3</ref>; <ref cRef="Rom." loc="8,3">Rom.
+                     8,3</ref> Polygl.; <foreign xml:lang="gez">ተስእነ፡ ተወቅሮቶን፡</foreign>
+                  <ref cRef="Herm." loc="83.">Herm. p. 83.</ref>
+                  <cb n="0378" xml:id="c0378"/>
+               </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

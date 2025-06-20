@@ -1,0 +1,72 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> መቅፁት </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="MK" when="2024-01-19">added Gr and Les</change></revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L49a1fbfff29c4e6caaa3745fbc783474" n="3721">
+               <form>
+                  <foreign xml:lang="gez">መቅፁት</foreign>
+               </form>
+               <sense xml:id="Dmain" xml:lang="la" source="#dillmann"> <gramGrp> <pos expand="Substantivum">subst.</pos> </gramGrp>, <gramGrp> <gen value="not found">m.</gen> </gramGrp> et <gramGrp> <gen value="femininus">fem.</gen> </gramGrp>, <lbl expand="pluralis">Pl.</lbl> <foreign xml:lang="gez">መቃፅው፡</foreign> ( <ref cRef="1 Esr." loc="1,">1 Esr. 1,</ref> 11) et <foreign xml:lang="gez">መቅፁታት፡</foreign> (Lud.), <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> olla </t:quote></cit>, <foreign xml:lang="grc">χύτρα</foreign> <ref cRef="Num." loc="11,8">Num. 11,8</ref>; <ref cRef="Jud." loc="6,19">Jud. 6,19</ref>; <ref cRef="1 Reg." loc="2,14">1 Reg. 2,14</ref>; <ref cRef="Nah." loc="2,10">Nah. 2,10</ref>; Mich, 3,3; <ref cRef="Joel" loc="2,6">Joel 2,6</ref>; <foreign xml:lang="gez">በአይቴ፡ ይትዓረክ፡ መቅፁት፡ ምስለ፡ ጽህርት፡</foreign> <ref cRef="Sir. " loc="13,2">Sir.  13,2</ref>; <foreign xml:lang="gez">ምንባረ፡ መቅፁት፡</foreign> <ref cRef="Lev." loc="11,35">Lev. 11,35</ref>; <foreign xml:lang="gez">መቅፁተ፡ ብርት፡ ዐቢይ፡</foreign> <ref cRef="Jsp." loc="289">Jsp. p. 289</ref>; <foreign xml:lang="gez">መቅፁተ፡ ሥራይ፡</foreign> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> olla veneni </t:quote></cit> <ref cRef="Clem." loc="252">Clem. f. 252</ref>; <foreign xml:lang="gez">ብሱል፡ በመቅፁት፡</foreign> <foreign xml:lang="grc">θυσία ἀπὸ ἐσχάρας</foreign> <ref cRef="Lev." loc="2,7">Lev. 2,7</ref>. – <lbl expand="Vocabularium Aethiopicum, -a -a">Voc. Ae.</lbl>: <foreign xml:lang="gez">መቅፁት፡ ብ፡ ምንቸት፡</foreign> <lbl expand="vel">v.</lbl> <foreign xml:lang="gez">ምቸት።</foreign> </sense>
+               
+            <sense xml:id="Tmain" xml:lang="en" source="#traces"><cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">maqḍut</t:quote></cit>, <foreign xml:lang="gez">መቅጹት፡</foreign> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">maqṣut</t:quote></cit>, <lbl expand="pluralis">Pl.</lbl> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">maqāḍǝw</t:quote></cit>, <foreign xml:lang="gez">መቅፁታት፡</foreign> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">maqḍutāt</t:quote></cit> <sense n="G"> <foreign xml:lang="gez">መቅፁት፡</foreign> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">maqḍut</t:quote></cit>, <lbl expand="pluralis">Pl.</lbl> <foreign xml:lang="gez">መቅፁታት፡</foreign> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">maqḍutāt</t:quote></cit> «<cit type="translation" xml:lang="fr"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">pot-au-feu</t:quote></cit>» ― <foreign xml:lang="am">ድስት፡</foreign> Ms. <ref type="BM" target="BNFabb217">BNFabb217</ref>, fol. 39v. <lb/>
+ <bibl><ptr target="bm:Grebaut1952SuppLexicon"/><citedRange unit="page"> 93</citedRange></bibl> 
+</sense> <sense n="L"> <foreign xml:lang="gez">መቅፁት</foreign> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">maqḍut</t:quote></cit>, <foreign xml:lang="gez">መቅጹት</foreign> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">maqṣut</t:quote></cit> <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">pot</t:quote></cit>, <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">caldron</t:quote></cit>, <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">earthenware jar</t:quote></cit> <bibl><ptr target="bm:Leslau1987dic"/><citedRange unit="page"> 354a</citedRange></bibl> 
+</sense> </sense></entry>
+         </div>
+      </body>
+   </text>
+</TEI>

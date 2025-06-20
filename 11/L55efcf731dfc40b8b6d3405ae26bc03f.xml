@@ -1,0 +1,75 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> መርኆ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="MK" when="2022-02-28">added new cross-reference</change><change who="MK" when="2022-02-28">added c.r</change><change who="MK" when="2024-07-10">added gr and les </change><change who="MK" when="2024-07-10">added sub</change><change who="MK" when="2024-08-29">added gr 3</change><change who="MK" when="2024-08-29">added lb</change></revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L55efcf731dfc40b8b6d3405ae26bc03f" n="2222">
+               <form>
+                  <foreign xml:lang="gez">መርኆ</foreign>
+               </form>
+               <sense xml:id="Dmain" xml:lang="la" source="#dillmann"> <gramGrp> <pos expand="Substantivum">subst.</pos> </gramGrp>, <gramGrp> <gen value="not found">m.</gen> </gramGrp> et <gramGrp> <gen value="femininus">fem.</gen> </gramGrp>, <lbl expand="pluralis">Pl.</lbl> <foreign xml:lang="gez">መራኁት፡</foreign>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> clavis </t:quote></cit> <ref cRef="Jud." loc="3,25">Jud. 3,25</ref>; <foreign xml:lang="gez">እሙንቱ፡ እለ፡ ይእኅዙ፡ መራኁተ፡ ቤተ፡ እግዚአብሔር፡</foreign> <ref cRef="1 Par." loc="9,27">1 Par. 9,27</ref>; <ref cRef="Jes." loc="22,22">Jes. 22,22</ref>; <foreign xml:lang="gez">ዝንቱ፡ መራኁት፡</foreign> Rel. Bar.; <ref cRef="Matth." loc="16,19">Matth. 16,19</ref>; <ref cRef="Clem." loc="86">Clem. f. 86</ref>; <ref cRef="Apoc." loc="1,18">Apoc. 1,18</ref>; nonnumquam <foreign xml:lang="gez">መራኁት፡</foreign> pro <foreign xml:lang="grc">ἡ κλείς</foreign> <cb n="0294" xml:id="c0294"/> ut <ref cRef="Apoc." loc="9,1">Apoc. 9,1</ref>; <ref cRef="Apoc. " loc="20,1">Apoc.  20,1</ref>; <ref cRef="Sx. Sen." loc="12">Sx. Sen. 12</ref>; {<ref target="#c1428"/> <lbl expand="pluralis">Pl.</lbl> <lbl expand="pluralis">Pl.</lbl> <foreign xml:lang="gez">መራኁታት፡</foreign> M.M. f. 59, <lbl expand="videas">vid. sub</lbl> <foreign xml:lang="gez">ግወት፡</foreign>}. – <lbl expand="Vocabularium Aethiopicum, -a -a">Voc. Ae.</lbl>: <foreign xml:lang="gez">መርኆ፡ ዘ፡ መክፈቻ።</foreign> </sense>
+               
+            <sense xml:id="Tmain" xml:lang="en" source="#traces"> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">marḫo</t:quote></cit>, <lbl expand="pluralis">Pl.</lbl> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">marāḫut</t:quote></cit>, <foreign xml:lang="gez">መራኅው፡</foreign> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">marāḫǝw</t:quote></cit>, <lbl expand="pluralis">Pl.</lbl><lbl expand="pluralis">Pl.</lbl> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">marāḫutāt</t:quote></cit> <sense n="G" xml:id="TG"> <foreign xml:lang="gez">መርኆ፡</foreign> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">marḫo</t:quote></cit>, <lbl expand="pluralis">Pl.</lbl> <foreign xml:lang="gez">መራኁት፡</foreign> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">marāḫut</t:quote></cit> «<cit type="translation" xml:lang="fr"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">clef</t:quote></cit>, <cit type="translation" xml:lang="fr"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">instrument pour ouvrir</t:quote></cit>» ― <foreign xml:lang="am">መክፈቻ፡</foreign> Ms. <ref type="BM" target="BNFabb217">BNFabb217</ref>, fol. 59v. <lb/>
+ <bibl><ptr target="bm:Grebaut1952SuppLexicon"/><citedRange unit="page"> 153</citedRange></bibl> <lb/>
+ <foreign xml:lang="gez">መራኅው፡</foreign> pluriel brisé de <foreign xml:lang="gez">መርኆ፡</foreign>, <bibl><ptr target="bm:Dillmann1865Lexicon"/></bibl> ne mentionne que le pluriel <foreign xml:lang="gez">መራኁት፡</foreign> (‘clefs’). <lb/>
+ <bibl><ptr target="bm:Grebaut1952SuppLexicon"/><citedRange unit="page"> 451</citedRange></bibl> 
+</sense> <sense n="L" xml:id="TL"> <foreign xml:lang="gez">መርኆ</foreign> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">marḫo</t:quote></cit> (<lbl expand="pluralis">Pl.</lbl> <foreign xml:lang="gez">መራኁት</foreign> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">marāḫut</t:quote></cit>, <foreign xml:lang="gez">መራኁታት</foreign> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">marāḫutāt</t:quote></cit>, <foreign xml:lang="gez">መራኅው</foreign> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">marāḫǝw</t:quote></cit>) <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">key</t:quote></cit> <bibl><ptr target="bm:Leslau1987dic"/><citedRange unit="page"> 468b</citedRange></bibl> 
+</sense> <sense n="C" xml:id="TC"> for <foreign xml:lang="gez">ዓቃቤ፡ መርኆ፡</foreign> <lbl expand="videas">vid.</lbl> <foreign xml:lang="gez">ዐቃቢ፡</foreign> 
+</sense> </sense></entry>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,123 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ኵለንታ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L4fab17a9e41d486880f10a3ab6dd68b1" n="5985">
+               <form>
+                  <foreign xml:lang="gez">ኵለንታ</foreign>
+               </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain">
+                  <gramGrp>
+                     <pos expand="Substantivum">subst.</pos>
+                  </gramGrp>
+                  <cit type="translation" xml:lang="la">
+                     <quote>totum</quote>
+                  </cit>, <cit type="translation" xml:lang="la">
+                     <quote>universum</quote>
+                  </cit> (<bibl>
+                     <ptr target="bm:Dillmann1857Gramm"/>gramm.</bibl> § 157,2); non nisi subjunctis
+                  pronominibus suff. usurpatur, et latine vertitur <sense n="1" xml:id="D1">
+                     <cit type="translation" xml:lang="la">
+                        <quote>totus</quote>
+                     </cit>; quoad constructionem, <sense n="a" xml:id="D1a"> suam subsantivi vim retinet, ut:
+                           <foreign xml:lang="gez">ኵለንታየ፡ ተመስወ፡</foreign> (non: <foreign xml:lang="gez">ተመሶኩ፡</foreign>) <cit type="translation" xml:lang="la">
+                           <quote>totum</quote>
+                        </cit>
+                        <cit type="translation" xml:lang="la">
+                           <quote>meum</quote>
+                        </cit> i.e. <cit type="translation" xml:lang="la">
+                           <quote>ego</quote>
+                        </cit>
+                        <cit type="translation" xml:lang="la">
+                           <quote>totus</quote>
+                        </cit>
+                        <ref cRef="Hen." loc="60,3">Hen. 60,3</ref>; <foreign xml:lang="gez">ኵለንታከ፡
+                           ኢየሀሉ፡</foreign> (non: <foreign xml:lang="gez">ተሀሉ፡</foreign>) <foreign xml:lang="gez">ኀበ፡ ነኪርት፡ </foreign>
+                        <ref cRef="Prov." loc="5,20">Prov. 5,20</ref>; <foreign xml:lang="gez">ኵለንታሃ፡ ለዛቲ፡ ምድር፡</foreign>
+                        <ref cRef="Gen. " loc="13,15">Gen. 13,15</ref>; <foreign xml:lang="gez">እንተ፡
+                           ኵለንታሆሙ፡ ምሉኣን፡</foreign>
+                        <ref cRef="Apoc." loc="4,8">Apoc. 4,8</ref>; <foreign xml:lang="gez">ወኵለንታሁ፡
+                           በወርቅ፡ ወበዕንቍ፡</foreign>
+                        <ref cRef="Esth." loc="5 ">Esth. 5 </ref>apocr.; <foreign xml:lang="gez">ተቅዋመ፡ ማኅቶት፡ ዘኵለንታሃ፡ ዘወርቅ፡</foreign>
+                        <ref cRef="Zach." loc="4,2">Zach. 4,2</ref>.</sense>
+                     <sense n="b" xml:id="D1b"> adjectivi instar alii nomini apponitur: <foreign xml:lang="gez">ኵለንታሃ፡ ሌሊተ፡</foreign>
+                        <ref cRef="Ex." loc="14,20">Ex. 14,20</ref>; <ref cRef="Ex." loc="19,5">Ex.
+                           19,5</ref>; <ref cRef="Ex." loc="19,18">Ex. 19,18</ref>; <ref cRef="4 Reg." loc="10,21">4 Reg. 10,21</ref>; <foreign xml:lang="gez">ክበብ፡ ኵለንታሃ፡</foreign>
+                        <ref cRef="2 Par." loc="4,2">2 Par. 4,2</ref>; <ref cRef="Gen." loc="14,10">Gen. 14,10</ref>; <ref cRef="Matth." loc="5,30">Matth. 5,30</ref>; <ref cRef="Apoc." loc="6,12">Apoc. 6,12</ref>; et ubi Subjecti vice fungitur,
+                        Praedicatum numerum et personam et genus pronominis ei suffixi sequitur:
+                           <foreign xml:lang="gez">ወትከውን፡ ኵለንታከ፡ ብሩሀ፡ </foreign>
+                        <ref cRef="Luc." loc="11,36">Luc. 11,36</ref>; <foreign xml:lang="gez">ኵለንታኪ፡ ሠናይት፡</foreign>
+                        <ref cRef="Cant." loc="4,7">Cant. 4,7</ref>; <foreign xml:lang="gez">ትጠፍእ፡
+                           ኵለንታሃ፡</foreign>
+                        <ref cRef="Jer." loc="27,13">Jer. 27,13</ref>; <ref cRef="Judith" loc="4,7">Judith 4,7</ref>; <foreign xml:lang="gez">እንተ፡ ማሰነት፡ ኵለንታሃ፡</foreign>
+                        <ref cRef="Hez." loc="38,8">Hez. 38,8</ref>; <ref cRef="Gen." loc="25,25">Gen. 25,25</ref>; <ref cRef="Ex." loc="4,6">Ex. 4,6</ref>; <ref cRef="Hen." loc="27,1">Hen. 27,1</ref>.</sense>
+                     <sense n="2" xml:id="D12">
+                        <cit type="translation" xml:lang="la">
+                           <quote>universus</quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                           <quote>cunctus</quote>
+                        </cit>: <foreign xml:lang="gez">እስመ፡ መልአ፡ መቅሠፍታ፡ ላዕለ፡ ኵለንታሃ፡</foreign>
+                        <foreign xml:lang="grc">εἰς πᾶν τὸ πλῆθος αὐτῆς </foreign>
+                        <ref cRef="Hez." loc="7,12">Hez. 7,12</ref>.</sense>
+                  </sense>
+               </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

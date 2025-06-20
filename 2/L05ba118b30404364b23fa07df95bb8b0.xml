@@ -1,0 +1,87 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ጌራ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="LB" when="2018-05-04">root</change>
+            <change who="MK" when="2019-04-01">added cross-reference</change>
+            <change who="MK" when="2019-04-01">removed</change>
+        </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L05ba118b30404364b23fa07df95bb8b0" n="8639">
+               <form>
+                  <foreign xml:lang="gez">ጌራ</foreign>
+               <rs type="root"/>
+                    </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain"> <gramGrp> <pos expand="Substantivum">subst.</pos> </gramGrp>, <lbl expand="pluralis">Pl.</lbl> <foreign xml:lang="gez">ጌራት፡</foreign> [amh. <foreign xml:lang="gez">ቍርዕ፡</foreign> vel <foreign xml:lang="gez">ቍር፡</foreign> vid. supra <lbl expand="columna">col.</lbl> 429; componendum cum <foreign xml:lang="ar">كَارَ مِكْوَرٌ</foreign> (<lbl expand="videas">vid.</lbl> <foreign xml:lang="gez">ኮረ፡</foreign> et <foreign xml:lang="gez">ኮራ፡</foreign>) ob <cit type="translation" xml:lang="la">
+                            <quote> cavitatem </quote>
+                        </cit> et <cit type="translation" xml:lang="la">
+                            <quote> rotunditatem </quote>
+                        </cit>? an <foreign xml:lang="cop">ⲕⲁⲣⲓⲁ</foreign>?] <sense n="1" xml:id="D1"> <cit type="translation" xml:lang="la">
+                                <quote> galea </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> cassis </quote>
+                            </cit>, <foreign xml:lang="grc">κόρυς</foreign> <ref cRef="Sap." loc="5,19">Sap. 5,19</ref>; <foreign xml:lang="grc">περικεφαλαία</foreign> <ref cRef="1 Reg." loc="17,5">1 Reg. 17,5</ref>; <ref cRef="Jer." loc="26,4">Jer. 26,4</ref> <lbl expand="varia lectio">var.</lbl>; <ref cRef="Hez. " loc="23,24">Hez.  23,24</ref> <lbl expand="varia lectio">var.</lbl> (<foreign xml:lang="gez">ጌራ፡ ኀጺን፡</foreign>); <ref cRef="Hez." loc="27,10">Hez. 27,10</ref>; <ref cRef="Hez." loc="38,4">Hez. 38,4</ref>; <foreign xml:lang="gez">ጌራ፡ መድኀኒት፡</foreign> <ref cRef="Jes." loc="59,17">Jes. 59,17</ref>; <ref cRef="1 Thess." loc="5,8">1 Thess. 5,8</ref>; <ref cRef="Eph. " loc="6,17">Eph.  6,17</ref>; <ref cRef="Org." loc="5">Org. 5</ref>; <foreign xml:lang="gez">አሰርግወኒ፡ ጌራ፡ መድኀኒትከ፡</foreign> <ref cRef="Kedr f." loc="11">Kedr f. 11</ref>; <foreign xml:lang="gez">መጽሐፈ፡ ጌራ፡ መዊእ፡</foreign> inscriptus est libellus magicus Cod. Mus. Brit. LXXX, 2; <foreign xml:lang="gez">ጌራተ፡ ኀጺን፡</foreign> <ref cRef="Sx. Haml. " loc="15.">Sx. Haml.  15.</ref> </sense> <sense n="2" xml:id="D2"> <cit type="translation" xml:lang="la">
+                                <quote> mitra </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> diadema </quote>
+                            </cit>: <foreign xml:lang="gez">ያአትቱ፡ ጌራቲሆሙ፡ እምርእሶሙ፡</foreign> <foreign xml:lang="grc">μίτρας</foreign> <ref cRef="Hez." loc="26,16">Hez. 26,16</ref>; Aristobulus <foreign xml:lang="gez">ተቀጸለ፡ ጌራ፡ ዐቢየ፡ ዲበ፡ ርእሱ፡ አሕጺጾ፡ ጌራ፡ ክህነት፡ ቅዱስ፡</foreign> <ref cRef="Jsp." loc="301">Jsp. p. 301</ref>; Antonius Herodis capiti <foreign xml:lang="gez">ጌራ፡</foreign> imposuit <ref cRef="Jsp." loc="325">Jsp. p. 325</ref>; <foreign xml:lang="gez">ወገብሩ፡ ዲበ፡ ርእሱ፡ ጌራ፡ ንጉሥ፡ ወውስተ፡ እዴሁ፡ በትር፡ ዘወርቅ፡</foreign> <ref cRef="Jsp." loc="340">Jsp. p. 340</ref>; <foreign xml:lang="gez">ጌራ፡ ዘንጉሥ፡</foreign> Lud. ex Hom. de Maria et Magis. – <ref cRef="Apoc." loc="9,9">Apoc. 9,9</ref>; <ref cRef="Apoc." loc="9,17">Apoc. 9,17</ref> Ae. habet <foreign xml:lang="gez">ጌራ፡</foreign>, Gr. <foreign xml:lang="grc">θώραξ</foreign>. – <lbl expand="Vocabularium Aethiopicum, -a -a">Voc. Ae.</lbl>: <foreign xml:lang="gez">ጌራ፡ ዘ፡ እራስ፡ ቍር፡</foreign>; <cit type="translation" xml:lang="la">
+                                <quote> aliud </quote>
+                            </cit>: <foreign xml:lang="gez">ጌራ፡ ዘ፡ እራስ፡ ወርቅ።</foreign> </sense> </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

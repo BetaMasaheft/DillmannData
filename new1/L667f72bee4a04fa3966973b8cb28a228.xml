@@ -1,0 +1,131 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="gez">አጀም</title>
+                <author>Alessandro Bausi</author>
+                <author>Andreas Ellwardt</author>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+                <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+                <pubPlace>Hamburg</pubPlace>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-sa-nc/4.0/"> This file
+                        is licensed under the Creative Commons Attribution-ShareAlike Non Commercial
+                        4.0. </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                        Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice
+                            latino. Adiectum est vocabularium tigre dialecti septentrionalis
+                            compilatum</emph> a W. Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+                </p>
+                <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced
+                        Grant TraCES (Grant Agreement 338756)</ref>
+                </p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>A digital edition of the Lexicon in TEI.</p>
+            <listPrefixDef>
+                <prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/>
+            </listPrefixDef>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="la">latin</language>
+                <language ident="it">Italian</language>
+                <language ident="gez">Gǝʿǝz</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="syr">Syriac</language>
+                <language ident="ar">Arabic</language>
+                <language ident="sa">Sanskrit</language>
+                <language ident="geo">Georgian</language>
+                <language ident="cop">Coptic</language>
+                <language ident="osa">Old South Arabian</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change who="MK" when="2019-08-31">added new entry</change>
+            <change who="MK" when="2019-08-31">added biblio</change>
+            <change who="MK" when="2019-08-31">added biblio</change>
+            <change who="MK" when="2019-08-31">added biblio</change>
+            <change who="MK" when="2019-08-31">added inverted commas</change>
+            <change who="MK" when="2019-09-04">corr</change>
+            <change who="MK" when="2019-09-05">added bibliography</change>
+            <change who="MK" when="2019-09-05">corr</change>
+            <change who="MK" when="2019-09-05">added inverted commas</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <entry xml:id="L667f72bee4a04fa3966973b8cb28a228" n="12666">
+                    <form>
+                        <foreign xml:lang="gez">አጀም</foreign>
+                    </form>
+                    <sense xml:lang="en" source="#traces" xml:id="Tmain">
+                        <cit type="transcription" xml:lang="gez">
+                            <quote>ʾaǧam</quote>
+                        </cit>
+                        <gramGrp>
+                            <pos expand="nomen proprium">n. pr.</pos>
+                        </gramGrp> (ethnic and religious group) <cit type="translation" xml:lang="en">
+                            <quote>non-Arabs</quote>
+                        </cit>
+                        <foreign xml:lang="gez">ማር፡ ገላውዴዎስ፡ ዘነግሠ፡ በኢትዮጵያ፡ ዓባይ፡ እምጽንፋ፡ እስከ፡ ጽንፋ፡
+                            [...] ምስለ፡ መዊኦቱ፡ ፀሩ፡ ወአግርሮቶሙ፡ እምበር፡ አጀም፡ እስከ፡ በረ፡ ሰዓደዲን</foreign> ‘<cit type="translation" xml:lang="en">
+                            <quote>Mar Gälawdewos who reigned in the greater Ethiopia from border to
+                                border [..] by defeating and chasing his enemies from the gate of
+                                ʾAǧäm to the Bär Säʿadädin</quote>
+                        </cit>’ <bibl>
+                            <ptr target="bm:Solomon2019GalawdewosI"/>
+                            <citedRange unit="page"> 4 § 3 (ed.)</citedRange>
+                        </bibl>, <bibl>
+                            <ptr target="bm:Solomon2019GalawdewosII"/>
+                            <citedRange unit="page"> 6 § 3 (tr.)</citedRange>
+                        </bibl> (‘Beside this text, the name appears in the book of Giyorgis Wäldä
+                        Amid (<bibl>
+                            <ptr target="bm:GabraYohannes2006GiyorgisWAmid"/>
+                            <citedRange unit="page"> 7</citedRange>
+                        </bibl>; Frankfurt, Stadt-und Universitätsbibliothek, MS or. 40 (= Rüpp. I
+                        g), Goldschmidt 1897, 71–83 (no. 21), p. 72 (Allgemeine Weltgeschichte), <bibl>
+                            <ptr target="bm:Goldschmidt1897catalogue"/>
+                            <citedRange unit="page"> 72 f. 3</citedRange>
+                        </bibl>). In his introduction, Wäldä Amid listed what he was going to write
+                        including the history of those kings of <foreign xml:lang="gez">አዠም</foreign> (but the manuscript from Rüppell collection maintains the
+                        name <foreign xml:lang="gez">አዘም</foreign>) whom he called <foreign xml:lang="gez">ነገስተ፡ ዝንጉዓን፡ ዘውእቶሙ፡ አዠም።</foreign> (‘The Kings of foolish
+                        who are Ažäm’). And Baḥrey, in his famous work “Zenahu lägalla” (<bibl>
+                            <ptr target="bm:Getatchew2005AbbaBahrey"/>
+                            <citedRange unit="page"> 63</citedRange>
+                        </bibl>) referring to the same work of Wäldä Amid, describes <foreign xml:lang="gez">አጀም</foreign> stating that <foreign xml:lang="gez">ወጊዮርጊስ፡ ወልደ፡ አሚድ፡ ጸሐፈ፡ ዜናሆሙ፡ ለነገሥተ፡ አጀም፡ ዝንጉዓን፡ ዘውእቶሙ፡ እለ፡ አፍሪዶን፡
+                            ወካልአኒሆሙ፡ ነገሥተ፡ ፋርስ፡</foreign> (‘Giyorgis Wäldä Amid has written the
+                        history of the foolish kings of Aǧäm who are those of Afridon and other
+                        kings of Persia’). Both writers generally designated the name <foreign xml:lang="gez">አጀም</foreign> as collective name for those non-Arabs
+                        including Persians and those of Afridon (the ancient kingdom of Persians as
+                        well as pagans). The translator of “Zenahu lägalla”, Beckingham, further
+                        noted in his commentary that <foreign xml:lang="gez">አጀም</foreign> (Aǧäm) in
+                        Arabic means ‘non-Arab’, ‘pagan’, and ‘Persia’ (<bibl>
+                            <ptr target="bm:Getatchew2005AbbaBahrey"/>
+                            <citedRange unit="page"> 196 Appendix II </citedRange>
+                        </bibl>). On the other hand, this name is used in the old maps until the end
+                        of the eighteenth century, which refers vaguely to the coast of Somali
+                        country, situated on the Indian Ocean. Cf. <bibl>
+                            <ptr target="bm:Conzelman1895Galawdewos"/>
+                            <citedRange unit="page"> 121</citedRange>
+                        </bibl>. Therefore, the Arabs may have also used the same term to call the
+                        people in the coast of Somali and the Horn and thus, the name Aǧäm could
+                        have been applied for the geographical identity.’ <bibl>
+                            <ptr target="bm:Solomon2019GalawdewosII"/>
+                            <citedRange unit="page"> 4 n. 5</citedRange>
+                        </bibl>) <nd/>
+                    </sense>
+                </entry>
+            </div>
+        </body>
+    </text>
+</TEI>

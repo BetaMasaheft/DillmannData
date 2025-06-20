@@ -1,0 +1,96 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng"
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="gez">ፓድረ</title>
+            <editor>Alessandro Bausi</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>Hiob-Ludolf-Zentrum für Äthiopistik</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>The origin of the lexicon is in a thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann, Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum
+                     indice latino. Adiectum est vocabularium tigre dialecti septentrionalis
+                     compilatum</emph> a W. Munziger. Lipsiae: Th.O. Weigel, 1865.</ref></p>
+            <p>Additional records were created by the project <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/"> TraCES (ERC Advanced Grant, Grant
+                  Agreement 338756)</ref></p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+         <listPrefixDef>
+            <prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="MK" when="2022-06-15">added example</change>
+         <change who="MK" when="2022-06-15">added example</change>
+         <change who="MK" when="2022-06-15">added etymology</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="Lb8b18a233ab94060b974dd816fb79b4d" n="12843">
+               <form><foreign xml:lang="gez">ፓድረ</foreign></form>
+               <sense xml:id="Tmain" xml:lang="en" source="#traces"><cit type="transcription" xml:lang="gez">
+                     <quote>pādra</quote>
+                  </cit>, <lbl expand="pluralis">Pl.</lbl>
+                  <foreign xml:lang="gez">ፓድሮች፡</foreign>
+                  <cit type="transcription" xml:lang="gez">
+                     <quote>pādročč</quote>
+                  </cit>
+                  <cit type="translation" xml:lang="en">
+                     <quote>Jesuit</quote>
+                  </cit>, member of the Society of Jesus <foreign xml:lang="gez">ወኮነ፡ ምክንያተ፡ ስደቶሙ፡
+                     ለመሃይምናን፡ ሶበ፡ መጽኡ፡ ቦሙ፡ አልባሰ፡ አባግዕ፡ ተኵላት፡ ወሣጥያን፡ ወአክይስት፡ ቀታልያን፡ ዘውእቶሙ፡ ፓድሮች፡
+                     አርድእተ፡ ልዮን፡ ስሑት፡ መዝገበ፡ ዕልወት፡ ወዓመፃ።</foreign> ‘<cit type="translation" xml:lang="fr">
+                     <quote>La raison de l’expulsion des croyants fut qu’il arriva contre eux, sous
+                        l’aspect de brebis, des loups déchireurs et des serpents meurtriers, qui
+                        étaient les pādroč, les disciples de Léon, le séducteur, le réceptacle du
+                        crime et de la perfidie.</quote>
+                  </cit>’ <bibl><ptr target="bm:ContiRossini1909LiberT"/><citedRange unit="page"> 76
+                        l. 27–29 (ed.)</citedRange></bibl>, <bibl><ptr target="bm:ContiRossini1910LiberV"/><citedRange unit="page"> 92 l. 10–13
+                        (tr.)</citedRange></bibl>; <foreign xml:lang="gez">ወኮነ፡ ምክንያተ፡ ስደቶሙ፡ ለምእመናን፡
+                     ሶበ፡ አምጽኡ፡ ቦሙ፡ ፓድሮች፡ ሃይማኖተ፡ ልዮን፡ ቈላፍ፡ ምልዕተ፡ ዓመፃ፡ ወርኵስ።</foreign> ‘<cit type="translation" xml:lang="fr">
+                     <quote>L’occasion de la persécution des croyants fut que les pādroč
+                        apportèrent, contre eux, la foi de Léon l’incirconcis, pleine de fraude et
+                        d’impureté. </quote>
+                  </cit>’ <bibl><ptr target="bm:ContiRossini1909LiberT"/><citedRange unit="page"> 78
+                        l. 3–5 (ed.)</citedRange></bibl>, <bibl><ptr target="bm:ContiRossini1910LiberV"/><citedRange unit="page"> 94 l. 6–8
+                        (tr.)</citedRange></bibl>
+                  <sense n="E" xml:id="TE">from Amharic, from Spanish ‘padre’ <cit type="translation" xml:lang="en">
+                        <quote>father</quote>
+                     </cit>
+                  </sense>
+                  <nd/>
+               </sense>
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

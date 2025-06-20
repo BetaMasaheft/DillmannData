@@ -1,0 +1,300 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="gez">ጔታ</title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+               <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+            </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+         <listPrefixDef>
+            <prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="MK" when="2019-04-01">added cross-reference</change>
+         <change who="MK" when="2019-04-01">added meaning</change>
+         <change who="MK" when="2019-04-01">corr</change>
+         <change who="MK" when="2019-04-01">added entry</change>
+         <change who="MK" when="2019-04-01">corrections</change>
+         <change who="MK" when="2019-04-01">added pos</change>
+         <change who="MK" when="2019-04-01">corr</change>
+         <change who="MK" when="2019-04-01">corrected link</change>
+         <change who="MK" when="2019-04-02">new entry</change>
+         <change who="MK" when="2019-04-02">added new title</change>
+         <change who="MK" when="2019-04-02">added comment</change>
+         <change who="MK" when="2019-12-11">added nesting, changed headword</change>
+         <change who="MK" when="2022-02-07">added an example</change>
+         <change who="MK" when="2022-02-21">added new witness</change>
+         <change who="MK" when="2022-02-21">added cross-reference </change>
+         <change who="MK" when="2022-02-21">corrections </change>
+         <change who="MK" when="2022-02-21">added etymology</change>
+         <change who="MK" when="2022-02-23">added meaning</change>
+         <change who="MK" when="2022-02-23">added links</change>
+         <change who="MK" when="2022-02-23">deleted link</change>
+         <change who="MK" when="2022-02-23">deleted parentheses</change>
+         <change who="MK" when="2022-03-01">added cross reference</change>
+         <change who="MK" when="2022-03-02">added new witness</change>
+         <change who="MK" when="2022-03-07">correction</change>
+         <change who="MK" when="2022-03-09">added witness </change>
+         <change who="MK" when="2022-03-09">added bibliography</change>
+         <change who="MK" when="2022-03-09">correction</change>
+         <change who="MK" when="2022-03-14">added compound</change>
+         <change who="MK" when="2022-03-14">added translation</change>
+         <change who="MK" when="2022-03-16">added compound</change>
+         <change who="MK" when="2022-03-16">correction</change>
+         <change who="MK" when="2022-03-16">added title</change>
+         <change who="MK" when="2022-03-28">added example</change>
+         <change who="MK" when="2022-03-31">added compound</change>
+         <change who="MK" when="2022-04-01">added example</change>
+         <change who="MK" when="2022-04-01">added new compound</change>
+         <change who="MK" when="2022-05-16">added cross reference </change>
+         <change who="MK" when="2022-05-16">correction</change>
+         <change who="MK" when="2022-05-16">added cross references </change>
+         <change who="MK" when="2022-05-16">correction</change>
+         <change who="MK" when="2022-05-16">correction</change>
+         <change who="MK" when="2022-05-19">added cross reference </change>
+         <change who="MK" when="2022-05-24">corrections</change>
+         <change who="MK" when="2022-05-24">added examples</change>
+         <change who="MK" when="2022-05-24">correction</change>
+         <change who="MK" when="2022-05-24">correction</change>
+         <change who="MK" when="2022-05-24">added example</change>
+         <change who="MK" when="2022-05-24">added variants</change>
+         <change who="MK" when="2022-05-24">added cross references </change>
+         <change who="MK" when="2022-05-24">added cross references </change>
+         <change who="MK" when="2022-05-24">added cross references </change>
+         <change who="MK" when="2022-05-24">added example</change>
+         <change who="MK" when="2022-05-30">added cross refernces </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="Ldc8c69eda00b4756a7a533d684abcdd3" n="12513">
+               <form>
+                  <foreign xml:lang="am">ጌታ</foreign>
+               </form>
+               <sense xml:id="Tmain" xml:lang="en" source="#traces">
+                  <cit type="transcription" xml:lang="gez">
+                     <quote> getā </quote>
+                  </cit>, <foreign xml:lang="gez">ጔታ፡</foreign>
+                  <cit type="transcription" xml:lang="gez">
+                     <quote> gʷetā </quote>
+                  </cit>
+                  <gramGrp><pos expand="Substantivum">subst.</pos></gramGrp>
+                  <lbl expand="pluralis">Pl.</lbl>
+                  <foreign xml:lang="gez">ጌቶች፡</foreign>
+                  <cit type="transcription" xml:lang="gez">
+                     <quote>getočč</quote>
+                  </cit>
+                  <cit type="translation" xml:lang="en">
+                     <quote> lord </quote>
+                  </cit>
+                  <cit type="translation" xml:lang="en">
+                     <quote> master </quote>
+                  </cit>
+                  <foreign xml:lang="gez">እዳ፡ ጔታ፡ ገብረ፡ ክርስቶስ፡</foreign> ‘<cit type="translation" xml:lang="fr">
+                     <quote>Eddā guētā Gabra Krestos</quote>
+                  </cit>’ <bibl><ptr target="bm:ContiRossini1909LiberT"/><citedRange unit="page"> 15
+                        l. 4 (ed.)</citedRange></bibl>, <bibl><ptr target="bm:ContiRossini1910LiberV"/><citedRange unit="page"> 16 l. 2
+                        (tr.)</citedRange></bibl>; <foreign xml:lang="gez">ወደብተራ፡ ጌታ፡ ተክለ፡
+                     ነቢያት፡</foreign> ‘<cit type="translation" xml:lang="fr">
+                     <quote>le dabtarā gētā, Takla Nabiyāt</quote>
+                  </cit>’ <bibl><ptr target="bm:ContiRossini1909LiberT"/><citedRange unit="page"> 37
+                        l. 9–10 (ed.)</citedRange></bibl>, <bibl><ptr target="bm:ContiRossini1910LiberV"/><citedRange unit="page"> 43 l. 34
+                        (tr.)</citedRange></bibl>; <foreign xml:lang="gez">ወቃለ፡ ዓፄሂ፡ ዘዣንጽራር፡ ጔታ፡
+                     ሐብተ፡ ሚካኤል፡</foreign> ‘<cit type="translation" xml:lang="fr">
+                     <quote>le qāla ḥ{sic}aṣē, žān ṣerār guiētā, Ḥabta Mikā’ēl</quote>
+                  </cit>’ <bibl><ptr target="bm:ContiRossini1909LiberT"/><citedRange unit="page"> 31
+                        l. 13–14 (ed.)</citedRange></bibl>, <bibl><ptr target="bm:ContiRossini1910LiberV"/><citedRange unit="page"> 36 l. 18–19
+                        (tr.)</citedRange></bibl>; <foreign xml:lang="gez">ወጌቶች፡ ጊዮርጊስ፡
+                     ወአቤል፡</foreign> ‘<cit type="translation" xml:lang="fr">
+                     <quote>et les gētā, Giyorgis et Abēl</quote>
+                  </cit>’ <bibl><ptr target="bm:ContiRossini1909LiberT"/><citedRange unit="page"> 39
+                        l. 5–6 (ed.)</citedRange></bibl>, <bibl><ptr target="bm:ContiRossini1910LiberV"/><citedRange unit="page"> 46 l. 12–13
+                        (tr.)</citedRange></bibl>
+                  <sense n="a" xml:id="Ta"><foreign xml:lang="gez">መሪ፡ ጌታ፡</foreign>
+                     <cit type="transcription" xml:lang="gez">
+                        <quote>mari gētā</quote>
+                     </cit> (title) leading church cantor <bibl><ptr target="bm:Sokolinskaya2007Marigeta"/></bibl>
+                     <foreign xml:lang="gez">መሪ፡ ጌታ፡ አውሳብዮስ፡</foreign> ‘<cit type="translation" xml:lang="fr">
+                        <quote>le mā{sic}ri gētā Awsābyos</quote>
+                     </cit>’ <bibl><ptr target="bm:ContiRossini1909LiberT"/><citedRange unit="page">
+                           60 l. 20 (ed.)</citedRange></bibl>, <bibl><ptr target="bm:ContiRossini1910LiberV"/><citedRange unit="page"> 72 l. 20
+                           (tr.)</citedRange></bibl>, <lbl expand="videas">vid.</lbl>
+                     <foreign xml:lang="gez">መሪ፡</foreign>
+                     <sense n="C" xml:id="TaC">
+                        <lbl expand="videas">vid.</lbl> also <ref type="external" target="https://betamasaheft.eu/Dillmann/lemma/Lef4ed3d79c8d44339fd73c7283d0123f"><foreign xml:lang="gez">ሊቀ፡ መራኅት፡</foreign></ref>
+                     </sense></sense>
+                  <sense n="b" xml:id="Tb"><foreign xml:lang="gez">ቅሬ፡ ጌታ፡</foreign>
+                     <cit type="transcription" xml:lang="gez">
+                        <quote>qǝre getā</quote>
+                     </cit> kind of a civil officer in the Gondarine kingdom <bibl><ptr target="bm:Abbadie1881Dict"/><citedRange unit="page">
+                        263</citedRange></bibl>
+                     <foreign xml:lang="gez">ቅሬ፡ ጌታ፡ ዘወሊ፡</foreign> ‘<cit type="translation" xml:lang="fr">
+                        <quote>le qerē gētā Zawali</quote>
+                     </cit>’ <bibl><ptr target="bm:ContiRossini1909LiberT"/><citedRange unit="page">
+                           60 l. 27–28 (ed.)</citedRange></bibl>, <bibl><ptr target="bm:ContiRossini1910LiberV"/><citedRange unit="page"> 72 l. 30
+                           (tr.)</citedRange></bibl>, <lbl expand="videas">vid.</lbl>
+                     <foreign xml:lang="gez">ቅሬ፡</foreign>
+                  </sense>
+                  <sense n="c" xml:id="Tc">
+                     <foreign xml:lang="gez">ቀኝ፡ ጌታ፡</foreign>
+                     <cit type="transcription" xml:lang="gez">
+                        <quote> qaññ getā </quote>
+                     </cit>, <foreign xml:lang="gez">ቀኝ፡ ጔታ፡</foreign>
+                     <cit type="transcription" xml:lang="gez">
+                        <quote> qaññ gʷetā </quote>
+                     </cit>, <foreign xml:lang="gez">የቀኝ፡ ጌታ፡</foreign>
+                     <cit type="transcription" xml:lang="gez">
+                        <quote> yaqaññ getā </quote>
+                     </cit> (title) assistent of the leading church cantor, liqa marāḫt or marigetā,
+                     who supervises the choir standing to the right <bibl><ptr target="bm:Sokolinskaya2007Marigeta"/></bibl>
+                     <foreign xml:lang="gez">ወሞተ፡ ዓቃቤ፡ ሰዓት፡ ነገደ፡ ኢየሱስ፡ ወወልዱ፡ ብእሴ፡ እግዚአብሔር፡ ወቀኝዕ፡ ጔታ፡
+                        ወሰንጌ፡ ወካልአን፡ ብዙኃን፡</foreign> ‘<cit type="translation" xml:lang="de">
+                        <quote> Es fielen der ʿAqābē-Saʿāt Nagada-Iyasus und sein Sohn
+                           Beʾesē-Egziʾabeḥēr, der Qañ{sic}-Gʷētā Wasangē und viele andere </quote>
+                     </cit>’ <bibl><ptr target="bm:Kropp1988LebnaI"/><citedRange unit="page"> 14 l.
+                           21–22, 15 l. 1 (ed.)</citedRange></bibl>, <bibl><ptr target="bm:Kropp1988LebnaII"/><citedRange unit="page"> 14 l. 13–14
+                           (tr.)</citedRange></bibl>; <foreign xml:lang="gez">ቀኝ፡ ጌታ፡ ክፍሎም፡ ወግራ፡ ጌታ፡
+                        አቢብ፡</foreign> ‘<cit type="translation" xml:lang="fr">
+                        <quote>le qañ gētā, Keflom; le gerā gētā, Abib</quote>
+                     </cit>’ <bibl><ptr target="bm:ContiRossini1909LiberT"/><citedRange unit="page">
+                           32 l. 3 (ed.)</citedRange></bibl>, <bibl><ptr target="bm:ContiRossini1910LiberV"/><citedRange unit="page"> 37 l.
+                           9–10(tr.)</citedRange></bibl>; <foreign xml:lang="gez">ወእንዘ፡ ጌቶች፡ የግራ፡
+                        ዓስጓዕ፡ ወቀኝ፡ አቢብ፡</foreign> ‘<cit type="translation" xml:lang="fr">
+                        <quote>alors que le gētā de droite était ʿĀsguāʿ, et de gauche, Abib</quote>
+                     </cit>’ <bibl><ptr target="bm:ContiRossini1909LiberT"/><citedRange unit="page">
+                           39 l. 2–3 (ed.)</citedRange></bibl>, <bibl><ptr target="bm:ContiRossini1910LiberV"/><citedRange unit="page"> 46 l. 8–9
+                           (tr.)</citedRange></bibl>, <lbl expand="videas">vid.</lbl>
+                     <foreign xml:lang="gez">ቀኝ፡</foreign>, <ref type="external" target="https://betamasaheft.eu/Dillmann/lemma/Lef4ed3d79c8d44339fd73c7283d0123f"><foreign xml:lang="gez">ሊቀ፡ መራኅት፡</foreign></ref>
+                     <sense n="C" xml:id="TcC"><lbl expand="videas">vid.</lbl> also <foreign xml:lang="gez">መጨኔ፡</foreign></sense>
+                  </sense>
+                  <sense n="d" xml:id="Td">
+                     <foreign xml:lang="gez">ብላቴን፡ ጌታ፡</foreign>
+                     <cit type="transcription" xml:lang="gez">
+                        <quote>blātten getā</quote>
+                     </cit>, <foreign xml:lang="gez">ብላቴንጌታ፡</foreign>
+                     <cit type="transcription" xml:lang="gez">
+                        <quote>blāttengetā</quote>
+                     </cit>, <foreign xml:lang="gez">ብላተንጌታ</foreign>
+                     <cit type="transcription" xml:lang="gez">
+                        <quote>blāttangetā</quote>
+                     </cit>
+                     <gramGrp><pos expand="Substantivum">subst.</pos></gramGrp> (title) commander of
+                     the royal pages <foreign xml:lang="gez">ምስክርሂ፡ ብላታ፡ ወልደ፡ ሳሙኤል፡ ብላተንጌታ፡ ወልደ፡
+                        ጊዮርጊስ፡</foreign> ‘<cit type="translation" xml:lang="fr">
+                        <quote>Les témoins ont été: le belāttā Walda Sāmuʾēl, le belāttangētā Walda
+                           Giyorgis</quote>
+                     </cit>’ <bibl><ptr target="bm:ContiRossini1909LiberT"/><citedRange unit="page">
+                           53 l. 15–16 (ed.)</citedRange></bibl>, <bibl><ptr target="bm:ContiRossini1910LiberV"/><citedRange unit="page"> 64 l. 9–10
+                           (tr.)</citedRange></bibl>
+                     <sense n="α" xml:id="Tdα"><foreign xml:lang="gez">የውስጥ፡ ብላቴን፡ ጌታ፡</foreign>
+                        <cit type="transcription" xml:lang="gez">
+                           <quote> yawǝsṭ blātten getā</quote>
+                        </cit>
+                        <foreign xml:lang="gez">ወቃል፡ ሐፄ፡ አስጐላች፡ የውስጥ፡ ብላተንጌታ፡ ተክለ፡ ሃይማኖት፡</foreign>
+                           ‘<cit type="translation" xml:lang="fr">
+                           <quote>le porte-parole du roi, qui a obtenu cette concession féodale (?
+                              asgulāč), le ya-wesṭ belāttangētā Takla Hāymanot</quote>
+                        </cit>’ <bibl><ptr target="bm:ContiRossini1909LiberT"/><citedRange unit="page"> 43 l. 31 (ed.)</citedRange></bibl>, <bibl><ptr target="bm:ContiRossini1910LiberV"/><citedRange unit="page"> 52 l.
+                              13–14 (tr.)</citedRange></bibl>, <lbl expand="videas">vid.</lbl>
+                        <foreign xml:lang="gez">ውስጥ፡</foreign>
+                     </sense>
+                  </sense>
+                  <sense n="C" xml:id="TC"> ● <lbl expand="videas">vid.</lbl> also <foreign xml:lang="gez">ብላቴና፡</foreign> ● <lbl expand="videas">vid.</lbl> also
+                        <foreign xml:lang="gez">ብላታ፡</foreign>
+                  </sense>
+                  <sense n="e" xml:id="Te">
+                     <foreign xml:lang="gez">ደጋፍ፡ ጌታ፡</foreign>
+                     <cit type="transcription" xml:lang="gez">
+                        <quote>daggāf getā</quote>
+                     </cit> meaning unknown <foreign xml:lang="gez">ወደጋፍ፡ ጌታ፡ ሰንኰር፡</foreign> ‘<cit type="translation" xml:lang="fr">
+                        <quote>le dagāf gētā, Senkuar</quote>
+                     </cit>’ <bibl><ptr target="bm:ContiRossini1909LiberT"/><citedRange unit="page">
+                           46 l. 14 (ed.)</citedRange></bibl>, <bibl><ptr target="bm:ContiRossini1910LiberV"/><citedRange unit="page"> 55 l. 22–23
+                           (tr.)</citedRange></bibl>, <lbl expand="videas">vid.</lbl>
+                     <foreign xml:lang="gez">ደጋፍ፡</foreign>
+                  </sense>
+                  <sense n="f" xml:id="Tf">
+                     <foreign xml:lang="gez">ግራ፡ ጌታ፡</foreign>
+                     <cit type="transcription" xml:lang="gez">
+                        <quote> g(ǝ)rā getā </quote>
+                     </cit>, <foreign xml:lang="gez">ግራ፡ ጔታ፡</foreign>
+                     <cit type="transcription" xml:lang="gez">
+                        <quote> g(ǝ)rā gʷetā </quote>
+                     </cit>, <foreign xml:lang="gez">የግራ፡ ጌታ፡</foreign>
+                     <cit type="transcription" xml:lang="gez">
+                        <quote> yagrā getā </quote>
+                     </cit> (title) assistent of the leading church cantor, liqa marāḫt or marigetā,
+                     who supervises the choir standing to the left <bibl><ptr target="bm:Sokolinskaya2007Marigeta"/></bibl>
+                     <foreign xml:lang="gez">ወሞተ፡ አባ፡ ዕዝራ፡ ውሥጥ፡ ብላቴና፤ ወጊዮርጊስ ግራ፡ ጔታ፡</foreign> ‘<cit type="translation" xml:lang="de">
+                        <quote> Es starben Abbā ʿEzrā, der Weśṭ-Belātennā (Vosteher der Pagen des
+                           inneren Hofbezirks), der Gerā-Gʷetā Giyorgis </quote>
+                     </cit>’ <bibl><ptr target="bm:Kropp1988LebnaI"/><citedRange unit="page"> 17 l.
+                           14–15 (ed.)</citedRange></bibl>, <bibl><ptr target="bm:Kropp1988LebnaII"/><citedRange unit="page"> 15 l. 17–19 (tr.)</citedRange></bibl>; ‘<cit type="translation" xml:lang="fr">
+                        <quote>le qañ gētā, Keflom; le gerā gētā, Abib</quote>
+                     </cit>’ <bibl><ptr target="bm:ContiRossini1909LiberT"/><citedRange unit="page">
+                           32 l. 3 (ed.)</citedRange></bibl>, <bibl><ptr target="bm:ContiRossini1910LiberV"/><citedRange unit="page"> 37 l. 9–10
+                           (tr.)</citedRange></bibl>; <foreign xml:lang="gez">ወእንዘ፡ ጌቶች፡ የግራ፡ ዓስጓዕ፡
+                        ወቀኝ፡ አቢብ፡</foreign> ‘<cit type="translation" xml:lang="fr">
+                        <quote>alors que le gētā de droite était ʿĀsguāʿ, et de gauche, Abib</quote>
+                     </cit>’ <bibl><ptr target="bm:ContiRossini1909LiberT"/><citedRange unit="page">
+                           39 l. 2–3 (ed.)</citedRange></bibl>, <bibl><ptr target="bm:ContiRossini1910LiberV"/><citedRange unit="page"> 46 l. 8–9
+                           (tr.)</citedRange></bibl>, <lbl expand="videas">vid.</lbl>
+                     <foreign xml:lang="gez">ግራ፡</foreign>, <ref type="external" target="https://betamasaheft.eu/Dillmann/lemma/Lef4ed3d79c8d44339fd73c7283d0123f"><foreign xml:lang="gez">ሊቀ፡ መራኅት፡</foreign></ref>
+                     <sense n="C" xml:id="TfC"><lbl expand="videas">vid.</lbl> also <foreign xml:lang="gez">መጨኔ፡</foreign></sense>
+                  </sense>
+                  <sense n="E" xml:id="TE">from Amharic <foreign xml:lang="am">ጌታ</foreign>
+                     <cit type="transcription" xml:lang="gez">
+                        <quote>getā </quote>
+                     </cit> or <foreign xml:lang="am">ጔታ፡</foreign>
+                     <cit type="transcription" xml:lang="gez">
+                        <quote>gʷetā </quote>
+                     </cit>
+                  </sense>
+                  <nd/>
+               </sense>
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

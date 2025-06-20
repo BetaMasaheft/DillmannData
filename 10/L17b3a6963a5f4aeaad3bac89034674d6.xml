@@ -1,0 +1,114 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> መቅደስ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L17b3a6963a5f4aeaad3bac89034674d6" n="3639">
+               <form>
+                  <foreign xml:lang="gez">መቅደስ</foreign>
+               </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain">, raro <foreign xml:lang="gez">መቅድስ፡</foreign> (<ref cRef="Ps." loc="10,4">Ps. 10,4</ref>), <gramGrp>
+                     <pos expand="Substantivum">subst.</pos>
+                  </gramGrp>, plerumque <gramGrp>
+                     <gen value="masculinum">m.</gen>
+                  </gramGrp>, <lbl expand="pluralis">Pl.</lbl>
+                  <foreign xml:lang="gez">መቃድስ፡</foreign>
+                  <sense n="1" xml:id="D1">
+                     <cit type="translation" xml:lang="la">
+                        <quote>res sacra</quote>
+                     </cit>, <cit type="translation" xml:lang="la">
+                        <quote>sacrum</quote>
+                     </cit>, <foreign xml:lang="grc">τὰ ἅγια</foreign>
+                     <ref cRef="Jes. " loc="43,28">Jes. 43,28</ref>; <ref cRef="Hez." loc="5,11">Hez. 5,11</ref>; <foreign xml:lang="gez">መቃድስ፡</foreign>
+                     <ref cRef="Chrys. ho." loc="17.">Chrys. ho. 17.</ref>
+                  </sense>
+                  <sense n="2" xml:id="D2">
+                     <cit type="translation" xml:lang="la">
+                        <quote>locus sacer</quote>
+                     </cit>, <cit type="translation" xml:lang="la">
+                        <quote>sanctuarium</quote>
+                     </cit>, <cit type="translation" xml:lang="la">
+                        <quote>sacrarium</quote>
+                     </cit>, <cit type="translation" xml:lang="la">
+                        <quote>templum</quote>
+                     </cit>, <foreign xml:lang="grc">τὸ ἅγιον</foreign>
+                     <ref cRef="Jes." loc="26,21">Jes. 26,21</ref>; <ref cRef="Dan." loc="9,26">Dan.
+                        9,26</ref>; <foreign xml:lang="grc">ἁγίασμα</foreign>
+                     <ref cRef="Sir." loc="47,13">Sir. 47,13</ref>; <ref cRef="Thren." loc="1,10">Thren. 1,10</ref>; <ref cRef="Thren." loc="2,7">Thren. 2,7</ref>; <foreign xml:lang="grc">ἁγιαστήριον</foreign>
+                     <ref cRef="Ps." loc="72,17">Ps. 72,17</ref>; <foreign xml:lang="grc">ναός</foreign>
+                     <ref cRef="Sir. " loc="50,7">Sir. 50,7</ref>; <ref cRef="Sir." loc="51,14">Sir.
+                        51,14</ref>; <ref cRef="4 Esr." loc="10,28">4 Esr. 10,28</ref>; <foreign xml:lang="gez">ደብረ፡ መቅደስየ፡ </foreign>
+                     <foreign xml:lang="grc">τὸ ὄρος τὸ ἅγιόν μου</foreign>
+                     <ref cRef="Jes." loc="11,9">Jes. 11,9</ref>; <ref cRef="Jes. " loc="56,7">Jes.
+                        56,7</ref>; <ref cRef="Jes." loc="57,13">Jes. 57,13</ref>; <ref cRef="Dan." loc="9,16">Dan. 9,16</ref>; <ref cRef="Ps." loc="2,6">Ps. 2,6</ref>; <ref cRef="Ps." loc="14,1">Ps. 14,1</ref>; <foreign xml:lang="gez">ጽርሐ፡
+                        መቅደስ፡</foreign>
+                     <ref cRef="Ps." loc="5,8">Ps. 5,8</ref>; <ref cRef="Ps." loc="10,4">Ps.
+                        10,4</ref>; <foreign xml:lang="gez">ሀገረ፡ መቅደስከ፡</foreign>
+                     <ref cRef="Jes." loc="64,10">Jes. 64,10</ref>; <foreign xml:lang="gez">ቤተ፡
+                        መቅደስ፡</foreign>
+                     <ref cRef="Kuf." loc="49">Kuf. 49</ref>; <ref cRef="Jes." loc="44,28">Jes.
+                        44,28</ref>; <ref cRef="Jes." loc="60,13">Jes. 60,13</ref>; <ref cRef="Jes." loc="63,15">Jes. 63,15</ref>; <ref cRef="Judith" loc="4,3">Judith 4,3</ref>;
+                        <ref cRef="Dan. " loc="5,2">Dan. 5,2</ref>; <ref cRef="Matth." loc="21,12">Matth. 21,12</ref>; <ref cRef="Matth." loc="24,1">Matth. 24,1</ref>; <ref cRef="Marc." loc="11,11">Marc. 11,11</ref>; <ref cRef="Marc." loc="11,15">Marc. 11,15</ref>; de templo Hierosolymitano <ref cRef="Clem." loc="94">Clem. f. 94</ref>; de urbe <ref cRef="Hierosolymorum f." loc="36">Hierosolymorum f. 36</ref>; de ecclesiis <ref cRef="Christianorum Genz." loc="69">Christianorum Genz. f. 69</ref>; <foreign xml:lang="grc">θυπαστήριον</foreign>
+                     <ref cRef="Ex." loc="30,20">Ex. 30,20</ref>
+                     <lbl expand="cum">c.</lbl> annot. et <ref cRef="Matth. " loc="23,35">Matth.
+                        23,35</ref>.</sense>
+               </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,110 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ትርጓሜ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L8ed3d2a3c165426cbbb78fdfcbf5c463" n="4264">
+               <form>
+                  <foreign xml:lang="gez">ትርጓሜ</foreign>
+               </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain">
+                  <gramGrp>
+                     <pos expand="nomen actionis">n. act.</pos>
+                  </gramGrp> et <gramGrp>
+                     <pos expand="Substantivum">subst.</pos>
+                  </gramGrp>, <gramGrp>
+                     <gen value="masculinum">m.</gen>
+                  </gramGrp> et <gramGrp>
+                     <gen value="femininus">fem.</gen>
+                  </gramGrp>, <lbl expand="pluralis">Pl.</lbl>
+                  <foreign xml:lang="gez">ትርጓምያት፡ </foreign> (Cod. Mus. Brit. VIII, 1, a), <cit type="translation" xml:lang="la">
+                     <quote>translatio</quote>
+                  </cit>, <cit type="translation" xml:lang="la">
+                     <quote>expositio</quote>
+                  </cit>, <cit type="translation" xml:lang="la">
+                     <quote>interpretatio</quote>
+                  </cit>, <cit type="translation" xml:lang="la">
+                     <quote>exegesis</quote>
+                  </cit>, <cit type="translation" xml:lang="la">
+                     <quote>commentarius</quote>
+                  </cit>: <ref cRef="2 Esr." loc="4,7">2 Esr. 4,7</ref>; <foreign xml:lang="gez">ከመዝ፡ ትርጓሜሁ፡ እመጽሐፈ፡ ሶርያ፡</foreign>
+                  <ref cRef="Job" loc="42,18">Job 42,18</ref>; <ref cRef="Hebr." loc="7,2">Hebr.
+                     7,2</ref>; <foreign xml:lang="gez">ዘውእቱ፡ ትርጓሜሁ፡</foreign>
+                  <cit type="translation" xml:lang="la">
+                     <quote>quod est interpretatum</quote>
+                  </cit> vel <cit type="translation" xml:lang="la">
+                     <quote>quod significat</quote>
+                  </cit>
+                  <ref cRef="Matth." loc="1,23">Matth. 1,23</ref>; <foreign xml:lang="gez">ዘበትርጓሜሁ፡</foreign> id. <ref cRef="Matth. " loc="27,33">Matth. 27,33</ref>;
+                     <ref cRef="Marc." loc="5,41">Marc. 5,41</ref>; <ref cRef="Joh." loc="1,39">Joh.
+                     1,39</ref>; <foreign xml:lang="gez">ትርጓሜ፡ መልእክት፡ ዘብፁዕ፡ ጳውሎስ፡ ዘጸሐፈ፡ ለዕብራውያን፡
+                     ዘተርጐማ፡ አፈ፡ ወርቅ፡</foreign>
+                  <ref cRef="Chrys." loc="3">Chrys. f. 3</ref>; F.M. 11,2; peritus est <foreign xml:lang="gez">በትርጓሜ፡ መጻሕፍት፡ ቅዱሳት፡</foreign>
+                  <ref cRef="Clem." loc="131">Clem. f. 131</ref>; <foreign xml:lang="gez">መምህረ፡
+                     ትርጓሜ፡</foreign>
+                  <ref cRef="Sx. Teq." loc="9 ">Sx. Teq. 9 </ref>Enc.; <foreign xml:lang="gez">ራእይ፡
+                  </foreign> (Nebucadnezaris) <foreign xml:lang="gez">ወትርጓሜሃ፡</foreign>
+                  <ref cRef="Sx. Mag." loc="23">Sx. Mag. 23</ref>; <lbl expand="construitur cum">c.c.</lbl>
+                  <gramGrp>
+                     <case value="accusativus">Acc.</case>
+                  </gramGrp>: <foreign xml:lang="gez">ይቤ፡ ዮሐንስ፡ አፈ፡ ወርቅ፡ በትርጓሜሁ፡ ዘንተ፡ ከፍለ፡</foreign>
+                  F.N. 44. </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

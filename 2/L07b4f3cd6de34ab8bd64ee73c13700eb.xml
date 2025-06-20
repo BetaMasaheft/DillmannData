@@ -1,0 +1,74 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ተሣየጠ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="MK" when="2024-06-06">added gr and les</change><change who="MK" when="2024-06-06">added sub</change></revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L07b4f3cd6de34ab8bd64ee73c13700eb" n="1976">
+               <form>
+                  <foreign xml:lang="gez">ተሣየጠ</foreign>
+               </form>
+               <sense xml:id="Dmain" xml:lang="la" source="#dillmann"> <subc>III,3</subc> <sense n="1" xml:id="D1"> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> mercari </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> emere </t:quote></cit> aliquid ab aliquo: <foreign xml:lang="gez">ዘይሠይጥ፡ ከመ፡ ዘይሣየጥ፡</foreign> <ref cRef="Jes." loc="24,2">Jes. 24,2</ref>; <ref cRef="Jes." loc="55,1">Jes. 55,1</ref>; <foreign xml:lang="gez">ዘተሣየጠ፡</foreign> <foreign xml:lang="grc">ὁ κτώμενος</foreign> <ref cRef="Hez." loc="7,12">Hez. 7,12</ref>; <foreign xml:lang="gez">በእንተ፡ ተሣይጦ፡ ወሠይጥ፡</foreign> F.N. 33; <lbl expand="cum">c.</lbl> <gramGrp> <case value="accusativus">Acc.</case> </gramGrp> mercis: <ref cRef="Gen." loc="23,4">Gen. 23,4</ref>; <ref cRef="Gen." loc="39,1">Gen. 39,1</ref>; <ref cRef="Gen." loc="42,3">Gen. 42,3</ref>; <ref cRef="Gen." loc="43,2">Gen. 43,2</ref>; <ref cRef="Jer." loc="39,7">Jer. 39,7</ref>; <ref cRef="Jer." loc="39,44">Jer. 39,44</ref>; <ref cRef="Prov." loc="29,34">Prov. 29,34</ref>; <ref cRef="Matth." loc="13,46">Matth. 13,46</ref>; <lbl expand="cum">c.</lbl> <foreign xml:lang="gez">ለ፡</foreign> ejus, cui emitur: <ref cRef="Apoc." loc="5,9">Apoc. 5,9</ref>; <ref cRef="Matth." loc="14,15">Matth. 14,15</ref>; <ref cRef="Gen." loc="42,2">Gen. 42,2</ref>; <ref cRef="Jer." loc="13,1">Jer. 13,1</ref>; <ref cRef="Jer." loc="19,1">Jer. 19,1</ref>; <foreign xml:lang="gez">ኢተሣየጥከ፡ ሊተ፡ በወርቅ፡ ዕጣነ፡</foreign> <ref cRef="Jes." loc="43,24">Jes. 43,24</ref>; <ref cRef="Hez." loc="5,1">Hez. 5,1</ref>; <lbl expand="cum">c.</lbl> <foreign xml:lang="gez">በ፡</foreign> pretii <ref cRef="Gen. " loc="17,12">Gen.  17,12</ref>; <ref cRef="Gen." loc="17,23">Gen. 17,23</ref>; <ref cRef="Jes." loc="43,24">Jes. 43,24</ref>; <lbl expand="cum">c.</lbl> <foreign xml:lang="gez">እምነ፡</foreign> vel <foreign xml:lang="gez">በኀበ፡</foreign> (<foreign xml:lang="gez">እምኀበ፡</foreign>) ejus a quo emitur: <ref cRef="Gen." loc="23,9">Gen. 23,9</ref>; <ref cRef="Gen." loc="23,19">Gen. 23,19</ref>; <ref cRef="Gen." loc="25,10">Gen. 25,10</ref>; <ref cRef="Lev." loc="25,14">Lev. 25,14</ref>; <ref cRef="2 Reg." loc="24,21">2 Reg. 24,21</ref>. Nonnumquam: <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> redimere </t:quote></cit> <ref cRef="2 Esr." loc="15,8">2 Esr. 15,8</ref>; <ref cRef="Prov." loc="24,11">Prov. 24,11</ref>. 
+</sense> <sense n="2" xml:id="D2"> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> mercaturam facere </t:quote></cit> (in genere), sive emendo sive vendendo, <lbl expand="cum">c.</lbl> <lbl expand="duplex">dupl.</lbl> <gramGrp> <case value="accusativus">Acc.</case> </gramGrp>: <foreign xml:lang="gez">ይሁዳ፡ ወእስራኤል፡ ሠየጥኪ፡ ወይሣየጡኪ፡</foreign> (v. <foreign xml:lang="gez">ይሠይጡ፡ ለኪ፡</foreign>) <foreign xml:lang="gez">ሥርናየ፡</foreign> <foreign xml:lang="grc">ἔμποροί σου ἐν πράσει σίτου</foreign> <ref cRef="Hez. " loc="27,17">Hez.  27,17</ref>; <foreign xml:lang="gez">በዘ፡ ይሣየጡኪ፡ ተግባረኪ፡</foreign> <foreign xml:lang="grc">ἐν οἷς ἐμπορεύονταί σε</foreign> <ref cRef="Hez." loc="27,21">Hez. 27,21</ref>; <foreign xml:lang="gez">በሤጥ፡ ብዙኅ፡ እሣየጠከ፡</foreign> (<cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> mercabor a te </t:quote></cit>) <ref cRef="1 Par." loc="21,24">1 Par. 21,24</ref>; <foreign xml:lang="gez">በከንቱ፡ ተሣየጥኩክሙ፡</foreign> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> non vendidi </t:quote></cit> (quamquam hic de lectione dubitare licet) <ref cRef="Jes." loc="52,3">Jes. 52,3</ref>. 
+</sense> </sense>
+               
+            <sense xml:id="Tmain" xml:lang="en" source="#traces"><cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">taśāyaṭa</t:quote></cit>, <foreign xml:lang="gez">ተሳየጠ፡</foreign> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">tasāyaṭa</t:quote></cit> <sense n="G" xml:id="TG"> <foreign xml:lang="gez">ተሣየጠ፡</foreign> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">taśāyaṭa</t:quote></cit> <subc>III,3</subc> <foreign xml:lang="gez">ይሣየጥ፡</foreign> «<cit type="translation" xml:lang="fr"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">acheter</t:quote></cit>» ― <foreign xml:lang="am">ገዛ፡</foreign> Ms. <ref type="BM" target="BNFabb217">BNFabb217</ref>, fol. 54r. <lb/>
+ <bibl><ptr target="bm:Grebaut1952SuppLexicon"/><citedRange unit="page"> 136</citedRange></bibl> 
+</sense> <sense n="L" xml:id="TL"> <foreign xml:lang="gez">ተሣየጠ</foreign> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">taśāyaṭa</t:quote></cit>, (<bibl><ptr target="bm:AlaqaTayya1965MSawasew"/></bibl>) <foreign xml:lang="gez">ተሳየጠ</foreign> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">tasāyaṭa</t:quote></cit> <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">buy back</t:quote></cit>, <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">sell among themselves</t:quote></cit>, <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">trade</t:quote></cit>, <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">practice trade</t:quote></cit> <bibl><ptr target="bm:Leslau1987dic"/><citedRange unit="page"> 540b</citedRange></bibl> 
+</sense> </sense></entry>
+         </div>
+      </body>
+   </text>
+</TEI>

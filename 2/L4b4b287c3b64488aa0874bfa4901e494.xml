@@ -1,0 +1,72 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ብሩር </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="MK" when="2024-03-22">added cross ref</change><change who="MK" when="2024-03-22">added c</change></revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L4b4b287c3b64488aa0874bfa4901e494" n="3879">
+               <form>
+                  <foreign xml:lang="gez">ብሩር</foreign>
+               </form>
+               <sense xml:id="Dmain" xml:lang="la" source="#dillmann"> (<gramGrp> <pos expand="participium">part.</pos> </gramGrp>) <gramGrp> <pos expand="Substantivum">subst.</pos> </gramGrp>, plerumque <gramGrp> <gen value="not found">m.</gen> </gramGrp> (<gramGrp> <gen value="femininus">fem.</gen> </gramGrp> <ref cRef="Koh." loc="7,12">Koh. 7,12</ref> <foreign xml:lang="gez">ጽላሎታ፡ ለብሩር፡</foreign>), <lbl expand="pluralis">Pl.</lbl> <foreign xml:lang="gez">ብሩራት፡</foreign> (Lud.) <sense n="1" xml:id="D1"> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> argentum </t:quote></cit> (a purgando, <cb n="0502" xml:id="c0502"/> si non a puritate i.e. candore dictum): <foreign xml:lang="gez">ብሩር፡ ጽሩይ፡</foreign> <ref cRef="Job" loc="22,25">Job 22,25</ref>; <ref cRef="Job" loc="28,1">Job 28,1</ref>; <ref cRef="Jes." loc="13,17">Jes. 13,17</ref>; <ref cRef="Jes." loc="60,17">Jes. 60,17</ref>; <ref cRef="Ps." loc="11,7">Ps. 11,7</ref>; <foreign xml:lang="gez">ብሩር፡ ምኑን፡</foreign> <ref cRef="Jer." loc="6,30">Jer. 6,30</ref>; <ref cRef="Hez. " loc="22,18">Hez.  22,18</ref>; <ref cRef="Hez." loc="27,12">Hez. 27,12</ref>; <foreign xml:lang="gez">ብሩር፡ ኅሩይ፡</foreign> <ref cRef="Prov." loc="8,19">Prov. 8,19</ref>; <ref cRef="Sir. " loc="47,18">Sir.  47,18</ref>; <ref cRef="Hen." loc="52,7">Hen. 52,7</ref>; <ref cRef="Hen." loc="65,7">Hen. 65,7</ref>; <ref cRef="Matth." loc="10,9">Matth. 10,9</ref>; <ref cRef="1 Cor." loc="3,12">1 Cor. 3,12</ref>; <ref cRef="1 Petr." loc="1,18">1 Petr. 1,18</ref>. In Genit. <foreign xml:lang="gez">ዘብሩር፡</foreign>, vel statui constr. subjunctum: <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> argenteus </t:quote></cit> <ref cRef="Gen." loc="24,53">Gen. 24,53</ref>; <ref cRef="Ex." loc="3,22">Ex. 3,22</ref>; <ref cRef="Judith" loc="12,1">Judith 12,1</ref>; <ref cRef="Num." loc="7,13">Num. 7,13</ref>; <ref cRef="Dan." loc="2,32">Dan. 2,32</ref>; <ref cRef="Apoc. " loc="9,20">Apoc.  9,20</ref>; <ref cRef="2 Tim." loc="2,20">2 Tim. 2,20</ref>. 
+</sense> <sense n="2" xml:id="D2"> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> argenteus </t:quote></cit> numus vel siclus: <foreign xml:lang="gez">ሠላሳ፡ ብሩር፡</foreign> <ref cRef="Ex. " loc="21,32">Ex.  21,32</ref>; <ref cRef="2 Reg." loc="18,11">2 Reg. 18,11</ref>; <ref cRef="Cant." loc="8,11">Cant. 8,11</ref>; <ref cRef="Zach." loc="11,12">Zach. 11,12</ref>; <ref cRef="Matth." loc="26,15">Matth. 26,15</ref>. 
+</sense> </sense>
+               
+            <sense xml:id="Tmain" xml:lang="en" source="#traces"> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">bǝrur</t:quote></cit> <sense n="C" xml:id="TC"> for <foreign xml:lang="gez">መጥቅዕ፡ ብሩር፡</foreign> <lbl expand="videas">vid.</lbl> <foreign xml:lang="gez">መጥቅዕ፡</foreign> 
+</sense> </sense></entry>
+         </div>
+      </body>
+   </text>
+</TEI>

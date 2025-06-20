@@ -1,0 +1,128 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ልዑል </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L69fe14ebfb0b48d398b9885329be90c9" n="414">
+               <form>
+                  <foreign xml:lang="gez">ልዑል</foreign>
+               </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain">
+                  <gramGrp>
+                     <pos expand="participium">part.</pos>
+                  </gramGrp>
+                  <cit type="translation" xml:lang="la">
+                     <quote>excelsus</quote>
+                  </cit>, <cit type="translation" xml:lang="la">
+                     <quote>altus</quote>
+                  </cit>, <cit type="translation" xml:lang="la">
+                     <quote>editus</quote>
+                  </cit>, <cit type="translation" xml:lang="la">
+                     <quote>sublimis</quote>
+                  </cit>, <cit type="translation" xml:lang="la">
+                     <quote>superior</quote>
+                  </cit>, <cit type="translation" xml:lang="la">
+                     <quote>summus</quote>
+                  </cit>, de rebus et personis: <foreign xml:lang="gez">መንበር፡ ልዑል፡</foreign>
+                  <ref cRef="Jes." loc="6,1">Jes. 6,1</ref>; <foreign xml:lang="gez">ሰማይ፡
+                     ልዑል፡</foreign>
+                  <ref cRef="Prov." loc="25,3">Prov. 25,3</ref>; <foreign xml:lang="gez">ምድር፡
+                     ልዕልት፡</foreign>
+                  <ref cRef="Kuf." loc="18">Kuf. 18</ref>; <ref cRef="Clem." loc="29">Clem. p.
+                     29</ref>; <foreign xml:lang="gez">ኵሉ፡ ነዋኅ፡ ወልዑል፡</foreign>
+                  <ref cRef="Jes." loc="2,12">Jes. 2,12</ref>; <foreign xml:lang="gez">ዓዲ፡ እዱ፡
+                     ልዑል፡</foreign>
+                  <ref cRef="Jes." loc="9,12">Jes. 9,12</ref>; <ref cRef="Jes." loc="10,4">Jes.
+                     10,4</ref>; <foreign xml:lang="gez">በመዝራእት፡ ልዕልት፡ </foreign>
+                  <ref cRef="Ex." loc="6,1">Ex. 6,1</ref>; <foreign xml:lang="gez">በእድ፡
+                     ልዕልት፡</foreign> 14,8; <foreign xml:lang="gez">እምነ፡</foreign>, <foreign xml:lang="gez">ዲበ፡</foreign>, <foreign xml:lang="gez">ላዕለ፡</foreign> ut:
+                     <foreign xml:lang="gez">አእምር፡ ሚመጠን፡ ልዑል፡ እምኔከ፡ ደመና፡</foreign>
+                  <ref cRef="Job" loc="35,5">Job 35,5</ref>; <ref cRef="Ps." loc="102,11">Ps.
+                     102,11</ref>; <foreign xml:lang="gez">እዴሁ፡ ልዕልት፡ ዲበ፡ ኵሉ፡ </foreign>
+                  <ref cRef="Jes." loc="14,26">Jes. 14,26</ref>; <foreign xml:lang="gez">ልዑል፡ ውእቱ፡
+                     ላዕለ፡ ኵሉ፡</foreign>
+                  <ref cRef="Ps." loc="98,2">Ps. 98,2</ref>. Creberrime usurpatur de <ref cRef="Deo Dan. apocr." loc="3,27">Deo Dan. apocr. 3,27</ref>-64 (<cit type="translation" xml:lang="la">
+                     <quote>laudibus exaltatus</quote>
+                  </cit>), <foreign xml:lang="grc">ὕψιστος</foreign> (altissimus, summus) <ref cRef="Job" loc="31,28">Job 31,28</ref>; <ref cRef="Sir." loc="17,26">Sir.
+                     17,26</ref>; <ref cRef="Sir. " loc="23,18">Sir. 23,18</ref>; <ref cRef="Ps." loc="12,6">Ps. 12,6</ref>; <ref cRef="Luc." loc="1,35">Luc. 1,35</ref>; <ref cRef="4 Esr." loc="1,3">4 Esr. 1,3</ref>; <ref cRef="4 Esr." loc="2,2">4 Esr.
+                     2,2</ref>; <ref cRef="4 Esr." loc="2,42">4 Esr. 2,42</ref>; nec non de
+                  praepotentibus et dominis terrae <ref cRef="Koh." loc="5,7">Koh. 5,7</ref>; <ref cRef="Hen." loc="38,4">Hen. 38,4</ref>; <ref cRef="Hen." loc="62,1">Hen.
+                     62,1</ref>; <ref cRef="Hen." loc="62,7">Hen. 62,7</ref>; de angelis Lit. Joh.;
+                     <foreign xml:lang="gez">ጥቀ፡ ልዑል፡</foreign> esse titutlum regis Aethiopiae
+                  asserit Ludolfus. In specie de <cit type="translation" xml:lang="la">
+                     <quote>voce</quote>
+                  </cit>: <foreign xml:lang="gez">በልዑል፡ ቃል፡ </foreign>
+                  <cit type="translation" xml:lang="la">
+                     <quote>alta voce</quote>
+                  </cit>
+                  <ref cRef="Jsp." loc="298">Jsp. p. 298</ref>; cantandum <foreign xml:lang="gez">በልዑል፡ ቃል፡ </foreign> Cod. Mus. Brit. LIV, 7, a; <foreign xml:lang="gez">ከመ፡
+                     ያድምፁ፡ ልዑለ፡ </foreign>
+                  <foreign xml:lang="grc">τοῦ ἀκουσθῆναι ποιῆσαι</foreign>
+                  <ref cRef="1 Par." loc="15,19">1 Par. 15,19</ref>. – Rarissime <foreign xml:lang="gez">ልዑለ፡</foreign> (<gramGrp>
+                     <pos expand="adverbium, adverbialiter">adv.</pos>
+                  </gramGrp>) idem significat, quod <foreign xml:lang="gez">ላዕለ፡</foreign>
+                  <cit type="translation" xml:lang="la">
+                     <quote>sursum</quote>
+                  </cit>, ut <foreign xml:lang="gez">ልዑለ፡ እገሪሁ፡ </foreign>
+                  <cit type="translation" xml:lang="la">
+                     <quote>sursum pedes ejus</quote>
+                  </cit>, <ref cRef="Sx. Mag." loc="14 ">Sx. Mag. 14 </ref>Enc. </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

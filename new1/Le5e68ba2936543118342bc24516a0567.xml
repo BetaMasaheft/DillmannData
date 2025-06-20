@@ -1,0 +1,119 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="gez">ፈርጅ</title>
+                <author>Alessandro Bausi</author>
+                <author>Andreas Ellwardt</author>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+                <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+                <pubPlace>Hamburg</pubPlace>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-sa-nc/4.0/"> This file
+                        is licensed under the Creative Commons Attribution-ShareAlike Non Commercial
+                        4.0. </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                        Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice
+                            latino. Adiectum est vocabularium tigre dialecti septentrionalis
+                            compilatum</emph> a W. Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+                </p>
+                <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced
+                        Grant TraCES (Grant Agreement 338756)</ref>
+                </p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>A digital edition of the Lexicon in TEI.</p>
+            <listPrefixDef>
+                <prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/>
+            </listPrefixDef>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="la">latin</language>
+                <language ident="it">Italian</language>
+                <language ident="gez">Gǝʿǝz</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="syr">Syriac</language>
+                <language ident="ar">Arabic</language>
+                <language ident="sa">Sanskrit</language>
+                <language ident="geo">Georgian</language>
+                <language ident="cop">Coptic</language>
+                <language ident="osa">Old South Arabian</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change who="PL" when="2019-05-10">restored changes made by Magda before crash on
+                9.5.2019</change>
+            <change who="PL" when="2019-05-10">removed space</change>
+            <change who="MK" when="2019-08-31">added etymology</change>
+            <change who="MK" when="2019-12-11">added 'from'</change>
+            <change who="MK" when="2019-12-11">added pos</change>
+            <change who="MK" when="2021-12-25">added new witness</change>
+            <change who="MK" when="2022-04-11">added translation</change>
+            <change who="MK" when="2022-04-11">corrections</change>
+            <change who="MK" when="2022-04-11">added variant</change>
+            <change who="MK" when="2022-04-13">correction</change>
+            <change who="MK" when="2022-04-13">correction</change>
+            <change who="MK" when="2022-04-13">added Isenberg</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <entry xml:id="Le5e68ba2936543118342bc24516a0567" n="12594">
+                    <form>
+                        <foreign xml:lang="gez">ፈርጅ</foreign>
+                    </form>
+                    <sense xml:id="Tmain" xml:lang="en" source="#traces">
+                        <cit type="transcription" xml:lang="gez">
+                            <quote> farǧ </quote>
+                        </cit>, <foreign xml:lang="gez">ፈርጂ፡</foreign>
+                        <cit type="transcription" xml:lang="gez">
+                            <quote> farǧi </quote>
+                        </cit>, <foreign xml:lang="gez">ፍርጅ፡</foreign>
+                        <cit type="transcription" xml:lang="gez">
+                            <quote> fǝrǧ </quote>
+                        </cit>
+                        <bibl><ptr target="bm:Isenberg1841Dictionary"/><citedRange unit="page">
+                                193b</citedRange></bibl>
+                        <gramGrp><pos expand="Substantivum">subst.</pos></gramGrp> ‘piece of cloth
+                        (just as it is taken from the loom) which is as wide as the width of the
+                        loom and is four cubits long’ <bibl><ptr target="bm:Kane1990DictAmhVol2"/><citedRange unit="page"> 2287a</citedRange></bibl>, <foreign xml:lang="gez">ወዲባጋተኒ፡ ዘይብልዎ፡ አርዋ፡ ፭ፈርጅ፡ ፩ፈርጅ፡ ሐመልሚል፡ ወካልኡ፡ ቀይሕ፡ ወሣልሱ፡
+                            ሐረንጓዴ፡ ወራብዑ፡ ሰማያዊ፡ ወሐምሳይኒ፡ ቀይሕ፡ ዓዲ፡ ለእሉ፡ ፭አስተዋሐድዎሙ፡ በስፍየት፡</foreign>
+                            ‘<cit type="translation" xml:lang="fr">
+                            <quote> On avait cousu ensemble cinq pièces, c’est-ā-dire des brocarts
+                                qu’on appelle arwā, de cinq espèce, la première verte, la seconde
+                                rouge, la troisième vert pâle, la quatrième bleu de ciel et la
+                                cinquième encore rouge </quote>
+                        </cit>’ <bibl><ptr target="bm:ContiRossini1907SarsaDengel"/><citedRange unit="page"> 122 l. 7–9 (ed.)</citedRange></bibl>, <bibl><ptr target="bm:ContiRossini1907SarsaDengelV"/><citedRange unit="page">
+                                138 l. 32–35 (tr.)</citedRange></bibl>; <foreign xml:lang="gez">፭፡
+                            ፈርጅ፡</foreign> ‘<cit type="translation" xml:lang="fr">
+                            <quote>5 farǧ</quote>
+                        </cit>’ <bibl><ptr target="bm:ContiRossini1909LiberT"/><citedRange unit="page"> 7 l. 16 (ed.)</citedRange></bibl>, <bibl><ptr target="bm:ContiRossini1910LiberV"/><citedRange unit="page"> 7 l. 26
+                                (tr.)</citedRange></bibl>; <foreign xml:lang="gez">ሐዋሴን፡ አርዋ፡ ፪፡
+                            በፈርጂ፡ ፭።</foreign> ‘<cit type="translation" xml:lang="fr">
+                            <quote>2 ḥawa{sic}sēn arwā, et 5 en pièces</quote>
+                        </cit>’ <bibl><ptr target="bm:ContiRossini1909LiberT"/><citedRange unit="page"> 71 l. 17–18 (ed.)</citedRange></bibl>, <bibl><ptr target="bm:ContiRossini1910LiberV"/><citedRange unit="page"> 85 l.31
+                                (tr.)</citedRange></bibl>
+                        <nd/>
+                        <sense n="E" xml:id="TE"> via Amharic <foreign xml:lang="am">ፈርጅ</foreign>
+                            <cit type="transcription" xml:lang="gez">
+                                <quote> farǧ </quote>
+                            </cit>, from Arabic <cit type="transcription" xml:lang="gez">
+                                <quote>farǧiyya</quote>
+                            </cit> ‘white dress’ <bibl><ptr target="bm:Leslau1990ArabLoanwordsEthSem"/><citedRange unit="page"> 16</citedRange></bibl>
+                        </sense>
+                    </sense>
+                </entry>
+            </div>
+        </body>
+    </text>
+</TEI>

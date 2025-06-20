@@ -1,0 +1,82 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ፀመመ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="LB" when="2018-05-17">root</change>
+            <change who="AE" when="2018-10-18">Sprachkennungen,</change>
+        </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L722630d816d648a3b47e43b46e043720" n="9645">
+               <form>
+                  <foreign xml:lang="gez">ፀመመ</foreign>
+               <rs type="root"/>
+                    </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain"> <subc>I,1</subc> [<foreign xml:lang="ar">ضَمَّ</foreign> <foreign xml:lang="he">צָמַם</foreign>; <foreign xml:lang="ar">زَمَّ</foreign> <foreign xml:lang="syr">ܙܰܡ</foreign> <foreign xml:lang="gez">ዝማም፡</foreign>; I <foreign xml:lang="gez">ጸመመ፡</foreign>; <foreign xml:lang="gez">ፀመደ፡</foreign> al.] <gramGrp> <pos expand="Subjunctivus">Subj.</pos> </gramGrp> <foreign xml:lang="gez">ይፅምም፡</foreign>, <cit type="translation" xml:lang="la">
+                            <quote> obligare </quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                            <quote> praeligare </quote>
+                        </cit>: <foreign xml:lang="gez">ኢፀመሙ፡ አጥባተኪ፡</foreign> <foreign xml:lang="grc">ἔδησαν</foreign> <ref cRef="Hez." loc="16,4">Hez. 16,4</ref>; vulnera <ref cRef="Ps. " loc="146,3">Ps.  146,3</ref>; <foreign xml:lang="gez">ፀመመ፡ ቍሰሊሆሙ፡</foreign> M.M. f. 301; vulneratos: <foreign xml:lang="gez">ኢፀመምዎ፡ ከመ፡ ይትፈወስ፡</foreign> <ref cRef="Hez." loc="30,21">Hez. 30,21</ref>; <cb n="1323" xml:id="c1323"/> <foreign xml:lang="gez">ኢይፀምምዎ፡</foreign> <ref cRef="Jes." loc="1,6">Jes. 1,6</ref>; <lbl expand="translate">transl.</lbl> <sense n="a" xml:id="Da"> <cit type="translation" xml:lang="la">
+                                <quote> reprimere explendo </quote>
+                            </cit> appetitum: <foreign xml:lang="gez">ትፀምምኑ፡</foreign> (v. <foreign xml:lang="gez">ታፀምምኑ፡</foreign>) <foreign xml:lang="gez">ነፍሰ፡ አክይስት፡</foreign> <foreign xml:lang="grc">ἐμπλήσεις</foreign> <ref cRef="Job" loc="38,39">Job 38,39</ref>.</sense> <sense n="b" xml:id="Db"> <cit type="translation" xml:lang="la">
+                                <quote> sedare </quote>
+                            </cit> animum, si non <cit type="translation" xml:lang="la">
+                                <quote> callum obducere </quote>
+                            </cit> animo: <foreign xml:lang="gez">እንበይነ፡ ነፍሰ፡ ወልድከ፡ ፅምም፡</foreign> (v. <foreign xml:lang="gez">ፀምም፡</foreign>) <foreign xml:lang="gez">ልበከ፡</foreign> <ref cRef="Sir." loc="30,7">Sir. 30,7</ref>.</sense> </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

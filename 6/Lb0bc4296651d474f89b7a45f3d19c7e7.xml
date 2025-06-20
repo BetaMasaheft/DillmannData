@@ -1,0 +1,74 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ዖፍ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="LB" when="2018-04-24">root</change>
+        <change who="MK" when="2023-12-01">added cross ref</change></revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="Lb0bc4296651d474f89b7a45f3d19c7e7" n="7262">
+               <form>
+                  <foreign xml:lang="gez">ዖፍ</foreign>
+               <rs type="root"/>
+                    </form>
+               <sense xml:id="Dmain" xml:lang="la" source="#dillmann"> <gramGrp> <pos expand="Substantivum">subst.</pos> </gramGrp>, <gramGrp> <gen value="not found">m.</gen> </gramGrp> et <gramGrp> <gen value="femininus">fem.</gen> </gramGrp>, <lbl expand="collatio, -is vel collectivum,&#xA;                            -e">coll.</lbl> et <lbl expand="Singularis">Sing.</lbl>, <lbl expand="pluralis">Pl.</lbl> <foreign xml:lang="gez">አዕዋፍ፡</foreign>, <lbl expand="pluralis">Pl.</lbl> <lbl expand="pluralis">Pl.</lbl> <foreign xml:lang="gez">አዕዋፋት፡</foreign> [<foreign xml:lang="he">עוֹף</foreign> (<foreign xml:lang="syr">ܥܰܘܦܳܐ</foreign>); de etymo <lbl expand="videas">vid.</lbl> Ges. thes. p. 1002] <sense n="1" xml:id="D1"> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> volatus </t:quote></cit>: <foreign xml:lang="gez">እጕለ፡ አዕዋፍ፡ ያሌዕሉ፡ ዖፈ፡</foreign> <foreign xml:lang="grc">νεοσσοὶ γυπὸς τὰ ὑψηλὰ πέτονται</foreign> <ref cRef="Job" loc="5,7">Job 5,7</ref>.
+</sense> <sense n="2" xml:id="D2"> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> alites </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> animalia volucria </t:quote></cit>cujusvis generis, in specie <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> aves </t:quote></cit>, deinde <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> ales </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> animal volucre </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> avis </t:quote></cit>, <lbl expand="collatio, -is vel collectivum,&#xA;                            -e">coll.</lbl>: <ref cRef="Gen." loc="1,21">Gen. 1,21</ref>; <foreign xml:lang="gez">ዖፍ፡ ዘይሰርር፡</foreign> <foreign xml:lang="grc">ὄρνεα πετόμενα</foreign> <ref cRef="Jes." loc="31,5">Jes. 31,5</ref>; <ref cRef="Koh." loc="10,20">Koh. 10,20</ref>; <ref cRef="Prov." loc="9,12">Prov. 9,12</ref>; <ref cRef="Apoc." loc="18,2">Apoc. 18,2</ref>; <lbl expand="Singularis">Sing.</lbl>: <foreign xml:lang="gez">ከመ፡ ዖፍ፡ እንተ፡ ታመሥጠከ፡ እምእዴከ፡</foreign> <ref cRef="Sir." loc="27,19">Sir. 27,19</ref>; <ref cRef="Job" loc="28,7">Job 28,7</ref>; <ref cRef="Jes. " loc="16,2">Jes.  16,2</ref> (<gramGrp> <gen value="femininus">fem.</gen> </gramGrp>); <foreign xml:lang="gez">እጼውዖ፡ ለዖፍ፡ እምጽባሕ፡</foreign> <ref cRef="Jes." loc="46,11">Jes. 46,11</ref>; <foreign xml:lang="grc">ὄρνεον</foreign> <ref cRef="Am." loc="3,5">Am. 3,5</ref>; <ref cRef="Prov." loc="6,5">Prov. 6,5</ref>; <foreign xml:lang="grc">στρουθίον</foreign> (<cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> passer </t:quote></cit>) <ref cRef="Thren." loc="3,51">Thren. 3,51</ref>; <ref cRef="Thren." loc="4,3">Thren. 4,3</ref>; <ref cRef="Ps. " loc="83,3">Ps.  83,3</ref> (<gramGrp> <gen value="femininus">fem.</gen> </gramGrp>); <ref cRef="Did." loc="6 ">Did. 6 </ref>(<lbl expand="videas">vid. sub</lbl> <foreign xml:lang="gez">ሐቀፈ፡</foreign>); <lbl expand="pluralis">Pl.</lbl> <ref cRef="Gen. " loc="1,20">Gen.  1,20</ref>; <ref cRef="Gen." loc="1,30">Gen. 1,30</ref>; <ref cRef="Gen." loc="7,3">Gen. 7,3</ref>; <ref cRef="Gen." loc="15,10">Gen. 15,10</ref>; <ref cRef="Gen." loc="15,11">Gen. 15,11</ref>; <ref cRef="Lev." loc="1,14">Lev. 1,14</ref>; <foreign xml:lang="gez">ዘወገሮን፡ ለአዕዋፍ፡</foreign> <ref cRef="Sir." loc="22,20">Sir. 22,20</ref>; <foreign xml:lang="gez">እምኵሉ፡ አዕዐፍ፡ ትንእስ፡ ንህብ፡</foreign> <ref cRef="Sir." loc="11,3">Sir. 11,3</ref>; <foreign xml:lang="gez">አዕዋፍ፡ ምስለ፡ ዘመዱ፡ የኀድር፡</foreign> <ref cRef="Sir." loc="27,9">Sir. 27,9</ref>; <ref cRef="Sir." loc="43,17">Sir. 43,17</ref>; <foreign xml:lang="gez">አዕዋፈ፡ ሰማይ፡</foreign> <ref cRef="Jer." loc="7,33">Jer. 7,33</ref>; <ref cRef="Matth." loc="6,26">Matth. 6,26</ref>; <ref cRef="Matth." loc="8,20">Matth. 8,20</ref>; <ref cRef="Matth." loc="13,32">Matth. 13,32</ref>; <foreign xml:lang="grc">στρουθία</foreign> <ref cRef="Tob." loc="2,10">Tob. 2,10</ref>; <ref cRef="Jer." loc="8,7">Jer. 8,7</ref>; <ref cRef="Jer." loc="10,22">Jer. 10,22</ref>; <ref cRef="Matth." loc="10,29">Matth. 10,29</ref>; <foreign xml:lang="grc">στρουθοί</foreign> <ref cRef="Jer." loc="30,11">Jer. 30,11</ref>; <foreign xml:lang="gez">ቢጾን፡ ለአዕዋፍ፡</foreign> <ref cRef="Job" loc="30,29">Job 30,29</ref>; <foreign xml:lang="gez">አጕለ፡ አዕዋፍ፡</foreign> <ref cRef="Jes. " loc="43,20">Jes.  43,20</ref>; <lbl expand="pluralis">Pl.</lbl> <lbl expand="pluralis">Pl.</lbl> <ref cRef="Sir." loc="17,4">Sir. 17,4</ref>; <ref cRef="Gen." loc="8,19">Gen. 8,19</ref>; <ref cRef="Apoc." loc="19,17">Apoc. 19,17</ref> <lbl expand="romanae editionis">rom.</lbl> – <foreign xml:lang="gez">ዖፍ፡ ባሕታዊ፡</foreign> <foreign xml:lang="grc">στρουθίον μονάζον</foreign> <ref cRef="Ps." loc="101,8">Ps. 101,8</ref> in Voc. Ae. exponitur <foreign xml:lang="gez">ጉጉት፡</foreign> – <foreign xml:lang="gez">ዖፈ፡ መስቀል፡</foreign> sec. Lud. „avis, quae circa festum Crucis mense Septembri Aethiopiam frequentat“, <lbl expand="secundum">sec.</lbl> <ref cRef="Isenberg p." loc="25 ">Isenberg p. 25 </ref>„a certain red and beautiful bird“, <lbl expand="videas">vid.</lbl> scholion ad <foreign xml:lang="gez">ኢብን፡</foreign> – <foreign xml:lang="gez">ዖፈ፡ ያሬድ፡</foreign> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> upupa </t:quote></cit>, Lud. <lbl expand="auctore, auctoritate">auct.</lbl> Greg. (<lbl expand="videas">vid.</lbl> Lud. <lbl expand="lexicon">lex.</lbl> <lbl expand="columna">col.</lbl> 381 sub <foreign xml:lang="gez">ኤጶጳ፡</foreign>). – Quatenus <foreign xml:lang="gez">ዖፍ፡</foreign> significat <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> ales </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> alatus </t:quote></cit>, etiam angelis attribuitur, ut: <foreign xml:lang="gez">ሚካኤል፡ ዖፍ፡</foreign> <ref cRef="Sx. Genb." loc="25 ">Sx. Genb. 25 </ref>Enc.; <foreign xml:lang="gez">አዕዋፈ፡ ገነተ፡ ሰማይ፡</foreign> dicuntur Patres beati, Lud. ex Enc. Patr.
+</sense> </sense>
+               
+            <sense xml:id="Tmain" xml:lang="en" source="#traces"><cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">ʿof</t:quote></cit> <sense n="C">for <foreign xml:lang="gez">ተመርሖ፡ አዕዋፍ፡</foreign> <lbl expand="videas">vid.</lbl> <foreign xml:lang="gez">ተመርሖ፡</foreign> 
+</sense> </sense></entry>
+         </div>
+      </body>
+   </text>
+</TEI>

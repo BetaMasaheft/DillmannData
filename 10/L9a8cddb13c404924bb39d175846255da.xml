@@ -1,0 +1,96 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ልጐት </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="AE" when="2018-04-16">Verschachtelung, Sprachkennung,</change>
+            <change who="AE" when="2018-04-16">Korrektur des Vorigen,</change>
+            <change who="AE" when="2018-04-16">nochmal,</change>
+            <change who="AE" when="2018-04-16">Korrektur aller vorgenommenen Korrekturen,</change>
+        </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L9a8cddb13c404924bb39d175846255da" n="462">
+               <form>
+                  <foreign xml:lang="gez">ልጐት</foreign>
+               </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain"> (passim <foreign xml:lang="gez">ልጎት፡</foreign> et <foreign xml:lang="gez">ልጕት፡</foreign>) <gramGrp> <pos expand="Substantivum">subst.</pos> </gramGrp> [i.q. arab. <foreign xml:lang="ar">لُجٌّ</foreign> <cit type="translation" xml:lang="la">
+                            <quote> magna moles </quote>
+                        </cit> aquae, <cit type="translation" xml:lang="la">
+                            <quote> medium </quote>
+                        </cit> et <cit type="translation" xml:lang="la">
+                            <quote> profundum </quote>
+                        </cit> maris, <cit type="translation" xml:lang="la">
+                            <quote> abyssus, </quote>
+                        </cit> <foreign xml:lang="ar">لُجَّةٌ</foreign> <cit type="translation" xml:lang="la">
+                            <quote> magna moles </quote>
+                        </cit> aquae] <lbl expand="pluralis">Pl.</lbl> <foreign xml:lang="gez">ልጐታት፡</foreign> <sense n="1" xml:id="D1">
+                            <cit type="translation" xml:lang="la">
+                                <quote> profundum maris </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> salum </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> vorago </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> abyssus </quote>
+                            </cit>: <foreign xml:lang="grc">ὁ βυθός</foreign> <ref cRef="Ps." loc="106,24">Ps. 106,24</ref>; <ref cRef="4 Esr." loc="12,49">4 Esr. 12,49</ref>; <foreign xml:lang="gez">ልጐተ፡ ባሕር፡</foreign> <foreign xml:lang="grc">πέλαγος τῆς θαλάσσης</foreign> <ref cRef="Matth." loc="18,6">Matth. 18,6</ref>; <ref cRef="4 Esr. " loc="13,54">4 Esr.  13,54</ref>; <ref cRef="Hen." loc="60,7">Hen. 60,7</ref>; <ref cRef="Hen." loc="60,9">Hen. 60,9</ref>; <foreign xml:lang="gez">ልጐታተ፡ አብሕርት፡</foreign> <ref cRef="Kuf." loc="2">Kuf. 2</ref>; <foreign xml:lang="gez">ኣበርህ፡ ልጐታተ፡ ወእገሥሥ፡ ቀላያተ፡</foreign> <ref cRef="Clem." loc="83">Clem. f. 83</ref>;</sense> <sense n="2" xml:id="D2">{<ref target="#c1427"/> <cit type="translation" xml:lang="la">
+                                <quote> fundus </quote>
+                            </cit> (<cit type="translation" xml:lang="de">
+                                <quote>Grundstück</quote>
+                            </cit>): <foreign xml:lang="gez">ይሚጡ፡ ሎሙ፡ ንዋዮሙ፡ ወልጐተ፡ ምድሮሙ፡</foreign> <ref cRef="Sx. Hed." loc="13">Sx. Hed. 13</ref>; <foreign xml:lang="gez">ልጐታተ፡ ምድር፡</foreign> <ref cRef="Sx. Teq." loc="23.">Sx. Teq. 23.</ref> (Non est cur e <foreign xml:lang="gez">ጕልት፡</foreign> transpositam esse conjeceris)}. – <lbl expand="Vocabularium Aethiopicum, -a -a">Voc. Ae.</lbl>: <foreign xml:lang="gez">ልጐት፡ ዘ፡ ጎዢ፡</foreign> (v. <foreign xml:lang="gez">ጎዤ፡</foreign>, <foreign xml:lang="gez">ጎዦ፡</foreign>).</sense> </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

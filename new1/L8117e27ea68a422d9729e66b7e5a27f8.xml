@@ -1,0 +1,282 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="gez">አዛዥ</title>
+                <author>Alessandro Bausi</author>
+                <author>Andreas Ellwardt</author>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+                <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+                <pubPlace>Hamburg</pubPlace>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-sa-nc/4.0/"> This file
+                        is licensed under the Creative Commons Attribution-ShareAlike Non Commercial
+                        4.0. </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                        Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice
+                            latino. Adiectum est vocabularium tigre dialecti septentrionalis
+                            compilatum</emph> a W. Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+                </p>
+                <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced
+                        Grant TraCES (Grant Agreement 338756)</ref>
+                </p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>A digital edition of the Lexicon in TEI.</p>
+            <listPrefixDef>
+                <prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/>
+            </listPrefixDef>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="la">latin</language>
+                <language ident="it">Italian</language>
+                <language ident="gez">Gǝʿǝz</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="syr">Syriac</language>
+                <language ident="ar">Arabic</language>
+                <language ident="sa">Sanskrit</language>
+                <language ident="geo">Georgian</language>
+                <language ident="cop">Coptic</language>
+                <language ident="osa">Old South Arabian</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change who="MK" when="2019-04-24">added new entry</change>
+            <change who="MK" when="2022-02-17">added new witness</change>
+            <change who="MK" when="2022-02-17">added new witness</change>
+            <change who="MK" when="2022-03-01">added new compound </change>
+            <change who="MK" when="2022-03-01">added new witness</change>
+            <change who="MK" when="2022-03-08">added new compounds</change>
+            <change who="MK" when="2022-03-08">added epithet</change>
+            <change who="MK" when="2022-03-08">added new witness</change>
+            <change who="MK" when="2022-03-08">correction</change>
+            <change who="MK" when="2022-03-08">added witness</change>
+            <change who="MK" when="2022-03-08">added witness</change>
+            <change who="MK" when="2022-03-08">corr</change>
+            <change who="MK" when="2022-03-08">added witness</change>
+            <change who="MK" when="2022-03-08">added witness</change>
+            <change who="MK" when="2022-03-08">added witness</change>
+            <change who="MK" when="2022-03-08">added witness</change>
+            <change who="MK" when="2022-03-08">added witness</change>
+            <change who="MK" when="2022-03-08">added witness</change>
+            <change who="MK" when="2022-03-08">correction</change>
+            <change who="MK" when="2022-03-08">correction</change>
+            <change who="MK" when="2022-03-09">correction</change>
+            <change who="MK" when="2022-03-09">added new witness</change>
+            <change who="MK" when="2022-03-09">deletion </change>
+            <change who="MK" when="2022-03-09">correction</change>
+            <change who="MK" when="2022-03-09">added title</change>
+            <change who="MK" when="2022-03-11">added example</change>
+            <change who="MK" when="2022-03-14">added example</change>
+            <change who="MK" when="2022-04-07">added example</change>
+            <change who="MK" when="2022-05-03">added strandard form</change>
+            <change who="MK" when="2022-05-03">added standardiyed forms</change>
+            <change who="MK" when="2022-05-03">corrections</change>
+            <change who="MK" when="2022-05-12">added tilde</change>
+            <change who="MK" when="2022-05-12">addded cross references </change>
+            <change who="MK" when="2022-05-12">added cross reference </change>
+            <change who="MK" when="2022-05-12">added etymology</change>
+            <change who="MK" when="2022-05-12">added example</change>
+            <change who="MK" when="2022-05-13">restructuring</change>
+            <change who="MK" when="2022-05-13">corrections</change>
+            <change who="MK" when="2022-05-13">correction</change>
+            <change who="MK" when="2022-05-13">correction</change>
+            <change who="MK" when="2022-05-13">added pos</change>
+            <change who="MK" when="2022-06-30">changed structure</change>
+            <change who="MK" when="2022-08-25">added a-b-c</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <entry xml:id="L8117e27ea68a422d9729e66b7e5a27f8" n="12566">
+                    <form>
+                        <foreign xml:lang="gez">አዛዥ</foreign>
+                    </form>
+                    <sense xml:id="Tmain" xml:lang="en" source="#traces">
+                        <cit type="transcription" xml:lang="gez">
+                            <t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> ʾazzāž </t:quote>
+                        </cit>, <foreign xml:lang="gez">አዛዚ፡</foreign>
+                        <cit type="transcription" xml:lang="gez">
+                            <t:quote xmlns:t="http://www.tei-c.org/ns/1.0">ʾazzāzi</t:quote>
+                        </cit>, <foreign xml:lang="gez">አዛጅ፡</foreign>
+                        <cit type="transcription" xml:lang="gez">
+                            <t:quote xmlns:t="http://www.tei-c.org/ns/1.0">ʾazzāǧ</t:quote>
+                        </cit>
+                        <gramGrp>
+                            <pos expand="Substantivum">subst.</pos>
+                        </gramGrp>
+                        <lbl expand="pluralis">Pl.</lbl>
+                        <foreign xml:lang="gez">አዛዦች፡</foreign>
+                        <cit type="transcription" xml:lang="gez">
+                            <t:quote xmlns:t="http://www.tei-c.org/ns/1.0">ʾazzāžočč</t:quote>
+                        </cit>, <foreign xml:lang="gez">አዛዞች፡</foreign>
+                        <cit type="transcription" xml:lang="gez">
+                            <t:quote xmlns:t="http://www.tei-c.org/ns/1.0">ʾazzāzočč</t:quote>
+                        </cit>
+                        <sense n="1" xml:id="T1"> (title) one of the four jurists, members of the
+                            Supreme Court <foreign xml:lang="gez">በሸዋ፡ ራቅ፡ ማሰሬ። ወበፈጠጋር፡ አዛዢ፡ ወረሰይክዎ፡
+                                መልከኛ፡ ለዓምደ፡ ሚካኤል፡ በኵሉ፡ ምድረ፡ ፈጠጋር።</foreign> ‘<cit type="translation" xml:lang="fr">
+                                <t:quote xmlns:t="http://www.tei-c.org/ns/1.0">Dans le Shoa, il y
+                                    aura un Râq Mâsarê et dans Faṭagâr un Azâj, et je constitue
+                                    ʿAmda Mikâʾêl Malkañâ sur toute la contrée de Faṭagâr</t:quote>
+                            </cit>’ <bibl><ptr target="bm:Perruchon1893Zarayaeqob"/><citedRange unit="page"> 14 l. 6, 15 l. 1–2 (ed.), 15 l. 1–3
+                                    (tr.)</citedRange></bibl>; <foreign xml:lang="gez">ወአዛዦች፡ በህየ፡
+                                ይኤዝዙ፡ ምስለ፡ መልከኛ፡ እመነኮሳት፡ ምእመናን፡ ለሰብአ፡ ትግሬ፡</foreign> ‘<cit type="translation" xml:lang="fr">
+                                <t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> C’était là que les
+                                    ʾAzazôtj et le Malkañâ choisi parmi les moines fidèles du Tigré
+                                    (?) donnaient leurs ordres</t:quote>
+                            </cit>’ <bibl><ptr target="bm:Perruchon1893Zarayaeqob"/><citedRange unit="page"> 32 l. 6–7 (ed.), p. 32 l. 7–9
+                                (tr.)</citedRange></bibl>; <foreign xml:lang="gez">ወሶበ፡ ገብሩ፡ ከተማ፡
+                                በደብረ፡ ወርቅ፡ ቦኡ፡ ኀበ፡ ሐመልማል፡ አዛዦች፡ ወጨዋ፡ ከዊኖሙ፡ ብዙኃነ፡ ሰብአ፡ አፍራስ፡ ወሰብአ፡
+                                እግር፡ ወውስጥ፡ ብላቴኖች፡ ወእለ፡ ከማሆሙ፡ ብዙኃን፡ ኵሎሙ፡ ቦኡ፡ ሎቱ፡ በበ፡ ጾታሆሙ።</foreign>
+                                ‘<cit type="translation" xml:lang="fr">
+                                <t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> Lorsqu’ils posèrent
+                                    leur campement à Dabra Warq, les azāž et les Č̣awā, qui se
+                                    composaient de nombreux cavaliers et de nombreux fantassins,
+                                    allèrent se soumettre à Ḥamalmāl; les wesṭ belāttenā et les
+                                    autres comme eux, en grand nombre, allèrent se soumettre à lui,
+                                    chacun selon son rang </t:quote>
+                            </cit>’ <bibl><ptr target="bm:ContiRossini1907SarsaDengel"/><citedRange unit="page"> 6 l. 10–14 (ed.)</citedRange></bibl>, <bibl><ptr target="bm:ContiRossini1907SarsaDengelV"/><citedRange unit="page"> 8 l. 26–31 (tr.)</citedRange></bibl>; <foreign xml:lang="gez">በዝ፡ ዕለት፡ ጐለትነ፡ እንዘ፡ አዛዚ፡ ሠርጼ፡</foreign> ‘<cit type="translation" xml:lang="fr">
+                                <t:quote xmlns:t="http://www.tei-c.org/ns/1.0">Nous avons donné le
+                                    fief ce jour, pendant que le azāzi était Sarṣē</t:quote>
+                            </cit>’ <bibl><ptr target="bm:ContiRossini1909LiberT"/><citedRange unit="page"> 29 l. 17–18 (ed.)</citedRange></bibl>, <bibl><ptr target="bm:ContiRossini1910LiberV"/><citedRange unit="page"> 34
+                                    l. 7–8 (tr.)</citedRange></bibl>; <foreign xml:lang="gez">አዛዞች፡
+                                ቄስ፡ ገበዝ፡ ኢያቄም፡ ቤት፡ ጠባቂ፡ ጽንዔ፡</foreign> ‘<cit type="translation" xml:lang="fr">
+                                <t:quote xmlns:t="http://www.tei-c.org/ns/1.0">les azāž étaient
+                                    ceux-ci : le qēs gabaz, Iyāqēm; le bēt ṭabāqi, Ṣenʿē</t:quote>
+                            </cit>’ <bibl><ptr target="bm:ContiRossini1909LiberT"/><citedRange unit="page"> 29 l. 20–21 (ed.)</citedRange></bibl>, <bibl><ptr target="bm:ContiRossini1910LiberV"/><citedRange unit="page"> 34
+                                    l. 11–12 (tr.)</citedRange></bibl>; <foreign xml:lang="gez">ዣንደረቦች፡ አዛጅ፡ ዮናዳብ፡ ወአምኃ፡</foreign> ‘<cit type="translation" xml:lang="fr">
+                                <t:quote xmlns:t="http://www.tei-c.org/ns/1.0">et les žāndarabā
+                                    étaient l’azāž{sic} Yonādāb et Amḫā</t:quote>
+                            </cit>’ <bibl><ptr target="bm:ContiRossini1909LiberT"/><citedRange unit="page"> 41 l. 16–17 (ed.)</citedRange></bibl>, <bibl><ptr target="bm:ContiRossini1910LiberV"/><citedRange unit="page"> 49
+                                    l. 6 (tr.)</citedRange></bibl>; <foreign xml:lang="gez">በ፪፡ ፻፡
+                                ወ፰፡ ዓመተ፡ ምሕረት፡ ሞተ፡ አዛጅ፡ አፈው፡ ወያዕዎብ፡ ወልደ፡ ንጉሥ፡ ወኢቴ፡ ዮዲት።</foreign>
+                                ‘<cit type="translation" xml:lang="fr">
+                                <t:quote xmlns:t="http://www.tei-c.org/ns/1.0">L’an 208 de la
+                                    miséricorde, moururent l’azāǧ Afaw, Yāʿeqob, fils du roi, et
+                                    l’itē Yodit.</t:quote>
+                            </cit>’ <bibl><ptr target="bm:ContiRossini1909LiberT"/><citedRange unit="page"> 69 l. 19–20 (ed.)</citedRange></bibl>, <bibl><ptr target="bm:ContiRossini1910LiberV"/><citedRange unit="page"> 82
+                                    l. 34–35 (tr.)</citedRange></bibl>
+                        </sense>
+                        <sense n="X" xml:id="TX">
+                            <sense n="a" xml:id="TXa">
+                                <foreign xml:lang="gez">ቀኝ፡ አዛዥ፡</foreign><cit type="transcription" xml:lang="gez">
+                                    <t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> qaññ
+                                        ʾazzāž</t:quote>
+                                </cit>, <foreign xml:lang="gez">ቀኝ፡ አዛዚ፡</foreign><cit type="transcription" xml:lang="gez">
+                                    <t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> qaññ
+                                        ʾazzāzi</t:quote>
+                                </cit>, <foreign xml:lang="gez">ቀኝ፡ አዛጅ፡</foreign><cit type="transcription" xml:lang="gez">
+                                    <t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> qaññ
+                                        ʾazzāǧ</t:quote>
+                                </cit>, <foreign xml:lang="gez">አዛዚ፡ በቀኝ፡</foreign>
+                                <cit type="transcription" xml:lang="gez">
+                                    <t:quote xmlns:t="http://www.tei-c.org/ns/1.0">ʾazzāzi baqaññ
+                                    </t:quote>
+                                </cit> (title) <foreign xml:lang="gez">ወአዛዚ፡ በግራ፡ ደግልሐን፡ ወበቀኝ፡
+                                    ይስሐቅ፡</foreign> ‘<cit type="translation" xml:lang="fr">
+                                    <t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> l’azāzi de
+                                        droite, Dagelḥan, et de gauche, Yesḥaq </t:quote>
+                                </cit>’ <bibl><ptr target="bm:ContiRossini1909LiberT"/><citedRange unit="page"> 37 l. 7 (ed.)</citedRange></bibl>, <bibl><ptr target="bm:ContiRossini1910LiberV"/><citedRange unit="page">
+                                        43 l. 31 (tr.)</citedRange></bibl>; <foreign xml:lang="gez">ወቀኝ፡ አዛዚ፡ ይስሐቅ፡</foreign> ‘<cit type="translation" xml:lang="fr">
+                                    <t:quote xmlns:t="http://www.tei-c.org/ns/1.0">et le qā{sic}ñ
+                                        azāzi, Yesḥaq</t:quote>
+                                </cit>’ <bibl><ptr target="bm:ContiRossini1909LiberT"/><citedRange unit="page"> 38 l. 7 (ed.)</citedRange></bibl>, <bibl><ptr target="bm:ContiRossini1910LiberV"/><citedRange unit="page">
+                                        45 l. 1–2 (tr.)</citedRange></bibl>; <foreign xml:lang="gez">እንዘ፡ አዛጅ፡ ዘግራ፡ ደልግሐን፡ ወቀኝ፡ አዛጅ፡ ይስሐቅ፡</foreign> ‘<cit type="translation" xml:lang="fr">
+                                    <t:quote xmlns:t="http://www.tei-c.org/ns/1.0">alors que
+                                        l’azāž{sic} de droite était Dalgeḥan et l’azāž{sic} de
+                                        gauche, Yesḥaq</t:quote>
+                                </cit>’ <bibl><ptr target="bm:ContiRossini1909LiberT"/><citedRange unit="page"> 38 l. 31–32 (ed.)</citedRange></bibl>,
+                                        <bibl><ptr target="bm:ContiRossini1910LiberV"/><citedRange unit="page"> 46 l. 2–3 (tr.)</citedRange></bibl>, <lbl expand="videas">vid.</lbl>
+                                <foreign xml:lang="gez">ቀኝ፡</foreign>
+                            </sense>
+                            <sense n="b" xml:id="TXb">
+                                <foreign xml:lang="gez">የውስጥ፡ አዛዥ፡</foreign>
+                                <cit type="transcription" xml:lang="gez">
+                                    <t:quote xmlns:t="http://www.tei-c.org/ns/1.0">yawǝsṭ
+                                        azzāž</t:quote>
+                                </cit>, <foreign xml:lang="gez">የውሥጥ፡ አዛዚ፡</foreign>
+                                <cit type="transcription" xml:lang="gez">
+                                    <t:quote xmlns:t="http://www.tei-c.org/ns/1.0">yawǝśṭ
+                                        azzāzi</t:quote>
+                                </cit>, <foreign xml:lang="gez">አዛዚ፡ ዘውስጥ፡</foreign>
+                                <cit type="transcription" xml:lang="gez">
+                                    <t:quote xmlns:t="http://www.tei-c.org/ns/1.0">azzāzi zawǝsṭ
+                                    </t:quote>
+                                </cit> (title) jurist of the Supreme Court <foreign xml:lang="gez">የውሥጥ፡ አዛዞች፡ ደግልሐን፡ ወናዜ፡</foreign> ‘<cit type="translation" xml:lang="fr">
+                                    <t:quote xmlns:t="http://www.tei-c.org/ns/1.0">et les ya-west
+                                        azaž, Dagelḥan et Nāzē</t:quote>
+                                </cit>’ <bibl><ptr target="bm:ContiRossini1909LiberT"/><citedRange unit="page"> 34 l. 24 (ed.)</citedRange></bibl>, <bibl><ptr target="bm:ContiRossini1910LiberV"/><citedRange unit="page">
+                                        40 l. 22 (tr.)</citedRange></bibl>; <foreign xml:lang="gez">እንዘ፡ አዛዚ፡ ዘውስጥ፡ ኩሞ፡ ወአፈው፡</foreign> ‘<cit type="translation" xml:lang="fr">
+                                    <t:quote xmlns:t="http://www.tei-c.org/ns/1.0">pendant que les
+                                        azāzi za-wesṭ étaient Kumo et Afaw</t:quote>
+                                </cit>’ <bibl><ptr target="bm:ContiRossini1909LiberT"/><citedRange unit="page"> 43 l. 14 (ed.)</citedRange></bibl>, <bibl><ptr target="bm:ContiRossini1910LiberV"/><citedRange unit="page">
+                                        51 l. 22–23 (tr.)</citedRange></bibl>, <lbl expand="videas">vid.</lbl>
+                                <foreign xml:lang="gez">ውስጥ፡</foreign>
+                            </sense>
+                            <sense n="c" xml:id="TXc">
+                                <foreign xml:lang="gez">ግራ፡ አዛዥ፡</foreign>
+                                <cit type="transcription" xml:lang="gez">
+                                    <t:quote xmlns:t="http://www.tei-c.org/ns/1.0">g(ǝ)rā
+                                        ʾazzāž</t:quote>
+                                </cit>, <foreign xml:lang="gez">ግራ፡ አዛዚ፡</foreign>
+                                <cit type="transcription" xml:lang="gez">
+                                    <t:quote xmlns:t="http://www.tei-c.org/ns/1.0">g(ǝ)rā
+                                        ʾazzāzi</t:quote>
+                                </cit>, <foreign xml:lang="gez">አዛዚ፡ በግራ፡</foreign>
+                                <cit type="transcription" xml:lang="gez">
+                                    <t:quote xmlns:t="http://www.tei-c.org/ns/1.0">ʾazzāzi bag(ǝ)rā
+                                    </t:quote>
+                                </cit>, <foreign xml:lang="gez">አዛጅ፡ ዘግራ፡</foreign>
+                                <cit type="transcription" xml:lang="gez">
+                                    <t:quote xmlns:t="http://www.tei-c.org/ns/1.0">ʾazzāǧ
+                                        zag(ǝ)rā</t:quote>
+                                </cit> (title) <foreign xml:lang="gez">ወአዛዚ፡ በግራ፡ ደግልሐን፡ ወበቀኝ፡
+                                    ይስሐቅ፡</foreign> ‘<cit type="translation" xml:lang="fr">
+                                    <t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> l’azāzi de
+                                        droite, Dagelḥan, et de gauche, Yesḥaq </t:quote>
+                                </cit>’ <bibl><ptr target="bm:ContiRossini1909LiberT"/><citedRange unit="page"> 37 l. 7 (ed.)</citedRange></bibl>, <bibl><ptr target="bm:ContiRossini1910LiberV"/><citedRange unit="page">
+                                        43 l. 31 (tr.)</citedRange></bibl>; <foreign xml:lang="gez">ወግራ፡ አዛዚ፡ ደገልሐን፡</foreign> ‘<cit type="translation" xml:lang="fr">
+                                    <t:quote xmlns:t="http://www.tei-c.org/ns/1.0">le gerā azāzi,
+                                        Dagalḥan</t:quote>
+                                </cit>’ <bibl><ptr target="bm:ContiRossini1909LiberT"/><citedRange unit="page"> 38 l. 7 (ed.)</citedRange></bibl>, <bibl><ptr target="bm:ContiRossini1910LiberV"/><citedRange unit="page">
+                                        45 l. 1 (tr.)</citedRange></bibl>; <foreign xml:lang="gez">እንዘ፡ አዛጅ፡ ዘግራ፡ ደልግሐን፡ ወቀኝ፡ አዛጅ፡ ይስሐቅ፡</foreign> ‘<cit type="translation" xml:lang="fr">
+                                    <t:quote xmlns:t="http://www.tei-c.org/ns/1.0">alors que
+                                        l’azāž{sic} de droite était Dalgeḥan et l’azāž{sic} de
+                                        gauche, Yesḥaq</t:quote>
+                                </cit>’ <bibl><ptr target="bm:ContiRossini1909LiberT"/><citedRange unit="page"> 38 l. 31–32 (ed.)</citedRange></bibl>,
+                                        <bibl><ptr target="bm:ContiRossini1910LiberV"/><citedRange unit="page"> 46 l. 2–3 (tr.)</citedRange></bibl>, <lbl expand="videas">vid.</lbl>
+                                <foreign xml:lang="gez">ግራ፡</foreign>
+                            </sense>
+                        </sense>
+                        <sense n="2" xml:id="T2"> (title) official in charge of the domestic affairs
+                            at the royal court in Gondar <cit type="translation" xml:lang="en">
+                                <t:quote xmlns:t="http://www.tei-c.org/ns/1.0">steward</t:quote>
+                            </cit>
+                            <cit type="translation" xml:lang="en">
+                                <t:quote xmlns:t="http://www.tei-c.org/ns/1.0">major-domo</t:quote>
+                            </cit>
+                        </sense>
+                        <sense n="E" xml:id="TE">from Amharic <foreign xml:lang="am">አዛዥ፡</foreign>
+                            <cit type="transcription" xml:lang="gez">
+                                <t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> ʾazzāž </t:quote>
+                            </cit>
+                            <gramGrp><pos expand="nomen agentis">n. ag.</pos></gramGrp>
+                        </sense>
+                        <nd/>
+                    </sense>
+                </entry>
+            </div>
+        </body>
+    </text>
+</TEI>

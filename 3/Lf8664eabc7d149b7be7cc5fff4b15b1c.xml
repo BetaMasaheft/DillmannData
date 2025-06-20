@@ -1,0 +1,117 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> በቀልት </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="MK" when="2018-10-24">new form </change>
+            <change who="MK" when="2018-10-24">corr letter</change>
+            <change who="MK" when="2018-10-26">corr</change>
+            <change who="MK" when="2018-11-02">corr</change>
+        </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="Lf8664eabc7d149b7be7cc5fff4b15b1c" n="3962">
+               <form>
+                  <foreign xml:lang="gez">በቀልት</foreign>
+               </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain"> (<foreign xml:lang="gez">በቍልት፡</foreign> Lud. ex <ref cRef="Sx. Mij." loc="27 ">Sx. Mij. 27 </ref>Enc. affert; <lbl expand="videas">vid.</lbl> infra locum e <ref cRef="Sx. Genb." loc="19">Sx. Genb. 19</ref>), <gramGrp> <gen value="not found">m.</gen> </gramGrp> et <gramGrp> <gen value="femininus">fem.</gen> </gramGrp>, <lbl expand="pluralis">Pl.</lbl> <foreign xml:lang="gez">በቀልታት፡</foreign>, etiam <foreign xml:lang="gez">በቀላት፡</foreign> (Lud. ex <ref cRef="Org." loc="4">Org. 4</ref>), <sense n="1" xml:id="D1"> <cit type="translation" xml:lang="la">
+                                <quote> palma </quote>
+                            </cit> (<cit type="translation" xml:lang="la">
+                                <quote> dactylifera </quote>
+                            </cit>), arbor [cfr. arab. <foreign xml:lang="ar">وَقْلٌ</foreign> <cit type="translation" xml:lang="la">
+                                <quote> palma pumila </quote>
+                            </cit>, cujus fructus <foreign xml:lang="ar">مُقْلٌ</foreign> appellatur; in caeteris linguis frequentantur <foreign xml:lang="he">תָּמָר</foreign> (<foreign xml:lang="gez">ተመርት፡</foreign>), <foreign xml:lang="syr">ܕܶܩܠܳܐ</foreign>, <foreign xml:lang="ar">نَخْلٌ</foreign>] <foreign xml:lang="grc">φοίνιξ</foreign> <ref cRef="Cant." loc="7,8">Cant. 7,8</ref>; <ref cRef="Ps." loc="91,12">Ps. 91,12</ref>; <ref cRef="Sir." loc="24,14">Sir. 24,14</ref>; <foreign xml:lang="gez">ወፈረየት፡ ይእቲ፡ በቀልት፡ ፲ወ፪ አስካለ፡ ሶቤሃ፡</foreign> <ref cRef="Sx. Mij." loc="20">Sx. Mij. 20</ref>; <foreign xml:lang="gez">አስካለ፡ በቀልት፡</foreign> <ref cRef="Hen." loc="20,4">Hen. 20,4</ref>; <foreign xml:lang="grc">φοίνικες</foreign> <ref cRef="3 Reg." loc="6,27">3 Reg. 6,27</ref>; <ref cRef="2 Par." loc="3,5">2 Par. 3,5</ref>; <foreign xml:lang="gez">ቈጽለ፡ በቀልት፡</foreign> (v. <foreign xml:lang="gez">በቀልታት፡</foreign>) <ref cRef="2 Esr." loc="18,15">2 Esr. 18,15</ref>; <ref cRef="Lev." loc="23,40">Lev. 23,40</ref>; <ref cRef="Joh." loc="12,13">Joh. 12,13</ref> Platt; <foreign xml:lang="gez">በቀልታት፡ ወተምር፡</foreign> <ref cRef="Sx. Ter" loc="22">Sx. Ter 22</ref>; <foreign xml:lang="gez">በቀላተ፡ ወጸበራተ፡ አሥዐለ፡</foreign> <ref cRef="Org." loc="4">Org. 4</ref>; <foreign xml:lang="gez">ልብስ፡ ዘጸጕረ፡ በቀልት፡</foreign> <cit type="translation" xml:lang="la">
+                                <quote> vestis e fibris palmae confecta </quote>
+                            </cit> <ref cRef="Sx. Jac." loc="2">Sx. Jac. 2</ref>; <foreign xml:lang="gez">አልባሰ፡ጸጕር፡ ዘብቍልት፡</foreign> (sic, pro <foreign xml:lang="gez">በቍልት፡</foreign>) <ref cRef="Sx. Genb." loc="19.">Sx. Genb. 19.</ref> <cb n="0513" xml:id="c0513"/> </sense> <sense n="2" xml:id="D2"> <cit type="translation" xml:lang="la">
+                                <quote> palmae truncus </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> caudex </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> surculus </quote>
+                            </cit>, <foreign xml:lang="grc">στέλεχος</foreign>, <foreign xml:lang="grc">στελέχη</foreign>, <foreign xml:lang="gez">በቀልተ፡ ተመርት፡</foreign> <ref cRef="Job" loc="29,18">Job 29,18</ref>; <ref cRef="Num." loc="33,9">Num. 33,9</ref>; <ref cRef="Ex." loc="15,27">Ex. 15,27</ref>; <foreign xml:lang="gez">በቀልት፡ ወተመርት፡</foreign> (v. <foreign xml:lang="gez">ተመርት፡</foreign>) <ref cRef="Sir." loc="50,12">Sir. 50,12</ref>; <foreign xml:lang="gez">በቀልት፡</foreign> <ref cRef="Gen. " loc="49,21">Gen.  49,21</ref>; <ref cRef="Hez." loc="19,11">Hez. 19,11</ref>; <ref cRef="Joh." loc="12,13">Joh. 12,13</ref> <lbl expand="romanae editionis">rom.</lbl> – <lbl expand="Vocabularium Aethiopicum, -a -a">Voc. Ae.</lbl>: <foreign xml:lang="gez">በቀልት፡ ዘ፡ ዘባባ፡</foreign>; <cit type="translation" xml:lang="la">
+                                <quote> aliud </quote>
+                            </cit>: <foreign xml:lang="gez">በቀልት፡ ብ፡ ዘምባባ፤ ጸበርት፡ ብ፡ ቅጸሉ፤ ተመርት፡ ብ፡ ፍሬሁ፡</foreign>, <cit type="translation" xml:lang="la">
+                                <quote> aliud </quote>
+                            </cit>: <foreign xml:lang="gez">በቀልት፡ ዘ፡ ግንዱ፤ ጸበርት፡ ዘ፡ አዕጹቂሁ፤ ተመርት፡ ዘ፡ ፍሬሁ።</foreign> </sense> </sense>
+               
+            <sense xml:lang="en" source="#traces" xml:id="Tmain">
+                        <cit type="transcription" xml:lang="gez">
+                            <quote>baqalt</quote>
+                        </cit>, <cit type="transcription" xml:lang="gez">
+                            <quote>baqʷǝlt</quote>
+                        </cit>, <cit type="transcription" xml:lang="gez">
+                            <quote>baqat</quote>
+                        </cit> <cit type="translation" xml:lang="en">
+                            <quote>palm tree</quote>
+                        </cit>, ‘<cit type="translation" xml:lang="fr">
+                            <quote>palmier</quote>
+                        </cit>’ <foreign xml:lang="gez">ቃለ፡ ኦሪት፡ ንፍተሌም፡ በቀት፡ ዕረፍት፡ እንተ፡ ትሤኒ፡ አውጽአት፡ እክል።</foreign> ‘<cit type="translation" xml:lang="fr">
+                            <quote>Parole de la Loi: Nephtali (est) un palmier, un repos qui est beau (et) produit de la nourriture.</quote>
+                        </cit>’ <bibl>
+                            <ptr target="bm:Beylot1979MoiseJacobT"/>
+                            <citedRange unit="page"> 15 l. 9-10 (ed.)</citedRange>
+                        </bibl>, <bibl>
+                            <ptr target="bm:Beylot1979MoiseJacobV"/>
+                            <citedRange unit="page"> 15 l. 22-23 (tr.)</citedRange>
+                        </bibl> (‘Texte <foreign xml:lang="gez">በቀት፡</foreign>, <bibl>
+                            <ptr target="bm:Dillmann1865Lexicon"/>
+                            <citedRange unit="page"> 512</citedRange>
+                        </bibl>, donne ce mot sous la forme <foreign xml:lang="gez">በቀልት፡</foreign> comme plus bas.’ <bibl>
+                            <ptr target="bm:Beylot1979MoiseJacobV"/>
+                            <citedRange unit="page"> 15 n.15</citedRange>
+                        </bibl>) </sense>
+                </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

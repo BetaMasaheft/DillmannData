@@ -1,0 +1,308 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ዲበ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+               <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+            </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+         <listPrefixDef>
+            <prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+         <change who="ES" when="2024-02-27">fixing nesting</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L03c70b7d960f4653b5f5848c5fcf8bcd" n="7980">
+               <form>
+                  <foreign xml:lang="gez">ዲበ</foreign>
+               </form>
+               <sense xml:id="Dmain" xml:lang="la" source="#dillmann">
+                  <gramGrp>
+                     <pos expand="praepositio">praep.</pos>
+                  </gramGrp> [sive a <foreign xml:lang="gez">ደበበ፡</foreign> sive a <foreign xml:lang="gez">ዴበ፡</foreign> propagata] antiquitus <foreign xml:lang="gez">ዲቤ፡</foreign> (ut <ref cRef="Matth." loc="14,26">Matth. 14,26</ref> et <ref cRef="Matth." loc="24,2">Matth. 24,2</ref>
+                  <lbl expand="romanae editionis">rom.</lbl>; <ref cRef="Joh." loc="12,15">Joh.
+                     12,15</ref> et <ref cRef="Joh." loc="13,25">Joh. 13,25</ref>
+                  <lbl expand="romanae editionis">rom.</lbl>) quae forma ante pronomina suff. semper
+                  retinetur (<bibl><ptr target="bm:Dillmann1857Gramm"/>gramm.</bibl> § 167,3), dein
+                  plerumque <foreign xml:lang="gez">ዲበ፡</foreign>
+                  <sense n="1" xml:id="D1">
+                     <foreign xml:lang="gez">ዲበ፡</foreign> simplex: <cit type="translation" xml:lang="la">
+                        <t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> super </t:quote>
+                     </cit>, <cit type="translation" xml:lang="la">
+                        <t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> supra </t:quote>
+                     </cit>, <cit type="translation" xml:lang="la">
+                        <t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> in </t:quote>
+                     </cit>, plerumque <foreign xml:lang="grc">ἐπί</foreign>, de statu quietis et de
+                     motu (cum <foreign xml:lang="gez">ላዕለ፡</foreign> multis in locis permutatur,
+                     sed proprie ab eo distinguitur, sicut <foreign xml:lang="grc">ἐπί</foreign>
+                     <note>auf</note> ab <foreign xml:lang="grc">ὑπὲρ</foreign>
+                     <note>über</note>, ita quidem, ut <foreign xml:lang="gez">ዲበ፡</foreign> magis
+                     de iis quae in superiore rei parte posita sunt, ei insistunt vel incumbunt,
+                     minus de iis, quae rei imminent et super eam suspensa sunt, usurpetur: <foreign xml:lang="gez">ዘይወግር፡ እብነ፡ ላዕሌሁ፡</foreign> ({über sich}) <foreign xml:lang="gez">ትወርድ፡ ዲበ፡</foreign> (<note>auf</note>) <foreign xml:lang="gez">ርእሱ፡</foreign>
+                     <ref cRef="Sir." loc="27,25">Sir. 27,25</ref>; <foreign xml:lang="gez">አዕረፈት፡
+                        በረከት፡ ላዕለ፡ ያዕቆብ፡ ዲበ፡ ርእሱ፡</foreign>
+                     <ref cRef="Sir." loc="44,23">Sir. 44,23</ref>): <foreign xml:lang="gez">እብን፡
+                        ዲበ፡ እብን፡</foreign>
+                     <ref cRef="Marc." loc="13,2">Marc. 13,2</ref>; <foreign xml:lang="gez">አግብርት፡
+                        ዲበ፡ አፍራስ፡</foreign>
+                     <ref cRef="Koh." loc="10,7">Koh. 10,7</ref>; <foreign xml:lang="gez">ርእስኪ፡
+                        ዘዲቤኪ፡</foreign>
+                     <ref cRef="Cant." loc="7,6">Cant. 7,6</ref>; <foreign xml:lang="gez">እደውኪ፡ ዲበ፡
+                        ርእስኪ፡</foreign>
+                     <ref cRef="Jer." loc="2,36">Jer. 2,36</ref>; <ref cRef="Apoc." loc="4,4">Apoc.
+                        4,4</ref>; <foreign xml:lang="gez">መንፈሰ፡ ዚአየ፡ ውእቱ፡ ዘዲቤከ፡</foreign>
+                     <ref cRef="Jes." loc="59,21">Jes. 59,21</ref>; <foreign xml:lang="gez">ይነብር፡
+                        ዲበ፡ መንበር፡</foreign>
+                     <ref cRef="Matth." loc="19,28">Matth. 19,28</ref>; <ref cRef="Matth." loc="23,2">Matth. 23,2</ref>; <foreign xml:lang="gez">ያንብርዋ፡ ዲበ፡
+                        ተቅዋማ፡</foreign>
+                     <ref cRef="Matth." loc="5,15">Matth. 5,15</ref>; <ref cRef="Joh." loc="19,19">Joh. 19,19</ref>; <foreign xml:lang="gez">ቆመት፡ ዲበ፡ ምድር፡</foreign>
+                     <ref cRef="Dan." loc="7,4">Dan. 7,4</ref>; <foreign xml:lang="gez">ይሰክብ፡</foreign>
+                     <cb n="1104" xml:id="c1104"/>
+                     <foreign xml:lang="gez">ዲበ፡ ምስካቡ፡</foreign>
+                     <ref cRef="Job" loc="33,15">Job 33,15</ref>; <ref cRef="1 Esr." loc="3,6">1
+                        Esr. 3,6</ref>; <foreign xml:lang="gez">ይርፍቁ፡ ዲበ፡ ሣዕር፡</foreign>
+                     <ref cRef="Marc." loc="6,39">Marc. 6,39</ref>; <foreign xml:lang="gez">እለ፡
+                        የኀድሩ፡ ዲበ፡ የብስ፡</foreign>
+                     <ref cRef="Hen." loc="54,9">Hen. 54,9</ref>; <foreign xml:lang="gez">ይጼዐን፡ ዲበ፡
+                        አድግ፡</foreign>
+                     <ref cRef="Joh." loc="12,15">Joh. 12,15</ref>; <foreign xml:lang="gez">አስመኩ፡
+                        ዲቤከ፡</foreign>
+                     <ref cRef="Hez." loc="29,7">Hez. 29,7</ref>; <foreign xml:lang="gez">ያሰክምዎ፡ ዲበ፡
+                        መታክፍቲሁ፡</foreign>
+                     <ref cRef="Matth." loc="23,4">Matth. 23,4</ref>; <foreign xml:lang="gez">ወድቀ፡
+                        ዲበ፡ ኰኵሕ፡</foreign>
+                     <ref cRef="Matth." loc="13,5">Matth. 13,5</ref>; <ref cRef="Matth." loc="21,44">Matth. 21,44</ref>; <foreign xml:lang="gez">ዲበ፡ ዘይወርድ፡ መንፈስ፡</foreign>
+                     <ref cRef="Joh." loc="1,33">Joh. 1,33</ref>; <foreign xml:lang="gez">ዲበ፡ ኰኵሕ፡
+                        አሐንጽ፡</foreign>
+                     <ref cRef="Matth." loc="16,18">Matth. 16,18</ref>; <ref cRef="Eph." loc="2,20">Eph. 2,20</ref>; <foreign xml:lang="gez">ዘይወዲ፡ እብነ፡ ዲበ፡ ሞጸፍ፡</foreign>
+                     <ref cRef="Prov." loc="26,8">Prov. 26,8</ref>; <foreign xml:lang="gez">ንሥኡ፡
+                        አርዑትየ፡ ዲቤክሙ፡</foreign>
+                     <ref cRef="Matth." loc="11,29">Matth. 11,29</ref>; <foreign xml:lang="gez">ሶጠት፡
+                        ዲበ፡ ርእስየ፡</foreign>
+                     <ref cRef="Matth. " loc="26,12">Matth. 26,12</ref>; <foreign xml:lang="gez">ተክዕወ፡ ዲበ፡ ምድር፡</foreign>
+                     <ref cRef="Matth." loc="23,35">Matth. 23,35</ref>; <foreign xml:lang="gez">ወሀብኩ፡ መንፈስየ፡ ዲቤሁ፡</foreign>
+                     <ref cRef="Jes." loc="42,1">Jes. 42,1</ref>; <foreign xml:lang="gez">አፍሓመ፡ እሳት፡
+                        ታስተጋብእ፡ ዲበ፡ ርእሱ፡</foreign>
+                     <ref cRef="Prov." loc="25,22">Prov. 25,22</ref>; <ref cRef="Rom." loc="12,20">Rom. 12,20</ref>; <foreign xml:lang="gez">ጽሑፍ፡ ዲበ፡</foreign>
+                     <ref cRef="Sx. Ter" loc="17 ">Sx. Ter 17 </ref>(<lbl expand="videas">vid.
+                        sub</lbl>
+                     <foreign xml:lang="gez">ተድባብ፡</foreign>); <foreign xml:lang="gez">እንስሳ፡ ዘሀሎ፡
+                        ዲበ፡ ምድር፡</foreign>
+                     <ref cRef="Lev. " loc="11,2">Lev. 11,2</ref>; <ref cRef="Gen." loc="1,28">Gen.
+                        1,28</ref>. <sense n="a" xml:id="D1a"> post verba tegendi et vestiendi:
+                           <foreign xml:lang="gez">ክዱን፡ እብን፡ ዲቤሁ፡</foreign>
+                        <ref cRef="Joh." loc="11,38">Joh. 11,38</ref>; <ref cRef="Hen." loc="14,24">Hen. 14,24</ref>; <ref cRef="Job" loc="39,19">Job 39,19</ref>; <ref cRef="Joh." loc="20,7">Joh. 20,7</ref>; de vestibus alicui superindutis:
+                           <foreign xml:lang="gez">ኢየሀሉ፡ ዲቤሆሙ፡ ፀምር፡</foreign>
+                        <ref cRef="Hez." loc="44,17">Hez. 44,17</ref>; <foreign xml:lang="gez">ሀሎ፡
+                           ዲቤሁ፡ ልብስ፡ ጥቁብ፡</foreign>
+                        <ref cRef="Phlx." loc="136,">Phlx. 136,</ref> vel de tutela, qua quis
+                        protegitur <ref cRef="Ps." loc="102,16">Ps. 102,16</ref>; <ref cRef="Ps." loc="102,17">Ps. 102,17</ref>; vel precari <cit type="translation" xml:lang="la">
+                           <t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> pro </t:quote>
+                        </cit> aliquo <ref cRef="Ex." loc="8,5">Ex. 8,5</ref>; <ref cRef="Ex." loc="8,24">Ex. 8,24</ref>. </sense>
+                     <sense n="b" xml:id="D1b"> de onere, quod est super aliquem: <foreign xml:lang="gez">ጌጋይነ፡ ወኀጢአትነ፡ ዲቤነ፡ ውእቱ፡</foreign>
+                        <ref cRef="Hez." loc="33,10">Hez. 33,10</ref>; <foreign xml:lang="gez">ከብደ፡
+                           ቀትል፡ ዲበ፡ ሳኦል፡</foreign>
+                        <ref cRef="1 Par." loc="10,3">1 Par. 10,3</ref>. </sense>
+                     <sense n="c" xml:id="D1c"> de potestate, qua quis superat alios: <foreign xml:lang="gez">ነግሠ፡ ዲበ፡</foreign>
+                        <ref cRef="1 Par." loc="18,14">1 Par. 18,14</ref>; <foreign xml:lang="gez">ሤምኮ፡ ዲበ፡ ኵሉ፡</foreign>
+                        <ref cRef="Ps." loc="8,6">Ps. 8,6</ref>; <ref cRef="1 Par." loc="9,29">1
+                           Par. 9,29</ref>; <ref cRef="Ex." loc="2,14">Ex. 2,14</ref>; <ref cRef="Hen." loc="20,5">Hen. 20,5</ref>; <foreign xml:lang="gez">ኣመጽኦሙ፡
+                           ዲቤኪ፡ ወየዐግቱኪ፡</foreign>
+                        <ref cRef="Hez." loc="23,22">Hez. 23,22</ref>; <ref cRef="Gen." loc="6,17">Gen. 6,17</ref>; et de praestantia <ref cRef="Koh." loc="1,16">Koh.
+                           1,16</ref>. </sense>
+                     <sense n="d" xml:id="D1d"> nonnumquam: <cit type="translation" xml:lang="la">
+                           <t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> per </t:quote>
+                        </cit> vel <cit type="translation" xml:lang="la">
+                           <t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> trans superficiem
+                           </t:quote>
+                        </cit> rei, {darüber hin}: <ref cRef="Matth." loc="14,25">Matth.
+                        14,25</ref>; <ref cRef="Joh." loc="6,19">Joh. 6,19</ref>; <foreign xml:lang="gez">ሐመር፡ ዲበ፡ ሞገድ፡ እንተ፡ ተሐውር፡</foreign>
+                        <ref cRef="Prov." loc="24,54">Prov. 24,54</ref>; <foreign xml:lang="gez">ፍኖተ፡ አርዌ፡ ምድር፡ ዲበ፡ ኰኵሕ፡</foreign>
+                        <ref cRef="Prov." loc="24,54">Prov. 24,54</ref>; <foreign xml:lang="gez">ሰፍሐ፡ እዴሁ፡ ዲበ፡ ባሕር፡</foreign>
+                        <ref cRef="Ex. " loc="14,21">Ex. 14,21</ref>; et passim <cit type="translation" xml:lang="la">
+                           <t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> ad </t:quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                           <t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> in </t:quote>
+                        </cit> vertere licet: <foreign xml:lang="gez">እደዊሃ፡ ትሰፍሕ፡ ዲበ፡
+                           ዘይበቍዕ፡</foreign>
+                        <foreign xml:lang="grc">ἐπὶ τὰ συμφέροντα</foreign>
+                        <ref cRef="Prov." loc="28,37">Prov. 28,37</ref>; <foreign xml:lang="gez">ከልብ፡ ዘይገብእ፡ ዲበ፡ ቂያኡ፡</foreign>
+                        <ref cRef="Prov." loc="26,11">Prov. 26,11</ref>; <ref cRef="2 Petr." loc="2,22">2 Petr. 2,22</ref>; <foreign xml:lang="gez">ነፍኀ፡ ዲበ፡ ገጹ፡
+                           መንፈሰ፡</foreign>
+                        <ref cRef="Gen." loc="2,7">Gen. 2,7</ref>; <foreign xml:lang="gez">ዕፃ፡ በጽሐ፡
+                           ዲበ፡ ማትያስ፡</foreign>
+                        <ref cRef="Act. " loc="1,26">Act. 1,26</ref>. </sense>
+                     <sense n="e" xml:id="D1e"> de imminendo et suspendendo rei: (<note>an</note>)
+                           <cit type="translation" xml:lang="la">
+                           <t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> ad </t:quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                           <t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> in </t:quote>
+                        </cit>: <foreign xml:lang="gez">ነበረ፡ ዲበ፡ ዐዘቅት፡</foreign>
+                        <ref cRef="Ex." loc="2,15">Ex. 2,15</ref>; <foreign xml:lang="gez">በከየ፡ ዲበ፡
+                           ክሳዱ፡</foreign>
+                        <ref cRef="Kuf." loc="31">Kuf. 31</ref>; <foreign xml:lang="gez">ኢይቢታ፡ ዲበ፡
+                           መሳቅል፡</foreign>
+                        <ref cRef="Joh." loc="19,31">Joh. 19,31</ref>; <foreign xml:lang="gez">ተሰቅለ፡
+                           ዲበ፡ ዕፅ፡</foreign>
+                        <ref cRef="1 Petr. " loc="2,24">1 Petr. 2,24</ref>; <foreign xml:lang="gez">ረፈቀ፡ ዲበ፡ እንግድኣሁ፡</foreign>
+                        <ref cRef="Joh." loc="13,25">Joh. 13,25</ref>; <ref cRef="Joh." loc="21,20">Joh. 21,20</ref>; <foreign xml:lang="gez">ከመ፡ እስልጥ፡ መቅሠፍትየ፡
+                           ዲቤሆሙ፡</foreign>
+                        <foreign xml:lang="grc">ἐν αὐτοῖς</foreign>
+                        <ref cRef="Hez." loc="20,8">Hez. 20,8</ref>. </sense>
+                  </sense><sense n="2" xml:id="D2">
+                     <sense n="a" xml:id="D2a"> de causa: <cit type="translation" xml:lang="la">
+                           <t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> ob </t:quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                           <t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> de </t:quote>
+                        </cit>, <foreign xml:lang="gez">ዲበ፡ ሀጕለ፡ ውሉዶሙ፡ ይግዕሩ፡</foreign>
+                        <ref cRef="Hen." loc="12,6">Hen. 12,6</ref>; <foreign xml:lang="gez">ተፈሥሐ፡</foreign>
+                        <ref cRef="Sir. " loc="23,3">Sir. 23,3</ref>; <ref cRef="Hen." loc="97,2">Hen. 97,2</ref>; <foreign xml:lang="gez">በከየ፡</foreign>
+                        <ref cRef="Hen." loc="95,1">Hen. 95,1</ref>; <foreign xml:lang="gez">ሠሐቀ፡</foreign>
+                        <ref cRef="Job" loc="6,26">Job 6,26</ref>; <foreign xml:lang="gez">ተሳለቀ፡</foreign>
+                        <ref cRef="Gen." loc="39,17">Gen. 39,17</ref>; <ref cRef="Job" loc="6,27">Job 6,27</ref>; <foreign xml:lang="gez">ተምዐ፡</foreign>
+                        <ref cRef="Ex." loc="14,4">Ex. 14,4</ref>, al. </sense>
+                     <sense n="b" xml:id="D2b"> post verba confidendi: <ref cRef="Hen." loc="94,8">Hen. 94,8</ref>; <ref cRef="Hen." loc="63,7">Hen. 63,7</ref>. </sense>
+                     <sense n="c" xml:id="D2c">
+                        <cit type="translation" xml:lang="la">
+                           <t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> adversus </t:quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                           <t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> contra </t:quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                           <t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> in </t:quote>
+                        </cit>: <ref cRef="Matth." loc="12,32">Matth. 12,32</ref>
+                        <lbl expand="romanae editionis">rom.</lbl>; <ref cRef="Matth." loc="24,7">Matth. 24,7</ref>; <ref cRef="Act. " loc="23,5">Act. 23,5</ref>; <ref cRef="Act." loc="23,30">Act. 23,30</ref> (<foreign xml:lang="grc">εἰς</foreign>); <ref cRef="Marc." loc="3,29">Marc. 3,29</ref>; <ref cRef="Hen." loc="10,9">Hen. 10,9</ref>; <ref cRef="Hen." loc="56,7">Hen.
+                           56,7</ref>; <ref cRef="Ex." loc="17,3">Ex. 17,3</ref>
+                        <lbl expand="varia lectio">var.</lbl>; <ref cRef="Num." loc="16,3">Num.
+                           16,3</ref>; <ref cRef="Deut." loc="15,9">Deut. 15,9</ref>; <ref cRef="Ps." loc="14,4">Ps. 14,4</ref>; <ref cRef="Hez." loc="32,9">Hez.
+                           32,9</ref>; <ref cRef="Hez. " loc="32,10">Hez. 32,10</ref>; <foreign xml:lang="gez">ያነብሩ፡ መዓቅበ፡ ዲቤኪ፡ እንተ፡ ዐውድኪ፡</foreign>
+                        <ref cRef="Hez." loc="23,24">Hez. 23,24</ref>; al. </sense>
+                     <sense n="d" xml:id="D2d"> addendo et cumulando: <cit type="translation" xml:lang="la">
+                           <t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> super </t:quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                           <t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> insuper </t:quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                           <t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> ad </t:quote>
+                        </cit>, <foreign xml:lang="gez">ይዌስክ፡ ዓዲ፡ ዲቤሁ፡</foreign>
+                        <ref cRef="Sir." loc="21,15">Sir. 21,15</ref>; <ref cRef="Ps." loc="68,31">Ps. 68,31</ref>; <ref cRef="Ps. " loc="70,15">Ps. 70,15</ref>; <ref cRef="Ex." loc="1,10">Ex. 1,10</ref>; <foreign xml:lang="gez">መቅሠፍት፡ ዲበ፡
+                           መቅሠፍት፡ ወጽልእ፡ ዲበ፡ ጽልእ፡</foreign>
+                        <ref cRef="Kuf." loc="23 ">Kuf. 23 </ref>(<lbl expand="videas">vid.</lbl>
+                        <foreign xml:lang="gez">በዲበ፡</foreign>); <foreign xml:lang="gez">ወዲበ፡ ዝኒ፡
+                           ወሰከ፡ ላዕለ፡ ሥጋሁ፡ ቅሥፈተ፡</foreign>
+                        <ref cRef="Sx. Tachs." loc="24 ">Sx. Tachs. 24 </ref>Enc. II) Componitur cum
+                        aliis praepositionibus: </sense>
+                  </sense><sense n="3" xml:id="D3">
+                     <foreign xml:lang="gez">በዲበ፡</foreign>
+                     <cit type="translation" xml:lang="la">
+                        <t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> super </t:quote>
+                     </cit>, <cit type="translation" xml:lang="la">
+                        <t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> supra </t:quote>
+                     </cit>, <cit type="translation" xml:lang="la">
+                        <t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> in </t:quote>
+                     </cit>
+                     <sense n="a" xml:id="D3a"> post verba commorandi: <foreign xml:lang="gez">በዲበ፡
+                           ምድር፡</foreign>
+                        <ref cRef="Matth." loc="9,6">Matth. 9,6</ref>; <ref cRef="Matth." loc="23,9">Matth. 23,9</ref>; <ref cRef="Joh." loc="17,4">Joh. 17,4</ref>; <ref cRef="Hen." loc="12,5">Hen. 12,5</ref>; <ref cRef="Ps." loc="9,42">Ps.
+                           9,42</ref>; <ref cRef="Ps." loc="109,7">Ps. 109,7</ref>; <ref cRef="Gen." loc="6,12">Gen. 6,12</ref>; <ref cRef="Dan." loc="2,10">Dan. 2,10</ref>;
+                           <foreign xml:lang="gez">ቀሡት፡ በዲበ፡ መትከፍታ፡</foreign>
+                        <ref cRef="Gen. " loc="24,18">Gen. 24,18</ref>; <foreign xml:lang="gez">በዲበ፡
+                           ምስካቢሆሙ፡</foreign>
+                        <ref cRef="Ps." loc="149,5">Ps. 149,5</ref>; <foreign xml:lang="gez">በዲበ፡
+                           አንሕስት፡</foreign>
+                        <ref cRef="Matth." loc="10,27">Matth. 10,27</ref>; <ref cRef="Ex." loc="25,20">Ex. 25,20</ref>; <foreign xml:lang="gez">በዲበ፡ ሠናይቱ፡ ለሰብእ፡
+                           ተአዛዚ፡</foreign>
+                        <ref cRef="Hen." loc="20,5">Hen. 20,5</ref>; <foreign xml:lang="gez">ዘነበበ፡
+                           በዲበ፡ ምሥዋዕ፡</foreign>
+                        <ref cRef="3 Reg." loc="13,4">3 Reg. 13,4</ref>. </sense>
+                     <sense n="b" xml:id="D3b"> adjiciendi et cumulandi: <foreign xml:lang="gez">ወሰከ፡</foreign>
+                        <ref cRef="Ps. " loc="68,32">Ps. 68,32</ref>; <ref cRef="Jes." loc="1,5">Jes. 1,5</ref>; <ref cRef="Jes." loc="30,1">Jes. 30,1</ref>; <ref cRef="Job" loc="34,37">Job 34,37</ref>; <foreign xml:lang="gez">ደገመ፡</foreign>
+                        <ref cRef="Job" loc="29,22">Job 29,22</ref>; <foreign xml:lang="gez">ወይሌ፡
+                           በዲበ፡ ወይሌ፡ ወድንጋፄ፡ በዲበ፡ ድንጋፄ፡</foreign>
+                        <ref cRef="Hez." loc="7,26">Hez. 7,26</ref>; <cb n="1105" xml:id="c1105"/>
+                        <foreign xml:lang="gez">ድቀት፡ በዲበ፡ ድቀት፡</foreign>
+                        <ref cRef="Job" loc="16,14">Job 16,14</ref>; <ref cRef="Jes." loc="28,10">Jes. 28,10</ref>; <ref cRef="Jes." loc="57,19">Jes. 57,19</ref>;
+                           <foreign xml:lang="gez">ሠናይት፡ በዲበ፡ በረከት፡</foreign>
+                        <ref cRef="Sir." loc="26,15">Sir. 26,15</ref>. </sense>
+                  </sense><sense n="4" xml:id="D4">
+                     <foreign xml:lang="gez">እምዲበ፡</foreign>
+                     <sense n="a" xml:id="D4a">
+                        <cit type="translation" xml:lang="la">
+                           <t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> desuper </t:quote>
+                        </cit>
+                        <ref cRef="Ex." loc="19,3">Ex. 19,3</ref>; <ref cRef="Ex." loc="19,14">Ex.
+                           19,14</ref>; <ref cRef="Ex." loc="25,22">Ex. 25,22</ref>; <ref cRef="Matth." loc="14,29">Matth. 14,29</ref>. </sense>
+                     <sense n="b" xml:id="D4b">
+                        <cit type="translation" xml:lang="la">
+                           <t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> super </t:quote>
+                        </cit>
+                        <ref cRef="Matth." loc="6,27">Matth. 6,27</ref>. </sense>
+                  </sense><sense n="5" xml:id="D5">
+                     <foreign xml:lang="gez">እንተ፡ ዲበ፡</foreign>
+                     <sense n="a" xml:id="D5a">
+                        <cit type="translation" xml:lang="la">
+                           <t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> trans </t:quote>
+                        </cit> et <cit type="translation" xml:lang="la">
+                           <t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> super </t:quote>
+                        </cit> (<note>über – hin</note>, <note>über – hinüber</note>) <ref cRef="Hen." loc="32,2">Hen. 32,2</ref>; <ref cRef="Matth. " loc="14,28">Matth. 14,28</ref>; <foreign xml:lang="gez">ይወግሩ፡ ርእሶ፡ እንተ፡ ዲበ፡
+                           አረፍት፡</foreign>
+                        <ref cRef="2 Reg. " loc="20,21">2 Reg. 20,21</ref>. </sense>
+                     <sense n="b" xml:id="D5b">
+                        <cit type="translation" xml:lang="la">
+                           <t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> per </t:quote>
+                        </cit>: <foreign xml:lang="gez">እንተ፡ ዲበ፡ ኵሉ፡ የሐውር፡</foreign>
+                        <ref cRef="Sap. " loc="7,24">Sap. 7,24</ref>. </sense>
+                  </sense>
+               </sense>
+
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

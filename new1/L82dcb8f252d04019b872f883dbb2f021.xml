@@ -1,0 +1,93 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="gez">ከቶሊካዊት</title>
+                <author>Alessandro Bausi</author>
+                <author>Andreas Ellwardt</author>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+                <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+                <pubPlace>Hamburg</pubPlace>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-sa-nc/4.0/"> This file
+                        is licensed under the Creative Commons Attribution-ShareAlike Non Commercial
+                        4.0. </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                        Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice
+                            latino. Adiectum est vocabularium tigre dialecti septentrionalis
+                            compilatum</emph> a W. Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+                </p>
+                <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced
+                        Grant TraCES (Grant Agreement 338756)</ref>
+                </p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>A digital edition of the Lexicon in TEI.</p>
+            <listPrefixDef>
+                <prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/>
+            </listPrefixDef>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="la">latin</language>
+                <language ident="it">Italian</language>
+                <language ident="gez">Gǝʿǝz</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="syr">Syriac</language>
+                <language ident="ar">Arabic</language>
+                <language ident="sa">Sanskrit</language>
+                <language ident="geo">Georgian</language>
+                <language ident="cop">Coptic</language>
+                <language ident="osa">Old South Arabian</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change who="MK" when="2019-09-04">added new entry</change>
+            <change who="MK" when="2019-09-04">corr</change>
+            <change who="MK" when="2019-09-04">added pos</change>
+            <change who="MK" when="2019-12-10">added rel.</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <entry xml:id="L82dcb8f252d04019b872f883dbb2f021" n="12669">
+                    <form>
+                        <foreign xml:lang="gez">ከቶሊካዊት</foreign>
+                    </form>
+                    <sense xml:id="Tmain" xml:lang="en" source="#traces">
+                        <cit type="transcription" xml:lang="gez">
+                            <quote> katolikāwit </quote>
+                        </cit>
+                        <gramGrp>
+                            <pos expand="not found">adj. rel. </pos>
+                            <gen value="not found">f.</gen>
+                        </gramGrp>
+                        <cit type="translation" xml:lang="en">
+                            <quote> general </quote>
+                        </cit>, <cit type="translation" xml:lang="en">
+                            <quote> universal </quote>
+                        </cit>
+                        <foreign xml:lang="gez">ወይትለአክ፡ ላዕለ፡ መንበሩ፡ ተልእኮ፡ ከቶሊካዊተ፡ ወኢየዓዱ፡ እምውሳኔ፡
+                            ዘወሰነት፡ ሎቱ፡ ባሕታዊት፡ ጉባኤ፡ እንተ፡ ላዕለ፡ ኵሉ፡ ዓለም።</foreign> ‘<cit type="translation" xml:lang="en">
+                            <quote> He was serving on the throne the catholic mission and he did not
+                                exceed the limit which was set out for him by the only universal
+                                council </quote>
+                        </cit>’ <bibl><ptr target="bm:Solomon2019GalawdewosI"/><citedRange unit="page"> 7 § 4 (ed.)</citedRange></bibl>, <bibl><ptr target="bm:Solomon2019GalawdewosII"/><citedRange unit="page"> 5 § 4
+                                (tr.)</citedRange></bibl>, <lbl expand="videas">vid.</lbl> also
+                            <foreign xml:lang="gez">ኮቶሊካ፡</foreign>
+                        <nd/>
+                    </sense>
+                </entry>
+            </div>
+        </body>
+    </text>
+</TEI>

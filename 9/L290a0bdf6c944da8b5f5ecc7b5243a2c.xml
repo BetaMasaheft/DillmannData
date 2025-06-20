@@ -1,0 +1,171 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ሰዐት </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L290a0bdf6c944da8b5f5ecc7b5243a2c" n="2978">
+               <form>
+                  <foreign xml:lang="gez">ሰዐት</foreign>
+               </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain"> vel <foreign xml:lang="gez">ሰዓት፡</foreign>, <gramGrp>
+                     <gen value="femininus">fem.</gen>
+                  </gramGrp> et <gramGrp>
+                     <gen value="masculinum">m.</gen>
+                  </gramGrp>, <lbl expand="pluralis">Pl.</lbl>
+                  <foreign xml:lang="gez">ሰዐታት፡</foreign> vel <foreign xml:lang="gez">ሰዓታት፡</foreign> [<foreign xml:lang="he">שָׁעָה</foreign>
+                  <foreign xml:lang="syr">ܫܳܥܳܐ</foreign>
+                  <foreign xml:lang="ar">سَاعَةٌ</foreign>
+                  <lbl expand="videas">vid.</lbl> Ges. thes. p. 1455; amh. <foreign xml:lang="gez">ሰዓት፡</foreign> et <foreign xml:lang="gez">ሳት፡</foreign>] <sense n="1" xml:id="D1">
+                     <cit type="translation" xml:lang="la">
+                        <quote>hora</quote>
+                     </cit>: <ref cRef="Gen." loc="29,7">Gen. 29,7</ref>; <foreign xml:lang="gez">መስየ፡ ወድአ፡ ሰዓት፡</foreign>
+                     <ref cRef="Marc." loc="6,35">Marc. 6,35</ref>; <ref cRef="Apoc." loc="9,15">Apoc. 9,15</ref>; <ref cRef="Apoc." loc="11,13">Apoc. 11,13</ref>; <ref cRef="Apoc." loc="17,12">Apoc. 17,12</ref>; <foreign xml:lang="gez">መንፈቀ፡
+                        ሰዓት፡ </foreign>
+                     <foreign xml:lang="grc">ἡμιώριον</foreign>
+                     <ref cRef="Apoc." loc="8,1">Apoc. 8,1</ref>; <foreign xml:lang="gez">በአይ፡
+                        ሰዓት፡</foreign>
+                     <ref cRef="Apoc." loc="3,3">Apoc. 3,3</ref>; <foreign xml:lang="gez">ኵሎ፡
+                     </foreign> vel <foreign xml:lang="gez">ኵላ፡ ሰዐተ፡</foreign>
+                     <ref cRef="Ex." loc="18,22">Ex. 18,22</ref>; <ref cRef="Ex." loc="18,25">Ex.
+                        18,25</ref>; <ref cRef="4                 Esr." loc="9,42">4 Esr.
+                     9,42</ref>; <foreign xml:lang="gez">በኵሉ፡ ሰዓት፡</foreign>
+                     <ref cRef="Lev." loc="16,2">Lev. 16,2</ref>; <foreign xml:lang="gez">ጌሠመ፡ በዛቲ፡
+                        ሰዓት፡</foreign>
+                     <ref cRef="4 Esr." loc="14,29">4 Esr. 14,29</ref>; <foreign xml:lang="gez">መጠነ፡
+                        አሐቲ፡ ሰዓት፡</foreign>
+                     <ref cRef="Dan." loc="4,16">Dan. 4,16</ref>; <foreign xml:lang="gez">በዛቲ፡ ሰዓት፡ </foreign>
+                     <ref cRef="Judith" loc="13,4">Judith 13,4</ref>; <foreign xml:lang="gez">ዕለት፡
+                        ወሰዓት፡</foreign>
+                     <ref cRef="Matth." loc="24,36">Matth. 24,36</ref>; <foreign xml:lang="gez">ጊዜ፡
+                        ሰዐተ፡ ተሱዓት፡</foreign>
+                     <ref cRef="Matth." loc="27,46">Matth. 27,46</ref>
+                     <lbl expand="romanae editionis">rom.</lbl>; <foreign xml:lang="gez">እስከ፡ ተሱዐት፡
+                        ሰዓት፡</foreign>
+                     <ref cRef="Did." loc="29">Did. 29</ref>; <foreign xml:lang="gez">በስድስቱ፡
+                        ሰዓት፡</foreign>
+                     <ref cRef="Asc. Jes." loc="4,5">Asc. Jes. 4,5</ref>; <ref cRef="Marc." loc="15,25">Marc. 15,25</ref>; <ref cRef="Joh." loc="1,40">Joh. 1,40</ref>;
+                        <foreign xml:lang="gez">ጊዜ፡ ሣልስ፡ ሰዓት፡</foreign>
+                     <ref cRef="Matth." loc="20,3">Matth. 20,3</ref>
+                     <lbl expand="romanae editionis">rom.</lbl>; <ref cRef="Herm." loc="7">Herm. p.
+                        7</ref>; <foreign xml:lang="gez">በከየ፡ ሰዐተ፡ ነዋኀ፡</foreign>
+                     <ref cRef="Sx. Nah." loc="14">Sx. Nah. 14</ref>; <foreign xml:lang="gez">ዐቢየ፡
+                        ሰዓተ፡ </foreign>
+                     <ref cRef="1 Reg." loc="20,41">1 Reg. 20,41</ref>; <foreign xml:lang="gez">እለ፡
+                        ያሰግሉ፡ ውስተ፡ ሰዐታት፡ ወዕለት፡ ወለያልይ፡ </foreign>
+                     <ref cRef="Clem." loc="178">Clem. f. 178</ref>; de horis precum canonicis <ref cRef="Clem." loc="10">Clem. f. 10</ref>-13. De horis nocturnis vel <cit type="translation" xml:lang="la">
+                        <quote>vigiliis</quote>
+                     </cit>: <foreign xml:lang="grc">φυλακαί</foreign>
+                     <foreign xml:lang="gez">ሰዐታት፡</foreign>
+                     <ref cRef="Ps." loc="76,4">Ps. 76,4</ref>; <ref cRef="Ps." loc="89,4">Ps.
+                        89,4</ref>; <foreign xml:lang="gez">ከመ፡ ይዕቀቡ፡ ሰዐታተ፡ ደብተራ፡</foreign>
+                     <ref cRef="1 Par." loc="23,32">1 Par. 23,32</ref>; <ref cRef="Judith" loc="12,5">Judith 12,5</ref>; <foreign xml:lang="gez">እምሰዐተ፡ ጽባሕ፡</foreign>
+                     <foreign xml:lang="grc">ἀπὸ τῆς φυλακῆς πρωίας </foreign>
+                     <ref cRef="Ps." loc="129,6">Ps. 129,6</ref>; <foreign xml:lang="gez">በቀዳሚት፡
+                        ሰዓት፡</foreign>
+                     <ref cRef="Thren." loc="2,19">Thren. 2,19</ref>; <ref cRef="Jud. " loc="7,19">Jud. 7,19</ref>; <ref cRef="Marc." loc="6,48">Marc. 6,48</ref>.</sense>
+                  <sense n="2" xml:id="D2">
+                     <cit type="translation" xml:lang="la">
+                        <quote>momentum temporis</quote>
+                     </cit>, <cit type="translation" xml:lang="la">
+                        <quote>pars temporis</quote>
+                     </cit>, etiam minutissima: <foreign xml:lang="gez">እምውእቱ፡ ሰዓት፡</foreign>
+                     <ref cRef="Matth." loc="9,22">Matth. 9,22</ref>; <foreign xml:lang="gez">ሖረ፡
+                        በሰዐቱ፡</foreign>
+                     <cit type="translation" xml:lang="la">
+                        <quote>extemplo</quote>
+                     </cit>, <cit type="translation" xml:lang="la">
+                        <quote>illico</quote>
+                     </cit>
+                     <ref cRef="Phlx." loc="3">Phlx. 3</ref>; <ref cRef="Phlx." loc="71">Phlx.
+                        71</ref>; <foreign xml:lang="gez">ለሰዐትከ፡</foreign>
+                     <foreign xml:lang="grc">πρὸς ὥραν </foreign>
+                     <ref cRef="Philem." loc="15">Philem. 15</ref>; <foreign xml:lang="gez">ለሰዓት፡</foreign>
+                     <foreign xml:lang="grc">πρόσκαιρος</foreign>
+                     <ref cRef="Hebr." loc="11,25">Hebr. 11,25</ref>; <ref cRef="2 Cor." loc="4,17">2 Cor. 4,17</ref>-</sense>
+                  <sense n="3" xml:id="D3">
+                     <cit type="translation" xml:lang="la">
+                        <quote>tempus</quote>
+                     </cit> in genere; <cit type="translation" xml:lang="la">
+                        <quote>tempus statutum</quote>
+                     </cit>, <cit type="translation" xml:lang="la">
+                        <quote>certum</quote>
+                     </cit>, <cit type="translation" xml:lang="la">
+                        <quote>festum</quote>
+                     </cit>: <foreign xml:lang="gez">ሰዐተ፡ መንሱት፡</foreign>
+                     <ref cRef="Apoc." loc="3,10">Apoc. 3,10</ref>; <ref cRef="Apoc." loc="14,7">Apoc. 14,7</ref>; <foreign xml:lang="gez">በአሐቲ፡ ሰዓት፡</foreign>
+                     <foreign xml:lang="grc">ἐν μιᾷ ἡμέρᾳ </foreign>
+                     <foreign xml:lang="gez">ለለ፡ ሰዐቱ፡</foreign>
+                     <foreign xml:lang="grc">καθ᾽ ὥραν</foreign>
+                     <ref cRef="Deut." loc="33,14">Deut. 33,14</ref>; <foreign xml:lang="gez">ሠለስተ፡
+                        ሰዐተ፡ ዘበዓልክሙ፡ </foreign>
+                     <foreign xml:lang="grc">τρεῖς καιρούς</foreign>
+                     <ref cRef="Ex." loc="33,14">Ex. 33,14</ref>; <cb n="0390" xml:id="c0390"/>
+                     <foreign xml:lang="gez">ደኃሪት፡ ሰዓት፡ ይእቲ፡</foreign>
+                     <ref cRef="1 Joh." loc="2,18">1 Joh. 2,18</ref>; <foreign xml:lang="gez">እምቅድመ፡
+                        ሰዓቱ፡</foreign>
+                     <foreign xml:lang="grc">πρὸ ὥρας </foreign>
+                     <ref cRef="Job" loc="24,6">Job 24,6</ref>; <foreign xml:lang="gez">እምሰዐት፡ እስከ፡
+                        ሰዐት፡</foreign>
+                     <ref cRef="1 Par." loc="9,25">1 Par. 9,25</ref>; <foreign xml:lang="gez">ለምንት፡
+                        ይረስዖን፡ እግዚአብሔር፡ ለሰዓታትየ፡</foreign>
+                     <ref cRef="Job " loc="24,1">Job 24,1</ref>.</sense>
+               </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

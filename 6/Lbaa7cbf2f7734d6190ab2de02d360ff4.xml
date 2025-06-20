@@ -1,0 +1,81 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ሣዕር </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="LB" when="2018-02-14">root</change>
+        <change who="AE" when="2018-11-13">Verschachtelung,</change>
+            <change who="AE" when="2018-11-13">Nachtrag,</change>
+            <change who="AE" when="2018-11-13">Sprachkennungen,</change>
+        <change who="MK" when="2024-06-04">added gr and les</change><change who="MK" when="2024-06-04">added sub</change></revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="Lbaa7cbf2f7734d6190ab2de02d360ff4" n="1937">
+               <form>
+                  <foreign xml:lang="gez">ሣዕር</foreign>
+               <rs type="root"/>
+                    </form>
+               <sense xml:id="Dmain" xml:lang="la" source="#dillmann"> <gramGrp> <pos expand="Substantivum">subst.</pos> </gramGrp>, plerumque <gramGrp> <gen value="not found">m.</gen> </gramGrp>, <lbl expand="pluralis">Pl.</lbl> <foreign xml:lang="gez">አሥዕርት፡</foreign> (<ref cRef="Chrys. Ta." loc="27">Chrys. Ta. 27</ref>) [Aethiopes et Arabes herbas, quibus terra obsita est, cum pilis corporis comparantes herbarum et pilorum nomina ex eadem radice propagaverunt, ut <foreign xml:lang="ar">شَعْرَاءُ</foreign> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> herbosus, plantis abundans, arboribus obsitus </t:quote></cit>: <foreign xml:lang="ar">سُعرٌ</foreign> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> plantae </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> arbores </t:quote></cit>; (Syri ab una radice petierunt nomina <foreign xml:lang="syr">ܥܰܡܪܳܐ</foreign> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> lana </t:quote></cit> et <foreign xml:lang="syr">ܥܰܡܺܝܪܳܐ</foreign> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> gramen </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> herba viridis </t:quote></cit>) <cb n="0260" xml:id="c0260"/> amh. <foreign xml:lang="gez">ሣር፡</foreign>, <foreign xml:lang="gez">ሳር፡</foreign> i.q. aeth. <foreign xml:lang="gez">ሣዕር፡</foreign>] <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> herba </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> gramen </t:quote></cit>, (<cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> pabulum </t:quote></cit> pratense et agreste) <foreign xml:lang="grc">βοτάνη</foreign> <ref cRef="Job" loc="5,25">Job 5,25</ref>; <ref cRef="Job" loc="8,12">Job 8,12</ref>; <ref cRef="Jer." loc="14,5">Jer. 14,5</ref>; <ref cRef="Ex." loc="10,12">Ex. 10,12</ref>; <ref cRef="Hebr." loc="6,7">Hebr. 6,7</ref>; <foreign xml:lang="grc">χόρτος</foreign> <ref cRef="Gen." loc="1,11">Gen. 1,11</ref>; <ref cRef="Gen." loc="3,18">Gen. 3,18</ref>; <ref cRef="Kuf." loc="6">Kuf. 6</ref>; <ref cRef="Jes. " loc="10,17">Jes.  10,17</ref>; <ref cRef="Jes." loc="15,6">Jes. 15,6</ref>; <ref cRef="Jes." loc="40,6">Jes. 40,6</ref>; <foreign xml:lang="gez">ሣዕረ፡ ገዳም፡</foreign> <ref cRef="Jer." loc="12,4">Jer. 12,4</ref>; <foreign xml:lang="gez">ሣዕረ፡ ምድር፡</foreign> <ref cRef="Am." loc="7,2">Am. 7,2</ref>; <ref cRef="Dan." loc="4,22">Dan. 4,22</ref>; <foreign xml:lang="gez">ሣዕረ፡ ይትረዐይ፡</foreign> <ref cRef="Job" loc="40,10">Job 40,10</ref>; <ref cRef="Prov." loc="19,12">Prov. 19,12</ref>; <ref cRef="Ps." loc="36,2">Ps. 36,2</ref>; <ref cRef="Ps." loc="101,5">Ps. 101,5</ref>; <ref cRef="Ps." loc="103,15">Ps. 103,15</ref>; <ref cRef="Ps." loc="146,9">Ps. 146,9</ref>; <ref cRef="Sir." loc="40,16">Sir. 40,16</ref>; <ref cRef="4 Esr." loc="9,28">4 Esr. 9,28</ref>; <ref cRef="Marc." loc="4,28">Marc. 4,28</ref> (gramen segetis); <ref cRef="Jac." loc="1,11">Jac. 1,11</ref>; <ref cRef="1 Petr." loc="1,24">1 Petr. 1,24</ref>; <foreign xml:lang="gez">አሥዕርት፡</foreign> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> gramina </t:quote></cit> <ref cRef="Chrys. Ta." loc="27">Chrys. Ta. 27</ref>; <foreign xml:lang="grc">χλόη</foreign> <foreign xml:lang="gez">ከመ፡ ያብቍል፡ ሣዕረ፡ ገዳም፡</foreign> <ref cRef="Job" loc="38,27">Job 38,27</ref>; <foreign xml:lang="grc">νομή</foreign> (pabulum) <ref cRef="Hez." loc="34,18">Hez. 34,18</ref>; <foreign xml:lang="grc">πάπυρος</foreign> <ref cRef="Job" loc="8,11">Job 8,11</ref>; <foreign xml:lang="grc">τὸ ἄχι τὸ χλωρόν</foreign> <foreign xml:lang="gez">ኵሉ፡ ሐመልማለ፡ ሣዕር፡</foreign> <ref cRef="Jes." loc="19,7">Jes. 19,7</ref>; de herbis malis in vineis <foreign xml:lang="gez">ሣዕር፡ ወሦክ፡</foreign> <ref cRef="Jes." loc="5,6">Jes. 5,6</ref>; <foreign xml:lang="grc">φρύγανα ἄγρια</foreign> <foreign xml:lang="gez">ሣዕረ፡ ገዳም፡</foreign> <ref cRef="Job" loc="30,7">Job 30,7</ref>. <sense n="a" xml:id="Da"> Etiam de <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> herbis aridis </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> foeno </t:quote></cit> et <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> stramento </t:quote></cit> usurpatur: <foreign xml:lang="grc">φρύγιον</foreign> <ref cRef="Ps." loc="101,4">Ps. 101,4</ref>; <foreign xml:lang="grc">καλάμη</foreign> <ref cRef="Ps." loc="82,12">Ps. 82,12</ref>; <foreign xml:lang="gez">ሣዕር፡ ዘያነሥኦ፡ ነፋስ፡</foreign> <foreign xml:lang="grc">χόρτος φερόμενος ὑπὸ πνεύματος</foreign> <ref cRef="Job" loc="13,25">Job 13,25</ref>; <foreign xml:lang="grc">ἄχυρα</foreign> <ref cRef="Gen." loc="24,25">Gen. 24,25</ref> (at <foreign xml:lang="gez">ሐሠር፡</foreign> <ref cRef="Gen." loc="24,32">Gen. 24,32</ref>); <foreign xml:lang="gez">ይውዒ፡ ከመ፡ ሣዕረ፡ ገዳም፡</foreign> <foreign xml:lang="grc">ἐν τοῖς δάσεσι τοῦ δρυμοῦ</foreign> <ref cRef="Jes. " loc="9,18">Jes.  9,18</ref>; <foreign xml:lang="grc">κάρφος</foreign> <ref cRef="Matth." loc="7,5">Matth. 7,5</ref> <lbl expand="romanae editionis">rom.</lbl> (at <foreign xml:lang="gez">ሐሠር፡</foreign> <ref cRef="Matth." loc="7,4">Matth. 7,4</ref>); <foreign xml:lang="gez">ሣዕር፡</foreign> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> stramentum </t:quote></cit>, quo tecta aedium teguntur, <ref cRef="Gad. Lal." loc="">Gad. Lal. </ref> 
+</sense> <sense n="b" xml:id="Db"> In Voc. Ae. tamquam singulares herbarum species distinguuntur <sense n="α" xml:id="Dbα"> <foreign xml:lang="gez">ሣዕረ፡ አንሕስት፡</foreign> (<cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> gramen tectorum </t:quote></cit>) <ref cRef="Ps. " loc="128,5">Ps.  128,5</ref>; <ref cRef="4 Reg." loc="19,26">4 Reg. 19,26</ref>, quod interpretantur <foreign xml:lang="gez">አሸሀት፡</foreign> (?). 
+</sense> <sense n="β" xml:id="Dbβ"> <foreign xml:lang="gez">ሣዕረ፡ ቋዕ፡ ዘ፡ ልህቅ፡</foreign> inter nomina plantarum. 
+</sense> 
+</sense> </sense>
+               
+            <sense xml:id="Tmain" xml:lang="en" source="#traces"> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">śāʿr</t:quote></cit>, <lbl expand="pluralis">Pl.</lbl> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">ʾaśʿǝrt</t:quote></cit>, <foreign xml:lang="gez">ሣዕራት፡</foreign> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">śāʿǝrāt</t:quote></cit> <sense n="G" xml:id="TG"> <foreign xml:lang="gez">ሣዕር፡</foreign> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">śāʿr</t:quote></cit>, <lbl expand="pluralis">Pl.</lbl> <foreign xml:lang="gez">ሣዕራት፡</foreign> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">śāʿǝrāt</t:quote></cit> «<cit type="translation" xml:lang="fr"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">herbe</t:quote></cit>» ― <foreign xml:lang="am">ሣር፡</foreign> Ms. <ref type="BM" target="BNFabb217">BNFabb217</ref>, fol. 53v. <lb/>
+ <bibl><ptr target="bm:Grebaut1952SuppLexicon"/><citedRange unit="page"> 134</citedRange></bibl> 
+</sense> <sense n="L" xml:id="TL"> <foreign xml:lang="gez">ሣዕር</foreign> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">śāʿr</t:quote></cit> (<lbl expand="pluralis">Pl.</lbl> <foreign xml:lang="gez">አሥዕርት</foreign> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">ʾaśʿǝrt</t:quote></cit>), (<bibl><ptr target="bm:AlaqaTayya1965MSawasew"/></bibl>) <foreign xml:lang="gez">ሳዕር</foreign> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">sāʿr</t:quote></cit> <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">herb</t:quote></cit>, <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">herbage</t:quote></cit>, <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">grass</t:quote></cit>, <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">vegetation</t:quote></cit>, <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">straw</t:quote></cit>, (<bibl><ptr target="bm:AlaqaTayya1965MSawasew"/></bibl>) <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">meadow</t:quote></cit>, <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">grassland</t:quote></cit>, <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">pasture</t:quote></cit> <bibl><ptr target="bm:Leslau1987dic"/><citedRange unit="page"> 525a</citedRange></bibl> 
+</sense> </sense></entry>
+         </div>
+      </body>
+   </text>
+</TEI>

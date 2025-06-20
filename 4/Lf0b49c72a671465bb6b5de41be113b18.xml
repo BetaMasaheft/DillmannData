@@ -1,0 +1,89 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ታሪክ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+         <change who="LB" when="2018-03-01">root</change>
+         <change who="PL" when="2019-10-24">replaced d'Abb Cat references with bibliographical reference #7</change>
+         <change who="PL" when="2019-10-29">fixed bibliographic reference as per #251</change>
+        </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="Lf0b49c72a671465bb6b5de41be113b18" n="4258">
+               <form>
+                  <foreign xml:lang="gez">ታሪክ</foreign>
+               <rs type="root"/>
+                    </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain"> <gramGrp> <pos expand="Substantivum">subst.</pos> </gramGrp> i.q. <foreign xml:lang="ar">تَأرِيخٌ</foreign>, <lbl expand="pluralis">Pl.</lbl> <foreign xml:lang="gez">ታሪካት፡</foreign>, <sense n="1" xml:id="D1"> <cit type="translation" xml:lang="la">
+                                <quote> aera </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> epocha </quote>
+                            </cit>: <foreign xml:lang="gez">ወእሙንቱ፡ ይገብሩ፡ ፪ታሪካተ፡ ታሪከ፡ ሥጋዌ፡ ወታሪከ፡ ዲዮቅልጥያኖስ፡</foreign> <ref cRef="Abush." loc="8">Abush. 8</ref>; al.</sense> <sense n="2" xml:id="D2"> <cit type="translation" xml:lang="la">
+                                <quote> chronicon </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> annales </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> historia </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> acta </quote>
+                            </cit>: <foreign xml:lang="gez">ዝውእቱ፡ መጽሐፈ፡ ታሪክ፡</foreign>, vel <foreign xml:lang="gez">ተፈጸመ፡ ታሪከ፡ ንጉሥነ፡ በካፋ፡</foreign> Cod. Bibl. Bodl. Ox. XXXII (<ref cRef="Catal." loc="81">Catal. p. 81</ref>; <ref cRef="Catal. " loc="82">Catal.  p. 82</ref>); eorum nomina subscripta leguntur <foreign xml:lang="gez">ውስተ፡ ታሪከ፡ ጉባኤ፡ ሣልስ፡</foreign> Fid. Jac. Bar.; <bibl>
+                                <ptr target="bm:Ludolf1691Commentarius"/>
+                               <citedRange unit="page">241</citedRange>
+                               <citedRange unit="note">13</citedRange>
+                            </bibl><!--. 241 n. 13-->; <bibl><ptr target="bm:Abbadie1859Cat"/><citedRange unit="page">51</citedRange></bibl>. </sense> </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,86 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng"
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="gez">እንጦርጦስ</title>
+            <editor>Alessandro Bausi</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>Hiob-Ludolf-Zentrum für Äthiopistik</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>The origin of the lexicon is in a thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann, Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum
+                     indice latino. Adiectum est vocabularium tigre dialecti septentrionalis
+                     compilatum</emph> a W. Munziger. Lipsiae: Th.O. Weigel, 1865.</ref></p>
+            <p>Additional records were created by the project <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/"> TraCES (ERC Advanced Grant, Grant
+                  Agreement 338756)</ref> and follow-up projects at HLCEES</p>
+         </sourceDesc>
+      </fileDesc>
+      <t:encodingDesc xmlns:t="http://www.tei-c.org/ns/1.0">
+         <p>A digital edition of the Lexicon in TEI.</p>
+         <listPrefixDef>
+            <prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/>
+         </listPrefixDef>
+      </t:encodingDesc>
+      <t:profileDesc xmlns:t="http://www.tei-c.org/ns/1.0">
+         <t:langUsage>
+            <t:language ident="en">English</t:language>
+            <t:language ident="la">latin</t:language>
+            <t:language ident="it">Italian</t:language>
+            <t:language ident="gez">Gǝʿǝz</t:language>
+            <t:language ident="grc">Ancient Greek</t:language>
+            <t:language ident="syr">Syriac</t:language>
+            <t:language ident="ar">Arabic</t:language>
+            <t:language ident="sa">Sanskrit</t:language>
+            <t:language ident="geo">Georgian</t:language>
+            <t:language ident="cop">Coptic</t:language>
+            <t:language ident="osa">Old South Arabian</t:language>
+         </t:langUsage>
+      </t:profileDesc>
+      <revisionDesc>
+         <change who="MB" when="2023-04-09">added a new entry</change>
+         <change who="MB" when="2023-04-09">corrected a misspelt form</change>
+         <change who="MB" when="2023-04-09">corrected a mistake</change>
+      </revisionDesc>
+   </teiHeader>
+   <t:text xmlns:t="http://www.tei-c.org/ns/1.0">
+      <body>
+         <div>
+            <entry xml:id="L111e1qql0j9v1rvpw01k2zzi5jy9p5ta" n="13107">
+               <form><foreign xml:lang="gez">አንጦርጦስ</foreign></form>
+               <sense xml:id="Tmain" xml:lang="en" source="#traces">
+                  <gramGrp><pos expand="nomen">n.</pos></gramGrp>
+                  <cit type="translation" xml:lang="en">
+                     <t:quote> hell, the inferno, the underworld</t:quote>
+                  </cit>, <foreign xml:lang="gez">ቦእምኔሆሙ፡ ዘወድቀ፡ ውስተ፡ አየር፡ ወቦ፡ እመኔሆሙ፡ ዘወድቀ፡ ውስተ፡ ምድር፡
+                     ወቦ፡ እምኔሆሙ፡ ዘበጽሐ፡ እስከ፡ አንጦርጦስ፡ መትሕተ፡ ታሕቲት</foreign> ‘<cit type="translation" xml:lang="fr">
+                     <t:quote> Il y en eut parmi eux qui tombèrent dans l’air; il y en eut parmi eux
+                        qui tombèrent sur la terre; il y en eut parmi eux qui parvinrent jusqu’aux
+                        enfers, sous (les lieux) inférieurs</t:quote>
+                  </cit>’ <bibl><ptr target="bm:Grebaut1917MiraclesJesusI"/><citedRange unit="page">
+                        16 (ed., tr.)</citedRange></bibl>
+                  <sense n="L" xml:id="TL">
+                     <cit type="transcription" xml:lang="gez">
+                        <t:quote> ʾanṭorṭos </t:quote>
+                     </cit>
+                     <cit type="translation" xml:lang="en">
+                        <t:quote> hell, the inferno, the underworld </t:quote>
+                     </cit> (T) <bibl><ptr target="bm:Leslau1987dic"/><citedRange unit="page">
+                           34a</citedRange></bibl>
+                  </sense>
+                  <nd/>
+               </sense>
+            </entry>
+         </div>
+      </body>
+   </t:text>
+</TEI>

@@ -1,0 +1,109 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng"
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="gez">መስበክያ</title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref></p>
+            <p><ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref></p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+         <listPrefixDef>
+            <prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="MK" when="2022-01-04">added new entry</change>
+         <change who="MK" when="2022-01-25">added meaning</change>
+         <change who="MK" when="2022-04-11">correction</change>
+         <change who="MK" when="2022-06-02">correction</change>
+         <change who="MK" when="2022-06-02">added trances </change>
+         <change who="MK" when="2022-06-02">added example</change>
+         <change who="MK" when="2022-06-02">added etymology</change>
+         <change who="MK" when="2022-06-02">added reference </change>
+         <change who="MK" when="2022-06-02">correction</change>
+         <change who="MK" when="2022-06-02">correction</change>
+         <change who="MK" when="2022-06-02">correction</change>
+         <change who="MK" when="2022-06-02">correction</change>
+         <change who="MK" when="2022-06-02">correction</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="Leb17367b41bc4c2489f6e168b67a2203" n="12719">
+               <form><foreign xml:lang="gez">መስበኪያ</foreign></form>
+               <sense xml:id="Tmain" xml:lang="en" source="#traces">
+                  <cit type="transcription" xml:lang="gez">
+                     <quote>masbakiyā</quote>
+                  </cit>, <foreign xml:lang="gez">መስበክያ</foreign>
+                  <cit type="transcription" xml:lang="gez">
+                     <quote>masbakyā</quote>
+                  </cit>
+                  <gramGrp><pos expand="Substantivum">subst.</pos></gramGrp>
+                  <sense n="1" xml:id="T1"> means of, place or time for preaching </sense>
+                  <sense n="2" xml:id="T2"> kind of a praying stick ? <foreign xml:lang="gez">ወርቅ፡
+                        መስበክያ፡ ፩።</foreign> ‘<cit type="translation" xml:lang="fr">
+                        <quote>un masbakyā en or</quote>
+                     </cit>’ <bibl><ptr target="bm:ContiRossini1909LiberT"/><citedRange unit="page">
+                           70 l. 25 (ed.)</citedRange></bibl>, <bibl><ptr target="bm:ContiRossini1910LiberV"/><citedRange unit="page"> 85 l. 6
+                           (tr.)</citedRange></bibl> (Conti Rossini suggests that warq masbakyā can
+                     be an object similar to <lbl expand="videas">vid.</lbl>
+                     <foreign xml:lang="gez">ሰንደቅ፡</foreign>
+                     <bibl><ptr target="bm:ContiRossini1910LiberV"/><citedRange unit="page"> 86 n.
+                           2</citedRange></bibl>) </sense>
+                  <sense n="C" xml:id="TC"> for <foreign xml:lang="gez">መስበክያ፡ መስቀል</foreign>
+                     <lbl expand="videas">vid.</lbl>
+                     <foreign xml:lang="gez">መስቀል፡</foreign> (TraCES) </sense>
+                  <sense n="E" xml:id="TE">from Amharic <foreign xml:lang="am">መስበክያ</foreign>
+                     <cit type="transcription" xml:lang="gez">
+                        <quote>masbakyā</quote>
+                     </cit>, <foreign xml:lang="am">መስበኪያ</foreign>
+                     <cit type="transcription" xml:lang="gez">
+                        <quote>masbakiyā</quote>
+                     </cit>
+                     <gramGrp><pos expand="not found">instr.</pos></gramGrp> ‘means of, place or
+                     time for preaching’ </sense>
+                  <nd/>
+               </sense>
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

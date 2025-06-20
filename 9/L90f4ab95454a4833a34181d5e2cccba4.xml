@@ -1,0 +1,83 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ረሥአ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="LB" when="2018-02-14">root</change>
+        </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L90f4ab95454a4833a34181d5e2cccba4" n="2093">
+               <form>
+                  <foreign xml:lang="gez">ረሥአ</foreign>
+               <rs type="root"/>
+                    </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain"> <subc>I,1</subc> [contiguae videntur radices <foreign xml:lang="he">רָזָה</foreign> <foreign xml:lang="ar">رَذِيَ</foreign> <cit type="translation" xml:lang="la">
+                            <quote> extenuatus, enervatus fuit </quote>
+                        </cit>; <foreign xml:lang="ar">رَزَحَ</foreign> <lbl expand="idem">id.</lbl>; <foreign xml:lang="ar">رَزَأَ</foreign> et <foreign xml:lang="ar">رَزِئَ</foreign> <cit type="translation" xml:lang="la">
+                            <quote> deminuit rem </quote>
+                        </cit>] <gramGrp> <pos expand="Subjunctivus">Subj.</pos> </gramGrp> <foreign xml:lang="gez">ይርሣእ፡</foreign>, <sense n="1" xml:id="D1"> <cit type="translation" xml:lang="la">
+                                <quote> senescere </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> senem esse </quote>
+                            </cit>: <foreign xml:lang="gez">እስከ፡ ይረሥኡ፡</foreign> <ref cRef="Jes." loc="46,3">Jes. 46,3</ref>; <ref cRef="Jes." loc="65,22">Jes. 65,22</ref>; <ref cRef="Jes." loc="65,23">Jes. 65,23</ref>; <foreign xml:lang="gez">ፈድፋደ፡ ረሥአ፡</foreign> <ref cRef="Tob." loc="14,3">Tob. 14,3</ref>; <ref cRef="Job" loc="21,7">Job 21,7</ref>; <foreign xml:lang="gez">እልህቅ፡ ወእረሥእ፡</foreign> <ref cRef="Job " loc="29,18">Job  29,18</ref>; <ref cRef="Sir." loc="8,6">Sir. 8,6</ref>; <foreign xml:lang="gez">ርሣእ፡ በተግባርከ፡</foreign> <ref cRef="Sir." loc="11,20">Sir. 11,20</ref>; <ref cRef="Kuf." loc="21">Kuf. 21</ref>; <ref cRef="Kuf." loc="27">Kuf. 27</ref>; <foreign xml:lang="gez">ለረሢእ፡ ፍጡነ፡</foreign> <ref cRef="Kuf." loc="23">Kuf. 23</ref>; <foreign xml:lang="gez">ረሢኦ፡ ጥቀ፡</foreign> <ref cRef="Gen." loc="25,8">Gen. 25,8</ref>; <ref cRef="Gen." loc="27,2">Gen. 27,2</ref>; <ref cRef="1 Reg." loc="8,1">1 Reg. 8,1</ref>; <ref cRef="Ps." loc="36,26">Ps. 36,26</ref>; <ref cRef="Judith" loc="16,23">Judith 16,23</ref>; <ref cRef="Hebr." loc="11,11">Hebr. 11,11</ref>; <foreign xml:lang="gez">ረሣእኩ፡ እምአውስቦ፡</foreign> <ref cRef="Ruth " loc="1,12">Ruth  1,12</ref>; <foreign xml:lang="gez">ዘይረሥእ፡</foreign> <cb n="0278" xml:id="c0278"/> <foreign xml:lang="gez">እምአቡከ፡</foreign> <ref cRef="Job" loc="15,10">Job 15,10</ref>.</sense> <sense n="2" xml:id="D2"> rarius de rebus: <cit type="translation" xml:lang="la">
+                                <quote> senescere </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> aetate confici </quote>
+                            </cit>: <foreign xml:lang="gez">እመ፡ ረሥአ፡ ሥርዉ፡ በምድር፡</foreign> <ref cRef="Job" loc="14,8">Job 14,8</ref>; <ref cRef="Hebr." loc="8,13">Hebr. 8,13</ref>; <foreign xml:lang="gez">ኀለፈ፡ ውርዙቱ፡ ወረሥአ፡ መዋዕሊሁ፡</foreign> <ref cRef="4 Esr." loc="14,8">4 Esr. 14,8</ref>. – <lbl expand="Vocabularium Aethiopicum, -a -a">Voc. Ae.</lbl>: <foreign xml:lang="gez">ረሥአ፡ ዘ፡ አረጀ፡ ዘንግዐሂ።</foreign> </sense> </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

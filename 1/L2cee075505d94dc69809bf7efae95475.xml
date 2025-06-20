@@ -1,0 +1,102 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ፅርዐት </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="AE" when="2018-10-18">Sprachkennungen,</change>
+        </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L2cee075505d94dc69809bf7efae95475" n="9702">
+               <form>
+                  <foreign xml:lang="gez">ፅርዐት</foreign>
+               </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain"> <gramGrp> <pos expand="nomen actionis">n. act.</pos> </gramGrp> et <gramGrp> <pos expand="Substantivum">subst.</pos> </gramGrp>, <lbl expand="pluralis">Pl.</lbl> <foreign xml:lang="gez">ፅርዐታት፡</foreign> <sense n="1" xml:id="D1"> <cit type="translation" xml:lang="la">
+                                <quote> intermissio </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> cessatio </quote>
+                            </cit>: <foreign xml:lang="gez">ዘእንበለ፡ ፅርዐት፡</foreign> <ref cRef="Clem." loc="125">Clem. f. 125</ref>; <ref cRef="Phlx." loc="1">Phlx. 1</ref>; <ref cRef="Lit." loc="163,4">Lit. 163,4</ref>; <foreign xml:lang="gez">ዘአልቦ፡ ፅርዐተ፡</foreign> <cit type="translation" xml:lang="la">
+                                <quote> indesinenter </quote>
+                            </cit>, Lud.; ejus tempore erant <foreign xml:lang="gez">ቅዳሴያት፡ ዘእንበለ፡ ፅርዐታት፡</foreign> <ref cRef="Sx. Mag." loc="24.">Sx. Mag. 24.</ref> </sense> <sense n="2" xml:id="D2"> in specie: <cit type="translation" xml:lang="la">
+                                <quote> interpellatio </quote>
+                            </cit> <cit type="translation" xml:lang="la">
+                                <quote> operis </quote>
+                            </cit> (si quis a quaestu faciendo impeditur, <cit type="translation" xml:lang="de">
+                                <quote>Versäumniß</quote>
+                            </cit>): <ref cRef="Ex." loc="21,19">Ex. 21,19</ref>; F.N. 45 (ubi idem locus repetitus est).</sense> <sense n="3" xml:id="D3"> <cit type="translation" xml:lang="la">
+                                <quote> otium </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> feriae </quote>
+                            </cit>, nec non <cit type="translation" xml:lang="la">
+                                <quote> dies feriatus </quote>
+                            </cit>: <foreign xml:lang="gez">በመዋዕለ፡ ፅርዐቱ፡</foreign> <ref cRef="Sap." loc="13,13">Sap. 13,13</ref>; <foreign xml:lang="gez">ቀድሱ፡ ፅርዐተ፡ ለጣዖት፡</foreign> <ref cRef="4 Reg." loc="10,20">4 Reg. 10,20</ref> <lbl expand="varia lectio">var.</lbl>; <ref cRef="Jes." loc="1,13">Jes. 1,13</ref> <lbl expand="varia lectio">var.</lbl> </sense> <sense n="4" xml:id="D4"> <cit type="translation" xml:lang="la">
+                                <quote> desidia </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> inertia </quote>
+                            </cit>: <foreign xml:lang="gez">ዘይዴግን፡ ፅርዐተ፡</foreign> <foreign xml:lang="grc">σχολήν</foreign> <ref cRef="Prov." loc="28,19">Prov. 28,19</ref>; <foreign xml:lang="gez">ፅርዐተ፡ እደው፡</foreign> <ref cRef="Koh." loc="10,18">Koh. 10,18</ref>; <foreign xml:lang="gez">ተሐፅኖ፡ በፅርዐት፡</foreign> (<cit type="translation" xml:lang="de">
+                                <quote>aufgezogen werden in Müßiggang</quote>
+                            </cit>) <ref cRef="Chrys. Ta." loc="29.">Chrys. Ta. 29.</ref> </sense> <sense n="5" xml:id="D5"> <cit type="translation" xml:lang="la">
+                                <quote> res otiosa </quote>
+                            </cit> vel <cit type="translation" xml:lang="la">
+                                <quote> inutilis </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> inanitas </quote>
+                            </cit>: <foreign xml:lang="gez">ዘይዴግን፡ ፅርዐተ፡</foreign> <foreign xml:lang="grc">μάταια</foreign> <ref cRef="Prov." loc="12,11">Prov. 12,11</ref>; <foreign xml:lang="gez">ከመ፡ ያእምሩ፡ ፅርዐተ፡ ሥርዐተ፡ አማልክቲሆሙ፡</foreign> (<cit type="translation" xml:lang="de">
+                                <quote>die Nichtigkeit ihres Heidenthums</quote>
+                            </cit>) <ref cRef="Jsp." loc="278">Jsp. p. 278</ref>; <foreign xml:lang="gez">ተከሥተ፡ ፅርዐት፡ ወተኀብአ፡ ጽድቅ፡</foreign> <ref cRef="Jsp." loc="342.">Jsp. p. 342.</ref> </sense> </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

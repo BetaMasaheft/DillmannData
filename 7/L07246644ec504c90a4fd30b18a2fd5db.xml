@@ -1,0 +1,104 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> አማን </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="AE" when="2018-07-23">Verschachtelung,</change>
+        </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L07246644ec504c90a4fd30b18a2fd5db" n="5475">
+               <form>
+                  <foreign xml:lang="gez">አማን</foreign>
+               </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain"> <gramGrp> <pos expand="adjectivum">adj.</pos> </gramGrp> <sense n="1" xml:id="D1"> <cit type="translation" xml:lang="la">
+                                <quote> fidus </quote>
+                            </cit>: <foreign xml:lang="gez">እመ፡ አማንኑ፡ ውእቱ፡ ለሐዊር፡ ምስሌከ፡</foreign> <foreign xml:lang="grc">εἰ πιστὸς τοῦ πορευθῆναι μετὰ σοῦ</foreign> <ref cRef="Tob." loc="5,9">Tob. 5,9</ref>.</sense> <sense n="2" xml:id="D2"> <cit type="translation" xml:lang="la">
+                                <quote> verus </quote>
+                            </cit>: <foreign xml:lang="gez">እመ፡ አማነ፡ ኮነ፡ ወጥዩቀ፡ ነገሩ፡</foreign> <ref cRef="Deut." loc="13,15">Deut. 13,15</ref>; <foreign xml:lang="gez">እመሰ፡ አማንኬ፡</foreign> <ref cRef="4 Reg." loc="10,15">4 Reg. 10,15</ref>; <foreign xml:lang="gez">አማነ፡ ረሰይክሙ፡ ለነ፡ ዘነገርናሁ፡</foreign> <ref cRef="2 Cor." loc="7,14">2 Cor. 7,14</ref>. <sense n="a" xml:id="D2a"> <gramGrp> <pos expand="Substantivum">subst.</pos> </gramGrp> <cit type="translation" xml:lang="la">
+                                    <quote> verum </quote>
+                                </cit>, <cit type="translation" xml:lang="la">
+                                    <quote> veritas </quote>
+                                </cit>: <foreign xml:lang="gez">ይውኅድ፡ ዝምሳሌ፡ እምአማን፡</foreign> Cyr. c. <ref cRef="Pall." loc="97.">Pall. f. 97.</ref> </sense> <sense n="b" xml:id="D2b"> <lbl expand="cum">c.</lbl> <gramGrp> <pos expand="pronomen suffixum">pron. suff.</pos> </gramGrp> : <foreign xml:lang="gez">አማንክሙኑ፡ ኢታመልኩ፡</foreign> (<cit type="translation" xml:lang="la">
+                                    <quote> veritasne vestra est? non adorabitis? </quote>
+                                </cit> i.e.) <cit type="translation" xml:lang="la">
+                                    <quote> an vere non adorabitis? </quote>
+                                </cit> <ref cRef="Dan." loc="3,14">Dan. 3,14</ref>; <foreign xml:lang="gez">አማንየ፡ እብለከ፡</foreign> Sx. <ref cRef="Haml." loc="8.">Haml. 8.</ref> </sense> </sense> <sense n="3" xml:id="D3"> <gramGrp> <pos expand="adverbium, adverbialiter">adv.</pos> </gramGrp> <cit type="translation" xml:lang="la">
+                                <quote> vere </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> revera </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> re ipsa </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> sane </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> profecto </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> recte </quote>
+                            </cit>, <sense n="a" xml:id="D3a"> <foreign xml:lang="gez">አማነ፡</foreign>, ut: <foreign xml:lang="gez">እስመ፡ አማነ፡ ለአከኒ፡ እግዚአብሔር፡</foreign> <ref cRef="Jer." loc="33,15">Jer. 33,15</ref>.</sense> <sense n="b" xml:id="D3b"> plerumque <foreign xml:lang="gez">አማን፡</foreign>, <foreign xml:lang="grc">ἀληθῶς</foreign> <ref cRef="Ex." loc="33,16">Ex. 33,16</ref>; <ref cRef="3 Reg." loc="8,27">3 Reg. 8,27</ref>; <cb n="0738" xml:id="c0738"/> <ref cRef="2 Par. " loc="6,18">2 Par.  6,18</ref>; <ref cRef="Jer." loc="35,6">Jer. 35,6</ref>; <ref cRef="Joh." loc="7,26">Joh. 7,26</ref>; <ref cRef="Joh." loc="8,31">Joh. 8,31</ref>; <ref cRef="Joh." loc="17,8">Joh. 17,8</ref>; <ref cRef="Matth." loc="14,33">Matth. 14,33</ref>; <ref cRef="Luc." loc="9,27">Luc. 9,27</ref>; 1 <ref cRef="Joh." loc="2,5">Joh. 2,5</ref>; <foreign xml:lang="grc">ἀληθινῶς</foreign> <ref cRef="Sir." loc="41,24">Sir. 41,24</ref>; <foreign xml:lang="grc">ἀληθείας</foreign> <ref cRef="Dan." loc="2,8">Dan. 2,8</ref>; <ref cRef="Dan." loc="2,47">Dan. 2,47</ref>; <ref cRef="Job" loc="19,4">Job 19,4</ref>; <ref cRef="Jes." loc="37,18">Jes. 37,18</ref>; <foreign xml:lang="grc">ὄντως</foreign> <ref cRef="Jer." loc="3,23">Jer. 3,23</ref>; <ref cRef="Jer." loc="10,19">Jer. 10,19</ref>; <ref cRef="Asc. Jes. " loc="9,23">Asc. Jes.  9,23</ref>; <ref cRef="4 Esr." loc="8,41">4 Esr. 8,41</ref>; <ref cRef="4 Esr." loc="8,43">4 Esr. 8,43</ref>; <ref cRef="4 Esr." loc="10,10">4 Esr. 10,10</ref>; <ref cRef="Matth." loc="4,6">Matth. 4,6</ref>; <ref cRef="Ps." loc="7,11">Ps. 7,11</ref>; <foreign xml:lang="gez">እስመ፡ አማን፡ ከማሁ፡ ውእቱ፡</foreign> <ref cRef="Judith" loc="11,10">Judith 11,10</ref>; <foreign xml:lang="grc">ναί</foreign> <ref cRef="Gen." loc="42,21">Gen. 42,21</ref>; <foreign xml:lang="grc">ὀρθῶς</foreign> <ref cRef="Dan. apocr." loc="1,55">Dan. apocr. 1,55</ref>; <ref cRef="Dan. apocr." loc="1,59">Dan. apocr. 1,59</ref>; <foreign xml:lang="grc">ἀμήν</foreign> <ref cRef="Joh." loc="6,32">Joh. 6,32</ref>; <ref cRef="Matth." loc="5,18">Matth. 5,18</ref>; <ref cRef="Matth." loc="24,2">Matth. 24,2</ref> Platt; <foreign xml:lang="gez">አማን፡ ትቤ፡</foreign> <cit type="translation" xml:lang="la">
+                                    <quote> verum </quote>
+                                </cit> (v. <cit type="translation" xml:lang="la">
+                                    <quote> recte </quote>
+                                </cit>) <cit type="translation" xml:lang="la">
+                                    <quote> dixisti </quote>
+                                </cit> Cyr. c. <ref cRef="Pall." loc="65">Pall. f. 65</ref>; <ref cRef="Gen." loc="42,16">Gen. 42,16</ref>.</sense> <sense n="c" xml:id="D3c"> <foreign xml:lang="gez">በአማን፡</foreign> ut <ref cRef="Kuf." loc="1">Kuf. 1</ref>; <ref cRef="Kuf." loc="31">Kuf. 31</ref>; <ref cRef="Sir." loc="42,8">Sir. 42,8</ref>; <ref cRef="1 Tim. " loc="5,3">1 Tim.  5,3</ref>; <ref cRef="Act." loc="10,34">Act. 10,34</ref> (ubi in <lbl expand="edidit">ed.</lbl> Platt lapsu calami <foreign xml:lang="gez">በአምን፡</foreign> scriptum est).</sense> <sense n="d" xml:id="D3d"> <foreign xml:lang="gez">ዘበአማን፡</foreign> <cit type="translation" xml:lang="la">
+                                    <quote> qui vere est </quote>
+                                </cit>, <cit type="translation" xml:lang="la">
+                                    <quote> verus </quote>
+                                </cit>, <foreign xml:lang="grc">ἀληθής</foreign> <ref cRef="Prov." loc="1,3">Prov. 1,3</ref>; <ref cRef="Ps." loc="68,17">Ps. 68,17</ref>; <ref cRef="Joh." loc="1,48">Joh. 1,48</ref>; <foreign xml:lang="grc">ἀληθινός</foreign> <ref cRef="1 Joh." loc="2,8">1 Joh. 2,8</ref>; <ref cRef="Joh." loc="17,3">Joh. 17,3</ref>. – <lbl expand="Vocabularium Aethiopicum, -a -a">Voc. Ae.</lbl>: <foreign xml:lang="gez">አማን፡ አማን፡ ዘ፡ እውን፡ እውን፡</foreign> (v. <foreign xml:lang="gez">ኡን፡ ኡን፡</foreign>).</sense> </sense> </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

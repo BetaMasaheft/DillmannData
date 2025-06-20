@@ -1,0 +1,111 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ቀጥቀጠ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="LB" when="2018-02-23">root</change>
+        </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="Lacace24e22ee4543b24ea4f8197e6b90" n="3651">
+               <form>
+                  <foreign xml:lang="gez">ቀጥቀጠ</foreign>
+               <rs type="root"/>
+                    </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain"> quadril. I [<foreign xml:lang="syr">ܩܨܳܐ</foreign> <cit type="translation" xml:lang="la">
+                            <quote> fregit </quote>
+                        </cit>, <foreign xml:lang="ar">قَضَّ</foreign> <cit type="translation" xml:lang="la">
+                            <quote> contrivit </quote>
+                        </cit> (<foreign xml:lang="ar">قَضَّةٌ</foreign> <cit type="translation" xml:lang="la">
+                            <quote> glarea </quote>
+                        </cit> <cit type="translation" xml:lang="la">
+                            <quote> comminuta </quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                            <quote> parva </quote>
+                        </cit>), <foreign xml:lang="ar">قَضْقَضَ</foreign> <cit type="translation" xml:lang="la">
+                            <quote> confregit </quote>
+                        </cit> <cit type="translation" xml:lang="la">
+                            <quote> comminuitque </quote>
+                        </cit> praedam leo; <lbl expand="collatio, -is vel collectivum,&#xA;                            -e">coll.</lbl>, <foreign xml:lang="he">כָּתַת חָתַת</foreign> <foreign xml:lang="ar">هَدَّ كَدَّ</foreign>, <foreign xml:lang="gez">ጐድጐደ፡</foreign>] <sense n="1" xml:id="D1"> <cit type="translation" xml:lang="la">
+                                <quote> rumpere </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> disrumpere </quote>
+                            </cit>, chordam, rete vel funem, Lud. e Vit. Jacobi Sar.</sense> <sense n="2" xml:id="D2"> <cit type="translation" xml:lang="la">
+                                <quote> confringere </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> perfringere </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> conterere </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> contundere </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> quassare </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> comminuere </quote>
+                            </cit>, (plerumque <foreign xml:lang="grc">συντρίβω</foreign>, <foreign xml:lang="grc">ἐκτρίβω</foreign>, rarius <foreign xml:lang="grc">κλάω</foreign>, <foreign xml:lang="grc">συγκλάω</foreign>, <foreign xml:lang="grc">συνθλάω</foreign>, <foreign xml:lang="grc">θραύω</foreign>, <foreign xml:lang="grc">συγκόπτω</foreign>, <foreign xml:lang="grc">πατάσσω</foreign>), ut tabulas <ref cRef="Ex." loc="34,1">Ex. 34,1</ref>; <ref cRef="Deut." loc="9,17">Deut. 9,17</ref>; idola <ref cRef="Ex. " loc="23,24">Ex.  23,24</ref>; <ref cRef="Deut." loc="7,5">Deut. 7,5</ref>; <ref cRef="Deut." loc="9,21">Deut. 9,21</ref>; <ref cRef="Dan." loc="2,35">Dan. 2,35</ref>; columnas <ref cRef="Jer." loc="50,13">Jer. 50,13</ref>; vas figlinum <ref cRef="Jer. " loc="19,10">Jer.  19,10</ref>; <ref cRef="Ps." loc="2,9">Ps. 2,9</ref>; catenas <ref cRef="Marc." loc="5,4">Marc. 5,4</ref>; jugum <ref cRef="Jes." loc="14,5">Jes. 14,5</ref>; <ref cRef="Jer." loc="2,20">Jer. 2,20</ref>. <ref cRef="Jer." loc="5,5">Jer. 5,5</ref>; pessulos, vectes <ref cRef="Jes." loc="45,2">Jes. 45,2</ref>; <ref cRef="Am." loc="1,5">Am. 1,5</ref>; arbores <ref cRef="Ps." loc="28,5">Ps. 28,5</ref>; <ref cRef="Ex." loc="9,25">Ex. 9,25</ref>; naves <ref cRef="Ps." loc="47,6">Ps. 47,6</ref>; cornua <ref cRef="Thren. " loc="2,3">Thren.  2,3</ref>; <ref cRef="Dan." loc="8,7">Dan. 8,7</ref>; <ref cRef="Hen." loc="90,13">Hen. 90,13</ref>; <ref cRef="Hen." loc="90,16">Hen. 90,16</ref>; capita <ref cRef="Jud." loc="9,53">Jud. 9,53</ref>; <ref cRef="Ps." loc="73,15">Ps. 73,15</ref>; <ref cRef="Ps." loc="109,6">Ps. 109,6</ref>; brachia <ref cRef="Job" loc="38,15">Job 38,15</ref>; <ref cRef="Ps." loc="9,39">Ps. 9,39</ref>; lumbos <ref cRef="Sir." loc="32,22">Sir. 32,22</ref>; ossa: <foreign xml:lang="gez">በመፍጽሐ፡ ኀጺን፡ ዐጽመ፡ እገሪሁ፡ ቀጥቀጡ፡</foreign> <ref cRef="Sx. Nah." loc="25 ">Sx. Nah. 25 </ref>Enc.; homines <ref cRef="Jer." loc="9,21">Jer. 9,21</ref>; <ref cRef="Job" loc="9,17">Job 9,17</ref>; <lbl expand="translate">transl.</lbl> (<cit type="translation" xml:lang="la">
+                                <quote> frangere </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> conficere </quote>
+                            </cit> al.): hominem <ref cRef="Job" loc="38,15">Job 38,15</ref>; <ref cRef="Jes." loc="10,33">Jes. 10,33</ref>; <ref cRef="Jes. " loc="22,17">Jes.  22,17</ref>; <ref cRef="Luc." loc="9,39">Luc. 9,39</ref> (<foreign xml:lang="gez">ቀጥቂጦ፡</foreign>); <ref cRef="Satanam Rom." loc="16,20">Satanam Rom. 16,20</ref>; reges <ref cRef="Sir." loc="46,18">Sir. 46,18</ref>; hostes (<cit type="translation" xml:lang="la">
+                                <quote> clade </quote>
+                            </cit>): <foreign xml:lang="gez">ቀጥቅጦ፡ ለፀረዊ፡</foreign> <ref cRef="Sir." loc="33,9">Sir. 33,9</ref>; <ref cRef="Jos." loc="10,10">Jos. 10,10</ref>; <ref cRef="Jos." loc="10,12">Jos. 10,12</ref>; terram <ref cRef="Jes." loc="2,10">Jes. 2,10</ref>; <ref cRef="Jes." loc="2,19">Jes. 2,19</ref>; bellum (i.e. hostes, arma hostium) <ref cRef="Ex." loc="15,3">Ex. 15,3</ref>; <foreign xml:lang="gez">እግዚአብሔር፡ ይቀጠቅጥ፡ ፀብአ፡</foreign> <ref cRef="Judith" loc="16,2">Judith 16,2</ref>; <lbl expand="cum">c.</lbl> <foreign xml:lang="gez">እምነ፡</foreign> <cit type="translation" xml:lang="la">
+                                <quote> effringere </quote>
+                            </cit> i.e. confringendo exstirpare: <foreign xml:lang="gez">ንቀጥቅጦ፡ እምድረ፡ ሕያዋን፡</foreign> <ref cRef="Jer." loc="11,19">Jer. 11,19</ref>; <cit type="translation" xml:lang="la">
+                                <quote> frangere </quote>
+                            </cit> cor alicujus <ref cRef="Jsp." loc="362 ">Jsp. p. 362 </ref>(<lbl expand="videas">vid.</lbl> <foreign xml:lang="gez">ተባደወ፡</foreign>).</sense> </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

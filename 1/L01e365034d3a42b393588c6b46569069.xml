@@ -1,0 +1,109 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ጠል </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L01e365034d3a42b393588c6b46569069" n="8761">
+               <form>
+                  <foreign xml:lang="gez">ጠል</foreign>
+               </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain">
+                  <gramGrp>
+                     <pos expand="Substantivum">subst.</pos>
+                  </gramGrp>, <gramGrp>
+                     <gen value="masculinum">m.</gen>
+                  </gramGrp>, raro <gramGrp>
+                     <gen value="femininus">fem.</gen>
+                  </gramGrp> (ut <ref cRef="Hos." loc="6,4">Hos. 6,4</ref>), <lbl expand="pluralis">Pl.</lbl>
+                  <foreign xml:lang="gez">ጠላት፡ </foreign>
+                  <sense n="1" xml:id="D1">
+                     <cit type="translation" xml:lang="la">
+                        <quote>ros</quote>
+                     </cit>, <cit type="translation" xml:lang="la">
+                        <quote>pluvia tenuior</quote>
+                     </cit>: <foreign xml:lang="grc">δρόσος</foreign>
+                     <ref cRef="Gen. " loc="27,28">Gen. 27,28</ref>; <ref cRef="Num." loc="11,9">Num. 11,9</ref>; <ref cRef="Deut." loc="32,2">Deut. 32,2</ref>; <ref cRef="Jud." loc="6,37">Jud. 6,37</ref>; <ref cRef="2 Reg." loc="1,21">2 Reg.
+                        1,21</ref>; <ref cRef="Cant." loc="5,2">Cant. 5,2</ref>; <ref cRef="Job" loc="29,19">Job 29,19</ref>; <ref cRef="Ps. " loc="132,3">Ps. 132,3</ref>;
+                        <ref cRef="Dan." loc="4,12">Dan. 4,12</ref>; <ref cRef="Hos." loc="6,4">Hos.
+                        6,4</ref>; <ref cRef="Hos." loc="13,3">Hos. 13,3</ref>; <ref cRef="Mich." loc="5,6">Mich. 5,6</ref>; <ref cRef="Hen." loc="2,3">Hen. 2,3</ref>; <ref cRef="Hen." loc="60,20">Hen. 60,20</ref>; <ref cRef="Hen." loc="76,8">Hen.
+                        76,8</ref>; <ref cRef="Hen." loc="76,9">Hen. 76,9</ref>; <foreign xml:lang="grc">ὑετός</foreign>
+                     <ref cRef="Hez." loc="22,24">Hez. 22,24</ref>; <lbl expand="pluralis">Pl.</lbl>: <cit type="translation" xml:lang="la">
+                        <quote>guttae roris</quote>
+                     </cit>: <foreign xml:lang="gez">ደመናት፡ ያውሕዙ፡ ጠላተ፡</foreign>
+                     <foreign xml:lang="grc">δρόσους</foreign>
+                     <ref cRef="Prov." loc="3,20">Prov. 3,20</ref>; <foreign xml:lang="gez">ጠለ፡ ገዳም፡ </foreign>
+                     <foreign xml:lang="grc">ψεκάδες ὄρεων</foreign>
+                     <ref cRef="Job" loc="24,8">Job 24,8</ref>. De rore resurrectionis (<ref cRef="Jes." loc="26,19">Jes. 26,19</ref>) <lbl expand="videas">vid.</lbl>
+                     <ref cRef="Clem." loc="157.">Clem. f. 157.</ref>
+                  </sense>
+                  <sense n="2" xml:id="D2">
+                     <cit type="translation" xml:lang="la">
+                        <quote>pinguedo</quote>
+                     </cit>, <cit type="translation" xml:lang="la">
+                        <quote>liquor pinguis</quote>
+                     </cit>, <foreign xml:lang="grc">πιότης </foreign>
+                     <ref cRef="Gen." loc="27,28">Gen. 27,28</ref>; <ref cRef="Ps." loc="35,9">Ps.
+                        35,9</ref>; <ref cRef="Hez." loc="25,4">Hez. 25,4</ref>; <foreign xml:lang="gez">ጠላት፡ </foreign>
+                     <ref cRef="Ps." loc="64,12">Ps. 64,12</ref>; <foreign xml:lang="gez">እሉኬ፡ ደቂቀ፡
+                        ጠላት፡ እሙንቱ፡</foreign>
+                     <ref cRef="Zach. " loc="4,14">Zach. 4,14</ref>.</sense>
+               </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,110 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ጸብእ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="MK" when="2019-08-21">added cross-reference </change>
+            <change who="MK" when="2019-08-21">added cross-reference </change>
+            <change who="MK" when="2019-08-21">added link</change>
+            <change who="MK" when="2019-08-29">added new meaning </change>
+            <change who="MK" when="2019-08-29">corr</change>
+            <change who="MK" when="2019-08-29">added nesting </change>
+            <change who="MK" when="2019-08-29">corr</change>
+            <change who="MK" when="2019-08-30">added nesting</change>
+            <change who="MK" when="2019-08-30">added cross-ref</change>
+        </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L8afa14032fc8432ebf27e11b639df660" n="9337">
+               <form>
+                  <foreign xml:lang="gez">ጸብእ</foreign>
+               </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain"> <gramGrp> <pos expand="Substantivum">subst.</pos> </gramGrp>, <gramGrp> <gen value="not found">m.</gen> </gramGrp> et <gramGrp> <gen value="femininus">fem.</gen> </gramGrp>, <lbl expand="pluralis">Pl.</lbl> <foreign xml:lang="gez">አጽባእ፡</foreign> et <foreign xml:lang="gez">አጽባእት፡</foreign>, nec non <foreign xml:lang="gez">ጸብኣት፡</foreign>, <lbl expand="pluralis">Pl.</lbl> <lbl expand="pluralis">Pl.</lbl> <foreign xml:lang="gez">አጽባኣት፡</foreign>, <cit type="translation" xml:lang="la">
+                            <quote> bellum </quote>
+                        </cit>: <foreign xml:lang="gez">ኮነ፡ ጸብእ፡</foreign> <ref cRef="2 Reg." loc="21,20">2 Reg. 21,20</ref>; <foreign xml:lang="gez">አመ፡ ጸብአ፡ መኬማስ፡</foreign> <ref cRef="1 Reg." loc="13,22">1 Reg. 13,22</ref>; <foreign xml:lang="gez">በእንተ፡ ዛቲ፡ ጸብእ፡</foreign> <ref cRef="Jes." loc="27,4">Jes. 27,4</ref>; <foreign xml:lang="gez">በጽሐነ፡ ጸብእ፡</foreign> <ref cRef="Ex." loc="1,20">Ex. 1,20</ref>; <foreign xml:lang="gez">በጸብእ፡</foreign> <ref cRef="Ps." loc="17,43">Ps. 17,43</ref>; <foreign xml:lang="gez">በውስተ፡ ጸብእ፡</foreign> <ref cRef="Ps." loc="23,8">Ps. 23,8</ref>; <ref cRef="Hebr." loc="11,34">Hebr. 11,34</ref>; <foreign xml:lang="gez">ዘይገብር፡ ጸብአ፡ በሰንበት፡</foreign> <ref cRef="Kuf." loc="50">Kuf. 50</ref>; <foreign xml:lang="gez">ኢትግበሩ፡ ጸብአ፡ ምስሌሁ፡</foreign> <ref cRef="Kuf." loc="37">Kuf. 37</ref>; <ref cRef="Deut. " loc="20,12">Deut.  20,12</ref>; <ref cRef="Deut." loc="20,20">Deut. 20,20</ref>; <foreign xml:lang="gez">ንዋየ፡ ጸብእ፡</foreign> F.M. 17,6; <ref cRef="2 Cor." loc="10,4">2 Cor. 10,4</ref>; <foreign xml:lang="gez">ዐበይተ፡ ጸብኣተ፡ ገበርከ፡</foreign> <ref cRef="1 Par." loc="22,8">1 Par. 22,8</ref>; <foreign xml:lang="gez">አጽባእ፡</foreign> <ref cRef="3 Reg." loc="5,3">3 Reg. 5,3</ref>; <foreign xml:lang="gez">አጽባእት፡ ብዙኅ፡</foreign> <ref cRef="Chrys. Ta." loc="27">Chrys. Ta. 27</ref>; <ref cRef="Judith" loc="5,18">Judith 5,18</ref>; <foreign xml:lang="gez">የኀድጉ፡ አጽባኢሆሙ፡</foreign> (Laur.: <foreign xml:lang="gez">አጽባቲሆሙ፡</foreign>) <ref cRef="4 Esr." loc="13,38">4 Esr. 13,38</ref>; <foreign xml:lang="gez">በእንተ፡ አጽባእት፡</foreign> <lbl expand="vel">v.</lbl> <foreign xml:lang="gez">አጽባኣት፡</foreign> <ref cRef="Jer." loc="35,8">Jer. 35,8</ref>; <ref cRef="Marc." loc="13,7">Marc. 13,7</ref>. <sense n="a" xml:id="Da"> <cit type="translation" xml:lang="la">
+                                <quote> expeditio bellica </quote>
+                            </cit>: <foreign xml:lang="gez">አተዉ፡ እምጸብእ፡</foreign> <ref cRef="Num." loc="31,14">Num. 31,14</ref>; <ref cRef="Num." loc="31,21">Num. 31,21</ref>; <foreign xml:lang="gez">ሖሩ፡ ጸብአ፡</foreign> <ref cRef="Num." loc="31,42">Num. 31,42</ref>; <ref cRef="Judith" loc="1,11">Judith 1,11</ref>; <foreign xml:lang="gez">ወጽአ፡ ጸብአ፡</foreign> <ref cRef="Deut." loc="20,1">Deut. 20,1</ref>; <ref cRef="1 Reg." loc="28,1">1 Reg. 28,1</ref>; <ref cRef="Jud." loc="3,10">Jud. 3,10</ref>; <foreign xml:lang="gez">መድምም፡ አንተ፡ በኵሉ፡ ጸብእከ፡</foreign> <foreign xml:lang="grc">ἐν στρατεύμασι πολέμου</foreign> <ref cRef="Judith" loc="11,8">Judith 11,8</ref>.</sense> <sense n="b" xml:id="Db"> <cit type="translation" xml:lang="la">
+                                <quote> militia </quote>
+                            </cit>: <foreign xml:lang="gez">ተምህረ፡ ጸብአ፡</foreign> <ref cRef="Kuf." loc="19">Kuf. 19</ref>; <ref cRef="Ps. " loc="17,37">Ps.  17,37</ref>.</sense> <sense n="c" xml:id="Dc"> <lbl expand="translate">transl.</lbl> (pro armis et militibus): <ref cRef="Ex." loc="15,3">Ex. 15,3</ref>; <ref cRef="Jes." loc="42,13">Jes. 42,13</ref>.</sense> <sense n="d" xml:id="Dd"> <foreign xml:lang="gez">ብእሴ፡ ጸብእ፡</foreign> <cit type="translation" xml:lang="la">
+                                <quote> miles </quote>
+                            </cit> <ref cRef="Sx. Genb." loc="8 ">Sx. Genb. 8 </ref>Enc.</sense> <sense n="e" xml:id="De"> <cit type="translation" xml:lang="la">
+                                <quote> pugna </quote>
+                            </cit>: <ref cRef="Jsp." loc="356 ">Jsp. p. 356 </ref>(<lbl expand="videas">vid. sub</lbl> <foreign xml:lang="gez">ውግረት፡</foreign>).</sense> </sense>
+               
+            <sense xml:lang="en" source="#traces" xml:id="Tmain"> <cit type="transcription" xml:lang="gez">
+                            <quote>ṣabʾ</quote>
+                        </cit> <lbl expand="pluralis">Pl.</lbl> <cit type="transcription" xml:lang="gez">
+                            <quote>ʾaṣbāʾǝt</quote>
+                        </cit>, <cit type="transcription" xml:lang="gez">
+                            <quote>ṣabʾāt</quote>
+                        </cit>; <cit type="translation" xml:lang="en">
+                            <quote>army</quote>
+                        </cit>, <cit type="translation" xml:lang="en">
+                            <quote>armed forces</quote>
+                        </cit> <foreign xml:lang="gez">ዝንቱ፡ ንጉሥ፡ ማእምር፡ ወለባዊ፡ በቀዳሚ፡ ዘመኑ፡ ሞአ፡ ጸብአ፡ ዓማፅያን፡ ወአስተራትዓ፡ መንግሥተ፡ ሥጋዌ።</foreign> ‘<cit type="translation" xml:lang="fr">
+                            <quote>Ce roi, savant et intelligent, dans ses premiers temps vainquit la guerre des révoltés et redressa le royaume matériel</quote>
+                        </cit>’ (According to <bibl>
+                            <ptr target="bm:Praetorius1910RezSarsaDengel"/>
+                        </bibl> in the sentence above the translation of <foreign xml:lang="gez">ጸብእ፡</foreign> as ‘guerre’ does not seem felicitous; he suggests ‘Heer’ i.e. ‘army’.) <foreign xml:lang="gez">ወሶበ፡ ተኀየለት፡ ፀብኡ፡ ወበዝኁ፡ ሠርዊቱ፡ ቦአ፡ ውስቴቱ፡ ትዕቢት፡</foreign> <cit type="translation" xml:lang="it">
+                            <quote>Allorchè si fu rafforzato il suo esercito, e si furono accresciuti i suoi soldati, entrò in lui l’orgoglio</quote>
+                        </cit> <bibl>
+                            <ptr target="bm:ContiRossini1894Lebna"/>
+                            <citedRange unit="page"> 11 l. 4-5 (ed); 21 l. 31-33 (tr.)</citedRange>
+                        </bibl>; for <foreign xml:lang="gez">ዐውደ፡ ጸብእ፡</foreign> <lbl expand="videas">vid.</lbl> <foreign xml:lang="gez">ዐውድ፡</foreign> (TraCES) <sense n="C" xml:id="TC"> for <foreign xml:lang="gez">መካነ፡ ጸብእ፡</foreign> <lbl expand="videas">vid.</lbl> <ref type="external" target="https://betamasaheft.eu/Dillmann/lemma/L7936096aa0fc48b09392a135351dd0d6">
+                                <foreign xml:lang="gez">መካን፡</foreign>
+                            </ref> (TraCES) </sense> </sense>
+                </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

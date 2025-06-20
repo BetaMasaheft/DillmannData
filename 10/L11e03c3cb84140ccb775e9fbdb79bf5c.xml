@@ -1,0 +1,115 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ተሰፍሐ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L11e03c3cb84140ccb775e9fbdb79bf5c" n="3112">
+               <form>
+                  <foreign xml:lang="gez">ተሰፍሐ</foreign>
+               </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain"> <subc>III,1</subc> <sense n="1" xml:id="D1">
+                     <cit type="translation" xml:lang="la">
+                        <quote>extendi</quote>
+                     </cit>, <cit type="translation" xml:lang="la">
+                        <quote>expandi</quote>
+                     </cit>, <cit type="translation" xml:lang="la">
+                        <quote>dilatari</quote>
+                     </cit>: <foreign xml:lang="gez">ትሰፋሕ፡ </foreign>
+                     <foreign xml:lang="grc">ἐκτείνεται</foreign>
+                     <ref cRef="Prov." loc="23,32">Prov. 23,32</ref>; <foreign xml:lang="gez">ኖኀ፡
+                        ሠርፁ፡ ዘተሰፍሐ፡ እምብዙኅ፡</foreign>
+                     <cb n="0403" xml:id="c0403"/>
+                     <foreign xml:lang="gez">ማይ፡</foreign>
+                     <ref cRef="Hez." loc="31,5">Hez. 31,5</ref>; <foreign xml:lang="gez">የማኑ፡
+                        ለእግዚአብሔር፡ ተሰፍሐት፡ ውስተ፡ ኵሉ፡ ምድር፡</foreign>
+                     <ref cRef="Clem." loc="4.">Clem. f. 4.</ref> In specie nota phrasin <foreign xml:lang="gez">ተሰፍሐ፡ እዱ፡</foreign> (<foreign xml:lang="ar">بًسِطَ
+                        يَدُهُ</foreign>) <cit type="translation" xml:lang="la">
+                        <quote>successum habuit</quote>
+                     </cit>, <cit type="translation" xml:lang="la">
+                        <quote>auctus est opibus</quote>
+                     </cit>, <cit type="translation" xml:lang="la">
+                        <quote>potestate</quote>
+                     </cit> in Jsp., ut: <foreign xml:lang="gez">ተሰፍሐ፡ እደ፡ እኩያን፡ ወተኀብአ፡
+                        ጻድቅ፡</foreign>
+                     <ref cRef="Jsp." loc="342">Jsp. p. 342</ref>; <foreign xml:lang="gez">በዝኀ፡ ንዋዩ፡
+                        ወተሰፍሐ፡ እደዊሁ፡ </foreign>
+                     <ref cRef="Jsp." loc="352">Jsp. p. 352</ref>; al. (<lbl expand="videas">vid.</lbl>
+                     <foreign xml:lang="gez">አስፍሐ፡ እደ፡</foreign>).</sense>
+                  <sense n="2" xml:id="D2"> expandi i.e. <cit type="translation" xml:lang="la">
+                        <quote>propagari</quote>
+                     </cit>, <cit type="translation" xml:lang="la">
+                        <quote>longe lateque manare</quote>
+                     </cit> vel <cit type="translation" xml:lang="la">
+                        <quote>fluere</quote>
+                     </cit>: <foreign xml:lang="gez">ተሰፍሐ፡ ሃይማኖት፡ ርትዕት፡ ውስተ፡ ኵሉ፡ ብሔረ፡ ግብጽ፡ </foreign>
+                     <ref cRef="Sx. Genb." loc="4.">Sx. Genb. 4.</ref>
+                  </sense>
+                  <sense n="3" xml:id="D3">
+                     <cit type="translation" xml:lang="la">
+                        <quote>obduci</quote>
+                     </cit>, <cit type="translation" xml:lang="la">
+                        <quote>obtendi</quote>
+                     </cit> (coll. <foreign xml:lang="ar">صَفَحَ</foreign> II et <foreign xml:lang="he">צִפָּה</foreign>): <foreign xml:lang="gez">ተጠምቀ፡ ውስተ፡ ዐዘቅተ፡
+                        ወተሰፍሐ፡ ሥጋሁ፡ ወኮነ፡ ጸሊመ፡</foreign>
+                     <ref cRef="Sx. Teq." loc="13 ">Sx. Teq. 13 </ref>(nisi <subc>III,2</subc> intelligere
+                     malueris).</sense>
+               </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,83 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ደምፀ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="LB" when="2018-04-26">root</change>
+        </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L534f5652ddb648628ca2cd88efaeab54" n="7886">
+               <form>
+                  <foreign xml:lang="gez">ደምፀ</foreign>
+               <rs type="root"/>
+                    </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain"> <subc>I,1</subc> [<foreign xml:lang="he">שׁמץ</foreign>] <gramGrp> <pos expand="Subjunctivus">Subj.</pos> </gramGrp> <foreign xml:lang="gez">ይድምፅ፡</foreign> et <foreign xml:lang="gez">ይድመፅ፡</foreign>, <cit type="translation" xml:lang="la">
+                            <quote> sonare </quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                            <quote> resonare </quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                            <quote> strepere </quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                            <quote> fremere </quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                            <quote> tonare </quote>
+                        </cit>, de inanimatis: <foreign xml:lang="gez">ይደምፅ፡ ማዕበሉ፡</foreign> <foreign xml:lang="grc">ἠχήσουσι</foreign> <ref cRef="Jer." loc="5,22">Jer. 5,22</ref>; <ref cRef="Jes." loc="17,12">Jes. 17,12</ref>; <ref cRef="Ps." loc="45,3">Ps. 45,3</ref>; <ref cRef="Ps." loc="76,16">Ps. 76,16</ref>; <ref cRef="Luc." loc="21,25">Luc. 21,25</ref>; <foreign xml:lang="gez">ይደምፅ፡ ከመ፡ ዐቢይ፡ ፀዓዕ፡</foreign> <ref cRef="Sir." loc="40,13">Sir. 40,13</ref>; <foreign xml:lang="gez">ዘእንበለ፡ ይድመፅ፡</foreign> (v. <foreign xml:lang="gez">ይድምፅ፡</foreign>) <foreign xml:lang="gez">ድምፀ፡ ነጐድጓድ፡</foreign> <ref cRef="4 Esr." loc="4,5">4 Esr. 4,5</ref>; <foreign xml:lang="gez">ይደምፅ፡ እግሩ፡ በቃለ፡ ፀዓዕ፡</foreign> <ref cRef="Sir." loc="45,9">Sir. 45,9</ref>; <foreign xml:lang="gez">ይደምፅ፡ ሰቆቃው፡</foreign> <ref cRef="Koh. " loc="12,5">Koh.  12,5</ref> <lbl expand="varia lectio">var.</lbl>; <foreign xml:lang="gez">ይደምፅ፡ ብካይ፡</foreign>, <foreign xml:lang="gez">ፍሥሓ፡</foreign> <ref cRef="Ps." loc="29,6">Ps. 29,6</ref>; hymnus <foreign xml:lang="gez">ደምፀ፡ እምአፍ፡</foreign> <ref cRef="Org." loc="1">Org. 1</ref>; etiam de hominibus: <foreign xml:lang="gez">ዘኢይደምፅ፡</foreign> strepitum non edens i.e. <foreign xml:lang="grc">ἡσύχιος</foreign> <ref cRef="1 Petr. " loc="3,4">1 Petr.  3,4</ref>; <foreign xml:lang="gez">መጽአ፡ እንዘ፡ ኢይደምፅ፡</foreign> Lit. Epiph.; Org.; <foreign xml:lang="gez">በቃለ፡ አሚን፡ ወትፍሥሕት፡ ደምፁ፡</foreign> <ref cRef="Ps." loc="41,5">Ps. 41,5</ref>; <foreign xml:lang="gez">ደምፀት፡ ሀገር፡</foreign> resonavit <lbl expand="scilicet">sc.</lbl> strepitu <ref cRef="3 Reg." loc="1,45">3 Reg. 1,45</ref>. In specie <sense n="a" xml:id="Da"> de rumore: <ref cRef="Org." loc="2">Org. 2</ref>; <foreign xml:lang="gez">ደምፀት፡ ኵሉ፡ ሀገር፡ በእንቲአሃ፡</foreign> rumore resonavit <ref cRef="Ruth" loc="1,19">Ruth 1,19</ref>.</sense> <sense n="b" xml:id="Db"> <cit type="translation" xml:lang="la">
+                                <quote> strepitu conturbari </quote>
+                            </cit>: <foreign xml:lang="gez">ኢትደምፅ፡</foreign> <foreign xml:lang="grc">οὐ πτοηθήσῃ</foreign> <ref cRef="Job" loc="11,16">Job 11,16</ref>. — (<foreign xml:lang="gez">ይደምጽ፡</foreign> <ref cRef="Kuf." loc="36 ">Kuf. p. 36 </ref> <lbl expand="annotatio">ann.</lbl> 7 lapsu calami pro <foreign xml:lang="gez">ይገምጽ፡</foreign> scriptum videtur).</sense> </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

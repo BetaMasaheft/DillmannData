@@ -1,0 +1,76 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ኄጠ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="LB" when="2018-03-07">root</change>
+        <change who="MK" when="2022-09-16">added Grebaut and Leslau</change><change who="MK" when="2022-09-16">correction</change><change who="MK" when="2022-09-16">ADDED comma</change><change who="MK" when="2022-09-16">added Grebaut 2</change><change who="MK" when="2022-09-16">added variant</change><change who="MK" when="2022-09-16">added variants</change></revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L0ec9fba0ecae43819da6255912331ba1" n="4649">
+               <form>
+                  <foreign xml:lang="gez">ኄጠ</foreign>
+               <rs type="root"/>
+                    </form>
+               <sense xml:id="Dmain" xml:lang="la" source="#dillmann"> <subc>I,1</subc> <gramGrp> <pos expand="Subjunctivus">Subj.</pos> </gramGrp> <foreign xml:lang="gez">ይኂጥ፡</foreign> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> persuadere </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> pellicere </t:quote></cit> et plerumque in malam partem <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> seducere </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> decipere </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> lactare </t:quote></cit> verbis [comparanda sunt <foreign xml:lang="ar">حَاصَ</foreign> (<foreign xml:lang="ar">حَيْصٌ</foreign>) <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> deflexit </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> declinavit </t:quote></cit>, III <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> dolo usus est </t:quote></cit> contra aliquem; <foreign xml:lang="ar">حَادَ</foreign> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> declinavit </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> deflexit </t:quote></cit>, <foreign xml:lang="ar">كَادَ خَدَع</foreign> (<foreign xml:lang="ar">كَيْدٌ</foreign>) <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> decepit </t:quote></cit> (dolo) aliquem (cfr. Hebr. et Aram. <foreign xml:lang="he">הֵסִית</foreign>, <foreign xml:lang="syr">ܐܰܣܛܝܺ</foreign>, quae et ipsa notione <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> declinandi </t:quote></cit> nituntur).]: (Tacla-Haimânôt, evangelii propagandi causa terras peragrans,) <foreign xml:lang="gez">ኄጦሙ፡ ለሰብእ፡ በነገረ፡ የውሀት፡</foreign> <ref cRef="Gad. T.H." loc="">Gad. T.H. </ref>; Titus <foreign xml:lang="gez">ፈቀደ፡ ይኂጦሙ፡ ወይጸውዖሙ፡ ለሰላም፡</foreign> (ad pacem jungendam) <ref cRef="Jsp." loc="359">Jsp. p. 359</ref>; <foreign xml:lang="gez">በመብልዑ፡ የኀይጠከ፡ ወካዕበ፡ ወሥልሰ፡ ያሰፍጠከ፡</foreign> <ref cRef="Sir." loc="13,7">Sir. 13,7</ref>; <ref cRef="Sir." loc="13,8">Sir. 13,8</ref>; <ref cRef="Jes. " loc="30,21">Jes.  30,21</ref> <lbl expand="varia lectio">var.</lbl>; <foreign xml:lang="gez">ዑቁ፡ ኢይኂጡክሙ፡ በተጥባበ፡ ነገር፡</foreign> <ref cRef="Col." loc="2,8">Col. 2,8</ref> rom; Jsp. p. 344; <ref cRef="Kedr f." loc="61.">Kedr f. 61.</ref> <cb n="0613" xml:id="c0613"/> </sense>
+               
+            <sense xml:id="Tmain" xml:lang="en" source="#traces"> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">ḫeṭa</t:quote></cit>, <foreign xml:lang="gez">ኀየጠ፡</foreign> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">ḫayaṭa</t:quote></cit>, <foreign xml:lang="gez">ሄጠ፡</foreign> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">heṭa</t:quote></cit> <sense n="G" xml:id="TG"> <foreign xml:lang="gez">ሄጠ፡</foreign> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">heṭa</t:quote></cit> <subc>I,1</subc> <cit type="translation" xml:lang="fr"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">enjòler</t:quote></cit>. <foreign xml:lang="gez">ትቤሎ፡ ቅድስት፡ ሶፍያ፡ ሥራይሰ፡ ኢያአምር፡ ወባሕቱ፡ አምላኪየ፡ ፈታሔ፡ ሥራያት፡ ወሶቤሃ፡ ሄጣ፡ ንጉሥ፡ ከመ፡ ኦሆ፡ ያብህላ።</foreign> <bibl><ptr target="bm:Guidi1906SynaxSane"/><citedRange unit="page"> 549–550</citedRange></bibl> <lb/>
+ <bibl><ptr target="bm:Grebaut1952SuppLexicon"/><citedRange unit="page"> 12–13</citedRange></bibl> <lb/>
+ <foreign xml:lang="gez">ኀየጠ፡</foreign> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">ḫayaṭa</t:quote></cit> <subc>I,1</subc> <cit type="translation" xml:lang="fr"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">séduire</t:quote></cit>, <cit type="translation" xml:lang="fr"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">persuader</t:quote></cit> (en mauvaise part). Ce verbe est mentionné dans Dillmann sous la seule forme contracte <foreign xml:lang="gez">ሄጠ፡</foreign> <subc>I,1</subc>. <foreign xml:lang="gez">ወኢተመይጡ፡ እስመ፡ ሊቆሙ፡ ኀየጦሙ፡ ብዙኀ።</foreign> <cit type="translation" xml:lang="fr"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">Ils ne revinrent pas, car leur maître les avait séduits en beaucoup de choses.</t:quote></cit> <bibl><ptr target="bm:Trumpp1882Hexaemeron"/><citedRange unit="page"> 31</citedRange></bibl>. <lb/>
+ <bibl><ptr target="bm:Grebaut1952SuppLexicon"/><citedRange unit="page"> 458</citedRange></bibl> 
+</sense> <sense n="L" xml:id="TL"> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">ḫyṭ</t:quote></cit>, <foreign xml:lang="gez">ኄጠ</foreign> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">ḫeṭa</t:quote></cit> (yǝḫiṭ), (<bibl><ptr target="bm:Grebaut1952SuppLexicon"/><citedRange unit="page"> 458</citedRange></bibl>) <foreign xml:lang="gez">ኀየጠ፡</foreign> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">ḫayaṭa</t:quote></cit>, (<bibl><ptr target="bm:AlaqaTayya1965MSawasew"/></bibl>) <foreign xml:lang="gez">ሄጠ፡</foreign> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">heṭa</t:quote></cit> <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">deceive</t:quote></cit>, <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">cheat</t:quote></cit>, <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">seduce</t:quote></cit>, <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">corrupt</t:quote></cit>, <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">entice</t:quote></cit>, <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">persuade</t:quote></cit>, <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">convince</t:quote></cit>, <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">flatter</t:quote></cit>, <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">urge</t:quote></cit> (with words) <bibl><ptr target="bm:Leslau1987dic"/><citedRange unit="page"> 270b</citedRange></bibl> 
+</sense> </sense></entry>
+         </div>
+      </body>
+   </text>
+</TEI>

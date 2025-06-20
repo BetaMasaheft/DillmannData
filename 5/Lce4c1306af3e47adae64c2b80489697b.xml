@@ -1,0 +1,95 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ደምሰሰ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="Lce4c1306af3e47adae64c2b80489697b" n="7859">
+               <form>
+                  <foreign xml:lang="gez">ደምሰሰ</foreign>
+               </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain"> quadril. I <cit type="translation" xml:lang="la">
+                     <quote>exstinguere</quote>
+                  </cit>, <cit type="translation" xml:lang="la">
+                     <quote>delere</quote>
+                  </cit>, <sense n="a" xml:id="Da">
+                     <cit type="translation" xml:lang="la">
+                        <quote>obliterare</quote>
+                     </cit>, vestigia: <foreign xml:lang="gez">ደምሰሰ፡ አሠርየ፡</foreign>
+                     <ref cRef="Job " loc="30,13">Job 30,13</ref>; <foreign xml:lang="gez">ይደመስሱ፡
+                        አሠረ፡ እገሪሆሙ፡</foreign>
+                     <ref cRef="Jes." loc="3,12">Jes. 3,12</ref>; literas, rem scriptam: <ref cRef="Col." loc="2,14">Col. 2,14</ref>; afflavit <foreign xml:lang="gez">ውስተ፡ ክርታስ፡ ወደምሰሰ፡ ኵሎ፡ ዘጽሑፍ፡ ውስቴታ፡</foreign>
+                     <ref cRef="Sx. Sen." loc="12">Sx. Sen. 12</ref>; nomen e libro <ref cRef="Jsp." loc="340">Jsp. p. 340</ref>; <ref cRef="Ex." loc="32,32">Ex. 32,32</ref>;
+                        <ref cRef="Ex." loc="32,33">Ex. 32,33</ref>; in specie: peccata (<cit type="translation" xml:lang="la">
+                        <quote>oblivioni tradere</quote>
+                     </cit>), <foreign xml:lang="gez">አነኬ፡ ዘእደመስሶን፡ ለኀጣውኢከ፡</foreign>
+                     <ref cRef="Jes." loc="43,25">Jes. 43,25</ref>; <ref cRef="Jes." loc="44,22">Jes. 44,22</ref>; <ref cRef="Jes." loc="53,11">Jes. 53,11</ref>; <foreign xml:lang="gez">ደምሰሰ፡ ሎቱ፡ እግዚአብሔር፡ ኀጣውአ፡</foreign>
+                     <ref cRef="Sir." loc="47,11">Sir. 47,11</ref>; <ref cRef="Jer." loc="18,23">Jer. 18,23</ref>; <ref cRef="Ps." loc="50,2">Ps. 50,2</ref>.</sense>
+                  <sense n="b" xml:id="Db">
+                     <cit type="translation" xml:lang="la">
+                        <quote>perdere</quote>
+                     </cit> (<note>vertilgen</note>), personas vel res: <ref cRef="Gen." loc="6,7">Gen. 6,7</ref>; <ref cRef="Gen." loc="19,13">Gen. 19,13</ref>; <ref cRef="Gen." loc="19,14">Gen. 19,14</ref>; <ref cRef="Gen." loc="19,29">Gen.
+                        19,29</ref>; <ref cRef="Lev." loc="20,3">Lev. 20,3</ref>; <ref cRef="Lev." loc="20,5">Lev. 20,5</ref>; <ref cRef="Kuf." loc="5">Kuf. 5</ref>; <ref cRef="Hez." loc="25,7">Hez. 25,7</ref>; <ref cRef="Judith" loc="9,10">Judith
+                        9,10</ref>; <ref cRef="Ps." loc="118,87">Ps. 118,87</ref>; <ref cRef="Hen. " loc="83,8">Hen. 83,8</ref>; <cb n="1089" xml:id="c1089"/>
+                     <ref cRef="4 Esr." loc="7,43">4 Esr. 7,43</ref>; nomen <ref cRef="Ps." loc="9,5">Ps. 9,5</ref>; <ref cRef="Deut." loc="9,14">Deut. 9,14</ref>,
+                     terras, urbes <ref cRef="Sir." loc="10,16">Sir. 10,16</ref>; <ref cRef="Hen." loc="76,4">Hen. 76,4</ref>; <ref cRef="Deut." loc="12,2">Deut.
+                     12,2</ref>.</sense>
+               </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

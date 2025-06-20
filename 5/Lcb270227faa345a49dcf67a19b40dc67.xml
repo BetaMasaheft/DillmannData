@@ -1,0 +1,79 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ኮል </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="LB" when="2018-04-03">root</change>
+        </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="Lcb270227faa345a49dcf67a19b40dc67" n="6274">
+               <form>
+                  <foreign xml:lang="gez">ኮል</foreign>
+               <rs type="root"/>
+                    </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain"> (rarius <foreign xml:lang="gez">ኰል፡</foreign>) <gramGrp> <pos expand="Substantivum">subst.</pos> </gramGrp>, <lbl expand="pluralis">Pl.</lbl> <foreign xml:lang="gez">አክዋል፡</foreign> [dictum a rotunditate (<foreign xml:lang="he">גלל גיל</foreign> <foreign xml:lang="ar">جال</foreign> al.); <lbl expand="conferas">cfr.</lbl> etiam <foreign xml:lang="gez">ሰፈር፡ ኮል፡</foreign> et <foreign xml:lang="gez">ሰፈርጎል፡</foreign> col. 405] <sense n="1" xml:id="D1"> <cit type="translation" xml:lang="la">
+                                <quote> malum </quote>
+                            </cit> (pomum), <cit type="translation" xml:lang="la">
+                                <quote> fructus malo similis </quote>
+                            </cit>, <foreign xml:lang="gez">ኮል፡</foreign> <foreign xml:lang="grc">μῆλα</foreign> <ref cRef="Cant." loc="7,9">Cant. 7,9</ref>; <foreign xml:lang="gez">ይሰወጥ፡ በአንፍየ፡ ጼናክሙ፡ ኮል፡</foreign> (odor vester malorum instar fragans) <ref cRef="Sx. Masc." loc="25 ">Sx. Masc. 25 </ref>Enc.; <foreign xml:lang="gez">ኮለ፡ ወርቅ፡</foreign> <foreign xml:lang="grc">μῆλον χρυσοῦν</foreign> <ref cRef="Prov." loc="25,11">Prov. 25,11</ref>; <foreign xml:lang="gez">አክዋል፡</foreign> <ref cRef="Cant." loc="2,5">Cant. 2,5</ref>; <foreign xml:lang="gez">አክዋል፡ ዘአርሞን፡</foreign> Macc. f. 3; Deg. (<lbl expand="videas">vid. sub</lbl> <foreign xml:lang="gez">ስዱቅ፡</foreign>), <foreign xml:lang="gez">ቅርፍተ፡ ኮል፡</foreign> M.F.; <foreign xml:lang="gez">ቅብአ፡ ጽጌ፤ ለአንፈ፡ ኵሉ፡ ዘይጼኑ፡ ኮለ፡</foreign> <ref cRef="Sx. Mag." loc="17 ">Sx. Mag. 17 </ref>Enc.; <foreign xml:lang="gez">ኮለ፡ ሐቅል፡</foreign> <foreign xml:lang="grc">μῆλα μανδραγορῶν</foreign> <ref cRef="Gen." loc="30,14">Gen. 30,14</ref>; <ref cRef="Gen. " loc="30,15">Gen.  30,15</ref>; <ref cRef="Gen." loc="30,16">Gen. 30,16</ref>; <ref cRef="Gen." loc="30,17">Gen. 30,17</ref>; <ref cRef="Gen." loc="30,18">Gen. 30,18</ref>.</sense> <sense n="2" xml:id="D2"> <cit type="translation" xml:lang="la">
+                                <quote> malus </quote>
+                            </cit> arbor, <foreign xml:lang="gez">ኮል፡</foreign> et <foreign xml:lang="gez">ኰል፡</foreign> <ref cRef="Joel" loc="1,12">Joel 1,12</ref>; <ref cRef="Cant." loc="2,3">Cant. 2,3</ref>; <ref cRef="Cant." loc="8,5">Cant. 8,5</ref>; <foreign xml:lang="gez">ዕፀ፡ ኮል፡</foreign>, Org. <cit type="translation" xml:lang="la">
+                                <quote> – Voc. Ae.: </quote>
+                            </cit> <foreign xml:lang="gez">ኮል፡ ዘ፡ እንኮይ።</foreign> </sense> </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

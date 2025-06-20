@@ -1,0 +1,77 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> አስተየ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="AE" when="2017-11-15">Emendanda-Link optimiert.</change>
+        </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L58c4af3cde3d48499d0d3c59c79f6801" n="2763">
+               <form>
+                  <foreign xml:lang="gez">አስተየ</foreign>
+               </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain"> <subc>II,1</subc> <cit type="translation" xml:lang="la">
+                            <quote> bibendum dare </quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                            <quote> potum praebere </quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                            <quote> propinare </quote>
+                        </cit>; <gramGrp> <pos expand="not found">abs.</pos> </gramGrp> <foreign xml:lang="gez">ታበልዕኒ፡ ወታሰትይኒ፡</foreign> <ref cRef="Sir." loc="29,25">Sir. 29,25</ref>; <lbl expand="cum">c.</lbl> <foreign xml:lang="gez">ለ፡</foreign> pers. <ref cRef="Kuf." loc="67">Kuf. p. 67</ref>; <ref cRef="Ps." loc="103,12">Ps. 103,12</ref>; <ref cRef="Gen." loc="24,14">Gen. 24,14</ref>; <lbl expand="cum">c.</lbl> <gramGrp> <case value="accusativus">Acc.</case> </gramGrp> <lbl expand="persona">pers.</lbl>: <foreign xml:lang="gez">ከመ፡ ኣስትዮሙ፡ ለሕዝብየ፡</foreign> <ref cRef="Jes." loc="43,20">Jes. 43,20</ref>; <ref cRef="Jer." loc="32,1">Jer. 32,1</ref>; <ref cRef="Gen. " loc="24,18">Gen.  24,18</ref>; <ref cRef="Matth." loc="25,35">Matth. 25,35</ref>; <ref cRef="Luc." loc="13,15">Luc. 13,15</ref>; <lbl expand="cum">c.</lbl> <lbl expand="duplex">dupl.</lbl> <gramGrp> <case value="accusativus">Acc.</case> </gramGrp> (pers. et rei): <foreign xml:lang="gez">ለዘይላሑ፡ አስትዮ፡ ወይነ፡</foreign> <ref cRef="Sir." loc="34,29">Sir. 34,29</ref>; <ref cRef="Job" loc="22,7">Job 22,7</ref>; <ref cRef="Gen." loc="19,32">Gen. 19,32</ref>; <ref cRef="Ps." loc="59,3">Ps. 59,3</ref>; <ref cRef="Am." loc="2,12">Am. 2,12</ref>; <ref cRef="Jer." loc="8,14">Jer. 8,14</ref>; <foreign xml:lang="gez">አስትዮሙ፡ ሐሞተ፡</foreign> <ref cRef="Jer." loc="9,15">Jer. 9,15</ref>; <foreign xml:lang="gez">አስተዮሙ፡ ጋኔነ፡</foreign> {<ref target="#c1429"/>
+                        <foreign xml:lang="gez">ዘያደነግፆሙ፡</foreign>} <ref cRef="Jes." loc="29,10">Jes. 29,10</ref>; <foreign xml:lang="gez">ታሰትዮ፡ ማየ፡ አእምሮ፡</foreign> <ref cRef="Sir." loc="15,3">Sir. 15,3</ref>; <ref cRef="Matth." loc="10,42">Matth. 10,42</ref>; <ref cRef="Marc." loc="9,41">Marc. 9,41</ref>; <lbl expand="cum">c.</lbl> <gramGrp> <case value="accusativus">Acc.</case> </gramGrp> rei: <foreign xml:lang="gez">አስተየ፡ ወይነ፡</foreign> <ref cRef="Dan." loc="5,1">Dan. 5,1</ref>; <lbl expand="cum">c.</lbl> <foreign xml:lang="gez">እምነ፡</foreign> vel <foreign xml:lang="gez">በ፡</foreign> rei: <foreign xml:lang="gez">ዘያሰትዮ፡ ለቢጹ፡ በዘይመውት፡</foreign> <ref cRef="Hab." loc="2,15">Hab. 2,15</ref>; <foreign xml:lang="gez">አዘዘ፡ ያስትይዋ፡ እምነ፡ ወይኑ፡</foreign> <ref cRef="Judith" loc="12,1">Judith 12,1</ref>. </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

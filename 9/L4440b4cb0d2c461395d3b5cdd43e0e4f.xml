@@ -1,0 +1,99 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ዐደመ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="LB" when="2018-04-24">root</change>
+        </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L4440b4cb0d2c461395d3b5cdd43e0e4f" n="7315">
+               <form>
+                  <foreign xml:lang="gez">ዐደመ</foreign>
+               <rs type="root"/>
+                    </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain"> <subc>I,2</subc> [vicina sunt <foreign xml:lang="he">עִדָּן</foreign> <foreign xml:lang="syr">ܥܶܕܳܢ</foreign> <foreign xml:lang="ar">عِدَّانٌ عَدَّ</foreign> et <foreign xml:lang="he">מוֹעֵד יָעַד</foreign>] <cit type="translation" xml:lang="la">
+                            <quote> diem </quote>
+                        </cit> vel <cit type="translation" xml:lang="la">
+                            <quote> tempus </quote>
+                        </cit>(<cit type="translation" xml:lang="la">
+                            <quote> certum </quote>
+                        </cit>) <cit type="translation" xml:lang="la">
+                            <quote> constituere </quote>
+                        </cit>vel <cit type="translation" xml:lang="la">
+                            <quote> praefinire </quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                            <quote> definire </quote>
+                        </cit>: <foreign xml:lang="gez">አኮኑ፡ ዐደምከ፡ ዕድሜ፡</foreign> seq. <gramGrp> <pos expand="Subjunctivus">Subj.</pos> </gramGrp> <ref cRef="Dan." loc="6,12">Dan. 6,12</ref>; <ref cRef="Dan." loc="6,7">Dan. 6,7</ref> <lbl expand="varia lectio">var.</lbl>; <lbl expand="cum">c.</lbl> <gramGrp> <case value="accusativus">Acc.</case> </gramGrp> <lbl expand="persona">pers.</lbl> (<cit type="translation" xml:lang="la">
+                            <quote> alicui </quote>
+                        </cit>): <ref cRef="Ex." loc="8,5">Ex. 8,5</ref>; <foreign xml:lang="gez">እምዐደምከኒ፡</foreign> <foreign xml:lang="grc">τάξῃ μοι χρόνον</foreign> <ref cRef="Job" loc="14,13">Job 14,13</ref>; <ref cRef="1 Esr." loc="9,12">1 Esr. 9,12</ref>; <foreign xml:lang="gez">ዐድሞሙ፡ ዕድሜ፡</foreign> <ref cRef="Dan." loc="6,7">Dan. 6,7</ref> <lbl expand="varia lectio">var.</lbl>; <foreign xml:lang="gez">እስከ፡ ፸ ሰንበታት፡ ዐድሞሙ፡ ለሕዝብከ፡</foreign> <ref cRef="Dan." loc="9,24">Dan. 9,24</ref> <cb n="1010" xml:id="c1010"/> (Imperat.); <foreign xml:lang="gez">ዐድሞሙ፡ ይእዜኒ፡ ከመ፡ ይስድዱ፡</foreign> <ref cRef="2 Esr." loc="10,3">2 Esr. 10,3</ref>. <sense n="a" xml:id="Da"> <cit type="translation" xml:lang="la">
+                                <quote> tempus dare </quote>
+                            </cit>, (<cit type="translation" xml:lang="la">
+                                <quote> comperendinationem largiri </quote>
+                            </cit>): <foreign xml:lang="gez">ከመ፡ የዐድሞ፡</foreign> <foreign xml:lang="grc">ὅπως χρόνον δῷ αὐτῷ</foreign> <ref cRef="Dan." loc="2,16">Dan. 2,16</ref>; <foreign xml:lang="gez">እዔድመክሙ፡ ኅዳጠ፡ መዋዕለ፡</foreign> Lud. ex Hist. VII Puer.</sense> <sense n="b" xml:id="Db"> <cit type="translation" xml:lang="la">
+                                <quote> certo tempore venire jubere </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> convocare </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> invitare </quote>
+                            </cit>: <foreign xml:lang="gez">ወዐደመ፡ ሮብዓም፡ ኵሎ፡ መላህቅተ፡</foreign> <foreign xml:lang="grc">συνήγαγε</foreign> <ref cRef="2 Par." loc="10,6">2 Par. 10,6</ref>; <ref cRef="2 Par." loc="10,12">2 Par. 10,12</ref>; <ref cRef="2 Par." loc="18,5">2 Par. 18,5</ref>.</sense> <sense n="c" xml:id="Dc"> <cit type="translation" xml:lang="la">
+                                <quote> constituere </quote>
+                            </cit>i.e. <cit type="translation" xml:lang="la">
+                                <quote> destinare </quote>
+                            </cit>aliquid rei vel ad rem: <foreign xml:lang="gez">ወመደልዋን፡ ይዔድምዎ፡ ለልቦሙ፡ ለመዐት፡</foreign> <foreign xml:lang="grc">ὑποκριταὶ καρδίᾳ τάξουσι θυπόν</foreign> <ref cRef="Job" loc="36,13">Job 36,13</ref>. – <lbl expand="Vocabularium Aethiopicum, -a -a">Voc. Ae.</lbl>: <foreign xml:lang="gez">ዐሠረ፡ ዐደመ፡ ዘ፡ አቀጸረ፡</foreign> (v. <foreign xml:lang="gez">አቃጸረ፡</foreign>).</sense> </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

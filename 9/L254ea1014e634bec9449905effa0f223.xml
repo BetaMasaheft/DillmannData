@@ -1,0 +1,84 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> መድኀኒት </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="AE" when="2018-12-17">correction</change>
+        </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L254ea1014e634bec9449905effa0f223" n="8034">
+               <form>
+                  <foreign xml:lang="gez">መድኀኒት</foreign>
+               </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain"> <gramGrp> <pos expand="Substantivum">subst.</pos> </gramGrp>, <gramGrp> <gen value="femininus">fem.</gen> </gramGrp>et <gramGrp> <gen value="not found">m.</gen> </gramGrp>, <lbl expand="pluralis">Pl.</lbl> <foreign xml:lang="gez">መድኀኒታት፡</foreign> <sense n="1" xml:id="D1"> <cit type="translation" xml:lang="la">
+                                <quote> conservatio </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> liberatio </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> redemtio </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> salus </quote>
+                            </cit>, <ref cRef="1 Reg." loc="11,9">1 Reg. 11,9</ref> (<foreign xml:lang="grc">σωτηρία</foreign>); <ref cRef="Jes." loc="33,2">Jes. 33,2</ref>; <cb n="1114" xml:id="c1114"/> <ref cRef="Jes." loc="33,6">Jes. 33,6</ref>; <ref cRef="Jes." loc="33,20">Jes. 33,20</ref>; <ref cRef="Jes." loc="40,5">Jes. 40,5</ref>; <ref cRef="Jes." loc="46,13">Jes. 46,13</ref>; <ref cRef="Jes." loc="51,6">Jes. 51,6</ref>; <ref cRef="Jes." loc="52,10">Jes. 52,10</ref>; <foreign xml:lang="gez">ጌራ፡ መድኀኒት፡</foreign> <ref cRef="Jes." loc="59,17">Jes. 59,17</ref>; <ref cRef="Jes." loc="60,6">Jes. 60,6</ref>; <ref cRef="Jes." loc="60,18">Jes. 60,18</ref>; <foreign xml:lang="gez">ትረክቡ፡ መድኀኒተ፡ ለነፍስክሙ፡</foreign> <ref cRef="Jer." loc="6,16">Jer. 6,16</ref>; <ref cRef="Job" loc="11,20">Job 11,20</ref>; <ref cRef="Prov." loc="2,7">Prov. 2,7</ref>; <ref cRef="Prov." loc="11,14">Prov. 11,14</ref>; <ref cRef="Ps." loc="11,6">Ps. 11,6</ref>; <ref cRef="Ps." loc="13,11">Ps. 13,11</ref>; <ref cRef="Ps." loc="87,1">Ps. 87,1</ref>; <ref cRef="Ps." loc="110,8">Ps. 110,8</ref> al.; <ref cRef="Judith" loc="8,17">Judith 8,17</ref>; <foreign xml:lang="gez">ብከ፡ ትትረከብ፡ መድኀኒቱ፡ ለእስራኤል፡</foreign> <ref cRef="Kuf." loc="31">Kuf. 31</ref>; <ref cRef="Luc." loc="1,69">Luc. 1,69</ref>; <ref cRef="Joh." loc="4,22">Joh. 4,22</ref>; <ref cRef="Act." loc="7,25">Act. 7,25</ref>; <foreign xml:lang="gez">መድኀኒተ፡ ነፍስክሙ፡</foreign> <ref cRef="1 Petr." loc="1,9">1 Petr. 1,9</ref>; <foreign xml:lang="gez">ተጋደል፡ በእንተ፡ መድኀኒተ፡ ነፍስከ፡</foreign> <ref cRef="Sx. Hed." loc="13">Sx. Hed. 13</ref>; <foreign xml:lang="grc">ἀπολύτρωσις</foreign> <ref cRef="Eph." loc="1,7">Eph. 1,7</ref>; <ref cRef="Eph." loc="1,14">Eph. 1,14</ref>; <foreign xml:lang="grc">λύτρωσις</foreign> <ref cRef="Luc." loc="1,68">Luc. 1,68</ref>; <foreign xml:lang="gez">ዘይፈቅድ፡ መድኀኒተ፡ እምኀጣውኢሁ፡</foreign> F.M. 2,5; <foreign xml:lang="gez">መድኀኒታት፡</foreign> <ref cRef="Genz." loc="89 ">Genz. f. 89 </ref>(<lbl expand="videas">vid. sub</lbl> <foreign xml:lang="gez">ርክበት፡</foreign>). <sense n="a" xml:id="D1a"> <foreign xml:lang="gez">መሥዋዕተ፡ መድኀኒት፡</foreign> <cit type="translation" xml:lang="la">
+                                    <quote> sacrificium pro salute </quote>
+                                </cit> vel <cit type="translation" xml:lang="la">
+                                    <quote> eucharisticum </quote>
+                                </cit>, <foreign xml:lang="grc">σωτήριον</foreign> vel <foreign xml:lang="grc">θυσία σωτηρίου</foreign>, <ref cRef="Am." loc="5,22">Am. 5,22</ref>; <ref cRef="Kuf." loc="16">Kuf. 16</ref>; <ref cRef="Kuf. " loc="22,">Kuf.  22,</ref> nec non <foreign xml:lang="gez">መድኀኒት፡</foreign> <ref cRef="1 Par." loc="21,26">1 Par. 21,26</ref>; <ref cRef="2 Par." loc="7,7">2 Par. 7,7</ref>; <foreign xml:lang="gez">ይሠውዕ፡ ለመድኀኒቱ፡</foreign> <ref cRef="Sir." loc="32,2">Sir. 32,2</ref>; <ref cRef="Sir. " loc="47,2">Sir.  47,2</ref>.</sense> <sense n="b" xml:id="D1b"> pro <lbl expand="concretus, e (opp.&#xA;                            abstracto)">concr.</lbl> <foreign xml:lang="grc">σωτήρ</foreign>, <ref cRef="Jud." loc="3,9">Jud. 3,9</ref>; <ref cRef="Jud. " loc="3,15">Jud.  3,15</ref>.</sense> </sense> <sense n="2" xml:id="D2"> <cit type="translation" xml:lang="la">
+                                <quote> remedium salutare </quote>
+                            </cit>, <foreign xml:lang="grc">φάρμακον σωτήριον</foreign> <ref cRef="Chrys. Ta." loc="27 ">Chrys. Ta. 27 </ref>(<lbl expand="videas">vid. sub</lbl> <foreign xml:lang="gez">አሰሳሊ፡</foreign>); <foreign xml:lang="gez">መድኀኒት፡ በዘይትፌወስ፡ ቍስል፡</foreign> Org.</sense> </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

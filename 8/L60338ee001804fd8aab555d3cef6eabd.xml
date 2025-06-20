@@ -1,0 +1,73 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ርሑስ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="MK" when="2024-06-14">added gr and les </change><change who="MK" when="2024-06-14">added sub</change></revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L60338ee001804fd8aab555d3cef6eabd" n="2035">
+               <form>
+                  <foreign xml:lang="gez">ርሑስ</foreign>
+               </form>
+               <sense xml:id="Dmain" xml:lang="la" source="#dillmann"> <gramGrp> <pos expand="participium">part.</pos> </gramGrp> (pro feminino <foreign xml:lang="gez">ርሕስት፡</foreign> nonnumquam <foreign xml:lang="gez">ርስሕት፡</foreign> reperitur, ut <ref cRef="Sx. Tachs." loc="16">Sx. Tachs. 16</ref>) <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> humore conspersus </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> humidus </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> madidus </t:quote></cit>: <foreign xml:lang="gez">ምድር፡ ርሕስት፡ ወጥልልት፡ እማይ፡ ትወልድ፡ ዕፄያተ፡ ብዙኀ፡</foreign> (<foreign xml:lang="grc">ἡ σφόδρα δίγυρος γῆ</foreign>) <ref cRef="Chrys. Ta." loc="29">Chrys. Ta. 29</ref>; <foreign xml:lang="gez">ጸጕረ፡ በግዕ፡</foreign> (Gideonis) <foreign xml:lang="gez">ርሕስት፡ እምጠል፡</foreign> <ref cRef="Sx. Tachs." loc="16">Sx. Tachs. 16</ref>; <foreign xml:lang="gez">ሰላም፡ ለርእስኪ፡ በቅብአ፡ ቅዳሴ፡ ርሑስ፡</foreign> <ref cRef="III Sal. Mar." loc="2">III Sal. Mar. 2</ref>; <foreign xml:lang="gez">አቅረበ፡ ኀቤሁ፡ ኅብስተ፡ ይቡሰ፡ ወርሑሰ፡ በማይ፡ ወላዕሌሁ፡ ዘይት፡ ወፄው፡</foreign> <ref cRef="Phlx." loc="132">Phlx. 132</ref>; <foreign xml:lang="gez">ሕፍነ፡ ዐተር፡ ዘርሑስ፡ በማይ፡</foreign> <ref cRef="Sx. Teq." loc="30">Sx. Teq. 30</ref>; <ref cRef="Sx. Ter" loc="24.">Sx. Ter 24.</ref> </sense>
+               
+            <sense xml:id="Tmain" xml:lang="en" source="#traces"> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">rǝḥus</t:quote></cit>, <gramGrp> <gen value="femininus">fem.</gen> </gramGrp> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">rǝḥǝst</t:quote></cit>, <foreign xml:lang="gez">ርስሕት</foreign> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">rǝsǝḥt</t:quote></cit>; <lbl expand="pluralis">Pl.</lbl> <foreign xml:lang="gez">ርሑሳን፡</foreign> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">rǝḥusān</t:quote></cit>, <gramGrp> <gen value="femininus">fem.</gen> </gramGrp> <foreign xml:lang="gez">ርሑሳት፡</foreign> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">rǝḥusāt</t:quote></cit> <sense n="G" xml:id="TG"> <foreign xml:lang="gez">ርሑስ፡</foreign> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">rǝḥus</t:quote></cit>, <lbl expand="pluralis">Pl.</lbl> <foreign xml:lang="gez">ርሑሳን፡</foreign> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">rǝḥusān</t:quote></cit> «<cit type="translation" xml:lang="fr"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">humecté</t:quote></cit>, <cit type="translation" xml:lang="fr"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">humide</t:quote></cit>» ― <foreign xml:lang="am">የራሰ፡</foreign> Ms. <ref type="BM" target="BNFabb217">BNFabb217</ref>, fol. 55v. <lb/>
+ <foreign xml:lang="gez">ርሕስት፡</foreign> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">rǝḥǝst</t:quote></cit> <gramGrp> <gen value="femininus">fem.</gen> </gramGrp>, <lbl expand="pluralis">Pl.</lbl> <foreign xml:lang="gez">ርሑሳት፡</foreign> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">rǝḥusāt</t:quote></cit> «<cit type="translation" xml:lang="fr"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">humectée</t:quote></cit>, <cit type="translation" xml:lang="fr"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">humide</t:quote></cit>» ― <foreign xml:lang="am">የራሰች፡</foreign> Ms. <ref type="BM" target="BNFabb217">BNFabb217</ref>, fol. 55v. <lb/>
+ <bibl><ptr target="bm:Grebaut1952SuppLexicon"/><citedRange unit="page"> 142</citedRange></bibl>
+</sense> <sense n="L" xml:id="TL"> <foreign xml:lang="gez">ርሑስ፡</foreign> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">rǝḥus</t:quote></cit>, <gramGrp> <gen value="femininus">fem.</gen> </gramGrp> <foreign xml:lang="gez">ርሕስት፡</foreign> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">rǝḥǝst</t:quote></cit>, <foreign xml:lang="gez">ርስሕት</foreign> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">rǝsǝḥt</t:quote></cit> <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">moist</t:quote></cit>, <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">wet</t:quote></cit>, <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">humid</t:quote></cit>, <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">moistened</t:quote></cit> <bibl><ptr target="bm:Leslau1987dic"/><citedRange unit="page"> 467b</citedRange></bibl> 
+</sense> </sense></entry>
+         </div>
+      </body>
+   </text>
+</TEI>

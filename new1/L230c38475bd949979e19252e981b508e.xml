@@ -1,0 +1,135 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="gez">ጠነቈረ</title>
+                <author>Alessandro Bausi</author>
+                <author>Andreas Ellwardt</author>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+                <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+                <pubPlace>Hamburg</pubPlace>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file
+                        is licensed under the Creative Commons Attribution-ShareAlike Non Commercial
+                        4.0. </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                        Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice
+                            latino. Adiectum est vocabularium tigre dialecti septentrionalis
+                            compilatum</emph> a W. Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+                </p>
+                <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced
+                        Grant TraCES (Grant Agreement 338756)</ref>
+                </p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>A digital edition of the Lexicon in TEI.</p>
+            <listPrefixDef>
+                <prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/>
+            </listPrefixDef>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="la">latin</language>
+                <language ident="it">Italian</language>
+                <language ident="gez">Gǝʿǝz</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="syr">Syriac</language>
+                <language ident="ar">Arabic</language>
+                <language ident="sa">Sanskrit</language>
+                <language ident="geo">Georgian</language>
+                <language ident="cop">Coptic</language>
+                <language ident="osa">Old South Arabian</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change who="MK" when="2018-11-06">added new entry</change>
+            <change who="MK" when="2018-11-06">new entry</change>
+            <change who="MK" when="2018-11-06">corr</change>
+            <change who="MK" when="2018-11-06">added new entry, to be peer-reviewed</change>
+            <change who="MK" when="2019-12-11">verbal class</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <entry xml:id="L230c38475bd949979e19252e981b508e" n="12440">
+                    <form>
+                        <foreign xml:lang="gez">ጠነቈረ</foreign>
+                    </form>
+                    <sense xml:id="Tmain" xml:lang="en" source="#traces">
+                        <cit type="transcription" xml:lang="gez">
+                            <quote> ṭanaqqʷara </quote>
+                        </cit>
+                        <gramGrp><pos expand="verbum">v.</pos></gramGrp> quadril. I <cit type="translation" xml:lang="en">
+                            <quote> injure </quote>
+                        </cit>, <cit type="translation" xml:lang="en">
+                            <quote> wound </quote>
+                        </cit>, ‘<cit type="translation" xml:lang="it">
+                            <quote> ferire </quote>
+                        </cit>’ <foreign xml:lang="gez">ቦእምኔሆን፡ እንተ፡ ትጸፍዖ፡ ገጾ፡ ወቦ፡ እምኔሆን፡ እንተ፡ ትዘብጦ፡
+                            ዘባኖ፡ ወቦ፡ እምኔሆን፡ እለ፡ ይጠነቍራ፡ ዐይኖ፡</foreign> ‘<cit type="translation" xml:lang="it">
+                            <quote> Tra di loro, chi lo schiaffeggiava sul viso, chi lo batteva
+                                sulla schiena e chi lo feriva agli occhi </quote>
+                        </cit>’ <bibl><ptr target="bm:Bausi2003Libanos"/><citedRange unit="page">
+                                87-88 § 221 (ed.)</citedRange></bibl>, <bibl><ptr target="bm:Bausi2003LibanosTr"/><citedRange unit="page"> 53 § 221
+                                (tr.)</citedRange></bibl> (‘«lo feriva»: testo <cit type="transcription" xml:lang="gez">
+                            <quote> yǝṭanaqqʷerā </quote>
+                        </cit> di {witnesses} ABCD; {...} ABCD postulano un verbo <cit type="transcription" xml:lang="gez">
+                            <quote> ṭanaqqʷara </quote>
+                        </cit> non attestato in etiopico; <bibl><ptr target="bm:KidaneWaldGeezGramDict"/><citedRange unit="page">
+                                504b</citedRange></bibl>, ripreso da <bibl><ptr target="bm:Leslau1987dic"/><citedRange unit="page">
+                            594</citedRange></bibl>, riporta per <cit type="transcription" xml:lang="gez">
+                            <quote> ṭenqur </quote>
+                        </cit> «(amarico) <cit type="transcription" xml:lang="gez">
+                            <quote> č̣ǝnqur </quote>
+                        </cit>; nome di una ferita, un tipo de ferita»; per amarico <cit type="transcription" xml:lang="gez">
+                            <quote> č̣ǝnqur </quote>
+                        </cit> vd. <bibl><ptr target="bm:Guidi1901Vocabolario"/><citedRange unit="page"> 852</citedRange></bibl> «piaga purulenta, ulcera»; ma
+                        in amarico si trova anche <cit type="transcription" xml:lang="gez">
+                            <quote> ʾač̣anaqqʷara </quote>
+                        </cit> «tenere un occhio chiuso» e derivati, vd. <bibl><ptr target="bm:Guidi1901Vocabolario"/><citedRange unit="page">
+                                852</citedRange></bibl>; <bibl><ptr target="bm:Kane1990DictAmhVol2"/><citedRange unit="page"> 2231</citedRange></bibl>; in tigrino si
+                        trova <cit type="transcription" xml:lang="gez">
+                            <quote> č̣anaqʷara </quote>
+                        </cit>, vd. <bibl><ptr target="bm:DaBassano1918DictTgr"/><citedRange unit="page"> 937</citedRange></bibl> «scarabocchiare, fare sgorbi
+                        nello scrivere ecc.», ma anche lo stesso senso dell’amarico, vd. <bibl><ptr target="bm:Kane2000DictTgrVol2"/><citedRange unit="page">
+                                2518</citedRange></bibl>; <bibl><ptr target="bm:1996DictTigrinya"/><citedRange unit="page"> 896</citedRange></bibl> «avere gli occhi
+                        sottili, semichiusi per malattia ecc.»; similmente in <bibl><ptr target="bm:GermaTsion1994DictTigrinya"/><citedRange unit="page">
+                                616</citedRange></bibl>; sempre in tigrino si ha anche <cit type="transcription" xml:lang="gez">
+                            <quote> ṭanqʷara </quote>
+                        </cit> vd. <bibl><ptr target="bm:DaBassano1918DictTgr"/><citedRange unit="page"> 915</citedRange></bibl> «giungere, arrivare in
+                        altezza»; <bibl><ptr target="bm:1996DictTigrinya"/><citedRange unit="page">
+                                875</citedRange></bibl> «attaccarsi con una prolunga a q.sa che non
+                        si può raggiungere», scil. «raggiungere, riuscire ad arrivare»; similmente
+                                <bibl><ptr target="bm:GermaTsion1994DictTigrinya"/><citedRange unit="page"> 606</citedRange></bibl> per il participio <cit type="transcription" xml:lang="gez">
+                            <quote> ṭanqʷāri </quote>
+                        </cit> «che fa uscire estraendola, q.sa che si trova in fondo»; cfr. anche
+                                <bibl><ptr target="bm:Kane2000DictTgrVol2"/><citedRange unit="page">
+                                2463</citedRange></bibl>; similmente per il guraghe <cit type="transcription" xml:lang="gez">
+                            <quote> ṭanäqqʷälä </quote>
+                        </cit>
+                        <bibl><ptr target="bm:Leslau1979DictEtymGurageVolIII"/><citedRange unit="page"> 624</citedRange></bibl> «pull out the eye or anything
+                        from a hollow place», che nel senso di «estrarre» richiama molto il tigrino
+                            <cit type="transcription" xml:lang="gez">
+                            <quote> ṭanaqʷara </quote>
+                        </cit>; difficile quindi orientarsi tra una sleva di forme che paiono
+                        organizzare una costellazione di significati; per l’etiopico <cit type="transcription" xml:lang="gez">
+                            <quote> ṭanaqʷara </quote>
+                        </cit> si può forse proppore «produrre una ferita il cui esito è il
+                        congiungimento delle palpebre dell’occhio e la sua chiusura parziale»’
+                                <bibl><ptr target="bm:Bausi2003LibanosTr"/><citedRange unit="page">
+                                53-54 n.18</citedRange></bibl> ) <nd/>
+                    </sense>
+                </entry>
+            </div>
+        </body>
+    </text>
+</TEI>

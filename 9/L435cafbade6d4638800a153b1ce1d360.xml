@@ -1,0 +1,75 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ቀልዐ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="AE" when="2017-12-17">Referenzen etc.,</change>
+            <change who="LB" when="2018-02-22">root</change>
+        <change who="MK" when="2024-05-03">added gr and les</change><change who="MK" when="2024-05-03">added sub</change></revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L435cafbade6d4638800a153b1ce1d360" n="3212">
+               <form>
+                  <foreign xml:lang="gez">ቀልዐ I</foreign>
+               <rs type="root"/>
+                    </form>
+               <sense xml:id="Dmain" xml:lang="la" source="#dillmann"> <subc>I,1</subc> [<foreign xml:lang="ar">جَلَعَ</foreign> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> exuit </t:quote></cit>; <foreign xml:lang="ar">جَلِعَ</foreign> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> exuta fuit </t:quote></cit> mulier; impudica fuit (<foreign xml:lang="he">גָּלָה</foreign> <foreign xml:lang="ar">خَلَعَ</foreign> <foreign xml:lang="he">חָלַץ</foreign>); <foreign xml:lang="ar">قَلَعَ</foreign> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> extraxit </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> evulsit </t:quote></cit>; <foreign xml:lang="ar">قِلْعٌ</foreign> <foreign xml:lang="he">קֶלַע</foreign> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> velum </t:quote></cit>; <lbl expand="oppositum, -o, -nitur">opp.</lbl> est <foreign xml:lang="gez">ገለወ፡</foreign>] <gramGrp> <pos expand="Subjunctivus">Subj.</pos> </gramGrp> <foreign xml:lang="gez">ይቅላዕ፡</foreign>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> revelare </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> retegere </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> aperire </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> detrahere </t:quote></cit> vel <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> exuere </t:quote></cit> velamen, vestem, al.: <foreign xml:lang="gez">ቀልዐ፡ ግልባቤ፡ ገጻ፡</foreign> <ref cRef="Sx. Ter" loc="16">Sx. Ter 16</ref>; <foreign xml:lang="gez">ኦብእሲቶ፡ ለምንት፡ ትቀልዒ፡ ግልባቤ፡ ርእስኪ፡ እንዘ፡ ትሥሕቂ፡</foreign> <ref cRef="Chrys. Ta." loc="15">Chrys. Ta. 15</ref>; <foreign xml:lang="gez">አዘዘ፡ ይቅልዑ፡ ግልባቤ፡ ገጻ፡</foreign> <ref cRef="Sx. Hed." loc="16">Sx. Hed. 16</ref>; <foreign xml:lang="gez">ቅላዕ፡ መንጦላዕተ፡ ሕማም፡ ዘግልቡብ፡ ላዕለ፡ ገጽየ፡</foreign> Phlx. sub fin.; <ref cRef="Lit." loc="172,1">Lit. 172,1</ref> (ubi <foreign xml:lang="gez">መንጦላዕተ፡</foreign> legendum est); <ref cRef="Gad. Ad." loc="6">Gad. Ad. f. 6</ref>; <foreign xml:lang="gez">አዘዘ፡ ከመ፡ ይቅላዕ፡ ልብሶ፡</foreign> <ref cRef="Sx. Tachs." loc="10">Sx. Tachs. 10</ref>; <foreign xml:lang="gez">ኀፍረት፡ ቀሊዐ፡ መጽሐፍ፡ ለዘኢያአምር፡ ሆህያተ፡</foreign> <ref cRef="M.M. f." loc=" 187">M.M. f.  187</ref> et <ref cRef="M.M. f." loc=" 342">M.M. f.  342</ref>. (Lud. statuit significationem intrans.: <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> detractum fuit velum </t:quote></cit>, et affert: <foreign xml:lang="gez">ይቅላዕ፡ ደባትር፡</foreign> <ref cRef="Org." loc="5">Org. 5</ref>; modo lectio sana sit!). – Voc. Ae.: <foreign xml:lang="gez">ቀፈጸ፡ ቀልዐ፡ ዘ፡ ገለጸ።</foreign> </sense>
+               
+            <sense xml:id="Tmain" xml:lang="en" source="#traces"> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">qalʿa</t:quote></cit> <sense n="G" xml:id="TG"> <foreign xml:lang="gez">ቀልዐ፡</foreign> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">qalʿa</t:quote></cit> <subc>I,1</subc> <foreign xml:lang="gez">ይቀልዕ፡</foreign>, <foreign xml:lang="gez">ይቅላዕ፡</foreign> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">detractum fuit</t:quote></cit> (velum), <cit type="translation" xml:lang="fr"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">se déchirer</t:quote></cit> (le voile du temple) ― <foreign xml:lang="am">ገለጠ፡</foreign> Ms. Roma, Biblioteca Nazionale Centrale di Roma, Orientale 134, p. 55. <lb/>
+ <bibl><ptr target="bm:Grebaut1952SuppLexicon"/><citedRange unit="page"> 170</citedRange></bibl> 
+</sense> <sense n="L" xml:id="TL"> <foreign xml:lang="gez">ቀልዐ</foreign> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">qalʿa</t:quote></cit> I (yǝqlāʿ) <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">uncover</t:quote></cit>, <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">bare</t:quote></cit>, <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">open</t:quote></cit>, <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">remove</t:quote></cit>, <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">strip</t:quote></cit>, <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">unveil</t:quote></cit>, (<bibl><ptr target="bm:Grebaut1952SuppLexicon"/><citedRange unit="page"> 170</citedRange></bibl>) <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">be torn</t:quote></cit>, <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">tear</t:quote></cit> (intr.), (Lt) <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">lift</t:quote></cit> (curtain), <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">undo</t:quote></cit>, <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">pull aside</t:quote></cit> <bibl><ptr target="bm:Leslau1987dic"/><citedRange unit="page"> 426a</citedRange></bibl> 
+</sense> </sense></entry>
+         </div>
+      </body>
+   </text>
+</TEI>

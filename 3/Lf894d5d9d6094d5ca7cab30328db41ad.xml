@@ -1,0 +1,88 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> አስቆረረ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="LB" when="2018-02-14">root</change>
+            <change who="MK" when="2018-02-16">added witnesses</change>
+            <change who="MK" when="2018-02-16">corrections of some mistakes</change>
+            <change who="MK" when="2018-02-16">correction of the layout</change>
+            <change who="MK" when="2018-02-16">added three dots</change>
+            <change who="MK" when="2018-02-23">added dot</change>
+            <change who="MK" when="2018-03-16">done</change>
+            <change who="MK" when="2018-03-22">added bibliog</change>
+            <change who="MK" when="2018-03-22">added example and bibliography</change>
+            <change who="MK" when="2018-03-22">corr</change>
+            <change who="MK" when="2018-03-22">corr</change>
+            <change who="MK" when="2018-03-22">corrections</change>
+            <change who="MK" when="2018-03-22">added lang encoding</change>
+            <change who="MK" when="2018-03-22">redone entry to be peer-checked</change>
+            <change who="MK" when="2018-04-16">corr</change>
+            <change who="MK" when="2018-04-16">corr</change>
+            <change who="MK" when="2018-04-17">added invert. commas</change>
+        <change who="MK" when="2019-12-03">corrected nesting</change><change who="MK" when="2019-12-03">corr</change></revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="Lf894d5d9d6094d5ca7cab30328db41ad" n="2659">
+               <form>
+                  <foreign xml:lang="gez">አስቆረረ</foreign>
+               <rs type="root"/>
+                    </form>
+               <sense xml:id="Dmain" xml:lang="la" source="#dillmann"> quadril. II, passim <foreign xml:lang="gez">አስቈረረ፡</foreign> [quod praefixo <foreign xml:lang="gez">አስ፡</foreign> causativo e <foreign xml:lang="gez">ቈረረ፡</foreign> <cit type="translation" xml:lang="la"><quote> frigidum esse </quote></cit> propagatum putaveris; sed rectius cum <foreign xml:lang="he">שַׁעֲרוּר</foreign> comparandum videtur; <lbl expand="videas">vid.</lbl> etiam Hupfeld exerc. Ae. p. 32] Imperf. et <gramGrp> <pos expand="Subjunctivus">Subj.</pos> </gramGrp> <foreign xml:lang="gez">ያስቆርር፡</foreign>, passim <foreign xml:lang="gez">ያስቈርር፡</foreign>; <cit type="translation" xml:lang="la"><quote> abhorrere </quote></cit>, <cit type="translation" xml:lang="la"><quote> abominari </quote></cit>, <cit type="translation" xml:lang="la"><quote> detestari </quote></cit>, <foreign xml:lang="grc">βδελύσσεσθαι</foreign>, <lbl expand="cum">c.</lbl> <gramGrp> <case value="accusativus">Acc.</case> </gramGrp> rei vel <lbl expand="persona">pers.</lbl>: <ref cRef="Gen." loc="26,29">Gen. 26,29</ref>; <ref cRef="Gen." loc="43,32">Gen. 43,32</ref>; <ref cRef="Gen." loc="46,34">Gen. 46,34</ref>; <ref cRef="Ex." loc="1,12">Ex. 1,12</ref>; <ref cRef="Lev." loc="11,11">Lev. 11,11</ref> <lbl expand="sequens">seq.</lbl>; <ref cRef="Lev." loc="20,23">Lev. 20,23</ref>; <ref cRef="Deut. " loc="23,8">Deut.  23,8</ref>; <ref cRef="Kuf." loc="36">Kuf. 36</ref>; <ref cRef="Ps." loc="5,7">Ps. 5,7</ref>; <ref cRef="Ps." loc="55,5">Ps. 55,5</ref>; <ref cRef="Ps." loc="105,38">Ps. 105,38</ref>; <ref cRef="Ps." loc="106,18">Ps. 106,18</ref>; <ref cRef="Job" loc="9,31">Job 9,31</ref>; <ref cRef="Job" loc="17,7">Job 17,7</ref>; <ref cRef="Job" loc="19,19">Job 19,19</ref>; <ref cRef="Job" loc="30,10">Job 30,10</ref>; <ref cRef="Sir." loc="1,25">Sir. 1,25</ref>; <ref cRef="Sir." loc="13,20">Sir. 13,20</ref>; <ref cRef="Sir." loc="16,8">Sir. 16,8</ref>; <ref cRef="Am." loc="5,10">Am. 5,10</ref>; <ref cRef="Mich." loc="3,9">Mich. 3,9</ref>; <ref cRef="Esth." loc="4,17">Esth. 4,17</ref> apocr.; <ref cRef="Judith" loc="9,4">Judith 9,4</ref>; <ref cRef="Rom." loc="2,22">Rom. 2,22</ref>; <foreign xml:lang="gez">ጸሊኦቶ፡ ወአስቆርሮቶ፡</foreign> <ref cRef="Jsp." loc="340">Jsp. p. 340</ref>; <gramGrp> <pos expand="absolute">absol.</pos> </gramGrp> (sine objecto): sacerdos si leprosus est, <foreign xml:lang="gez">ያስቆርሩ፡ ሕዝብ፡ በእኂዘ፡ ሥጋሁ፡ ወደሙ፡ ለክርስቶስ፡</foreign> <ref cRef="Clem." loc="131.">Clem. f. 131.</ref> </sense>
+               
+            <sense xml:id="Tmain" xml:lang="en" source="#traces"> <sense n="1" xml:id="T1"> <ptr target="#D1"/><cit type="transcription" xml:lang="gez"><quote> ʾasqorara </quote></cit> <cit type="translation" xml:lang="en"><quote> detest </quote></cit>, ʻ<cit type="translation" xml:lang="it"><quote> detestare </quote></cit>ʼ <foreign xml:lang="gez">በሕቁ፡ መነንዎ፡ ወአስቆረርዎ፡ ለሥጋሆሙ፡ ለፍትወት፡</foreign> ‘<cit type="translation" xml:lang="it"><quote> ripudiando integralmente e detestando nei loro corpi il il desiderio </quote></cit>ʼ <bibl><ptr target="bm:Lusini1996Absadi"/><citedRange unit="page"> 3 l. 11 (ed.)</citedRange></bibl>; <bibl><ptr target="bm:Lusini1996AbsadiII"/><citedRange unit="page"> 2 l. 24-25 (tr.)</citedRange></bibl> (ʻVerbo ...; registrato da <bibl><ptr target="bm:KidaneWaldGeezGramDict"/><citedRange unit="page"> 812</citedRange></bibl> e da <bibl><ptr target="bm:Leslau1987dic"/><citedRange unit="page"> 444a</citedRange></bibl>. Attestazione da aggiungere a <bibl><ptr target="bm:ContiRossini1937YafqerannaEgzi"/><citedRange unit="page"> 428</citedRange></bibl> e a <bibl><ptr target="bm:Ricci1954Enbaqom"/><citedRange unit="page"> 107 n. 16</citedRange></bibl> e <bibl><ptr target="bm:Ricci1955Enbaqom"/><citedRange unit="page"> 96 n. 118</citedRange></bibl>.ʼ <bibl><ptr target="bm:Lusini1996AbsadiII"/><citedRange unit="page"> 2 n. 5 </citedRange></bibl>)</sense> <sense n="2" xml:id="T2"> <cit type="translation" xml:lang="en"><quote> shun </quote></cit>, <cit type="translation" xml:lang="en"><quote> avoid </quote></cit>, ʻ<cit type="translation" xml:lang="it"><quote> rifuggere </quote></cit>ʼ <foreign xml:lang="gez">ዘይትገደፍ፡ ወከመ፡ ፀርቀ፡ ትክቶ፡ ዘያስቆርርዎ፡ ካህናተ፡ ንጹሓን፡ ከማሁ፡ አስቆረርዎ፡ ለፍትወተ፡ ዝንቱ፡ ዓለም፡</foreign> ‘<cit type="translation" xml:lang="it"><quote> che si butta via e cencio mestruale che i puri sacerdoti rifuggono. Così essi rifuggirono il desiderio di questo mondo </quote></cit>ʼ <bibl><ptr target="bm:Lusini1996Absadi"/><citedRange unit="page"> 3 l. 13-15 (ed.)</citedRange></bibl>, <bibl><ptr target="bm:Lusini1996AbsadiII"/><citedRange unit="page"> 2 l. 25-27 (tr.)</citedRange></bibl> </sense> <sense n="L" xml:id="TL"> <cit type="transcription" xml:lang="gez"><quote> *qorara </quote></cit>, <cit type="transcription" xml:lang="gez"><quote> ʾasqorara </quote></cit>, <cit type="transcription" xml:lang="gez"><quote> ʾasqwarara </quote></cit> <foreign xml:lang="gez">አቆረረ</foreign>, <foreign xml:lang="gez">አስቈረረ</foreign> <cit type="translation" xml:lang="en"><quote> feel horror </quote></cit>, <cit type="translation" xml:lang="en"><quote> feel repugnance </quote></cit>, <cit type="translation" xml:lang="en"><quote> abominate </quote></cit>, <cit type="translation" xml:lang="en"><quote> loathe </quote></cit>, (Lt) <cit type="translation" xml:lang="en"><quote> disdain </quote></cit>, <cit type="translation" xml:lang="en"><quote> repudiate </quote></cit>, <cit type="translation" xml:lang="en"><quote> feel contempt </quote></cit>, <cit type="translation" xml:lang="en"><quote> be disgusted </quote></cit> <bibl><ptr target="bm:Leslau1987dic"/><citedRange unit="page"> 444a</citedRange></bibl> </sense> <nd/> </sense>
+                </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

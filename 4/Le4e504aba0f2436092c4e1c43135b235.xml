@@ -1,0 +1,91 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ሥጋ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="AE" when="2018-08-23">Verschachtelung,</change>
+        <change who="MK" when="2024-06-11">added gr and les</change><change who="MK" when="2024-06-11">added sub</change><change who="MK" when="2024-06-11">added cross ref</change><change who="MK" when="2024-06-11">added sub</change><change who="MK" when="2024-06-11">added derivatives </change><change who="MK" when="2024-11-21">added les cross ref</change><change who="MK" when="2024-11-21">added les </change></revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="Le4e504aba0f2436092c4e1c43135b235" n="2003">
+               <form>
+                  <foreign xml:lang="gez">ሥጋ</foreign>
+               </form>
+               <sense xml:id="Dmain" xml:lang="la" source="#dillmann"> <gramGrp> <pos expand="Substantivum">subst.</pos> </gramGrp>, plerumque <gramGrp> <gen value="not found">m.</gen> </gramGrp>, <lbl expand="pluralis">Pl.</lbl> (signif. 2) <foreign xml:lang="gez">ሥጋት፡</foreign> (<foreign xml:lang="gez">ሥግዋት፡</foreign> habet <ref cRef="Joh." loc="19,31">Joh. 19,31</ref> editio <lbl expand="romanae editionis">rom.</lbl> <sense n="1" xml:id="D1"> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> caro </t:quote></cit>, <sense n="α" xml:id="D1α"> vivi corporis <foreign xml:lang="grc">σάρξ</foreign>, <foreign xml:lang="grc">σάρκες</foreign>: <ref cRef="Gen." loc="41,2">Gen. 41,2</ref>; <ref cRef="Gen." loc="41,19">Gen. 41,19</ref>; <ref cRef="Lev." loc="13,10">Lev. 13,10</ref>; <foreign xml:lang="gez">ሥጋ፡ ነፍስትከ፡</foreign> <ref cRef="Prov." loc="5,11">Prov. 5,11</ref>; <ref cRef="Job" loc="41,14">Job 41,14</ref>; <foreign xml:lang="gez">አልበሰክሙ፡ ሥጋ፡</foreign> <ref cRef="Hez." loc="37,5">Hez. 37,5</ref>; <foreign xml:lang="gez">የኀልቅ፡ ሥጋሁ፡</foreign> <ref cRef="Job" loc="33,21">Job 33,21</ref>; <ref cRef="Job" loc="33,25">Job 33,25</ref>; <foreign xml:lang="gez">ሥጋየ፡ ወማእስየ፡</foreign> <ref cRef="Thren." loc="3,4">Thren. 3,4</ref>; <cb n="0268" xml:id="c0268"/> <foreign xml:lang="gez">ሥጋ፡ ወዐጽም፡</foreign> <ref cRef="Luc." loc="24,39">Luc. 24,39</ref>; <foreign xml:lang="gez">ሥጋ፡ ወደም፡</foreign> <ref cRef="Matth." loc="16,17">Matth. 16,17</ref>; <ref cRef="Hebr." loc="2,14">Hebr. 2,14</ref>; <ref cRef="Joh." loc="6,51">Joh. 6,51</ref>; <ref cRef="Joh." loc="6,52">Joh. 6,52</ref>; <foreign xml:lang="gez">ይበልዑ፡ ሥጋ፡ አዋልዲሆሙ፡</foreign> <foreign xml:lang="grc">σάρκας</foreign> <ref cRef="Jer." loc="19,9">Jer. 19,9</ref>; <ref cRef="Mich." loc="3,3">Mich. 3,3</ref>; <ref cRef="Apoc." loc="19,18">Apoc. 19,18</ref>. 
+</sense> <sense n="β" xml:id="D1β"> pecudis, quae comeditur, <foreign xml:lang="grc">κρέας</foreign>, <foreign xml:lang="grc">κρέατα</foreign>: <ref cRef="Jes." loc="22,13">Jes. 22,13</ref>; <ref cRef="Jes." loc="44,16">Jes. 44,16</ref>; <ref cRef="Jes. " loc="44,19">Jes.  44,19</ref>; <ref cRef="Jer." loc="7,21">Jer. 7,21</ref>; <ref cRef="Dan." loc="7,5">Dan. 7,5</ref>; <ref cRef="Dan." loc="10,3">Dan. 10,3</ref>; <foreign xml:lang="gez">ይበልዑ፡ ሥጋ፡ ሐራውያ፡</foreign> <ref cRef="Jes." loc="65,4">Jes. 65,4</ref>; <ref cRef="Ex." loc="16,12">Ex. 16,12</ref>; <ref cRef="Lev." loc="7,15">Lev. 7,15</ref> <lbl expand="sequens">seq.</lbl>; <ref cRef="Rom." loc="14,21">Rom. 14,21</ref>; <ref cRef="1 Cor." loc="8,13">1 Cor. 8,13</ref>. Nota 
+</sense> <sense n="a" xml:id="D1a"> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> carneus </t:quote></cit>: <foreign xml:lang="gez">ዘሥጋ፡</foreign>, ut: <foreign xml:lang="gez">ልብ፡ ዘሥጋ፡</foreign> <ref cRef="Hez." loc="11,19">Hez. 11,19</ref>; <ref cRef="2 Par." loc="32,8">2 Par. 32,8</ref> <foreign xml:lang="gez">እለ፡ ሥጋ፡</foreign> <ref cRef="2 Cor." loc="3,3">2 Cor. 3,3</ref>. 
+</sense> <sense n="b" xml:id="D1b"> opponitur numini divino, et homines cunctaque animantia complectitur respectu debilitatis et fragilitatis: <foreign xml:lang="gez">እስመ፡ ሥጋ፡ እሙንቱ፡</foreign> <ref cRef="Kuf." loc="5">Kuf. 5</ref>; <ref cRef="Ps." loc="77,44">Ps. 77,44</ref>; <foreign xml:lang="gez">ወልደ፡ ሥጋ፡</foreign> <ref cRef="Asc. Jes." loc="11,34">Asc. Jes. 11,34</ref>; hoc sensu fere ubique: <foreign xml:lang="gez">ዘሥጋ፡</foreign> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> carneus </t:quote></cit> adhibitum invenies: <foreign xml:lang="gez">ኵሉ፡ ዘሥጋ፡</foreign> <foreign xml:lang="grc">πᾶσα σάρξ</foreign> <ref cRef="Gen." loc="6,17">Gen. 6,17</ref>; <ref cRef="Gen." loc="7,15">Gen. 7,15</ref>; <ref cRef="Gen." loc="7,21">Gen. 7,21</ref>; <ref cRef="Kuf." loc="3">Kuf. 3</ref>; <ref cRef="Job" loc="34,15">Job 34,15</ref>; <ref cRef="Jes. " loc="40,6">Jes.  40,6</ref>; <ref cRef="Jes." loc="66,24">Jes. 66,24</ref>; <foreign xml:lang="gez">አምላክ፡ ለኵሉ፡ ዘሥጋ፡</foreign> <ref cRef="Jer. " loc="39,27">Jer.  39,27</ref>; <ref cRef="Num." loc="18,15">Num. 18,15</ref>; <foreign xml:lang="gez">ላዕለ፡ ኵሉ፡ ዘሥጋ፡</foreign> <ref cRef="Joel" loc="3,1">Joel 3,1</ref>; <ref cRef="Ps." loc="64,2">Ps. 64,2</ref>; <ref cRef="Ps." loc="144,22">Ps. 144,22</ref>; <foreign xml:lang="gez">ፈረስ፡ ዘሥጋ፡</foreign> <ref cRef="Jes." loc="31,3">Jes. 31,3</ref>; <foreign xml:lang="gez">ዘሥጋ፡ ወደም፡</foreign> <ref cRef="Sir." loc="17,31">Sir. 17,31</ref>; <ref cRef="1 Cor." loc="15,50">1 Cor. 15,50</ref>; at: <foreign xml:lang="gez">ሥጋ፡ ኮነ፡</foreign> (<cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> verbum </t:quote></cit>) <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> caro factum est </t:quote></cit> <ref cRef="Joh." loc="1,14">Joh. 1,14</ref>. 
+</sense> <sense n="c" xml:id="D1c"> opponitur animo et spiritui, et naturam hominis significat corpoream, in specie quatenus in ea peccatum nititur: <ref cRef="Koh." loc="2,3">Koh. 2,3</ref>; <ref cRef="Col." loc="2,1">Col. 2,1</ref>; 1 <ref cRef="Petr." loc="4,2">Petr. 4,2</ref>; <ref cRef="Eph." loc="6,5">Eph. 6,5</ref>; <ref cRef="Hebr." loc="5,7">Hebr. 5,7</ref>; <ref cRef="Hebr." loc="12,9">Hebr. 12,9</ref>; <ref cRef="Matth." loc="26,41">Matth. 26,41</ref>; <ref cRef="Joh." loc="1,13">Joh. 1,13</ref>; <ref cRef="Joh. " loc="8,15">Joh.  8,15</ref>; <ref cRef="Rom." loc="8,1">Rom. 8,1</ref> <lbl expand="sequens">seq.</lbl>; <ref cRef="Gal." loc="3,3">Gal. 3,3</ref>. 
+</sense> <sense n="d" xml:id="D1d"> opponitur mortuis: <foreign xml:lang="gez">እለ፡ ይረክቦሙ፡ በሥጋ፡</foreign> <ref cRef="Asc. Jes." loc="4,15">Asc. Jes. 4,15</ref>; <ref cRef="Asc. Jes." loc="4,16">Asc. Jes. 4,16</ref>; <ref cRef="Hebr." loc="5,7">Hebr. 5,7</ref>. 
+</sense> <sense n="e" xml:id="D1e"> ubi <gramGrp> <pos expand="pronomen suffixum">pron. suff.</pos> </gramGrp> subjuncta habet, nonnumquam <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> consanguineos </t:quote></cit> significat: <foreign xml:lang="gez">ሰብኡ፡ ወሥጋሁ፡</foreign> <ref cRef="Lev." loc="18,6">Lev. 18,6</ref>; <ref cRef="Lev. " loc="25,49">Lev.  25,49</ref>; <ref cRef="Gen." loc="29,14">Gen. 29,14</ref>; <ref cRef="Jud." loc="9,2">Jud. 9,2</ref> <lbl expand="collatio, -is vel collectivum,&#xA;                            -e">coll.</lbl> <ref cRef="Eph." loc="5,29">Eph. 5,29</ref> et <ref cRef="Matth." loc="19,5">Matth. 19,5</ref>; <ref cRef="Matth. " loc="19,6">Matth.  19,6</ref>. 
+</sense> <sense n="f" xml:id="D1f"> verecundiae causa usurpatur pro <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> pudendis </t:quote></cit>: <ref cRef="Gen." loc="17,23">Gen. 17,23</ref>; <ref cRef="Gen. " loc="17,25">Gen.  17,25</ref>; <ref cRef="Gen." loc="34,24">Gen. 34,24</ref> (quamquam <foreign xml:lang="gez">ነፍስት፡</foreign> magis usitatum est); <foreign xml:lang="gez">ተንሥአ፡ ሥጋሁ፡</foreign> (<cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> libidine exarsit </t:quote></cit>) Lud. sine <lbl expand="auctore, auctoritate">auct.</lbl>; {<ref target="#c1428"/> <ref cRef="Kedr f." loc="63 ">Kedr f. 63 </ref> <lbl expand="videas">vid. sub</lbl> <foreign xml:lang="gez">አንሳሕስሐ፡</foreign> col. 328}. 
+</sense> 
+</sense> <sense n="2" xml:id="D2"> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> corpus </t:quote></cit> <foreign xml:lang="grc">σῶμα</foreign> <sense n="a" xml:id="D2a"> vivum: <ref cRef="Gen." loc="47,18">Gen. 47,18</ref>; <ref cRef="Lev." loc="6,3">Lev. 6,3</ref>; <ref cRef="Lev." loc="14,9">Lev. 14,9</ref>; <ref cRef="Ps." loc="39,9">Ps. 39,9</ref>; <ref cRef="Job" loc="20,25">Job 20,25</ref>; <ref cRef="Dan. " loc="3,27">Dan.  3,27</ref>; <ref cRef="Dan." loc="4,30">Dan. 4,30</ref>; <ref cRef="Matth." loc="6,22">Matth. 6,22</ref>; <ref cRef="Matth." loc="10,28">Matth. 10,28</ref>; <ref cRef="1 Cor." loc="6,18">1 Cor. 6,18</ref>; <ref cRef="1 Cor." loc="7,34">1 Cor. 7,34</ref>; <ref cRef="1 Cor. " loc="15,40">1 Cor.  15,40</ref>; <ref cRef="1 Cor." loc="15,44">1 Cor. 15,44</ref>; <ref cRef="Jac." loc="3,3">Jac. 3,3</ref>; <ref cRef="Hebr." loc="13,11">Hebr. 13,11</ref>; <foreign xml:lang="gez">ዐቃቤ፡ ሥጋ፡</foreign> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> custos corporis </t:quote></cit> <ref cRef="1 Reg." loc="28,2">1 Reg. 28,2</ref>; <foreign xml:lang="gez">በሥጋ፡ መዋቲ፡</foreign> <ref cRef="4 Esr." loc="1,5">4 Esr. 1,5</ref>; <foreign xml:lang="gez">ሥጋ፡ መዋቲት፡</foreign> Lit. Chrys.; <foreign xml:lang="gez">ሥጋት፡</foreign> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> corpora </t:quote></cit> <ref cRef="Chrys. ho." loc="6.">Chrys. ho. 6.</ref> Translate: <foreign xml:lang="gez">፩ሥጋ፡ ንሕነ፡ በክርስቶስ፡</foreign> <ref cRef="Rom." loc="12,5">Rom. 12,5</ref>; <ref cRef="1 Cor." loc="6,16">1 Cor. 6,16</ref>; <ref cRef="1 Cor." loc="10,17">1 Cor. 10,17</ref>; <ref cRef="1 Cor." loc="12,27">1 Cor. 12,27</ref>; <ref cRef="Eph." loc="1,23">Eph. 1,23</ref>; <ref cRef="Eph." loc="4,4">Eph. 4,4</ref>. Singularis videtur usus vocis <ref cRef="Kuf." loc="29 ">Kuf. p. 29 </ref> <foreign xml:lang="gez">ሥጋ፡ ምሥዋዕ፡</foreign> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> corpus altaris </t:quote></cit>. 
+</sense> <sense n="b" xml:id="D2b"> mortuum, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> cadaver </t:quote></cit> <ref cRef="Deut." loc="21,23">Deut. 21,23</ref>; <ref cRef="Joh." loc="19,31">Joh. 19,31</ref>; <ref cRef="Judae" loc="9">Judae 9</ref>; <foreign xml:lang="gez">ግድፍ፡ ሥጋየ፡ ላዕለ፡ ሥጋቲሆሙ፡</foreign> <ref cRef="Jsp." loc="367">Jsp. p. 367</ref>; <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> in resurrectione </t:quote></cit> <foreign xml:lang="gez">ይትጋብኡ፡ ሥጋት፡ እለ፡ ኮኑ፡ ከመ፡ ጸበል፡</foreign> <ref cRef="Clem." loc="157">Clem. f. 157</ref>; truncus decollati <ref cRef="Sx. Mij." loc="18 Enc.">Sx. Mij. 18 Enc.</ref> 
+</sense> 
+</sense> </sense>
+               
+            <sense xml:id="Tmain" xml:lang="en" source="#traces"> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">śǝgā</t:quote></cit>, <lbl expand="pluralis">Pl.</lbl> <foreign xml:lang="gez">ሥጋት፡</foreign> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">śǝgāt</t:quote></cit> <sense n="G" xml:id="TG"> <foreign xml:lang="gez">ሥጋ፡</foreign> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">śǝgā</t:quote></cit>, <lbl expand="pluralis">Pl.</lbl> <foreign xml:lang="gez">ሥጋት፡</foreign> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">śǝgāt</t:quote></cit> «<cit type="translation" xml:lang="fr"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">chair</t:quote></cit>, <cit type="translation" xml:lang="fr"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">viande</t:quote></cit>, <cit type="translation" xml:lang="fr"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">corps</t:quote></cit>» ― <foreign xml:lang="am">ሥጋ፡</foreign> Ms. <ref type="BM" target="BNFabb217">BNFabb217</ref>, fol. 55r. <lb/>
+ <bibl><ptr target="bm:Grebaut1952SuppLexicon"/><citedRange unit="page"> 138</citedRange></bibl> 
+</sense> <sense n="L" xml:id="TL"> <foreign xml:lang="gez">ሥጋ</foreign> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">śǝgā</t:quote></cit> <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">flesh</t:quote></cit>, <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">meat</t:quote></cit>, <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">the flesh as opposed to the spirit</t:quote></cit>, <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">body</t:quote></cit>, <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">corps</t:quote></cit> <lb/>
+ <foreign xml:lang="gez">ዘሥጋ</foreign> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">za-śǝgā</t:quote></cit> <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">of flesh</t:quote></cit>, <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">carnal</t:quote></cit>, <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">sensual</t:quote></cit> <lb/>
+ <foreign xml:lang="gez">ሥጋሁ፡ ወደሙ</foreign> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">śǝgā-hu wa-damu</t:quote></cit> <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">Eucharist</t:quote></cit>, lit. ‘his flesh and his blood’, <lbl expand="videas">vid.</lbl> <foreign xml:lang="gez">ደም፡</foreign> <lb/>
+ <bibl><ptr target="bm:Leslau1987dic"/><citedRange unit="page"> 526a</citedRange></bibl> 
+</sense> <sense n="C" xml:id="TC"> <sense n="a" xml:id="TCa"> for <foreign xml:lang="gez">ባሕርየ፡ ሥጋ፡</foreign> <lbl expand="videas">vid.</lbl> <foreign xml:lang="gez">ባሕርይ፡</foreign> (Leslau) 
+</sense> <sense n="b" xml:id="TCb"> for <foreign xml:lang="gez">ኅፍረተ፡ ሥጋ፡</foreign> <lbl expand="videas">vid.</lbl> <foreign xml:lang="gez">ኀፍረት፡</foreign> (Leslau) 
+</sense> 
+</sense> </sense></entry>
+         </div>
+      </body>
+   </text>
+</TEI>

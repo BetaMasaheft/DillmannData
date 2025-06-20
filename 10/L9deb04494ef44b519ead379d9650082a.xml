@@ -1,0 +1,69 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ማኅበር </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="MK" when="2022-02-16">added new entry</change><change who="MK" when="2022-04-28">correction</change><change who="MK" when="2022-05-10">correction</change><change who="MK" when="2022-05-10">added translation</change><change who="MK" when="2022-05-19">added cross reference </change><change who="MK" when="2022-05-27">added cross reference </change><change who="MK" when="2022-05-27">correction</change><change who="MK" when="2022-05-31">added example</change></revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L9deb04494ef44b519ead379d9650082a" n="4553">
+               <form>
+                  <foreign xml:lang="gez">ማኅበር</foreign>
+               </form>
+               <sense xml:id="Dmain" xml:lang="la" source="#dillmann"> subst <gramGrp> <gen value="not found">m.</gen> </gramGrp> et <gramGrp> <gen value="femininus">fem.</gen> </gramGrp> <sense n="1" xml:id="D1"> <cit type="translation" xml:lang="la"><quote> congregatio </quote></cit>, <cit type="translation" xml:lang="la"><quote> convent </quote></cit> <cit type="translation" xml:lang="la"><quote> us </quote></cit>, <cit type="translation" xml:lang="la"><quote> coetus </quote></cit>, <cit type="translation" xml:lang="la"><quote> concio </quote></cit>. <sense n="a" xml:id="D1a"> Usurpatur de <cit type="translation" xml:lang="la"><quote> quavis multitudine </quote></cit> (congregata): <foreign xml:lang="gez">ማኅበሮሙ፡</foreign> <foreign xml:lang="grc">πάντες</foreign> <ref cRef="Sap." loc="17,17">Sap. 17,17</ref>; <cb n="0599" xml:id="c0599"/> <foreign xml:lang="gez">ማኅበሮሙ፡ ለኃጥኣን፡</foreign> <ref cRef="Sir." loc="16,6">Sir. 16,6</ref>; <ref cRef="Sir." loc="21,9">Sir. 21,9</ref>; <ref cRef="Ps." loc="25,5">Ps. 25,5</ref>; <ref cRef="Ps." loc="85,13">Ps. 85,13</ref>; <ref cRef="Hen." loc="69,28">Hen. 69,28</ref>; <foreign xml:lang="gez">ማኅበረ፡ ወራዙት፡</foreign> <ref cRef="Jer." loc="6,11">Jer. 6,11</ref>; <foreign xml:lang="gez">ማኅበር፡ ዐቢይ፡</foreign> <ref cRef="Jer." loc="51,15">Jer. 51,15</ref>; <foreign xml:lang="gez">ማኅበሮሙ፡ ለነቢያት፡</foreign> <ref cRef="1 Reg." loc="19,20">1 Reg. 19,20</ref>; <foreign xml:lang="gez">ማኅበረ፡ ያዕቆብ፡</foreign> <foreign xml:lang="grc">συναγογαὶ Ἰακώβ</foreign> <ref cRef="Sir." loc="24,23">Sir. 24,23</ref>; etiam de <cit type="translation" xml:lang="la"><quote> agmine </quote></cit>, <cit type="translation" xml:lang="la"><quote> turba </quote></cit>, <cit type="translation" xml:lang="la"><quote> cohorte </quote></cit> militum; <foreign xml:lang="grc">σπεῖρα</foreign> <ref cRef="Matth." loc="27,27">Matth. 27,27</ref>; <foreign xml:lang="gez">ሰራዊተ፡ ገብርኤል፡ በበማኅበሮሙ፡</foreign> Lit. Jac.</sense> <sense n="b" xml:id="D1b"> de <cit type="translation" xml:lang="la"><quote> conventu </quote></cit> vel <cit type="translation" xml:lang="la"><quote> consessu </quote></cit> consultantium, <foreign xml:lang="grc">συνέδριον</foreign>, <foreign xml:lang="grc">τὸ κοινόν</foreign> <ref cRef="Prov." loc="15,22">Prov. 15,22</ref>; <ref cRef="Prov." loc="15,23">Prov. 15,23</ref>; <ref cRef="Prov." loc="27,22">Prov. 27,22</ref>; etiam de <cit type="translation" xml:lang="la"><quote> conciliis </quote></cit> vel <cit type="translation" xml:lang="la"><quote> conciliabulis </quote></cit> patrum ecclesiae christianae, ut: <foreign xml:lang="gez">ማኅበረ፡ ከልቄዶን፡ አብዳን፡</foreign> <ref cRef="Sx. Hed." loc="30 ">Sx. Hed. 30 </ref>Enc.; <ref cRef="Sx. Jac." loc="1">Sx. Jac. 1</ref>; al.</sense> <sense n="c" xml:id="D1c"> de <cit type="translation" xml:lang="la"><quote> concione </quote></cit> populi <ref cRef="Ex." loc="12,3">Ex. 12,3</ref>; <ref cRef="Ex." loc="35,1">Ex. 35,1</ref>; <ref cRef="Jud." loc="20,1">Jud. 20,1</ref>; <ref cRef="Jud." loc="20,2">Jud. 20,2</ref>; <foreign xml:lang="gez">ማኅበረ፡ ሕዝብ፡</foreign> <ref cRef="Jer." loc="33,17">Jer. 33,17</ref>; <ref cRef="Sir." loc="41,18">Sir. 41,18</ref>; <ref cRef="1 Par. " loc="13,2">1 Par.  13,2</ref>; in specie de <cit type="translation" xml:lang="la"><quote> congregatione </quote></cit>, quae sacrorum causa convenit, <ref cRef="Israelitica Joel" loc="2,16">Israelitica Joel 2,16</ref>; <ref cRef="Sir." loc="24,2">Sir. 24,2</ref>; <ref cRef="Sir." loc="50,13">Sir. 50,13</ref>, et <ref cRef="Christiana Jac." loc="2,2">Christiana Jac. 2,2</ref>; <ref cRef="Lit. " loc="163,2">Lit.  163,2</ref>; <ref cRef="Lit." loc="163,3">Lit. 163,3</ref>; <ref cRef="Genz." loc="92.">Genz. f. 92.</ref> </sense> <sense n="d" xml:id="D1d"> de <cit type="translation" xml:lang="la"><quote> ecclesia </quote></cit>, <cit type="translation" xml:lang="la"><quote> universitate fidelium </quote></cit> et Judaica et Christiana, <ref cRef="Sir." loc="39,10">Sir. 39,10</ref>; <ref cRef="Sir." loc="44,15">Sir. 44,15</ref>; <ref cRef="Ps." loc="73,2">Ps. 73,2</ref>; <ref cRef="Hen." loc="62,8">Hen. 62,8</ref>; <ref cRef="Hebr." loc="12,23">Hebr. 12,23</ref>; <ref cRef="2 Thess. " loc="2,1">2 Thess.  2,1</ref>; <foreign xml:lang="gez">ማኅበረ፡ ፫ አስማት፡</foreign> <cit type="translation" xml:lang="la"><quote> ecclesia Trinitatis </quote></cit>, Org.</sense> <sense n="e" xml:id="D1e"> in specie de <cit type="translation" xml:lang="la"><quote> conventu religiosorum </quote></cit>, <cit type="translation" xml:lang="la"><quote> coenobitarum </quote></cit> Reg. Pach.; Phlx. (<lbl expand="videas">vid.</lbl> <foreign xml:lang="gez">ብሕትውና፡</foreign>); <foreign xml:lang="gez">ሥርዐተ፡ ማኅበር፡</foreign> <cit type="translation" xml:lang="la"><quote> regula conventus </quote></cit> <ref cRef="Sx. Masc." loc="24 ">Sx. Masc. 24 </ref> Enc.</sense> <sense n="2" xml:id="D12"> <cit type="translation" xml:lang="la"><quote> socii </quote></cit>, <cit type="translation" xml:lang="la"><quote> collegae </quote></cit>, <cit type="translation" xml:lang="la"><quote> sodales </quote></cit>, eidem sectae, factioni, muneri, negotio addicti: <foreign xml:lang="grc">αἵρεσις</foreign> <ref cRef="Act." loc="26,5">Act. 26,5</ref> <lbl expand="romanae editionis">rom.</lbl>; <foreign xml:lang="gez">ማኅበሩ፡ ለድዮግልጥያኖስ፡</foreign> <cit type="translation" xml:lang="la"><quote> sodales </quote></cit> <cit type="translation" xml:lang="la"><quote> Diocletiani </quote></cit> (in persequendis Christianis) <ref cRef="Sx. Haml." loc="1 ">Sx. Haml. 1 </ref>Enc.; etiam <lbl expand="pluralis">Pl.</lbl>: <foreign xml:lang="gez">ማኅበራን፡</foreign> <cit type="translation" xml:lang="la"><quote> socii </quote></cit>, <cit type="translation" xml:lang="la"><quote> collegae </quote></cit> usitatur: <foreign xml:lang="gez">ደታን፡ ወአቤሮን፡ ወማኅበራኒሆሙ፡</foreign> F.M. 3,3 (at F.M. 3,5 <foreign xml:lang="gez">አብያጺሆሙ፡</foreign>) <ref cRef="Sx. Teq." loc="15">Sx. Teq. 15</ref>; sacerdos, qui in balneum ire vult, <foreign xml:lang="gez">ይሑር፡ ምስለ፡ ማኅበራኒሁ፡</foreign> F.M. 32,3.</sense> </sense> </sense>
+               
+            <sense xml:id="Tmain" xml:lang="en" source="#traces"><cit type="transcription" xml:lang="gez"><quote>māḫbar</quote></cit> <foreign xml:lang="gez">ወአልቦ፡ በዓለ፡ ርስት፡ ዘእንበለ፡ ማኅበር፡ በእሉ፡ ፭፡ አህጉር።</foreign> ‘<cit type="translation" xml:lang="fr"><quote>et personne ne possède rien dans ces cinq pays à titre héréditaire, hormis la communauté religieuse;</quote></cit>’ <bibl><ptr target="bm:ContiRossini1909LiberT"/><citedRange unit="page"> 57 l. 20–21 (ed.)</citedRange></bibl>, <bibl><ptr target="bm:ContiRossini1910LiberV"/><citedRange unit="page"> 69 l. 5–7 (tr.)</citedRange></bibl>, <sense n="a" xml:id="Ta"> <foreign xml:lang="gez">ሳይዳ፡ ማኅበር፡</foreign> meaning uncertain, association dedicated to St. Mary?, association of mercy, association of grace? <foreign xml:lang="gez">ወሳይዳ፡ ማኅበር፡ አብሮኮሮስ፡</foreign> ‘<cit type="translation" xml:lang="fr"><quote>et le sāydā māḫbar, Abrokoros</quote></cit>’ <bibl><ptr target="bm:ContiRossini1909LiberT"/><citedRange unit="page"> 28 l. 28 (ed.)</citedRange></bibl>, <bibl><ptr target="bm:ContiRossini1910LiberV"/><citedRange unit="page"> 33 l. 6 (tr.)</citedRange></bibl>, <lbl expand="videas">vid.</lbl> <foreign xml:lang="gez">ሳይዳ፡</foreign></sense> <sense n="C" xml:id="TC"> ● for <foreign xml:lang="gez">ሊቀ፡ ማኅበር፡</foreign> <lbl expand="videas">vid.</lbl> <foreign xml:lang="gez">ሊቅ፡</foreign> (TraCES) ● for <foreign xml:lang="gez">ቤተ፡ ማኅበር፡</foreign> <lbl expand="videas">vid.</lbl> <ref type="external" target="https://betamasaheft.eu/Dillmann/lemma/L1e32e08f156f4486bc3949b3fca5eeb8"><foreign xml:lang="gez">ቤት፡</foreign></ref> (TraCES) </sense> </sense></entry>
+         </div>
+      </body>
+   </text>
+</TEI>

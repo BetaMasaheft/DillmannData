@@ -1,0 +1,84 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ቈላ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+         <change who="LB" when="2018-02-22">root</change>
+         <change who="PL" when="2019-09-16">fix for #16</change>
+        </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L8a725dbded5f4a1c9f69005cc0e363f2" n="3175">
+               <form>
+                  <foreign xml:lang="gez">ቈላ</foreign>
+               <rs type="root"/>
+                    </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain"> (minus bene <foreign xml:lang="gez">ቆላ፡</foreign>), <gramGrp> <pos expand="Substantivum">subst.</pos> </gramGrp>, <gramGrp> <gen value="not found">m.</gen> </gramGrp> et <gramGrp> <gen value="femininus">fem.</gen> </gramGrp>, <lbl expand="pluralis">Pl.</lbl> <foreign xml:lang="gez">ቈላት፡</foreign> [non tam cum <foreign xml:lang="syr">ܓܰܠܳܐ</foreign> (<foreign xml:lang="he">גַּל גַּלִּים</foreign>), quam cum <foreign xml:lang="ar">غَوْرٌ</foreign> et <foreign xml:lang="ar">غَوْلٌ</foreign> (a <lbl expand="radix">rad.</lbl> <foreign xml:lang="he">עוּר</foreign>, <foreign xml:lang="he">חוּר</foreign>, <foreign xml:lang="he">קוּר</foreign>) componendum esse videtur; <lbl expand="videas">vid.</lbl> etiam <foreign xml:lang="gez">ቀላይ፡</foreign>; forma nominis a <foreign xml:lang="gez">ቀለወ፡</foreign> repetenda sit] <sense n="1" xml:id="D1"> <cit type="translation" xml:lang="la">
+                                <quote> vallis </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> locus depressus et humilis </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> regio </quote>
+                            </cit> (<cit type="translation" xml:lang="la">
+                                <quote> in alvei speciem </quote>
+                            </cit>) <cit type="translation" xml:lang="la">
+                                <quote> depressior </quote>
+                            </cit>, <foreign xml:lang="grc">κοιλάς</foreign>, <foreign xml:lang="grc">κοίλωμα</foreign>, <foreign xml:lang="grc">φάραγξ</foreign>; <lbl expand="Singularis">Sing.</lbl> <foreign xml:lang="gez">ቈላ፡</foreign> <ref cRef="Jes." loc="10,29">Jes. 10,29</ref>; <foreign xml:lang="gez">ቈላ፡ ዕሙቅ፡</foreign> <ref cRef="Jes." loc="30,23">Jes. 30,23</ref>; <ref cRef="Hen." loc="26">Hen. 26</ref>; <ref cRef="Hen." loc="27">Hen. 27</ref>; at frequentius occurrit <foreign xml:lang="gez">ቈላት፡</foreign> pro <lbl expand="">sing.</lbl> acceptum: <ref cRef="Gen. " loc="14,10">Gen.  14,10</ref>; <ref cRef="Gen." loc="23,2">Gen. 23,2</ref>; <ref cRef="Gen." loc="26,17">Gen. 26,17</ref>; <ref cRef="Gen." loc="37,14">Gen. 37,14</ref>; <ref cRef="Num." loc="13,23">Num. 13,23</ref>; <ref cRef="Deut." loc="2,36">Deut. 2,36</ref>; <ref cRef="Kuf." loc="24">Kuf. 24</ref>; <ref cRef="Jes. " loc="15,7">Jes.  15,7</ref>; <ref cRef="Jes." loc="17,5">Jes. 17,5</ref>; <ref cRef="Jes." loc="22,1">Jes. 22,1</ref>; <ref cRef="Jes." loc="22,5">Jes. 22,5</ref>; <ref cRef="Jes." loc="28,21">Jes. 28,21</ref>; <ref cRef="Jer." loc="7,31">Jer. 7,31</ref>; <ref cRef="Jer." loc="21,13">Jer. 21,13</ref>; <ref cRef="Judith " loc="12,7">Judith  12,7</ref>; Plur. <foreign xml:lang="gez">ቈላት፡</foreign> <ref cRef="Jes." loc="7,19">Jes. 7,19</ref>; <ref cRef="Jes." loc="8,7">Jes. 8,7</ref>; <ref cRef="Jes." loc="11,15">Jes. 11,15</ref>; <ref cRef="Jes." loc="34,9">Jes. 34,9</ref> <foreign xml:lang="gez">ልገታተ፡ ቈላት፡</foreign> <ref cRef="Hagg." loc="1,4">Hagg. 1,4</ref>; <ref cRef="Cant." loc="2,1">Cant. 2,1</ref>; <ref cRef="Ps. " loc="64,14">Ps.  64,14</ref>; <ref cRef="Ps." loc="103,11">Ps. 103,11</ref>; <ref cRef="Judith" loc="2,8">Judith 2,8</ref>; <ref cRef="Judith" loc="7,4">Judith 7,4</ref>; <ref cRef="Hen." loc="26,4">Hen. 26,4</ref>; <ref cRef="Hen." loc="26,5">Hen. 26,5</ref>.</sense> <sense n="2" xml:id="D2"> Hoc nomine appellant Aethiopes regiones Abyssiniae humiles ac depressas, ardoribus solis obnoxias, insalubres (<lbl expand="oppositum, -o, -nitur">opp.</lbl> <foreign xml:lang="gez">ደጋ፡</foreign>, Isenb. <lbl expand="lexicon">lex.</lbl> amh. p. 168; <lbl expand="videas">vid.</lbl> <bibl>
+                                <ptr target="bm:Ludolf1681Historiath"/>
+                            </bibl>. I,5,1; <ref cRef="Bruce Bd. II p." loc="4.">Bruce Bd. II p. 4.</ref> 536; <ref cRef="IV p. " loc="330">IV p.  330</ref>; Rüppell <ref cRef="Bd. II p." loc="133">Bd. II p. 133</ref>), ut: <foreign xml:lang="gez">እስመ፡ መካነ፡ ብሔሩ፡ ቈላ፡ ውእቱ፡</foreign> <ref cRef="Chr. L. Atq." loc="29.">Chr. L. Atq. f. 29</ref>. </sense> </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

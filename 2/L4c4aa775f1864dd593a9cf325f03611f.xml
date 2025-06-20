@@ -1,0 +1,81 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> እንቋዕ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="LB" when="2018-03-18">root</change>
+        </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L4c4aa775f1864dd593a9cf325f03611f" n="5731">
+               <form>
+                  <foreign xml:lang="gez">እንቋዕ</foreign>
+               <rs type="root"/>
+                    </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain"> interj. laetantis et exsultantis: <cit type="translation" xml:lang="la">
+                            <quote> eia </quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                            <quote> evax </quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                            <quote> aha </quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                            <quote> euge </quote>
+                        </cit>, <foreign xml:lang="grc">εὖγε</foreign>, <foreign xml:lang="gez">እንቋዕ፡ እንቋዕ፡ ላዕለ፡ ኵሉ፡ አማልክት፡</foreign> <ref cRef="Hez." loc="6,11">Hez. 6,11</ref>; I <ref cRef="Sal. Mar." loc="15">Sal. Mar. 15</ref>; equo tribuitur <ref cRef="Job" loc="39,25">Job 39,25</ref>; in specie interj. ejus, qui de casu inimici exsultat <ref cRef="Job" loc="31,29">Job 31,29</ref>; <ref cRef="Hez." loc="26,2">Hez. 26,2</ref>; <ref cRef="Hez." loc="36,2">Hez. 36,2</ref>; <ref cRef="Ps." loc="34,24">Ps. 34,24</ref>; <ref cRef="Ps." loc="34,28">Ps. 34,28</ref>; <ref cRef="Ps." loc="39,21">Ps. 39,21</ref>; <ref cRef="Ps." loc="69,4">Ps. 69,4</ref>. — <lbl expand="Vocabularium Aethiopicum, -a -a">Voc. Ae.</lbl>: <foreign xml:lang="gez">እንቋዕ፡ ዘ፡ እንኳ</foreign>; <cit type="translation" xml:lang="la">
+                            <quote> aliud </quote>
+                        </cit>: <foreign xml:lang="gez">እንቋዕ፡ ብ፡ እሶ፡ እንኳዕ፡ እዉጨ።</foreign> </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

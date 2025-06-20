@@ -1,0 +1,83 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ጽሌ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="LB" when="2018-05-15">root</change>
+        </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="Lbd4cf186931f474cbd064f8422973aa6" n="9124">
+               <form>
+                  <foreign xml:lang="gez">ጽሌ</foreign>
+               <rs type="root"/>
+                    </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain"> (sec. Lud.: <foreign xml:lang="gez">ጽላ፡</foreign>) <gramGrp> <pos expand="Substantivum">subst.</pos> </gramGrp>, <gramGrp> <gen value="femininus">fem.</gen> </gramGrp> et <gramGrp> <gen value="not found">m.</gen> </gramGrp>, <lbl expand="pluralis">Pl.</lbl> <foreign xml:lang="gez">ጽላት፡</foreign> [amh. <foreign xml:lang="gez">ጽላ፡</foreign> sine dubio pro <foreign xml:lang="gez">ጽላዕ፡</foreign>, a <lbl expand="radix">rad.</lbl> <foreign xml:lang="ar">صلع</foreign>, cui potestas <cit type="translation" xml:lang="la">
+                            <quote> calvitiei </quote>
+                        </cit> et <cit type="translation" xml:lang="la">
+                            <quote> glabritatis </quote>
+                        </cit> inest; (<foreign xml:lang="he">צְלָעוֹת</foreign> <ref cRef="1 Reg." loc="6 ">1 Reg. 6 </ref>hebr.?)] <cit type="translation" xml:lang="la">
+                            <quote> tabula </quote>
+                        </cit>, <sense n="a" xml:id="Da"> in qua quid insculpitur, inscribitur, pingitur, lapidea, metallica, al.: <foreign xml:lang="gez">ጽሌ፡</foreign> <ref cRef="Ex." loc="32,16">Ex. 32,16</ref>; <ref cRef="2 Cor." loc="3,3">2 Cor. 3,3</ref>; <foreign xml:lang="gez">ግሉፍ፡ ውስተ፡ ጽሌ፡ ልቦሙ፡</foreign> <ref cRef="Jer." loc="17,1">Jer. 17,1</ref> <lbl expand="varia lectio">var.</lbl>; <ref cRef="Prov." loc="3,3">Prov. 3,3</ref>; <foreign xml:lang="gez">ኢኮነ፡ ይእቲ፡ ጽሌ፡ ዘእብን፡ ዘእንበለ፡ ጽሌ፡ ልብ፡</foreign> Cyr. de r. fid. f. 37; <foreign xml:lang="gez">ክልኤቲ፡ ጽላት፡ ዘእብን፡</foreign> <ref cRef="Deut." loc="4,13">Deut. 4,13</ref>; <ref cRef="Deut." loc="5,19">Deut. 5,19</ref>; <ref cRef="Deut. " loc="9,9">Deut.  9,9</ref>; <ref cRef="Deut." loc="9,10">Deut. 9,10</ref>; <ref cRef="Deut." loc="10,2">Deut. 10,2</ref>; <ref cRef="Deut." loc="10,3">Deut. 10,3</ref>; <ref cRef="Deut." loc="10,4">Deut. 10,4</ref>; <ref cRef="Ex." loc="31,18">Ex. 31,18</ref>; <ref cRef="Ex." loc="32,15">Ex. 32,15</ref>; <ref cRef="Ex." loc="34,1">Ex. 34,1</ref>; <ref cRef="Kuf." loc="1">Kuf. p. 1</ref>; <ref cRef="3 Reg." loc="8,9">3 Reg. 8,9</ref>; <ref cRef="Hebr." loc="9,4">Hebr. 9,4</ref>; <foreign xml:lang="gez">ጽላተ፡ ሰማይ፡</foreign> <ref cRef="Kuf." loc="3 ">Kuf. 3 </ref> <lbl expand="sequens">seq.</lbl>; <cb n="1256" xml:id="c1256"/> <foreign xml:lang="gez">ጽላተ፡ ብርት፡</foreign> <ref cRef="Jsp." loc="316">Jsp. p. 316</ref>; <foreign xml:lang="gez">ጽላተ፡ ብሩር፡</foreign> <ref cRef="Jsp." loc="376">Jsp. p. 376</ref>; <ref cRef="Sx. Sen." loc="21 ">Sx. Sen. 21 </ref> <foreign xml:lang="gez">ጽላት፡</foreign> tamquam <lbl expand="Singularis">Sing.</lbl> pro <cit type="translation" xml:lang="la">
+                                <quote> tabula pictoria </quote>
+                            </cit> usurpatum est.</sense> <sense n="b" xml:id="Db"> lignea i.e. <cit type="translation" xml:lang="la">
+                                <quote> assis </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> asser </quote>
+                            </cit>: <foreign xml:lang="gez">ተሰጥመት፡ ሐመር፡ ወተሰቅለ፡ አሐቲ፡ ብእሲት፡ እምጽላተ፡ ሐመር፡</foreign> <ref cRef="Sx. Genb." loc="21.">Sx. Genb. 21.</ref> </sense> </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

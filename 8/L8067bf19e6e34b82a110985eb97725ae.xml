@@ -1,0 +1,107 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ጸላኢ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="MK" when="2019-08-22">added new info</change>
+            <change who="MK" when="2019-08-29">added comment</change>
+            <change who="MK" when="2019-08-29">corr</change>
+        </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L8067bf19e6e34b82a110985eb97725ae" n="9161">
+               <form>
+                  <foreign xml:lang="gez">ጸላኢ</foreign>
+               </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain"> <gramGrp> <pos expand="nomen agentis">n. ag.</pos> </gramGrp>, rarius <foreign xml:lang="gez">ጸላእ፡</foreign>, <gramGrp> <gen value="femininus">fem.</gen> </gramGrp> <foreign xml:lang="gez">ጸላእት፡</foreign>, <lbl expand="pluralis">Pl.</lbl> <foreign xml:lang="gez">ጸላእያን፡</foreign> et <foreign xml:lang="gez">ጸላእት፡</foreign>, <cit type="translation" xml:lang="la">
+                            <quote> osor </quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                            <quote> inimicus </quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                            <quote> inimica </quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                            <quote> adversarius </quote>
+                        </cit>: <foreign xml:lang="gez">ጸላእየ፡</foreign> et <foreign xml:lang="gez">ጸላኢየ፡</foreign> <foreign xml:lang="grc">ἐχθρός μου</foreign> <ref cRef="Job" loc="31,29">Job 31,29</ref>; <foreign xml:lang="gez">ትሬኢ፡ ጸላእትየ፡ ወትለብስ፡ ኀፍረተ፡</foreign> <foreign xml:lang="grc">ἡ ἐχθρά μου</foreign> <ref cRef="Mich." loc="7,8">Mich. 7,8</ref>; <ref cRef="Mich." loc="7,10">Mich. 7,10</ref>, <foreign xml:lang="gez">ጸላኤ፡ ዐመፃ፡</foreign> <foreign xml:lang="grc">μισῶν</foreign> <ref cRef="Judith" loc="5,17">Judith 5,17</ref>; <foreign xml:lang="gez">ጸላእያነ፡ ሠናይ፡</foreign> <ref cRef="2 Tim." loc="3,3">2 Tim. 3,3</ref>; <foreign xml:lang="gez">ጸላኢ፡</foreign> <foreign xml:lang="grc">ἐχθρός</foreign> <ref cRef="Gal." loc="4,16">Gal. 4,16</ref>; <ref cRef="Matth." loc="5,43">Matth. 5,43</ref>; <ref cRef="Jac." loc="4,4">Jac. 4,4</ref>; <ref cRef="2 Thess." loc="3,15">2 Thess. 3,15</ref>; <ref cRef="Ex." loc="23,4">Ex. 23,4</ref>; <ref cRef="Ex." loc="23,5">Ex. 23,5</ref>; <ref cRef="Sir." loc="6,1">Sir. 6,1</ref>; <ref cRef="Sir." loc="6,9">Sir. 6,9</ref>; <ref cRef="Sir." loc="12,8">Sir. 12,8</ref>; <ref cRef="Sir." loc="12,9">Sir. 12,9</ref>; <ref cRef="Sir." loc="12,10">Sir. 12,10</ref>; <ref cRef="Sir." loc="19,8">Sir. 19,8</ref>; <ref cRef="Sir." loc="25,7">Sir. 25,7</ref>; <ref cRef="Sir." loc="30,3">Sir. 30,3</ref>; <ref cRef="Sir." loc="30,6">Sir. 30,6</ref>; <ref cRef="Prov." loc="24,17">Prov. 24,17</ref>; <ref cRef="Ps." loc="8,3">Ps. 8,3</ref> al.; <foreign xml:lang="grc">ὑπεναντίος</foreign> <ref cRef="Job" loc="13,24">Job 13,24</ref>; <foreign xml:lang="grc">ἀντίδικος</foreign> <ref cRef="1 Petr." loc="5,8">1 Petr. 5,8</ref>; <foreign xml:lang="gez">ጸላእትክሙ፡</foreign> <foreign xml:lang="grc">οἱ μισοῦντες ὑμᾶς</foreign> <ref cRef="Jes." loc="66,5">Jes. 66,5</ref>; <ref cRef="Dan." loc="4,16">Dan. 4,16</ref>; <ref cRef="Ps." loc="43,9">Ps. 43,9</ref>; <ref cRef="Ps." loc="82,2">Ps. 82,2</ref>; <ref cRef="Ps." loc="85,16">Ps. 85,16</ref>; <ref cRef="Sir." loc="25,14">Sir. 25,14</ref>; <foreign xml:lang="grc">ἐχθροί</foreign> <ref cRef="Sir." loc="23,3">Sir. 23,3</ref>; <ref cRef="Job" loc="8,22">Job 8,22</ref>; <ref cRef="Job" loc="27,7">Job 27,7</ref>; <ref cRef="Jes. " loc="1,24">Jes.  1,24</ref>; <ref cRef="Jer." loc="51,30">Jer. 51,30</ref>; <ref cRef="Thren." loc="1,2">Thren. 1,2</ref>; <ref cRef="Nah." loc="1,2">Nah. 1,2</ref>; <ref cRef="Ps." loc="9,3">Ps. 9,3</ref>; <ref cRef="Ex." loc="23,22">Ex. 23,22</ref>; <ref cRef="Apoc." loc="11,12">Apoc. 11,12</ref>; <ref cRef="Matth." loc="5,44">Matth. 5,44</ref>; <foreign xml:lang="gez">ጸላእያነ፡ እግዚአብሔር፡</foreign> <ref cRef="Rom." loc="1,30">Rom. 1,30</ref> Platt; <foreign xml:lang="gez">ጸላእያነ፡ ሃይማኖት፡</foreign> <ref cRef="Kid." loc="3">Kid. f. 3</ref>; <foreign xml:lang="gez">ጸላእያንየ፡ ወቀናእያንየ፡</foreign> <ref cRef="Jsp." loc="338">Jsp. p. 338</ref>; in specie <foreign xml:lang="gez">ጸላኢ፡</foreign> nominatur diabolus, <ref cRef="Sx. Jac." loc="21 ">Sx. Jac. 21 </ref>al.; <ref cRef="Lit." loc="168,4">Lit. 168,4</ref>. </sense>
+               
+            <sense xml:lang="en" source="#traces" xml:id="Tmain"> <cit type="transcription" xml:lang="gez">
+                            <quote>ṣalāʾi</quote>
+                        </cit>, <cit type="transcription" xml:lang="gez">
+                            <quote>ṣalāʾ</quote>
+                        </cit>, <gramGrp> <gen value="femininus">fem.</gen> </gramGrp> <cit type="transcription" xml:lang="gez">
+                            <quote>ṣalāʾǝt</quote>
+                        </cit>, <lbl expand="pluralis">Pl.</lbl> <cit type="transcription" xml:lang="gez">
+                            <quote>ṣalāʾǝyān</quote>
+                        </cit>, <cit type="transcription" xml:lang="gez">
+                            <quote>ṣalāʾǝt</quote>
+                        </cit> <foreign xml:lang="gez">ወዘሰ፡ ተርፈ፡ ሐመምኩ፡ ብሂሎ፡ በሐሰት፡ ይክስሶ፡ ጸላእቱ፡ ወእመ፡ ተረትዓ፡ ይኩን፡ እዳሁ፡ እዳ፡ ወንጀለኛ፡</foreign> ‘<cit type="translation" xml:lang="fr">
+                            <quote> mais si quelqu’un reste chez lui en se disant faussement malade, que ses ennemis le défèrent au tribunal, et s’il est convaincu de fausseté, que sa main subisse le châtiment du traîte! </quote>
+                        </cit>’ <bibl>
+                            <ptr target="bm:ContiRossini1907SarsaDengel"/>
+                            <citedRange unit="page"> 113 l. 28-29 (ed.)</citedRange>
+                        </bibl>, <bibl>
+                            <ptr target="bm:ContiRossini1907SarsaDengelV"/>
+                            <citedRange unit="page"> 129 11-14 (tr.)</citedRange>
+                        </bibl>, <foreign xml:lang="gez">ይትፌሣሕ፡ ፍቁርነ፡ ወይኅዝን፡ ጸላእትነ።</foreign> ‘<cit type="translation" xml:lang="fr">
+                            <quote>nos amis se réjouiront, et que nos ennemis s’attrisent!</quote>
+                        </cit>’ <bibl>
+                            <ptr target="bm:Guidi1903YohannesT"/>
+                            <citedRange unit="page"> 5 l. 33-34</citedRange>
+                        </bibl> ( <bibl>
+                            <ptr target="bm:Praetorius1910RezSarsaDengel"/>
+                            <citedRange unit="page"> 620</citedRange>
+                        </bibl> suggests that in the examples above the word <foreign xml:lang="gez">ጸላእት፡</foreign> is used in the singular just like Amharic<foreign xml:lang="amh">ጠላት፡</foreign>.) </sense>
+                </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

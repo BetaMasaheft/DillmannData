@@ -1,0 +1,117 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ዝብጠት </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L2b965f4aaf7d48d28ea73bbc1428d855" n="7605">
+               <form>
+                  <foreign xml:lang="gez">ዝብጠት</foreign>
+               </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain">
+                  <gramGrp>
+                     <pos expand="nomen agentis">n. ag.</pos>
+                  </gramGrp> et <gramGrp>
+                     <pos expand="Substantivum">subst.</pos>
+                  </gramGrp>, <gramGrp>
+                     <gen value="femininus">fem.</gen>
+                  </gramGrp> et <gramGrp>
+                     <gen value="masculinum">m.</gen>
+                  </gramGrp>, <lbl expand="pluralis">Pl.</lbl>
+                  <foreign xml:lang="gez">ዝብጠታት፡ </foreign>
+                  <sense n="1" xml:id="D1">
+                     <cit type="translation" xml:lang="la">
+                        <quote>verberatio</quote>
+                     </cit>, <cit type="translation" xml:lang="la">
+                        <quote>percussio</quote>
+                     </cit>, <cit type="translation" xml:lang="la">
+                        <quote>verber</quote>
+                     </cit>, <cit type="translation" xml:lang="la">
+                        <quote>plaga</quote>
+                     </cit>, <cit type="translation" xml:lang="la">
+                        <quote>ictus</quote>
+                     </cit>, F.N. 47; <foreign xml:lang="gez">ዝብጠት፡ ወቅጥቃጤ፡</foreign>
+                     <foreign xml:lang="grc">διακοπὴ καὶ συντριβή</foreign>
+                     <ref cRef="Prov." loc="6,15">Prov. 6,15</ref>; <foreign xml:lang="grc">πληγαί </foreign>
+                     <ref cRef="Prov." loc="20,30">Prov. 20,30</ref>; <ref cRef="Prov." loc="29,15">Prov. 29,15</ref>; <foreign xml:lang="gez">ሞተ፡ ፊልጶስ፡ በውእቱ፡ ዝብጠት፡ </foreign>
+                     <ref cRef="Jsp." loc="280">Jsp. p. 280</ref>; <foreign xml:lang="gez">ዘበጦ፡
+                        በሰይፍ፡ አሐተ፡ ዝብጠተ፡</foreign> Jsp. p. 292; <foreign xml:lang="gez">ይደልዎ፡ ፵
+                        ዝብጠት፡</foreign>
+                     <ref cRef="Jsp." loc="301">Jsp. p. 301</ref>; <foreign xml:lang="gez">ተዘከር፡
+                        ዘንተ፡ ዝብጠተ፡ ዘዘበጥኩከ፡</foreign>
+                     <ref cRef="Jsp." loc="328">Jsp. p. 328</ref>; <foreign xml:lang="gez">አንብር፡
+                        አፉየ፡ ላዕለ፡ ዝብጠታቲሆሙ፡</foreign> (sc. vulneratorum) <ref cRef="Jsp. " loc="367">Jsp. p. 367</ref>; <ref cRef="Hen." loc="69,6">Hen. 69,6</ref>; <ref cRef="Hen." loc="69,12">Hen. 69,12</ref>; <ref cRef="Org." loc="4">Org.
+                        4</ref>; <ref cRef="Phlx." loc="191.">Phlx. 191.</ref>
+                  </sense>
+                  <sense n="2" xml:id="D2">
+                     <cit type="translation" xml:lang="la">
+                        <quote>ictus</quote>
+                     </cit> vel <cit type="translation" xml:lang="la">
+                        <quote>pulsus mallei</quote>
+                     </cit>, Fid. Jac. Bar.</sense>
+                  <sense n="3" xml:id="D3">
+                     <cit type="translation" xml:lang="la">
+                        <quote>pulsatio</quote>
+                     </cit> instrumenti musici: <foreign xml:lang="gez">ከመ፡ ዝብጠተ፡ መሰንቆ፡ ወዕንዚራ፡ </foreign>
+                     <ref cRef="Macc." loc="20">Macc. f. 20</ref>; <ref cRef="Org." loc="3.">Org.
+                        3.</ref>
+                  </sense>
+               </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

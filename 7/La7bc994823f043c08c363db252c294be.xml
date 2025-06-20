@@ -1,0 +1,81 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ግሕሠ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="LB" when="2018-05-04">root</change>
+        </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="La7bc994823f043c08c363db252c294be" n="8285">
+               <form>
+                  <foreign xml:lang="gez">ግሕሠ</foreign>
+               <rs type="root"/>
+                    </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain">, etiam <foreign xml:lang="gez">ግኅሠ፡</foreign> et <foreign xml:lang="gez">ግህሠ፡</foreign> <subc>I,1</subc> [vis verbi prima in <cit type="translation" xml:lang="la">
+                            <quote> deflectendo </quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                            <quote> recedendo </quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                            <quote> secedendo </quote>
+                        </cit> fuisse videtur (sicut in <foreign xml:lang="he">גוּר</foreign> et <foreign xml:lang="he">סוּר</foreign>); in specie <lbl expand="conferas">cfr.</lbl> <foreign xml:lang="ar">جَحَرَ</foreign> et <foreign xml:lang="ar">جَحِيشٌ</foreign>] <gramGrp> <pos expand="Subjunctivus">Subj.</pos> </gramGrp> <foreign xml:lang="gez">ይግሐሥ፡</foreign>, Imperat. <foreign xml:lang="gez">ገሐሥ፡</foreign> <sense n="1" xml:id="D1"> <cit type="translation" xml:lang="la">
+                                <quote> devertere </quote>
+                            </cit> ad aliquem, <lbl expand="cum">c.</lbl> <foreign xml:lang="gez">ኀበ፡</foreign> pers.: <ref cRef="Gen. " loc="18,5">Gen.  18,5</ref>; <ref cRef="Gen." loc="19,2">Gen. 19,2</ref>; <ref cRef="Gen." loc="19,3">Gen. 19,3</ref>; <ref cRef="Jud." loc="4,18">Jud. 4,18</ref>; <lbl expand="cum">c.</lbl> <foreign xml:lang="gez">ውስተ፡</foreign> loci: <ref cRef="Jud." loc="19,11">Jud. 19,11</ref>; vel <lbl expand="sequens">seq.</lbl> <gramGrp> <pos expand="adverbium, adverbialiter">adv.</pos> </gramGrp> loci <ref cRef="Jud." loc="18,15">Jud. 18,15</ref>; <ref cRef="Jud." loc="19,15">Jud. 19,15</ref>; <ref cRef="Ruth" loc="4,1">Ruth 4,1</ref>; <foreign xml:lang="gez">እስመ፡ ጐንደየ፡ ግሒሠ፡ ህየ፡</foreign> <ref cRef="4 Reg." loc="4,8">4 Reg. 4,8</ref>; <ref cRef="4 Reg. " loc="4,10">4 Reg.  4,10</ref>.</sense> <sense n="2" xml:id="D2"> honeste: <cit type="translation" xml:lang="la">
+                                <quote> alvum exoneratum ire </quote>
+                            </cit>, Lud. sine <lbl expand="auctore, auctoritate">auct.</lbl> </sense> </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

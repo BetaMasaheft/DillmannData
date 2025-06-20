@@ -1,0 +1,90 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ድኁን </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="AE" when="2018-12-17">correction</change>
+        </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="Lcc461076149c4237bb440c1ce76bed16" n="8027">
+               <form>
+                  <foreign xml:lang="gez">ድኁን</foreign>
+               </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain"> <gramGrp> <pos expand="participium">part.</pos> </gramGrp> <sense n="1" xml:id="D1"> <cit type="translation" xml:lang="la">
+                                <quote> incolumis </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> sospes </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> salvus </quote>
+                            </cit>: <ref cRef="Jos." loc="10,21">Jos. 10,21</ref> <lbl expand="varia lectio">var.</lbl>; igne non consumti sed inventi sunt <foreign xml:lang="gez">ድኁናነ፡</foreign> <ref cRef="Sx. Hed." loc="7 Enc.">Sx. Hed. 7 Enc.</ref> <sense n="a" xml:id="D1a"> sensu physico: <sense n="α" xml:id="D1aα"> <cit type="translation" xml:lang="la">
+                                        <quote> integer </quote>
+                                    </cit>, <cit type="translation" xml:lang="la">
+                                        <quote> sanus </quote>
+                                    </cit>: judex sit <foreign xml:lang="gez">ድኁነ፡ ምስማዕ፡ ወንጻሬ፡</foreign> F.N. 43,1.</sense> <sense n="β" xml:id="D1aβ"> <cit type="translation" xml:lang="la">
+                                        <quote> salubris </quote>
+                                    </cit>, de bestiis <ref cRef="Gad. Ad." loc="7.">Gad. Ad. f. 7.</ref> </sense> </sense> <sense n="b" xml:id="D1b"> sensu theologico: <cit type="translation" xml:lang="la">
+                                    <quote> salvatus </quote>
+                                </cit>, <cit type="translation" xml:lang="la">
+                                    <quote> divinam salutem adeptus </quote>
+                                </cit>, <foreign xml:lang="gez">ኢድኁን፡ አንተ፡ በሞተ፡ ኢየሱስ፡</foreign> <ref cRef="M.M." loc="f. 127">M.M. f. 127</ref>; Deus <foreign xml:lang="gez">ይረስዮ፡</foreign> (mortuum) <foreign xml:lang="gez">ምስለ፡ ድኁናን፡</foreign> <ref cRef="Genz." loc="91.">Genz. f. 91.</ref> </sense> </sense> <sense n="2" xml:id="D2"> <cit type="translation" xml:lang="la">
+                                <quote> liber </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> immunis </quote>
+                            </cit>, a militia <ref cRef="Deut." loc="24,5">Deut. 24,5</ref>; vituperio: <foreign xml:lang="gez">ድኁን፡ አነ፡ እምሐሜት፡</foreign> <ref cRef="Chrys. ho." loc="4">Chrys. ho. 4</ref>; <foreign xml:lang="gez">ድኁን፡</foreign> (scriptum est <foreign xml:lang="gez">ድኑን፡</foreign>) <foreign xml:lang="gez">እምነውር፡</foreign> F.N. 43,1; peccato: <foreign xml:lang="gez">ክርስቶስ፡ ድኁን፡ ውእቱ፡ እምኀጣውእ፡</foreign> Chrys. ho. 15; culpa: <foreign xml:lang="gez">ድኁን፡ እምዕዳ፡</foreign> F.N. 33,2.</sense> </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

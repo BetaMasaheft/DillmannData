@@ -1,0 +1,92 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ዘንጐጐ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="LB" when="2018-04-26">root</change>
+            <change who="AE" when="2018-10-06">Sprachkennung,</change>
+        </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="Lec67f8a6e0964459a5d665b4481c9149" n="7634">
+               <form>
+                  <foreign xml:lang="gez">ዘንጐጐ</foreign>
+               <rs type="root"/>
+                    </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain"> quadril. I [i.q. <foreign xml:lang="ar">زَغْزَغَ</foreign> <cit type="translation" xml:lang="la">
+                            <quote> debilem reddidit </quote>
+                        </cit> sermonem ut sensus percipi non possit; <cit type="translation" xml:lang="la">
+                            <quote> ludibrio habuit </quote>
+                        </cit>; frustra comparavit Dorn de psalt. aeth. p. 69 <foreign xml:lang="ar">سجح</foreign>, Tuch de Aethiopicae linguae sonorum proprietatibus quibusdam p. 15 <foreign xml:lang="he">זגג</foreign>] <sense n="1" xml:id="D1"> <cit type="translation" xml:lang="la">
+                                <quote> susurrare </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> mussitare </quote>
+                            </cit>: mortuum ex ecclesia ad sepulchrum efferens suffies incensum <foreign xml:lang="gez">ወትዘነጕጕ፡ ወታነብዕ፡ አንብዐ፡ በመስፈርት፡ በለሖሳስ፡</foreign> <ref cRef="Genz." loc="14.">Genz. f. 14.</ref> </sense> <sense n="2" xml:id="D2"> <cit type="translation" xml:lang="la">
+                                <quote> subsannare </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> irridere </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> cavillari </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> verbis illudere </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> ludibrio habere </quote>
+                            </cit>, <lbl expand="cum">c.</lbl> <gramGrp> <case value="accusativus">Acc.</case> </gramGrp>: <foreign xml:lang="gez">ይዘነጕጉኒ፡</foreign> <foreign xml:lang="grc">εἰς χλευασμόν</foreign> <ref cRef="Jer." loc="20,8">Jer. 20,8</ref>; <foreign xml:lang="grc">ἐκμυκτηρίζειν</foreign> <ref cRef="Luc." loc="23,35">Luc. 23,35</ref>; <foreign xml:lang="grc">ὀνειδίζειν</foreign> <ref cRef="Matth." loc="5,11">Matth. 5,11</ref>; <ref cRef="Matth." loc="27,44">Matth. 27,44</ref>; <ref cRef="Marc." loc="15,32">Marc. 15,32</ref>; <ref cRef="Jes." loc="65,7">Jes. 65,7</ref>; <ref cRef="Prov. " loc="20,4">Prov.  20,4</ref>; <foreign xml:lang="gez">ማርያም፡ ትዘነጕጓ፡ ለእመ፡ ሄሮድስ፡</foreign> <ref cRef="Jsp." loc="323">Jsp. p. 323</ref>; <foreign xml:lang="gez">ከመ፡ ኢይዘንጐጐነ፡</foreign> <ref cRef="Jsp." loc="324">Jsp. p. 324</ref>; <ref cRef="Kid." loc="40">Kid. f. 40</ref>; <lbl expand="cum">c.</lbl> <foreign xml:lang="gez">በ፡</foreign> vel <foreign xml:lang="gez">በእንተ፡</foreign> <cit type="translation" xml:lang="la">
+                                <quote> ob </quote>
+                            </cit>: <foreign xml:lang="gez">ይዘነጕጐነ፡ በኀጢአ፡ ሕግ፡</foreign> <ref cRef="Sap. " loc="2,12">Sap.  2,12</ref>; <foreign xml:lang="gez">ይዘነጕጕዎሙ፡ በእንተ፡ ዘጐዩ፡</foreign> <ref cRef="Jsp." loc="357.">Jsp. p. 357.</ref> </sense> </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

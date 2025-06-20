@@ -1,0 +1,153 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ተውኔት </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L5b883f6a23c84aa48adb7fceaf09e4d7" n="6667">
+               <form>
+                  <foreign xml:lang="gez">ተውኔት</foreign>
+               </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain">
+                  <gramGrp>
+                     <pos expand="Substantivum">subst.</pos>
+                     <gen value="masculinum">m.</gen>
+                  </gramGrp> et <gramGrp>
+                     <gen value="femininus">fem.</gen>
+                  </gramGrp>
+                  <sense n="1" xml:id="D1">
+                     <cit type="translation" xml:lang="la">
+                        <quote>oblectatio</quote>
+                     </cit>, <cit type="translation" xml:lang="la">
+                        <quote>voluptas</quote>
+                     </cit>, <cit type="translation" xml:lang="la">
+                        <quote>libido</quote>
+                     </cit>, <ref cRef="Hen." loc="67,8">Hen. 67,8</ref>; <ref cRef="Hen." loc="67,10">Hen. 67,10</ref>; <ref cRef="Hen. " loc="10,15">Hen.
+                     10,15</ref>.</sense>
+                  <sense n="2" xml:id="D2">
+                     <cit type="translation" xml:lang="la">
+                        <quote>oblectamentum</quote>
+                     </cit>: <foreign xml:lang="gez">ከመ፡ ኢይረስይዎ፡ ተውኔተ፡ ለአሕዛብ፡ </foreign>
+                     <foreign xml:lang="grc">ἐπίχαρμα τοῖς ἔθνεσιν</foreign>
+                     <ref cRef="Judith " loc="4,12">Judith 4,12</ref>.</sense>
+                  <sense n="3" xml:id="D3">
+                     <cit type="translation" xml:lang="la">
+                        <quote>ludus</quote>
+                     </cit> vel <cit type="translation" xml:lang="la">
+                        <quote>lusus</quote>
+                     </cit> cujusvis generis: <foreign xml:lang="gez">ተውኔት፡ ወማሕሌት፡ </foreign>
+                     <ref cRef="Rom." loc="13,13">Rom. 13,13</ref> Platt; <foreign xml:lang="gez">የሐውር፡ ውስተ፡ ተውኔት፡ ወዘፈን፡ </foreign>
+                     <ref cRef="Clem." loc="127">Clem. f. 127</ref>; <ref cRef="Clem." loc="146">Clem. f. 146</ref>; sacerdotes <foreign xml:lang="gez">ኢይነጽሩ፡ ተውኔተ፡
+                        ወኢዘፈነ፡</foreign> F.M. 32,7; <foreign xml:lang="gez">በተውኔት፡ ዘይትረከብ፡
+                     </foreign> (ubi Graecus habet <foreign xml:lang="grc">κύβοις
+                     σχολάζων</foreign>) II <ref cRef="Can. Ap." loc="40">Can. Ap. 40</ref>; in
+                     specie: <sense n="a" xml:id="D3a">
+                        <cit type="translation" xml:lang="la">
+                           <quote>musica</quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                           <quote>saltatio</quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                           <quote>chorus</quote>
+                        </cit>: <foreign xml:lang="gez">ቃለ፡ ተውኔት፡ </foreign>
+                        <foreign xml:lang="grc">φωνὴ παιζόντων</foreign>
+                        <ref cRef="Jer." loc="37,19">Jer. 37,19</ref>; <foreign xml:lang="grc">μουσικὰ</foreign>
+                        <foreign xml:lang="gez">ተውኔት፡ </foreign>
+                        <ref cRef="Dan." loc="3,10">Dan. 3,10</ref>; <ref cRef="Dan." loc="3,15">Dan. 3,15</ref>; <cb n="0918" xml:id="c0918"/>
+                        <foreign xml:lang="grc">θωδαθᾶ </foreign>
+                        <ref cRef="2 Esr." loc="22,27">2 Esr. 22,27</ref>; <foreign xml:lang="grc">χοροί</foreign>
+                        <ref cRef="Ex." loc="32,19">Ex. 32,19</ref>; <foreign xml:lang="gez">ንዋየ፡
+                           ተውኔት፡</foreign>
+                        <cit type="translation" xml:lang="la">
+                           <quote>instrumenta musica</quote>
+                        </cit>
+                        <ref cRef="Dan. " loc="3,7">Dan. 3,7</ref>; <foreign xml:lang="gez">ንዋያተ፡
+                           ማሕሌት፡ ዘተውኔት፡</foreign> F.M. 32,7.</sense>
+                     <sense n="b" xml:id="D3b">
+                        <cit type="translation" xml:lang="la">
+                           <quote>theatrum</quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                           <quote>scena</quote>
+                        </cit>: <foreign xml:lang="gez">መካነ፡ ተውኔት፡ </foreign>
+                        <foreign xml:lang="grc">τὸ θέατρον</foreign>
+                        <ref cRef="Act." loc="19,29">Act. 19,29</ref> Platt; <foreign xml:lang="gez">ሰብአ፡ ተውኔት፡</foreign>
+                        <cit type="translation" xml:lang="la">
+                           <quote>scenici</quote>
+                        </cit>
+                        <ref cRef="Const. Ap." loc="62">Const. Ap. 62</ref>; clerici ne adeant
+                           <foreign xml:lang="gez">ኀበ፡ ቤተ፡ ተውኔት፡</foreign> F.M. 32,2; <ref cRef="Tit. Ap." loc="32">Tit. Ap. 32</ref>; Christiani ne adeant <foreign xml:lang="gez">ቤተ፡ ተውኔት፡ </foreign>
+                        <ref cRef="Did." loc="27.">Did. 27.</ref>
+                     </sense>
+                     <sense n="4" xml:id="D34">
+                        <cit type="translation" xml:lang="la">
+                           <quote>illusio</quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                           <quote>ludibrium</quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                           <quote>ludicrum</quote>
+                        </cit>, <foreign xml:lang="grc">παιγνία</foreign>
+                        <ref cRef="Jer." loc="29,17">Jer. 29,17</ref>; <foreign xml:lang="gez">ተውኔቶሙ፡ </foreign>
+                        <foreign xml:lang="grc">ἐμπαιγμός</foreign>
+                        <ref cRef="Sap." loc="12,25">Sap. 12,25</ref>; <foreign xml:lang="grc">παίγνιον</foreign>
+                        <ref cRef="Sap." loc="15,12">Sap. 15,12</ref>; <foreign xml:lang="gez">ኀያላን፡
+                           ተውኔቱ፡</foreign>
+                        <ref cRef="Hab." loc="1,10">Hab. 1,10</ref>.</sense>
+                  </sense>
+               </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

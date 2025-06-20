@@ -1,0 +1,73 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ጶዴሬ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="LB" when="2018-05-08">root</change>
+        </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L49222ce2455c44c8bd840ddde7a5af48" n="9103">
+               <form>
+                  <foreign xml:lang="gez">ጶዴሬ</foreign>
+               <rs type="root"/>
+                    </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain">, <foreign xml:lang="gez">ጶዴር፡</foreign>, etiam <foreign xml:lang="gez">ጳዴር፡</foreign>, <foreign xml:lang="gez">ጴዴር፡</foreign>, <gramGrp> <pos expand="not found">n. peregr.</pos> </gramGrp> <lbl expand="scilicet">sc.</lbl> <foreign xml:lang="grc">ποδήρης</foreign> (cum casibus suis), tunica <cit type="translation" xml:lang="la">
+                            <quote> talaris </quote>
+                        </cit>, <ref cRef="Ex. " loc="25,7">Ex.  25,7</ref>; <ref cRef="Ex." loc="28,4">Ex. 28,4</ref>; <ref cRef="Ex." loc="28,27">Ex. 28,27</ref> <lbl expand="sequens">seq.</lbl>; <ref cRef="Ex." loc="35,8">Ex. 35,8</ref>; in C <ref cRef="Ex." loc="36,32">Ex. 36,32</ref>; <ref cRef="Ex." loc="36,33">Ex. 36,33</ref> et <ref cRef="Lev." loc="8,7">Lev. 8,7</ref>; <ref cRef="Zach. " loc="3,4">Zach.  3,4</ref>; <ref cRef="Hez." loc="9,2">Hez. 9,2</ref> <lbl expand="sequens">seq.</lbl>; <foreign xml:lang="gez">ልብሰ፡ ጶዴር፡</foreign> <ref cRef="Sir." loc="27,8">Sir. 27,8</ref>; <ref cRef="Sir." loc="45,8">Sir. 45,8</ref>; <ref cRef="Apoc." loc="1,13">Apoc. 1,13</ref>; <ref cRef="Sx. Hed." loc="24.">Sx. Hed. 24.</ref> – „Male pro gemma accepit <foreign xml:lang="gez">ኤጴምዳ፡ ጶዴር፡</foreign> (<ref cRef="Ex." loc="25,7">Ex. 25,7</ref>) auctor <ref cRef="Org." loc="1">Org. 1</ref>“ Lud. – <lbl expand="Vocabularium Aethiopicum, -a -a">Voc. Ae.</lbl>: <foreign xml:lang="gez">ጶዴር፡ ዘ፡ ልብሰ፡ ሐር፡</foreign> – „Auctor libri Myst. exponit <foreign xml:lang="gez">ልብስ፡ ጸዐዳ፡</foreign>“, Lud. </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

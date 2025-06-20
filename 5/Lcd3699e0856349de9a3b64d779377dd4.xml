@@ -1,0 +1,105 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ሐነጸ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="LB" when="2018-01-30">root</change>
+        </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="Lcd3699e0856349de9a3b64d779377dd4" n="825">
+               <form>
+                  <foreign xml:lang="gez">ሐነጸ</foreign>
+               <rs type="root"/>
+                    </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain"> <subc>I,1</subc> [amh. <foreign xml:lang="gez">ሐነጸ፡</foreign> et <foreign xml:lang="gez">አነጸ፡</foreign>; etymo convenire videtur cum <foreign xml:lang="ar">حَصُنَ</foreign> <cit type="translation" xml:lang="la">
+                            <quote> firmus, munitusque fuit </quote>
+                        </cit>, II <cit type="translation" xml:lang="la">
+                            <quote> firmavit, muro cinxit </quote>
+                        </cit>, (transpositis literis <foreign xml:lang="gez">ነ</foreign> et <foreign xml:lang="gez">ጸ</foreign>); <lbl expand="vicinus">vic.</lbl> <foreign xml:lang="gez">ሐጸረ፡</foreign> et <foreign xml:lang="gez">ቈጸረ፡</foreign>] <gramGrp> <pos expand="Subjunctivus">Subj.</pos> </gramGrp> <foreign xml:lang="gez">ይሕንጽ፡</foreign> <sense n="1" xml:id="D1"> <sense n="a" xml:id="D1a"> <cit type="translation" xml:lang="la">
+                                    <quote> aedificare </quote>
+                                </cit>, <cit type="translation" xml:lang="la">
+                                    <quote> exstruere </quote>
+                                </cit>, <cit type="translation" xml:lang="la">
+                                    <quote> condere </quote>
+                                </cit>: <foreign xml:lang="gez">ዘየሐንጽ፡ ቤቶ፡ በንዋየ፡ ልቃሕ፡</foreign> <ref cRef="Sir." loc="21,8">Sir. 21,8</ref>; <foreign xml:lang="gez">ሕንጹ፡ አብያተ፡</foreign> <ref cRef="Jer." loc="36,5">Jer. 36,5</ref>; <ref cRef="Jer." loc="42,7">Jer. 42,7</ref>; <foreign xml:lang="gez">ሐኒጸ፡ ሀገር፡</foreign> <ref cRef="Kuf." loc="10">Kuf. 10</ref>; <ref cRef="Kuf." loc="11">Kuf. 11</ref>; <foreign xml:lang="gez">ሐነጸ፡ ምሥዋዐ፡</foreign> <ref cRef="Kuf. " loc="31">Kuf.  31</ref>; <ref cRef="Ex." loc="24,4">Ex. 24,4</ref>; <foreign xml:lang="gez">ንሕንጽ፡ በእብን፡</foreign> <ref cRef="Jes." loc="9,10">Jes. 9,10</ref>; <ref cRef="Prov. " loc="9,1">Prov.  9,1</ref>; <ref cRef="Koh." loc="2,4">Koh. 2,4</ref>; <ref cRef="Koh." loc="3,3">Koh. 3,3</ref>; <ref cRef="Sir." loc="49,7">Sir. 49,7</ref>; <ref cRef="Jes." loc="5,2">Jes. 5,2</ref>; <ref cRef="3 Reg." loc="5,5">3 Reg. 5,5</ref>; <ref cRef="Hez." loc="21,22">Hez. 21,22</ref>; <ref cRef="Hez. " loc="27,5">Hez.  27,5</ref>.</sense> <sense n="b" xml:id="D1b"> <cit type="translation" xml:lang="la">
+                                    <quote> superstruere </quote>
+                                </cit>, <cit type="translation" xml:lang="la">
+                                    <quote> inaedificare </quote>
+                                </cit> vel <cit type="translation" xml:lang="la">
+                                    <quote> obstruere </quote>
+                                </cit> locum aedificio, muro: <foreign xml:lang="gez">ኢትሕንጽ፡ ዘንተ፡ መካነ፡</foreign> <ref cRef="Kuf." loc="32">Kuf. 32</ref>; <foreign xml:lang="gez">ሐነጸ፡ ወዐጸወ፡ ፍኖትየ፡</foreign> <ref cRef="Thren." loc="3,9">Thren. 3,9</ref>.</sense> <sense n="c" xml:id="D1c"> <cit type="translation" xml:lang="la">
+                                    <quote> restituere </quote>
+                                </cit>, <cit type="translation" xml:lang="la">
+                                    <quote> reparare </quote>
+                                </cit> (domum, urbem vastatam): <foreign xml:lang="gez">ከመ፡ ይሕንጹ፡ መዝበራ፡ ለጽዮን፡</foreign> <ref cRef="2 Esr." loc="9,9">2 Esr. 9,9</ref>; <ref cRef="4 Reg." loc="21,3">4 Reg. 21,3</ref>; <ref cRef="Job " loc="12,13">Job  12,13</ref>.</sense> <sense n="d" xml:id="D1d"> <cit type="translation" xml:lang="la">
+                                    <quote> superaedificare </quote>
+                                </cit> <ref cRef="Judae" loc="20.">Judae 20.</ref> </sense> <sense n="2" xml:id="D12"> <cit type="translation" xml:lang="la">
+                                    <quote> domum alicui aedificare </quote>
+                                </cit> <lbl expand="cum">c.</lbl> <gramGrp> <case value="accusativus">Acc.</case> </gramGrp> <lbl expand="persona">pers.</lbl>: <foreign xml:lang="gez">ከመ፡ እሕንጾሙ፡</foreign> <ref cRef="Jer." loc="38,28">Jer. 38,28</ref>; <ref cRef="Jer." loc="40,7">Jer. 40,7</ref>; <ref cRef="Jer." loc="49,10">Jer. 49,10</ref>; <lbl expand="cum">c.</lbl> <gramGrp> <case value="accusativus">Acc.</case> </gramGrp> prolis: <foreign xml:lang="gez">ከመ፡ ይሕንጽ፡ ለከ፡ ዘርአ፡ እምኔሃ፡</foreign> <ref cRef="Kuf." loc="14">Kuf. 14</ref>; <ref cRef="Ruth " loc="4,11">Ruth  4,11</ref>.</sense> <sense n="3" xml:id="D13"> <cit type="translation" xml:lang="la">
+                                    <quote> struere </quote>
+                                </cit>, <cit type="translation" xml:lang="la">
+                                    <quote> statuere </quote>
+                                </cit>, <cit type="translation" xml:lang="la">
+                                    <quote> stabilire </quote>
+                                </cit>: <foreign xml:lang="gez">ወሐነጸ፡ ሥጋ፡ ህየንቴሃ፡</foreign> <ref cRef="Kuf." loc="3">Kuf. 3</ref>; <foreign xml:lang="gez">ለዓለም፡ አሐንጽ፡ ምሕረተ፡</foreign> <ref cRef="Ps." loc="88,3">Ps. 88,3</ref>; <foreign xml:lang="gez">ሐነጸ፡ ሥርዐተ፡ ማኅበር፡</foreign> <cit type="translation" xml:lang="la">
+                                    <quote> regulam conventus statuit </quote>
+                                </cit> (Pachomius) <ref cRef="Sx. Masc." loc="24 ">Sx. Masc. 24 </ref>Enc.; <foreign xml:lang="gez">ዐስቦሙ፡ በሰማይ፡ ሐነጹ፡</foreign> <cit type="translation" xml:lang="la">
+                                    <quote> mercedem suam in coelo stabilierunt </quote>
+                                </cit> Enc.</sense> </sense> </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

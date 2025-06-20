@@ -1,0 +1,76 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ሰመየ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="LB" when="2018-02-14">root</change>
+        <change who="MK" when="2024-08-26">added gr and les </change><change who="MK" when="2024-08-26">added sub</change></revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L024c24a7a48941b996cab11bc2174dd6" n="2559">
+               <form>
+                  <foreign xml:lang="gez">ሰመየ</foreign>
+               <rs type="root"/>
+                    </form>
+               <sense xml:id="Dmain" xml:lang="la" source="#dillmann"> <subc>I,1</subc> [prima radicis potestas est <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> altum </t:quote></cit>, deinde <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> conspicuum esse </t:quote></cit>, <lbl expand="conferas">cfr.</lbl> Ges. thes. p. 1431] <gramGrp> <pos expand="Subjunctivus">Subj.</pos> </gramGrp> <foreign xml:lang="gez">ይስሚ፡</foreign> <sense n="1" xml:id="D1"> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> nomen imponere </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> nominare </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> nuncupare </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> appellare </t:quote></cit>, <lbl expand="cum">c.</lbl> <gramGrp> <case value="accusativus">Acc.</case> </gramGrp> <lbl expand="persona">pers.</lbl> et <lbl expand="cum">c.</lbl> <gramGrp> <case value="accusativus">Acc.</case> </gramGrp> nominis: <foreign xml:lang="gez">ስምከ፡ ዘእግዚአብሔር፡ ሰመየከ፡</foreign> <ref cRef="Jes." loc="62,2">Jes. 62,2</ref>; <foreign xml:lang="gez">ይሰምይዋ፡ ለኢየሩሳሌም፡ መንበረ፡ እግዚአብሔር፡</foreign> <ref cRef="Jer." loc="3,17">Jer. 3,17</ref>; <ref cRef="Gen." loc="1,5">Gen. 1,5</ref>; <ref cRef="Gen." loc="2,19">Gen. 2,19</ref>; <ref cRef="Gen." loc="2,20">Gen. 2,20</ref>; <ref cRef="Gen." loc="26,18">Gen. 26,18</ref>; <ref cRef="Gen." loc="31,47">Gen. 31,47</ref>; <ref cRef="Luc. " loc="6,13">Luc.  6,13</ref> al., vel <lbl expand="cum">c.</lbl> <foreign xml:lang="gez">በ፡</foreign> nominis: <foreign xml:lang="gez">ሰመያ፡ በስመ፡ ወልዱ፡</foreign> <ref cRef="Gen." loc="4,17">Gen. 4,17</ref>; <foreign xml:lang="gez">ዘሰመይክሙ፡ በቅዱስ፡ አስማት፡</foreign> <ref cRef="Lev." loc="23,2">Lev. 23,2</ref>; <ref cRef="Jes." loc="40,26">Jes. 40,26</ref>. At nomen proprium, quo quem nominant, tamquam indeclinabile in nominativo ponere solent: <foreign xml:lang="gez">ኢትስምያኒ፡ ኖሔሚን። ስምያኒ፡ መራር፡</foreign> <ref cRef="Ruth" loc="1,20">Ruth 1,20</ref>; <ref cRef="1 Reg." loc="4,21">1 Reg. 4,21</ref>; <ref cRef="Marc. " loc="3,16">Marc.  3,16</ref>; <ref cRef="Luc." loc="2,21">Luc. 2,21</ref> al. In phrasi <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> appellavit nomen ejus N.N. </t:quote></cit> Aethiopes verbo <gramGrp> <pos expand="pronomen">pron.</pos> </gramGrp> <lbl expand="persona">pers.</lbl> suffigere amant: <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> appellavit eum nomen </t:quote></cit> (i.e. <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> nomine </t:quote></cit>) <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> ejus N.N. </t:quote></cit>, ut: <foreign xml:lang="gez">ሰመያ፡ አዳም፡ ስመ፡ ብእሲቱ፡ ሕይወት፡</foreign> <ref cRef="Gen." loc="3,20">Gen. 3,20</ref> <lbl expand="cum">c.</lbl> annot.; <foreign xml:lang="gez">ስምዮ፡ ስሞ፡ ኢይዝራኤል፡</foreign> <ref cRef="Hos." loc="1,4">Hos. 1,4</ref>. Constr. praegn.: <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> nominando attribuere alicui qualitatem </t:quote></cit>: <foreign xml:lang="gez">ቦኑ፡ ትሰምዮ፡ ለክርስቶስ፡ መለኮተ፡</foreign> <bibl><ptr target="bm:Ludolf1691Commentarius"/></bibl>. p. 50<ref cRef="0 Nr." loc="29.">0 Nr. 29.</ref> 
+</sense> <sense n="2" xml:id="D2"> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> vocare </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> pronuntiare </t:quote></cit> nomen alicujus: <foreign xml:lang="gez">ዘእንበለ፡ ያእምር፡ ሕፃን፡ ሰምየ፡</foreign> (v. <foreign xml:lang="gez">ሰሚየ፡</foreign>) <foreign xml:lang="gez">አቡሁ፡</foreign> <ref cRef="Jes." loc="8,4">Jes. 8,4</ref>; <ref cRef="Jes." loc="19,17">Jes. 19,17</ref>; <ref cRef="Jes." loc="26,13">Jes. 26,13</ref>; <foreign xml:lang="gez">ኢይሰምይዋ፡ በአፉሆሙ፡</foreign> <ref cRef="Jer." loc="3,16">Jer. 3,16</ref>; <foreign xml:lang="gez">ኢይሰሚ፡ እንከ፡ ስመ፡ እግዚአብሔር፡</foreign> <ref cRef="Jer." loc="20,9">Jer. 20,9</ref>; <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> praedicare </t:quote></cit> vel <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> profiteri </t:quote></cit> nomen alicujus <ref cRef="2 Tim." loc="2,19">2 Tim. 2,19</ref>. 
+</sense> </sense>
+               
+            <sense xml:id="Tmain" xml:lang="en" source="#traces"> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">samaya</t:quote></cit> <sense n="G" xml:id="TG"> <foreign xml:lang="gez">ሰመየ፡</foreign> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">samaya</t:quote></cit> <subc>I,1</subc> <foreign xml:lang="gez">ይሰሚ፡</foreign>, <foreign xml:lang="gez">ይስሚ፡</foreign> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">nominavit</t:quote></cit>, <cit type="translation" xml:lang="fr"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">nommer</t:quote></cit>, <cit type="translation" xml:lang="fr"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">désigner par un nom</t:quote></cit> ― <foreign xml:lang="am">አለ፡</foreign> Ms. Roma, Biblioteca Nazionale Centrale di Roma, Orientale 134, p. 44. <lb/>
+ <bibl><ptr target="bm:Grebaut1952SuppLexicon"/><citedRange unit="page"> 165</citedRange></bibl>
+</sense> <sense n="L" xml:id="TL"> <foreign xml:lang="gez">ሰመየ</foreign> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">samaya</t:quote></cit> (yǝsmi) <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">call</t:quote></cit>, <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">name</t:quote></cit>, <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">give a name</t:quote></cit>, <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">give a surname</t:quote></cit>, <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">address</t:quote></cit>, (Gr) <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">pray</t:quote></cit>, <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">invoke</t:quote></cit>, <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">appeal to</t:quote></cit> <bibl><ptr target="bm:Leslau1987dic"/><citedRange unit="page"> 504a</citedRange></bibl> 
+</sense> </sense></entry>
+         </div>
+      </body>
+   </text>
+</TEI>

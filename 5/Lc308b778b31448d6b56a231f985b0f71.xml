@@ -1,0 +1,93 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ዐረብ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="MK" when="2018-12-17">added witness</change>
+            <change who="MK" when="2019-02-25">added pos</change>
+        </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="Lc308b778b31448d6b56a231f985b0f71" n="7008">
+               <form>
+                  <foreign xml:lang="gez">ዐረብ</foreign>
+               </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain"> (etiam <foreign xml:lang="gez">ዐራብ፡</foreign> <ref cRef="Kuf." loc="100 ">Kuf. p. 100 </ref> <lbl expand="annotatio">ann.</lbl> 2), <sense n="1" xml:id="D1"> <cit type="translation" xml:lang="la">
+                                <quote> occidens </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> plaga </quote>
+                            </cit> <cit type="translation" xml:lang="la">
+                                <quote> occidentalis </quote>
+                            </cit>, <ref cRef="Ps." loc="49,2">Ps. 49,2</ref>; <ref cRef="Ps." loc="74,6">Ps. 74,6</ref>; <ref cRef="Jes." loc="43,5">Jes. 43,5</ref>; <ref cRef="Jes." loc="45,6">Jes. 45,6</ref>; <ref cRef="Jes." loc="59,19">Jes. 59,19</ref>; <ref cRef="Bar. " loc="4,37">Bar.  4,37</ref>; <ref cRef="Mal." loc="1,11">Mal. 1,11</ref>; <ref cRef="Hez." loc="27,9">Hez. 27,9</ref>; <ref cRef="Zach." loc="8,7">Zach. 8,7</ref>; <ref cRef="Hen." loc="23,1">Hen. 23,1</ref>; <ref cRef="Matth." loc="24,27">Matth. 24,27</ref>; <foreign xml:lang="grc">λίψ</foreign> <ref cRef="Ex." loc="27,9">Ex. 27,9</ref>; <foreign xml:lang="gez">መንገለ፡ ዐረባ፡ ለሞአብ፡</foreign> <ref cRef="Num." loc="22,1">Num. 22,1</ref>; <foreign xml:lang="gez">መንገለ፡ ዐረቢሁ፡</foreign> <ref cRef="Deut." loc="1,1">Deut. 1,1</ref>; <ref cRef="Jos. " loc="5,10">Jos.  5,10</ref>; <foreign xml:lang="gez">ዐረቢሆሙ፡</foreign> <ref cRef="Judith" loc="1,7">Judith 1,7</ref>.</sense> <sense n="2" xml:id="D2"> <cit type="translation" xml:lang="la">
+                                <quote> Arabia </quote>
+                            </cit>, <ref cRef="Hab." loc="1,8">Hab. 1,8</ref>; <ref cRef="Zeph." loc="3,3">Zeph. 3,3</ref>; Sx. Tachs.29 Enc., al.</sense> </sense>
+               
+            <sense xml:lang="en" source="#traces" xml:id="Tmain"> <cit type="transcription" xml:lang="gez">
+                            <quote>ʿarab</quote>
+                        </cit> <gramGrp>
+                            <pos expand="nomen proprium">n. pr.</pos>
+                        </gramGrp> (place name) <cit type="translation" xml:lang="en">
+                            <quote>Arabia</quote>
+                        </cit>; <foreign xml:lang="gez">አረብ፡</foreign> <cit type="transcription" xml:lang="gez">
+                            <quote>ʾarab</quote>
+                        </cit>, <foreign xml:lang="gez">ዓረብ፡</foreign> <cit type="transcription" xml:lang="gez">
+                            <quote>ʿarab</quote>
+                        </cit> <bibl>
+                            <ptr target="bm:Bezold1905KebraN"/>
+                            <citedRange unit="page"> 12 n. 33 (ed.)</citedRange>
+                        </bibl> </sense>
+                </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

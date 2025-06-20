@@ -1,0 +1,111 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="gez">ደጋ </title>
+                <author>Alessandro Bausi</author>
+                <author>Andreas Ellwardt</author>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+                <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+                <pubPlace>Hamburg</pubPlace>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-sa-nc/4.0/"> This file
+                        is licensed under the Creative Commons Attribution-ShareAlike Non Commercial
+                        4.0. </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                        Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice
+                            latino. Adiectum est vocabularium tigre dialecti septentrionalis
+                            compilatum</emph> a W. Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+                </p>
+                <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced
+                        Grant TraCES (Grant Agreement 338756)</ref>
+                </p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>A digital edition of the Lexicon in TEI.</p>
+            <listPrefixDef>
+                <prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/>
+            </listPrefixDef>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="la">latin</language>
+                <language ident="it">Italian</language>
+                <language ident="gez">Gǝʿǝz</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="syr">Syriac</language>
+                <language ident="ar">Arabic</language>
+                <language ident="sa">Sanskrit</language>
+                <language ident="geo">Georgian</language>
+                <language ident="cop">Coptic</language>
+                <language ident="osa">Old South Arabian</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change who="MK" when="2019-04-03">new entry</change>
+            <change who="MK" when="2019-04-03">new entry</change>
+            <change who="MK" when="2019-05-06">added cross- reference </change>
+            <change who="MK" when="2019-05-06">corr</change>
+            <change who="MK" when="2019-05-06">added cross-references</change>
+            <change who="MK" when="2019-05-08">added new menaing</change>
+            <change who="MK" when="2019-05-08">corr</change>
+            <change who="MK" when="2022-03-15">added example</change>
+            <change who="MK" when="2022-03-15">correction</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <entry xml:id="L9726d8a5d85340c8983e0d7c2890cfcf" n="12525">
+                    <form>
+                        <foreign xml:lang="gez">ደጋ</foreign>
+                    </form>
+                    <sense xml:id="Tmain" xml:lang="en" source="#traces">
+                        <sense n="1" xml:id="T1">
+                            <cit type="transcription" xml:lang="gez">
+                                <quote> dagā</quote>
+                            </cit>, <foreign xml:lang="gez">ደግዓ፡</foreign>
+                            <cit type="transcription" xml:lang="gez">
+                                <quote> dagʿā </quote>
+                            </cit>, <foreign xml:lang="gez">ደጕዓ</foreign>
+                            <cit type="transcription" xml:lang="gez">
+                                <quote>dagʷǝʿā</quote>
+                            </cit>
+                            <gramGrp>
+                                <pos expand="Substantivum">subst.</pos>
+                            </gramGrp>
+                            <cit type="translation" xml:lang="en">
+                                <quote> highland </quote>
+                            </cit>
+                            <foreign xml:lang="gez">ስፍራሰ፡ ዘሐፄጌ፡ ምድረ፡ ደግዓ፡ ውእቱ፡ ወብዙኅ፡ ቍሩ።</foreign>
+                                ‘<cit type="translation" xml:lang="fr">
+                                <quote> Le camp du Ḥaṣēgē se trouvait dans les hautes terres
+                                    (dagʿā), et le froid y était vif </quote>
+                            </cit>’ <bibl><ptr target="bm:ContiRossini1907SarsaDengel"/><citedRange unit="page"> 87 l. 15-16 (ed.)</citedRange></bibl>, <bibl><ptr target="bm:ContiRossini1907SarsaDengelV"/><citedRange unit="page"> 99 l. 34-35 (tr.)</citedRange></bibl>; <foreign xml:lang="gez">ምድረ፡ ጣፋ፡ ቆላሃ፡ ወደጕዓሃ፡</foreign> ‘<cit type="translation" xml:lang="fr">
+                                <quote>la terre de Ṭāfā, sa vallée (quallā) et son haut-plateau
+                                    (dagueʿā)</quote>
+                            </cit>’ <bibl><ptr target="bm:ContiRossini1909LiberT"/><citedRange unit="page"> 32 l. 18–19 (ed.)</citedRange></bibl>, <bibl><ptr target="bm:ContiRossini1910LiberV"/><citedRange unit="page"> 37
+                                    l. 28–29 (tr.)</citedRange></bibl></sense>
+                        <sense n="C" xml:id="TC"> for <foreign xml:lang="gez">ወይነ፡ ደጋ፡</foreign>
+                            <lbl expand="videas">vid.</lbl>
+                            <ref type="external" target="https://betamasaheft.eu/Dillmann/lemma/L6d0d23205afa4157837ad86fbd7d62b7">
+                                <foreign xml:lang="gez">ወይን፡</foreign>
+                            </ref></sense>
+                        <sense n="2" xml:id="T2"> part of n. pr. (place name) <lbl expand="videas">vid.</lbl>
+                            <foreign xml:lang="gez">ወይና፡ ደግዓ፡</foreign>
+                        </sense>
+                        <nd/>
+                    </sense>
+                </entry>
+            </div>
+        </body>
+    </text>
+</TEI>

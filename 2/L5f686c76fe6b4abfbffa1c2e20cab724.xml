@@ -1,0 +1,82 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ዐውሎ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="LB" when="2018-04-24">root</change>
+            <change who="AE" when="2018-11-25">Sprachkennungen,</change>
+        </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L5f686c76fe6b4abfbffa1c2e20cab724" n="7219">
+               <form>
+                  <foreign xml:lang="gez">ዐውሎ</foreign>
+               <rs type="root"/>
+                    </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain"> <gramGrp> <pos expand="Substantivum">subst.</pos> </gramGrp>, plerumque <gramGrp> <gen value="not found">m.</gen> </gramGrp>, <lbl expand="pluralis">Pl.</lbl> <foreign xml:lang="gez">ዐውሎታት፡</foreign> [<foreign xml:lang="syr">ܥܽܘܠܳܥܠܳܐ</foreign> vel <foreign xml:lang="syr">ܥܰܠܳܥܠܳܐ</foreign>, <foreign xml:lang="he">עִלְעוּלָא</foreign> <cit type="translation" xml:lang="la">
+                            <quote> turbo </quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                            <quote> procella </quote>
+                        </cit>] <cit type="translation" xml:lang="la">
+                            <quote> turbo</quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                            <quote>procella </quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                            <quote> tempestas turbulenta </quote>
+                        </cit>, <foreign xml:lang="grc">λαῖλαψ</foreign> <ref cRef="Job" loc="21,18">Job 21,18</ref>; <ref cRef="Job" loc="38,1">Job 38,1</ref>; <foreign xml:lang="grc">καταιγίς</foreign> <ref cRef="Ps." loc="49,4">Ps. 49,4</ref>; <ref cRef="Prov." loc="10,25">Prov. 10,25</ref>; <ref cRef="Jes." loc="5,28">Jes. 5,28</ref>; <ref cRef="Jes." loc="17,13">Jes. 17,13</ref>; <ref cRef="Jes. " loc="21,1">Jes.  21,1</ref>; <ref cRef="Jes." loc="28,15">Jes. 28,15</ref>; <ref cRef="Jes." loc="28,17">Jes. 28,17</ref>; <ref cRef="Jes." loc="28,18">Jes. 28,18</ref>; <ref cRef="Jes." loc="57,13">Jes. 57,13</ref>; <ref cRef="Jes." loc="66,15">Jes. 66,15</ref>; <ref cRef="Sir." loc="16,21">Sir. 16,21</ref>; <ref cRef="Sir." loc="36,2">Sir. 36,2</ref>; etiam <foreign xml:lang="gez">ነፋሰ፡ ዐውሎ፡</foreign> <ref cRef="Luc." loc="8,23">Luc. 8,23</ref>; <ref cRef="Ps." loc="10,7">Ps. 10,7</ref>; <foreign xml:lang="gez">ዐውሎ፡ ዐቢይ፡ ነፋስ፡</foreign> <ref cRef="Marc." loc="4,37">Marc. 4,37</ref>; <foreign xml:lang="gez">ዐውሎሁ፡ ለነፋስ፡ ዐረባዊ፡</foreign> <ref cRef="Sir." loc="43,17">Sir. 43,17</ref>; <foreign xml:lang="grc">ἄνεμος</foreign> <ref cRef="Sir. " loc="22,18">Sir.  22,18</ref>; <foreign xml:lang="gez">ዐውሎ፡ መርቄ፡</foreign> <foreign xml:lang="grc">ἄνεμος καύσων</foreign> <ref cRef="Jer." loc="18,17">Jer. 18,17</ref>; <foreign xml:lang="gez">ዐውሎ፡ ኀያል፡ ያነቅዓ፡</foreign> <foreign xml:lang="grc">πνεῦμα ἐξαῖρον</foreign> <ref cRef="Hez." loc="13,11">Hez. 13,11</ref>; <foreign xml:lang="grc">θύελλα</foreign> <ref cRef="Deut." loc="4,11">Deut. 4,11</ref>; <ref cRef="Hebr." loc="12,18">Hebr. 12,18</ref>; <ref cRef="4 Esr." loc="13,13">4 Esr. 13,13</ref>; <ref cRef="4 Esr." loc="13,15">4 Esr. 13,15</ref>; <ref cRef="Hen." loc="17,2">Hen. 17,2</ref>; <ref cRef="Hen." loc="39,3">Hen. 39,3</ref>; <foreign xml:lang="grc">γνόφος</foreign> <ref cRef="Job" loc="9,17">Job 9,17</ref>; <ref cRef="Job" loc="27,20">Job 27,20</ref>; <ref cRef="Joel" loc="2,2">Joel 2,2</ref>; <ref cRef="2 Par." loc="6,1">2 Par. 6,1</ref>; <foreign xml:lang="gez">ዐውሎ፡ ማይ፡</foreign> <foreign xml:lang="grc">καταιγὶς ὕδατος</foreign> <ref cRef="Ps." loc="68,18">Ps. 68,18</ref>; <foreign xml:lang="gez">ተንሥኡ፡ ላዕሌየ፡ ዐውሎታት፡ ወመዋግድ፡ ተለዐሉ፡ ላዕሌየ፡</foreign> <ref cRef="Phlx." loc="28.">Phlx. 28.</ref> – <lbl expand="Vocabularium Aethiopicum, -a -a">Voc. Ae.</lbl>: <foreign xml:lang="gez">ዐውሎ፡ ዘ፡ ሐምበላይ፡ ነፋስ፡</foreign>; aliud: <foreign xml:lang="gez">ዘ፡ እምብሉይት።</foreign> </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

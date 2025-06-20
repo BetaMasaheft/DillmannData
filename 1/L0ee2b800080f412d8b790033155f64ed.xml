@@ -1,0 +1,112 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ብርሃን </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="MK" when="2018-03-15">added cross-reference</change>
+            <change who="MK" when="2018-03-15">correction</change>
+            <change who="MK" when="2018-03-15">correction</change>
+            <change who="MK" when="2018-03-15">nesting</change>
+        <change who="MK" when="2019-02-25">added link</change>
+            <change who="MK" when="2019-03-20">replaced link</change>
+        </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L0ee2b800080f412d8b790033155f64ed" n="3865">
+               <form>
+                  <foreign xml:lang="gez">ብርሃን</foreign>
+               </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain"> <gramGrp> <pos expand="Substantivum">subst.</pos> </gramGrp>, plerumque <gramGrp> <gen value="not found">m.</gen> </gramGrp> (<gramGrp> <gen value="femininus">fem.</gen> </gramGrp> <lbl expand="exempli gratia">ex. gr.</lbl> <ref cRef="Jac." loc="1,17">Jac. 1,17</ref>), <lbl expand="pluralis">Pl.</lbl> <foreign xml:lang="gez">ብርሃናት፡</foreign> <sense n="1" xml:id="D1"> <cit type="translation" xml:lang="la">
+                                <quote> lux </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> lumen </quote>
+                            </cit> (<foreign xml:lang="grc">φῶς</foreign>, <foreign xml:lang="grc">φέγγος</foreign>) <ref cRef="Gen." loc="1,3">Gen. 1,3</ref>; <ref cRef="Gen." loc="1,4">Gen. 1,4</ref>; <ref cRef="Jes." loc="5,20">Jes. 5,20</ref>; <ref cRef="Jes." loc="9,1">Jes. 9,1</ref>; <ref cRef="Jes. " loc="45,7">Jes.  45,7</ref>; <ref cRef="Jes." loc="60,">Jes. 60,</ref> 1; <ref cRef="Jes." loc="60,">Jes. 60,</ref> 2; <ref cRef="Jes." loc="60,">Jes. 60,</ref> 3; <ref cRef="Jer." loc="28,16">Jer. 28,16</ref>; <ref cRef="Koh." loc="11,7">Koh. 11,7</ref>; <ref cRef="Job" loc="3,4">Job 3,4</ref>; <ref cRef="Job" loc="17,12">Job 17,12</ref>; <ref cRef="Job" loc="38,19">Job 38,19</ref>; <ref cRef="Joh." loc="11,10">Joh. 11,10</ref>; <ref cRef="Matth." loc="10,27">Matth. 10,27</ref>, al. creberrime; <foreign xml:lang="gez">ብርሃነ፡ ወርኅ፡</foreign>, <foreign xml:lang="gez">ፀሓይ፡</foreign> <ref cRef="Jes." loc="30,26">Jes. 30,26</ref>; <ref cRef="Apoc." loc="22,5">Apoc. 22,5</ref>; <foreign xml:lang="gez">ብርሃነ፡ ማኅቶት፡</foreign> <ref cRef="Apoc." loc="18,23">Apoc. 18,23</ref>; <ref cRef="Luc." loc="8,16">Luc. 8,16</ref>, <foreign xml:lang="gez">ብርሃነ፡ እሳት፡</foreign> <ref cRef="Jes." loc="4,5">Jes. 4,5</ref>; <ref cRef="Hez." loc="1,13">Hez. 1,13</ref>; <foreign xml:lang="gez">ብርሃነ፡ መዓልት፡</foreign> <foreign xml:lang="grc">μεσημβρία</foreign> <ref cRef="Jes." loc="58,10">Jes. 58,10</ref>; <ref cRef="Dei Ps." loc="103,2">Dei Ps. 103,2</ref>; <ref cRef="Hen." loc="1,8">Hen. 1,8</ref>; <ref cRef="1 Tim." loc="6,16">1 Tim. 6,16</ref>; <ref cRef="1 Joh." loc="1,5">1 Joh. 1,5</ref>; <ref cRef="Joh." loc="1,7">Joh. 1,7</ref>; <foreign xml:lang="gez">መልአከ፡ ብርሃን፡</foreign> <ref cRef="2 Cor." loc="11,14">2 Cor. 11,14</ref>, al.; <lbl expand="translate">transl.</lbl> ad lucem vitae <ref cRef="Job" loc="3,16">Job 3,16</ref>; <ref cRef="Job " loc="3,20">Job  3,20</ref>; felicitatis <ref cRef="Job" loc="18,5">Job 18,5</ref>; <ref cRef="Jes." loc="58,8">Jes. 58,8</ref>; <ref cRef="Jes." loc="58,10">Jes. 58,10</ref>; doctrinae, veritatis <ref cRef="Jes." loc="2,5">Jes. 2,5</ref>; <ref cRef="Ps." loc="42,3">Ps. 42,3</ref>; <ref cRef="Joh." loc="3,19">Joh. 3,19</ref> <lbl expand="sequens">seq.</lbl>; <ref cRef="Eph." loc="5,13">Eph. 5,13</ref>; de hominibus, qui aliis luminis instar sunt: <ref cRef="Jes." loc="42,6">Jes. 42,6</ref>; <ref cRef="Jes." loc="49,6">Jes. 49,6</ref>; <ref cRef="Joh." loc="1,4">Joh. 1,4</ref> <lbl expand="sequens">seq.</lbl>; <ref cRef="Joh." loc="5,35">Joh. 5,35</ref>; <ref cRef="Joh." loc="8,12">Joh. 8,12</ref>; <ref cRef="Matth." loc="5,14">Matth. 5,14</ref>. <lbl expand="pluralis">Pl.</lbl> <foreign xml:lang="gez">ብርሃናት፡</foreign> <ref cRef="Hen." loc="43,2">Hen. 43,2</ref>; <ref cRef="Hen." loc="59,">Hen. 59,</ref>l; <ref cRef="Asc. Jes." loc="8,21">Asc. Jes. 8,21</ref>; <ref cRef="Asc. Jes. " loc="8,22">Asc. Jes.  8,22</ref>; <ref cRef="Asc. Jes." loc="8,25">Asc. Jes. 8,25</ref>; <foreign xml:lang="gez">በእደዊሆሙ፡ ይጸውሩ፡ ብርሃናተ፡ እሳት፡</foreign> Rel. Bar. <sense n="a" xml:id="D1a"> <cit type="translation" xml:lang="la">
+                                    <quote> splendor </quote>
+                                </cit>, <cit type="translation" xml:lang="la">
+                                    <quote> fulgor </quote>
+                                </cit>: <foreign xml:lang="gez">ብርሃነ፡ መብረቀ፡ ወልታከ፡</foreign> <ref cRef="Hab." loc="3,11">Hab. 3,11</ref>; <ref cRef="4 Esr." loc="4,6">4 Esr. 4,6</ref>; <foreign xml:lang="grc">λαμπρότης</foreign> <ref cRef="Dan." loc="12,3">Dan. 12,3</ref>; <ref cRef="4 Esr." loc="10,64">4 Esr. 10,64</ref>; <cit type="translation" xml:lang="la">
+                                    <quote> lux refulgens </quote>
+                                </cit> (repercussa) <foreign xml:lang="grc">ἀπαύγασμα</foreign> <ref cRef="Hebr." loc="1,3">Hebr. 1,3</ref>; <cit type="translation" xml:lang="la">
+                                    <quote> candor </quote>
+                                </cit> <foreign xml:lang="gez">ሜላተ፡ ብርሃን፡</foreign> <foreign xml:lang="grc">βύσσινον λευκόν</foreign> <ref cRef="Apoc." loc="19,8">Apoc. 19,8</ref>; <ref cRef="Apoc." loc="19,14">Apoc. 19,14</ref>.</sense> <sense n="b" xml:id="D1b"> <cit type="translation" xml:lang="la">
+                                    <quote> lumina </quote>
+                                </cit> coeli vel <cit type="translation" xml:lang="la">
+                                    <quote> luminaria </quote>
+                                </cit> i.e. <cit type="translation" xml:lang="la">
+                                    <quote> sidera </quote>
+                                </cit> <ref cRef="Gen." loc="1,14">Gen. 1,14</ref>; <ref cRef="Gen. " loc="1,15">Gen.  1,15</ref>; <ref cRef="Gen." loc="1,16">Gen. 1,16</ref>; <ref cRef="Gen." loc="1,17">Gen. 1,17</ref>; <ref cRef="Ps." loc="135,7">Ps. 135,7</ref>; <ref cRef="Hen." loc="2,1">Hen. 2,1</ref>; <ref cRef="Hen." loc="20,4">Hen. 20,4</ref>; <ref cRef="Hen." loc="72,1">Hen. 72,1</ref> <lbl expand="sequens">seq.</lbl>; <ref cRef="Phil." loc="2,15">Phil. 2,15</ref>.</sense> <sense n="c" xml:id="D1c"> <cit type="translation" xml:lang="la">
+                                    <quote> lumina </quote>
+                                </cit> i.e. <cit type="translation" xml:lang="la">
+                                    <quote> oculi </quote>
+                                </cit>: <foreign xml:lang="gez">ብርሃነ፡ ለዕዉር፡ ቀብአ፡</foreign> (<cit type="translation" xml:lang="la">
+                                    <quote> oculos coeci unxit </quote>
+                                </cit>) <ref cRef="Sx. Genb." loc="8 ">Sx. Genb. 8 </ref>Enc.; <foreign xml:lang="gez">ጸጎከ፡ ለዕዉር፡ ብርሃነ፡</foreign> <ref cRef="Sx. Nah." loc="15 ">Sx. Nah. 15 </ref>Enc.</sense> <sense n="d" xml:id="D1d"> <cit type="translation" xml:lang="la">
+                                    <quote> nitor </quote>
+                                </cit> faciei <foreign xml:lang="gez">ብርሃነ፡ ገጽ፡</foreign> ob hilaritatem <ref cRef="Job" loc="29,24">Job 29,24</ref>, ob benignitatem <ref cRef="Ps." loc="4,9">Ps. 4,9</ref>; <ref cRef="Ps." loc="43,5">Ps. 43,5</ref>.</sense> <sense n="e" xml:id="D1e"> <gramGrp> <case value="accusativus">Acc.</case> </gramGrp> <foreign xml:lang="gez">ብርሃነ፡</foreign> <gramGrp> <pos expand="adverbium, adverbialiter">adv.</pos> </gramGrp> <foreign xml:lang="grc">τηλαυγῶς</foreign> <cit type="translation" xml:lang="la">
+                                    <quote> clare </quote>
+                                </cit>, <cit type="translation" xml:lang="la">
+                                    <quote> perspicue </quote>
+                                </cit> <ref cRef="Marc." loc="8,25">Marc. 8,25</ref> <lbl expand="romanae editionis">rom.</lbl> </sense> </sense> <sense n="2" xml:id="D2"> in libris ex Arabico versis i.q. <foreign xml:lang="ar">بُرْهَانٌ</foreign> <cit type="translation" xml:lang="la">
+                                <quote> probatio </quote>
+                            </cit> vel <cit type="translation" xml:lang="la">
+                                <quote> demonstratio evidens </quote>
+                            </cit>, ut <ref cRef="Abush." loc="53.">Abush. 53.</ref> </sense> </sense>
+               
+            <sense xml:lang="en" source="#traces" xml:id="Tmain"> <cit type="transcription" xml:lang="gez">
+                            <quote> bərhān </quote>
+                        </cit> part of <pos expand="nomen proprium">n. pr.</pos> (epithet) <lbl expand="videas">vid.</lbl> <ref type="external" target="https://betamasaheft.eu/Dillmann/lemma/L89eeb3fe006d4b3187c2839fe9ae0411">መልአከ፡ ብርሃን፡</ref> </sense>
+                </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,166 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="gez">ዘነቦ</title>
+                <author>Alessandro Bausi</author>
+                <author>Andreas Ellwardt</author>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+                <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+                <pubPlace>Hamburg</pubPlace>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-sa-nc/4.0/"> This file
+                        is licensed under the Creative Commons Attribution-ShareAlike Non Commercial
+                        4.0. </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                        Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice
+                            latino. Adiectum est vocabularium tigre dialecti septentrionalis
+                            compilatum</emph> a W. Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+                </p>
+                <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced
+                        Grant TraCES (Grant Agreement 338756)</ref>
+                </p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>A digital edition of the Lexicon in TEI.</p>
+            <listPrefixDef>
+                <prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/>
+            </listPrefixDef>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="la">latin</language>
+                <language ident="it">Italian</language>
+                <language ident="gez">Gǝʿǝz</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="syr">Syriac</language>
+                <language ident="ar">Arabic</language>
+                <language ident="sa">Sanskrit</language>
+                <language ident="geo">Georgian</language>
+                <language ident="cop">Coptic</language>
+                <language ident="osa">Old South Arabian</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change who="MK" when="2019-07-09">added new entry</change>
+            <change who="MK" when="2019-07-29">added meaning</change>
+            <change who="MK" when="2022-04-07">added example</change>
+            <change who="MK" when="2022-04-07">correction</change>
+            <change who="MK" when="2022-04-07">correction</change>
+            <change who="MK" when="2022-04-07">added example</change>
+            <change who="MK" when="2022-04-07">added comment</change>
+            <change who="MK" when="2022-04-07">added example</change>
+            <change who="MK" when="2022-04-07">added examples</change>
+            <change who="MK" when="2022-04-08">added examples</change>
+            <change who="MK" when="2022-04-08">added translation</change>
+            <change who="MK" when="2022-04-12">added translation</change>
+            <change who="MK" when="2022-04-12">correction</change>
+            <change who="MK" when="2022-05-12">correction</change>
+            <change who="MK" when="2022-05-12">correction</change>
+            <change who="MK" when="2022-05-12">added trans.</change>
+            <change who="MK" when="2022-06-30">corrections</change>
+            <change who="MK" when="2022-07-14">added examples</change>
+            <change who="MK" when="2022-07-14">added variant</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <entry xml:id="Lcdc6e5dc9d2a4dc9b2b0db605328eea6" n="12637">
+                    <form>
+                        <foreign xml:lang="gez">ዘነቦ</foreign>
+                    </form>
+                    <sense xml:id="Tmain" xml:lang="en" source="#traces">
+                        <cit type="transcription" xml:lang="gez">
+                            <t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> zanabo </t:quote>
+                        </cit>, <foreign xml:lang="gez">ዘነቡ፡</foreign>
+                        <cit type="transcription" xml:lang="gez">
+                            <t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> zanabu </t:quote>
+                        </cit>
+                        <gramGrp>
+                            <pos expand="Substantivum">subst.</pos>
+                        </gramGrp> meaning uncertain, <bibl><ptr target="bm:ContiRossini1907SarsaDengelV"/><citedRange unit="page">
+                                138 l. 25–29 (tr.)</citedRange></bibl> translates it as ‘<cit type="translation" xml:lang="fr">
+                            <t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> queue </t:quote>
+                        </cit>’ <cit type="translation" xml:lang="en">
+                            <t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> tail </t:quote>
+                        </cit> but this meaning does not seem to fit into the context of any of the
+                        citations from <bibl><ptr target="bm:ContiRossini1909LiberT"/></bibl>;
+                                <bibl><ptr target="bm:Guidi1940Supplemento"/><citedRange unit="page"> 177</citedRange></bibl> registers <foreign xml:lang="am">የወርቅ፡
+                            ዘነቦ</foreign> translated as ‘golden ornament that women tie on their
+                        heads’ (see also the comment below) <foreign xml:lang="gez">ዘነቦ፡ ዘወርቅ፡
+                            ፬፮ጸዐዱ፡ አለባ፡</foreign> ‘<cit type="translation" xml:lang="it">
+                            <t:quote xmlns:t="http://www.tei-c.org/ns/1.0">zanabo d’oro 4, 6
+                                bianchi,</t:quote>
+                        </cit>’ <bibl><ptr target="bm:Bausi1994ManoscrittiEritreaParteI"/><citedRange unit="page"> 41 IV l. 4 (ed.), 30 IV l. 6–7
+                                (tr.)</citedRange></bibl>; <foreign xml:lang="gez">ፉጠት፡ ዘሓሪር፡ ፭ ውራድ፡
+                            [a margine illeggibile] ፲፭ ልብሰ፡ አርዋ፡ ፩ ዘነቦ፡ ፬</foreign> ‘<cit type="translation" xml:lang="it">
+                            <t:quote xmlns:t="http://www.tei-c.org/ns/1.0">5 fasce di seta, 15
+                                werad, 1 veste di tessuto di seta, 4 zanabo,</t:quote>
+                        </cit>’ <bibl><ptr target="bm:Bausi1994ManoscrittiEritreaParteI"/><citedRange unit="page"> 43 VI l. 20–21 (ed.), 36 l. 17–18
+                                (tr.)</citedRange></bibl>; <foreign xml:lang="gez">፭መንጦላዕት። ፬ዘነቡ።
+                        </foreign> ‘<cit type="translation" xml:lang="it">
+                            <t:quote xmlns:t="http://www.tei-c.org/ns/1.0">5 tende, 4
+                                zanabu,</t:quote>
+                        </cit>’ <bibl><ptr target="bm:Bausi1994ManoscrittiEritreaParteI"/><citedRange unit="page"> 44 IX l. 4 (ed.), 39 IX l. 6
+                                (tr.)</citedRange></bibl>; <foreign xml:lang="gez">ወሞጣሕት፡ ዘወርቅ፡ ፯[፡]
+                            ወዘነቦ፡ ፪።</foreign> ‘<cit type="translation" xml:lang="it">
+                            <t:quote xmlns:t="http://www.tei-c.org/ns/1.0">7 stole d’oro e 2
+                                zanabo</t:quote>
+                        </cit>’ <bibl><ptr target="bm:Bausi1994ManoscrittiEritreaParteI"/><citedRange unit="page"> 64 l. 6 (ed.), 53 l. 11–12
+                                (tr.)</citedRange></bibl>; <foreign xml:lang="gez">ወእምድኅረ፡ ጥምቀቱ፡
+                            አልበሶ፡ ቀማይሰ፡ ዘብዑድ፡ ግብረቶሙ፡ ወአሐዱ፡ እምኔሆሙ፡ ከፈዊ፡ ቀሚስ፡ ዘቀይሕ፡ ኅብሩ፡ ወበጽነፊሁ፡ የአውዶ፡
+                            ሸኍራ፡ ዘወርቅ፡ መንገለ፡ እንግድዓ፡ ወዘባን፡ ሀሎ፡ ላዕሌሁ፡ ግትዕ፡ ዘወርቅ፡ ዘይመስል፡ ዘነቦ፡</foreign>
+                            ‘<cit type="translation" xml:lang="fr">
+                            <t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> Après qu’il eut reçu le
+                                baptême, (le roi) l’habilla avec des robes magnifiques. Un ces
+                                vêtements était une robe kafawi, de couleur rouge, avec des grelots
+                                d’or aux bords; sur la poitrine et sur le dos se trouvaient des
+                                broderies (?) d’or, qui semblaient lui former une queue </t:quote>
+                        </cit>’ <bibl><ptr target="bm:ContiRossini1907SarsaDengel"/><citedRange unit="page"> 122 l. 1–4 (ed.)</citedRange></bibl>, <bibl><ptr target="bm:ContiRossini1907SarsaDengelV"/><citedRange unit="page">
+                                138 l. 25–29 (tr.)</citedRange></bibl>; <foreign xml:lang="gez">አመ፡
+                            ፲፡ ወ፯፡ ለመጋቢት። ዘተቀበሉ፡ ሄኖክ፡ ስዩመ፡ ተምቤን። ዘነቦ፡ ፰፡ በዘነቦሁ፡ ሀሎ፡ ፫፻፡ ፩፡
+                            ሺሕቦ፡</foreign> ‘<cit type="translation" xml:lang="fr">
+                            <t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> Le 17 de magābit, Hēnok,
+                                chef du Tembēn, reçut : 8 zanabo, et avec ces zanabo il y avait 301
+                                fils en métal;</t:quote>
+                        </cit>’ <bibl><ptr target="bm:ContiRossini1909LiberT"/><citedRange unit="page"> 70 l. 22–23 (ed.)</citedRange></bibl>, <bibl><ptr target="bm:ContiRossini1910LiberV"/><citedRange unit="page"> 85 l.
+                                3–4 (tr.)</citedRange></bibl>; <foreign xml:lang="gez">በውእቱ ዕለት፡
+                            ዘተቀበለ፡ በዓለ፡ ጋዳ፡ ዓምዴ። ዘነቦ፡ ፯። ግትዕ፡ በዘነቦ፡ ዘሀሎ፡ ፻፡ ፷፯።</foreign> ‘<cit type="translation" xml:lang="fr">
+                            <t:quote xmlns:t="http://www.tei-c.org/ns/1.0">Le même jour, le baʿāla
+                                gādā ʿĀmdē reçut : 7 zanabo, les agrafes qui étaient dans les zanabo
+                                étaient au nombre de 167</t:quote>
+                        </cit>’ <bibl><ptr target="bm:ContiRossini1909LiberT"/><citedRange unit="page"> 70 l. 26–27 (ed.)</citedRange></bibl>, <bibl><ptr target="bm:ContiRossini1910LiberV"/><citedRange unit="page"> 85 l.
+                                8–9 (tr.)</citedRange></bibl>; <bibl><ptr target="bm:ContiRossini1909LiberT"/><citedRange unit="page"> 70 l.
+                                30 (ed.)</citedRange></bibl>, <bibl><ptr target="bm:ContiRossini1910LiberV"/><citedRange unit="page"> 85 l.
+                                13 (tr.)</citedRange></bibl>; <bibl><ptr target="bm:ContiRossini1909LiberT"/><citedRange unit="page"> 71 l. 5
+                                (ed.)</citedRange></bibl>, <bibl><ptr target="bm:ContiRossini1910LiberV"/><citedRange unit="page"> 85 l.
+                                18 (tr.)</citedRange></bibl>; <foreign xml:lang="gez">በውእቱ ዕለት፡
+                            ዘተቀበለ፡ አጋምያ፡ ሹም፡ ቴዎድሮስ፡ አቅሐ፡ ዘአክሱም፡ ዘነቦ፡ ፯፡ በዘነቦ፡ ዘሀሎ፡ ወርቅ፡ ግትዕ፡ ፻፡ ፳፡
+                            ወ፬፡ ሺሕቦ፡ ፺፡ ወ፭።</foreign> ‘<cit type="translation" xml:lang="fr">
+                            <t:quote xmlns:t="http://www.tei-c.org/ns/1.0">Ce jour, le chef de
+                                l’Agāmē, Tēwodros (var.: Tēwodoros), reçut les objets [suivants]
+                                d’Aksoum: 7 zanabo, dans les zanabo il y avait 124 agrafes en or et
+                                95 fils en métal;) </t:quote>
+                        </cit>’ <bibl><ptr target="bm:ContiRossini1909LiberT"/><citedRange unit="page"> 71 l. 9–11 (ed.)</citedRange></bibl>, <bibl><ptr target="bm:ContiRossini1910LiberV"/><citedRange unit="page"> 85 l.
+                                23–25 (tr.)</citedRange></bibl>; <bibl><ptr target="bm:ContiRossini1909LiberT"/><citedRange unit="page"> 71 l.
+                                15 (ed.)</citedRange></bibl>, <bibl><ptr target="bm:ContiRossini1910LiberV"/><citedRange unit="page"> 85 l.
+                                29 (tr.)</citedRange></bibl>; <bibl><ptr target="bm:ContiRossini1909LiberT"/><citedRange unit="page"> 71 l.
+                                20 (ed.)</citedRange></bibl>, <bibl><ptr target="bm:ContiRossini1910LiberV"/><citedRange unit="page"> 86 l. 2
+                                (tr.)</citedRange></bibl> (‘Con tutta probabilità da accostare al
+                        geʿez “zanab” «coda», e da intendere come «oggetto costruito con la coda di
+                        un animale», probabilmente uno «scacciamosche».’ <bibl><ptr target="bm:Bausi1997ManoscrittiEritreaParteIII"/><citedRange unit="page"> 48b</citedRange></bibl>) <nd/>
+                    </sense>
+                </entry>
+            </div>
+        </body>
+    </text>
+</TEI>

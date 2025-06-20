@@ -1,0 +1,127 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> መንፈቅ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L6bfc7ae02128424c9129feaa32c9a579" n="5345">
+               <form>
+                  <foreign xml:lang="gez">መንፈቅ</foreign>
+               </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain">
+                  <gramGrp>
+                     <pos expand="Substantivum">subst.</pos>
+                  </gramGrp>
+                  <cit type="translation" xml:lang="la">
+                     <quote>dimidium</quote>
+                  </cit>, <cit type="translation" xml:lang="la">
+                     <quote>dimidia</quote>
+                  </cit> vel <cit type="translation" xml:lang="la">
+                     <quote>media pars</quote>
+                  </cit>: <foreign xml:lang="gez">መንፈቀ፡ ንዋዩ፡</foreign>
+                  <ref cRef="Tob." loc="8,21">Tob. 8,21</ref>; <ref cRef="Tob." loc="12,2">Tob.
+                     12,2</ref>; <foreign xml:lang="gez">እምዕፁብ፡ ለእመ፡ መንፈቆ፡ ፈደየከ፡</foreign>
+                  <ref cRef="Sir." loc="29,6">Sir. 29,6</ref>; <foreign xml:lang="gez">ሰማርያ፡ መንፈቀ፡
+                     ኀጢአትከ፡ ኢአበሰት፡</foreign>
+                  <ref cRef="Hez." loc="16,51">Hez. 16,51</ref>; <foreign xml:lang="gez">መንፈቀ፡ ነገደ፡
+                     ማናሴ፡ </foreign>
+                  <ref cRef="Num." loc="32,33">Num. 32,33</ref>; <ref cRef="Jos." loc="14,2">Jos.
+                     14,2</ref>; <ref cRef="Marc." loc="6,23">Marc. 6,23</ref>; <ref cRef="Luc." loc="19,8">Luc. 19,8</ref>; <foreign xml:lang="gez">ይሠፅርከ፡ እመንፈቅከ፡</foreign>
+                  <foreign xml:lang="grc">πρίσαι σε μέσον</foreign>
+                  <ref cRef="Dan. apocr. " loc="1,59">Dan. apocr. 1,59</ref>; <foreign xml:lang="gez">መንፈቀ፡ እመት፡</foreign>
+                  <ref cRef="Ex." loc="25,10">Ex. 25,10</ref>; <ref cRef="Ex." loc="25,17">Ex.
+                     25,17</ref>; <foreign xml:lang="gez">በመንፈቀ፡ መዋዕሊሁ፡</foreign>
+                  <ref cRef="Jer." loc="17,11">Jer. 17,11</ref>; <ref cRef="Ps." loc="101,25">Ps.
+                     101,25</ref>; <foreign xml:lang="gez">መንፈቀ፡ ዓመት፡</foreign>
+                  <cit type="translation" xml:lang="la">
+                     <quote>semestre</quote>
+                  </cit>
+                  <ref cRef="Dan." loc="7,25">Dan. 7,25</ref>; <ref cRef="4 Esr." loc="13,46">4 Esr.
+                     13,46</ref>; <foreign xml:lang="gez">መንፈቀ፡ ወርኅ፡</foreign>
+                  <ref cRef="Kuf." loc="14">Kuf. 14</ref>; <ref cRef="Kuf." loc="15">Kuf. 15</ref>;
+                     <cb n="0712" xml:id="c0712"/>
+                  <foreign xml:lang="gez">መንፈቀ፡ ሰንበት፡</foreign>
+                  <ref cRef="Dan." loc="9,27">Dan. 9,27</ref>; <foreign xml:lang="gez">መንፈቀ፡ ሌሊት፡ </foreign>
+                  <ref cRef="Ruth" loc="3,8">Ruth 3,8</ref>; <ref cRef="Jes." loc="59,10">Jes.
+                     59,10</ref>; <ref cRef="Matth." loc="25,6">Matth. 25,6</ref>
+                  <lbl expand="romanae editionis">rom.</lbl>; <foreign xml:lang="gez">መንፈቀ፡ ሰዓት፡ </foreign>
+                  <ref cRef="Apoc." loc="8,1">Apoc. 8,1</ref>; <foreign xml:lang="gez">ሠሉስ፡ መዋዕል፡
+                     ወመንፈቅ፡</foreign>
+                  <ref cRef="Apoc." loc="11,9">Apoc. 11,9</ref>; <ref cRef="Apoc." loc="11,11">Apoc.
+                     11,11</ref>; de hominibus: <foreign xml:lang="gez">ወይፄወዉ፡ መንፈቀ፡ ሀገር፡</foreign>
+                  <ref cRef="Zach. " loc="14,2">Zach. 14,2</ref>. — Bis ponitur <foreign xml:lang="gez">መንፈቅ፡</foreign> — <foreign xml:lang="gez">መንፈቅ፡</foreign> i.e.
+                     <cit type="translation" xml:lang="la">
+                     <quote>pars altera</quote>
+                  </cit> — <cit type="translation" xml:lang="la">
+                     <quote>altera</quote>
+                  </cit>
+                  <ref cRef="Kuf." loc="6">Kuf. p. 6</ref>; <ref cRef="Jes." loc="44,16">Jes.
+                     44,16</ref>; <ref cRef="Jes. " loc="44,19">Jes. 44,19</ref>; <ref cRef="Dan." loc="2,33">Dan. 2,33</ref>; <ref cRef="Dan." loc="2,41">Dan. 2,41</ref>; <ref cRef="Dan." loc="2,42">Dan. 2,42</ref>; <ref cRef="Rom." loc="9,21">Rom.
+                     9,21</ref>; <foreign xml:lang="gez">ኮነ፡ መንፈቅነ፡ ንትቀነይ፡ ወመንፈቅነ፡ በንዋየ፡
+                     ሐቅል፡</foreign>
+                  <ref cRef="2 Esr." loc="14,16">2 Esr. 14,16</ref>. <sense n="2" xml:id="D2">
+                     <cit type="translation" xml:lang="la">
+                        <quote>pars</quote>
+                     </cit>: <foreign xml:lang="gez">እለ፡ ይኴንኑ፡ መነፈቀ፡ ፈለገ፡ ግብጽ፡</foreign>
+                     <foreign xml:lang="grc">μέρος</foreign>
+                     <ref cRef="Jes." loc="7,18">Jes. 7,18</ref>; <ref cRef="Act." loc="14,4">Act.
+                        14,4</ref>; <ref cRef="Matth." loc="16,14">Matth. 16,14</ref>.</sense>
+               </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

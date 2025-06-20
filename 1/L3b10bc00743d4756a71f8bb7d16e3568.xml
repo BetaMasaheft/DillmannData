@@ -1,0 +1,69 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ትእዛዝ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="MK" when="2022-05-09">added cross reference </change><change who="MK" when="2022-05-09">added translaiteration</change></revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L3b10bc00743d4756a71f8bb7d16e3568" n="5845">
+               <form>
+                  <foreign xml:lang="gez">ትእዛዝ</foreign>
+               </form>
+               <sense xml:id="Dmain" xml:lang="la" source="#dillmann"> <gramGrp> <pos expand="Substantivum">subst.</pos> </gramGrp>, <gramGrp> <gen value="femininus">fem.</gen> </gramGrp> et <gramGrp> <gen value="not found">m.</gen> </gramGrp>, <lbl expand="pluralis">Pl.</lbl> <foreign xml:lang="gez">ትእዛዛት፡</foreign>, <sense n="1" xml:id="D1"> <cit type="translation" xml:lang="la"><quote> potestas </quote></cit>, <cit type="translation" xml:lang="la"><quote> imperium </quote></cit>: <foreign xml:lang="gez">እስመ፡ በትእዛዝ፡ ውእቱ፡ ቃሉ፡</foreign> <foreign xml:lang="grc">ἐν ἐξουσίᾳ</foreign> <ref cRef="Luc." loc="4,32">Luc. 4,32</ref>; <ref cRef="Luc." loc="4,36">Luc. 4,36</ref>; <cb n="0794" xml:id="c0794"/> <foreign xml:lang="gez">አግነዮሙ፡ ለትእዛዘ፡ ሮም፡</foreign> <ref cRef="Jsp." loc="313">Jsp. p. 313</ref>; <foreign xml:lang="gez">ሜጦሙ፡ ለትእዛዘ፡ ሮም፡</foreign> <cit type="translation" xml:lang="la"><quote> regedit eos sub imperium Romanorum </quote></cit> <ref cRef="Jsp." loc="312">Jsp. p. 312</ref>; <foreign xml:lang="gez">ይወጽኡ፡ እምትእዛዝነ፡</foreign> <ref cRef="Jsp." loc="324">Jsp. p. 324</ref>; i.q. <cit type="translation" xml:lang="la"><quote> officium </quote></cit> (episcopi) <bibl><ptr target="bm:Ludolf1691Commentariusp"/></bibl>. 33<ref cRef="1 Nr." loc="93.">1 Nr. 93.</ref> </sense> <sense n="2" xml:id="D2"> <cit type="translation" xml:lang="la"><quote> praeceptum </quote></cit>, <cit type="translation" xml:lang="la"><quote> mandatum </quote></cit>, <cit type="translation" xml:lang="la"><quote> edictum </quote></cit>, <cit type="translation" xml:lang="la"><quote> statutum </quote></cit>, <cit type="translation" xml:lang="la"><quote> jussus </quote></cit>: <foreign xml:lang="gez">ዛቲ፡ ትእዛዝ፡</foreign> <foreign xml:lang="grc">ἐντολή</foreign> <ref cRef="Mal." loc="2,1">Mal. 2,1</ref>; <foreign xml:lang="gez">ዘንተ፡ ትእዛዘ፡</foreign> <ref cRef="Mal." loc="2,4">Mal. 2,4</ref>; <ref cRef="Deut. " loc="30,11">Deut.  30,11</ref>; <ref cRef="Rom." loc="7,8">Rom. 7,8</ref>; <ref cRef="Rom." loc="7,9">Rom. 7,9</ref>; <ref cRef="1 Tim." loc="6,14">1 Tim. 6,14</ref>; <ref cRef="1 Joh." loc="2,7">1 Joh. 2,7</ref>; <ref cRef="1 Joh." loc="3,23">1 Joh. 3,23</ref>; <ref cRef="Marc." loc="12,28">Marc. 12,28</ref>; <foreign xml:lang="gez">ተውህበ፡ ትእዛዝ፡</foreign> <ref cRef="Kuf." loc="3">Kuf. 3</ref>; <foreign xml:lang="gez">ወፅአ፡ ትእዛዝ፡ እምኀበ፡ ንጉሥ፡</foreign> <foreign xml:lang="grc">δόγμα</foreign> <ref cRef="Dan. " loc="2,13">Dan.  2,13</ref>; <foreign xml:lang="gez">ከመዝ፡ ውእቱ፡ ትእዛዘ፡ መጽሐፍ፡ ዘወሀቦ፡</foreign> <foreign xml:lang="grc">διάταγμα</foreign> <ref cRef="2 Esr." loc="7,11">2 Esr. 7,11</ref>; <foreign xml:lang="gez">በትእዛዘ፡ እግዚአብሔር፡</foreign> <foreign xml:lang="grc">διὰ προςτάγματος Κυρίου</foreign> <ref cRef="Num." loc="33,38">Num. 33,38</ref>; <ref cRef="Jos." loc="21,40">Jos. 21,40</ref>; <foreign xml:lang="grc">διὰ λόγου</foreign> 1 <ref cRef="Petr." loc="1,23">Petr. 1,23</ref>; <foreign xml:lang="grc">κατ᾽ ἐπιταγὴν</foreign> <ref cRef="1 Tim." loc="1,1">1 Tim. 1,1</ref>; <foreign xml:lang="grc">θέλημα</foreign> <ref cRef="1 Tim." loc="4,3">1 Tim. 4,3</ref>; <foreign xml:lang="grc">παραγγελία</foreign> <ref cRef="1 Tim." loc="1,5">1 Tim. 1,5</ref>; <ref cRef="1 Tim." loc="1,18">1 Tim. 1,18</ref>; crebro <foreign xml:lang="gez">ትእዛዝ፡</foreign> collective: <foreign xml:lang="gez">ወሀቦ፡ ትእዛዘ፡ ቅድሜሁ፡</foreign> <foreign xml:lang="grc">ἐντολάς</foreign> <ref cRef="Sir." loc="45,5">Sir. 45,5</ref>; <ref cRef="Sir." loc="32,2">Sir. 32,2</ref>; <ref cRef="Sir." loc="35,24">Sir. 35,24</ref>; <foreign xml:lang="gez">ኵላ፡ ትእዛዝየ፡</foreign> <ref cRef="Num." loc="15,40">Num. 15,40</ref>; <foreign xml:lang="gez">ኵሎን፡ እላንቱ፡ ትእዛዝ፡</foreign> <ref cRef="Asc. Jes." loc="1,7">Asc. Jes. 1,7</ref>; <ref cRef="Eph." loc="2,16">Eph. 2,16</ref>; <ref cRef="1 Joh." loc="2,3">1 Joh. 2,3</ref>; <ref cRef="1 Joh." loc="2,4">1 Joh. 2,4</ref>; <foreign xml:lang="grc">ἐντάλματα</foreign> <ref cRef="Jes." loc="55,11">Jes. 55,11</ref>; <foreign xml:lang="grc">προστάγματα</foreign> <ref cRef="Jes." loc="26,9">Jes. 26,9</ref>; <foreign xml:lang="grc">μαρτυρία</foreign> <ref cRef="Ex. " loc="25,16">Ex.  25,16</ref>; <ref cRef="Ex." loc="25,21">Ex. 25,21</ref>; <foreign xml:lang="gez">መጻሕፍተ፡ ትእዛዝ፡</foreign> <ref cRef="Ex." loc="40,18">Ex. 40,18</ref>; <lbl expand="pluralis">Pl.</lbl> <foreign xml:lang="gez">ትእዛዛት፡</foreign> <ref cRef="Koh." loc="12,13">Koh. 12,13</ref>; <foreign xml:lang="gez">ዐቂበ፡ ትእዛዛቲሁ፡ ለእግዚአብሔር፡</foreign> <ref cRef="Sir." loc="23,27">Sir. 23,27</ref>; <ref cRef="Kuf." loc="22">Kuf. 22</ref>; <foreign xml:lang="gez">ትእዛዛተ፡ ሰብእ፡</foreign> <ref cRef="Jes." loc="29,13">Jes. 29,13</ref>; <ref cRef="Ps." loc="118,16">Ps. 118,16</ref>; <ref cRef="Matth." loc="5,19">Matth. 5,19</ref>; <ref cRef="Matth." loc="19,17">Matth. 19,17</ref>; <foreign xml:lang="gez">ትእዛዛተ፡ ሐዋርያት፡</foreign> <cit type="translation" xml:lang="la"><quote> constitutiones Apostolorum </quote></cit>, Syn. <sense n="a" xml:id="D2a"> <cit type="translation" xml:lang="la"><quote> lex </quote></cit> vel <cit type="translation" xml:lang="la"><quote> regula </quote></cit> naturae rerum insita, <ref cRef="Hen." loc="2,1">Hen. 2,1</ref>; <ref cRef="Hen." loc="72,2">Hen. 72,2</ref>; <ref cRef="Hen. " loc="73,1">Hen.  73,1</ref>.</sense> <sense n="b" xml:id="D2b"> <cit type="translation" xml:lang="la"><quote> quod promissione statutum est </quote></cit>, (<cit type="translation" xml:lang="la"><quote> promissio </quote></cit>), <foreign xml:lang="grc">ἐπαγγελία</foreign> <ref cRef="Am." loc="9,6">Am. 9,6</ref>; <ref cRef="Hebr." loc="4,1">Hebr. 4,1</ref>; Did. <lbl expand="edidit">ed.</lbl> <ref cRef="Platt p." loc="50 ">Platt p. 50 </ref> l. 4; Did. <lbl expand="edidit">ed.</lbl> <ref cRef="Platt p." loc="106 ">Platt p. 106 </ref>l. 2 cum annot.</sense> <sense n="c" xml:id="D2c"> <cit type="translation" xml:lang="la"><quote> testamentum </quote></cit>, <sense n="α" xml:id="D2cα"> sensu biblico: <foreign xml:lang="gez">ታቦት፡ እንተ፡ ትእዛዝ፡</foreign> <ref cRef="Ex." loc="39,15">Ex. 39,15</ref>; <ref cRef="1 Par. " loc="28,18">1 Par.  28,18</ref>; <ref cRef="2 Par." loc="5,2">2 Par. 5,2</ref>; <ref cRef="Ex." loc="27,21">Ex. 27,21</ref>.</sense> <sense n="β" xml:id="D2cβ"> sensu forensi: <foreign xml:lang="gez">በእንተ፡ ትእዛዝ፡ ወጽሕፈቱ፡</foreign> F.N. 41,1; <foreign xml:lang="gez">በእንተ፡ ጽሒፈ፡ ትእዛዝ፡ ዘንዋይ፡</foreign> F.N. 41,1.</sense> <sense n="3" xml:id="D2c3"> passim i.q. <foreign xml:lang="gez">ተአዝዞ፡</foreign> i.e. <cit type="translation" xml:lang="la"><quote> obedientia </quote></cit>: <ref cRef="1 Reg." loc="15,22">1 Reg. 15,22</ref> S; <foreign xml:lang="gez">በትእዛዙ፡ ለጽድቅ፡</foreign> <foreign xml:lang="grc">ἐν τῇ ὑπακοῇ τῆς ἀληθείας</foreign> 1 <ref cRef="Petr." loc="1,22">Petr. 1,22</ref>; <foreign xml:lang="grc">ἀκοαί</foreign> <ref cRef="2 Reg. " loc="23,23">2 Reg.  23,23</ref>.</sense> </sense> </sense> </sense>
+               
+            <sense xml:id="Tmain" xml:lang="en" source="#traces"> <cit type="transcription" xml:lang="gez"><quote>tǝʾzāz</quote></cit> <sense n="C" xml:id="TC"> for <foreign xml:lang="gez">ጸሓፌ፡ ትእዛዝ፡</foreign> <lbl expand="videas">vid.</lbl> <foreign xml:lang="gez">ጸሓፊ፡</foreign> (TraCES) </sense> </sense></entry>
+         </div>
+      </body>
+   </text>
+</TEI>

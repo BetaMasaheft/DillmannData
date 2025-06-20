@@ -1,0 +1,133 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> አጽሀቀ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="Lad445c978aee45de8db0cd0e76688268" n="9119">
+               <form>
+                  <foreign xml:lang="gez">አጽሀቀ</foreign>
+               </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain"> <subc>II,1</subc> <sense n="1" xml:id="D1">
+                     <cit type="translation" xml:lang="la">
+                        <quote>curae esse</quote>
+                     </cit>, alicui (proprie: <cit type="translation" xml:lang="la">
+                        <quote>cura afficere</quote>
+                     </cit> aliquem), <lbl expand="cum">c.</lbl>
+                     <gramGrp>
+                        <case value="accusativus">Acc.</case>
+                     </gramGrp> ejus qui curat et <lbl expand="cum">c.</lbl> Nom. rei, quam curat:
+                        <ref cRef="4 Esr." loc="3,42">4 Esr. 3,42</ref>; <foreign xml:lang="gez">ላህምኑ፡ አጽሀቆ፡ ለእግዚአብሔር፡</foreign>
+                     <foreign xml:lang="grc">μὴ τῶν βοῶν μέλει τῷ θεῷ</foreign> 1 <ref cRef="Cor." loc="9,9">Cor. 9,9</ref>; <foreign xml:lang="gez">ለዝንቱ፡ ብእሲ፡ ኢያጽሀቆ፡ ምርዕውና፡
+                        ዲበ፡ ምድር፡</foreign> Mavâs. 10; <ref cRef="Phil." loc="1,22">Phil. 1,22</ref>
+                     Platt; vel <lbl expand="cum">c.</lbl>
+                     <foreign xml:lang="gez">በእንተ፡</foreign> rei: <ref cRef="Act." loc="18,17">Act.
+                        18,17</ref>
+                     <lbl expand="romanae editionis">rom.</lbl>; <foreign xml:lang="gez">ኢያጽህቆሙ፡
+                        ወኢምንተኒ፡ በእንቲአሆን፡</foreign>
+                     <foreign xml:lang="grc">οὐκ ἔπασχον οὐδὲν ἐπ᾽ αὐτοῖς</foreign>
+                     <ref cRef="Zach." loc="11,5">Zach. 11,5</ref>; <ref cRef="4 Esr." loc="8,20">4
+                        Esr. 8,20</ref>; vel <lbl expand="sequens">seq.</lbl>
+                     <foreign xml:lang="gez">ለእመ፡</foreign> vel <foreign xml:lang="gez">ዘ፡ </foreign>
+                     <lbl expand="cum">c.</lbl> verbo fin.: <foreign xml:lang="gez">ምንት፡ ያጽህቆ፡
+                        ለእግዚአብሔር፡ ለእመ፡ አንተ፡ አንጻሕከ፡ ምግባሪከ፡</foreign>
+                     <ref cRef="Job" loc="22,3">Job 22,3</ref>; <ref cRef="Luc." loc="10,40">Luc.
+                        10,40</ref>. (Cfr. etiam <foreign xml:lang="gez">አሕዘነ፡</foreign>).</sense>
+                  <sense n="2" xml:id="D2">
+                     <cit type="translation" xml:lang="la">
+                        <quote>desiderio</quote>
+                     </cit> vel <cit type="translation" xml:lang="la">
+                        <quote>cupiditate afficere</quote>
+                     </cit> aliquem, <ref cRef="Sx. Mag." loc="20 ">Sx. Mag. 20 </ref>Enc.</sense>
+                  <sense n="3" xml:id="D3">
+                     <cit type="translation" xml:lang="la">
+                        <quote>studium</quote>
+                     </cit> alicujus <cit type="translation" xml:lang="la">
+                        <quote>incitare</quote>
+                     </cit>, <lbl expand="cum">c.</lbl>
+                     <gramGrp>
+                        <case value="accusativus">Acc.</case>
+                     </gramGrp>
+                     <lbl expand="persona">pers.</lbl>, <ref cRef="2 Cor." loc="9,2">2 Cor.
+                        9,2</ref> Platt.</sense>
+                  <sense n="4" xml:id="D4">
+                     <cit type="translation" xml:lang="la">
+                        <quote>sollicitare</quote>
+                     </cit>, <sense n="a" xml:id="D4a"> in bonam partem: <cit type="translation" xml:lang="la">
+                           <quote>impellere</quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                           <quote>incitare</quote>
+                        </cit>, <foreign xml:lang="gez">ወከመዝ፡ አጽሀቆ፡ ኅሊናሁ፡ ለሐዋርያ፡ ወአገበሮ፡ ከመ፡
+                           ይጽሐፍ፡</foreign> Chrys. ab initio;</sense>
+                     <sense n="b" xml:id="D4b"> in malam partem: <cit type="translation" xml:lang="la">
+                           <quote>curam</quote>
+                        </cit> vel <cit type="translation" xml:lang="la">
+                           <quote>molestiam afferre</quote>
+                        </cit> alicui, <lbl expand="cum">c.</lbl>
+                        <gramGrp>
+                           <case value="accusativus">Acc.</case>
+                        </gramGrp>
+                        <lbl expand="persona">pers.</lbl>: <foreign xml:lang="gez">አጽሀቀቶ፡
+                           ለጳውሎስ፡</foreign>
+                        <foreign xml:lang="grc">διαπονηθείς</foreign> Act; 16:17; <foreign xml:lang="gez">አጽህቆ፡</foreign> (v. <foreign xml:lang="gez">አጽዕቆ፡</foreign>) <foreign xml:lang="grc">ὀχληρία</foreign>
+                        <ref cRef="Koh." loc="7,25">Koh. 7,25</ref>.</sense>
+                  </sense>
+               </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

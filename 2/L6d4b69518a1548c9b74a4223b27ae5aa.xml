@@ -1,0 +1,101 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> አስዖዘዘ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="LB" when="2018-02-15">root</change>
+        </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L6d4b69518a1548c9b74a4223b27ae5aa" n="2997">
+               <form>
+                  <foreign xml:lang="gez">አስዖዘዘ</foreign>
+               <rs type="root"/>
+                    </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain"> quinqel. II [praefixo <foreign xml:lang="gez">ሰ፡</foreign> vel <foreign xml:lang="gez">አስ፡</foreign> causativo et inserto <cit type="translation" xml:lang="la">
+                            <quote> ô </quote>
+                        </cit> post primam radicalem ex <foreign xml:lang="gez">ዐዘዘ፡</foreign>, <foreign xml:lang="ar">عَزَّ</foreign>, <foreign xml:lang="he">עָזַז</foreign> <cit type="translation" xml:lang="la">
+                            <quote> durus </quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                            <quote> gravis </quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                            <quote> vehemens fuit </quote>
+                        </cit> derivatum videtur] <sense n="1" xml:id="D1"> <cit type="translation" xml:lang="la">
+                                <quote> torpidum facere </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> torpore </quote>
+                            </cit>, vel <cit type="translation" xml:lang="la">
+                                <quote> stupore </quote>
+                            </cit> vel <cit type="translation" xml:lang="la">
+                                <quote> spasmo afficere </quote>
+                            </cit>: (veneno) <foreign xml:lang="gez">አስከሮ፡ ወአስዖዘዞ፡</foreign> (cadaveris instar) <ref cRef="Sx." loc="2 ">Sx. 2 </ref>Jac. Enc.; (Jacobus) <foreign xml:lang="gez">ርእየ፡ ራእየ፡ ዘከመ፡ እግዚአብሔር፡ ይትጋደሎ፡ ወአስዖዘዘ፡ ጸኮ፡ ወሰመዮ፡</foreign> <cb n="0392" xml:id="c0392"/> <foreign xml:lang="gez">እስራኤል፡</foreign> <ref cRef="Sx. Nah." loc="28.">Sx. Nah. 28.</ref> </sense> <sense n="2" xml:id="D2"> rigidum i.e. <cit type="translation" xml:lang="la">
+                                <quote> pertinacem </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> obstinatum </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> refractarium facere </quote>
+                            </cit>: <foreign xml:lang="gez">ዘያስዖዝዝ፡ ነገረ፡</foreign> <foreign xml:lang="grc">ὃς ἐρεθίζει λόγους</foreign> <ref cRef="Prov." loc="19,7">Prov. 19,7</ref>; <foreign xml:lang="gez">ገጸ፡ ዘኢየኀፍር፡ ልሳነ፡ ያስዖዝዝ፡</foreign> <foreign xml:lang="grc">γλῶσσαν ἐρεθίζει</foreign> <ref cRef="Prov." loc="25,23">Prov. 25,23</ref>.</sense> <sense n="3" xml:id="D3"> <cit type="translation" xml:lang="la">
+                                <quote> obtorpescere </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> torpere </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> torpedine </quote>
+                            </cit> vel <cit type="translation" xml:lang="la">
+                                <quote> spasmo affici </quote>
+                            </cit> <ref cRef="Gen. " loc="32,31">Gen.  32,31</ref>; <ref cRef="Gen." loc="32,32">Gen. 32,32</ref>; de anima: <foreign xml:lang="gez">ታስዖዝዝ፡</foreign> (v. <foreign xml:lang="gez">ታስተዐዝዝ፡</foreign>) <foreign xml:lang="gez">ነፍስየ፡</foreign> <foreign xml:lang="grc">ἀνέχεται ἡ ψυχή μου</foreign> <ref cRef="Job" loc="6,11">Job 6,11</ref>. – <lbl expand="Vocabularium Aethiopicum, -a -a">Voc. Ae.</lbl>: <foreign xml:lang="gez">አስዖዘዘ፡ ዘ፡ አደነዘዘ።</foreign> </sense> </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

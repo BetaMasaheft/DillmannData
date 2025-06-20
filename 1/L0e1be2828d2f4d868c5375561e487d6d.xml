@@ -1,0 +1,92 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ዛህለለ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="LB" when="2018-04-24">root</change>
+            <change who="AE" when="2018-10-03">Sprachkennung,</change>
+        </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L0e1be2828d2f4d868c5375561e487d6d" n="7444">
+               <form>
+                  <foreign xml:lang="gez">ዛህለለ</foreign>
+               <rs type="root"/>
+                    </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain"> quadril. <lbl expand="inusitatus">inus.</lbl>, referendum ad familiam late propagatam radicum <foreign xml:lang="he">דָּלַל</foreign> <foreign xml:lang="ar">دَلْدَلَ</foreign> <foreign xml:lang="syr">ܙܰܠ</foreign> <foreign xml:lang="ar">ذلّ ذَلْذَلَ ذَالَ</foreign>, quae primitus <cit type="translation" xml:lang="la">
+                            <quote> pendulum </quote>
+                        </cit> <cit type="translation" xml:lang="la">
+                            <quote> esse </quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                            <quote> laxum dependere </quote>
+                        </cit> significabant; in specie <lbl expand="conferas">cfr.</lbl> <foreign xml:lang="syr">ܙܰܠ</foreign> <cit type="translation" xml:lang="la">
+                            <quote> lascive egit </quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                            <quote> luxuriatus est </quote>
+                        </cit>, <foreign xml:lang="he">זֹלֵל</foreign> <cit type="translation" xml:lang="de">
+                            <quote>liederlich</quote>
+                        </cit>, <foreign xml:lang="ar">ذَاهِلٌ</foreign> <cit type="translation" xml:lang="la">
+                            <quote> obliviosus </quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                            <quote> socors </quote>
+                        </cit>; Amharenses habent <foreign xml:lang="gez">ዘለለ፡</foreign> <cit type="translation" xml:lang="la">
+                            <quote> salire </quote>
+                        </cit> et <cit type="translation" xml:lang="la">
+                            <quote> jocari </quote>
+                        </cit>. </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

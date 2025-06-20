@@ -1,0 +1,99 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ውኩል </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L1218bf15c86a4498a101fe59f1238ffc" n="6677">
+               <form>
+                  <foreign xml:lang="gez">ውኩል</foreign>
+               </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain">
+                  <gramGrp>
+                     <pos expand="participium">part.</pos>
+                  </gramGrp>
+                  <sense n="1" xml:id="D1">
+                     <cit type="translation" xml:lang="la">
+                        <quote>confisus</quote>
+                     </cit>, <cit type="translation" xml:lang="la">
+                        <quote>fretus</quote>
+                     </cit>: <foreign xml:lang="gez">ጻድቅ፡ ከመ፡ ዐንበሳ፡ ውኩል፡ </foreign>
+                     <ref cRef="Prov." loc="28,1">Prov. 28,1</ref>; <ref cRef="Prov." loc="11,15">Prov. 11,15</ref>
+                     <lbl expand="varia lectio">var.</lbl>; <foreign xml:lang="gez">ውኩላነ፡ ኢይረሲክሙ፡
+                        በእላንቱ፡ ቃላት፡</foreign>
+                     <ref cRef="2 Par." loc="32,15">2 Par. 32,15</ref>; Org.; <lbl expand="construitur cum">c.c.</lbl>
+                     <foreign xml:lang="gez">በ፡</foreign>, ut: <foreign xml:lang="gez">ሰይጣን፡ ውኩል፡
+                        በዝንቱ፡ ግብር፡</foreign>
+                     <ref cRef="Can. Nic." loc="4">Can. Nic. 4</ref>; <lbl expand="cum">c.</lbl>
+                     <foreign xml:lang="gez">ዲበ፡</foreign>, ut: <foreign xml:lang="gez">ውእቱ፡ ኮነ፡
+                        ውኩለ፡ ዲበ፡ ምግባሩ፡</foreign>
+                     <ref cRef="Phlx." loc="154.">Phlx. 154.</ref>
+                  </sense>
+                  <sense n="2" xml:id="D2">
+                     <cit type="translation" xml:lang="la">
+                        <quote>sibi commissum</quote>
+                     </cit> vel <cit type="translation" xml:lang="la">
+                        <quote>creditum habens</quote>
+                     </cit> aliquid: <foreign xml:lang="gez">መላእክት፡ እለ፡ ውኩላን፡ ብነ፡</foreign>
+                     <foreign xml:lang="grc">οἱ πιστευθέντες ἡμᾶς ἄγγελοι</foreign> (angeli quibus
+                     nos crediti sumus) <ref cRef="Chrys. Ta." loc="23.">Chrys. Ta. 23.</ref>
+                  </sense>
+               </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

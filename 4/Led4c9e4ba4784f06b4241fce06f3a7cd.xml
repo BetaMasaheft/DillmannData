@@ -1,0 +1,89 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ጾላዕ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="LB" when="2018-05-15">root</change>
+        </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="Led4c9e4ba4784f06b4241fce06f3a7cd" n="9175">
+               <form>
+                  <foreign xml:lang="gez">ጾላዕ</foreign>
+               <rs type="root"/>
+                    </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain">, raro <foreign xml:lang="gez">ጾልዐት፡</foreign>, <gramGrp> <pos expand="Substantivum">subst.</pos> </gramGrp>, <lbl expand="pluralis">Pl.</lbl> <foreign xml:lang="gez">ጾልዓት፡</foreign>, plerumque <foreign xml:lang="gez">ጾላዕት፡</foreign> scriptum, raro <foreign xml:lang="gez">ጾላዓት፡</foreign>; nec non <foreign xml:lang="gez">ጸዋልዕት፡</foreign>, rarius <foreign xml:lang="gez">ጸዋልዕ፡</foreign> (<ref cRef="Gad. T.H." loc="">Gad. T.H. </ref>), <lbl expand="pluralis">Pl.</lbl> <lbl expand="pluralis">Pl.</lbl> <foreign xml:lang="gez">ጾላዓታት፡</foreign> (<ref cRef="1 Reg." loc="13,6">1 Reg. 13,6</ref> <sense n="E" xml:id="DE"> [<foreign xml:lang="he">סֶגַע</foreign> <foreign xml:lang="ar">صُلاَّعٌ</foreign> vel <foreign xml:lang="ar">صُلَّعٌ</foreign>] <cit type="translation" xml:lang="la">
+                                <quote> rupes </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> petra </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> saxum </quote>
+                            </cit>: <foreign xml:lang="gez">ጸላዐ፡ ተከድነ፡</foreign> <foreign xml:lang="grc">πέτραν</foreign> <ref cRef="Job" loc="24,8">Job 24,8</ref>; <foreign xml:lang="gez">ልቡ፡ ጽኑዕ፡ ከመ፡ እብነ፡ ጾላዕ፡</foreign> (v. <foreign xml:lang="gez">ጸላዕ፡</foreign>, <lbl expand="vel">v.</lbl> <foreign xml:lang="gez">ከመ፡ ጾላዕት፡</foreign>) <ref cRef="Job" loc="41,15">Job 41,15</ref>; <foreign xml:lang="gez">ከመ፡ እብነ፡ ጾላዕ፡</foreign> (ubi Gr. habet <foreign xml:lang="grc">λίθος ἠρδαλωμένος</foreign>) <ref cRef="Sir." loc="22,1">Sir. 22,1</ref>; <ref cRef="Hez." loc="13,13">Hez. 13,13</ref> <lbl expand="varia lectio">var.</lbl>; <foreign xml:lang="gez">ማእከለ፡ ጾልዓት፡</foreign> (v. <foreign xml:lang="gez">ጾላዕት፡</foreign>) <foreign xml:lang="grc">πετρῶν</foreign> <ref cRef="Jes." loc="57,5">Jes. 57,5</ref>; <ref cRef="Jer." loc="28,25">Jer. 28,25</ref>; 1 <ref cRef="Reg." loc="13,6">Reg. 13,6</ref>; <foreign xml:lang="gez">ኣወርድ፡ እብነ፡ ጾላዕት፡</foreign> (v. <foreign xml:lang="gez">ጾልዐት፡</foreign>) <foreign xml:lang="grc">λίθους πετροβόλους</foreign> <ref cRef="Hez." loc="13,11">Hez. 13,11</ref>; <ref cRef="Hez." loc="13,13">Hez. 13,13</ref>; <ref cRef="Apoc." loc="6,16">Apoc. 6,16</ref> <lbl expand="romanae editionis">rom.</lbl> (<foreign xml:lang="gez">ጸዋልዕት፡</foreign> Platt); <foreign xml:lang="gez">ጾላዕት፡ ተሠጥቁ፡</foreign> <ref cRef="Clem." loc="218">Clem. f. 218</ref>; <foreign xml:lang="gez">ዐርጉ፡ ውስተ፡ ጸዋልዕት፡</foreign> <foreign xml:lang="grc">πέτρας</foreign> <ref cRef="Jer." loc="4,29">Jer. 4,29</ref>; <foreign xml:lang="gez">ድምፀ፡ ጸዋልዕት፡ እለ፡ ያንኰረኵሩ፡ በግርማ፡</foreign> <ref cRef="Sap." loc="17,17">Sap. 17,17</ref>; <foreign xml:lang="gez">ጸዋልዕተ፡ እብን፡</foreign> M.M. f. 285; <foreign xml:lang="gez">ጾላዓት፡</foreign> <lbl expand="vel">v.</lbl> <foreign xml:lang="gez">ጾልዓት፡</foreign> <foreign xml:lang="grc">πέτραι</foreign> <ref cRef="Ps." loc="103,13">Ps. 103,13</ref>; <ref cRef="Ps." loc="103,19">Ps. 103,19</ref>; <foreign xml:lang="gez">ጾላዕት፡</foreign> et <foreign xml:lang="gez">ጸዋልዕ፡</foreign> <ref cRef="Gad. T.H." loc="">Gad. T.H. </ref>; <foreign xml:lang="gez">ልጐተ፡ ጸዋልዕ፡</foreign> <bibl>
+                                <ptr target="bm:Ludolf1691Commentarius"/>
+                            </bibl>. p. 496 n. 10. – (Lud. <foreign xml:lang="gez">ጾላዕት፡</foreign> formam <lbl expand="Singularis">Sing.</lbl> censuit et significatum <cit type="translation" xml:lang="la">
+                                <quote> antrum </quote>
+                            </cit> in rupe excavatum, <cit type="translation" xml:lang="la">
+                                <quote> specus nativus </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> rupes </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> petra </quote>
+                            </cit> statuit (<lbl expand="videas">vid.</lbl> Schol. <lbl expand="Vocabularium Aethiopicum, -a -a">Voc. Ae.</lbl>); equidem formam <foreign xml:lang="gez">ጾላዕት፡</foreign> nonnisi ubi Graecus Pluralem exhibet, <cit type="translation" xml:lang="la">
+                                <quote> specus </quote>
+                            </cit> autem significationem nusquam reperi). – <lbl expand="Vocabularium Aethiopicum, -a -a">Voc. Ae.</lbl>: <foreign xml:lang="gez">ጾላዕት፡ ዘ፡ ዋሻ።</foreign> </sense> </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

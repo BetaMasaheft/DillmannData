@@ -1,0 +1,76 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ትርሲት </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="MK" when="2024-07-03">added gr and les </change><change who="MK" when="2024-07-03">added sub</change></revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L18122b4cc4ae48178181ba1cba9f2a51" n="2136">
+               <form>
+                  <foreign xml:lang="gez">ትርሲት</foreign>
+               </form>
+               <sense xml:id="Dmain" xml:lang="la" source="#dillmann"> <gramGrp> <pos expand="Substantivum">subst.</pos> </gramGrp> <sense n="1" xml:id="D1"> dispositio, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> apparatus </t:quote></cit> <ref cRef="Hebr." loc="9,2">Hebr. 9,2</ref>; <ref cRef="Hebr. " loc="9,6">Hebr.  9,6</ref>; <foreign xml:lang="he">תְּכוּנָה</foreign> <ref cRef="Hez." loc="43,11">Hez. 43,11</ref> <lbl expand="versio nova">vers. nov.</lbl> 
+</sense> <sense n="2" xml:id="D2"> factio i.e. <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> adoptio </t:quote></cit> filii: <foreign xml:lang="gez">ትርሲተ፡ ወልድ፡</foreign> <foreign xml:lang="grc">ὑιοθεσία</foreign> <ref cRef="Rom." loc="8,15">Rom. 8,15</ref>; <ref cRef="Rom." loc="8,23">Rom. 8,23</ref>; <ref cRef="Rom. " loc="9,4">Rom.  9,4</ref>; <ref cRef="Eph." loc="1,5">Eph. 1,5</ref>; <ref cRef="Gal." loc="4,5">Gal. 4,5</ref>. 
+</sense> <sense n="3" xml:id="D3"> plerumque: <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> amictus </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> habitus </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> paratus </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> ornatus </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> mundus </t:quote></cit> (muliebris): <foreign xml:lang="grc">σκευή</foreign> <ref cRef="Deut." loc="22,5">Deut. 22,5</ref>; <foreign xml:lang="gez">ትርሲተ፡ መርዓዊ፡</foreign> <ref cRef="Jes." loc="61,10">Jes. 61,10</ref>; <foreign xml:lang="gez">እንተ፡ ባቲ፡ ትርሲተ፡ ዝሙት፡</foreign> <foreign xml:lang="grc">εἶδος ἔχουσα πορνικόν</foreign> <ref cRef="Prov." loc="7,10">Prov. 7,10</ref>; <foreign xml:lang="grc">δόξα</foreign> <foreign xml:lang="gez">ልበሲ፡ ትርሲተኪ፡</foreign> <ref cRef="Jes." loc="52,1">Jes. 52,1</ref>; <ref cRef="Hez." loc="27,7">Hez. 27,7</ref>; <ref cRef="Job" loc="19,9">Job 19,9</ref>; <ref cRef="Sir." loc="50,13">Sir. 50,13</ref>; <foreign xml:lang="grc">εὐπρέπεια</foreign> <foreign xml:lang="gez">ሰለብዋ፡ ኵሎ፡ ትርሲታ፡</foreign> <ref cRef="Thren." loc="1,6">Thren. 1,6</ref>; <foreign xml:lang="grc">κόσμος</foreign> <foreign xml:lang="gez">በውስተ፡ ትርሲተ፡ ቤታ፡</foreign> <ref cRef="Sir." loc="26,16">Sir. 26,16</ref>; Lit. Orth.; Lit. Joh. 
+</sense> <sense n="4" xml:id="D4"> in genere: <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> quidquid pompae </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> magnificentiae </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> ornatui </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> decori est </t:quote></cit>, <foreign xml:lang="grc">δόξα</foreign> <ref cRef="Jes." loc="10,3">Jes. 10,3</ref>; <ref cRef="Jes." loc="10,16">Jes. 10,16</ref>; <ref cRef="Jes." loc="17,4">Jes. 17,4</ref>; <ref cRef="Jes." loc="28,1">Jes. 28,1</ref>; <ref cRef="Jes." loc="53,2">Jes. 53,2</ref>; <ref cRef="Hagg." loc="2,3">Hagg. 2,3</ref>; <ref cRef="Hagg." loc="2,7">Hagg. 2,7</ref>; <ref cRef="Hagg." loc="2,9">Hagg. 2,9</ref>; <foreign xml:lang="grc">πάντα ἔνδοξα ἡμῶν</foreign> <foreign xml:lang="gez">ኵሉ፡ ትርሲትነ፡</foreign> <ref cRef="Jes." loc="64,11">Jes. 64,11</ref>; <foreign xml:lang="grc">ἡ αἴνεσίς μου</foreign> <ref cRef="Jes." loc="12,2">Jes. 12,2</ref>; <foreign xml:lang="grc">εἰς τιμὴν τῆς δόξης μου</foreign> <foreign xml:lang="gez">ለትርሲተ፡ ክብርየ፡</foreign> <ref cRef="Dan." loc="4,27">Dan. 4,27</ref>; <foreign xml:lang="gez">ትርሲተ፡ አብያቲሆሙ፡</foreign> <foreign xml:lang="grc">οἰκίαι τρυφῆς αὐτῶν</foreign> <ref cRef="Mich. " loc="2,9">Mich.  2,9</ref>; <foreign xml:lang="gez">ትርሲተ፡ ጽጌ፡</foreign> <ref cRef="Org." loc="3.">Org. 3.</ref> – <lbl expand="Vocabularium Aethiopicum, -a -a">Voc. Ae.</lbl>: <foreign xml:lang="gez">ትርሲት፡ ዘ፡ ሽልመት።</foreign> 
+</sense> </sense>
+               
+            <sense xml:id="Tmain" xml:lang="en" source="#traces"> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">tǝrsit</t:quote></cit> <sense n="G" xml:id="TG"> <foreign xml:lang="gez">ትርሲት፡</foreign> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">tǝrsit</t:quote></cit> «<cit type="translation" xml:lang="fr"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">ornament</t:quote></cit>, <cit type="translation" xml:lang="fr"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">habillement</t:quote></cit>» ― <foreign xml:lang="am">ጌት፡</foreign>, <foreign xml:lang="am">ሸለማት፡</foreign> Ms. <ref type="BM" target="BNFabb217">BNFabb217</ref>, fol. 57v. <lb/>
+ <bibl><ptr target="bm:Grebaut1952SuppLexicon"/><citedRange unit="page"> 149</citedRange></bibl>
+</sense> <sense n="L" xml:id="TL"> <foreign xml:lang="gez">ትርሲት</foreign> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">tǝrsit</t:quote></cit> <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">apparel</t:quote></cit>, <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">ornament</t:quote></cit>, <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">adornment</t:quote></cit>, <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">attire</t:quote></cit>, <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">equipment</t:quote></cit>, <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">glory</t:quote></cit>, <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">pomp</t:quote></cit>, <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">prepartaion</t:quote></cit>, <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">constitution</t:quote></cit>, <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">occupation</t:quote></cit> <bibl><ptr target="bm:Leslau1987dic"/><citedRange unit="page"> 475a</citedRange></bibl> 
+</sense> </sense></entry>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,93 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ኦ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="LB" when="2018-03-16">root</change>
+        </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="Lf771ba02bb7c41df9c22d7f982f1f107" n="5374">
+               <form>
+                  <foreign xml:lang="gez">ኦ</foreign>
+               <rs type="root"/>
+                    </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain"> interj. inseparabilis <sense n="1" xml:id="D1"> dolentis et gementis: <cit type="translation" xml:lang="la">
+                                <quote> o </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> ah </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> eheu </quote>
+                            </cit>,<cit type="translation" xml:lang="la">
+                                <quote> proh </quote>
+                            </cit>, <foreign xml:lang="gez">ኦሞት፡</foreign> <ref cRef="Sir. " loc="41,1">Sir.  41,1</ref>; <ref cRef="Sir." loc="41,2">Sir. 41,2</ref>; <foreign xml:lang="gez">ኦምድር፡</foreign> <ref cRef="4 Esr." loc="6,38">4 Esr. 6,38</ref>; <foreign xml:lang="gez">ኦከናፍር፡ ዘካህናት፡ ናሁ፡ አርመሞን፡ ሞት፡</foreign> <ref cRef="Genz." loc="75">Genz. f. 75</ref>; <lbl expand="sequens">seq.</lbl> <foreign xml:lang="gez">እምነ፡</foreign>, ut: <foreign xml:lang="gez">ኦእምኔከ፡ ሞት፡ ዘነሣእከ፡ ነፍሳቲሆሙ፡</foreign> <ref cRef="Macc." loc="20">Macc. f. 20</ref>; <foreign xml:lang="gez">ኦእምዝንቱ፡ መልአክ፡</foreign> <ref cRef="Genz." loc="47">Genz. f. 47</ref>; <foreign xml:lang="gez">ኦእምዝንቱ፡ ሞት፡ ዘሥሉጥ፡ ላዕለ፡ ኵሉ፡ እጓለ፡ እመሕያው፡</foreign> <ref cRef="Genz." loc="75">Genz. f. 75</ref>; etiam <lbl expand="sequens">seq.</lbl> interjectione <foreign xml:lang="gez">አ፡</foreign>, ut: <foreign xml:lang="gez">ኦአ፡</foreign> <foreign xml:lang="grc">ὢ ὤ</foreign> <ref cRef="Num." loc="24,23">Num. 24,23</ref>; <foreign xml:lang="gez">ኦአ፡ ዕለት፡</foreign> <lbl expand="vel">v.</lbl> <foreign xml:lang="gez">ኦአ፡ ለዕለት፡</foreign> <foreign xml:lang="grc">ὢ ὤ ἡμέρα</foreign> <ref cRef="Hez." loc="30,2">Hez. 30,2</ref>.</sense> <sense n="2" xml:id="D2"> minantis: <cit type="translation" xml:lang="la">
+                                <quote> vae </quote>
+                            </cit>, <foreign xml:lang="gez">ኦኖሎት፡</foreign> <foreign xml:lang="grc">ὢ ποιμένες</foreign> <ref cRef="Jer." loc="23,1">Jer. 23,1</ref>; <foreign xml:lang="gez">ኦሀገረ፡ ደም፡</foreign> <ref cRef="Hez." loc="24,6">Hez. 24,6</ref>.</sense> <sense n="3" xml:id="D3"> mirantis: <cit type="translation" xml:lang="la">
+                                <quote> o </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> proh </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> hem </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> papae </quote>
+                            </cit>, <ref cRef="Rom." loc="11,33">Rom. 11,33</ref>; <foreign xml:lang="gez">ኦዘክርስቶስ፡ አፍቅሮተ፡ ሰብእ፡</foreign> Deg.; <foreign xml:lang="gez">ኦትሕትና፡ ዘእንበለ፡ ዐቅም፡</foreign> Deg.; <lbl expand="sequens">seq.</lbl> <foreign xml:lang="gez">ለ፡</foreign>, ut: <foreign xml:lang="gez">ኦለዛቲ፡ ጥበብ፡ ሐዋርያዊት፡</foreign> <foreign xml:lang="grc">βαβαὶ τῆς συνέσεωος τῆς ἀποστολικῆς</foreign> <ref cRef="Chrys. ho." loc="1,">Chrys. ho. 1,</ref> al.: <lbl expand="sequens">seq.</lbl> <foreign xml:lang="gez">እምነ፡</foreign>, ut: <foreign xml:lang="gez">ኦእምኅሊና፡</foreign> <cit type="translation" xml:lang="la">
+                                <quote> o commenta </quote>
+                            </cit>Cyr. c. <ref cRef="Pall." loc="85.">Pall. f. 85.</ref> </sense> <sense n="4" xml:id="D4"> acclamantis: <cit type="translation" xml:lang="la">
+                                <quote> o </quote>
+                            </cit> (nota Vocativi) <ref cRef="Act." loc="1,1">Act. 1,1</ref>; <ref cRef="Act." loc="13,10">Act. 13,10</ref>; <ref cRef="Act." loc="27,31">Act. 27,31</ref> <lbl expand="romanae editionis">rom.</lbl>; <ref cRef="Gal." loc="3,1">Gal. 3,1</ref>; <ref cRef="Jac." loc="2,2">Jac. 2,2</ref>; <ref cRef="Luc." loc="9,41">Luc. 9,41</ref>; <ref cRef="Luc." loc="12,20">Luc. 12,20</ref>; <ref cRef="Luc." loc="19,17">Luc. 19,17</ref>; <ref cRef="Gen." loc="4,23">Gen. 4,23</ref>. Quibusdam nominibus suffigitur (§ 142), ut: <foreign xml:lang="gez">እግዚኦ፡</foreign>, <foreign xml:lang="gez">ብእሲቶ፡</foreign> q.v.; <foreign xml:lang="gez">እሞ፡</foreign> Org.; <ref cRef="Kuf." loc="92">Kuf. p. 92</ref>; eademque etiam <foreign xml:lang="gez">ኦ፡</foreign> praefixum ferunt, ut: <foreign xml:lang="gez">ኦብእሲቶ፡</foreign> <ref cRef="Matth." loc="15,28">Matth. 15,28</ref>; <ref cRef="Joh." loc="2,4">Joh. 2,4</ref>; <ref cRef="Chrys. Ta." loc="15.">Chrys. Ta. 15.</ref> – <lbl expand="Vocabularium Aethiopicum, -a -a">Voc. Ae.</lbl>: <foreign xml:lang="gez">ኦአ፡ ብ፡ ዎዎ፡ ሆይሂ፡ ይ፡</foreign> </sense> </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

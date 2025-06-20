@@ -1,0 +1,78 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ለሐሰ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="VP" when="2017-07-14">adding S1</change>
+        <change who="LB" when="2018-01-16">root</change>
+        <change who="MK" when="2022-10-14">added Grebaut and Lelsau</change><change who="MK" when="2022-10-16">added transcription</change></revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L597d434075c14553a4393185fc3c1021" n="189">
+               <form>
+                  <foreign xml:lang="gez">ለሐሰ</foreign>
+               <rs type="root"/>
+                    </form>
+               <sense xml:id="Dmain" xml:lang="la" source="#dillmann"> <subc>I,1</subc> [amh. <foreign xml:lang="gez">ላሰ፡</foreign>; i.q. <foreign xml:lang="ar">لَحِسَ</foreign>, <foreign xml:lang="ar">لَهَسَ</foreign>, <foreign xml:lang="ar">لَسَّ</foreign>, <foreign xml:lang="he">לָחַשׁ</foreign>, <lbl expand="collatio, -is vel collectivum,&#xA;                            -e">coll.</lbl> <foreign xml:lang="he">לָחַךְ</foreign>, <foreign xml:lang="he">לָקַק</foreign>] <gramGrp> <pos expand="Subjunctivus">Subj.</pos> </gramGrp> <foreign xml:lang="gez">ይልሐስ፡</foreign> <sense n="1" xml:id="D1"> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> lingere </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> lambere </t:quote></cit>: <foreign xml:lang="gez">ለሐሰ፡ ከለባት፡ ደሞ፡</foreign> <ref cRef="3 Reg." loc="21,19">3 Reg. 21,19</ref>; <ref cRef="3 Reg." loc="22,38">3 Reg. 22,38</ref>; <foreign xml:lang="gez">ከለባት፡ ይልሕሱ፡ ቍሰሊሁ፡</foreign> <ref cRef="Luc." loc="16,21">Luc. 16,21</ref>; <foreign xml:lang="gez">ይልሕሱ፡ ጸበለ፡ እገሪኪ፡</foreign> <ref cRef="Jes." loc="49,23">Jes. 49,23</ref>; <foreign xml:lang="gez">ይልሕሱ፡ መሬተ፡</foreign> <ref cRef="Mich. " loc="7,17">Mich.  7,17</ref>; <foreign xml:lang="gez">እሳት፡ ለሐሰት፡ መሬተ፡</foreign> <ref cRef="3 Reg." loc="18,38">3 Reg. 18,38</ref>; <foreign xml:lang="gez">ኢትልሐስ፡ መጻብኅተ፡</foreign> <ref cRef="Sir." loc="34,14">Sir. 34,14</ref>. 
+</sense> <sense n="2" xml:id="D2"> (exserta lingua) <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> siti fatiscere </t:quote></cit> (<note>lechzen</note>): <foreign xml:lang="gez">ይልሕስ፡ ልሳኖሙ፡ በጽምእ፡</foreign> <ref cRef="Jes." loc="41,17">Jes. 41,17</ref>; <foreign xml:lang="gez">ከመ፡ ይልሕስ፡ ጽሙእ፡ ወይሰቲ፡ እምነ፡ ኵሉ፡ ማይ፡</foreign> <ref cRef="Sir." loc="26,12">Sir. 26,12</ref>; <foreign xml:lang="gez">እንዘ፡ እልሕስ፡ ሰራኅኩ፡</foreign> <ref cRef="Job" loc="17,2">Job 17,2</ref>; <ref cRef="Job" loc="30,3">Job 30,3</ref>. 
+</sense> <sense n="3" xml:id="D3"> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> mutire </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> mussitare </t:quote></cit> <foreign xml:lang="grc">γρύζειν</foreign> (coll. <foreign xml:lang="he">לָחַשׁ</foreign> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> susurravit </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> sibilavit </t:quote></cit>, et <foreign xml:lang="gez">ለሖሰሰ፡</foreign>): <foreign xml:lang="gez">ከልብ፡ ጥቀ፡ ኢይልሕሶሙ፡ በልሳኑ፡</foreign> <ref cRef="Ex." loc="11,7">Ex. 11,7</ref>; <foreign xml:lang="gez">አልቦ፡ ዘለሐሶሙ፡ በልሳኑ፡</foreign> <ref cRef="Jos." loc="10,21">Jos. 10,21</ref> (<gramGrp> <pos expand="pronomen suffixum">pron. suff.</pos> </gramGrp> per dativum exponere licet); <foreign xml:lang="gez">ከልብ፡ ኢይልሕስ፡ በልሳኑ፡ በቅድሜከ፡</foreign> <ref cRef="Judith " loc="11,19">Judith  11,19</ref>. – Hinc quadril. <foreign xml:lang="gez">ለሖሰሰ፡</foreign> q.v. – Vicinum est <foreign xml:lang="gez">ለስሐ፡</foreign> q.v. 
+</sense> </sense>
+               
+            <sense xml:id="Tmain" xml:lang="en" source="#traces"> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">laḥasa</t:quote></cit> <sense n="G" xml:id="TG"> <foreign xml:lang="gez">ለሐሰ፡</foreign> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">laḥasa</t:quote></cit> <subc>I,1</subc> «<cit type="translation" xml:lang="fr"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">lécher</t:quote></cit>» ― <foreign xml:lang="am">ላሰ፡</foreign> Ms. <ref type="BM" target="BNFabb217">BNFabb217</ref>, fol. 12v. Ms. Roma, Biblioteca Nazionale Centrale di Roma, Orientale 134, p. 3. <lb/>
+ <bibl><ptr target="bm:Grebaut1952SuppLexicon"/><citedRange unit="page"> 22</citedRange></bibl> 
+</sense> <sense n="L" xml:id="TL"> <foreign xml:lang="gez">ለሐሰ፡</foreign> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">laḥasa</t:quote></cit> (yǝlḥas), (<bibl><ptr target="bm:AlaqaTayya1965MSawasew"/></bibl>) <foreign xml:lang="gez">ልሕሰ፡</foreign> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">lǝḥsa</t:quote></cit> <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">lick</t:quote></cit>, <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">be parched (with thirst) and thrust out the tongue to lick</t:quote></cit>; (<bibl><ptr target="bm:Yaqob1927Sawasew"/></bibl>) <foreign xml:lang="gez">ለሐሰ፡</foreign> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">laḥasa</t:quote></cit> = Amh. <foreign xml:lang="am">አማረ</foreign> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">amarä</t:quote></cit> <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">be pretty</t:quote></cit> is strange; possibly a misprint for <lbl expand="videas">vid.</lbl> <foreign xml:lang="gez">ለሐየ፡</foreign> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">laḥaya</t:quote></cit> <bibl><ptr target="bm:Leslau1987dic"/><citedRange unit="page"> 311a</citedRange></bibl> 
+</sense> </sense></entry>
+         </div>
+      </body>
+   </text>
+</TEI>

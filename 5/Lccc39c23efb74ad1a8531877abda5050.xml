@@ -1,0 +1,75 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ነጥብ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="MK" when="2018-11-01">added new idiom</change>
+            <change who="MK" when="2018-11-01">added biblio</change>
+            <change who="MK" when="2018-11-01">added new expression, to be peer-reviewed</change>
+            <change who="MK" when="2018-11-01">corr bibl</change>
+            <change who="MK" when="2018-11-02">corr</change>
+        <change who="MK" when="2022-08-08">correction</change></revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="Lccc39c23efb74ad1a8531877abda5050" n="5249">
+               <form>
+                  <foreign xml:lang="gez">ነጥብ</foreign>
+               </form>
+               <sense xml:id="Dmain" xml:lang="la" source="#dillmann"> <gramGrp> <pos expand="Substantivum">subst.</pos> </gramGrp>, <gramGrp> <gen value="not found">m.</gen> </gramGrp> et <gramGrp> <gen value="femininus">fem.</gen> </gramGrp>, <sense n="1" xml:id="D1"> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> gutta </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> stilla </t:quote></cit>: <foreign xml:lang="gez">ከመ፡ ነጥበ፡</foreign> (v. <foreign xml:lang="gez">ነጠብጣበ፡</foreign>) <foreign xml:lang="gez">ማሕየብ፡</foreign> <ref cRef="Jes. " loc="40,15">Jes.  40,15</ref>; <foreign xml:lang="gez">ከመ፡ ነጥበ፡</foreign> (v. <foreign xml:lang="gez">ነጠብጣበ፡</foreign>) <foreign xml:lang="gez">ጠል፡</foreign> <ref cRef="Sap." loc="11,23">Sap. 11,23</ref>; <foreign xml:lang="gez">ነጥበ፡ ጠል፡ አሐቲ፡</foreign> Lud. e Mss. Colb.; <foreign xml:lang="gez">ዘኢሶጠ፡ ላዕለ፡ አባሉ፡ ምንተኒ፡ ነጥበ፡ ማይ፡</foreign> F.M. 14,10.</sense> <sense n="2" xml:id="D2"> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> punctum </t:quote></cit>: <foreign xml:lang="gez">ሕብሩ፡ ጸሊም፡ ዘቦ፡ ነጥበ፡ ከመ፡ ብሩር፡ ጽሩይ፡</foreign> <bibl><ptr target="bm:Ludolf1691Commentarius"/></bibl>. p. 20<ref cRef="9 Nr." loc="7">9 Nr. 7</ref>; Voc<cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> . </t:quote></cit>Ae<cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> . </t:quote></cit> <sense n="a" xml:id="D2a"> in mathematica: <foreign xml:lang="gez">ነጥብ፡ ጽኑዕ፡ ዘኢይትፈለስ፡</foreign> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> punctum fixum immobile </t:quote></cit> <ref cRef="Abush." loc="37">Abush. 37</ref>; <foreign xml:lang="gez">ይእቲ፡ ነጥብ፡</foreign> <ref cRef="Abush." loc="37">Abush. 37</ref>; <foreign xml:lang="gez">ነጥበ፡ ዕሪና፡</foreign> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> punctum aequinoctiale </t:quote></cit> <ref cRef="Abush." loc="37.">Abush. 37.</ref> </sense> <sense n="b" xml:id="D2b"> in re literaria significat „quaterna illa puncta (<foreign xml:lang="gez">።</foreign>) periodos terminantia, quae saepe quinque rubris augentur“, Lud.</sense> </sense> </sense>
+               
+            <sense xml:id="Tmain" xml:lang="en" source="#traces"> <foreign xml:lang="gez">ወኢነጥብ፡</foreign> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> waʾinaṭǝb </t:quote></cit> <lbl expand="literally">lit.</lbl> ‘not even a drop’ <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> not at all </t:quote></cit>, ‘<cit type="translation" xml:lang="it"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> nemmeno una goccia </t:quote></cit>’ <foreign xml:lang="gez">ወሶቤሃ፡ አብግአ፡ ውስተ፡ ስንዳሌ፡ ዘነሥአ፡ እምኀበ፡ ላዕለ፡ እብን፡ ዘምስለ፡ መንጸፉ፡ ከመ፡ ቀዳሚ፡ ወአልቦ፡ ዘአንሰሐስሐ፡ ወኢምንተኒ፡ ወኢነጥበ፡ ወኢ፩፡</foreign> ‘<cit type="translation" xml:lang="it"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> Allora (il vento) fece ritornare quel frumento che aveva preso da sopra la pietra con l’attrezzo per stenderlo, come prima, e niente si era mosso, niente, nemmeno una goccia, nemmeno una </t:quote></cit>’ <bibl><ptr target="bm:Bausi2003Libanos"/><citedRange unit="page"> 64–65 § 165 (ed.)</citedRange></bibl>, <bibl><ptr target="bm:Bausi2003LibanosTr"/><citedRange unit="page"> 41 §165 (tr.)</citedRange></bibl> (‘«nemmeno una goccia»: si tratta probabilmente di una espressione di negazione rafforzata (<cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> waʾinaṭǝb </t:quote></cit>) non registrata nei lessici e nelle grammatiche (per tutti vd. <bibl><ptr target="bm:Dillmann1907Ethiopic"/><citedRange unit="page"> 512 § 197</citedRange></bibl>; <bibl><ptr target="bm:Dillmann1865Lexicon"/><citedRange unit="page"> 697</citedRange></bibl>), ma legittima in etiopico; un altro caso si trova nell’Epistola 70 di Cipriano di Cartagine (vd. <bibl><ptr target="bm:Bausi1998Cipriano"/><citedRange unit="page"> 112 § 2</citedRange></bibl>); del resto, come noto, l’uso di «goccia» come rafforzativo della negazione ha paralleli tipologici in altre famiglie linguistiche, vd., per es. nel romanzo il francese standard «je n’y vois goutte», ma anche l’italiano dialettale, lucchese «’un ci veggo goccia» <bibl><ptr target="bm:Rohlfs1969GrammaticaItalianaVol3"/><citedRange unit="page"> 150 § 968</citedRange></bibl>).’ <bibl><ptr target="bm:Bausi2003LibanosTr"/><citedRange unit="page"> 41 n. 135</citedRange></bibl>) </sense>
+                </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

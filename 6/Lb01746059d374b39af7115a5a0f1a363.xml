@@ -1,0 +1,114 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ዕዩይ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="Lb01746059d374b39af7115a5a0f1a363" n="7307">
+               <form>
+                  <foreign xml:lang="gez">ዕዩይ</foreign>
+               </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain">
+                  <gramGrp>
+                     <pos expand="participium">part.</pos>
+                  </gramGrp>
+                  <cit type="translation" xml:lang="la">
+                     <quote>mente alienatus</quote>
+                  </cit>, <cit type="translation" xml:lang="la">
+                     <quote>amens</quote>
+                  </cit>, <cit type="translation" xml:lang="la">
+                     <quote>insipiens</quote>
+                  </cit>, <cit type="translation" xml:lang="la">
+                     <quote>delirans</quote>
+                  </cit>: <foreign xml:lang="gez">ኦዘእንበለ፡ ልብ፡ ዕዩይ፡ ኢለቦከ፡ ምስጢረ፡ </foreign>
+                  <foreign xml:lang="grc">ὦ ἀνόητε καὶ βδελυρώτατε οὐ συνῆκας τὸ μυστήριον
+                  </foreign> Cyr. ho. f. 108; <foreign xml:lang="gez">ዘእምባሕር፡ ወእሞት፡ ዕዩይ፡</foreign>
+                  <foreign xml:lang="grc">ὦ θαλάσσης καὶ θανάτου ἀνοητότερε</foreign>, ho. Rhegini
+                  in <ref cRef="Cyr. " loc="109">Cyr. f. 109</ref>; <foreign xml:lang="gez">እሬእየክሙ፡
+                     ከመ፡ ዕንቡዛን፡ አንትሙ፡ ወዕዩያነ፡ ኅሊና፡</foreign>
+                  <foreign xml:lang="grc">ὅτι κεχήνατε καὶ ἐξεπλάγητε</foreign>
+                  <ref cRef="Chrys. Ta." loc="3">Chrys. Ta. 3</ref>; <foreign xml:lang="gez">ኦእምኅሊና፡
+                     ዘእቤር፡ ልቡና፡ ዕዩይ፡</foreign>
+                  <foreign xml:lang="grc">ὢ φρενός γραοπρεποῦς</foreign> Cyr. c. <ref cRef="Pall." loc="85">Pall. f. 85</ref>; <foreign xml:lang="gez">ኦአብድ፡ ወዝንጉዐ፡ ልብ፡ ወዕዩየ፡
+                     ኅሊና፡</foreign>
+                  <ref cRef="Syn." loc="347 ">Syn. f. 347 </ref>(ter); <foreign xml:lang="gez">ኦዕዩይ፡
+                     ወዕልው፡ </foreign>
+                  <ref cRef="Syn." loc="346">Syn. f. 346</ref>; <foreign xml:lang="gez">ኦዕዩይ፡
+                     ወከሓዲ፡</foreign>
+                  <ref cRef="Syn." loc="346.">Syn. f. 346.</ref> – [Lud. exhibet <sense n="1" xml:id="D1">
+                     <cit type="translation" xml:lang="la">
+                        <quote>schismaticus</quote>
+                     </cit>, Syn.; (at <ref cRef="Syn." loc="346 ">Syn. p. 346 </ref>quamvis
+                        <foreign xml:lang="gez">ዕዩይ፡ </foreign> cum <foreign xml:lang="gez">ዕልው፡</foreign> et <foreign xml:lang="gez">ከሓዲ፡ </foreign> junctum sit tamen
+                        <foreign xml:lang="gez">ዕዩይ፡</foreign> aliter exponendum videtur, nec non de
+                     significatione verbi <foreign xml:lang="gez">ተዐየየ፡</foreign> a Lud. statuta
+                     dubito).</sense>
+                  <sense n="2" xml:id="D2">
+                     <cit type="translation" xml:lang="la">
+                        <quote>distinctus</quote>
+                     </cit>, <cit type="translation" xml:lang="la">
+                        <quote>diversus</quote>
+                     </cit> (at in exemplo ex <ref cRef="Org." loc="3 ">Org. 3 </ref>ab eo allato:
+                        <foreign xml:lang="gez">ዕዩየ፡ ግጻዌ፡ ዘእንበለ፡ ፍልጠት፡ ወዕሩየ፡ መለኮት፡</foreign> vox
+                        <foreign xml:lang="gez">ዕዩየ፡</foreign> scribenda est <foreign xml:lang="gez">እዩየ፡ </foreign> et exponenda <cit type="translation" xml:lang="la">
+                        <quote>aequalis</quote>
+                     </cit>)].</sense>
+               </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,117 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ንስር </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="LB" when="2018-03-07">root</change>
+        <change who="MK" when="2019-05-07">addeed new word</change>
+            <change who="MK" when="2019-05-29">added new example</change>
+            <change who="MK" when="2019-05-29">corr</change>
+        </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="Lc08d72807f9c481cb4691bd7f1c59c0d" n="4831">
+               <form>
+                  <foreign xml:lang="gez">ንስር</foreign>
+               <rs type="root"/>
+                    </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain"> <gramGrp> <pos expand="Substantivum">subst.</pos> </gramGrp>, <gramGrp> <gen value="not found">m.</gen> </gramGrp>, <lbl expand="pluralis">Pl.</lbl> <foreign xml:lang="gez">አንስርት፡</foreign> [<foreign xml:lang="he">נֶשֶׁר</foreign>, <foreign xml:lang="syr">ܢܶܫܪܳܐ</foreign>, <foreign xml:lang="ar">نِسْرٌ</foreign>] <cit type="translation" xml:lang="la">
+                            <quote> aquila </quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                            <quote> vultur </quote>
+                        </cit>, <foreign xml:lang="grc">ἀετός</foreign> <ref cRef="Lev." loc="11,13">Lev. 11,13</ref>; <ref cRef="Deut." loc="14,12">Deut. 14,12</ref>; <ref cRef="Job" loc="9,26">Job 9,26</ref>; <ref cRef="Job" loc="39,27">Job 39,27</ref>; <ref cRef="Jes. " loc="40,31">Jes.  40,31</ref>; <ref cRef="Jer." loc="4,13">Jer. 4,13</ref>; <ref cRef="Jer." loc="29,17">Jer. 29,17</ref>; <ref cRef="Jer." loc="29,23">Jer. 29,23</ref>; <ref cRef="Thren." loc="4,19">Thren. 4,19</ref>; <ref cRef="Hez." loc="17,3">Hez. 17,3</ref>; <ref cRef="Dan." loc="7,4">Dan. 7,4</ref>; <ref cRef="Mich." loc="1,16">Mich. 1,16</ref>; <ref cRef="Ob." loc="4">Ob. 4</ref>; <ref cRef="Ps." loc="102,5">Ps. 102,5</ref>; <ref cRef="Matth." loc="24,28">Matth. 24,28</ref>; <ref cRef="Apoc." loc="4,7">Apoc. 4,7</ref>; <ref cRef="Apoc." loc="8,13">Apoc. 8,13</ref>; <ref cRef="Apoc." loc="12,14">Apoc. 12,14</ref>; <ref cRef="Hen." loc="90,2">Hen. 90,2</ref> <lbl expand="sequens">seq.</lbl>, <ref cRef="4 Esr." loc="11,1">4 Esr. 11,1</ref> <lbl expand="sequens">seq.</lbl>, <foreign xml:lang="grc">γύψ</foreign> <ref cRef="Job" loc="15,23">Job 15,23</ref>; <ref cRef="Job" loc="28,7">Job 28,7</ref>; praeterea <ref cRef="Hez." loc="39,4">Hez. 39,4</ref> et <ref cRef="Dan." loc="4,30">Dan. 4,30</ref> ubi textus quidem LXX vulg. <foreign xml:lang="grc">ὀρνέων</foreign> habet; <foreign xml:lang="gez">ዮሐንስ፡ ሰራሪ፡ ንጉሠ፡ አዕዋፍ፡ ንስር፡</foreign> <ref cRef="Sx. Jac. " loc="30 ">Sx. Jac.  30 </ref>Enc. <lbl expand="Vocabularium Aethiopicum, -a -a">Voc. Ae.</lbl>: <foreign xml:lang="gez">ንስር፡ ወአውስት፡ ወፊንክስ፡ ዘ፡ አሞራ።</foreign> </sense>
+               
+            <sense xml:lang="en" source="#traces" xml:id="Tmain">
+                        <foreign xml:lang="gez">ንስር፡ ቃና፡</foreign> <cit type="transcription" xml:lang="gez">
+                            <quote>nǝs(ǝ)r qānā</quote>
+                        </cit>, <foreign xml:lang="gez">ንስርቃና፡</foreign> <cit type="transcription" xml:lang="gez">
+                            <quote>nǝsǝrqānā</quote>
+                        </cit>, <foreign xml:lang="gez">ምስርቃና፡</foreign> <cit type="transcription" xml:lang="gez">
+                            <quote>mǝsǝrqānā</quote>
+                        </cit> <gramGrp>
+                            <pos expand="Substantivum">subst.</pos>
+                        </gramGrp> <cit type="translation" xml:lang="en">
+                            <quote>horn</quote>
+                        </cit>, <cit type="translation" xml:lang="en">
+                            <quote>trumpet</quote>
+                        </cit>, <cit type="translation" xml:lang="en">
+                            <quote>flute</quote>
+                        </cit> ? <foreign xml:lang="gez">እንዘ፡ ይዘብጡ፡ ድብ፡ አንበሳ፡ ወይነፍሑ፡ ሳንቲ፡ ወንስር፡ ቃና፡ ወእንዚራ፡ ዘንዋየ፡ ትርኵ፡ ወአምሐራ።</foreign> ‘<cit type="translation" xml:lang="fr">
+                            <quote>tandis qu’on frappait le tambour dit Deb Anbasā et qu’on faisait résonner des clairons (sānti), les cornes (nesser qānā) et les flûtes, instruments des Turcs et des Amhara</quote>
+                        </cit>’ <bibl>
+                            <ptr target="bm:ContiRossini1907SarsaDengel"/>
+                            <citedRange unit="page"> 77 l. 10-11 (ed.)</citedRange>
+                        </bibl>, <bibl>
+                            <ptr target="bm:ContiRossini1907SarsaDengelV"/>
+                            <citedRange unit="page"> 90 l. 28-30 (tr.)</citedRange>
+                        </bibl>; <foreign xml:lang="gez">ወሶቤሃ፡ ተዘብጠ፡ ድብ፡ አንበሳ፡ ወተነፍሐ፡ ሳንቲ፡ ምስርቃና፡</foreign> ‘<cit type="translation" xml:lang="fr">
+                            <quote>Alors on frappa le deb anbasā et l’on sonna les clairons et les flûtes</quote>
+                        </cit>’ <bibl>
+                            <ptr target="bm:ContiRossini1907SarsaDengel"/>
+                            <citedRange unit="page"> 151 l. 34, 152 l. 14 (ed.)</citedRange>
+                        </bibl>, <bibl>
+                            <ptr target="bm:ContiRossini1907SarsaDengelV"/>
+                            <citedRange unit="page"> 170 l. 16-17 (tr.)</citedRange>
+                        </bibl>, <lbl expand="videas">vid.</lbl> <foreign xml:lang="gez">ቃና፡</foreign> <sense n="L" xml:id="TL">
+                            <foreign xml:lang="gez">ንስር፡ ቃና፡</foreign> <cit type="transcription" xml:lang="gez">
+                                <quote>nǝsr qānā</quote>
+                            </cit> (L) kind of flute <bibl>
+                                <ptr target="bm:Leslau1987dic"/>
+                                <citedRange unit="page"> 403a</citedRange>
+                            </bibl>
+                        </sense> </sense>
+                </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

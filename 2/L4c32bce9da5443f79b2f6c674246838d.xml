@@ -1,0 +1,116 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ጽሑፍ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L4c32bce9da5443f79b2f6c674246838d" n="9217">
+               <form>
+                  <foreign xml:lang="gez">ጽሑፍ</foreign>
+               </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain">
+                  <gramGrp>
+                     <pos expand="participium">part.</pos>
+                  </gramGrp>
+                  <cit type="translation" xml:lang="la">
+                     <quote>scriptus</quote>
+                  </cit>, <cit type="translation" xml:lang="la">
+                     <quote>inscriptus</quote>
+                  </cit>, <cit type="translation" xml:lang="la">
+                     <quote>perscriptus</quote>
+                  </cit>, <cit type="translation" xml:lang="la">
+                     <quote>conscriptus</quote>
+                  </cit>, de iis, quae scripta sunt in libro, tabula al.: <ref cRef="Kuf." loc="32">Kuf. 32</ref>; <ref cRef="Deut. " loc="28,61">Deut. 28,61</ref>; <ref cRef="Jos." loc="8,33">Jos. 8,33</ref>; <foreign xml:lang="gez">ኵሎ፡ ዘጽሑፍ፡ ውስተ፡
+                     ዝመጽሐፍ፡</foreign>
+                  <ref cRef="Jer." loc="25,13">Jer. 25,13</ref>; <ref cRef="2             Esr." loc="3,2">2 Esr. 3,2</ref>; <ref cRef="2 Esr." loc="6,2">2 Esr. 6,2</ref>;
+                     <foreign xml:lang="gez">እለ፡ ጽሑፋን፡ በበአስማቲሆሙ፡</foreign>
+                  <ref cRef="1 Par." loc="4,41">1 Par. 4,41</ref>; <ref cRef="Ps." loc="149,9">Ps.
+                     149,9</ref>; <ref cRef="Luc." loc="22,37">Luc. 22,37</ref>; <ref cRef="Joh." loc="15,25">Joh. 15,25</ref>; <foreign xml:lang="gez">ጽሑፍ፡ ዲበ፡</foreign> …
+                  (inscriptus rei) <ref cRef="Sx. Ter" loc="17">Sx. Ter 17</ref>; <foreign xml:lang="gez">ጽሑፍ፡ ውስተ፡ ሳሌዳ፡ ልብየ፡ መጽሐፈ፡ ግብርናትየ፡ ለከ፡</foreign> Org.; de
+                  tabulis, libris, foliis, quae scriptura signata sunt: <foreign xml:lang="gez">ጽሕፍት፡ ይእቲ፡ መጽሐፍ፡ ውስጣኒ፡ ወአፍአሃኒ፡</foreign>
+                  <ref cRef="Hez." loc="2,10">Hez. 2,10</ref>; <cb n="1268" xml:id="c1268"/>
+                  <ref cRef="Apoc." loc="5,1">Apoc. 5,1</ref>; <ref cRef="Ex." loc="31,18">Ex.
+                     31,18</ref>; <ref cRef="Ex." loc="32,15">Ex. 32,15</ref>; <foreign xml:lang="gez">መጻሕፍት፡ ጽሑፋት፡ ዕብራይስጥ፡ </foreign>
+                  <ref cRef="Kuf." loc="12">Kuf. 12</ref>; <foreign xml:lang="gez">ጽላት፡ ጽሑፍ፡
+                     ወግሉፍ፡</foreign>
+                  <ref cRef="Sx. Nah." loc="20">Sx. Nah. 20</ref>; crebro: <foreign xml:lang="gez">ጽሑፍ፡</foreign>
+                  <cit type="translation" xml:lang="la">
+                     <quote>scriptum est</quote>
+                  </cit>, ut: <foreign xml:lang="gez">ጽሑፍ፡ ከመ፡</foreign> … <ref cRef="Job" loc="42,18">Job 42,18</ref>; <ref cRef="Matth." loc="2,5">Matth. 2,5</ref>;
+                     <ref cRef="Matth." loc="4,4">Matth. 4,4</ref>; <ref cRef="Matth." loc="4,6">Matth. 4,6</ref>; <ref cRef="Matth." loc="4,7">Matth. 4,7</ref>; <ref cRef="Matth." loc="4,10">Matth. 4,10</ref> al. <sense n="a" xml:id="Da">
+                     <cit type="translation" xml:lang="la">
+                        <quote>praescriptus</quote>
+                     </cit>: <foreign xml:lang="gez">በከመ፡ ጽሑፍ፡ ለኵሉ፡ እስራኤል፡ ውስተ፡ ትእዛዝ፡ </foreign>
+                     <ref cRef="Tob." loc="1,6">Tob. 1,6</ref>.</sense>
+                  <sense n="b" xml:id="Db">
+                     <cit type="translation" xml:lang="la">
+                        <quote>descriptus</quote>
+                     </cit>, <foreign xml:lang="grc">διαγεγραμμένος</foreign>
+                     <ref cRef="Hez. " loc="42,3">Hez. 42,3</ref>.</sense>
+                  <sense n="c" xml:id="Dc">
+                     <cit type="translation" xml:lang="la">
+                        <quote>adscriptus</quote>
+                     </cit> i.e. <cit type="translation" xml:lang="la">
+                        <quote>sententia scripta destinatus</quote>
+                     </cit>: <foreign xml:lang="gez">እለ፡ ጽሑፋን፡ ለዝንቱ፡ ደይን፡</foreign>
+                     <ref cRef="Judae" loc="4.">Judae 4.</ref>
+                  </sense>
+               </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

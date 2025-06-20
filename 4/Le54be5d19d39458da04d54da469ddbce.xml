@@ -1,0 +1,105 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ጕሕሉት </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="LB" when="2018-05-04">root</change>
+        </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="Le54be5d19d39458da04d54da469ddbce" n="8278">
+               <form>
+                  <foreign xml:lang="gez">ጕሕሉት</foreign>
+               <rs type="root"/>
+                    </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain"> <gramGrp> <pos expand="Substantivum">subst.</pos> </gramGrp>, <gramGrp> <gen value="femininus">fem.</gen> </gramGrp> et <gramGrp> <gen value="not found">m.</gen> </gramGrp>, [hoc verbum F. Tuch de Aeth. linguae sonorum proprietatibus p. 17 cum <foreign xml:lang="ar">جَحَلَ</foreign> <cit type="translation" xml:lang="la">
+                            <quote> conjecit in terram </quote>
+                        </cit>, E. Schrader de linguae Aeth. indole p. 14 cum <foreign xml:lang="gez">ኵሕል፡</foreign> <cit type="translation" xml:lang="la">
+                            <quote> fucus </quote>
+                        </cit> composuerunt. At cum etiam forma <foreign xml:lang="gez">ጐልሐ፡</foreign> (<lbl expand="videas">vid.</lbl> <foreign xml:lang="gez">ተጓሕለወ፡</foreign>) et <foreign xml:lang="gez">አስተጓልሐወ፡</foreign> occurrat, quaeritur, annon <cit type="translation" xml:lang="la">
+                            <quote> dolosus </quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                            <quote> fallax </quote>
+                        </cit> proprie sit <cit type="translation" xml:lang="la">
+                            <quote> glaber </quote>
+                        </cit>, <lbl expand="collatio, -is vel collectivum,&#xA;                            -e">coll.</lbl> <foreign xml:lang="he">גלח</foreign> <foreign xml:lang="ar">جلِح</foreign> <foreign xml:lang="he">חלק</foreign> al.] <sense n="1" xml:id="D1"> rarissime in bonam partem: <cit type="translation" xml:lang="la">
+                                <quote> ars </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> callidum inventum </quote>
+                            </cit>, ut: <foreign xml:lang="gez">ገብረ፡ ኢዮአብ፡ ዘንተ፡ ጕሕሉተ፡</foreign> <ref cRef="2 Reg. " loc="14,20">2 Reg.  14,20</ref>.</sense> <sense n="2" xml:id="D2"> plerumque in malam partem: <cit type="translation" xml:lang="la">
+                                <quote> dolus </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> fraus </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> fraudulentia </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> fallacia </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> astutia malitiosa </quote>
+                            </cit>: <ref cRef="Hen." loc="93,4">Hen. 93,4</ref>; <ref cRef="Hen. " loc="94,6">Hen.  94,6</ref>; <ref cRef="4 Esr." loc="4,32">4 Esr. 4,32</ref>; <ref cRef="4 Esr." loc="5,22">4 Esr. 5,22</ref>; <foreign xml:lang="grc">δόλος</foreign> <ref cRef="Sir." loc="1,30">Sir. 1,30</ref>; <ref cRef="Sir." loc="19,26">Sir. 19,26</ref>; <ref cRef="Dan." loc="8,25">Dan. 8,25</ref>; <ref cRef="Ps." loc="33,14">Ps. 33,14</ref>; <ref cRef="Ps." loc="54,11">Ps. 54,11</ref>; <ref cRef="Lev." loc="19,16">Lev. 19,16</ref>; <foreign xml:lang="gez">ታየድዑ፡ ጕሕሉተ፡</foreign> <ref cRef="Job" loc="12,7">Job 12,7</ref>; <foreign xml:lang="gez">ትመልእ፡ ከርሦሙ፡ ጕሕሉተ፡</foreign> <ref cRef="Job" loc="15,35">Job 15,35</ref>; <ref cRef="Jer." loc="5,27">Jer. 5,27</ref>; <foreign xml:lang="gez">ጕሕሉት፡ ቃለ፡ አፉሆሙ፡</foreign> <ref cRef="Jer." loc="9,8">Jer. 9,8</ref>; <ref cRef="Prov." loc="12,6">Prov. 12,6</ref>; <ref cRef="1 Petr." loc="3,10">1 Petr. 3,10</ref> <lbl expand="romanae editionis">rom.</lbl>; <foreign xml:lang="gez">ጕሕሉት፡ ወጽልሑት፡</foreign> <ref cRef="Marc." loc="7,22">Marc. 7,22</ref>; <foreign xml:lang="gez">እለ፡ በጕሕሉት፡</foreign> <foreign xml:lang="grc">πανοῦργοι</foreign> <ref cRef="Job" loc="5,12">Job 5,12</ref>; <ref cRef="Jos." loc="9,2">Jos. 9,2</ref>; <foreign xml:lang="grc">ὑπόκρισις</foreign> <ref cRef="Marc." loc="12,15">Marc. 12,15</ref>; <foreign xml:lang="grc">τὰ βαθέα τοῦ σατανᾶ</foreign> <ref cRef="Apoc." loc="2,24">Apoc. 2,24</ref>. <sense n="a" xml:id="D2a"> in Genitivo: <cit type="translation" xml:lang="la">
+                                    <quote> dolosus </quote>
+                                </cit>, <cit type="translation" xml:lang="la">
+                                    <quote> fraudulentus </quote>
+                                </cit>, <cit type="translation" xml:lang="la">
+                                    <quote> fallax </quote>
+                                </cit>, <ref cRef="Ps." loc="11,2">Ps. 11,2</ref>; <ref cRef="Ps." loc="119,3">Ps. 119,3</ref>; <foreign xml:lang="gez">ልሳኖሙ፡ ዘጕሕሉት፡ ውስተ፡ አፉሆሙ፡</foreign> <ref cRef="Mich. " loc="6,12">Mich.  6,12</ref>.</sense> <sense n="b" xml:id="D2b"> <foreign xml:lang="gez">በጕሕሉት፡</foreign> <cit type="translation" xml:lang="la">
+                                    <quote> dolo </quote>
+                                </cit>, <cit type="translation" xml:lang="la">
+                                    <quote> dolose </quote>
+                                </cit>: <ref cRef="Ps." loc="23,4">Ps. 23,4</ref>; <ref cRef="Jes." loc="9,5">Jes. 9,5</ref>; <ref cRef="Gen." loc="27,35">Gen. 27,35</ref>; <ref cRef="Gen." loc="34,13">Gen. 34,13</ref>; <ref cRef="Num." loc="25,18">Num. 25,18</ref>; <ref cRef="Deut." loc="27,24">Deut. 27,24</ref>; F.N. crebro; <foreign xml:lang="gez">ክዒወ፡ ደመ፡ ሰብእ፡ በጕሕሉት፡</foreign> <ref cRef="Clem." loc="118">Clem. f. 118</ref>; <ref cRef="Clem." loc="161.">Clem. f. 161.</ref> – <lbl expand="Vocabularium Aethiopicum, -a -a">Voc. Ae.</lbl>: <foreign xml:lang="gez">ጕሕሉት፡ ዘ፡ እከየ፡ ልብ፡ ሽንግላሂ፡ ይ፡</foreign> </sense> </sense> </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

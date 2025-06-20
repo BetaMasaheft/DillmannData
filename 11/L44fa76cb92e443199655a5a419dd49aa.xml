@@ -1,0 +1,77 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ወእደ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="LB" when="2018-04-03">root</change>
+        <change who="ES" when="2024-02-28">nesting</change></revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L44fa76cb92e443199655a5a419dd49aa" n="6673">
+               <form>
+                  <foreign xml:lang="gez">ወእደ</foreign>
+               <rs type="root"/>
+                    </form>
+               <sense xml:id="Dmain" xml:lang="la" source="#dillmann"> et <foreign xml:lang="gez">ውእደ፡</foreign> [<foreign xml:lang="gez">ወእደ፡</foreign> etiam in libris sequioris aetatis frequentius scribitur quam <foreign xml:lang="gez">ውእደ፡</foreign>; cum <foreign xml:lang="gez">እድ፡</foreign> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> manus </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> pars </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> latus </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> locus </t:quote></cit> componendum videtur; amh. <foreign xml:lang="gez">ወደ፡</foreign> significat <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> versus </t:quote></cit> et <foreign xml:lang="gez">ወዴት፡</foreign> est interrog. <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> ubi? </t:quote></cit>] <lbl expand="status constructus">st. c.</lbl> a <foreign xml:lang="gez">ወእድ፡</foreign> vel <foreign xml:lang="gez">ውእድ፡</foreign>, quod proprie <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> latus </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> locus </t:quote></cit> significare videtur. Usurpatur <sense n="1" xml:id="D1"> praefixis praepositionibus, <lbl expand="scilicet">sc.</lbl> <sense n="a" xml:id="D1a"> <foreign xml:lang="gez">በወእደ፡</foreign> vel <foreign xml:lang="gez">በውእደ፡</foreign> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> ad latus </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> juxta </t:quote></cit>: <ref cRef="Kuf." loc="44,">Kuf. p. 44,</ref> annot. 10; <ref cRef="Deut. " loc="32,51">Deut.  32,51</ref>.
+</sense> <sense n="b" xml:id="D1b"> <foreign xml:lang="gez">ኀበ፡ ውእደ፡</foreign> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> ad </t:quote></cit>, ut: <foreign xml:lang="gez">ሶበ፡ መጽአ፡ ማር፡ እልሉኒስ፡ እምሶርያ፡ ኀበ፡ ውእደ፡ እንጦንዮስ፡</foreign> <ref cRef="Phlx. " loc="227.">Phlx.  227.</ref> 
+</sense> <sense n="c" xml:id="D1c"> <foreign xml:lang="gez">መንገለ፡ ወእደ፡</foreign> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> ad latus </t:quote></cit> rei <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> versus </t:quote></cit>: <foreign xml:lang="gez">መንገለ፡ ወእደ፡ ማየ፡ ባሕር፡</foreign> <ref cRef="Kuf." loc="38 ">Kuf. p. 38 </ref>annot. 10; <ref cRef="Kuf." loc="38 ">Kuf. p. 38 </ref>annot. 14 (v. <foreign xml:lang="gez">መንገለ፡ እደ፡</foreign>).
+</sense> 
+</sense> <sense n="2" xml:id="D2"> In <gramGrp> <case value="accusativus">Acc.</case> </gramGrp> et <lbl expand="status constructus">st. c.</lbl>, <gramGrp> <pos expand="adverbium, adverbialiter">adv.</pos> <pos expand="relativum">rel.</pos> </gramGrp>: <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> ubi </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> ubicumque </t:quote></cit>, <ref cRef="Kuf." loc="54 ">Kuf. p. 54 </ref> annot. 4; <ref cRef="Kuf." loc="100 ">Kuf. p. 100 </ref>lin. 16; <ref cRef="Kuf." loc="105 ">Kuf. p. 105 </ref>annot. 8; <ref cRef="Kuf." loc="117 ">Kuf. p. 117 </ref>lin. 15; <foreign xml:lang="grc">οὗ</foreign> <ref cRef="Koh." loc="1,7">Koh. 1,7</ref>; <ref cRef="Koh." loc="11,13">Koh. 11,13</ref>; <ref cRef="Prov." loc="14,4">Prov. 14,4</ref>; <foreign xml:lang="gez">ወእደ፡</foreign> (v. <foreign xml:lang="gez">ኀበ፡</foreign>) <foreign xml:lang="gez">ትበዝኅ፡ ጽድቅ፡ ኀይል፡ ብዙኅ፡</foreign> <ref cRef="Prov. " loc="15,6">Prov.  15,6</ref>; crebro in titulis capitum libri Jobi, ut: <foreign xml:lang="gez">ወእደ፡</foreign> (v. <foreign xml:lang="gez">ኀበ፡</foreign>) <foreign xml:lang="gez">ተናገረ፡ በልዳዶስ፡</foreign> <ref cRef="Job" loc="8,1">Job 8,1</ref>; <foreign xml:lang="gez">ወእደ፡</foreign> (v. <foreign xml:lang="gez">ኀበ፡</foreign>) <foreign xml:lang="gez">ተናገረ፡ ኢዮብ፡</foreign> <ref cRef="Job" loc="9,1">Job 9,1</ref>; <ref cRef="Job" loc="11,1">Job 11,1</ref>; <ref cRef="Job" loc="12,1">Job 12,1</ref> <lbl expand="sequens">seq.</lbl>; <cb n="0920" xml:id="c0920"/> <foreign xml:lang="gez">ምኔት፡ ውእደ፡ ለሊሁ፡ ይነብር፡</foreign> Reg. Pach. <sense n="a" xml:id="D2a"> <lbl expand="cum">c.</lbl> <gramGrp> <pos expand="praepositio">praep.</pos> </gramGrp> <foreign xml:lang="gez">እምነ፡</foreign> sc. <foreign xml:lang="gez">እምውእደ፡</foreign> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> unde </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> inde ubi </t:quote></cit>: <foreign xml:lang="gez">መጽአ፡ ኀቤሃ፡ ፩ ወሬዛ፡ እምውእደ፡ ይትኀባእ፡</foreign> <ref cRef="Dan. apocr. " loc="1,37">Dan. apocr.  1,37</ref>.
+</sense> <sense n="b" xml:id="D2b"> <foreign xml:lang="gez">ቦ፡ ውእደ፡</foreign> indef.: <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> alicubi </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> uspiam </t:quote></cit>, ut: <foreign xml:lang="gez">እመቦ፡ ወእደ፡ ጐንደየ፡</foreign> <foreign xml:lang="grc">ὅταν που χρονίζῃ</foreign> <ref cRef="Prov." loc="29,39">Prov. 29,39</ref>; <foreign xml:lang="gez">ቦ፡ ውእደ፡ ይቤ፡</foreign> (est ubi i.e.) <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> alicubi ait </t:quote></cit>, M.M. f. 378.
+</sense> 
+</sense> </sense>
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

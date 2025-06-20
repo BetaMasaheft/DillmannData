@@ -1,0 +1,69 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> እንግድኣ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="MK" when="2019-11-21">new meaning</change><change who="MK" when="2019-11-21">added corrections </change><change who="MK" when="2019-11-21">correction</change><change who="MK" when="2019-11-22">added reference </change><change who="MK" when="2019-11-22">corr reference</change><change who="MK" when="2022-08-11">correction</change></revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="Ld83ba9063f7e439a8417709635939273" n="8692">
+               <form>
+                  <foreign xml:lang="gez">እንግድኣ</foreign>
+               </form>
+               <sense xml:id="Dmain" xml:lang="la" source="#dillmann"> (vel <foreign xml:lang="gez">እንግድዓ፡</foreign>) <gramGrp> <pos expand="Substantivum">subst.</pos> </gramGrp>, <gramGrp> <gen value="not found">m.</gen> </gramGrp> et <gramGrp> <gen value="femininus">fem.</gen> </gramGrp>, <lbl expand="pluralis">Pl.</lbl> <foreign xml:lang="gez">እንግድኣት፡</foreign> [sec. Lud. dictum a pulsu vel palpitatione cordis (cfr. <foreign xml:lang="ar">جَوْشٌ جُؤْشُوشٌ</foreign>); minus probandum videtur etymon, a F. E. Ch. Dietrich in Abhandlungen f. semit. <ref cRef="Wortforschung p." loc="168 ">Wortforschung p. 168 </ref>propositum, a <foreign xml:lang="ar">نجد</foreign>]<cb n="1204" xml:id="c1204"/> <sense n="1" xml:id="D1"> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> pectus </t:quote></cit>, bestiarum; <ref cRef="Gen." loc="3,14">Gen. 3,14</ref>; <ref cRef="Job" loc="39,20">Job 39,20</ref>; <ref cRef="Hen." loc="100,3">Hen. 100,3</ref>; <ref cRef="Deut." loc="32,11">Deut. 32,11</ref>; hominum: <ref cRef="Ex." loc="28,23">Ex. 28,23</ref>; <ref cRef="Prov." loc="6,10">Prov. 6,10</ref>; <foreign xml:lang="gez">አስተጋብኦ፡ እድ፡ ዲበ፡ እንግድኣ፡</foreign> <ref cRef="Prov." loc="24,48">Prov. 24,48</ref>; <ref cRef="Jes." loc="40,11">Jes. 40,11</ref> <lbl expand="versio altera">vers. alt.</lbl>; <ref cRef="4 Esr." loc="14,42">4 Esr. 14,42</ref>; <ref cRef="Dan." loc="2,32">Dan. 2,32</ref> (statuae); <ref cRef="Luc." loc="18,13">Luc. 18,13</ref>; <ref cRef="Chrys. Ta." loc="27">Chrys. Ta. 27</ref>; <foreign xml:lang="gez">እንግድኣት፡</foreign> <ref cRef="Luc." loc="23,48">Luc. 23,48</ref>; <ref cRef="Phlx." loc="110 ">Phlx. 110 </ref>(<lbl expand="videas">vid. sub</lbl> <foreign xml:lang="gez">ጐድአ፡</foreign>); <foreign xml:lang="gez">ሰላም፡ ለእንግድኣኪ፡ ወለሕፅንኪ፡ ካልእታ፡ ወለአእዳውኪ፡ መንታ፡</foreign> I <ref cRef="Sal. Mar." loc="21">Sal. Mar. 21</ref>; <foreign xml:lang="gez">ኦእምኔከ፡ ሞት፡ እስመ፡ ኬድከ፡ በሰኰናከ፡ እንግድኣቲሆሙ፡ ለካህናት፡</foreign> <ref cRef="Genz. " loc="75">Genz.  f. 75</ref>; <lbl expand="translate">transl.</lbl> pro <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> animo </t:quote></cit>: <foreign xml:lang="gez">ብእሲ፡ ጸቢበ፡ እንግድኣ፡ በግዕዙ፡ ይጸልእዎ፡ ሰብእ፡</foreign> <ref cRef="Fal." loc="56">Fal. f. 56</ref>; <foreign xml:lang="gez">ብእሲ፡ ድኩመ፡ ኅሊና፡ ወጸቢበ፡ እንግድኣ፡ አብድ፡ ውእቱ፡</foreign> <ref cRef="Chrys. Ta." loc="19">Chrys. Ta. 19</ref>; M.M. f. 108; <foreign xml:lang="gez">አጥሪ፡ ትዕግሥተ፡ ወርሕበተ፡ እንግድኣ፡</foreign> <ref cRef="Fal." loc="58.">Fal. f. 58.</ref> </sense> <sense n="2" xml:id="D2"> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> thorax </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> lorica </t:quote></cit>: <ref cRef="3 Reg." loc="22,34">3 Reg. 22,34</ref>; <ref cRef="2 Par." loc="18,33">2 Par. 18,33</ref>; <foreign xml:lang="gez">ማኅበርተ፡ እንግድኣሁ፡</foreign> <foreign xml:lang="grc">πτύξις θώρακος</foreign> <ref cRef="Job " loc="41,4">Job  41,4</ref>. – <lbl expand="Vocabularium Aethiopicum, -a -a">Voc. Ae.</lbl>: <foreign xml:lang="gez">እንግድኣ፡ ዘ፡ ደረት።</foreign> </sense> </sense>
+               
+            <sense xml:id="Tmain" xml:lang="en" source="#traces"> <ptr target="#D1"/> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">ʾǝngǝdʾā</t:quote></cit>, <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">ʾǝngǝdʿā</t:quote></cit> <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">mind</t:quote></cit>, <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">intellect</t:quote></cit> <foreign xml:lang="gez">ወአርአዮ፡ ዘውስተ፡ ሕሊናሁ፡ ለ ፩፡ ሊቅ፡ ሊቀ፡ ማእምራን፡ ተዓይኒሁ፡ ዘያፈቅሮ፡ እምኵሎሙ፡ ሊቃውንቲሁ፡ በእንተ፡ ሠናይ፡ እንግልጋሁ፡ ወጥበበ፡ ቃሉ፡ ወራኅበ፡ እንግድዓሁ፡ ወኑኃ፡ መንፈሱ።</foreign> ‘<cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">He revealed his internal thought to a learned man, chief of learned men of his court whom he loved more than any other of his learned men because of his pleasing congregation, the wisdom of his speech, his broad understanding and the elevation of his spirit</t:quote></cit>’ <bibl><ptr target="bm:Solomon2019GalawdewosI"/><citedRange unit="page"> 54 § 99 (ed.)</citedRange></bibl>, <bibl><ptr target="bm:Solomon2019GalawdewosII"/><citedRange unit="page"> 30–31 § 99 (tr.)</citedRange></bibl> </sense></entry>
+         </div>
+      </body>
+   </text>
+</TEI>

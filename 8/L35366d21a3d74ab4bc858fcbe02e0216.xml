@@ -1,0 +1,79 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ገነት </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="LB" when="2018-05-04">root</change>
+        </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L35366d21a3d74ab4bc858fcbe02e0216" n="8489">
+               <form>
+                  <foreign xml:lang="gez">ገነት</foreign>
+               <rs type="root"/>
+                    </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain"> <gramGrp> <pos expand="Substantivum">subst.</pos> </gramGrp>, plerumque <gramGrp> <gen value="femininus">fem.</gen> </gramGrp>, <lbl expand="pluralis">Pl.</lbl> <foreign xml:lang="gez">ገነታተ፡</foreign> [<foreign xml:lang="he">גַּן</foreign> <foreign xml:lang="syr">ܓܰܢܬܳܐ</foreign> <foreign xml:lang="ar">جَنَّةٌ</foreign>] <cit type="translation" xml:lang="la">
+                            <quote> hortus </quote>
+                        </cit>, <foreign xml:lang="grc">παράδεισος</foreign> <ref cRef="Koh." loc="2,4">Koh. 2,4</ref>; <ref cRef="Jes." loc="1,30">Jes. 1,30</ref>; <ref cRef="Sir." loc="24,30">Sir. 24,30</ref>; <foreign xml:lang="gez">ገነተ፡ አቅማሕ፡</foreign> <ref cRef="Dan. apocr." loc="1,7">Dan. apocr. 1,7</ref> <lbl expand="sequens">seq.</lbl>; <foreign xml:lang="grc">κῆπος</foreign> <foreign xml:lang="gez">ገነት፡ ዕፅውት፡</foreign> <ref cRef="Cant." loc="4,12">Cant. 4,12</ref>; <ref cRef="Cant. " loc="4,16">Cant.  4,16</ref>; <ref cRef="Cant." loc="6,2">Cant. 6,2</ref>; <foreign xml:lang="gez">ገነት፡ ርውይት፡</foreign> <ref cRef="Jes." loc="58,11">Jes. 58,11</ref>; <ref cRef="Jes." loc="61,11">Jes. 61,11</ref>; <ref cRef="Sir." loc="24,31">Sir. 24,31</ref>; <ref cRef="Joh." loc="19,41">Joh. 19,41</ref>; <ref cRef="Joh." loc="18,1">Joh. 18,1</ref>; <ref cRef="Joh." loc="18,26">Joh. 18,26</ref>; <foreign xml:lang="gez">ገነተ፡ ጽጌ፡</foreign> <ref cRef="Sx. Teq." loc="4 ">Sx. Teq. 4 </ref>Enc.; <foreign xml:lang="gez">ዐቃቤ፡ ገነት፡</foreign> <foreign xml:lang="grc">κηπουρός</foreign> <cit type="translation" xml:lang="la">
+                            <quote> hortulanus </quote>
+                        </cit> <ref cRef="Joh." loc="20,15">Joh. 20,15</ref>; <lbl expand="pluralis">Pl.</lbl> <foreign xml:lang="gez">ገነታት፡</foreign> <ref cRef="Jsp." loc="323.">Jsp. p. 323.</ref> In specie <sense n="a" xml:id="Da"> hortus ille in regione Eden a Deo plantatus: <ref cRef="Gen." loc="2,8">Gen. 2,8</ref> <lbl expand="sequens">seq.</lbl>; <ref cRef="4 Esr." loc="1,7">4 Esr. 1,7</ref>; <foreign xml:lang="gez">ገነተ፡ ተድላ፡</foreign> <ref cRef="Gen." loc="3,23">Gen. 3,23</ref>; <foreign xml:lang="gez">ገነተ፡ ትፍሥሕት፡</foreign> <ref cRef="Gen." loc="3,24">Gen. 3,24</ref>; <foreign xml:lang="gez">ገነተ፡ እግዚአብሔር፡</foreign> <ref cRef="Gen." loc="13,10">Gen. 13,10</ref>; <ref cRef="Jes." loc="51,3">Jes. 51,3</ref>; <ref cRef="Hez." loc="31,8">Hez. 31,8</ref>; <ref cRef="Sir." loc="40,17">Sir. 40,17</ref>; <ref cRef="Apoc." loc="2,7">Apoc. 2,7</ref>; <foreign xml:lang="gez">ገነተ፡ ጽድቅ፡</foreign> <ref cRef="Hen." loc="32,3">Hen. 32,3</ref>; <foreign xml:lang="gez">ገነተ፡ ጻድቃን፡</foreign> <ref cRef="Hen." loc="60,23">Hen. 60,23</ref>; <foreign xml:lang="gez">ምድረ፡ ገነት፡</foreign> <cit type="translation" xml:lang="la">
+                                <quote> terram paradisiacam </quote>
+                            </cit> Aethiopum nonnulli vocant patriam suam, Th. P.</sense> <sense n="b" xml:id="Db"> sedes beatorum (<cit type="translation" xml:lang="la">
+                                <quote> paradisus </quote>
+                            </cit>): <ref cRef="Luc." loc="23,43">Luc. 23,43</ref>; <ref cRef="2 Cor." loc="12,4">2 Cor. 12,4</ref>; <ref cRef="4 Esr." loc="8,62">4 Esr. 8,62</ref>; <ref cRef="Clem." loc="6">Clem. f. 6</ref>; <foreign xml:lang="gez">ገነተ፡ ትፍሥሕት፡</foreign> <ref cRef="4 Esr." loc="6,1">4 Esr. 6,1</ref>; <ref cRef="Clem." loc="14">Clem. f. 14</ref>; <ref cRef="Clem." loc="92 ">Clem. f. 92 </ref>al.; <foreign xml:lang="gez">ገነተ፡ ተድላ፡</foreign> Lit. Chrys.; <foreign xml:lang="gez">ገነተ፡ ሕይወት፡</foreign> <ref cRef="Hen." loc="61,12">Hen. 61,12</ref>; <foreign xml:lang="gez">ገነት፡</foreign> est <foreign xml:lang="gez">ሰማይ፡ ሣልሲት፡</foreign> ubi recipientur monachi fideles, <ref cRef="Phlx." loc="8.">Phlx. 8.</ref> </sense> <sense n="c" xml:id="Dc"> <foreign xml:lang="gez">ገነት፡</foreign> inscriptus est liber de rebus monasticis a Palladio conscriptus: <foreign xml:lang="gez">መጽሐፈ፡ ገነት፡ ዘጸሐፈ፡ ጰላድዮስ፡</foreign> <ref cRef="Phlx." loc="43">Phlx. 43</ref>; <foreign xml:lang="gez">ጸሓፌ፡ ገነት፡ ይቤ፡</foreign> <ref cRef="Phlx." loc="16,">Phlx. 16,</ref> al.</sense> </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

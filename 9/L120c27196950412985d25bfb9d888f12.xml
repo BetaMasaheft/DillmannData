@@ -1,0 +1,74 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> አመሥኵዐ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="LB" when="2018-02-02">root</change>
+        <change who="MK" when="2023-11-29">added Gr and Les</change><change who="MK" when="2023-11-29">added II</change><change who="MK" when="2023-11-29">corr</change></revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L120c27196950412985d25bfb9d888f12" n="1184">
+               <form>
+                  <foreign xml:lang="gez">አመሥኵዐ</foreign>
+               <rs type="root"/>
+                    </form>
+               <sense xml:id="Dmain" xml:lang="la" source="#dillmann"> quadril. II [etiam per <foreign xml:lang="gez">ስ</foreign>; denominatum a nomine <cb n="0162" xml:id="c0162"/> ut <foreign xml:lang="gez">ምሡክ፡</foreign> vel <foreign xml:lang="gez">መሥኵ፡</foreign> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> id quod </t:quote></cit> ruminante per guttur <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> sursum trahitur </t:quote></cit>. Radix simplex est <foreign xml:lang="gez">መሠከ፡</foreign> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> trahere </t:quote></cit> <foreign xml:lang="he">מָשַׁךְ</foreign> <foreign xml:lang="ar">مَسَكَ</foreign>, (<foreign xml:lang="ar">مَشَقَ</foreign>); <lbl expand="videas">vid.</lbl> etiam <foreign xml:lang="gez">መሰከ፡</foreign> et <foreign xml:lang="gez">ወሰቀ፡</foreign> – In lingua amh. <foreign xml:lang="gez">አመሰከወ፡</foreign> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> ruminare </t:quote></cit>; in caeteris autem linguis radix <foreign xml:lang="he">גָּרַר</foreign> <foreign xml:lang="ar">جَرَّ</foreign> <foreign xml:lang="syr">ܓܰܘܪܰܪ</foreign> ruminationem significat] <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> ruminare </t:quote></cit>: <foreign xml:lang="gez">ያመሠኵዕ፡</foreign> <ref cRef="Lev." loc="11,3">Lev. 11,3</ref>-7; <ref cRef="Lev." loc="11,26">Lev. 11,26</ref> in C; <ref cRef="Deut." loc="14,6">Deut. 14,6</ref>–8 in <lbl expand="cum">c.</lbl> </sense>
+               
+            <sense xml:id="Tmain" xml:lang="en" source="#traces"> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">ʾamaśkʷǝʿa</t:quote></cit> <sense n="G" xml:id="TG"> <foreign xml:lang="gez">አመሥኵዐ፡</foreign> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">ʾamaśkʷǝʿa</t:quote></cit>, quadrl. II, <foreign xml:lang="gez">ያመሠኵዕ፡</foreign>, <foreign xml:lang="gez">ያመሥኵዕ፡</foreign> «<cit type="translation" xml:lang="fr"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">ruminer</t:quote></cit>» ― <foreign xml:lang="am">አመነዘሐ፡</foreign>, <foreign xml:lang="am">አመሠኰ፡</foreign> Ms. <ref type="BM" target="BNFabb217">BNFabb217</ref>, fol. 35v. <lb/>
+ <bibl><ptr target="bm:Grebaut1952SuppLexicon"/><citedRange unit="page"> 81</citedRange></bibl> 
+</sense> <sense n="L" xml:id="TL"> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">mśkʷʿ</t:quote></cit> <foreign xml:lang="gez">አመሥኵዐ</foreign> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">ʾamaśkʷǝʿa</t:quote></cit> <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">chew the cud</t:quote></cit>, <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">ruminate</t:quote></cit> <bibl><ptr target="bm:Leslau1987dic"/><citedRange unit="page"> 368b</citedRange></bibl> 
+</sense> </sense></entry>
+         </div>
+      </body>
+   </text>
+</TEI>

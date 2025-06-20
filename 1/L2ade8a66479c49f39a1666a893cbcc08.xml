@@ -1,0 +1,107 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> አንጐርጐረ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L2ade8a66479c49f39a1666a893cbcc08" n="8397">
+               <form>
+                  <foreign xml:lang="gez">አንጐርጐረ</foreign>
+               </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain"> V <cit type="translation" xml:lang="la">
+                     <quote>murmurare</quote>
+                  </cit>, <cit type="translation" xml:lang="la">
+                     <quote>fremere</quote>
+                  </cit> prae impatientia vel indignatione, <cit type="translation" xml:lang="la">
+                     <quote>queritari</quote>
+                  </cit>, <cit type="translation" xml:lang="la">
+                     <quote>indignabundum</quote>
+                  </cit>
+                  <cit type="translation" xml:lang="la">
+                     <quote>esse</quote>
+                  </cit>, <cit type="translation" xml:lang="la">
+                     <quote>stomachari</quote>
+                  </cit>: <foreign xml:lang="gez">እለ፡ ያንጐረጕሩ፡</foreign>
+                  <foreign xml:lang="grc">οἱ γογγύζοντες</foreign>
+                  <ref cRef="Jes." loc="29,24">Jes. 29,24</ref>; <ref cRef="Jes." loc="30,12">Jes.
+                     30,12</ref>; <foreign xml:lang="gez">ለምንት፡ ያንጐረጕር፡ ሰብእ፡</foreign>
+                  <ref cRef="Thren." loc="3,38">Thren. 3,38</ref>; <ref cRef="Judith" loc="5,22">Judith 5,22</ref>; <ref cRef="Ps." loc="58,17">Ps. 58,17</ref>; <ref cRef="Ps. " loc="105,25">Ps. 105,25</ref>; <ref cRef="Ex." loc="15,24">Ex.
+                     15,24</ref>; <ref cRef="Num." loc="11,1">Num. 11,1</ref>; <ref cRef="Judae" loc="16">Judae 16</ref>; <foreign xml:lang="grc">διαγογγύζειν </foreign>
+                  <ref cRef="Deut." loc="1,27">Deut. 1,27</ref>; <ref cRef="Luc." loc="15,2">Luc.
+                     15,2</ref>; <foreign xml:lang="gez">አንጐርጐሩ፡ ወተአንተሉ፡ </foreign>
+                  <foreign xml:lang="grc">ἠγανάκτουν</foreign>
+                  <ref cRef="Sap." loc="12,27">Sap. 12,27</ref>; <lbl expand="cum">c.</lbl>
+                  <foreign xml:lang="gez">በእንተ፡</foreign> rei vel <lbl expand="persona">pers.</lbl>:
+                     <ref cRef="Num." loc="14,36">Num. 14,36</ref>; <ref cRef="Matth." loc="13,57">Matth. 13,57</ref> (<foreign xml:lang="grc">σκανδαλίζεσθαι</foreign>); <ref cRef="Joh." loc="7,12">Joh. 7,12</ref>; <lbl expand="cum">c.</lbl>
+                  <foreign xml:lang="gez">ላዕለ፡ </foreign> pers.: <ref cRef="Num." loc="14,2">Num.
+                     14,2</ref>; <ref cRef="Num." loc="14,27">Num. 14,27</ref>; <ref cRef="Matth." loc="20,11">Matth. 20,11</ref>, vel <foreign xml:lang="gez">በላዕለ፡ </foreign>
+                  <ref cRef="Num." loc="17,20">Num. 17,20</ref>; <ref cRef="Ex." loc="16,8">Ex.
+                     16,8</ref>, vel <foreign xml:lang="gez">ዲበ፡</foreign>
+                  <ref cRef="Ex." loc="17,3">Ex. 17,3</ref>
+                  <lbl expand="varia lectio">var.</lbl>; <lbl expand="cum">c.</lbl>
+                  <foreign xml:lang="gez">ላዕለ፡</foreign> rei: <foreign xml:lang="gez">ኢታንጐርጕር፡ ላዕለ፡
+                     ጸጋ፡ ዘወሀብከ፡</foreign>
+                  <ref cRef="Fal." loc="57">Fal. f. 57</ref>; <lbl expand="cum">c.</lbl>
+                  <gramGrp>
+                     <case value="accusativus">Acc.</case>
+                  </gramGrp>
+                  <lbl expand="persona">pers.</lbl>: <ref cRef="Ex." loc="17,3">Ex. 17,3</ref>. <cb n="1158" xml:id="c1158"/>
+               </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

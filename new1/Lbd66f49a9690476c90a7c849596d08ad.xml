@@ -1,0 +1,151 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng"
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="gez">መለከኛ</title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref></p>
+            <p><ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref></p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+         <listPrefixDef>
+            <prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="MK" when="2022-02-16">added new entry</change>
+         <change who="MK" when="2022-02-16">added reference to Kane </change>
+         <change who="MK" when="2022-02-23">added new witness</change>
+         <change who="MK" when="2022-02-23">added translation </change>
+         <change who="MK" when="2022-02-23">correction </change>
+         <change who="MK" when="2022-02-23">added link</change>
+         <change who="MK" when="2022-03-01">putted structure</change>
+         <change who="MK" when="2022-03-10">added witness</change>
+         <change who="MK" when="2022-05-12">added example</change>
+         <change who="MK" when="2022-05-12">added example</change>
+         <change who="MK" when="2022-05-12">added example</change>
+         <change who="MK" when="2022-05-12">corrections</change>
+         <change who="MK" when="2022-05-19">added example</change>
+         <change who="MK" when="2022-05-24">correction</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="Lbd66f49a9690476c90a7c849596d08ad" n="12749">
+               <form><foreign xml:lang="gez">መልከኛ</foreign></form>
+               <sense xml:id="Tmain" xml:lang="en" source="#traces">
+                  <cit type="transcription" xml:lang="gez">
+                     <quote>malkaññā</quote>
+                  </cit>, <foreign xml:lang="gez">መልኸኛ፡</foreign>
+                  <cit type="transcription" xml:lang="gez">
+                     <quote>malḵaññā</quote>
+                  </cit>
+                  <bibl><ptr target="bm:Perruchon1893Zarayaeqob"/><citedRange unit="page"> 32 n.
+                        8</citedRange></bibl>, <foreign xml:lang="gez">መለከኛ</foreign>
+                  <cit type="transcription" xml:lang="gez">
+                     <quote>malakaññā</quote>
+                  </cit>, <foreign xml:lang="gez">መለከይና፡</foreign>
+                  <cit type="transcription" xml:lang="gez">
+                     <quote>malakaynā</quote>
+                  </cit>
+                  <gramGrp><pos expand="Substantivum">subst.</pos></gramGrp> (title) ‘<cit type="translation" xml:lang="en">
+                     <quote>governor of a small district</quote>
+                  </cit>’ <bibl><ptr target="bm:Kane1990DictAmhVol1"/><citedRange unit="page">
+                        159a</citedRange></bibl>
+                  <foreign xml:lang="gez">በሸዋ፡ ራቅ፡ ማሰሬ። ወበፈጠጋር፡ አዛዢ፡ ወረሰይክዎ፡ መልከኛ፡ ለዓምደ፡ ሚካኤል፡ በኵሉ፡
+                     ምድረ፡ ፈጠጋር።</foreign> ‘<cit type="translation" xml:lang="fr">
+                     <quote>Dans le Shoa, il y aura un Râq Mâsarê et dans Faṭagâr un Azâj, et je
+                        constitue ʿAmda Mikâʾêl Malkañâ sur toute la contrée de Faṭagâr</quote>
+                  </cit>’ <bibl><ptr target="bm:Perruchon1893Zarayaeqob"/><citedRange unit="page">
+                        14 l. 6, 15 l. 1–2 (ed.), 15 l. 1–3 (tr.)</citedRange></bibl>; <foreign xml:lang="gez">ወአዛዦች፡ በህየ፡ ይኤዝዙ፡ ምስለ፡ መልከኛ፡ እመነኮሳት፡ ምእመናን፡ ለሰብአ፡ ትግሬ፡</foreign>
+                     ‘<cit type="translation" xml:lang="fr">
+                     <quote> C’était là que les ʾAzazôtj et le Malkañâ choisi parmi les moines
+                        fidèles du Tigré (?) donnaient leurs ordres</quote>
+                  </cit>’ <bibl><ptr target="bm:Perruchon1893Zarayaeqob"/><citedRange unit="page">
+                        32 l. 6–7 (ed.), 32 l. 7–9 (tr.)</citedRange></bibl>; <foreign xml:lang="gez">መለከኛ፡ ወዓቃጽን፡</foreign> ‘<cit type="translation" xml:lang="fr">
+                     <quote>le chef (malakañā) ou le ʿāqāṣen</quote>
+                  </cit>’ <bibl><ptr target="bm:ContiRossini1909LiberT"/><citedRange unit="page"> 29
+                        l. 2 (ed.)</citedRange></bibl>, <bibl><ptr target="bm:ContiRossini1910LiberV"/><citedRange unit="page"> 33 l. 9–10
+                        (tr.)</citedRange></bibl>; <foreign xml:lang="gez">እመሂ፡ ሥዩመ፡ ቶራት፡ ወእመሂ፡
+                     አውፋሪ፡ ዘረፍታ፡ እመሂ፡ አውፋሪ፡ ገንደብታ፡ ወእመሂ፡ መለከኛ፡ እመሂ፡ ሥዩመ፡ አኅስዓ፡ ወአፈ፡ ወይዘሮ፡ ወሲሐግኒ፡
+                     ወመደባይ፡ ወባሕራ፡ አምባ፡ ወሊቀ፡ ካህናት፡ ወመለከኛ፡ ዓድ፡ ይዕቈሮ፡ ወሥዩመ፡ ጸድያ፡ ወሥዩመ፡ ዘንጒ፡ ዘላዕል፡
+                     ወዘታሕት፡ ወበደጕዓ፡ እለ፡ ሀለዉ፡ ሥዩማነ፡ ሥዩመ፡ ተንቤን፡ ወሕዱጉ፡ ወራቅ፡ መአሰሬሁ፡ ወቃለ፡ ነጋሢሁ፡ ወሥዩመ፡
+                     ገርዓልታ፡ ወኅዱግ፡ ወአውፋሪ፡ ዘገዳ፡ አርዓዶ፡ ወዘስዔን፡ ወዘመገሌ፡ ወዘቤት፡ ሐዊስ፡ አሕረምነ፡ ከመ፡
+                     ኢይባኡ።</foreign> ‘<cit type="translation" xml:lang="fr">
+                     <quote>Au chef de Torāt, à l’awfāri de Zaraftā, à l’awfāri du Gandabtā et au
+                        chef de l’endroit, au chef de l’Aḫsʿa{sic}, au porte-parole de la princesse,
+                        aux Siḥagenē{sic}, aux Mabadāy{sic}, aux Bāḥrā E{sic}mbā, au chef des
+                        prêtres, au chef de ʿĀd Yeʿequaro, au chef de Ṣadyā, au chef du haut et du
+                        bas Zo{sic}ngui, at aux chefs qui sont sur les hauts-plateaux, au chef du
+                        Tambēn, à son vicaire, à son rāq maʾasarē, et à son porte-parole, au chef du
+                        Garʿāltā et au vicaire, à l’awfāri de Gadā Arʿādo, de Seʿēn, de Magalē et de
+                        Bēt Ḥawis: [à tous les chefs, donc,] nous avons défendu d’entrer [dans les
+                        fiefs susdits</quote>
+                  </cit>’ <bibl><ptr target="bm:ContiRossini1909LiberT"/><citedRange unit="page"> 40
+                        l. 3–11 (ed.)</citedRange></bibl>, <bibl><ptr target="bm:ContiRossini1910LiberV"/><citedRange unit="page"> 47 l. 15–23
+                        (tr.)</citedRange></bibl>; <foreign xml:lang="gez">ወእንዘ፡ ዳኛ፡ እምታሕቴሆሙ፡ ያስቃል፡
+                     ወጭቃሂ፡ አቤቶ፡ አቢዳራ፡ ወመልከኛ፡ አቤቶ፡ አሥራት፡ ወወምበርሂ፡ አቤቶ፡ ክብረ፡ አብ፡</foreign> ‘<cit type="translation" xml:lang="fr">
+                     <quote>Yāsqāl étant le juge au-dessous du [daǧ azmāč], le maire étant l’abēto
+                        Abidārā; le chef du pays, l’abēto Asrāt, et le wambar, l’abēto Kebra ʾAb.
+                     </quote>
+                  </cit>’ <bibl><ptr target="bm:ContiRossini1909LiberT"/><citedRange unit="page"> 80
+                        l. 7–9 (ed.)</citedRange></bibl>, <bibl><ptr target="bm:ContiRossini1910LiberV"/><citedRange unit="page"> 96 l. 17–20
+                        (tr.)</citedRange></bibl>
+                  <sense n="a" xml:id="Ta">
+                     <foreign xml:lang="gez">ገዛኢ፡ መለከይና፡</foreign>
+                     <cit type="transcription" xml:lang="gez">
+                        <quote>gazāʾi malakaynā</quote>
+                     </cit> (title) meaning uncertain <cit type="translation" xml:lang="en">
+                        <quote>chief governor of the country</quote>
+                     </cit>
+                     <foreign xml:lang="gez">እመሂ፡ ሥዩም፡ ወእመሂ፡ ገዛኢ፡ መለከይና፡</foreign> ‘<cit type="translation" xml:lang="fr">
+                        <quote> ni le chef, ni le commendant en chef du pays</quote>
+                     </cit>’ <bibl><ptr target="bm:ContiRossini1909LiberT"/><citedRange unit="page">
+                           32 l. 11 (ed.)</citedRange></bibl>, <bibl><ptr target="bm:ContiRossini1910LiberV"/><citedRange unit="page"> 37 l. 18–19
+                           (tr.)</citedRange></bibl>, <lbl expand="videas">vid.</lbl>
+                     <ref type="external" target="https://betamasaheft.eu/Dillmann/lemma/L036878dd6ef24abebc27c888b8eda405"><foreign xml:lang="gez">ገዛእ፡</foreign></ref>
+                  </sense>
+                  <nd/>
+               </sense>
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

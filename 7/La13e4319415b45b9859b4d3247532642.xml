@@ -1,0 +1,122 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ሰኰና </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="La13e4319415b45b9859b4d3247532642" n="2909">
+               <form>
+                  <foreign xml:lang="gez">ሰኰና</foreign>
+               </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain"> (passim <foreign xml:lang="gez">ሰኮና፡</foreign>), <gramGrp>
+                     <pos expand="Substantivum">subst.</pos>
+                  </gramGrp>, <gramGrp>
+                     <gen value="masculinum">m.</gen>
+                  </gramGrp> et <gramGrp>
+                     <gen value="femininus">fem.</gen>
+                  </gramGrp>, <lbl expand="collatio, -is vel collectivum, -e">coll.</lbl> et <lbl expand="singularis">sing.</lbl>, <lbl expand="pluralis">Pl.</lbl>
+                  <foreign xml:lang="gez">ሰኳንው፡</foreign> [aliud etymon conjectavit Dietrich semit.
+                     <ref cRef="Wurzelforsch." loc="88">Wurzelforsch. p. 88</ref>] <sense n="1" xml:id="D1">
+                     <cit type="translation" xml:lang="la">
+                        <quote>planta</quote>
+                     </cit> sive <cit type="translation" xml:lang="la">
+                        <quote>solum pedis</quote>
+                     </cit>: <foreign xml:lang="gez">ሰኰና፡ እገሪሃ፡ </foreign> (respondent <foreign xml:lang="gez">እራኃተ፡ እደዊሃ፡</foreign>) <ref cRef="4 Reg." loc="9,35">4 Reg.
+                        9,35</ref>; <foreign xml:lang="gez">ኢይቀውሙ፡ በሰኰና፡ እገሪሆሙ፡</foreign> (<foreign xml:lang="grc">ἴχνος ποδῶν</foreign>) <ref cRef="Judith" loc="6,4">Judith
+                        6,4</ref>; <foreign xml:lang="gez">ትከይዶሙ፡ በሰኰናከ፡ </foreign>
+                     <ref cRef="Hez." loc="32,2">Hez. 32,2</ref>; <foreign xml:lang="grc">τὰ ἴχνη
+                        μου</foreign>
+                     <ref cRef="Ps." loc="17,20">Ps. 17,20</ref>; <foreign xml:lang="grc">ποῦς</foreign>
+                     <ref cRef="Sir." loc="6,36">Sir. 6,36</ref>; <foreign xml:lang="grc">διαβήματα</foreign>
+                     <ref cRef="Ps." loc="16,6">Ps. 16,6</ref>; <ref cRef="Ps." loc="36,33">Ps.
+                        36,33</ref>; <ref cRef="Ps." loc="72,2">Ps. 72,2</ref> (alias <foreign xml:lang="gez">መከየድ፡</foreign>, <foreign xml:lang="gez">መካይድ፡</foreign>);
+                        <foreign xml:lang="gez">ሰላም፡ ለሰኰናኪ፡</foreign> I <ref cRef="Sal. Mar." loc="32">Sal. Mar. 32</ref>; de <cit type="translation" xml:lang="la">
+                        <quote>planta</quote>
+                     </cit> i.e. <cit type="translation" xml:lang="la">
+                        <quote>palma</quote>
+                     </cit> manus <ref cRef="4 Esr." loc="4,16">4 Esr. 4,16</ref> (siquidem lectio
+                     sana est).</sense>
+                  <sense n="2" xml:id="D2">
+                     <cit type="translation" xml:lang="la">
+                        <quote>calx</quote>
+                     </cit> pedis, <foreign xml:lang="grc">πτέρνα</foreign>
+                     <ref cRef="Gen." loc="3,15">Gen. 3,15</ref>; <ref cRef="Gen." loc="25,26">Gen.
+                        25,26</ref>; <ref cRef="Sir." loc="12,27">Sir. 12,27</ref>; <foreign xml:lang="gez">ተከሥተ፡ ሰኰናኪ፡</foreign>
+                     <ref cRef="Jer." loc="13,22">Jer. 13,22</ref>; <ref cRef="Joh. " loc="13,18">Joh. 13,18</ref>.</sense>
+                  <sense n="3" xml:id="D3">
+                     <cit type="translation" xml:lang="la">
+                        <quote>ungula</quote>
+                     </cit>, equi <ref cRef="Gen." loc="49,17">Gen. 49,17</ref>; <ref cRef="Jud." loc="5,22">Jud. 5,22</ref>; <foreign xml:lang="gez">ሰኰና፡ አፍራሲሆሙ፡ </foreign>
+                     <ref cRef="Jes." loc="5,28">Jes. 5,28</ref>
+                     <lbl expand="varia lectio">var.</lbl>; <foreign xml:lang="grc">ἴχνος
+                        κτηνῶν</foreign>
+                     <foreign xml:lang="gez">ሰኰና፡ እንስሳ፡</foreign>
+                     <ref cRef="Hez." loc="32,13">Hez. 32,13</ref>; <foreign xml:lang="grc">πτέρναι
+                        τῶν ποιμνίων</foreign>
+                     <ref cRef="Cant." loc="1,8">Cant. 1,8</ref>; <foreign xml:lang="grc">ἀκρωτήρια </foreign>
+                     <ref cRef="Lev." loc="4,11">Lev. 4,11</ref>; <foreign xml:lang="grc">ὁπλή</foreign>
+                     <ref cRef="Mich." loc="4,13">Mich. 4,13</ref>; <foreign xml:lang="gez">ዘንፉቅ፡
+                        ሰኰናሁ፡</foreign>
+                     <ref cRef="Lev." loc="11,3">Lev. 11,3</ref>-7; <ref cRef="Deut." loc="14,6">Deut. 14,6</ref>-8; <foreign xml:lang="gez">እለ፡ ሰኰና፡</foreign> (v. <foreign xml:lang="gez">ጽፍረ፡</foreign>) <foreign xml:lang="gez">ላህም፡ እግሪሆሙ፡</foreign>
+                     <foreign xml:lang="grc">ὀνοκένταυροι</foreign>
+                     <ref cRef="Jes." loc="13,21">Jes. 13,21</ref>; <ref cRef="Jes." loc="34,14">Jes. 34,14</ref>. – <lbl expand="Vocabularium Aethiopicum, -a -a.">Voc. Ae.</lbl>: <foreign xml:lang="gez">ሰኮና፡ ብ፡ ተረከዝ።</foreign>
+                  </sense>
+               </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

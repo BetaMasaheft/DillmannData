@@ -1,0 +1,95 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ነቢይ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="LB" when="2018-03-07">root</change>
+        <change who="AE" when="2018-10-30">Verschachtelung,</change>
+        </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L548a30aacee140998d3688b3fe513bdb" n="4952">
+               <form>
+                  <foreign xml:lang="gez">ነቢይ</foreign>
+               <rs type="root"/>
+                    </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain"> <gramGrp> <pos expand="Substantivum">subst.</pos> </gramGrp>, <gramGrp> <gen value="not found">m.</gen> </gramGrp>, <lbl expand="pluralis">Pl.</lbl> <foreign xml:lang="gez">ነቢያት፡</foreign>, passim <foreign xml:lang="gez">ነብያት፡</foreign> [<foreign xml:lang="he">נָבִיא</foreign> <foreign xml:lang="syr">ܢܒܺܝܳܐ</foreign> <foreign xml:lang="ar">نَبِيٌ</foreign>] <sense n="1" xml:id="D1"> <cit type="translation" xml:lang="la">
+                                <quote> propheta </quote>
+                            </cit>, <ref cRef="Num." loc="12,6">Num. 12,6</ref>; <ref cRef="Deut." loc="13,2">Deut. 13,2</ref>; <ref cRef="Deut." loc="18,15">Deut. 18,15</ref>; <ref cRef="Jud." loc="6,8">Jud. 6,8</ref>; <ref cRef="1 Reg." loc="9,9">1 Reg. 9,9</ref>; <ref cRef="Matth." loc="11,9">Matth. 11,9</ref>; <ref cRef="Matth." loc="14,5">Matth. 14,5</ref>; <ref cRef="Matth." loc="21,26">Matth. 21,26</ref>; <ref cRef="Luc." loc="7,39">Luc. 7,39</ref>; <ref cRef="Ps." loc="104,14">Ps. 104,14</ref>; <ref cRef="Jes." loc="29,10">Jes. 29,10</ref>; <ref cRef="Jer." loc="2,30">Jer. 2,30</ref>; <ref cRef="Jer." loc="4,9">Jer. 4,9</ref>; <ref cRef="Jer." loc="14,13">Jer. 14,13</ref> (v. <foreign xml:lang="gez">ነብያት፡</foreign>); <ref cRef="Jer." loc="23,13">Jer. 23,13</ref> <lbl expand="sequens">seq.</lbl>; <ref cRef="Thren." loc="2,14">Thren. 2,14</ref> (v. <foreign xml:lang="gez">ነብያት፡</foreign>); <ref cRef="4 Reg." loc="10,19">4 Reg. 10,19</ref>; <ref cRef="Hez." loc="13,4">Hez. 13,4</ref> <lbl expand="sequens">seq.</lbl>; <ref cRef="Sir." loc="36,20">Sir. 36,20</ref>; <ref cRef="4 Esr." loc="7,34">4 Esr. 7,34</ref>; <ref cRef="Hebr." loc="11,32">Hebr. 11,32</ref>; al.; <foreign xml:lang="gez">ሐሳዊ፡</foreign> vel <foreign xml:lang="gez">ሐሳዌ፡ ነቢይ፡</foreign> <cit type="translation" xml:lang="la">
+                                <quote> pseudopropheta </quote>
+                            </cit> <ref cRef="Jer. " loc="6,13">Jer.  6,13</ref>; <foreign xml:lang="gez">ሐሳውያነ፡ ነቢያት፡</foreign> <ref cRef="2 Petr." loc="2,1">2 Petr. 2,1</ref>; <ref cRef="1 Joh." loc="4,1">1 Joh. 4,1</ref>; <foreign xml:lang="gez">ውሉደ፡</foreign> vel <foreign xml:lang="gez">ደቂቀ፡ ነቢያት፡</foreign> <cit type="translation" xml:lang="la">
+                                <quote> prophetarum filii </quote>
+                            </cit> i.e. <cit type="translation" xml:lang="la">
+                                <quote> discipuli </quote>
+                            </cit> <ref cRef="Asc. Jes." loc="6,3">Asc. Jes. 6,3</ref>; <ref cRef="3 Reg. " loc="20,35">3 Reg.  20,35</ref>; <ref cRef="4 Reg." loc="2,3">4 Reg. 2,3</ref>; <ref cRef="4 Reg." loc="5,7">4 Reg. 5,7</ref>; <foreign xml:lang="gez">ዐሠርቱ፡ ወክልኤቱ፡ ነቢያት፡</foreign> <foreign xml:lang="grc">οἱ δώδεκα προφῆται</foreign> <ref cRef="Sir." loc="49,10">Sir. 49,10</ref>; <foreign xml:lang="gez">፲ወ፪ ደቂቀ፡ ነቢያት፡</foreign> <cit type="translation" xml:lang="la">
+                                <quote> duodecim prophetae minores </quote>
+                            </cit> <ref cRef="Sx. Nah. " loc="30">Sx. Nah.  30</ref>; <ref cRef="Sx. Haml." loc="13">Sx. Haml. 13</ref>; <foreign xml:lang="gez">፲ወ፪ ደቂቀ፡ ነቂያት፡ ንኡሳን፡</foreign> <ref cRef="Sx. Haml." loc="4.">Sx. Haml. 4.</ref>
+                        </sense> <sense n="2" xml:id="D2"> <lbl expand="pluralis">Pl.</lbl> <foreign xml:lang="gez">ነቢያት፡</foreign> in antiquioribus, <foreign xml:lang="gez">ናብያት፡</foreign> et <foreign xml:lang="gez">ኖብያት፡</foreign> in recentioribus codicibus (quae nominis pronuntiatio novata videtur, ut a <foreign xml:lang="gez">ነቢያት፡</foreign> <cit type="translation" xml:lang="la">
+                                <quote> prophetae </quote>
+                            </cit> melius distinguatur): <cit type="translation" xml:lang="la">
+                                <quote> nuntii </quote>
+                            </cit> i.e. <cit type="translation" xml:lang="la">
+                                <quote> res nuntiatae </quote>
+                            </cit>vel <cit type="translation" xml:lang="la">
+                                <quote> res gestae </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> quae memoriae proditae sunt </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> historia </quote>
+                            </cit>: <foreign xml:lang="gez">ውስተ፡ መጽሐፈ፡ ነቢያት፡</foreign> (v. <foreign xml:lang="gez">መጽሐፈ፡ ኖብያቲሆሙ፡ ለነገሥተ፡ ይሁዳ፡</foreign> ) <ref cRef="3 Reg. " loc="14,29">3 Reg.  14,29</ref>, vel <foreign xml:lang="gez">ውስተ፡ መጽሐፈ፡ ነቢያት፡ መዋዕሊሆሙ፡ ለነገሥተ፡ ይሁዳ፡</foreign> 3 <ref cRef="Reg." loc="15,7">Reg. 15,7</ref>; <ref cRef="3 Reg." loc="15,23">3 Reg. 15,23</ref>; <ref cRef="3 Reg." loc="15,31">3 Reg. 15,31</ref>; <ref cRef="3 Reg." loc="16,5">3 Reg. 16,5</ref>; <ref cRef="3 Reg." loc="16,14">3 Reg. 16,14</ref>; <ref cRef="3 Reg." loc="16,20">3 Reg. 16,20</ref>; 3 <ref cRef="Reg." loc="16,27">Reg. 16,27</ref>; <ref cRef="4 Reg." loc="1,18">4 Reg. 1,18</ref>; <ref cRef="4 Reg." loc="8,23">4 Reg. 8,23</ref> (<foreign xml:lang="gez">ውስተ፡ መጽሐፈ፡ ነቢያቲሆሙ፡ ለነገሥተ ይሁዳ፡</foreign>); <ref cRef="4 Reg." loc="10,34">4 Reg. 10,34</ref>; <ref cRef="4 Reg." loc="13,8">4 Reg. 13,8</ref>; <ref cRef="4 Reg." loc="13,12">4 Reg. 13,12</ref>; <ref cRef="4 Reg." loc="14,15">4 Reg. 14,15</ref>; 4 <ref cRef="Reg." loc="14,18">Reg. 14,18</ref>; <ref cRef="4 Reg." loc="14,28">4 Reg. 14,28</ref>; <ref cRef="4 Reg." loc="15,6">4 Reg. 15,6</ref>; <ref cRef="4 Reg." loc="15,11">4 Reg. 15,11</ref>; <ref cRef="4 Reg." loc="15,15">4 Reg. 15,15</ref>; <ref cRef="4 Reg." loc="15,21">4 Reg. 15,21</ref>; 4 <ref cRef="Reg." loc="15,31">Reg. 15,31</ref>; <ref cRef="4 Reg." loc="15,36">4 Reg. 15,36</ref>; <ref cRef="4 Reg." loc="16,19">4 Reg. 16,19</ref>; <ref cRef="4 Reg." loc="20,20">4 Reg. 20,20</ref>; <ref cRef="4 Reg." loc="21,17">4 Reg. 21,17</ref>; <ref cRef="4 Reg." loc="21,25">4 Reg. 21,25</ref>; 4 <ref cRef="Reg." loc="23,28">Reg. 23,28</ref>; <ref cRef="1 Esr." loc="1,35">1 Esr. 1,35</ref>; <ref cRef="1 Esr." loc="1,40">1 Esr. 1,40</ref>; <ref cRef="1 Esr." loc="2,18">1 Esr. 2,18</ref>; <ref cRef="1 Esr." loc="6,20">1 Esr. 6,20</ref>; <foreign xml:lang="gez">ውስተ፡ መጻሕፍተ፡</foreign> (<foreign xml:lang="gez">ነቢያት፡</foreign> vel) <foreign xml:lang="gez">ኖብያት፡ ዘአበዊከ፡</foreign> <ref cRef="2 Esr." loc="4,15">2 Esr. 4,15</ref>; <ref cRef="2 Esr. " loc="4,19">2 Esr.  4,19</ref>; <ref cRef="2 Esr." loc="6,1">2 Esr. 6,1</ref>; <ref cRef="2 Esr." loc="22,23">2 Esr. 22,23</ref>; <foreign xml:lang="gez">አሐዱ፡ መካን፡ ኀበ፡ ዐፀዉ፡ ኖብያተ፡</foreign> (v. <foreign xml:lang="gez">ነቢያተ፡</foreign>) <foreign xml:lang="grc">τόπος εἷς ἐν ᾧ ὑπεμνημάτιστο</foreign> <ref cRef="1 Esr." loc="6,22">1 Esr. 6,22</ref>; <ref cRef="Esth. apocr." loc="1">Esth. apocr. 1</ref>; <ref cRef="Esth." loc="2,23">Esth. 2,23</ref>; <foreign xml:lang="gez">መጻሕፍተ፡ ተዝካር፡ ዘኖብያት፡ ዘመዋዕለ፡ ትካት፡</foreign> <ref cRef="Esth. " loc="6,1">Esth.  6,1</ref>.</sense> </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

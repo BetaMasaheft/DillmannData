@@ -1,0 +1,79 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ዐበቅ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="LB" when="2018-04-24">root</change>
+        </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L7a736e74c4f344b7ac9e5d49a72cb100" n="7156">
+               <form>
+                  <foreign xml:lang="gez">ዐበቅ</foreign>
+               <rs type="root"/>
+                    </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain"> <gramGrp> <pos expand="Substantivum">subst.</pos> </gramGrp> (<gramGrp> <gen value="not found">m.</gen> </gramGrp>) <cit type="translation" xml:lang="la">
+                            <quote> scabiei </quote>
+                        </cit> vel <cit type="translation" xml:lang="la">
+                            <quote> leprae </quote>
+                        </cit> species, <foreign xml:lang="grc">ψώρα</foreign> <ref cRef="Lev." loc="26,16">Lev. 26,16</ref>; <foreign xml:lang="gez">ዐበቅ፡ እኩይ፡</foreign> (<foreign xml:lang="grc">ἕλκος</foreign>?) <ref cRef="Deut." loc="28,27">Deut. 28,27</ref>; <foreign xml:lang="gez">ደዌ፡ ሲሕ፡ ወዐበቅ፡</foreign> <ref cRef="Macc." loc="14">Macc. f. 14</ref>; <foreign xml:lang="gez">ኢዮብ፡ አመ፡ አኀዞ፡ ዐበቅ፡</foreign> <ref cRef="Sx. Masc." loc="1">Sx. Masc. 1</ref>; Deus <foreign xml:lang="gez">ፈታኔ፡ ኢዮብ፡ በደዌ፡ ወበዐበቅ፡</foreign> <ref cRef="Tab. Tab." loc="23,">Tab. Tab. 23,</ref> [<foreign xml:lang="ar">خَوَقٌ</foreign> <cit type="translation" xml:lang="la">
+                            <quote> scabies </quote>
+                        </cit> <cit type="translation" xml:lang="la">
+                            <quote> ? </quote>
+                        </cit> an (sicut <foreign xml:lang="gez">ቦክ፡</foreign> in quibusdam codicibus <ref cRef="Job" loc="4,5">Job 4,5</ref>) componendum cum <foreign xml:lang="he">בֹּהַק</foreign> <foreign xml:lang="ar">بَهَقٌ</foreign>] – <lbl expand="Vocabularium Aethiopicum, -a -a">Voc. Ae.</lbl>: <foreign xml:lang="gez">ዐበቅ፡ ዘ፡ ሕከክ፡</foreign> (v. <foreign xml:lang="gez">እከክ፡</foreign>). </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

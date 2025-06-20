@@ -1,0 +1,147 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ኅሩይ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L6cb8be842c0f4e1da6e09ecaee7240e6" n="4511">
+               <form>
+                  <foreign xml:lang="gez">ኅሩይ</foreign>
+               </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain">
+                  <gramGrp>
+                     <pos expand="participium">part.</pos>
+                  </gramGrp>, <gramGrp>
+                     <gen value="femininus">fem.</gen>
+                  </gramGrp>
+                  <foreign xml:lang="gez">ኅሪት፡</foreign>, <sense n="1" xml:id="D1">
+                     <cit type="translation" xml:lang="la">
+                        <quote>electus</quote>
+                     </cit>, <cit type="translation" xml:lang="la">
+                        <quote>selectus</quote>
+                     </cit>: <ref cRef="Hez." loc="23,7">Hez. 23,7</ref>; <foreign xml:lang="gez">ምድር፡ ኅሪት፡ </foreign>
+                     <ref cRef="Jer." loc="3,19">Jer. 3,19</ref>; <foreign xml:lang="gez">እብን፡
+                        ኅሪት፡</foreign>
+                     <ref cRef="Jes." loc="28,16">Jes. 28,16</ref>; <foreign xml:lang="gez">ብሩር፡
+                        ኅሩይ፡</foreign>
+                     <ref cRef="Prov." loc="8,19">Prov. 8,19</ref>; <ref cRef="1 Petr." loc="2,4">1
+                        Petr. 2,4</ref>; <foreign xml:lang="gez">ሀገር፡ ኅሪት፡ ወቅድስት፡</foreign>
+                     <ref cRef="Sir." loc="49,6">Sir. 49,6</ref>; <foreign xml:lang="gez">እስራኤል፡
+                        ኅሩይየ፡</foreign>
+                     <ref cRef="Jes." loc="42,1">Jes. 42,1</ref>; <ref cRef="Jes." loc="45,4">Jes.
+                        45,4</ref>; <foreign xml:lang="gez">ኅሩያንየ፡ </foreign>
+                     <ref cRef="Jes." loc="43,20">Jes. 43,20</ref>; <ref cRef="Jes." loc="65,9">Jes.
+                        65,9</ref>; de viris pugnatoribus: <ref cRef="Jer." loc="31,15">Jer.
+                        31,15</ref>; <ref cRef="Jud." loc="20,16">Jud. 20,16</ref>; <ref cRef="Judith" loc="2,15">Judith 2,15</ref>; <foreign xml:lang="gez">ኅሩያን፡
+                        መስተቃትላን፡</foreign>
+                     <ref cRef="Kuf." loc="37">Kuf. 37</ref>; de sanctis et justis <ref cRef="Matth." loc="24,22">Matth. 24,22</ref>; <ref cRef="Marc." loc="13,20">Marc. 13,20</ref>; <ref cRef="1 Petr." loc="1,1">1 Petr. 1,1</ref>; <ref cRef="Hen." loc="1,1">Hen. 1,1</ref>; <ref cRef="Hen." loc="1,8">Hen.
+                        1,8</ref>; <ref cRef="Hen." loc="5,7">Hen. 5,7</ref>; <ref cRef="Hen. " loc="5,8">Hen. 5,8</ref>; <ref cRef="Hen." loc="38,2">Hen. 38,2</ref>; <ref cRef="Hen." loc="40,5">Hen. 40,5</ref>; <ref cRef="Ps." loc="17,29">Ps.
+                        17,29</ref>; de angelis <ref cRef="1 Tim." loc="5,21">1 Tim. 5,21</ref>; de
+                        <ref cRef="Messia Asc. Jes. " loc="8,7">Messia Asc. Jes. 8,7</ref>; <ref cRef="Hen." loc="40,5">Hen. 40,5</ref>. Nonnumquam etiam <foreign xml:lang="grc">οἱ κλητοί </foreign>
+                     <foreign xml:lang="gez">ኅሩያን፡</foreign> nominantur <ref cRef="Rom." loc="1,7">Rom. 1,7</ref>; <ref cRef="Rom. " loc="8,28">Rom. 8,28</ref>, quamquam
+                     aliis in locis <foreign xml:lang="grc">οἱ κλητοί</foreign>
+                     <foreign xml:lang="gez">ጽዉዓን፡</foreign> ab electis (<foreign xml:lang="grc">ἐκλεκτοί</foreign>) bene distinguuntur, ut <ref cRef="Matth." loc="20,16">Matth. 20,16</ref>; <ref cRef="Matth." loc="22,14">Matth.
+                     22,14</ref>.</sense>
+                  <sense n="2" xml:id="D2">
+                     <cit type="translation" xml:lang="la">
+                        <quote>praestans</quote>
+                     </cit> (<foreign xml:lang="grc">ἐκλεκτος</foreign>) <ref cRef="Gen." loc="41,5">Gen. 41,5</ref>; <ref cRef="Gen." loc="41,7">Gen. 41,7</ref>; <ref cRef="Cant." loc="5,17">Cant. 5,17</ref>; <cit type="translation" xml:lang="la">
+                        <quote>episcopus</quote>
+                     </cit>
+                     <foreign xml:lang="gez">ኢይብላዕ፡ ምንተኒ፡ ኅሩየ፡</foreign>
+                     <cit type="translation" xml:lang="la">
+                        <quote>cibis lautioribus ne fruatur</quote>
+                     </cit>, F.N. 5.</sense>
+                  <sense n="3" xml:id="D3">
+                     <cit type="translation" xml:lang="la">
+                        <quote>acceptus</quote>
+                     </cit>, <cit type="translation" xml:lang="la">
+                        <quote>gratus</quote>
+                     </cit>, <cit type="translation" xml:lang="la">
+                        <quote>approbatus</quote>
+                     </cit> (<foreign xml:lang="grc">δεκτός</foreign>): <foreign xml:lang="gez">በዕለት፡ ኅሪት፡</foreign>
+                     <foreign xml:lang="grc">καιρῷ δεκτῷ</foreign>
+                     <ref cRef="Jes." loc="49,8">Jes. 49,8</ref>; <ref cRef="Luc." loc="4,19">Luc.
+                        4,19</ref>; <ref cRef="2 Cor." loc="6,2">2 Cor. 6,2</ref>; de sacrificio
+                        <ref cRef="Jes." loc="56,7">Jes. 56,7</ref>; <ref cRef="Jes." loc="60,7">Jes. 60,7</ref>; <lbl expand="cum">c.</lbl>
+                     <foreign xml:lang="gez">በኀበ፡</foreign> pers., ut: <foreign xml:lang="gez">ኢኮነ፡
+                        ኅሩየ፡ ዝንቱ፡ ጾም፡ በኀበ፡ እግዚአብሔር፡</foreign>
+                     <ref cRef="Jes." loc="58,5">Jes. 58,5</ref>; <lbl expand="cum">c.</lbl>
+                     <foreign xml:lang="gez">በቅድመ፡</foreign> ut <foreign xml:lang="gez">ኅሩያን፡ በቅድሜሁ፡ </foreign>
+                     <ref cRef="Prov." loc="11,20">Prov. 11,20</ref>; <ref cRef="1 Tim." loc="2,3">1
+                        Tim. 2,3</ref>; <lbl expand="cum">c.</lbl>
+                     <foreign xml:lang="gez">ለ፡</foreign> ut <foreign xml:lang="gez">ኅሩይ፡
+                        ሎቱ፡</foreign>
+                     <ref cRef="Prov." loc="11,1">Prov. 11,1</ref>.</sense>
+                  <sense n="4" xml:id="D4">
+                     <cit type="translation" xml:lang="la">
+                        <quote>arbiter</quote>
+                     </cit> (a litigantibus electus), <cit type="translation" xml:lang="la">
+                        <quote>conciliator</quote>
+                     </cit>, <cit type="translation" xml:lang="la">
+                        <quote>mediator</quote>
+                     </cit>: <foreign xml:lang="gez">ኅሩይ፡ ዘይፈትሕ፡</foreign>
+                     <foreign xml:lang="grc">μεσίτης </foreign>
+                     <ref cRef="Job" loc="9,33">Job 9,33</ref>; <ref cRef="Gal." loc="3,19">Gal.
+                        3,19</ref>; <ref cRef="Gal." loc="3,20">Gal. 3,20</ref>; <ref cRef="1 Tim." loc="2,5">1 Tim. 2,5</ref>
+                     <lbl expand="romanae editionis">rom.</lbl>; <ref cRef="Hebr." loc="9,15">Hebr.
+                        9,15</ref>.</sense>
+               </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

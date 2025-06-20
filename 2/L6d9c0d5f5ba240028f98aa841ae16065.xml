@@ -1,0 +1,82 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ፀዓዕ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="LB" when="2018-05-23">root</change>
+            <change who="AE" when="2018-10-20">Sprachkennung,</change>
+        </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L6d9c0d5f5ba240028f98aa841ae16065" n="9760">
+               <form>
+                  <foreign xml:lang="gez">ፀዓዕ</foreign>
+               <rs type="root"/>
+                    </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain"> <gramGrp> <pos expand="Substantivum">subst.</pos> </gramGrp> (<gramGrp> <gen value="not found">m.</gen> </gramGrp>), <lbl expand="pluralis">Pl.</lbl> <foreign xml:lang="gez">ፀዓዓት፡</foreign> <cit type="translation" xml:lang="la">
+                            <quote> fragor tonitrus </quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                            <quote> fulmen cum tonitru vehementi </quote>
+                        </cit>: <foreign xml:lang="gez">ትፌኑኑ፡ ፀዓዐ፡ ወየሐውር፡</foreign> <foreign xml:lang="grc">κεραυνούς</foreign> <ref cRef="Job" loc="38,35">Job 38,35</ref>; <foreign xml:lang="gez">በኀይለ፡ ፀዓዕ፡</foreign> <foreign xml:lang="grc">κεραυνώσει βιαίως</foreign> <ref cRef="Jes." loc="30,30">Jes. 30,30</ref>; <foreign xml:lang="gez">ድምፀ፡ ፀዓዑ፡ መኑ፡ ያአምር፡</foreign> <foreign xml:lang="grc">σθένος βροντῆς</foreign> <ref cRef="Job" loc="26,14">Job 26,14</ref>; <foreign xml:lang="gez">ከመ፡ ዐቢይ፡ ፀዓዕ፡ ይደምፅ፡</foreign> <ref cRef="Sir." loc="40,13">Sir. 40,13</ref>; <foreign xml:lang="gez">ቃለ፡ ፀዓዑ፡ ያፈርሃ፡ ለምድር፡</foreign> <ref cRef="Sir." loc="43,17">Sir. 43,17</ref>; <ref cRef="Jes." loc="29,6">Jes. 29,6</ref>; <foreign xml:lang="gez">ያንጐደጕድ፡ በፀዓዕ፡ መደንግፅ፡</foreign> <foreign xml:lang="grc">ἐν φωνῇ αὐτοῦ</foreign> <ref cRef="Job" loc="37,4">Job 37,4</ref>; <ref cRef="1 Reg." loc="7,10">1 Reg. 7,10</ref>; <ref cRef="Apoc." loc="4,5">Apoc. 4,5</ref>; <ref cRef="Apoc." loc="8,5">Apoc. 8,5</ref>; <ref cRef="Apoc." loc="10,3">Apoc. 10,3</ref> <lbl expand="romanae editionis">rom.</lbl>; <foreign xml:lang="gez">በዐቢይ፡ ፀዓዕ፡ ገብረ፡ ድምፀ፡ ቃሉ፡</foreign> <foreign xml:lang="grc">ἐν ἠχῷ μεγάλῳ</foreign> <ref cRef="Sir." loc="46,17">Sir. 46,17</ref>; <foreign xml:lang="gez">ይደምፅ፡ እግሩ፡ በቃለ፡ ፀዓዕ፡</foreign> <ref cRef="Sir." loc="45,9">Sir. 45,9</ref>; Lud. ex <ref cRef="Sx. Nah." loc="7 Enc.">Sx. Nah. 7 Enc.</ref>; Lit. Jac. Sar. (<lbl expand="videas">vid.</lbl> <foreign xml:lang="gez">ሰየፈ፡</foreign>); <foreign xml:lang="gez">ከልሑ፡ ፀዓዓት፡</foreign> Lud. e Ssal. Req. [Significatu fere cum <foreign xml:lang="ar">صَاعِقَةٌ</foreign> convenit; etymo ad <foreign xml:lang="he">שׁאה</foreign> referendum videtur; nam ex exemplis modo allatis significatum <cit type="translation" xml:lang="la">
+                            <quote> fragoris </quote>
+                        </cit> et <cit type="translation" xml:lang="la">
+                            <quote> tonitrus </quote>
+                        </cit> (non: <cit type="translation" xml:lang="la">
+                            <quote> fulminis </quote>
+                        </cit>) primarium esse satis elucet]. – <lbl expand="Vocabularium Aethiopicum, -a -a">Voc. Ae.</lbl>: <foreign xml:lang="gez">ፃዓዕ፡ ዘ፡ ፈለቅ፡ ይላለው፡</foreign> </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,109 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> አስተንአሰ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L10da570dd4c34695baa93b2c4d6fd7a1" n="4999">
+               <form>
+                  <foreign xml:lang="gez">አስተንአሰ</foreign>
+               </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain"> <subc>IV,1</subc> etiam <foreign xml:lang="gez">አስተናአሰ፡</foreign> <subc>IV,3</subc> <sense n="1" xml:id="D1">
+                     <cit type="translation" xml:lang="la">
+                        <quote>parvum</quote>
+                     </cit>, <cit type="translation" xml:lang="la">
+                        <quote>exiguum</quote>
+                     </cit>, <cit type="translation" xml:lang="la">
+                        <quote>parum aestimare</quote>
+                     </cit> aliquid, <ref cRef="Num." loc="16,9">Num. 16,9</ref>; <ref cRef="Num. " loc="16,13">Num. 16,13</ref>; <ref cRef="Jos." loc="22,17">Jos. 22,17</ref>;
+                        <foreign xml:lang="gez">ታስተንእሲኑ፡</foreign> (v. <foreign xml:lang="gez">ታስተናእሲኑ፡</foreign>) <foreign xml:lang="gez">ዘዘሞኪ፡</foreign>
+                     <ref cRef="Hez. " loc="16,20">Hez. 16,20</ref>.</sense>
+                  <sense n="2" xml:id="D2">
+                     <cit type="translation" xml:lang="la">
+                        <quote>minorem</quote>
+                     </cit> vel <cit type="translation" xml:lang="la">
+                        <quote>inferiorem habere</quote>
+                     </cit> aliquem aliquo: <foreign xml:lang="gez">ቦኑ፡ እምኔነ፡ ዘያስተንእሶ፡ ለወልድ፡ እምኂሩተ፡
+                        አብ፡</foreign>
+                     <foreign xml:lang="grc">τῆς τοῦ πατρὸς ἡμερότητος κατόπιν ἰέναι τὸν
+                        υἱόν</foreign>, Cyr. c. <ref cRef="Pall." loc="95.">Pall. f. 95.</ref>
+                  </sense>
+                  <sense n="3" xml:id="D3">
+                     <cit type="translation" xml:lang="la">
+                        <quote>humilem reddere</quote>
+                     </cit>, <foreign xml:lang="gez">እንዘ፡ ታስተንእስ፡ ርእሰከ፡</foreign>
+                     <cit type="translation" xml:lang="la">
+                        <quote>te submittens</quote>
+                     </cit>, <ref cRef="Chrys. Ta." loc="30">Chrys. Ta. 30</ref>; <foreign xml:lang="gez">እስመ፡ ታስተንእስ፡ ቃለ፡ </foreign>
+                     <cit type="translation" xml:lang="la">
+                        <quote>quia humilem sermonem profers</quote>
+                     </cit>, Lud. e Mss. Colb.</sense>
+                  <sense n="4" xml:id="D4">
+                     <cit type="translation" xml:lang="la">
+                        <quote>exiguam dignitatem attribuere</quote>
+                     </cit> alicui, <cit type="translation" xml:lang="la">
+                        <quote>humiliter sentire</quote>
+                     </cit> de aliquo: <foreign xml:lang="gez">እሉሰኬ፡ አስተናአሱ፡</foreign> (v. <foreign xml:lang="gez">አስተነአሱ፡</foreign>) <foreign xml:lang="gez">ላዕለ፡
+                        ክርስቶስ፡</foreign>
+                     <foreign xml:lang="grc">μικρὰ καὶ οὐκ ἀξιόληπτα φαῖεν ἂν εἶναι Χριστῷ</foreign>
+                     Cyr. c. <ref cRef="Pall." loc="85.">Pall. f. 85.</ref>
+                  </sense>
+               </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,84 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ማእረር </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="AE" when="2018-01-16">das Übliche,</change>
+        </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L10d15e4517844525b7335343dc553cbb" n="5503">
+               <form>
+                  <foreign xml:lang="gez">ማእረር</foreign>
+               </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain"> <gramGrp> <pos expand="not found">subst.</pos> </gramGrp>, <gramGrp> <gen value="not found">m.</gen> </gramGrp> et <gramGrp> <gen value="femininus">fem.</gen> </gramGrp>, <sense n="1" xml:id="D1"> <cit type="translation" xml:lang="la">
+                                <quote> messis </quote>
+                            </cit> <sense n="a" xml:id="D1a"> actio demetendi et tempus messis: <ref cRef="Gen." loc="8,22">Gen. 8,22</ref>; <ref cRef="Kuf." loc="6">Kuf. 6</ref>; <ref cRef="Lev." loc="19,9">Lev. 19,9</ref>; <ref cRef="Ruth " loc="1,22">Ruth  1,22</ref>; <ref cRef="Ruth" loc="2,21">Ruth 2,21</ref>; <ref cRef="Ruth" loc="2,23">Ruth 2,23</ref>; <ref cRef="Jes." loc="9,3">Jes. 9,3</ref>; <ref cRef="Jes." loc="18,5">Jes. 18,5</ref>; <ref cRef="Mich." loc="7,1">Mich. 7,1</ref>; <ref cRef="Am." loc="4,7">Am. 4,7</ref> (<foreign xml:lang="grc">τρυγητός</foreign>); <ref cRef="Am." loc="9,13">Am. 9,13</ref>; <ref cRef="Prov." loc="25,13">Prov. 25,13</ref>; <ref cRef="Prov." loc="26,1">Prov. 26,1</ref>; <foreign xml:lang="gez">ተግባረ፡ ማእረርከ፡</foreign> <ref cRef="Job" loc="39,12">Job 39,12</ref>; <foreign xml:lang="gez">መዋዕለ፡ ማእረር፡</foreign> <ref cRef="Sir." loc="24,26">Sir. 24,26</ref>; <ref cRef="Sir." loc="50,8">Sir. 50,8</ref>; <ref cRef="4 Esr." loc="2,36">4 Esr. 2,36</ref>; <ref cRef="Joh." loc="4,35">Joh. 4,35</ref>; <ref cRef="Matth." loc="13,30">Matth. 13,30</ref>; <ref cRef="Marc." loc="4,29">Marc. 4,29</ref>; <foreign xml:lang="gez">ዐውደ፡ ማእረር፡</foreign> <foreign xml:lang="grc">ἅλων θερινή</foreign> <ref cRef="Dan." loc="2,35">Dan. 2,35</ref>; <lbl expand="translate">transl.</lbl> <ref cRef="4 Esr." loc="2,44">4 Esr. 2,44</ref>.</sense> <sense n="b" xml:id="D1b"> <cit type="translation" xml:lang="la">
+                                    <quote> fruges demetendae </quote>
+                                </cit> vel <cit type="translation" xml:lang="la">
+                                    <quote> demessae </quote>
+                                </cit>: <ref cRef="Jer." loc="5,16">Jer. 5,16</ref>; <foreign xml:lang="gez">ማእረር፡ ወቀሥም፡</foreign> <ref cRef="Jes." loc="16,9">Jes. 16,9</ref>; <ref cRef="Jes." loc="17,5">Jes. 17,5</ref>; <foreign xml:lang="grc">γεννήματα</foreign>, <foreign xml:lang="gez">ምድር፡ ትሁብ፡ ማእረራ፡</foreign> <ref cRef="Zach." loc="8,12">Zach. 8,12</ref>; <ref cRef="Hez." loc="36,30">Hez. 36,30</ref>; <foreign xml:lang="grc">καρποί</foreign> <ref cRef="Jer. " loc="38,12">Jer.  38,12</ref>; <ref cRef="Job" loc="5,26">Job 5,26</ref> <lbl expand="varia lectio">var.</lbl>; <lbl expand="translate">transl.</lbl>: <foreign xml:lang="gez">ማእረረ፡ ምግባሮሙ፡</foreign> <ref cRef="Jes." loc="3,10">Jes. 3,10</ref>; <ref cRef="Matth." loc="9,37">Matth. 9,37</ref>; <ref cRef="Luc." loc="10,2">Luc. 10,2</ref>; <ref cRef="Apoc." loc="14,15">Apoc. 14,15</ref>.</sense> <sense n="c" xml:id="D1c"> tempus messis i.e. <sense n="α" xml:id="D1cα"> <cit type="translation" xml:lang="la">
+                                        <quote> aestas </quote>
+                                    </cit>: <foreign xml:lang="gez">ክረምት፡ መፀው፡ ማእረር፡ ሐጋይ፡</foreign> <ref cRef="Kuf. " loc="2">Kuf.  2</ref>; <foreign xml:lang="gez">ክረምት፡ ወማእረር፡ ወሐጋይ፡</foreign> <ref cRef="Sir." loc="36,9">Sir. 36,9</ref>; <foreign xml:lang="gez">ዐውደ፡ ማእረር፡</foreign> <foreign xml:lang="grc">ἅλων θερινή</foreign> <ref cRef="Dan." loc="2,35">Dan. 2,35</ref>; <foreign xml:lang="grc">θέρος</foreign> <ref cRef="Matth." loc="24,32">Matth. 24,32</ref>; <ref cRef="Marc." loc="13,28">Marc. 13,28</ref>; <ref cRef="Luc." loc="21,30">Luc. 21,30</ref>.</sense> <sense n="β" xml:id="D1cβ"> cui includitur <cit type="translation" xml:lang="la">
+                                        <quote> ver </quote>
+                                    </cit>: <foreign xml:lang="grc">ἔαρ</foreign> <ref cRef="Num." loc="13,20">Num. 13,20</ref>; <foreign xml:lang="gez">በለሰ፡ ማእረር፡</foreign> <foreign xml:lang="grc">τὰ σῦκα τὰ πρώϊμα</foreign> <ref cRef="Jer." loc="24,2">Jer. 24,2</ref>.</sense> </sense> </sense> <sense n="2" xml:id="D2"> <cit type="translation" xml:lang="la">
+                                <quote> vindemia </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> messis pomorum </quote>
+                            </cit>: <foreign xml:lang="gez">ማእረረ፡ ወይን፡</foreign> <ref cRef="Sir." loc="30,25">Sir. 30,25</ref>; <foreign xml:lang="gez">በመዋዕለ፡ ማእረረ፡ ቀሥም፡</foreign> <ref cRef="Sir." loc="24,27">Sir. 24,27</ref>; <foreign xml:lang="grc">τρυγητός</foreign> <ref cRef="Jes." loc="24,13">Jes. 24,13</ref>; <ref cRef="Joel" loc="4,13">Joel 4,13</ref>.</sense> </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

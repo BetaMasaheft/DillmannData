@@ -1,0 +1,133 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ተሰቅለ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="Ldbaf4e2bcdb24c13852dfaa589f4ea11" n="2642">
+               <form>
+                  <foreign xml:lang="gez">ተሰቅለ</foreign>
+               </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain"> <subc>III,1</subc> <sense n="1" xml:id="D1">
+                     <cit type="translation" xml:lang="la">
+                        <quote>suspendi</quote>
+                     </cit>, in specie <cit type="translation" xml:lang="la">
+                        <quote>crucifigi</quote>
+                     </cit>: <foreign xml:lang="gez">ይሰቀሉ፡ ቦቱ፡ </foreign>
+                     <ref cRef="Jes." loc="22,24">Jes. 22,24</ref>
+                     <lbl expand="varia lectio">var.</lbl>; <foreign xml:lang="gez">መላእክት፡ በእደዊሆሙ፡
+                        ተሰቅሉ፡ </foreign>
+                     <ref cRef="Thren." loc="5,12">Thren. 5,12</ref>; <foreign xml:lang="gez">አድባር፡
+                        ዲበ፡ አድባር፡ ይሰቀሉ፡</foreign>
+                     <ref cRef="Hen. " loc="83,4">Hen. 83,4</ref>; <foreign xml:lang="gez">ሰማይ፡
+                        ተሰቅለ፡</foreign>
+                     <ref cRef="Hen." loc="69,16">Hen. 69,16</ref>; <ref cRef="Org." loc="1">Org.
+                        1</ref>; <foreign xml:lang="gez">በዕፅ፡ ይሰቀል፡</foreign>
+                     <ref cRef="Asc. Jes." loc="3,13">Asc. Jes. 3,13</ref>; <ref cRef="Asc. Jes." loc="4,13">Asc. Jes. 4,13</ref>; <foreign xml:lang="gez">ተሰቅለ፡ ዲበ፡
+                        ዕፅ፡</foreign>
+                     <ref cRef="1 Petr." loc="2,24">1 Petr. 2,24</ref>; <ref cRef="1 Petr." loc="4,1">1 Petr. 4,1</ref>; <ref cRef="Rom." loc="4,25">Rom. 4,25</ref>;
+                        <ref cRef="Rom." loc="6,6">Rom. 6,6</ref>; <ref cRef="Marc." loc="15,32">Marc. 15,32</ref>.</sense>
+                  <sense n="2" xml:id="D2">
+                     <cit type="translation" xml:lang="la">
+                        <quote>suspensum</quote>
+                     </cit> vel <cit type="translation" xml:lang="la">
+                        <quote>pendulum</quote>
+                     </cit>
+                     <cb n="0351" xml:id="c0351"/>
+                     <cit type="translation" xml:lang="la">
+                        <quote>teneri</quote>
+                     </cit>, <cit type="translation" xml:lang="la">
+                        <quote>pendere</quote>
+                     </cit>: 3 <ref cRef="Reg." loc="7,6">Reg. 7,6</ref>; <foreign xml:lang="gez">ተሰቅለ፡ ማእከለ፡ ሰማይ፡ ወምድር፡</foreign>
+                     <ref cRef="2 Reg." loc="18,9">2 Reg. 18,9</ref>; <foreign xml:lang="gez">ተሰቅለ፡
+                        መልዕልተ፡ አየር፡ ቍልቍሊተ፡</foreign> <ref cRef="Gad. T.H." loc="">Gad. T.H.</ref>
+                        </sense>
+                  <sense n="3" xml:id="D3">
+                     <cit type="translation" xml:lang="la">
+                        <quote>adhaerere</quote>
+                     </cit>, <cit type="translation" xml:lang="la">
+                        <quote>adhaerescere</quote>
+                     </cit> alicui, <cit type="translation" xml:lang="la">
+                        <quote>amplecti</quote>
+                     </cit>, <cit type="translation" xml:lang="la">
+                        <quote>affixum esse</quote>
+                     </cit>, <cit type="translation" xml:lang="la">
+                        <quote>pendere ab</quote>
+                     </cit> aliquo, proprie et translate: <foreign xml:lang="gez">ተሰቅለ፡ ርእሶ፡
+                        በዕፅ፡</foreign>
+                     <ref cRef="2 Reg." loc="18,9">2 Reg. 18,9</ref>; <foreign xml:lang="gez">አርዌ፡
+                        ምድር፡ ተሰቅለ፡ ውስተ፡ እዴሁ፡</foreign>
+                     <ref cRef="Act." loc="28,3">Act. 28,3</ref>
+                     <lbl expand="romanae editionis">rom.</lbl>; <foreign xml:lang="gez">ወደዩ፡ አሕባለ፡
+                        ውስተ፡ ግብ፡ ወጸርኁ፡ ኀቤሁ፡ ከመ፡ ይሰቀል፡ በሐብል፡</foreign>
+                     <ref cRef="Sx. Tachs." loc="15">Sx. Tachs. 15</ref>; <foreign xml:lang="gez">ተሰቅለ፡ ይስሐቅ፡ ውስተ፡ ክሣደ፡ ወልዱ፡</foreign>
+                     <ref cRef="Kuf." loc="31">Kuf. 31</ref>; <foreign xml:lang="gez">ኀቤነ፡ ተሰቅለ፡
+                        ነፍሶሙ፡ </foreign>
+                     <ref cRef="Judith" loc="8,24">Judith 8,24</ref>; <lbl expand="cum">c.</lbl>
+                     <foreign xml:lang="gez">በ፡</foreign>
+                     <ref cRef="Gen." loc="44,30">Gen. 44,30</ref>; <foreign xml:lang="gez">ኢምንትኒ፡
+                        ዘይሰቀል፡ ቦቱ፡ ኅሊናሁ፡</foreign>
+                     <ref cRef="Phlx." loc="224">Phlx. 224</ref>; <foreign xml:lang="gez">ይሰቀሉ፡
+                        በአፅምኦቱ፡</foreign>
+                     <foreign xml:lang="grc">ἐξεκρέματο αὐτοῦ ἀκούων</foreign> (pendebant ab ore
+                     ejus) <ref cRef="Luc." loc="19,48">Luc. 19,48</ref>; <foreign xml:lang="gez">በእላ፡ ትእዛዝ፡ ተሰቅሉ፡ ኦሪት፡ ወነቢያት፡</foreign>
+                     <ref cRef="Matth." loc="22,40">Matth. 22,40</ref>.</sense>
+               </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

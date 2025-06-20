@@ -1,0 +1,198 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ነኪር </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L3a195f016fb34eb28387d9adb9f391dd" n="5026">
+               <form>
+                  <foreign xml:lang="gez">ነኪር</foreign>
+               </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain">
+                  <gramGrp>
+                     <pos expand="adjectivum">adj.</pos>
+                  </gramGrp>, <gramGrp>
+                     <gen value="femininus">fem.</gen>
+                  </gramGrp>
+                  <foreign xml:lang="gez">ነካር፡</foreign> et <foreign xml:lang="gez">ነኪርት፡</foreign>,
+                     <lbl expand="pluralis">Pl.</lbl>
+                  <gramGrp>
+                     <gen value="masculinum">m.</gen>
+                  </gramGrp>
+                  <foreign xml:lang="gez">ነኪራን፡</foreign>, <gramGrp>
+                     <gen value="femininus">fem.</gen>
+                  </gramGrp>
+                  <foreign xml:lang="gez">ነኪራት፡</foreign>, <lbl expand="cum">c.</lbl>
+                  <foreign xml:lang="gez">ነከርት፡ </foreign> (<ref cRef="2 Par." loc="18,29">2 Par.
+                     18,29</ref>) <sense n="1" xml:id="D1">
+                     <cit type="translation" xml:lang="la">
+                        <quote>peregrinus</quote>
+                     </cit>, <cit type="translation" xml:lang="la">
+                        <quote>extraneus</quote>
+                     </cit>, <cit type="translation" xml:lang="la">
+                        <quote>alienigena</quote>
+                     </cit>, <cit type="translation" xml:lang="la">
+                        <quote>alienus</quote>
+                     </cit>: <foreign xml:lang="gez">ብእሲ፡ ነኪር፡</foreign>
+                     <ref cRef="Deut." loc="17,15">Deut. 17,15</ref>; <foreign xml:lang="gez">ምድር፡
+                        ነኪር፡</foreign>
+                     <ref cRef="Ex." loc="2,22">Ex. 2,22</ref>; <foreign xml:lang="gez">ሕዝብ፡
+                        ነኪር፡</foreign>
+                     <ref cRef="Sir." loc="33,3">Sir. 33,3</ref>; <foreign xml:lang="gez">ነኪራን፡
+                        አሕዛብ፡</foreign>
+                     <ref cRef="Hez." loc="28,7">Hez. 28,7</ref>; <foreign xml:lang="gez">ሕዝብ፡
+                        ነኪራን፡</foreign>
+                     <ref cRef="Jes." loc="18,2">Jes. 18,2</ref>; <foreign xml:lang="gez">አንስት፡
+                        ነኪራት፡</foreign>
+                     <ref cRef="2                 Esr." loc="10,10">2 Esr. 10,10</ref>; <ref cRef="Jsp." loc="281">Jsp. p. 281</ref>; <foreign xml:lang="gez">ካልእ፡ ነኪር፡
+                        ትምህርት፡</foreign>
+                     <ref cRef="Hebr. " loc="13,9">Hebr. 13,9</ref>. Usurpatur <sense n="a" xml:id="D1a">
+                        substantive: <foreign xml:lang="gez">ነኪር፡ </foreign>
+                        <ref cRef="Deut." loc="15,3">Deut. 15,3</ref>; <ref cRef="Deut." loc="23,21">Deut. 23,21</ref>; <ref cRef="3 Reg." loc="8,41">3 Reg. 8,41</ref>; <ref cRef="2 Par." loc="6,32">2 Par. 6,32</ref>; <ref cRef="Ps." loc="68,11">Ps. 68,11</ref>; <ref cRef="Prov. " loc="27,2">Prov. 27,2</ref>; <ref cRef="Job" loc="19,13">Job 19,13</ref>; <ref cRef="Sir." loc="11,34">Sir.
+                           11,34</ref>; <ref cRef="Sir." loc="21,25">Sir. 21,25</ref>; <ref cRef="Jes." loc="43,12">Jes. 43,12</ref>; <ref cRef="Kuf." loc="16">Kuf.
+                           16</ref>; <foreign xml:lang="gez">ፀሩ፡ ወነኪሩ፡</foreign>
+                        <ref cRef="Col." loc="1,21">Col. 1,21</ref>; <foreign xml:lang="gez">ነኪርት፡ </foreign>
+                        <foreign xml:lang="grc">ἀλλοτρία</foreign>
+                        <ref cRef="Prov." loc="5,10">Prov. 5,10</ref>; <ref cRef="Prov." loc="7,5">Prov. 7,5</ref>; <ref cRef="Prov." loc="23,33">Prov. 23,33</ref>; F.N.
+                        45; <foreign xml:lang="gez">ነኪራን፡</foreign>
+                        <ref cRef="Job" loc="17,3">Job 17,3</ref>; <ref cRef="Jer. " loc="6,12">Jer.
+                           6,12</ref>; <ref cRef="Thren." loc="5,2">Thren. 5,2</ref>; <ref cRef="3 Joh." loc="6">3 Joh. 6</ref>; <cit type="translation" xml:lang="la">
+                           <quote>alienae religioni addicti</quote>
+                        </cit>
+                        <ref cRef="Lit." loc="174,4">Lit. 174,4</ref>.</sense>
+                     <sense n="b" xml:id="D1b"> substantive et collective: <ref cRef="Gen." loc="31,15">Gen.
+                           31,15</ref>, et neutraliter (<cit type="translation" xml:lang="la">
+                           <quote>peregrinum</quote>
+                        </cit>), quare statui constructo subjungi solet, ut: <foreign xml:lang="gez">በብሔረ፡ ነኪር፡</foreign>
+                        <cit type="translation" xml:lang="la">
+                           <quote>in terra peregrini</quote>
+                        </cit> i.e. <cit type="translation" xml:lang="la">
+                           <quote>peregrina</quote>
+                        </cit>, <ref cRef="Bar." loc="3,10">Bar. 3,10</ref>; <foreign xml:lang="gez">ውሉደ፡ ነኪር፡</foreign>
+                        <ref cRef="Ps. " loc="17,49">Ps. 17,49</ref>; <ref cRef="Kuf." loc="15">Kuf.
+                           15</ref>; <foreign xml:lang="gez">አማልክተ፡ ነኪር፡</foreign>
+                        <ref cRef="Jer." loc="1,16">Jer. 1,16</ref>; <ref cRef="Kuf." loc="1">Kuf.
+                           1</ref>; <ref cRef="Gen." loc="35,2">Gen. 35,2</ref>; <ref cRef="Jos." loc="24,23">Jos. 24,23</ref>; <foreign xml:lang="gez">አሕዛበ፡
+                           ነኪር፡</foreign>
+                        <ref cRef="Sir." loc="39,4">Sir. 39,4</ref>; <foreign xml:lang="gez">ሀገረ፡
+                           ነኪር፡</foreign>
+                        <ref cRef="Jud." loc="19,12">Jud. 19,12</ref>; <foreign xml:lang="gez">ንዋየ፡
+                           ነኪር፡</foreign>
+                        <ref cRef="Sir." loc="29,22">Sir. 29,22</ref>; <foreign xml:lang="gez">ወይነ፡
+                           ነኪር፡</foreign>
+                        <ref cRef="Jer." loc="2,21">Jer. 2,21</ref>; <foreign xml:lang="gez">አንስተ፡
+                           ነኪር፡</foreign>
+                        <ref cRef="2                     Esr." loc="10,10">2 Esr. 10,10</ref>; <ref cRef="2 Esr." loc="23,27">2 Esr. 23,27</ref>; <foreign xml:lang="gez">እለ፡
+                           ይለብሱ፡ አልባሰ፡ ነኪር፡ </foreign>
+                        <ref cRef="Zeph." loc="1,8">Zeph. 1,8</ref>.</sense>
+                     <sense n="2" xml:id="D12">
+                        <cit type="translation" xml:lang="la">
+                           <quote>alienus a </quote>
+                        </cit>i.e. <cit type="translation" xml:lang="la">
+                           <quote>qui non pertinet ad</quote>
+                        </cit>, <foreign xml:lang="gez">ነኪር፡ ግብር፡</foreign>
+                        <foreign xml:lang="grc">ξένον τι</foreign>
+                        <ref cRef="1 Petr." loc="4,12">1 Petr. 4,12</ref> Platt; <lbl expand="construitur cum">c.c.</lbl>
+                        <foreign xml:lang="gez">እምነ፡</foreign>, ut: <ref cRef="Eph." loc="2,12">Eph.
+                           2,12</ref>; <ref cRef="Eph." loc="4,18">Eph. 4,18</ref>; <foreign xml:lang="gez">ነኪራነ፡ ኩኑ፡ እምይእቲ፡ ፍኖት፡</foreign>
+                        <ref cRef="1 Petr." loc="4,4">1 Petr. 4,4</ref>
+                        <cb n="0668" xml:id="c0668"/>; <ref cRef="Prov." loc="3,16">Prov.
+                        3,16</ref>; <foreign xml:lang="gez">ነኪር፡ እመንግሥተ፡ እግዚአብሔር፡ </foreign> Lud. e
+                        Vit. Sam.</sense>
+                     <sense n="3" xml:id="D13">
+                        <cit type="translation" xml:lang="la">
+                           <quote>alius</quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                           <quote>mutatus</quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                           <quote>diversus</quote>
+                        </cit>: <foreign xml:lang="gez">አልብሰኒ፡ አልባሰ፡ ነኪርተ፡</foreign> (v. <foreign xml:lang="gez">ነከርተ፡</foreign>) <ref cRef="2 Par. " loc="18,29">2 Par.
+                           18,29</ref>; <foreign xml:lang="gez">ርእይዋ፡ ከመ፡ ነኪር፡ ተወለጠ፡ ገጻ፡</foreign>
+                        <ref cRef="Judith" loc="10,7">Judith 10,7</ref>; <lbl expand="sequens">seq.</lbl>
+                        <foreign xml:lang="gez">እምነ፡</foreign>, ut: <foreign xml:lang="gez">ከመ፡
+                           ዘነኪር፡ ራእዩ፡ እምሰብእ፡</foreign>
+                        <ref cRef="Jes." loc="52,14">Jes. 52,14</ref>; <foreign xml:lang="gez">ነኪር፡
+                           ውእቱ፡ እምኵሉ፡</foreign> (<foreign xml:lang="grc">διαφέρον</foreign>) <ref cRef="Dan. " loc="7,19">Dan. 7,19</ref>.</sense>
+                     <sense n="4" xml:id="D14">
+                        <cit type="translation" xml:lang="la">
+                           <quote>inauditus</quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                           <quote>mirus</quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                           <quote>mirabilis</quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                           <quote>admirandus</quote>
+                        </cit>: <ref cRef="Jes." loc="28,21">Jes. 28,21</ref> (<foreign xml:lang="grc">ἀλλότριος</foreign>); <foreign xml:lang="gez">ነኪር፡ ግብሩ፡
+                           ለእግዚአብሔር፡</foreign>
+                        <ref cRef="Sir." loc="11,4">Sir. 11,4</ref>; <ref cRef="Sir." loc="39,20">Sir. 39,20</ref>; <ref cRef="Sir." loc="43,2">Sir. 43,2</ref>; <foreign xml:lang="gez">ነኪር፡ ለልብ፡ ዝናሙ፡</foreign>
+                        <ref cRef="Sir." loc="43,18">Sir. 43,18</ref>; <ref cRef="Sir." loc="43,25">Sir. 43,25</ref>; <foreign xml:lang="gez">ነካር፡ ይእቲ፡ ለአዕይንቲነ፡</foreign>
+                        <ref cRef="Ps." loc="117,22">Ps. 117,22</ref>; <ref cRef="Marc." loc="12,11">Marc. 12,11</ref>; <ref cRef="Matth. " loc="21,42">Matth. 21,42</ref>
+                        <lbl expand="romanae editionis">rom.</lbl>; <foreign xml:lang="gez">ውእቱ፡
+                           ነኪር፡ ለእመ፡ ድኅነ፡</foreign>
+                        <ref cRef="Sir." loc="16,11">Sir. 16,11</ref>; <foreign xml:lang="gez">ነኪር፡
+                           ከመ፡ ተዐቢ፡</foreign>
+                        <ref cRef="Sir." loc="43,8">Sir. 43,8</ref>; <gramGrp>
+                           <pos expand="Substantivum">subst.</pos>
+                        </gramGrp>: <foreign xml:lang="gez">በሕይወቱ፡ ገብረ፡ ነኪረ፡</foreign>
+                        <foreign xml:lang="grc">τέρατα </foreign>
+                        <ref cRef="Sir." loc="48,14">Sir. 48,14</ref>.</sense>
+                  </sense>
+               </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

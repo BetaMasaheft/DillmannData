@@ -1,0 +1,113 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ዐዚዝ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L7a2deda2a8d34972ba5571c1b22614ef" n="7283">
+               <form>
+                  <foreign xml:lang="gez">ዐዚዝ</foreign>
+               </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain">
+                  <gramGrp>
+                     <pos expand="adjectivum">adj.</pos>
+                  </gramGrp>, <gramGrp>
+                     <gen value="femininus">fem.</gen>
+                  </gramGrp>
+                  <foreign xml:lang="gez">ዐዛዝ፡</foreign>
+                  <sense n="1" xml:id="D1">
+                     <cit type="translation" xml:lang="la">
+                        <quote>validus</quote>
+                     </cit>, <cit type="translation" xml:lang="la">
+                        <quote>fortis</quote>
+                     </cit>, <cit type="translation" xml:lang="la">
+                        <quote>potens</quote>
+                     </cit>, <cit type="translation" xml:lang="la">
+                        <quote>strenuus</quote>
+                     </cit>: <foreign xml:lang="grc">κραταιός</foreign> de <ref cRef="Deo Prov." loc="23,11">Deo Prov. 23,11</ref>; <foreign xml:lang="gez">ዐዚዛን፡</foreign>
+                     <ref cRef="Sap." loc="6,9">Sap. 6,9</ref>; <ref cRef="Hen." loc="38,4">Hen.
+                        38,4</ref>; <foreign xml:lang="gez">ነገሥት፡ ዐዚዛን፡ </foreign>
+                     <ref cRef="Hen." loc="38,5">Hen. 38,5</ref>; <ref cRef="Hen." loc="62,1">Hen.
+                        62,1</ref>; <ref cRef="Lit." loc="164,4">Lit. 164,4</ref>; <foreign xml:lang="gez">ብእሲት፡ ዐዛዝ፡ </foreign>
+                     <foreign xml:lang="grc">γυνὴ ἀνδρεία</foreign>
+                     <ref cRef="Prov." loc="12,4">Prov. 12,4</ref>; <foreign xml:lang="gez">መንፈስ፡
+                        ዐዚዝ፡</foreign>
+                     <foreign xml:lang="grc">πνεῦμα ἡγεμονικόν </foreign> (<cit type="translation" xml:lang="la">
+                        <quote>principalis</quote>
+                     </cit>) <ref cRef="Ps." loc="50,13">Ps. 50,13</ref>; <ref cRef="Did." loc="10">Did. 10</ref>; <foreign xml:lang="gez">በዐዚዝ፡ ረድኤቱ፡</foreign>
+                     <ref cRef="Sx. Mag." loc="11 ">Sx. Mag. 11 </ref>Enc.; <foreign xml:lang="gez">አምላክ፡ ዐዚዝ፡ ወክቡር፡ </foreign>
+                     <ref cRef="Abush." loc="20.">Abush. 20.</ref>
+                  </sense>
+                  <sense n="2" xml:id="D2">
+                     <cit type="translation" xml:lang="la">
+                        <quote>carus</quote>
+                     </cit>, <cit type="translation" xml:lang="la">
+                        <quote>summe venerandus</quote>
+                     </cit>, <cit type="translation" xml:lang="la">
+                        <quote>eximius</quote>
+                     </cit>: <foreign xml:lang="gez">ዐዚዝ፡ ቴዎፊሌ፡</foreign>
+                     <foreign xml:lang="grc">κράτιστε</foreign>
+                     <ref cRef="Luc." loc="1,3">Luc. 1,3</ref>; maxime in libris ex Arabico
+                     translatis, ut Abush.; <foreign xml:lang="gez">ከመ፡ ትኩን፡ ክቡረ፡ ወዐዚዘ፡
+                        ስም፡</foreign>
+                     <ref cRef="Jsp." loc="350.">Jsp. p. 350.</ref>
+                  </sense>
+               </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

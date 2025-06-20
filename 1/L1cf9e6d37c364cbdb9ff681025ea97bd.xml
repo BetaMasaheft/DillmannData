@@ -1,0 +1,134 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ኀስረ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="LB" when="2018-03-07">root</change>
+        <change who="AE" when="2018-10-04">ein Rho ist kein P - ich dachte, die seien alle bereits automatisch korrigiert worden?</change>
+        </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L1cf9e6d37c364cbdb9ff681025ea97bd" n="4523">
+               <form>
+                  <foreign xml:lang="gez">ኀስረ</foreign>
+               <rs type="root"/>
+                    </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain"> <subc>I,1</subc> [i.q. <foreign xml:lang="he">חָסֵר</foreign> <cit type="translation" xml:lang="la">
+                            <quote> imminutus est </quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                            <quote> defecit </quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                            <quote> indiguit </quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                            <quote> caruit </quote>
+                        </cit>, <foreign xml:lang="syr">ܚܣܰܪ</foreign> <cit type="translation" xml:lang="la">
+                            <quote> imminutus est </quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                            <quote> defecit </quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                            <quote> indiguit </quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                            <quote> caruit </quote>
+                        </cit> et <cit type="translation" xml:lang="la">
+                            <quote> jacturam fecit </quote>
+                        </cit>; <foreign xml:lang="ar">خَسِرَ</foreign> et <foreign xml:lang="ar">خَسَرَ</foreign> <cit type="translation" xml:lang="la">
+                            <quote> jacturam fecit </quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                            <quote> diminuit </quote>
+                        </cit>; <cit type="translation" xml:lang="la">
+                            <quote> a via aberravit </quote>
+                        </cit>; <foreign xml:lang="ar">خَاسِرٌ</foreign> <cit type="translation" xml:lang="la">
+                            <quote> vilis </quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                            <quote> inutilis </quote>
+                        </cit>; <lbl expand="videas">vid.</lbl> Ges. thes. p. 505] <gramGrp> <pos expand="Subjunctivus">Subj.</pos> </gramGrp> <foreign xml:lang="gez">ይኅሰር፡</foreign> (<foreign xml:lang="gez">ይኅስር፡</foreign> <ref cRef="Prov." loc="25,7">Prov. 25,7</ref> in aliquot codd.) <sense n="1" xml:id="D1"> <cit type="translation" xml:lang="la">
+                                <quote> deprimi </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> in conditionem viliorem </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> deteriorem conjici </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> vilem esse </quote>
+                            </cit>: <foreign xml:lang="grc">ταπεινοῦσθαι</foreign> <foreign xml:lang="gez">ኀስረ፡ እጓለ፡ እመሕያው፡</foreign> <ref cRef="Jes." loc="2,9">Jes. 2,9</ref>; <ref cRef="Jes." loc="2,11">Jes. 2,11</ref>; <ref cRef="Jes." loc="5,15">Jes. 5,15</ref>; <ref cRef="Jes." loc="10,33">Jes. 10,33</ref>; <ref cRef="Koh. " loc="12,4">Koh.  12,4</ref>; <ref cRef="Job" loc="31,10">Job 31,10</ref>; <ref cRef="Matth." loc="23,12">Matth. 23,12</ref>; <foreign xml:lang="gez">ኀስረ፡ ክብሮሙ፡</foreign> <ref cRef="Jes. " loc="3,8">Jes.  3,8</ref>; <foreign xml:lang="grc">πίπτειν</foreign> <ref cRef="Job" loc="15,24">Job 15,24</ref>; etiam in bonam partem: <cit type="translation" xml:lang="la">
+                                <quote> demissum </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> modestum se gerere </quote>
+                            </cit> <ref cRef="Hos." loc="2,17">Hos. 2,17</ref> (<foreign xml:lang="gez">ተኀስር፡ በህየ፡</foreign>); <ref cRef="Prov." loc="25,7">Prov. 25,7</ref>.</sense> <sense n="2" xml:id="D2"> <cit type="translation" xml:lang="la">
+                                <quote> imminui </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> ad paucitatem redigi </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> jacturam facere </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> miseria et aerumnis affligi </quote>
+                            </cit>: <foreign xml:lang="grc">ζημιοῦσθαι</foreign> <ref cRef="Prov." loc="22,3">Prov. 22,3</ref> (<lbl expand="videas">vid.</lbl> <foreign xml:lang="gez">አኅሰረ፡</foreign>); <foreign xml:lang="grc">ταλαιπωρεῖν</foreign> de agris et frumento <ref cRef="Joel" loc="1,10">Joel 1,10</ref>; <ref cRef="Zach." loc="11,3">Zach. 11,3</ref>; de terra, tentorio, hominibus <ref cRef="Jer." loc="4,13">Jer. 4,13</ref>; <ref cRef="Jer." loc="4,20">Jer. 4,20</ref>; <ref cRef="Jer." loc="9,19">Jer. 9,19</ref>; <ref cRef="Jer." loc="10,20">Jer. 10,20</ref>.</sense> <sense n="3" xml:id="D3"> <cit type="translation" xml:lang="la">
+                                <quote> vilipendi </quote>
+                            </cit>; <cit type="translation" xml:lang="la">
+                                <quote> ignominia </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> dedecore </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> contumelia affici </quote>
+                            </cit>; <cit type="translation" xml:lang="la">
+                                <quote> pudore suffundi </quote>
+                            </cit>, <foreign xml:lang="grc">ἀτιμάζεσθαι</foreign>: <foreign xml:lang="gez">ከመ፡ ኢትኅሰር፡</foreign> <ref cRef="Sir." loc="1,30">Sir. 1,30</ref>; <foreign xml:lang="gez">ኀስሩ፡ ፈድፋደ፡</foreign> <ref cRef="Sir." loc="11,6">Sir. 11,6</ref>; <foreign xml:lang="gez">ሐሳዊ፡ ሰብእ፡ የኀስር፡ ወይትኀፈር፡ ለዝሉፉ፡</foreign> <ref cRef="Sir." loc="20,26">Sir. 20,26</ref>; <ref cRef="Jes." loc="16,14">Jes. 16,14</ref>; <ref cRef="Jer." loc="22,28">Jer. 22,28</ref>; <foreign xml:lang="gez">ትትኀፈሪ፡ ወተኀስሪ፡ እምኵሎሙ፡ እለ፡ ያፈቅሩኪ፡</foreign> <ref cRef="Jer." loc="22,22">Jer. 22,22</ref>; <ref cRef="4 Esr." loc="10,31">4 Esr. 10,31</ref>; <foreign xml:lang="grc">ἐντρέπεσθαι</foreign> <ref cRef="Ps." loc="68,9">Ps. 68,9</ref>; <ref cRef="Ps." loc="82,16">Ps. 82,16</ref>; <ref cRef="Hez." loc="36,32">Hez. 36,32</ref>; <ref cRef="Jes." loc="45,16">Jes. 45,16</ref>; <foreign xml:lang="gez">የኀስሩ፡ በኀፍረት፡</foreign> <ref cRef="4 Esr." loc="6,62">4 Esr. 6,62</ref>; <foreign xml:lang="grc">ὀνειδίζεσθαι</foreign> <foreign xml:lang="gez">ተኀፍረት፡ ወኀስረት፡</foreign> <ref cRef="Jer. " loc="15,9">Jer.  15,9</ref>; <ref cRef="Sir." loc="41,7">Sir. 41,7</ref>; <foreign xml:lang="grc">αἰσχύνεσθαι</foreign> <ref cRef="Jes." loc="65,13">Jes. 65,13</ref>.</sense> <sense n="4" xml:id="D4"> Sensu ethico, <cit type="translation" xml:lang="la">
+                                <quote> depravatum </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> perditum esse </quote>
+                            </cit>: <foreign xml:lang="gez">ኀስሩ፡ ወረኵሱ፡</foreign> <foreign xml:lang="grc">διέφθειραν καὶ ἐβδελύχθησαν</foreign> <ref cRef="Ps." loc=" 13,2">Ps.  13,2</ref>; <ref cRef="Ps." loc="52,2">Ps. 52,2</ref>.</sense> </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

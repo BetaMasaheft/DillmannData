@@ -1,0 +1,78 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ሰለበ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="LB" when="2018-02-14">root</change>
+        <change who="MK" when="2024-08-21">added gr and les </change><change who="MK" when="2024-08-21">added sub</change></revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L701d2f990cfb4730af53857e2351c1c4" n="2448">
+               <form>
+                  <foreign xml:lang="gez">ሰለበ</foreign>
+               <rs type="root"/>
+                    </form>
+               <sense xml:id="Dmain" xml:lang="la" source="#dillmann"> <subc>I,1</subc> [<foreign xml:lang="ar">سَلَبَ</foreign> <foreign xml:lang="he">שָׁלַף</foreign> <foreign xml:lang="syr">ܫܠܰܦ</foreign>; <lbl expand="vicinus">vic.</lbl> <foreign xml:lang="he">שָׁלַל</foreign>, <foreign xml:lang="he">נָשַׁל</foreign> al; amh. <foreign xml:lang="gez">ሰለበ፡</foreign> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> castrare </t:quote></cit>] <gramGrp> <pos expand="Subjunctivus">Subj.</pos> </gramGrp> <foreign xml:lang="gez">ይስልብ፡</foreign>, proprie: <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> extrahere </t:quote></cit> <sense n="1" xml:id="D1"> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> detrahere </t:quote></cit> vel <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> exuere sibi </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> deponere </t:quote></cit> vestem: <foreign xml:lang="gez">ይሰልቡ፡ አልባሰ፡ ዐሥቆሙ፡</foreign> <ref cRef="Hez." loc="26,16">Hez. 26,16</ref>; <ref cRef="2 Cor." loc="5,4">2 Cor. 5,4</ref> <lbl expand="romanae editionis">rom.</lbl>, ubi Ludolfus <foreign xml:lang="gez">ንስልብ፡</foreign> emendandum proposuit. 
+</sense> <sense n="2" xml:id="D2"> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> detrahere </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> exuere </t:quote></cit> alicui vestem, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> nudare </t:quote></cit> aliquem, <lbl expand="cum">c.</lbl> <lbl expand="duplex">dupl.</lbl> <gramGrp> <case value="accusativus">Acc.</case> </gramGrp>: <ref cRef="Gen." loc="37,23">Gen. 37,23</ref>; <foreign xml:lang="gez">ሰለበኒ፡ ትርሲትየ፡</foreign> <ref cRef="Job" loc="19,9">Job 19,9</ref>; <ref cRef="Job" loc="24,7">Job 24,7</ref>; <ref cRef="Job " loc="30,13">Job  30,13</ref>; <foreign xml:lang="gez">እሰልባ፡ አልባሲሃ፡ ወመዋጥሒሃ፡</foreign> <ref cRef="Hos." loc="2,11">Hos. 2,11</ref>; <ref cRef="Jes." loc="3,18">Jes. 3,18</ref>; <ref cRef="Jes." loc="22,17">Jes. 22,17</ref>; <foreign xml:lang="gez">ይሰልቡክሙ፡ አክሊለ፡ ምክሕ፡ እምነ፡ ርእስክሙ፡</foreign> <ref cRef="Jer. " loc="13,18">Jer.  13,18</ref>; <foreign xml:lang="gez">ሰለቡኪ፡ ኵሎ፡ ክዳናተኪ፡</foreign> <ref cRef="Jer." loc="10,20">Jer. 10,20</ref>; <ref cRef="Matth." loc="27,31">Matth. 27,31</ref>; <lbl expand="cum">c.</lbl> <gramGrp> <case value="accusativus">Acc.</case> </gramGrp> <lbl expand="persona">pers.</lbl>: <foreign xml:lang="gez">ወሰለቡ፡ ወገመኑ፡ ማኅፀነ፡ ለትዕይርት፡</foreign> <ref cRef="Judith " loc="9,2">Judith  9,2</ref> (<foreign xml:lang="grc">γυμνοῦν</foreign>); <lbl expand="cum">c.</lbl> <gramGrp> <case value="accusativus">Acc.</case> </gramGrp> rei: <foreign xml:lang="gez">ሰለብከ፡ ልብሶ፡ ለዕሩቅ፡</foreign> (var. pro <foreign xml:lang="gez">ሰለብኮ፡ ልብሰ፡</foreign>) <ref cRef="Job" loc="22,6">Job 22,6</ref>. 
+</sense> <sense n="3" xml:id="D3"> in specie: <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> spoliare </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> armis exuere </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> spolia legere </t:quote></cit>; <gramGrp> <pos expand="absolute">absol.</pos> </gramGrp> <ref cRef="2 Reg." loc="23,10">2 Reg. 23,10</ref>; <lbl expand="cum">c.</lbl> <gramGrp> <case value="accusativus">Acc.</case> </gramGrp> <lbl expand="persona">pers.</lbl> <ref cRef="1 Reg." loc="31,8">1 Reg. 31,8</ref>; <ref cRef="1 Par." loc="10,9">1 Par. 10,9</ref>; <foreign xml:lang="gez">ይሰልብ፡ ሰሊባ፡</foreign> (<cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> spoliabit spoliando eam </t:quote></cit>) <ref cRef="Hez." loc="30,24">Hez. 30,24</ref>; <ref cRef="Luc." loc="10,30">Luc. 10,30</ref>; <lbl expand="cum">c.</lbl> <gramGrp> <case value="accusativus">Acc.</case> </gramGrp> rei: <ref cRef="Num." loc="31,53">Num. 31,53</ref>; <ref cRef="Jud." loc="8,24">Jud. 8,24</ref>; <lbl expand="cum">c.</lbl> <lbl expand="duplex">dupl.</lbl> <gramGrp> <case value="accusativus">Acc.</case> </gramGrp>: <ref cRef="Jud." loc="14,19">Jud. 14,19</ref>; <foreign xml:lang="gez">ሰለብዋ፡ ለወለተ፡ ጽዮን፡ ኵሎ፡ ትርሲታ፡</foreign> <ref cRef="Thren." loc="1,6">Thren. 1,6</ref>; <foreign xml:lang="gez">ይሰልቡኪ፡ አልባሰኪ፡</foreign> <ref cRef="Hez." loc="16,39">Hez. 16,39</ref>; <ref cRef="Hez." loc="23,26">Hez. 23,26</ref>; <ref cRef="Luc." loc="11,22">Luc. 11,22</ref>; <foreign xml:lang="gez">ሰለቦ፡ ረምሐ፡ እምእዴሁ፡</foreign> <ref cRef="1 Par." loc="11,23">1 Par. 11,23</ref>; <foreign xml:lang="gez">ሰለብዎ፡ ኲናቶ፡</foreign> <ref cRef="Mich." loc="2,8">Mich. 2,8</ref>. 
+</sense> <sense n="4" xml:id="D4"> translate: <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> rapere </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> abripere </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> abstrahere </t:quote></cit> mentem vel animum (alicujus e corpore), ob admirationem, ut: <foreign xml:lang="gez">ይሰልብ፡ አልባበ፡</foreign> <ref cRef="Lit." loc="173,3">Lit. 173,3</ref>; (arca splendore suo) <foreign xml:lang="gez">ተሀይድ፡ አዕይንተ፡ ወትሰልብ፡ ልበ፡</foreign> <ref cRef="Kebr. Nag." loc="17">Kebr. Nag. 17</ref>; ob terrorem, Lud. e Ssal. Req. 
+</sense> </sense>
+               
+            <sense xml:id="Tmain" xml:lang="en" source="#traces"> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">salaba</t:quote></cit> <sense n="G" xml:id="TG"> <foreign xml:lang="gez">ሰለበ፡</foreign> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">salaba</t:quote></cit> <subc>I,1</subc> <foreign xml:lang="gez">ይሰልብ፡</foreign>, <foreign xml:lang="gez">ይስልብ፡</foreign> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">exuit</t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">spoliavit</t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">detraxit</t:quote></cit>, <cit type="translation" xml:lang="fr"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">dépouiller</t:quote></cit>, <cit type="translation" xml:lang="fr"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">ravir</t:quote></cit>, <cit type="translation" xml:lang="fr"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">déposséder</t:quote></cit> ― <foreign xml:lang="am">ገፈፈ፡</foreign> Ms. Roma, Biblioteca Nazionale Centrale di Roma, Orientale 134, p. 42. <lb/>
+ <bibl><ptr target="bm:Grebaut1952SuppLexicon"/><citedRange unit="page"> 162</citedRange></bibl> 
+</sense> <sense n="L" xml:id="TL"> <foreign xml:lang="gez">ሰለበ</foreign> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">salaba</t:quote></cit> I (yǝslǝb) <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">take off</t:quote></cit>, <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">strip off</t:quote></cit>, <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">take away</t:quote></cit>, <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">remove</t:quote></cit>, <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">deprive</t:quote></cit>, <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">take spoils</t:quote></cit>, <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">plunder</t:quote></cit>, <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">despoil</t:quote></cit>, <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">ravish</t:quote></cit>, <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">confuse</t:quote></cit> (the mind), <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">bewilder</t:quote></cit> <bibl><ptr target="bm:Leslau1987dic"/><citedRange unit="page"> 498b</citedRange></bibl> 
+</sense> </sense></entry>
+         </div>
+      </body>
+   </text>
+</TEI>

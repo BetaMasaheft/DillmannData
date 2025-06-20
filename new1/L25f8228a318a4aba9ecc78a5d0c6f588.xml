@@ -1,0 +1,110 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="gez">እንስት</title>
+                <author>Alessandro Bausi</author>
+                <author>Andreas Ellwardt</author>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+                <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+                <pubPlace>Hamburg</pubPlace>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file
+                        is licensed under the Creative Commons Attribution-ShareAlike Non Commercial
+                        4.0. </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                        Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice
+                            latino. Adiectum est vocabularium tigre dialecti septentrionalis
+                            compilatum</emph> a W. Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+                </p>
+                <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced
+                        Grant TraCES (Grant Agreement 338756)</ref>
+                </p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>A digital edition of the Lexicon in TEI.</p>
+            <listPrefixDef>
+                <prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/>
+            </listPrefixDef>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="la">latin</language>
+                <language ident="it">Italian</language>
+                <language ident="gez">Gǝʿǝz</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="syr">Syriac</language>
+                <language ident="ar">Arabic</language>
+                <language ident="sa">Sanskrit</language>
+                <language ident="geo">Georgian</language>
+                <language ident="cop">Coptic</language>
+                <language ident="osa">Old South Arabian</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change who="MK" when="2018-10-29">added new entry, to be peer-reviewed</change>
+            <change who="MK" when="2018-11-02">corr</change>
+            <change who="MK" when="2018-11-02">corr</change>
+            <change who="MK" when="2018-11-02">corr</change>
+            <change who="MK" when="2019-12-05">transferred entry</change>
+            <change who="MK" when="2022-05-16">corrections </change>
+            <change who="MK" when="2022-05-16">correction</change>
+            <change who="MK" when="2022-07-01">correction</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <entry xml:id="L25f8228a318a4aba9ecc78a5d0c6f588" n="12434">
+                    <form>
+                        <foreign xml:lang="gez">እንሰት</foreign>
+                    </form>
+                    <sense xml:id="Tmain" xml:lang="en" source="#traces">
+                        <cit type="transcription" xml:lang="gez">
+                            <quote>ʾǝnsat</quote>
+                        </cit>, <foreign xml:lang="gez">እንስት፡</foreign>
+                        <cit type="transcription" xml:lang="gez">
+                            <quote> ʾǝnsǝt </quote>
+                        </cit>, <foreign xml:lang="gez">ህንሰት፡</foreign>
+                        <cit type="transcription" xml:lang="gez">
+                            <quote>hǝnsat</quote>
+                        </cit>
+                        <gramGrp><pos expand="Substantivum">subst.</pos></gramGrp>
+                        <cit type="translation" xml:lang="la">
+                            <quote> Ensete ventricosum </quote>
+                        </cit>, <cit type="translation" xml:lang="en">
+                            <quote> Ethiopian banana </quote>
+                        </cit>, <cit type="translation" xml:lang="en">
+                            <quote> false banana </quote>
+                        </cit> (see also the comment below) <foreign xml:lang="gez">ወተፈጺሞ፡ ሰሙነ፡ ፋሲካ፡
+                            በዕለተ፡ ሠሉስ፡ አመ፡ ዐሡሩ፡ ለመጋቢት፡ እንዘ፡ ይመትር፡ ህንሰት፡ ዘውእቱ፡ ሲሳዮሙ፡ ለጋፋት፡ ቀተሎ፡
+                            ለ፩እምአቄት፡ ዠር፡ ፩እምሰብአ፡ ገምቦ፡</foreign> ‘<cit type="translation" xml:lang="fr">
+                            <quote> L’octave de Pâques étant achevée, le mardi, 10 de magābit, un
+                                homme das Gambo, pendant qu’il coupait du hensat, ce qui est la
+                                nourriture des Gāfāt, tua un des Aqēt žār{sic} </quote>
+                        </cit>’ <bibl><ptr target="bm:ContiRossini1907SarsaDengel"/><citedRange unit="page"> 140 l. 21–24 (ed.)</citedRange></bibl>, <bibl><ptr target="bm:ContiRossini1907SarsaDengelV"/><citedRange unit="page">
+                                159 l. 37, 160 l. 1–2 (tr.)</citedRange></bibl> (‘«ʾenset»: quasi
+                        certamente la «musa ensete» o falso banano, vd. <bibl><ptr target="bm:Guidi1901Vocabolario"/><citedRange unit="page">
+                                461</citedRange></bibl> s.v. <cit type="transcription" xml:lang="gez">
+                            <quote> ensat </quote>
+                        </cit>.’ <bibl><ptr target="bm:Bausi2003LibanosTr"/><citedRange unit="page">33 n. 114</citedRange></bibl>) <sense n="E" xml:id="TE"> from
+                            Amharic <foreign xml:lang="am">እንሰት፡</foreign>
+                            <cit type="transcription" xml:lang="gez">
+                                <quote> ʾǝnsat </quote>
+                            </cit>
+                        </sense>
+                        <nd/>
+                    </sense>
+                </entry>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,97 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ርደት </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L8c34dcef9b834a5a93901b10ba698695" n="6563">
+               <form>
+                  <foreign xml:lang="gez">ርደት</foreign>
+               </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain">
+                  <gramGrp>
+                     <pos expand="nomen actionis">n. act.</pos>
+                  </gramGrp>
+                  <sense n="a" xml:id="Da">
+                     <cit type="translation" xml:lang="la">
+                        <quote>descensio</quote>
+                     </cit>, <cit type="translation" xml:lang="la">
+                        <quote>descensus</quote>
+                     </cit>, <ref cRef="Asc. Jes." loc="3,13">Asc. Jes. 3,13</ref>; <ref cRef="Asc. Jes." loc="9,15">Asc. Jes. 9,15</ref>; <foreign xml:lang="gez">ርደቱ፡ ውስተ፡ ሲኦል፡</foreign>
+                     <ref cRef="Asc. Jes." loc="4,21">Asc. Jes. 4,21</ref>; Cod. Mus. Brit. LIV,7;
+                        <foreign xml:lang="gez">ርደቱ፡ ለወልድ፡ እምሰማይ፡</foreign>
+                     <ref cRef="Clem." loc="7">Clem. f. 7</ref>; <foreign xml:lang="gez">ተዘከር፡ እግዚኦ፡
+                        ርደትከ፡ ዲበ፡ ምድር፡ በእንተ፡ ፍቅረ፡ ሰብእ፡</foreign>
+                     <ref cRef="Genz." loc="26">Genz. f. 26</ref>; <ref cRef="Org." loc="1.">Org.
+                        1.</ref>
+                  </sense>
+                  <sense n="b" xml:id="Db">
+                     <cit type="translation" xml:lang="la">
+                        <quote>delapsus</quote>
+                     </cit>: <foreign xml:lang="gez">ከመ፡ ርደተ፡ ንስር፡</foreign>
+                     <foreign xml:lang="grc">ὅρμημα ἀετοῦ</foreign>
+                     <ref cRef="Deut." loc="28,49">Deut. 28,49</ref>; <foreign xml:lang="gez">ከመ፡
+                        ርደተ፡ አንበጣ፡ ርደቱ፡</foreign> (sc. <foreign xml:lang="gez">ለበረድ፡</foreign>) <ref cRef="Sir. " loc="43,17">Sir. 43,17</ref>; <foreign xml:lang="gez">ርደተ፡
+                        ዝናማት፡</foreign>
+                     <ref cRef="Sx. Hed." loc="12.">Sx. Hed. 12.</ref>
+                     <cb n="0903" xml:id="c0903"/>
+                  </sense>
+               </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

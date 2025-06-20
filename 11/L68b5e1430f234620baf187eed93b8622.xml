@@ -1,0 +1,101 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ቀጽዐ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="LB" when="2018-02-23">root</change>
+        </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L68b5e1430f234620baf187eed93b8622" n="3715">
+               <form>
+                  <foreign xml:lang="gez">ቀጽዐ</foreign>
+               <rs type="root"/>
+                    </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain"> <subc>I,1</subc> [<foreign xml:lang="ar">خَشَعَ</foreign> <cit type="translation" xml:lang="la">
+                            <quote> humilis </quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                            <quote> submissus fuit </quote>
+                        </cit>, <foreign xml:lang="ar">خَضَعَ</foreign> <cit type="translation" xml:lang="la">
+                            <quote> humilis </quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                            <quote> depressus fuit </quote>
+                        </cit>; <foreign xml:lang="ar">قَضَعَ</foreign> <cit type="translation" xml:lang="la">
+                            <quote> subjugavit </quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                            <quote> domuit </quote>
+                        </cit>, <foreign xml:lang="ar">قَشَعَ</foreign> <cit type="translation" xml:lang="la">
+                            <quote> pronum stravit conjecitve </quote>
+                        </cit>; etiam <foreign xml:lang="ar">قَصَعَ</foreign> significationes vicinas habet; amh. <foreign xml:lang="gez">ቀጻ፡</foreign> vel <foreign xml:lang="gez">ቀጣ፡</foreign> <cit type="translation" xml:lang="la">
+                            <quote> castigavit </quote>
+                        </cit>] <cit type="translation" xml:lang="la">
+                            <quote> deprimere </quote>
+                        </cit> <sense n="a" xml:id="Da"> <cit type="translation" xml:lang="la">
+                                <quote> humiliare </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> subigere </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> incurvare </quote>
+                            </cit>, <foreign xml:lang="grc">κατακάμπτειν</foreign>, <foreign xml:lang="grc">συγκάμπτειν</foreign> <ref cRef="2 Reg. " loc="22,40">2 Reg.  22,40</ref>; <ref cRef="Ps." loc="56,8">Ps. 56,8</ref>; <ref cRef="Ps." loc="68,13">Ps. 68,13</ref>.</sense> <sense n="b" xml:id="Db"> <cit type="translation" xml:lang="la">
+                                <quote> corruere facere </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> consternare </quote>
+                            </cit>: <foreign xml:lang="gez">ይቀጽዕ፡ ኵሎ፡ ሐቌ፡</foreign> <ref cRef="Nah." loc="2,10">Nah. 2,10</ref> Laur.; <foreign xml:lang="gez">ያደነግፁ፡ ልበ፡ ወይቀጽዑ፡ ከመ፡ ማሕምም፡</foreign> <ref cRef="Sir." loc="31,5">Sir. 31,5</ref>.</sense> <sense n="c" xml:id="Dc"> <cit type="translation" xml:lang="la">
+                                <quote> complanare </quote>
+                            </cit> viam, <foreign xml:lang="grc">ἐξιχνιάζειν</foreign> <ref cRef="Ps." loc="138,2">Ps. 138,2</ref>. – <lbl expand="Vocabularium Aethiopicum, -a -a">Voc. Ae.</lbl>: <foreign xml:lang="gez">ጼሐ፡ ኰስተረ፡ ቀጽዐ፡ ዘ፡ ጸረገ።</foreign> </sense> </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

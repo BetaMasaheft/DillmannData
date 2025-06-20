@@ -1,0 +1,102 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> አስተንፈሰ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="PL" when="2017-11-22">fixed for https://github.com/BetaMasaheft/Dillmann/issues/178</change>
+        </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L745b06a239194d7d82cd771609ff9d19" n="5322">
+               <form>
+                  <foreign xml:lang="gez">አስተንፈሰ</foreign>
+               </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain"> <subc>IV,1</subc> <sense n="1" xml:id="D1"> <cit type="translation" xml:lang="la">
+                                <quote> respirare </quote>
+                            </cit> <sense n="a" xml:id="D1a"> <cit type="translation" xml:lang="la">
+                                    <quote> spiritum ducere </quote>
+                                </cit>, <cit type="translation" xml:lang="la">
+                                    <quote> anhelare </quote>
+                                </cit>: <foreign xml:lang="gez">ዘያስተነፍስ፡</foreign> <cit type="translation" xml:lang="la">
+                                    <quote> animatus </quote>
+                                </cit> (i.e. <cit type="translation" xml:lang="la">
+                                    <quote> vivus </quote>
+                                </cit>) <ref cRef="Genz." loc="152">Genz. f. 152</ref>; <foreign xml:lang="gez">ሶበ፡ ያስተነፍስ፡</foreign> <foreign xml:lang="grc">εὔψυχος</foreign> (<cit type="translation" xml:lang="la">
+                                    <quote> animatus </quote>
+                                </cit> i.e. <cit type="translation" xml:lang="la">
+                                    <quote> animosus </quote>
+                                </cit>) <ref cRef="Prov." loc="24,66">Prov. 24,66</ref>.</sense> <sense n="b" xml:id="D1b"> ut videtur <cit type="translation" xml:lang="la">
+                                    <quote> odorari </quote>
+                                </cit> <ref cRef="Lit." loc="170,3">Lit. 170,3</ref>.</sense> <sense n="c" xml:id="D1c"> <cit type="translation" xml:lang="la">
+                                    <quote> animam recipere </quote>
+                                </cit>, <cit type="translation" xml:lang="la">
+                                    <quote> recreari </quote>
+                                </cit>: <foreign xml:lang="gez">ከመ፡ ያስተንፍስ፡ ወልደ፡ አመትከ፡</foreign> <foreign xml:lang="grc">ἀναψύξῃ</foreign> <ref cRef="Ex." loc="23,12">Ex. 23,12</ref>.</sense> <sense n="d" xml:id="D1d"> <cit type="translation" xml:lang="la">
+                                    <quote> spirare </quote>
+                                </cit> i.e. <cit type="translation" xml:lang="la">
+                                    <quote> aestum remittere </quote>
+                                </cit>: <foreign xml:lang="gez">እስከ፡ ሶበ፡ ታስተነፍስ፡ ዕለት፡</foreign> <ref cRef="Cant." loc="2,17">Cant. 2,17</ref>; <ref cRef="Cant." loc="4,6">Cant. 4,6</ref>.</sense> <sense n="2" xml:id="D12"> <cit type="translation" xml:lang="la">
+                                    <quote> inspirare </quote>
+                                </cit>, <cit type="translation" xml:lang="la">
+                                    <quote> inflare </quote>
+                                </cit>: <foreign xml:lang="gez">እግዚአብሔር፡ ዘአስተንፈሰ፡ ቦቱ፡ ነፍሰ፡</foreign> <ref cRef="Sap." loc="15,11">Sap. 15,11</ref>; <foreign xml:lang="gez">መጻሕፍተ፡ ሐሰት፡ ዘአስተንፈሰ፡ ሰይጣን፡ ውስተ፡ አፉሆሙ፡</foreign> <ref cRef="M.M." loc="f. 50">M.M. f. 50</ref>; <foreign xml:lang="gez">መንፈስ፡ ቅዱስ፡ ዘአስተንፈሰ፡ ቦሙ፡</foreign> (<foreign xml:lang="gez">ለነቢያት፡</foreign>) <foreign xml:lang="gez">በእስትንፋሰ፡ አፉሁ፡</foreign> M.M. f. 268.</sense> <sense n="3" xml:id="D13"> <cit type="translation" xml:lang="la">
+                                    <quote> recreare </quote>
+                                </cit>, <cit type="translation" xml:lang="la">
+                                    <quote> reficere </quote>
+                                </cit>: <foreign xml:lang="gez">አስተንፈስከ፡ ለልብየ፡</foreign> Lud. e Mss. Colb. <cb n="0707" xml:id="c0707"/> </sense> </sense> </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

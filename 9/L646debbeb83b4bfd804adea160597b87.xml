@@ -1,0 +1,145 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ፀአት </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L646debbeb83b4bfd804adea160597b87" n="6875">
+               <form>
+                  <foreign xml:lang="gez">ፀአት</foreign>
+               </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain">
+                  <gramGrp>
+                     <pos expand="nomen actionis">n. act.</pos>
+                  </gramGrp> et <gramGrp>
+                     <pos expand="Substantivum">subst.</pos>
+                  </gramGrp>, <gramGrp>
+                     <gen value="femininus">fem.</gen>
+                  </gramGrp> et <gramGrp>
+                     <gen value="masculinum">m.</gen>
+                  </gramGrp>, <cit type="translation" xml:lang="la">
+                     <quote>exitus</quote>
+                  </cit>, <cit type="translation" xml:lang="la">
+                     <quote>egressus</quote>
+                  </cit>: <foreign xml:lang="gez">በፀአትከ፡ እምነ፡ ሴይር፡</foreign>
+                  <ref cRef="Jud." loc="5,4">Jud. 5,4</ref>; <ref cRef="Ps." loc="28 ">Ps. 28
+                  </ref>tit.; <foreign xml:lang="gez">ፀአቶሙ፡</foreign> (i.q. <foreign xml:lang="gez">ወፂኦሙ፡</foreign>) <ref cRef="Ex. " loc="5,20">Ex. 5,20</ref>; <foreign xml:lang="gez">ፀአተ፡ ያወፅአክሙ፡</foreign>
+                  <ref cRef="Ex." loc="11,1">Ex. 11,1</ref>; <foreign xml:lang="gez">በበአትከ፡
+                     ወበፀአትከ፡</foreign>
+                  <ref cRef="Deut." loc="28,6">Deut. 28,6</ref>; <ref cRef="2 Par." loc="1,10">2
+                     Par. 1,10</ref>; <ref cRef="1 Reg." loc="29,6">1 Reg. 29,6</ref>; <foreign xml:lang="gez">ከመ፡ ፀአተ፡ አስሐትያ፡ በማእረር፡</foreign>
+                  <ref cRef="Prov." loc="25,13">Prov. 25,13</ref>; <foreign xml:lang="gez">ተፈሥሑ፡
+                     ግብጽ፡ በፀአቶሙ፡</foreign> (<cit type="translation" xml:lang="la">
+                     <quote>emigratio</quote>
+                  </cit>) <ref cRef="Ps." loc="104,36">Ps. 104,36</ref>; <foreign xml:lang="gez">እምድኅረ፡ ፀአቶሙ፡ ለአዳም፡ ወለሔዋን፡ እምውስተ፡ ገነት፡</foreign>
+                  <ref cRef="Clem." loc="8.">Clem. f. 8.</ref>
+                  <sense n="a" xml:id="Da">
+                     <cit type="translation" xml:lang="la">
+                        <quote>discessus</quote>
+                     </cit>, <cit type="translation" xml:lang="la">
+                        <quote>decessus</quote>
+                     </cit>: <foreign xml:lang="gez">ሶበ፡ በጽሐ፡ ጊዜ፡ ፀአቱ፡ እምዝንቱ፡ ዓለም፡</foreign>
+                     <ref cRef="Clem." loc="16">Clem. f. 16</ref>; <foreign xml:lang="gez">ትትፌሣሕ፡
+                        ነፍስ፡ ኄርት፡ በፀአታ፡ እምሥጋ፡ </foreign>
+                     <ref cRef="Jsp." loc="381.">Jsp. p. 381.</ref>
+                  </sense>
+                  <sense n="b" xml:id="Db">
+                     <cit type="translation" xml:lang="la">
+                        <quote>prolatio</quote>
+                     </cit>, <cit type="translation" xml:lang="la">
+                        <quote>pronuntiatio</quote>
+                     </cit>: <foreign xml:lang="gez">እምፀአተ፡ ቃሉ፡ </foreign>
+                     <ref cRef="Dan." loc="9,25">Dan. 9,25</ref>; <foreign xml:lang="gez">ወኢአሐተ፡
+                        ፀአተ፡ ቃል፡ እምአፉየ፡ </foreign> Org.</sense>
+                  <sense n="c" xml:id="Dc">
+                     <cit type="translation" xml:lang="la">
+                        <quote>ortus</quote>
+                     </cit>, <cit type="translation" xml:lang="la">
+                        <quote>origo</quote>
+                     </cit>: <foreign xml:lang="gez">እምሀገረ፡ መኑፍ፡ ፀአቱ፡</foreign> Sx. <ref cRef="Nah." loc="11 ">Nah. 11 </ref>Enc.</sense>
+                  <sense n="d" xml:id="Dd">
+                     <cit type="translation" xml:lang="la">
+                        <quote>exitus</quote>
+                     </cit> i.e. <cit type="translation" xml:lang="la">
+                        <quote>exodium</quote>
+                     </cit>, <cit type="translation" xml:lang="la">
+                        <quote>finis</quote>
+                     </cit>, <ref cRef="Lev." loc="23,36">Lev. 23,36</ref>.</sense>
+                  <sense n="e" xml:id="De">
+                     <cit type="translation" xml:lang="la">
+                        <quote>elatio funeris</quote>
+                     </cit>, <foreign xml:lang="grc">ἐκφορά</foreign>, <foreign xml:lang="gez">ወኢገብረ፡ ሕዝብ፡ ፀአተ፡ ቀበረ፡ ዚአሁ፡ በላዕሌሁ፡</foreign>
+                     <ref cRef="2 Par." loc="21,19">2 Par. 21,19</ref>.</sense>
+                  <sense n="f" xml:id="Df">
+                     <cit type="translation" xml:lang="la">
+                        <quote>ejectio</quote>
+                     </cit>, <cit type="translation" xml:lang="la">
+                        <quote>expulsio</quote>
+                     </cit>, <foreign xml:lang="grc">ἀποβολή</foreign>
+                     <ref cRef="Rom. " loc="11,15">Rom. 11,15</ref>.</sense>
+                  <sense n="g" xml:id="Dg">
+                     <cit type="translation" xml:lang="la">
+                        <quote>emanatio</quote>
+                     </cit>, <cit type="translation" xml:lang="la">
+                        <quote>effusio</quote>
+                     </cit> sanguinis <ref cRef="Fal." loc="16 ">Fal. f. 16 </ref>(<lbl expand="videas">vid. sub</lbl>
+                     <foreign xml:lang="gez">አንሳሕስሐ፡</foreign>).</sense>
+               </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

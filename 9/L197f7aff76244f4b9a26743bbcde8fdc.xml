@@ -1,0 +1,114 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ዳእሙ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="LB" when="2018-05-03">root</change>
+        </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L197f7aff76244f4b9a26743bbcde8fdc" n="8097">
+               <form>
+                  <foreign xml:lang="gez">ዳእሙ</foreign>
+               <rs type="root"/>
+                    </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain"> (etiam <foreign xml:lang="gez">ዳዕሙ፡</foreign>) particula [<bibl>
+                            <ptr target="bm:Dillmann1857Gramm"/>gramm.</bibl> § 163,2; <foreign xml:lang="ar">دَأَمَ</foreign> et <foreign xml:lang="ar">دَعَمَ</foreign> <cit type="translation" xml:lang="la">
+                            <quote> fulcire </quote>
+                        </cit>] <sense n="1" xml:id="D1"> adseverandi: <cit type="translation" xml:lang="la">
+                                <quote> profecto </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> re vera </quote>
+                            </cit>: <foreign xml:lang="gez">ወበኀቤክሙ፡ ዳእሙ፡ ጠፍአት፡ ጥበብ፡</foreign> <ref cRef="Job" loc="12,2">Job 12,2</ref>; <foreign xml:lang="grc">εἰ μήν</foreign> <ref cRef="Hez." loc="36,5">Hez. 36,5</ref>; <foreign xml:lang="gez">ዳእሙ፡ እመ፡ ኢይባርከከ፡</foreign> <foreign xml:lang="grc">ἦ μήν</foreign> <ref cRef="Job" loc="1,11">Job 1,11</ref>; <ref cRef="Job" loc="2,5">Job 2,5</ref>; <ref cRef="Joh." loc="9,27">Joh. 9,27</ref> <lbl expand="romanae editionis">rom.</lbl> (ubi Gr. <foreign xml:lang="grc">ἤδη</foreign> habet).</sense> <sense n="2" xml:id="D2"> restringendi: <cit type="translation" xml:lang="la">
+                                <quote> nonnisi </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> tantummodo </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> solum </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> tantum </quote>
+                            </cit> (sive ante sive post eam vocem, ad quam pertinet, positum): <foreign xml:lang="gez">እሉኑ፡ ዳእሙ፡ ደቂቅከ፡</foreign> <ref cRef="1 Reg." loc="16,11">1 Reg. 16,11</ref>; <foreign xml:lang="gez">ዳእሙ፡ ኪያክሙ፡ አእመርኩ፡</foreign> <ref cRef="Am." loc="3,2">Am. 3,2</ref>; <foreign xml:lang="gez">ሶበ፡ ያሤኒ፡ አመ፡ ረስዐ፡ ዳእሙ፡ ያሤኒ፡</foreign> <ref cRef="Sir." loc="14,7">Sir. 14,7</ref>; <ref cRef="Sir." loc="49,4">Sir. 49,4</ref>; <ref cRef="Judith" loc="4,7">Judith 4,7</ref>; <ref cRef="4 Esr." loc="2,30">4 Esr. 2,30</ref>; <foreign xml:lang="gez">አእምሩ፡ ዳእሙ፡</foreign> <foreign xml:lang="grc">γνῶτε μόνον</foreign> <ref cRef="Job" loc="19,3">Job 19,3</ref>; <ref cRef="Job" loc="19,6">Job 19,6</ref>; <ref cRef="Job" loc="17,13">Job 17,13</ref>; <foreign xml:lang="gez">ውእቱ፡ ዳእሙ፡ ባሕቲቱ፡</foreign> <ref cRef="Sir." loc="43,27">Sir. 43,27</ref>; <foreign xml:lang="gez">ውኁድ፡ ዳእሙ፡ ዘርኢነ፡ ግብሩ፡</foreign> <ref cRef="Sir. " loc="43,32">Sir.  43,32</ref>; <foreign xml:lang="gez">ወእሙንቱሰ፡ ዳእሙ፡ ክልኤሆሙ፡ እለ፡ ድኅኑ፡</foreign> <ref cRef="Sir." loc="46,8">Sir. 46,8</ref>; <ref cRef="Marc." loc="5,36">Marc. 5,36</ref>; <ref cRef="Luc." loc="12,41">Luc. 12,41</ref> <lbl expand="romanae editionis">rom.</lbl>; <ref cRef="Rom." loc="3,30">Rom. 3,30</ref>; <foreign xml:lang="gez">አኮ፡</foreign> – <foreign xml:lang="gez">ዳእሙ፡</foreign> <cit type="translation" xml:lang="la">
+                                <quote> non tantum </quote>
+                            </cit> (seq. <cit type="translation" xml:lang="la">
+                                <quote> sed etiam </quote>
+                            </cit>) <ref cRef="Rom." loc="13,5">Rom. 13,5</ref>; <ref cRef="Phil." loc="1,29">Phil. 1,29</ref>; <ref cRef="Phil." loc="2,12">Phil. 2,12</ref>; <ref cRef="1 Petr." loc="2,18">1 Petr. 2,18</ref>; <ref cRef="2 Cor." loc="7,7">2 Cor. 7,7</ref> <lbl expand="romanae editionis">rom.</lbl> </sense> <sense n="3" xml:id="D3"> adversandi <sense n="a" xml:id="D3a"> post sententiam negativam: <cit type="translation" xml:lang="la">
+                                    <quote> sed </quote>
+                                </cit> (ab initio sententiae positum), <ref cRef="4 Esr." loc="8,31">4 Esr. 8,31</ref>; <ref cRef="4 Esr." loc="8,32">4 Esr. 8,32</ref>; <ref cRef="4 Esr." loc="8,33">4 Esr. 8,33</ref>; <ref cRef="4 Esr." loc="8,34">4 Esr. 8,34</ref>; <ref cRef="4 Esr. " loc="8,35">4 Esr.  8,35</ref>; <ref cRef="4 Esr." loc="10,6">4 Esr. 10,6</ref>; <ref cRef="4 Esr." loc="10,7">4 Esr. 10,7</ref>; <ref cRef="4 Esr." loc="10,25">4 Esr. 10,25</ref>; <ref cRef="Job" loc="32,9">Job 32,9</ref>; <ref cRef="Jes." loc="7,8">Jes. 7,8</ref>; <ref cRef="Jes." loc="10,7">Jes. 10,7</ref>; <ref cRef="Jes." loc="10,20">Jes. 10,20</ref>; <ref cRef="Jes." loc="11,4">Jes. 11,4</ref>; <ref cRef="Jes." loc="32,3">Jes. 32,3</ref>; <ref cRef="Jes." loc="42,3">Jes. 42,3</ref>; <ref cRef="Jes." loc="49,10">Jes. 49,10</ref>; <ref cRef="Jes." loc="58,6">Jes. 58,6</ref>; <ref cRef="Jes." loc="62,9">Jes. 62,9</ref>; <ref cRef="Jer." loc="2,34">Jer. 2,34</ref>; <ref cRef="Jer." loc="15,17">Jer. 15,17</ref>; <ref cRef="Jer." loc="22,17">Jer. 22,17</ref>; <ref cRef="Dan." loc="2,30">Dan. 2,30</ref>; <ref cRef="Dan." loc="9,18">Dan. 9,18</ref>; <ref cRef="Judith" loc="10,16">Judith 10,16</ref>; <ref cRef="Gen. " loc="35,10">Gen.  35,10</ref>; <ref cRef="Joh." loc="1,8">Joh. 1,8</ref>; <ref cRef="1 Thess." loc="2,4">1 Thess. 2,4</ref>; <ref cRef="2 Thess." loc="3,9">2 Thess. 3,9</ref>; <ref cRef="2 Tim." loc="1,9">2 Tim. 1,9</ref> al. crebro; <foreign xml:lang="gez">ዳእሙ፡ ዓዲ፡</foreign> <cit type="translation" xml:lang="la">
+                                    <quote> verum etiam </quote>
+                                </cit> (praemisso <cit type="translation" xml:lang="la">
+                                    <quote> non tantum </quote>
+                                </cit>) <ref cRef="Joh." loc="5,18">Joh. 5,18</ref>.</sense> <sense n="b" xml:id="D3b"> <cit type="translation" xml:lang="la">
+                                    <quote> contra </quote>
+                                </cit>, <cit type="translation" xml:lang="la">
+                                    <quote> potius </quote>
+                                </cit>, <cit type="translation" xml:lang="la">
+                                    <quote> immo vero </quote>
+                                </cit>, (<note>vielmehr</note>; plerumque post eam vocem, ad quam pertinet, positum): <foreign xml:lang="gez">ትልዎ፡ ዳእሙ፡</foreign> <ref cRef="Sir." loc="2,3">Sir. 2,3</ref>; <foreign xml:lang="gez">ተአመን፡ ዳእሙ፡</foreign> <ref cRef="Sir." loc="2,6">Sir. 2,6</ref>; <foreign xml:lang="gez">ኀሊ፡ ዳእሙ፡</foreign> <ref cRef="Sir." loc="3,22">Sir. 3,22</ref>; <foreign xml:lang="gez">ፈንዎሙ፡ ዳእሙ፡</foreign> <ref cRef="Jer." loc="15,1">Jer. 15,1</ref>; <foreign xml:lang="gez">ዝንቱ፡ ዳእሙ፡ ግብርከ፡</foreign> <ref cRef="Jer." loc="22,17">Jer. 22,17</ref>; <foreign xml:lang="gez">ወይቤሎ፡ አልቦ፤ ዳእሙ፡ ፈንወኒ፡</foreign> <ref cRef="Tob." loc="10,9">Tob. 10,9</ref>; <foreign xml:lang="grc">δὴ</foreign> <ref cRef="4 Reg." loc="9,12">4 Reg. 9,12</ref>; <foreign xml:lang="gez">ቦኑ፡ እፈቅድ፡ ከመ፡ ይሙት፡ ኃጥእ፤ ዳእሙ፡ ከመ፡ ይትመየጥ፡</foreign> <ref cRef="Hez." loc="18,23">Hez. 18,23</ref>; <ref cRef="Hez." loc="33,11">Hez. 33,11</ref>; <ref cRef="Rom." loc="9,7">Rom. 9,7</ref>; <ref cRef="Marc." loc="4,17">Marc. 4,17</ref>; <foreign xml:lang="grc">μᾶλλον</foreign> <ref cRef="Rom." loc="14,13">Rom. 14,13</ref>; <ref cRef="Rom." loc="14,14">Rom. 14,14</ref>. <sense n="α" xml:id="D3bα"> crebro <foreign xml:lang="gez">ዳእሙ፡</foreign> <foreign xml:lang="grc">ἀλλ</foreign>ʼ <foreign xml:lang="grc">ἤ</foreign> <cit type="translation" xml:lang="la">
+                                        <quote> sed tantum </quote>
+                                    </cit>, <cit type="translation" xml:lang="la">
+                                        <quote> sed potius </quote>
+                                    </cit>, <cit type="translation" xml:lang="la">
+                                        <quote> quin potius </quote>
+                                    </cit>: <ref cRef="Gen." loc="24,4">Gen. 24,4</ref>; <ref cRef="Hez." loc="36,22">Hez. 36,22</ref>; <ref cRef="Jer." loc="7,23">Jer. 7,23</ref>; <ref cRef="Jer. " loc="38,30">Jer.  38,30</ref>; <ref cRef="Ps." loc="1,2">Ps. 1,2</ref>; <ref cRef="Ps." loc="1,5">Ps. 1,5</ref>; <ref cRef="Job" loc="14,22">Job 14,22</ref>; vel</sense> <sense n="β" xml:id="D3bβ"> <foreign xml:lang="gez">ዘእንበለ፡ ዳእሙ፡</foreign> <ref cRef="Hez." loc="15,4">Hez. 15,4</ref>; <ref cRef="4 Esr." loc="13,11">4 Esr. 13,11</ref>; <ref cRef="Jer. " loc="9,24">Jer.  9,24</ref>; <ref cRef="Kuf." loc="41.">Kuf. 41.</ref> </sense> <sense n="c" xml:id="D3bc"> <cit type="translation" xml:lang="la">
+                                        <quote> at </quote>
+                                    </cit>, <cit type="translation" xml:lang="la">
+                                        <quote> tamen </quote>
+                                    </cit>, <cit type="translation" xml:lang="la">
+                                        <quote> verum </quote>
+                                    </cit>: <foreign xml:lang="grc">ἀλλά</foreign> <ref cRef="Job" loc="1,12">Job 1,12</ref>; <foreign xml:lang="grc">πλήν</foreign> <ref cRef="Jer." loc="3,13">Jer. 3,13</ref>; <ref cRef="Jer. " loc="3,23">Jer.  3,23</ref>; <ref cRef="Dan." loc="2,6">Dan. 2,6</ref>; <ref cRef="Dan." loc="4,12">Dan. 4,12</ref>; <foreign xml:lang="gez">ዘእንበለ፡ ዘበልዑ፡ ዳእሙ፡ ወራዙት፡</foreign> <ref cRef="Kuf." loc="55">Kuf. p. 55</ref>; <ref cRef="2 Reg." loc="2,10">2 Reg. 2,10</ref>; <foreign xml:lang="grc">δέ</foreign> <ref cRef="Phil." loc="3,12">Phil. 3,12</ref>; <foreign xml:lang="gez">ወዳእሙ፡</foreign> <ref cRef="Jos." loc="6,15">Jos. 6,15</ref>; <ref cRef="Job " loc="36,10">Job  36,10</ref>; <ref cRef="Gal." loc="1,23">Gal. 1,23</ref>; <ref cRef="4 Esr." loc="10,49">4 Esr. 10,49</ref>; ante Imperativum: <foreign xml:lang="gez">ወይቤሎ፡ ዳእሙ፡ ቅንት፡ ሐቌከ፡</foreign> <ref cRef="Job" loc="40,2">Job 40,2</ref>.</sense> </sense> </sense> </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,96 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ነግህ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="AE" when="2018-01-14">aus den Addenda ergänzt,</change>
+        </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="Le95d32e83e564f43bca893222b059a57" n="5182">
+               <form>
+                  <foreign xml:lang="gez">ነግህ</foreign>
+               </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain"> {<ref target="#c1431"/> Huic radici cfr. etiam <foreign xml:lang="gez">ገሃህ፡</foreign>} <gramGrp> <pos expand="not found">subst.</pos> </gramGrp> <cit type="translation" xml:lang="la">
+                            <quote> prima lux </quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                            <quote> diluculum </quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                            <quote> multum mane </quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                            <quote> tempus matutinum </quote>
+                        </cit>: <foreign xml:lang="gez">ማእዜ፡ ነግሀ፡ ይከውን፡</foreign> (<foreign xml:lang="grc">ὄρθρος</foreign>) <ref cRef="Prov." loc="23,35">Prov. 23,35</ref>; <foreign xml:lang="gez">ነግህ፡ ብሔር፡</foreign> <ref cRef="Act." loc="2,15">Act. 2,15</ref> Platt. <sense n="a" xml:id="Da"> <foreign xml:lang="gez">እምነግህ፡</foreign> <cit type="translation" xml:lang="la">
+                                <quote> a mane </quote>
+                            </cit>: <foreign xml:lang="gez">እምነግህ፡ እስከ፡ ሰርክ፡</foreign> <ref cRef="Ex." loc="18,13">Ex. 18,13</ref>; <ref cRef="Ruth" loc="2,7">Ruth 2,7</ref>; <ref cRef="Sir." loc="18,26">Sir. 18,26</ref>; <ref cRef="Jes." loc="38,13">Jes. 38,13</ref>.</sense> <sense n="b" xml:id="Db"> <foreign xml:lang="gez">ለነግህ፡</foreign> <cit type="translation" xml:lang="la">
+                                <quote> ad mane </quote>
+                            </cit> <ref cRef="Ex." loc="12,10">Ex. 12,10</ref>.</sense> <sense n="c" xml:id="Dc"> <foreign xml:lang="gez">በነግህ፡</foreign> <cit type="translation" xml:lang="la">
+                                <quote> mane </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> bene mane </quote>
+                            </cit>: <ref cRef="Matth." loc="20,1">Matth. 20,1</ref>; <ref cRef="Marc." loc="11,20">Marc. 11,20</ref>; <ref cRef="Koh." loc="10,16">Koh. 10,16</ref>; <ref cRef="Koh." loc="11,6">Koh. 11,6</ref>; <ref cRef="Kuf." loc="31.">Kuf. 31.</ref> </sense> <sense n="d" xml:id="Dd"> <foreign xml:lang="gez">ነግሀ፡</foreign> <cit type="translation" xml:lang="la">
+                                <quote> mane </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> bene mane </quote>
+                            </cit>: <ref cRef="Ex." loc="16,7">Ex. 16,7</ref>; <ref cRef="Ps. " loc="54,19">Ps.  54,19</ref>; Kuf. crebro; <foreign xml:lang="gez">ነግሀ፡ በጽባሕ፡</foreign> <ref cRef="Kuf." loc="42.">Kuf. 42.</ref> </sense> <sense n="e" xml:id="De"> distributive: <cit type="translation" xml:lang="la">
+                                <quote> singulis matutinis </quote>
+                            </cit> (<cit type="translation" xml:lang="la">
+                                <quote> quovis die </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> in dies </quote>
+                            </cit>): <foreign xml:lang="gez">በበ፡ ነግህ፡</foreign> <ref cRef="Ex." loc="16,21">Ex. 16,21</ref>; <ref cRef="2 Par." loc="13,11">2 Par. 13,11</ref>, vel <foreign xml:lang="gez">ነግሀ፡ ነግህ፡</foreign> <ref cRef="Ex." loc="36,3">Ex. 36,3</ref>; <ref cRef="2 Reg." loc="13,4">2 Reg. 13,4</ref>; <foreign xml:lang="gez">ይኩነኒ፡ ለነግሀ፡ ነግህ፡</foreign> (v. <foreign xml:lang="gez">ለነግህ፡ ነግሀ፡</foreign>) <ref cRef="4 Reg." loc="16,15">4 Reg. 16,15</ref>.</sense> </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

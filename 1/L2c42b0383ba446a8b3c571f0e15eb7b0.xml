@@ -1,0 +1,101 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ግናሕ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L2c42b0383ba446a8b3c571f0e15eb7b0" n="8483">
+               <form>
+                  <foreign xml:lang="gez">ግናሕ</foreign>
+               </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain">
+                  <gramGrp>
+                     <pos expand="Substantivum">subst.</pos>
+                  </gramGrp>
+                  <sense n="1" xml:id="D1">
+                     <cit type="translation" xml:lang="la">
+                        <quote>vehementia et superbia</quote>
+                     </cit>, <cit type="translation" xml:lang="la">
+                        <quote>verba imperiosa</quote>
+                     </cit>: <foreign xml:lang="gez">በትዕቢተ፡ ፀር፡ ወበግናሕ፡</foreign>
+                     <foreign xml:lang="grc">ἀπονοίαις βαρβαρικαῖς οὐ μετρίως
+                        κατωφρυωμένος</foreign> Cyr. ad <ref cRef="Theod." loc="7">Theod. f.
+                     7</ref>; <foreign xml:lang="gez">እስመ፡ ውእቱ፡ አኮ፡ ዘይትናገረክሙ፡ በቃለ፡ ግናሕ፡ ከመ፡ መኰንን፡
+                        ወከመ፡ ሊቅ፡ ዐቢይ፡</foreign>
+                     <foreign xml:lang="grc">οὐκ ἐξ αὐθεντίας ταῦτα λέγων οὐδὲ ὡς ἐν τάξει ἄρχων </foreign>
+                     <ref cRef="Chrys. Ta." loc="4.">Chrys. Ta. 4.</ref>
+                  </sense>
+                  <sense n="2" xml:id="D2">
+                     <cit type="translation" xml:lang="la">
+                        <quote>increpatio imperiosa</quote>
+                     </cit>, <cit type="translation" xml:lang="la">
+                        <quote>objurgatio vehementior</quote>
+                     </cit>: Galatae <foreign xml:lang="gez">ኮኑ፡ ድንዙዛነ፡ እንዘ፡ ይትሜክሑ፡ ወደለዎ፡</foreign>
+                        (<foreign xml:lang="gez">ለጳውሎስ፡</foreign>) <foreign xml:lang="gez">ከመ፡
+                        ይትናገሮሙ፡ በቃለ፡ ግናሕ፡ ዘያሐምም፡ </foreign>
+                     <foreign xml:lang="grc">ὅθεν αὐτοῖς ἔδει πληκτικωτέρου λόγου </foreign>
+                     <ref cRef="Chrys. ho." loc="21">Chrys. ho. 21</ref>; <foreign xml:lang="gez">ነገርነ፡ በቃለ፡ ግናሕ፡</foreign>
+                     <foreign xml:lang="grc">σφοδρότερον διελέχθημεν</foreign>
+                     <ref cRef="Chrys. Ta." loc="4.">Chrys. Ta. 4.</ref> – <lbl expand="Vocabularium Aethiopicum, -a -a.">Voc. Ae.</lbl>: <foreign xml:lang="gez">ገንሐ፡ ጕሕናቱ፡</foreign> (sic, <lbl expand="videas">vid. sub</lbl>
+                     <foreign xml:lang="gez">ገሀነ፡</foreign>) <foreign xml:lang="gez">አግናሒነ፡ እሉ፡ ኵሉ፡
+                        ልዕልና፡ ቃል፡</foreign>
+                  </sense>
+               </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

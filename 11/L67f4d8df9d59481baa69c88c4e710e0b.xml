@@ -1,0 +1,111 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ናእት </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L67f4d8df9d59481baa69c88c4e710e0b" n="5130">
+               <form>
+                  <foreign xml:lang="gez">ናእት</foreign>
+               </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain">
+                  <gramGrp>
+                     <pos expand="Substantivum">subst.</pos>
+                  </gramGrp>, <gramGrp>
+                     <gen value="masculinum">m.</gen>
+                  </gramGrp> et <gramGrp>
+                     <gen value="femininus">fem.</gen>
+                  </gramGrp>, <cit type="translation" xml:lang="la">
+                     <quote>panis infermentatus</quote>
+                  </cit> (fermento non corruptus) vel <cit type="translation" xml:lang="la">
+                     <quote>azymus</quote>
+                  </cit>; <foreign xml:lang="gez">ኅብስት፡ ናእት፡</foreign> (per apposit.) <ref cRef="Ex." loc="29,2">Ex. 29,2</ref>; <foreign xml:lang="gez">ዳፍንት፡
+                     ናእት፡</foreign>
+                  <ref cRef="Gen." loc="19,3">Gen. 19,3</ref>; <ref cRef="Lev." loc="2,4">Lev.
+                     2,4</ref>; <ref cRef="Lev." loc="2,5">Lev. 2,5</ref>; <foreign xml:lang="gez">ኅብስተ፡ ናእት፡</foreign> (per st. constr.) <ref cRef="Lev." loc="8,26">Lev.
+                     8,26</ref>; <foreign xml:lang="gez">ጸራይቀ፡ ናእት፡</foreign>
+                  <ref cRef="Ex." loc="29,2">Ex. 29,2</ref>; <ref cRef="Jud." loc="6,19">Jud.
+                     6,19</ref>; <ref cRef="Jud." loc="6,20">Jud. 6,20</ref>; plerumque <gramGrp>
+                     <pos expand="absolute">absol.</pos>
+                  </gramGrp>
+                  <foreign xml:lang="gez">ናእት፡</foreign>
+                  <cit type="translation" xml:lang="la">
+                     <quote>azyma</quote>
+                  </cit>: <foreign xml:lang="gez">ናእት፡ ትበልዑ፡</foreign>
+                  <ref cRef="Ex." loc="12,8">Ex. 12,8</ref>; <ref cRef="Ex." loc="13,6">Ex.
+                     13,6</ref>
+                  <lbl expand="sequens">seq.</lbl>; <ref cRef="Ex." loc="23,15">Ex. 23,15</ref>;
+                     <ref cRef="Jos." loc="5,11">Jos. 5,11</ref>; <ref cRef="Hez." loc="45,21">Hez.
+                     45,21</ref>; <ref cRef="1 Esr." loc="1,10">1 Esr. 1,10</ref>; <foreign xml:lang="gez">ደፈነት፡ ናእተ፡</foreign>
+                  <ref cRef="1 Reg." loc="28,24">1 Reg. 28,24</ref>; <foreign xml:lang="gez">ለውእቱ፡
+                     ናእት፡</foreign>
+                  <ref cRef="Jud." loc="6,21">Jud. 6,21</ref>; <foreign xml:lang="gez">በዓለ፡
+                     ናእት፡</foreign>
+                  <cit type="translation" xml:lang="la">
+                     <quote>festum azymorum</quote>
+                  </cit>
+                  <ref cRef="Kuf." loc="49">Kuf. 49</ref>; <ref cRef="Lev." loc="23,6">Lev.
+                     23,6</ref>; <ref cRef="2 Esr." loc="6,22">2 Esr. 6,22</ref>; <lbl expand="translate">transl.</lbl>: <foreign xml:lang="gez">ናእት፡ አንትሙ፡</foreign>
+                  <cit type="translation" xml:lang="la">
+                     <quote>azyma</quote>
+                  </cit> vel <cit type="translation" xml:lang="la">
+                     <quote>azymi estis</quote>
+                  </cit> 1 <ref cRef="Cor." loc="5,7">Cor. 5,7</ref>. </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

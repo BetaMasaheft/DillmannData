@@ -1,0 +1,112 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ዕንቍ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="Lc411d47734934dd793c1816a750a992b" n="7188">
+               <form>
+                  <foreign xml:lang="gez">ዕንቍ</foreign>
+               </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain">
+                  <gramGrp>
+                     <pos expand="Substantivum">subst.</pos>
+                  </gramGrp>, <gramGrp>
+                     <gen value="masculinum">m.</gen>
+                  </gramGrp>, <lbl expand="collatio, -is vel collectivum, -e">coll.</lbl> et <lbl expand="singularis">Sing.</lbl>, <lbl expand="pluralis">Pl.</lbl>
+                  <foreign xml:lang="gez">አዕናቍ፡ </foreign> (proprie: lapis monilium,
+                     <note>Geschmeidestein</note>, ab <foreign xml:lang="gez">ዐነቀ፡ </foreign> eodem
+                  modo derivatum,quo <foreign xml:lang="ar">عِلْقٌ</foreign>
+                  <cit type="translation" xml:lang="la">
+                     <quote>res pretiosa</quote>
+                  </cit> ab <foreign xml:lang="ar">عَلِقَ</foreign>
+                  <cit type="translation" xml:lang="la">
+                     <quote>adhaesit</quote>
+                  </cit>), <cit type="translation" xml:lang="la">
+                     <quote>gemma</quote>
+                  </cit>, <ref cRef="Gen." loc="2,12">Gen. 2,12</ref>; <ref cRef="Ex." loc="35,8">Ex. 35,8</ref>; <ref cRef="3 Reg." loc="10,2">3 Reg. 10,2</ref>; <ref cRef="3 Reg." loc="10,10">3 Reg. 10,10</ref>; <ref cRef="Jes. " loc="13,12">Jes. 13,12</ref>; <foreign xml:lang="gez">ዕንቍ፡ ዘብዙኅ፡ ሤጡ፡</foreign>
+                  <ref cRef="Job" loc="31,24">Job 31,24</ref>; <ref cRef="Prov." loc="3,15">Prov.
+                     3,15</ref>; <foreign xml:lang="gez">ዕንቍ፡ ዘዕጹብ፡ ሤጡ፡</foreign>
+                  <ref cRef="Sir." loc="45,11">Sir. 45,11</ref>; <foreign xml:lang="gez">ዕንቍ፡
+                     ሠናይ፡</foreign>
+                  <ref cRef="Hez." loc="27,22">Hez. 27,22</ref>; <foreign xml:lang="gez">ዕንቍ፡
+                     ክቡር፡</foreign>
+                  <ref cRef="Sir." loc="35,5">Sir. 35,5</ref>; <ref cRef="Sir." loc="50,9">Sir.
+                     50,9</ref>; <ref cRef="Tob." loc="13,16">Tob. 13,16</ref>; <ref cRef="Ps." loc="18,11">Ps. 18,11</ref>; <ref cRef="Ps." loc="20,3">Ps. 20,3</ref>; <ref cRef="Apoc." loc="17,4">Apoc. 17,4</ref>; <foreign xml:lang="gez">ዕንቍ፡
+                     ቅዱስ፡</foreign>
+                  <ref cRef="Thren." loc="4,1">Thren. 4,1</ref>; <foreign xml:lang="gez">ዕንቈ፡
+                     ኢያስጲድ፡</foreign>
+                  <ref cRef="Apoc." loc="4,3">Apoc. 4,3</ref>; <foreign xml:lang="gez">ዕንቈ፡
+                     ባሕርይ፡</foreign> Lud. e Ssal. Req.; <foreign xml:lang="gez">ሰሐባ፡ ለጥበብ፡
+                     እምአዕናቍ፡</foreign>
+                  <ref cRef="Job" loc="28,18">Job 28,18</ref>; <ref cRef="Org." loc="3">Org.
+                  3</ref>; <foreign xml:lang="gez">ዕንቆሙ፡</foreign> et <foreign xml:lang="gez">አዕናቆሙ፡</foreign>
+                  <ref cRef="Cyr. " loc="129">Cyr. f. 129</ref>; <foreign xml:lang="gez">ዕንቍ፡
+                     ዘያኀቱ፡</foreign>
+                  <foreign xml:lang="grc">ἄνθραξ </foreign>
+                  <ref cRef="Jes." loc="54,11">Jes. 54,11</ref>; <ref cRef="Gen." loc="2,12">Gen.
+                     2,12</ref>; <foreign xml:lang="gez">ዕንቍ፡ ዘተሰክዐ፡ በፈትለ፡ ሜላት፡ </foreign> Org.;
+                  epitheton hominum illustrium: <foreign xml:lang="gez">ቴዎድሮስ፡ ዕንቍ፡ </foreign>
+                  <ref cRef="Sx. Ter" loc="12 ">Sx. Ter 12 </ref>Enc.; martyres Nagranenses <foreign xml:lang="gez">አዕናቍ፡ </foreign>
+                  <ref cRef="Sx. Hed." loc="26 ">Sx. Hed. 26 </ref>Enc.; <foreign xml:lang="gez">እማንቱ፡ ዕንቈ፡ ባሕርያት፡ ክቡራት፡ </foreign>
+                  <ref cRef="Sx. Mij." loc="8.">Sx. Mij. 8.</ref>
+                  <cb n="0991" xml:id="c0991"/>
+               </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

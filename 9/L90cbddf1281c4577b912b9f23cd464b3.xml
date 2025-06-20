@@ -1,0 +1,104 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ጸልመ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="LB" when="2018-05-15">root</change>
+          <change who="AE" when="2018-10-24">Verschachtelung,</change>
+          <change who="PL" when="2019-09-16">fix for #16</change>
+        </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L90cbddf1281c4577b912b9f23cd464b3" n="9141">
+               <form>
+                  <foreign xml:lang="gez">ጸልመ</foreign>
+               <rs type="root"/>
+                    </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain"> <subc>I,1</subc> raro <foreign xml:lang="gez">ጸለመ፡</foreign> (<ref cRef="Herm." loc="83">Herm. p. 83</ref>), <gramGrp> <pos expand="Subjunctivus">Subj.</pos> </gramGrp> <foreign xml:lang="gez">ይጽለም፡</foreign> rarius <foreign xml:lang="gez">ይጽልም፡</foreign> [<foreign xml:lang="ar">ظلم</foreign> (<foreign xml:lang="he">צֶלֶם</foreign> <foreign xml:lang="syr">ܨܰܠܡܳܐ</foreign>), <lbl expand="vicinus">vic.</lbl> II <foreign xml:lang="gez">ጸለለ፡</foreign>] <sense n="1" xml:id="D1"> <cit type="translation" xml:lang="la">
+                                <quote> obscurari </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> tenebris </quote>
+                            </cit> vel <cit type="translation" xml:lang="la">
+                                <quote> caligine circumfundi </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> caligare </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> tenebrosum esse </quote>
+                            </cit> vel <cit type="translation" xml:lang="la">
+                                <quote> fieri </quote>
+                            </cit>: <foreign xml:lang="gez">ለትጽለም፡ ይእቲ፡ ሌሊት፡</foreign> <ref cRef="Job" loc="3,4">Job 3,4</ref>; <foreign xml:lang="gez">ጽልመት፡ ኢይጸልም፡ በኀቤከ፡</foreign> <ref cRef="Ps. " loc="138,11">Ps.  138,11</ref>; <foreign xml:lang="gez">ይጽለም፡ ሰማይ፡</foreign> <ref cRef="Jer." loc="4,28">Jer. 4,28</ref>; <ref cRef="3 Reg." loc="18,45">3 Reg. 18,45</ref>; <foreign xml:lang="gez">ጸልሙ፡ ማያት፡</foreign> <ref cRef="Ps." loc="17,13">Ps. 17,13</ref>; <ref cRef="Jer." loc="14,2">Jer. 14,2</ref>; <foreign xml:lang="gez">ጸልመ፡ ዓለም፡</foreign> <ref cRef="Matth." loc="27,45">Matth. 27,45</ref>; <ref cRef="Luc." loc="23,44">Luc. 23,44</ref>. <sense n="a" xml:id="D1a"> de facie <cit type="translation" xml:lang="la">
+                                    <quote> tetrica </quote>
+                                </cit> (<cit type="translation" xml:lang="la">
+                                    <quote> obnubilari </quote>
+                                </cit>): <foreign xml:lang="gez">ጸልመ፡ ገጹ፡</foreign> <foreign xml:lang="grc">διετράπη</foreign> <ref cRef="Esth." loc="7,8">Esth. 7,8</ref>; <foreign xml:lang="gez">ተወለጠ፡ ገጾሙ፡ ወጸልመ፡</foreign> <ref cRef="Jer." loc="37,6">Jer. 37,6</ref>; <ref cRef="4 Esr." loc="7,31">4 Esr. 7,31</ref>; <ref cRef="Dan." loc="5,6">Dan. 5,6</ref>; <ref cRef="Dan." loc="5,9">Dan. 5,9</ref>; <foreign xml:lang="gez">ኢይጽለምከ፡</foreign> (v. <foreign xml:lang="gez">ኢይጽልምከ፡</foreign>) <foreign xml:lang="gez">ገጽከ፡</foreign> <ref cRef="Dan. " loc="5,10">Dan.  5,10</ref>.</sense> <sense n="b" xml:id="D1b"> de oculis (<cit type="translation" xml:lang="la">
+                                    <quote> caligare </quote>
+                                </cit>, <cit type="translation" xml:lang="la">
+                                    <quote> occaecari </quote>
+                                </cit>): <foreign xml:lang="gez">ጸልመ፡ ዐይንነ፡</foreign> <ref cRef="Thren." loc="5,17">Thren. 5,17</ref>; <ref cRef="Koh." loc="12,3">Koh. 12,3</ref>; <ref cRef="Ps." loc="68,28">Ps. 68,28</ref>; <ref cRef="Rom." loc="11,10">Rom. 11,10</ref>; etiam de eo, cujus oculi caecutiunt: <foreign xml:lang="gez">ተጸለለ፡ ወጸልመ፡</foreign> <ref cRef="Act." loc="13,11">Act. 13,11</ref>; de mente, scientia: F.N. 5 (<lbl expand="videas">vid. sub</lbl> <foreign xml:lang="gez">ገዝፈ፡</foreign>).</sense> <sense n="c" xml:id="D1c"> de sole, luna et stellis (<cit type="translation" xml:lang="la">
+                                    <quote> deficere </quote>
+                                </cit>): <foreign xml:lang="gez">ጸልመ፡ ፀሓይ፡</foreign> <ref cRef="Apoc." loc="6,12">Apoc. 6,12</ref>; <ref cRef="Joel" loc="2,10">Joel 2,10</ref>; <foreign xml:lang="gez">ይጽለሙ፡</foreign> (v. <foreign xml:lang="gez">ይጽልሙ፡</foreign>) <ref cRef="Job" loc="3,9">Job 3,9</ref>; <ref cRef="Koh." loc="12,2">Koh. 12,2</ref>; <ref cRef="Jes. " loc="13,10">Jes.  13,10</ref>; <ref cRef="Matth." loc="24,29">Matth. 24,29</ref>; <ref cRef="Sx. Mag." loc="27">Sx. Mag. 27</ref>; <ref cRef="Clem." loc="12">Clem. f. 12</ref>; <ref cRef="Clem." loc="218 ">Clem. f. 218 </ref>al.; <foreign xml:lang="gez">በ፲ወ፫ ዓመት፡ ለገላውዴዎስ፡ ጸልመ፡ ፀሓይ፡</foreign> (accidit eclipsis solis) <ref cRef="Chr. L. Atq." loc="10">Chr. L. Atq. f. 10</ref>. </sense> <sense n="d" xml:id="D1d"> <cit type="translation" xml:lang="la">
+                                    <quote> tenebrae factae sunt </quote>
+                                </cit> <foreign xml:lang="gez">ጸልመ፡</foreign> <ref cRef="Joh." loc="6,17">Joh. 6,17</ref>; <lbl expand="cum">c.</lbl> <gramGrp> <pos expand="pronomen suffixum">pron. suff.</pos> </gramGrp> pro <gramGrp> <case value="dativus">Dat.</case> </gramGrp> (<cit type="translation" xml:lang="la">
+                                    <quote> alicui </quote>
+                                </cit>): <foreign xml:lang="gez">ይጸልመክሙ፡ ወኢትሬእዩ፡</foreign> <ref cRef="Jes. " loc="8,22">Jes.  8,22</ref>; <foreign xml:lang="gez">ዘእንበለ፡ ይጽለምክሙ፡</foreign> <foreign xml:lang="grc">πρὸ τοῦ συσκοτάσαι</foreign> <ref cRef="Jer." loc="13,16">Jer. 13,16</ref>.</sense> </sense> <sense n="2" xml:id="D2"> <cit type="translation" xml:lang="la">
+                                <quote> nigrum esse </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> nigrescere </quote>
+                            </cit>: <ref cRef="Herm." loc="83">Herm. p. 83</ref>; <foreign xml:lang="gez">ጸሊመ፡ ሥዕርት፡</foreign> <ref cRef="Koh." loc="11,10">Koh. 11,10</ref>; <foreign xml:lang="gez">ይጸልም፡ ገጾሙ፡ እምጢስ፡</foreign> <ref cRef="Ep. Jer." loc="20.">Ep. Jer. 20.</ref> </sense>
+                    </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

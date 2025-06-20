@@ -1,0 +1,103 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ተኳነነ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L82c82f4e05c14f9492b85e76cea3600e" n="6247">
+               <form>
+                  <foreign xml:lang="gez">ተኳነነ</foreign>
+               </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain"> <subc>III,3</subc> <sense n="1" xml:id="D1"> se invicem judicare i.e.
+                        <cit type="translation" xml:lang="la">
+                        <quote>controversiam dirimere</quote>
+                     </cit>, <cit type="translation" xml:lang="la">
+                        <quote>litem componere</quote>
+                     </cit>, <cit type="translation" xml:lang="la">
+                        <quote>sibi invicem reconciliari</quote>
+                     </cit>, de pluribus: <ref cRef="Luc." loc="23,12">Luc. 23,12</ref>; <foreign xml:lang="gez">ተደመሩ፡ ክልኤሆሙ፡ ወተኳነኑ፡ ወገብሩ፡ ሰላመ፡ በበይናቲሆሙ፡</foreign>
+                     <ref cRef="Jsp." loc="297">Jsp. p. 297</ref>; <ref cRef="Kuf." loc="106">Kuf.
+                        p. 106</ref>; <lbl expand="cum">c.</lbl>
+                     <foreign xml:lang="gez">ምስለ፡ </foreign>
+                     <ref cRef="Matth." loc="5,24">Matth. 5,24</ref>; <ref cRef="Did." loc="10">Did.
+                        10</ref>; <lbl expand="cum">c.</lbl>
+                     <gramGrp>
+                        <case value="accusativus">Acc.</case>
+                     </gramGrp> (<cit type="translation" xml:lang="la">
+                        <quote>cum</quote>
+                     </cit> aliquo, vel <cit type="translation" xml:lang="la">
+                        <quote>alicui</quote>
+                     </cit>) <ref cRef="Jud. " loc="21,15">Jud. 21,15</ref>.</sense>
+                  <sense n="2" xml:id="D2">
+                     <cit type="translation" xml:lang="la">
+                        <quote>lege agere</quote>
+                     </cit>, <cit type="translation" xml:lang="la">
+                        <quote>litigare</quote>
+                     </cit>: die dominica <foreign xml:lang="gez">ኢይግበሩ፡ ቅስተ፡ ወተኳንኖ፡</foreign> F.N.
+                     19; <foreign xml:lang="gez">ይብጽሑ፡ ለተኳንኖ፡</foreign> F.N. 43,4. <cit type="translation" xml:lang="la">
+                        <quote>– Voc. Ae.:</quote>
+                     </cit>
+                     <foreign xml:lang="gez">ተኳነኑ፡ ዘ፡ ተዋቀሱ፡</foreign>; <cit type="translation" xml:lang="la">
+                        <quote>aliud</quote>
+                     </cit>: <foreign xml:lang="gez">ተኳነነ፡ ዘ፡ ፪ ተፈራረደ፡ ተዓረቀ።</foreign>
+                     <cb n="0856" xml:id="c0856"/>
+                  </sense>
+               </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

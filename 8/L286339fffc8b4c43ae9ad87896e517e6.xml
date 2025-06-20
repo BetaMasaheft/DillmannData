@@ -1,0 +1,112 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> አጥዐየ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L286339fffc8b4c43ae9ad87896e517e6" n="9021">
+               <form>
+                  <foreign xml:lang="gez">አጥዐየ</foreign>
+               </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain"> <subc>II,1</subc> <sense n="1" xml:id="D1">
+                     <cit type="translation" xml:lang="la">
+                        <quote>sanum</quote>
+                     </cit>, <cit type="translation" xml:lang="la">
+                        <quote>salvum</quote>
+                     </cit>, <cit type="translation" xml:lang="la">
+                        <quote>incolumem servare</quote>
+                     </cit> aliquem: <foreign xml:lang="gez">ሕጸጸ፡ ቅንአት፡ ያጥዒ፡ ሥጋ፡</foreign>
+                     <ref cRef="Fal." loc="69">Fal. f. 69</ref>; <foreign xml:lang="gez">እግዚአብሔር፡
+                        ያጥዒክሙ፡ ነፍሰክሙ፡</foreign>
+                     <ref cRef="1 Thess." loc="5,23">1 Thess. 5,23</ref>. <sense n="a" xml:id="D1a"> etiam
+                        aliquid, ut: <foreign xml:lang="gez">ሐመረ፡ ንግደትየ፡ አጥዒ፡</foreign>
+                        <ref cRef="Sx. Jac." loc="13 ">Sx. Jac. 13 </ref>Enc.</sense>
+                     <sense n="b" xml:id="D1b">
+                        <cit type="translation" xml:lang="la">
+                           <quote>vegetum</quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                           <quote>alacrem</quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                           <quote>laetum reddere</quote>
+                        </cit> vel <cit type="translation" xml:lang="la">
+                           <quote>servare</quote>
+                        </cit> animum: <foreign xml:lang="gez">ፍትወተ፡ ኄራን፡ ያጥዒ፡ ነፍሶ፡</foreign>
+                        <foreign xml:lang="grc">ἡδύνουσι</foreign>
+                        <ref cRef="Prov." loc="13,19">Prov. 13,19</ref>; <foreign xml:lang="gez">እሳተ፡ መለኮት፡ ዘይቄድስ፡ ነፍሰ፡ ወያጥዒ፡ ሞቁ፡</foreign>
+                        <ref cRef="III Sal. Mar." loc="21.">III Sal. Mar. 21.</ref>
+                     </sense>
+                     <sense n="2" xml:id="D12">
+                        <cit type="translation" xml:lang="la">
+                           <quote>sanitati restituere</quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                           <quote>sanare</quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                           <quote>mederi</quote>
+                        </cit>: Christus <foreign xml:lang="gez">መንፈሰ፡ ወሥጋ፡</foreign> (aegroti)
+                           <foreign xml:lang="gez">ፍጹመ፡ አጥዐየ፡</foreign>
+                        <ref cRef="Clem." loc="233">Clem. f. 233</ref>; <foreign xml:lang="gez">አጥዐየ፡ መፃጕዐ፡ </foreign>
+                        <ref cRef="Genz." loc="72">Genz. f. 72</ref>; <foreign xml:lang="gez">ሩፋኤል፡
+                           ይፌውስ፡ ሕማመ፡ ወያጥዒ፡ ቍስለ፡ </foreign>
+                        <ref cRef="Sx. Pag." loc="3">Sx. Pag. 3</ref>; <foreign xml:lang="gez">ፈውሳት፡
+                           እለ፡ ያጥዕያ፡ ቍስላተ፡ </foreign> F.M. 3,3; <foreign xml:lang="gez">ዝንቱ፡ ደዌ፡
+                           ይከውን፡ ዕጹበ፡ ፈውሶቱ፡ ወአጥዕዮቱ፡ </foreign> F.M. 3,7.</sense>
+                  </sense>
+               </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,95 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng"
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="gez">ማድጋ</title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref></p>
+            <p><ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref></p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+         <listPrefixDef>
+            <prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="MK" when="2021-12-13">added new word</change>
+         <change who="MK" when="2021-12-13">added new word</change>
+         <change who="MK" when="2021-12-13">added italics</change>
+         <change who="MK" when="2021-12-13">deleted marking for italics</change>
+         <change who="MK" when="2021-12-13">added reference </change>
+         <change who="MK" when="2021-12-13">correction</change>
+         <change who="MK" when="2021-12-13">added pos</change>
+         <change who="MK" when="2021-12-17">added reference </change>
+         <change who="MK" when="2021-12-17">added language coding</change>
+         <change who="MK" when="2021-12-17">corrected transliteration</change>
+         <change who="MK" when="2021-12-17">added references </change>
+         <change who="MK" when="2021-12-17">added a word</change>
+         <change who="MK" when="2021-12-17">deleted parenthesis</change>
+         <change who="MK" when="2022-01-24">correction</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="Lca734e674ae34dc59bc4018e46095b46" n="12698">
+               <form><foreign xml:lang="gez">ማድጋ</foreign></form>
+               <sense xml:id="Tmain" xml:lang="en" source="#traces">
+                  <cit type="transcription" xml:lang="gez">
+                     <quote>mādǝggā</quote>
+                  </cit>
+                  <gramGrp><pos expand="Substantivum">subst.</pos></gramGrp>
+                  <sense n="1" xml:id="T1"> ‘<cit type="translation" xml:lang="en">
+                        <quote>earthenware jar, water ewer </quote>
+                     </cit> (Gojjame usage) ’ <bibl><ptr target="bm:Kane1990DictAmhVol1"/><citedRange unit="page"> 332a</citedRange></bibl>; <foreign xml:lang="gez">፭፡ ማድጋ፡ መዓር፡</foreign> ‘<cit type="translation" xml:lang="fr">
+                        <quote>5 mādeggā de miel</quote>
+                     </cit>’ <bibl><ptr target="bm:ContiRossini1909LiberT"/><citedRange unit="page">
+                           7 l. 17-18</citedRange></bibl>, <bibl><ptr target="bm:ContiRossini1910LiberV"/><citedRange unit="page"> 7 l.
+                           28</citedRange></bibl></sense>
+                  <sense n="2" xml:id="T2"> (unit of measurement) ‘measure of capacity ranging from
+                     3 to 16 qunnas, usually 10 in Shoa and Simien, 16 in Bägemdǝr (KBT = <bibl><ptr target="bm:Kasate1957DictAmh"/><citedRange unit="page"> </citedRange></bibl>’) <bibl><ptr target="bm:Kane1990DictAmhVol1"/><citedRange unit="page"> 332a</citedRange></bibl>; ‘two mādǝggās equal
+                     one dāwellā’ {for <foreign xml:lang="gez">ዳውላ፡</foreign> (vid.)) <foreign xml:lang="gez">ሐስል፡</foreign>, <foreign xml:lang="gez">ገቢላ፡</foreign>}
+                           <bibl><ptr target="bm:Kasate1957DictAmh"/><citedRange unit="page">151a</citedRange></bibl></sense>
+                  <nd/>
+               </sense>
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

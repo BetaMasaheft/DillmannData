@@ -1,0 +1,84 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ጥቅም </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="AE" when="2017-11-03">aus den Addenda ergänzt</change>
+        </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L24803dd7d3f3421686ad66788abbdc30" n="8846">
+               <form>
+                  <foreign xml:lang="gez">ጥቅም</foreign>
+               </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain"> <gramGrp> <pos expand="not found">subst.</pos> </gramGrp>, <gramGrp> <gen value="not found">m.</gen> </gramGrp> et <gramGrp> <gen value="femininus">fem.</gen> </gramGrp> (ut <ref cRef="Jes." loc="15,1">Jes. 15,1</ref>; <ref cRef="Hen." loc="14,9">Hen. 14,9</ref>) {<ref target="#c1434"/>, <lbl expand="pluralis">Pl.</lbl> <foreign xml:lang="gez">ትቀም፡</foreign> <ref cRef="Prov." loc="25,28">Prov. 25,28</ref> var.}, <cit type="translation" xml:lang="la">
+                            <quote> moenia </quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                            <quote> murus </quote>
+                        </cit> ambiens vel <cit type="translation" xml:lang="la">
+                            <quote> muri </quote>
+                        </cit>: <foreign xml:lang="gez">አረፋት፡ ወጥቅም፡</foreign> <foreign xml:lang="grc">τεῖχος καὶ περίτειχος</foreign> <ref cRef="Jes." loc="26,1">Jes. 26,1</ref>; <ref cRef="Kuf. " loc="156">Kuf.  p. 156</ref>; <foreign xml:lang="grc">προτείχισμα</foreign> <ref cRef="Thren." loc="2,8">Thren. 2,8</ref>; <foreign xml:lang="gez">አነ፡ እከውና፡ ጥቅመ፡ እሳት፡ ዐውዳ፡</foreign> <ref cRef="Zach." loc="2,5">Zach. 2,5</ref>; <foreign xml:lang="gez">የሐንጽ፡ ጥቅመ፡ ዐውደኪ፡</foreign> <ref cRef="Hez." loc="26,8">Hez. 26,8</ref>; <foreign xml:lang="grc">φραγμός</foreign> <ref cRef="Ps." loc="61,3">Ps. 61,3</ref>; <ref cRef="Sir. " loc="36,30">Sir.  36,30</ref>; <foreign xml:lang="grc">χάρακες</foreign> <ref cRef="Koh." loc="9,14">Koh. 9,14</ref>; <foreign xml:lang="gez">ኣአትት፡ ጥቅሞ፡</foreign> <foreign xml:lang="grc">τοῖχον</foreign> <ref cRef="Jes." loc="5,5">Jes. 5,5</ref>; <foreign xml:lang="gez">ወድቀ፡ ጥቅማ፡</foreign> <foreign xml:lang="grc">ἐπάλξεις</foreign> <ref cRef="Jer. " loc="27,15">Jer.  27,15</ref>; <foreign xml:lang="grc">τεῖχος</foreign>, <foreign xml:lang="grc">τείχη</foreign> <ref cRef="Jes." loc="21,4">Jes. 21,4</ref>; <ref cRef="Jes." loc="52,14">Jes. 52,14</ref>; <foreign xml:lang="gez">ውስተ፡ አርእስተ፡ ጥቅም፡</foreign> <ref cRef="Prov." loc="1,21">Prov. 1,21</ref>; <foreign xml:lang="gez">ሀገር፡ ዘንኅለ፡ ጥቅማ፡</foreign> <ref cRef="Prov." loc="25,28">Prov. 25,28</ref>; <ref cRef="Jos." loc="2,15">Jos. 2,15</ref>; <ref cRef="Jes." loc="15,1">Jes. 15,1</ref>; <ref cRef="Apoc." loc="21,12">Apoc. 21,12</ref> al. crebro; <foreign xml:lang="gez">አረፍተ፡ ጥቅመ፡ ሀገር፡</foreign> <foreign xml:lang="grc">ὀχυρώματα τείχους</foreign> <ref cRef="Jes." loc="22,10">Jes. 22,10</ref>; <ref cRef="4 Reg. " loc="25,10">4 Reg.  25,10</ref>; <foreign xml:lang="gez">አህጉረ፡ ጥቅም፡</foreign> <cit type="translation" xml:lang="la">
+                            <quote> urbes </quote>
+                        </cit> (<cit type="translation" xml:lang="la">
+                            <quote> moenibus </quote>
+                        </cit>) <cit type="translation" xml:lang="la">
+                            <quote> munitae </quote>
+                        </cit> <ref cRef="Jer." loc="4,6">Jer. 4,6</ref>; <ref cRef="Hos." loc="8,14">Hos. 8,14</ref>; <ref cRef="Ps." loc="59,10">Ps. 59,10</ref>; <cb n="1223" xml:id="c1223"/> vel <foreign xml:lang="gez">አህጉር፡ እለ፡ ቦን፡ ጥቅመ፡</foreign> <ref cRef="Jes." loc="36,1">Jes. 36,1</ref>; <ref cRef="Deut." loc="1,28">Deut. 1,28</ref>; <ref cRef="Deut." loc="3,5">Deut. 3,5</ref> al.; <foreign xml:lang="gez">ኢያሪኮ፡ ዕጹት፡ ይእቲ፡ ወጥቅም፡ ዘላዕሌሃ፡</foreign> <ref cRef="Jos." loc="6,1">Jos. 6,1</ref>; <foreign xml:lang="gez">ሀገር፡ ዘአልባ፡ ጥቅመ፡</foreign> <ref cRef="Prov." loc="25,28">Prov. 25,28</ref>. – <cit type="translation" xml:lang="la">
+                            <quote> Voc. Ae. </quote>
+                        </cit>: <foreign xml:lang="gez">ጥቅም፡ ዘ፡ ግምብ፡</foreign> </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,94 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> አጽነነ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="AE" when="2018-08-07">Verschachtelung,</change>
+        </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L47ecfb4041cc41f1ad97312def905881" n="9386">
+               <form>
+                  <foreign xml:lang="gez">አጽነነ</foreign>
+               </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain"> <subc>II,1</subc> <sense n="1" xml:id="D1"> trans.: <sense n="a" xml:id="D1a"> <cit type="translation" xml:lang="la">
+                                    <quote> inclinare </quote>
+                                </cit> deorsum, <cit type="translation" xml:lang="la">
+                                    <quote> demittere </quote>
+                                </cit>: <foreign xml:lang="gez">አጽነነ፡ ርእሶ፡</foreign> <ref cRef="Joh." loc="19,30">Joh. 19,30</ref>; <ref cRef="Did." loc="29">Did. 29</ref>; <foreign xml:lang="gez">መኑ፡ አጽነኖ፡ ለሰማይ፡ ዲበ፡ ምድር፡</foreign> <ref cRef="Job" loc="38,37">Job 38,37</ref>; <ref cRef="4 Esr." loc="1,19">4 Esr. 1,19</ref>; <ref cRef="Ps." loc="17,11">Ps. 17,11</ref>; <ref cRef="Ps." loc="143,6">Ps. 143,6</ref>; <foreign xml:lang="gez">አጽንን፡ ቀሡተኪ፡</foreign> <ref cRef="Gen." loc="24,14">Gen. 24,14</ref>; <foreign xml:lang="gez">ቦቱ፡ ዕፅ፡ ውስተ፡ ገነት፡ አለ፡ ያጸንና፡ ርእሶን፡</foreign> (sc. ad fructus praebendos) <foreign xml:lang="gez">ለነፍሳተ፡ ጻድቃን፡</foreign> <ref cRef="Clem." loc="256">Clem. f. 256</ref>; <foreign xml:lang="gez">መዋግድ፡ አጽነኑ፡ አርእስቲሆሙ፡ ወሰገዱ፡</foreign> <ref cRef="Clem." loc="24">Clem. f. 24</ref>; <foreign xml:lang="gez">አጽኒኖ፡ ሰማያተ፡ ወረደ፡ ቃል፤ እምድንግል፡ ተወልደ፡</foreign> Mavâs. 26; <foreign xml:lang="gez">አጽነነ፡ ርእሶ፡ ኀበ፡ እግዚአብሔር፡</foreign> <ref cRef="Clem." loc="217">Clem. f. 217</ref>; <foreign xml:lang="gez">አጽንን፡ እዝነከ፡</foreign> <ref cRef="Hen." loc="85,2">Hen. 85,2</ref>.</sense> <sense n="b" xml:id="D1b"> <cit type="translation" xml:lang="la">
+                                    <quote> declinare </quote>
+                                </cit>, <cit type="translation" xml:lang="la">
+                                    <quote> deflectere </quote>
+                                </cit> ad latus: <foreign xml:lang="gez">ለእመ፡ ታጸንነከ፡ ፍትወት፡ ወታርሕቀከ፡ እምጽድቅ፡</foreign> <ref cRef="Fal." loc="40">Fal. f. 40</ref>; <foreign xml:lang="gez">ሕልያን፡ ያዔውር፡ አዕይንተ፡ ወያጸንን፡ ነገረ፡ ርትዕ፡</foreign> <ref cRef="Did." loc="4">Did. 4</ref>; <foreign xml:lang="gez">እምፍቅረ፡ ክርስቶስ፡ ኢክህለ፡ መኑሂ፡ ያጽንኖ፡</foreign> <ref cRef="Sx. Haml." loc="22 ">Sx. Haml. 22 </ref> Enc.</sense> <sense n="c" xml:id="D1c"> <cit type="translation" xml:lang="la">
+                                    <quote> labefactare </quote>
+                                </cit>: <foreign xml:lang="gez">አጽነነ፡ ልቦ፡</foreign> (ejus) <ref cRef="Sx. Masc. " loc="3.">Sx. Masc.  3.</ref> </sense> </sense> <sense n="2" xml:id="D2"> inclinationem facere i.e. intrans. <sense n="a" xml:id="D2a"> <cit type="translation" xml:lang="la">
+                                    <quote> vergere </quote>
+                                </cit>, <cit type="translation" xml:lang="la">
+                                    <quote> devergere </quote>
+                                </cit>, <ref cRef="Hen." loc="76,5">Hen. 76,5</ref>; <ref cRef="Hen." loc="76,7">Hen. 76,7</ref>.</sense> <sense n="b" xml:id="D2b"> <cit type="translation" xml:lang="la">
+                                    <quote> inclinari </quote>
+                                </cit>, <cit type="translation" xml:lang="la">
+                                    <quote> labascere </quote>
+                                </cit>: <foreign xml:lang="gez">ታጸንን፡ ምድር፡</foreign> <ref cRef="Jes." loc="24,20">Jes. 24,20</ref>; <foreign xml:lang="gez">አጽነነት፡</foreign> (<foreign xml:lang="gez">ታቦት፡</foreign>) <ref cRef="1 Par." loc="13,9">1 Par. 13,9</ref>; <foreign xml:lang="gez">ፈታሕት፡ ዘኢያጸንኑ፡ በጊዜ፡ ፍትሕ፡ ወኢይነሥኡ፡ ገጸ፡</foreign> F.N. 43,1.</sense> <sense n="c" xml:id="D2c"> <cit type="translation" xml:lang="la">
+                                    <quote> pronum esse </quote>
+                                </cit>: <ref cRef="Chrys. Ta." loc="12 ">Chrys. Ta. 12 </ref>(<lbl expand="videas">vid. sub</lbl> <foreign xml:lang="gez">አንገርገረ፡</foreign>).</sense> <sense n="d" xml:id="D2d"> se demittere: Christus <foreign xml:lang="gez">አጽነነ፡ እንዘ፡ ኢይዘሮ፡ እምድማሬሁ፡</foreign> <cb n="1288" xml:id="c1288"/> (quamvis non dissociaretur a conjunctione Patris) Lit. Chrys.</sense> <sense n="e" xml:id="D2e"> <cit type="translation" xml:lang="la">
+                                    <quote> declinare </quote>
+                                </cit> a via,<bibl>
+                                    <ptr target="bm:Ludolf1691Commentarius"/>
+                                </bibl> p. 238 n. 5.</sense> </sense> </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

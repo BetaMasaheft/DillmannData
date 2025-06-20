@@ -1,0 +1,124 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ሕምዝ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L09f9998dfd934c7f90555f9b7b8611a2" n="579">
+               <form>
+                  <foreign xml:lang="gez">ሕምዝ</foreign>
+               </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain">
+                  <gramGrp>
+                     <pos expand="Substantivum">subst.</pos>
+                  </gramGrp> (<gramGrp>
+                     <gen value="masculinum">m.</gen>
+                  </gramGrp>) <lbl expand="pluralis">Pl.</lbl>
+                  <foreign xml:lang="gez">ሕምዛት፡</foreign> (F.N. 10; F.N. 23). <sense n="1" xml:id="D1">
+                     <cit type="translation" xml:lang="la">
+                        <quote>aestus irae</quote>
+                     </cit>, <cit type="translation" xml:lang="la">
+                        <quote>furor</quote>
+                     </cit>, <cit type="translation" xml:lang="la">
+                        <quote>exacerbatio</quote>
+                     </cit>, <foreign xml:lang="grc">θυμός </foreign>
+                     <ref cRef="Job" loc="6,4">Job 6,4</ref>; <ref cRef="Job" loc="13,13">Job
+                        13,13</ref>; <ref cRef="Jes." loc="10,26">Jes. 10,26</ref>; <ref cRef="Jes." loc="28,21">Jes. 28,21</ref>; <foreign xml:lang="gez">ዐቢይ፡ ሕምዙ፡</foreign>
+                     <ref cRef="Apoc." loc="12,12">Apoc. 12,12</ref>; <ref cRef="Apoc." loc="16,19">Apoc. 16,19</ref>; <ref cRef="Apoc." loc="18,4">Apoc. 18,4</ref>; <foreign xml:lang="gez">ይስማዕ፡ ሰማይ፡ ወታጽምዕ፡ ምድር፡</foreign> (sc. incarnationem Christi)
+                        <foreign xml:lang="gez">ወይደንግፁ፡ መሠረታተ፡ ሕምዝ፡</foreign> Lit. Diosc.;</sense>
+                  <sense n="2" xml:id="D2">
+                     <cit type="translation" xml:lang="la">
+                        <quote>amaritudo</quote>
+                     </cit>, <cit type="translation" xml:lang="la">
+                        <quote>fel</quote>
+                     </cit>
+                     <foreign xml:lang="grc">πικρία</foreign>
+                     <ref cRef="Job" loc="9,18">Job 9,18</ref>; <foreign xml:lang="gez">አጽገበኒ፡
+                        ሕምዘ፡</foreign>
+                     <ref cRef="Thren." loc="3,15">Thren. 3,15</ref>; <foreign xml:lang="grc">χολή</foreign>
+                     <foreign xml:lang="gez">እግዚአብሔር፡ አስተየኒ፡ ማየ፡ ሕምዝ፡</foreign>
+                     <ref cRef="Jer." loc="8,14">Jer. 8,14</ref>; <foreign xml:lang="gez">ምረተ፡
+                        ሕምዝየ፡</foreign>
+                     <foreign xml:lang="grc">πικρία καὶ χολή μου </foreign>
+                     <ref cRef="Thren." loc="3,20">Thren. 3,20</ref>; <ref cRef="Deut." loc="29,17">Deut. 29,17</ref>; <foreign xml:lang="grc">χολέρα</foreign>
+                     <ref cRef="Num. " loc="11,20">Num. 11,20</ref>.</sense>
+                  <sense n="3" xml:id="D3">
+                     <cit type="translation" xml:lang="la">
+                        <quote>venenum</quote>
+                     </cit>, <cit type="translation" xml:lang="la">
+                        <quote>virus</quote>
+                     </cit> (<foreign xml:lang="grc">χολὴ</foreign>, <foreign xml:lang="grc">θυμὸς</foreign>, <foreign xml:lang="grc">ἰὸς</foreign>, <foreign xml:lang="grc">φάρμακον</foreign>, <foreign xml:lang="grc">θάνατος</foreign>): <foreign xml:lang="gez">ሕምዘ፡ አርዌ፡ ምድር፡</foreign>
+                     <ref cRef="Deut." loc="32,33">Deut. 32,33</ref>; <ref cRef="Job" loc="20,14">Job 20,14</ref>; <ref cRef="Job " loc="20,16">Job 20,16</ref>; <ref cRef="Ps." loc="13,5">Ps. 13,5</ref>; <ref cRef="Ps." loc="57,4">Ps.
+                        57,4</ref>; <ref cRef="Ps." loc="139,3">Ps. 139,3</ref>; <ref cRef="Rom." loc="3,13">Rom. 3,13</ref>; <ref cRef="Prov." loc="23,32">Prov. 23,32</ref>;
+                        <foreign xml:lang="gez">ሕምዝ፡ ዘይቀትል፡</foreign>
+                     <ref cRef="Ps." loc="7,14">Ps. 7,14</ref>; <ref cRef="Jac." loc="3,8">Jac.
+                        3,8</ref>; <foreign xml:lang="gez">ሕምዝ፡ ቀታሊ፡</foreign>
+                     <ref cRef="Jsp." loc="285">Jsp. p. 285</ref>; <foreign xml:lang="gez">ሕምዘ፡ ባቲ፡
+                        ውስቴታ፡ </foreign>
+                     <ref cRef="4 Reg." loc="4,40">4 Reg. 4,40</ref>; <foreign xml:lang="gez">ሕምዘ፡
+                        ሥራይ፡ ለተማስኖ፡</foreign>
+                     <ref cRef="Sap." loc="1,14">Sap. 1,14</ref>; <foreign xml:lang="gez">ኵሉ፡
+                        ዘፍጥረታተ፡ ሕምዝ፡</foreign>
+                     <cit type="translation" xml:lang="la">
+                        <quote>venefici cujuscumque generis</quote>
+                     </cit>
+                     <ref cRef="Lit." loc="169,1">Lit. 169,1</ref>.</sense>
+               </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

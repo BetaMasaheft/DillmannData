@@ -1,0 +1,71 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ብርት </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="LB" when="2018-02-23">root</change>
+        <change who="MK" when="2022-07-08">added new example</change><change who="MK" when="2022-07-11">added examples</change></revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L28d99ea531b142c98f57b943ae7d1844" n="3898">
+               <form>
+                  <foreign xml:lang="gez">ብርት</foreign>
+               <rs type="root"/>
+                    </form>
+               <sense xml:id="Dmain" xml:lang="la" source="#dillmann"> <gramGrp> <pos expand="Substantivum">subst.</pos> </gramGrp>, plerumque <gramGrp> <gen value="not found">m.</gen> </gramGrp>, [meo judicio e <lbl expand="radix">rad.</lbl> <foreign xml:lang="ar">بَرَتَ</foreign> (<foreign xml:lang="ar">بَرَى</foreign>) <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> secare </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> caedere </t:quote></cit> formatum; Ges. thes. p. 1097 hoc vocabulum sicut <foreign xml:lang="gez">ብሩር፡</foreign> a <lbl expand="radix">rad.</lbl> <foreign xml:lang="he">בָּרַר</foreign> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> purgare </t:quote></cit> derivatum esse censet] <sense n="1" xml:id="D1"> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> aes </t:quote></cit> <ref cRef="Ex." loc="25,3">Ex. 25,3</ref>; <ref cRef="Deut." loc="8,9">Deut. 8,9</ref>; <ref cRef="1 Reg." loc="17,5">1 Reg. 17,5</ref>; <ref cRef="1 Reg." loc="17,6">1 Reg. 17,6</ref>; <ref cRef="2 Reg." loc="8,8">2 Reg. 8,8</ref>; <ref cRef="Job" loc="28,2">Job 28,2</ref>; <ref cRef="Job " loc="41,18">Job  41,18</ref>; <ref cRef="Jes." loc="60,17">Jes. 60,17</ref>; <ref cRef="Jer." loc="6,28">Jer. 6,28</ref>; <ref cRef="Hez." loc="22,18">Hez. 22,18</ref>; <ref cRef="Dan." loc="2,32">Dan. 2,32</ref>; <foreign xml:lang="gez">ብርት፡ ርሱን፡</foreign> <foreign xml:lang="grc">χαλκός στίλβων</foreign> <ref cRef="Hez." loc="40,3">Hez. 40,3</ref>; l <ref cRef="Cor." loc="13,1">Cor. 13,1</ref>. In Genit. <foreign xml:lang="gez">ዘብርት፡</foreign>, vel st. constructo subjunctum: <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> aeneus </t:quote></cit> <ref cRef="Gen." loc="4,22">Gen. 4,22</ref>; <ref cRef="Ex." loc="30,18">Ex. 30,18</ref>; <ref cRef="Job" loc="6,12">Job 6,12</ref>; <ref cRef="Job" loc="20,24">Job 20,24</ref>; <ref cRef="Job" loc="40,13">Job 40,13</ref>; <ref cRef="Sir. " loc="28,20">Sir.  28,20</ref>; <ref cRef="Jes." loc="45,2">Jes. 45,2</ref>; <foreign xml:lang="gez">ፍጽምከ፡ ዘብርት፡</foreign> <ref cRef="Jes." loc="48,4">Jes. 48,4</ref>; <ref cRef="Jer. " loc="1,18">Jer.  1,18</ref>; <ref cRef="Zach." loc="6,1">Zach. 6,1</ref>; item passim, ubi <foreign xml:lang="gez">ብርት፡</foreign> praedicati vicem explet, ut <ref cRef="Ex." loc="27,18">Ex. 27,18</ref>. <lbl expand="pluralis">Pl.</lbl> <foreign xml:lang="gez">ብርታት፡</foreign> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> aeramenta </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> aenea instrumenta </t:quote></cit> Lud.; (de <foreign xml:lang="gez">ዘብርታት፡ ኀጺን፡</foreign> <ref cRef="Sir." loc="22,15">Sir. 22,15</ref> <lbl expand="videas">vid.</lbl> <foreign xml:lang="gez">ዘብርት፡</foreign>)</sense> <sense n="2" xml:id="D2"> <foreign xml:lang="gez">ብርተ፡ ሊባኖስ፡</foreign> <foreign xml:lang="grc">χαλκολίβανον</foreign> quod varie interpretantur <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> aes album </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> aurichalcum </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> aes corinthium </t:quote></cit> <ref cRef="Apoc." loc="1,15">Apoc. 1,15</ref>; <ref cRef="Apoc." loc="2,18">Apoc. 2,18</ref>; <foreign xml:lang="gez">አእጋረ፡ ክርስቶስ፡ ርሱናን፡ አምሳለ፡ ላህቡ፡ ለብርተ፡ ሊባኖስ፡</foreign> <ref cRef="Sx. Jac." loc="6 ">Sx. Jac. 6 </ref>Enc.</sense> </sense>
+               
+            <sense xml:id="Tmain" xml:lang="en" source="#traces"><cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">bǝrt</t:quote></cit> <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">metal</t:quote></cit> <foreign xml:lang="gez">መፍየል፡ ዘብርት፡ ፪፡</foreign> ‘<cit type="translation" xml:lang="it"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">2 tazze di metallo</t:quote></cit>’ <bibl><ptr target="bm:Bausi1994ManoscrittiEritreaParteI"/><citedRange unit="page"> 43 VI l. 27 (ed.), 36 l. 26–27 (tr.)</citedRange></bibl>; <foreign xml:lang="gez">ጻሕል፡ ዘብርት፡ ፫[፡] ወጽዋዕ፡ ዘብርተ፡ ፩[፡]</foreign> ‘<cit type="translation" xml:lang="it"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">3 vassoi di metallo, 1 calice di metallo,</t:quote></cit>’ <bibl><ptr target="bm:Bausi1994ManoscrittiEritreaParteI"/><citedRange unit="page"> 64 l. 10 (ed.), 53 l. 16 (tr.)</citedRange></bibl>; <foreign xml:lang="gez">ወሙዳየ፡ ዕጣን፡ ዘብርት፡ ፮[፡]</foreign> ‘<cit type="translation" xml:lang="it"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">6 repositori per l’incenso di metallo,</t:quote></cit>’ <bibl><ptr target="bm:Bausi1994ManoscrittiEritreaParteI"/><citedRange unit="page"> 64 l. 11 (ed.), 53 l. 17 (tr.)</citedRange></bibl> </sense></entry>
+         </div>
+      </body>
+   </text>
+</TEI>

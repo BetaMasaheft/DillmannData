@@ -1,0 +1,77 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ደመረ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="LB" when="2018-04-26">root</change>
+        <change who="ES" when="2024-02-28">nesting</change></revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="Lcf013f29fd724436991c64bec721d699" n="7850">
+               <form>
+                  <foreign xml:lang="gez">ደመረ</foreign>
+               <rs type="root"/>
+                    </form>
+               <sense xml:id="Dmain" xml:lang="la" source="#dillmann"> <subc>I,2</subc> [primus significatus in <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> inserendo </t:quote></cit> est; hujus vestigia habes sub <foreign xml:lang="ar">دَمَرَ</foreign> <note>sich eindrängen</note>, <foreign xml:lang="ar">دمق دمج</foreign> <foreign xml:lang="gez">ደምሐ፡</foreign>; primitus differre videtur a <foreign xml:lang="gez">ፀመረ፡</foreign>] <sense n="1" xml:id="D1"> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> inserere </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> immittere </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> indere </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> inferre </t:quote></cit>: <foreign xml:lang="gez">ኢትደምሩ፡ ውስቴቱ፡ ዕጣነ፡ ዘካልእ፡ ቅታሬሁ፡</foreign> <foreign xml:lang="grc">ἀνοίσεις</foreign> <ref cRef="Ex." loc="30,9">Ex. 30,9</ref>; <foreign xml:lang="gez">ትዴምር፡ ኍጻዳተ፡ ውስተ፡ መማሥጥ፡</foreign> <ref cRef="Ex." loc="26,11">Ex. 26,11</ref>; Deus Pater <foreign xml:lang="gez">ኢደመረ፡ መለኮቶ፡ በትስብእትነ፡</foreign> (sicut Filius) <ref cRef="M.M." loc="f. 328">M.M. f. 328</ref>; Christus <foreign xml:lang="gez">ደመረ፡ ሥጋነ፡ ውስተ፡ ትድምርተ፡ መለኮተ፡ ዚአሁ፡</foreign> Deg.; <foreign xml:lang="gez">ደምር፡ ነፍሳቲሆሙ፡ ውስተ፡ ሕፅነ፡ አብርሃም፡</foreign> <ref cRef="Lit." loc="166,3">Lit. 166,3</ref>; <foreign xml:lang="gez">ደመረ፡ ውስተ፡ መጽሐፍ፡</foreign> in librum intulit vel inscripsit, <ref cRef="Org." loc="3.">Org. 3.</ref> 
+</sense> <sense n="2" xml:id="D2"> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> admiscere </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> commiscere </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> confundere </t:quote></cit>, res fluidas: <foreign xml:lang="gez">ይዴምሩ፡ ደመ፡ ምስለ፡ ደም፡</foreign> <foreign xml:lang="grc">μίσγουσι</foreign> <ref cRef="Hos." loc="4,2">Hos. 4,2</ref>; <ref cRef="Luc." loc="13,1">Luc. 13,1</ref>; vel alias res, ut: oves ovibus <ref cRef="Gen." loc="30,40">Gen. 30,40</ref> (c. <gramGrp> <case value="accusativus">Acc.</case> </gramGrp> et <foreign xml:lang="gez">ውስተ፡</foreign>); <foreign xml:lang="gez">ኵሎ፡ ይዴምሩ፡ መዋዕለ፡ ቅዱሳተ፡ ርኩሳተ፡</foreign> <ref cRef="Kuf." loc="28.">Kuf. p. 28.</ref> 
+</sense> <sense n="3" xml:id="D3"> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> conjungere </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> copulare </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> consociare </t:quote></cit>: <foreign xml:lang="gez">ደምር፡ አዕጻደ፡ አሐተ፡ ምስለ፡ ካልእታ፡ በኍጻዳት፡</foreign> <ref cRef="Ex." loc="26,6">Ex. 26,6</ref>; <ref cRef="Ex." loc="26,9">Ex. 26,9</ref>; <ref cRef="2 Cor." loc="6,14">2 Cor. 6,14</ref>; Christus <foreign xml:lang="gez">ደመረ፡ ሥጋነ፡ ምስለ፡ መለኮቱ፡</foreign> Deg.; Christus reputatus est inter impios <foreign xml:lang="gez">ከመ፡ ይደምረነ፡ ምስለ፡ ጻድቃን፡</foreign> Lit. Joh.; <foreign xml:lang="gez">ደሚረከ፡ ትሁቦሙ፡ ለኵሎሙ፡</foreign> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> conjunctim </t:quote></cit> dabis omnibus, <ref cRef="Lit." loc="165,4">Lit. 165,4</ref>. <sense n="a" xml:id="D3a"> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> commiscere </t:quote></cit> vel <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> consociare </t:quote></cit> matrimonio sanguinem: <foreign xml:lang="gez">እምቦ፡ ዘደመሩ፡</foreign> <cb n="1087" xml:id="c1087"/> <foreign xml:lang="gez">ደመ፡ ምስለ፡ ደም፡ በአውስቦ፡ እመሂ፡ አበው፡ ምስለ፡ ውሉድ፡</foreign> … <ref cRef="F.M." loc="5">F.M. 5</ref>,3.
+</sense> <sense n="b" xml:id="D3b"> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> communicare </t:quote></cit>: <foreign xml:lang="gez">ኢትደምር፡ ንዋየከ፡ ምስለ፡ ዘይኄይለከ፡ ወይብዕለከ፡</foreign> <ref cRef="Sir." loc="13,2">Sir. 13,2</ref>.</sense>
+</sense> <sense n="4" xml:id="D4"> in arithmetica: <sense n="a" xml:id="D4a"> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> multiplicare </t:quote></cit>, <lbl expand="cum">c.</lbl> <gramGrp> <case value="accusativus">Acc.</case> </gramGrp> et <foreign xml:lang="gez">በ፡</foreign>, ut: <foreign xml:lang="gez">ትዴምሮ፡ ለመካን፡ ቀዳማዊ፡</foreign> (i.e. numerum priorem) <foreign xml:lang="gez">በ፫፻፶ወ፬ ወዘበጽሐ፡ እምነ፡ ትድምርት፡ ውእቱኬ፡ ዕለታት፡ ዘመካን፡ ቀዳማዊ፡</foreign> <ref cRef="Abush." loc="11.">Abush. 11.</ref> 
+</sense> <sense n="b" xml:id="D4b"> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> addere </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> numeros in summam colligere </t:quote></cit>: <foreign xml:lang="gez">፴ወ፩ ወ፳ወ፱ ለእመ፡ ደመርከ፡ ክልኤሆሙ፡ ይከውኑ፡ ፷</foreign>, Comp. Eccl. — <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> Voc </t:quote></cit>. <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> Ae </t:quote></cit>.: <foreign xml:lang="gez">ደመረ፡ ዘ፡ ጨመረ።</foreign> 
+</sense> 
+</sense> </sense>
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

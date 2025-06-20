@@ -1,0 +1,93 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ደሐረ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="LB" when="2018-04-26">root</change>
+        </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L9cc7cbabd2e242088730cbc6eb6e9d5f" n="7825">
+               <form>
+                  <foreign xml:lang="gez">ደሐረ</foreign>
+               <rs type="root"/>
+                    </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain"> <subc>I,1</subc> [sec. Lud. cognatum cun <foreign xml:lang="gez">ድኅር፡</foreign> <cit type="translation" xml:lang="la">
+                            <quote> pars posterior </quote>
+                        </cit>, <cb n="1084" xml:id="c1084"/> quare Lud. statuit significationem primam <cit type="translation" xml:lang="la">
+                            <quote> posthabuit </quote>
+                        </cit>. In <lbl expand="Novum Testamentum">N.T.</lbl> <lbl expand="romanae editionis">rom.</lbl> per <foreign xml:lang="gez">ሐ፡</foreign> scriptum esse solet. Amh. <foreign xml:lang="gez">ዳረ፡</foreign> significat <cit type="translation" xml:lang="la">
+                            <quote> foras </quote>
+                        </cit> <cit type="translation" xml:lang="la">
+                            <quote> dare </quote>
+                        </cit> i.e. <cit type="translation" xml:lang="la">
+                            <quote> nuptum dare </quote>
+                        </cit>, filiam. Arabicum <foreign xml:lang="ar">دَحَرَ</foreign> <cit type="translation" xml:lang="la">
+                            <quote> repulit </quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                            <quote> abegit </quote>
+                        </cit> dubium an non ad familiam radicum <foreign xml:lang="he">דחה דחף דחק</foreign> al. referendum sit] <gramGrp> <pos expand="Subjunctivus">Subj.</pos> </gramGrp> <foreign xml:lang="gez">ይድሐር፡</foreign>, <cit type="translation" xml:lang="la">
+                            <quote> repudio dimittere </quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                            <quote> repudiare </quote>
+                        </cit> uxorem: <foreign xml:lang="gez">ድሒረ፡ ብእሲቶ፡</foreign> <ref cRef="Matth." loc="19,3">Matth. 19,3</ref> tit.; <ref cRef="Matth." loc="19,9">Matth. 19,9</ref>; <ref cRef="Marc." loc="10,4">Marc. 10,4</ref>; <ref cRef="Marc. " loc="10,5">Marc.  10,5</ref>; <ref cRef="Marc." loc="10,11">Marc. 10,11</ref>; <ref cRef="Luc." loc="16,18">Luc. 16,18</ref>; <foreign xml:lang="gez">ዘይድሕር፡ ብእሲቶ፡ ዘእንበለ፡ ትዘሙ፡</foreign> <ref cRef="Clem." loc="119">Clem. f. 119</ref>; <foreign xml:lang="gez">ኢይድሐር፡ ብእሲ፡ ብእሲቶ፡</foreign> <ref cRef="Did." loc="33">Did. 33</ref>; II <ref cRef="Can. Nic." loc="72.">Can. Nic. 72.</ref> — <cit type="translation" xml:lang="la">
+                            <quote> Voc </quote>
+                        </cit>. <cit type="translation" xml:lang="la">
+                            <quote> Ae </quote>
+                        </cit>.: <foreign xml:lang="gez">ደኀረ፡ ዘ፡ በ፪ መረቀ፡</foreign> (i.e. <foreign xml:lang="gez">ደኀረ፡</foreign>) <foreign xml:lang="gez">ፈታሂ፡</foreign> (v. <foreign xml:lang="gez">ፈትሐሂ፡</foreign>). </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

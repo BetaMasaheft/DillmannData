@@ -1,0 +1,111 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ጾታ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="AE" when="2018-04-17">Verschachtelung, Sprachkennung, Referenzen,</change>
+            <change who="PL" when="2018-04-17">fixed biblio</change>
+            <change who="PL" when="2018-04-17">bibliographic tag updated</change>
+        </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L471edd9244294290920a374250389874" n="9463">
+               <form>
+                  <foreign xml:lang="gez">ጾታ</foreign>
+               </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain"> <gramGrp> <pos expand="Substantivum">subst.</pos> </gramGrp>, <gramGrp> <gen value="not found">m.</gen> </gramGrp> et <gramGrp> <gen value="femininus">fem.</gen> </gramGrp>, <lbl expand="pluralis">Pl.</lbl> <foreign xml:lang="gez">ጸዋትው፡</foreign>, rarius <foreign xml:lang="gez">ጾታት፡</foreign> <sense n="1" xml:id="D1"> <cit type="translation" xml:lang="la">
+                                <quote> series </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> ordo </quote>
+                            </cit>: <foreign xml:lang="grc">στίχος</foreign> <ref cRef="Ex." loc="28,17">Ex. 28,17</ref>; <ref cRef="Ex. " loc="28,18">Ex.  28,18</ref>; <ref cRef="Ex." loc="28,19">Ex. 28,19</ref>; <ref cRef="Ex." loc="28,20">Ex. 28,20</ref>; <ref cRef="Ex." loc="36,17">Ex. 36,17</ref>; <ref cRef="Ex." loc="36,18">Ex. 36,18</ref>; <ref cRef="Ex." loc="36,19">Ex. 36,19</ref>; <ref cRef="Ex." loc="36,20">Ex. 36,20</ref>; <ref cRef="3 Reg. " loc="7,28">3 Reg.  7,28</ref>; <ref cRef="3 Reg." loc="7,39">3 Reg. 7,39</ref>; Michael <foreign xml:lang="gez">ዘይቀድም፡ ጾታሁ፡</foreign> (ordine primus) <ref cRef="Sx. Mag." loc="12 ">Sx. Mag. 12 </ref>Enc.; <foreign xml:lang="gez">እጽሕፍ፡ አስማተ፡ መዳልው፡</foreign> (ponderum) <foreign xml:lang="gez">ወጾታ፡ መዓርጊሁ፡</foreign> <lbl expand="Vocabularium Aethiopicum, -a -a">Voc. Ae.</lbl> <sense n="a" xml:id="D1a"> <cit type="translation" xml:lang="la">
+                                    <quote> dispositio </quote>
+                                </cit>: <foreign xml:lang="gez">ጾታ፡ ላእካኒሁ፡</foreign> <foreign xml:lang="grc">στάσιν</foreign> <ref cRef="2 Par." loc="9,4">2 Par. 9,4</ref>; <foreign xml:lang="gez">በበ፡ ጾታሆሙ፡</foreign> <foreign xml:lang="grc">ἐν παρατάξει</foreign> <ref cRef="Sap." loc="12,9">Sap. 12,9</ref>; <foreign xml:lang="gez">በበ፡ ጾታት፡ ፍሉጣት፡</foreign> (<cit type="translation" xml:lang="de">
+                                    <quote>in verschiedenen Anordnungen oder Reihenfolgen</quote>
+                                </cit>) <ref cRef="F.N." loc=" p. 3">F.N.  p. 3</ref>; <foreign xml:lang="gez">ጸዋትወ፡ ቅዳሴ፡</foreign> <bibl>
+                                    <ptr target="bm:Ludolf1691Commentarius"/>
+                                    <citedRange unit="page">505 n. 49</citedRange>
+                                </bibl> .</sense> <sense n="b" xml:id="D1b"> <foreign xml:lang="gez">በበ፡ ጸዋትዊሁ፡</foreign> <cit type="translation" xml:lang="la">
+                                    <quote> ex ordine </quote>
+                                </cit> <ref cRef="Clem." loc="80">Clem. f. 80</ref>; <foreign xml:lang="gez">እምድኅረ፡ በጽሐ፡ ምንዳቤ፡ ወስደት፡ ዘበበ፡ ጾታ፡</foreign> (unaquaequae suo ordine) <ref cRef="Sx. Teq." loc="11 Enc.">Sx. Teq. 11 Enc.</ref>; <foreign xml:lang="gez">ሰላም፡ ለሐጌ፡ ዘተነበየ፡ በጾታ፤ ሚጠተ፡ ጺውዋን፡ ሕዝብ፡ ወሕንጸተ፡ መቅደስ፡ ድኅረ፡ ንስተታ፤</foreign> <ref cRef="Sx. Tachs." loc="20 Enc.">Sx. Tachs. 20 Enc.</ref> (ubi Lud. minus bene exponit <cit type="translation" xml:lang="la">
+                                    <quote> in specie </quote>
+                                </cit> i.e. <cit type="translation" xml:lang="la">
+                                    <quote> distincte </quote>
+                                </cit>).</sense> </sense> <sense n="2" xml:id="D2"> <cit type="translation" xml:lang="la">
+                                <quote> ordo </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> genus </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> species </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> classis </quote>
+                            </cit>: <foreign xml:lang="gez">ዕፀወ፡ ኵሎ፡ ዘይፈርዩ፡ በበ፡ ጾታሆሙ፡</foreign> <ref cRef="Koh." loc="2,5">Koh. 2,5</ref> <lbl expand="varia lectio">var.</lbl>; peccati sunt <foreign xml:lang="gez">ክልኤ፡ ጾታ፤ ዘግብት፡ ወዘልማድ፡</foreign> <ref cRef="F.M." loc=" 2,11">F.M.  2,11</ref>; <foreign xml:lang="gez">በዛቲ፡ ጾታ፡ ዝሙት፡</foreign> (in hoc genere fornicationis) <ref cRef="F.M." loc=" 7,1">F.M.  7,1</ref>; <cb n="1300" xml:id="c1300"/> <foreign xml:lang="gez">ዝንቱ፡ ጾታ፡</foreign> (hoc genus <lbl expand="scilicet">sc.</lbl> peccati) <foreign xml:lang="gez">ይትከፈል፡ ለኀበ፡ ብዙኅ፡ ክፍል፡</foreign> <ref cRef="F.M." loc=" 23,2">F.M.  23,2</ref>; <foreign xml:lang="gez">ሥርዐተ፡ ሞትሰ፡ ፪ ውእቱ፡ ጾታሆሙ፤ ሞት፡ ጠባይዓዊ፡ ወሞተ፡ ፈቃድ፡</foreign> <ref cRef="Fal." loc="23">Fal. f. 23</ref>; Chrys. et Abush. creberrime; angeli <foreign xml:lang="gez">በበጾታሆሙ፡ ወበነገዶሙ፡</foreign> Mavâs. n. 14; <ref cRef="Clem." loc="55">Clem. f. 55</ref>; <ref cRef="Clem. " loc="49">Clem.  f. 49</ref>; <foreign xml:lang="gez">ጸዋትዊሆሙ፡ ለመላእክት፡</foreign> <ref cRef="Org." loc="4">Org. 4</ref>; <foreign xml:lang="gez">በዘዚአሁ፡ ጾታ፡</foreign> F.M. 1,3; <foreign xml:lang="gez">በበ፡ ጾታሁ፡</foreign> <cit type="translation" xml:lang="la">
+                                <quote> sigillatim </quote>
+                            </cit> et <cit type="translation" xml:lang="la">
+                                <quote> singulatim </quote>
+                            </cit>, Lud. e <ref cRef="Cant. Mar. " loc="26.">Cant. Mar.  26.</ref> </sense> <sense n="3" xml:id="D3"> <cit type="translation" xml:lang="la">
+                                <quote> ratio </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> modus </quote>
+                            </cit>: <foreign xml:lang="gez">ወካዕበ፡ ናዘዞሙ፡ በ፫ ጾታ፡ ኑዛዜ፡</foreign> <foreign xml:lang="grc">ἀπὸ τριῶν τρόπων</foreign> <ref cRef="Chrys. ho." loc="1,">Chrys. ho. 1,</ref> al.; <foreign xml:lang="gez">እለ፡ ኀብሩ፡ ምስሌሁ፡ በምንትኒ፡ ጾታ፡</foreign> (<cit type="translation" xml:lang="de">
+                                <quote>in irgend einer Beziehung</quote>
+                            </cit>) <ref cRef="F.N." loc=" 48">F.N.  48</ref>; etiam de <cit type="translation" xml:lang="la">
+                                <quote> modis </quote>
+                            </cit> musicis: <foreign xml:lang="gez">በአይ፡ አውታር፡ ትፈቅድ፡ እዘምር፡ ለከ፡ ወበአይ፡ ዜማ፡ ወበአይ፡ ጾታ፡</foreign>, respondet: <foreign xml:lang="gez">እፈቱ፡ እስማዕ፡ ፲ አውታረ፡</foreign> (decachordum) <foreign xml:lang="gez">ወዜማሆሙ፡ ወጾታሆሙ፡</foreign> <ref cRef="Sx. Haml." loc="8.">Sx. Haml. 8.</ref> – <lbl expand="Vocabularium Aethiopicum, -a -a">Voc. Ae.</lbl>: <foreign xml:lang="gez">ጾታ፡ ዘ፡ ወገን፡ አገባብሂ፤</foreign> <cit type="translation" xml:lang="la">
+                                <quote> aliud </quote>
+                            </cit>: <foreign xml:lang="gez">እሊአየ፡ አንጋድየ፡ ሕዝብየ፡ ዘውግየ፡ ጾታየ፡ ብ፡ ወገኔ።</foreign> </sense> </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

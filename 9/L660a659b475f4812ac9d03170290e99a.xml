@@ -1,0 +1,147 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ምንት </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="AE" when="2018-01-26">Verschachtelung, Referenzen,</change>
+            <change who="AE" when="2018-01-26">Kosmetik,</change>
+        </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L660a659b475f4812ac9d03170290e99a" n="1366">
+               <form>
+                  <foreign xml:lang="gez">ምንት</foreign>
+               </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain"> <gramGrp> <pos expand="pronomen">pron.</pos> </gramGrp> interrog., ad res relatum (neutr.) <cit type="translation" xml:lang="la">
+                            <quote> quid? </quote>
+                        </cit> (<bibl>
+                            <ptr target="bm:Dillmann1857Gramm"/>gramm.</bibl> § 63; <bibl>
+                            <ptr target="bm:Dillmann1857Gramm"/>gramm.</bibl> § 147,b; <bibl>
+                            <ptr target="bm:Dillmann1857Gramm"/>gramm.</bibl> § 198,e). Plurali caret; <gramGrp> <case value="accusativus">Acc.</case> </gramGrp> <foreign xml:lang="gez">ምንተ፡</foreign>, et in interrogatione recta et in obliqua usurpatur. <sense n="1" xml:id="D1"> interrogativum: <foreign xml:lang="gez">ምንት፡ ውእቱ፡ እጓለ፡ እመሕያው፡ ወምንት፡ ባቍዑ፡ ወምንትኑ፡ ሠናይቱ፡ ወምንትኑ፡ እኪቱ፡</foreign> <ref cRef="Sir." loc="18,8">Sir. 18,8</ref>; <foreign xml:lang="gez">ምንት፡ እንከ፡ ረባሖሙ፡ ለክልኤሆሙ፡</foreign> <ref cRef="Sir." loc="20,30">Sir. 20,30</ref>; <ref cRef="Jud." loc="8,1">Jud. 8,1</ref>; <foreign xml:lang="gez">ምንትኑ፡ ዛቲ፡ አበሳ፡</foreign> <ref cRef="Jos." loc="22,16">Jos. 22,16</ref>; <ref cRef="Ps." loc="38,6">Ps. 38,6</ref>; <foreign xml:lang="gez">ምንትኑ፡ እላ፡ አህጉር፡</foreign> 3 <ref cRef="Reg." loc="9,13">Reg. 9,13</ref>; <ref cRef="Hen." loc="52,3">Hen. 52,3</ref>; <cit type="translation" xml:lang="la">
+                                <quote> utrum? </quote>
+                            </cit> <ref cRef="Matth." loc="9,5">Matth. 9,5</ref>; <gramGrp> <case value="accusativus">Acc.</case> </gramGrp> <ref cRef="Gen." loc="4,10">Gen. 4,10</ref>; <ref cRef="4 Reg." loc="4,13">4 Reg. 4,13</ref>; <ref cRef="Marc. " loc="14,64">Marc.  14,64</ref>; <ref cRef="Apoc." loc="2,29">Apoc. 2,29</ref>; <foreign xml:lang="gez">ምንተ፡ ይመስል፡ ብእሲሁ፡</foreign> <ref cRef="4 Reg." loc="1,7">4 Reg. 1,7</ref>; <ref cRef="Joh." loc="6,9">Joh. 6,9</ref>; statui constr. subjunctum: <foreign xml:lang="gez">አሰረ፡ ምንትኑ፡ ዝንቱ፡</foreign> <ref cRef="Dan. apocr." loc="13,19">Dan. apocr. 13,19</ref>. <sense n="a" xml:id="D1a"> Creberrime annexa particula interrogativa <foreign xml:lang="gez">ኑ፡</foreign> intenditur: <foreign xml:lang="gez">ምንትኑ፡</foreign> <ref cRef="Rom." loc="3,1">Rom. 3,1</ref>; <ref cRef="Jac." loc="4,12">Jac. 4,12</ref>; <ref cRef="Gen." loc="44,15">Gen. 44,15</ref>; <foreign xml:lang="gez">ምንትኑ፡ ዝንቱ፡</foreign> <ref cRef="Zach." loc="4,4">Zach. 4,4</ref>; <ref cRef="Zach." loc="4,5">Zach. 4,5</ref>; al.</sense> <sense n="b" xml:id="D1b"> saepe de qualitate rerum interrogat: <cit type="translation" xml:lang="la">
+                                    <quote> qualis </quote>
+                                </cit>, <cit type="translation" xml:lang="la">
+                                    <quote> quale? </quote>
+                                </cit> <foreign xml:lang="gez">ምንት፡ ሕዝብከ፡</foreign> <foreign xml:lang="grc">ἐκ ποίου καοῦ εἶ σύ</foreign> <ref cRef="Jon." loc="1,8">Jon. 1,8</ref>; <ref cRef="Jer." loc="8,9">Jer. 8,9</ref>; <ref cRef="Sir." loc="34,27">Sir. 34,27</ref>; <ref cRef="Marc." loc="1,27">Marc. 1,27</ref>; <ref cRef="Marc." loc="6,2">Marc. 6,2</ref>; <ref cRef="Luc." loc="7,39">Luc. 7,39</ref>; <ref cRef="Luc." loc="24,17">Luc. 24,17</ref>; <ref cRef="Joh." loc="7,36">Joh. 7,36</ref>; <ref cRef="Eph." loc="1,18">Eph. 1,18</ref>; <ref cRef="Eph." loc="1,19">Eph. 1,19</ref> (<lbl expand="videas">vid.</lbl> etiam d).</sense> <sense n="c" xml:id="D1c"> crebro de personis praeciatur, sive quia cujusnam generis et rationis sint interrogans nescit: <foreign xml:lang="gez">ምንትኑ፡ እሉ፡</foreign> <ref cRef="Zach." loc="1,9">Zach. 1,9</ref>; <ref cRef="Luc." loc="7,39">Luc. 7,39</ref>; sive quia contemtim loquitur: <foreign xml:lang="gez">ምንትኑ፡ ዝንቱ፡ ይብልዎ፡</foreign> <foreign xml:lang="grc">τίς οὖτος;</foreign> <ref cRef="Sir." loc="13,23">Sir. 13,23</ref>; <foreign xml:lang="gez">ምንትኑ፡ አንትሙ፡ እለ፡</foreign> <foreign xml:lang="grc">τίνες ἔστε ὑμεῖς οἵ</foreign> <ref cRef="Judith" loc="8,12">Judith 8,12</ref>; <foreign xml:lang="gez">አነ፡ ምንት፡ አነ፡</foreign> <ref cRef="Job" loc="9,24">Job 9,24</ref>; <ref cRef="2 Reg." loc="7,18">2 Reg. 7,18</ref>; <ref cRef="Ex." loc="16,7">Ex. 16,7</ref>; <ref cRef="Ps." loc="8,5">Ps. 8,5</ref>; <ref cRef="Hebr." loc="2,6">Hebr. 2,6</ref>; <ref cRef="Rom. " loc="14,4">Rom.  14,4</ref>; <ref cRef="Rom." loc="14,10">Rom. 14,10</ref>.</sense> <sense n="d" xml:id="D1d"> quamvis <foreign xml:lang="gez">ምንት፡</foreign> plurimis in locis substantivi vim teneat (unde <lbl expand="exempli gratia">ex. gr.</lbl> locutionem: <foreign xml:lang="gez">ምንት፡ ዕፁ፡ በኀበ፡ ረከብክሙ፡</foreign> <foreign xml:lang="grc">ὑπὸ τί δένδρον;</foreign> <cit type="translation" xml:lang="la">
+                                    <quote> quae est arbor, sub qua … ?</quote>
+                                </cit> <ref cRef="Dan. apocr." loc="1,58">Dan. apocr. 1,58</ref> explicabis), tamen (secus ac <foreign xml:lang="gez">መኑ፡</foreign>) nomen vel <gramGrp> <pos expand="adjectivum">adj.</pos> <pos expand="relativum">rel.</pos> <pos expand="not found">subst.</pos> </gramGrp> sibi appositum haud aspernatur: <ref cRef="Matth." loc="5,46">Matth. 5,46</ref>; <ref cRef="Matth." loc="27,23">Matth. 27,23</ref>; <ref cRef="Hen. " loc="60,5">Hen.  60,5</ref>; <foreign xml:lang="gez">ምንተ፡ ብነ፡ ክፍለ፡ ምስለ፡ ዳዊት፡</foreign> <ref cRef="3 Reg." loc="12,16">3 Reg. 12,16</ref>; <foreign xml:lang="gez">ምንተ፡ ረከብከ፡ ላዕለ፡ ገብርከ፡ አበሳ፡</foreign> <ref cRef="1 Reg." loc="29,8">1 Reg. 29,8</ref>; <ref cRef="Kuf." loc="12.">Kuf. 12.</ref> </sense> <sense n="e" xml:id="D1e"> pronomen <lbl expand="persona">pers.</lbl> suffixum, cui sensus Dativi inest, assumit: <foreign xml:lang="gez">ምንትከ፡ እሙንቱ፡ እሉ፡</foreign> <ref cRef="Gen." loc="33,5">Gen. 33,5</ref>; <ref cRef="Gen." loc="33,8">Gen. 33,8</ref>; <ref cRef="Gen. " loc="48,8">Gen.  48,8</ref>.</sense> <sense n="f" xml:id="D1f"> cum aliis vocibus interrogativis omisso <foreign xml:lang="gez">ወ፡</foreign> copulari potest: <foreign xml:lang="gez">እፎ፡ ምንተ፡</foreign> <foreign xml:lang="grc">πῶς ἢ τί;</foreign> <ref cRef="Matth." loc="10,19">Matth. 10,19</ref>.</sense> <sense n="g" xml:id="D1g"> nota locutionem: <foreign xml:lang="gez">ምንተ፡ ኮንከ፡</foreign> <cit type="translation" xml:lang="la">
+                                    <quote> quid factus es </quote>
+                                </cit> i.e. <cit type="translation" xml:lang="la">
+                                    <quote> quid est tibi? </quote>
+                                </cit> <ref cRef="Jud." loc="1,14">Jud. 1,14</ref>; <ref cRef="Gen." loc="21,17">Gen. 21,17</ref>; <ref cRef="Ps." loc="113,5">Ps. 113,5</ref>; 1 <ref cRef="Reg." loc="1,8">Reg. 1,8</ref>; <ref cRef="Jes." loc="22,1">Jes. 22,1</ref>; et <foreign xml:lang="gez">ምንት፡ ብኪ፡ ከመ፡ ትሰተዪ፡</foreign> <ref cRef="Jer." loc="2,17">Jer. 2,17</ref>.</sense> <sense n="h" xml:id="D1h"> nota locutionem: <cit type="translation" xml:lang="la">
+                                    <quote> quid tibi est mecum </quote>
+                                </cit> <lbl expand="scilicet">sc.</lbl> negotii? <foreign xml:lang="gez">ምንት፡ ብከ፡ ምስሌየ፡</foreign> <ref cRef="Jud." loc="11,12">Jud. 11,12</ref>; <ref cRef="Jos." loc="22,24">Jos. 22,24</ref>; <ref cRef="Joel" loc="4,4">Joel 4,4</ref>; <ref cRef="Matth." loc="8,29">Matth. 8,29</ref>; <ref cRef="Marc." loc="5,7">Marc. 5,7</ref>; vel <foreign xml:lang="gez">ምንት፡ ብየ፡ ምስሌኪ፡</foreign> <ref cRef="Joh." loc="2,4">Joh. 2,4</ref>.</sense> <sense n="i" xml:id="D1i"> de <foreign xml:lang="gez">ምንት፡</foreign> et <foreign xml:lang="gez">ምንተ፡</foreign> <cit type="translation" xml:lang="la">
+                                    <quote> quare? cur? </quote>
+                                </cit> et de <foreign xml:lang="gez">ምንት፡</foreign> cum praepp. <lbl expand="videas">vid.</lbl> infra.</sense> </sense> <sense n="2" xml:id="D2"> indefinitum fit addito <foreign xml:lang="gez">ኒ፡</foreign>, rarius <foreign xml:lang="gez">ሂ፡</foreign> (rarissime sine <foreign xml:lang="gez">ኒ</foreign> et <foreign xml:lang="gez">ሂ፡</foreign>, ut <ref cRef="Sx. Tachs." loc="5 Enc.">Sx. Tachs. 5 Enc.</ref>); potissimum in enuntiationibus negativis usitatur: <cit type="translation" xml:lang="la">
+                                <quote> aliquid </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> aliquod </quote>
+                            </cit>; <cb n="0188" xml:id="c0188"/> <cit type="translation" xml:lang="la">
+                                <quote> quod </quote>
+                            </cit>; <cit type="translation" xml:lang="la">
+                                <quote> quidquam </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> ullum </quote>
+                            </cit>; substantive usurpatur: <ref cRef="Jac." loc="1,7">Jac. 1,7</ref>; <ref cRef="Ps." loc="38,7">Ps. 38,7</ref>; <ref cRef="Gal." loc="2,6">Gal. 2,6</ref>; <ref cRef="Phil." loc="1,28">Phil. 1,28</ref>; al.; et adjective: <foreign xml:lang="gez">ኢታንሥኡ፡ ምንተኒ፡ ጾረ፡</foreign> <ref cRef="Jer." loc="17,21">Jer. 17,21</ref>: <foreign xml:lang="gez">ኢይትቃወማ፡ ምንትኒ፡ እኩይ፡</foreign> <ref cRef="Prov." loc="3,15">Prov. 3,15</ref>; <foreign xml:lang="gez">ምንትኒ፡ ሐሰት፡ ኢ፡</foreign> <ref cRef="Prov." loc="24,23">Prov. 24,23</ref>; <ref cRef="4 Esr." loc="13,10">4 Esr. 13,10</ref>; <ref cRef="Gen." loc="19,8">Gen. 19,8</ref>; <ref cRef="Hen." loc="14,13">Hen. 14,13</ref>; <ref cRef="Hen." loc="78,17">Hen. 78,17</ref>, et ipsis personarum nominibus attribuitur, ut: <foreign xml:lang="gez">ምንተኒ፡ አንስተ፡ ኢያአምር፡</foreign> <ref cRef="Kuf." loc="25">Kuf. 25</ref>; <foreign xml:lang="gez">ከመ፡ ኢይንሣእ፡ ምንተኒ፡ ብእሲተ፡</foreign> <ref cRef="Kuf." loc="25.">Kuf. 25.</ref> Praefixo <foreign xml:lang="gez">ወ፡</foreign>, ut: <foreign xml:lang="gez">ወኢምንትኒ፡</foreign> significat: <cit type="translation" xml:lang="la">
+                                <quote> ne ullum quidem </quote>
+                            </cit> ut <ref cRef="Cant." loc="4,7">Cant. 4,7</ref>; <ref cRef="Matth." loc="27,12">Matth. 27,12</ref>; <ref cRef="Hen." loc="14,7">Hen. 14,7</ref>; <foreign xml:lang="gez">ወአልቦ፡ ወኢምንትኒ፡</foreign> <ref cRef="Jer." loc="4,23">Jer. 4,23</ref>; al.; praeterea <foreign xml:lang="gez">ወኢምንት፡</foreign> vel <foreign xml:lang="gez">ወኢምንትኒ፡</foreign> est <cit type="translation" xml:lang="la">
+                                <quote> nihil </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> nihil omnino </quote>
+                            </cit>: <ref cRef="Ex." loc="10,26">Ex. 10,26</ref>; <foreign xml:lang="gez">ሰፍሖ፡ ለመስዕ፡ ዲበ፡ ወኢምንት፡</foreign> <ref cRef="Job" loc="26,7">Job 26,7</ref>; <foreign xml:lang="gez">ከመ፡ ወኢምንትኒ፡ ክዒወ፡ ደም፡ በኀቤሁ፡</foreign> <ref cRef="Sir." loc="8,16">Sir. 8,16</ref>; <foreign xml:lang="gez">ከመ፡ ወኢምንት፡ እሙንቱ፡</foreign> <ref cRef="Jes." loc="40,15">Jes. 40,15</ref>; <ref cRef="Jes." loc="40,17">Jes. 40,17</ref>; <ref cRef="Jes. " loc="40,23">Jes.  40,23</ref>; <ref cRef="4 Esr." loc="4,64">4 Esr. 4,64</ref>; relatum ad tempus: <foreign xml:lang="gez">ከመ፡ ወኢምንትኒ፡</foreign> <foreign xml:lang="grc">ἐν στιγμῇ χρόνου</foreign> <ref cRef="Luc." loc="4,5">Luc. 4,5</ref>. Nonnumquam <foreign xml:lang="gez">ኢምንተኒ፡</foreign> adverbialiter usurpatur: <cit type="translation" xml:lang="la">
+                                <quote> nullo modo </quote>
+                            </cit> <ref cRef="Sx. Mag." loc="5 Enc.">Sx. Mag. 5 Enc.</ref>; <ref cRef="Sx. Tachs." loc="5 Enc.">Sx. Tachs. 5 Enc.</ref> – Adverbialiter usurpantur <sense n="a" xml:id="D2a"> <foreign xml:lang="gez">ምንትኑ፡</foreign> vel <foreign xml:lang="gez">ምንት፡</foreign> <cit type="translation" xml:lang="la">
+                                    <quote> quid? quomodo? cur? </quote>
+                                </cit> <ref cRef="Gen." loc="40,7">Gen. 40,7</ref>; <ref cRef="Sir." loc="38,25">Sir. 38,25</ref>; <ref cRef="Hen." loc="83,6">Hen. 83,6</ref>; <foreign xml:lang="gez">ምንትኑመ፡</foreign> <ref cRef="Matth." loc="11,8">Matth. 11,8</ref>; <ref cRef="Matth." loc="11,9">Matth. 11,9</ref> Platt.</sense> <sense n="b" xml:id="D2b"> <foreign xml:lang="gez">ምንተ፡</foreign> vel <foreign xml:lang="gez">ምንተኑ፡</foreign> <cit type="translation" xml:lang="la">
+                                    <quote> quid? quomodo? cur? </quote>
+                                </cit> <ref cRef="Gen." loc="26,27">Gen. 26,27</ref>; <foreign xml:lang="gez">ምንተ፡ ወለድከኒ፡</foreign> <ref cRef="Jes." loc="45,10">Jes. 45,10</ref>; <ref cRef="Jes." loc="22,16">Jes. 22,16</ref>; <ref cRef="1 Reg." loc="21,1">1 Reg. 21,1</ref>; <ref cRef="4 Esr." loc="5,15">4 Esr. 5,15</ref>; <foreign xml:lang="gez">እምውስተ፡ ርኩስ፡ ምንተ፡ ይወጽእ፡ ንጹሕ፡</foreign> <ref cRef="Sir." loc="31,4">Sir. 31,4</ref>; <ref cRef="Num." loc="22,9">Num. 22,9</ref>; <ref cRef="Num." loc="23,8">Num. 23,8</ref>; <ref cRef="3 Reg." loc="19,9">3 Reg. 19,9</ref>; <ref cRef="Matth." loc="7,3">Matth. 7,3</ref>; <ref cRef="Matth." loc="11,7">Matth. 11,7</ref>; <ref cRef="Matth." loc="11,8">Matth. 11,8</ref>; <ref cRef="Matth. " loc="11,9">Matth.  11,9</ref> <lbl expand="romanae editionis">rom.</lbl> Praeterea nota, in locutionibus, quales sunt <foreign xml:lang="gez">ምንት፡ አሥሐቃ፡</foreign>, <foreign xml:lang="gez">ምንት፡ አቀመክሙ፡</foreign> <cit type="translation" xml:lang="la">
+                                    <quote> quid eam ridere, vos stare fecit? </quote>
+                                </cit> i.e. <cit type="translation" xml:lang="la">
+                                    <quote> cur risit? cur statis? </quote>
+                                </cit> frequentissimis, pro nominativo <foreign xml:lang="gez">ምንት፡</foreign> crebro <gramGrp> <case value="accusativus">acc.</case> </gramGrp> <foreign xml:lang="gez">ምንተ፡</foreign> reperiri: <cit type="translation" xml:lang="la">
+                                    <quote> cur ridere eam fecit? </quote>
+                                </cit> (imperson.), ut <ref cRef="2 Reg." loc="24,21">2 Reg. 24,21</ref>; <ref cRef="Herm." loc="26a">Herm. 26a</ref>p.</sense> <sense n="c" xml:id="D2c"> <foreign xml:lang="gez">ለምንት፡</foreign>, <foreign xml:lang="gez">ለምንትኑ፡</foreign> <sense n="α" xml:id="D2cα"> <cit type="translation" xml:lang="la">
+                                        <quote> quare? cur? qua de causa? </quote>
+                                    </cit> <ref cRef="Matth." loc="8,26">Matth. 8,26</ref>; <ref cRef="1 Cor." loc="4,7">1 Cor. 4,7</ref>; <ref cRef="Gen." loc="31,30">Gen. 31,30</ref>; <ref cRef="Ex. " loc="14,15">Ex.  14,15</ref>; <ref cRef="Ex." loc="32,11">Ex. 32,11</ref>; <ref cRef="Ps." loc="41,15">Ps. 41,15</ref>; <ref cRef="Ps." loc="49,17">Ps. 49,17</ref>; <ref cRef="Jes." loc="3,15">Jes. 3,15</ref>; <ref cRef="Jes." loc="55,2">Jes. 55,2</ref>; <ref cRef="Jes." loc="58,4">Jes. 58,4</ref>; <ref cRef="Jer." loc="14,19">Jer. 14,19</ref>; <ref cRef="Job" loc="3,11">Job 3,11</ref>; <ref cRef="Job" loc="3,12">Job 3,12</ref>; <ref cRef="Job" loc="9,29">Job 9,29</ref>.</sense> <sense n="β" xml:id="D2cβ"> <cit type="translation" xml:lang="la">
+                                        <quote> cui rei? quem in finem? </quote>
+                                    </cit> <ref cRef="Gen." loc="25,22">Gen. 25,22</ref>; <ref cRef="Gen." loc="27,46">Gen. 27,46</ref>; <ref cRef="Ruth" loc="1,11">Ruth 1,11</ref>; <foreign xml:lang="gez">ለምንትኑ፡ ዝንቱ፡ ወለምንትኑ፡ ዝክቱ፡</foreign> <ref cRef="Sir." loc="39,16">Sir. 39,16</ref>; <ref cRef="4 Esr. " loc="3,45">4 Esr.  3,45</ref>; <ref cRef="Matth." loc="9,14">Matth. 9,14</ref>; <ref cRef="Matth." loc="26,8">Matth. 26,8</ref>.</sense> </sense> <sense n="d" xml:id="D2d"> <foreign xml:lang="gez">በምንት፡</foreign>, <foreign xml:lang="gez">በምንትኑ፡</foreign> <cit type="translation" xml:lang="la">
+                                    <quote> qua in re? </quote>
+                                </cit> <ref cRef="Jud." loc="16,5">Jud. 16,5</ref>; <cit type="translation" xml:lang="la">
+                                    <quote> qua cum re? </quote>
+                                </cit> <ref cRef="1 Reg." loc="6,2">1 Reg. 6,2</ref>; <cit type="translation" xml:lang="la">
+                                    <quote> qua in re </quote>
+                                </cit>i.e. <cit type="translation" xml:lang="la">
+                                    <quote> unde? </quote>
+                                </cit> <foreign xml:lang="gez">በምንት፡ ኣአምር፡</foreign> <ref cRef="Gen." loc="15,8">Gen. 15,8</ref>; <cit type="translation" xml:lang="la">
+                                    <quote> qua re </quote>
+                                </cit> (<cit type="translation" xml:lang="de">
+                                    <quote>womit</quote>
+                                </cit>, <cit type="translation" xml:lang="de">
+                                    <quote>wodurch</quote>
+                                </cit>?) <ref cRef="Matth." loc="5,13">Matth. 5,13</ref>; <ref cRef="1 Reg." loc="29,4">1 Reg. 29,4</ref>; <cit type="translation" xml:lang="la">
+                                    <quote> qua ratione? </quote>
+                                </cit> <ref cRef="Ps. " loc="118,9">Ps.  118,9</ref>; al. pro vario praepositionis <foreign xml:lang="gez">በ፡</foreign> usu. Nonnumquam <foreign xml:lang="gez">በምንት፡</foreign> est <cit type="translation" xml:lang="la">
+                                    <quote> ob quid? cur? </quote>
+                                </cit> <ref cRef="Matth." loc="14,31">Matth. 14,31</ref>; <ref cRef="Kuf." loc="12">Kuf. 12</ref>; <foreign xml:lang="grc">τοιγαροῦν</foreign> (<foreign xml:lang="gez">በምንትኑመ፡</foreign>) <ref cRef="Job" loc="22,10">Job 22,10</ref>.</sense> <sense n="e" xml:id="D2e"> <foreign xml:lang="gez">በእንተ፡ ምንት፡</foreign> vel <foreign xml:lang="gez">ምንትኑ፡</foreign> vel <foreign xml:lang="gez">በበይነ፡ ምንት፡</foreign> <cit type="translation" xml:lang="la">
+                                    <quote> quam ob rem? cur? quare? </quote>
+                                </cit> <ref cRef="Jer." loc="5,19">Jer. 5,19</ref>; <ref cRef="Jer." loc="13,22">Jer. 13,22</ref>; <ref cRef="Judith " loc="11,3">Judith  11,3</ref>; <ref cRef="4 Esr." loc="3,24">4 Esr. 3,24</ref>; <ref cRef="4 Esr." loc="13,53">4 Esr. 13,53</ref>; <ref cRef="Matth." loc="17,19">Matth. 17,19</ref>.</sense> <sense n="f" xml:id="D2f"> <foreign xml:lang="gez">እስከ፡ ምንት፡</foreign> vel <foreign xml:lang="gez">ምንትኑ፡</foreign> <cit type="translation" xml:lang="la">
+                                    <quote> quousque? quamdiu? </quote>
+                                </cit> <ref cRef="Job" loc="19,2">Job 19,2</ref>; <ref cRef="Ex. " loc="10,3">Ex.  10,3</ref>.</sense>
+                        </sense> </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,69 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ሰርዌ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="MK" when="2019-12-17">added new entry</change></revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L01916755ee9346bda61d5d7c0fcba610" n="2601">
+               <form>
+                  <foreign xml:lang="gez">ሰርዌ</foreign>
+               </form>
+               <sense xml:id="Dmain" xml:lang="la" source="#dillmann"> (etiam per <foreign xml:lang="gez">ሠ</foreign>) <gramGrp> <pos expand="Substantivum">subst.</pos> </gramGrp>, plerumque <gramGrp> <gen value="not found">m.</gen> </gramGrp>, <lbl expand="pluralis">Pl.</lbl> rarissime <foreign xml:lang="gez">ስራው፡</foreign> vel <foreign xml:lang="gez">ስረው፡</foreign> (ut <ref cRef="4 Reg." loc="5,1">4 Reg. 5,1</ref>; <ref cRef="4 Reg." loc="25,19">4 Reg. 25,19</ref> in SA), creberrime <cb n="0346" xml:id="c0346"/> <foreign xml:lang="gez">ሰራዊት፡</foreign>, <cit type="translation" xml:lang="la"><quote> agmen </quote></cit>, <cit type="translation" xml:lang="la"><quote> turma </quote></cit>, <cit type="translation" xml:lang="la"><quote> copiae </quote></cit> (<cit type="translation" xml:lang="la"><quote> militares </quote></cit>), <cit type="translation" xml:lang="la"><quote> exercitus </quote></cit>: <foreign xml:lang="gez">መልአከ፡ ሰርዌ፡</foreign> <foreign xml:lang="grc">ἀρχιστράτηγος</foreign> <ref cRef="Gen." loc="21,22">Gen. 21,22</ref>; <ref cRef="Gen." loc="21,32">Gen. 21,32</ref>; <ref cRef="Dan." loc="8,11">Dan. 8,11</ref>; <ref cRef="1 Par." loc="19,18">1 Par. 19,18</ref>; <foreign xml:lang="gez">መልአከ፡ ስራዊሆሙ፡</foreign> vel <foreign xml:lang="gez">ስረዊሆሙ፡</foreign> <ref cRef="4 Reg." loc="5,1">4 Reg. 5,1</ref>; <ref cRef="4 Reg." loc="25,19">4 Reg. 25,19</ref>; <foreign xml:lang="gez">መላእክተ፡ ሰራዊት፡</foreign> <ref cRef="Esth." loc="1,3">Esth. 1,3</ref>; <ref cRef="Judith" loc="2,14">Judith 2,14</ref>; <ref cRef="Num." loc="31,14">Num. 31,14</ref>; <foreign xml:lang="gez">ሰራዊት፡</foreign> <foreign xml:lang="grc">κεφαλαί</foreign> <ref cRef="Job" loc="1,17">Job 1,17</ref>; <foreign xml:lang="grc">ἀρχαί</foreign> <ref cRef="1 Reg." loc="11,11">1 Reg. 11,11</ref>; <ref cRef="Jud." loc="9,34">Jud. 9,34</ref>; <ref cRef="Jud." loc="9,37">Jud. 9,37</ref>; <foreign xml:lang="grc">στρατιαί</foreign> <ref cRef="Num." loc="10,28">Num. 10,28</ref>; <ref cRef="Kuf." loc="49">Kuf. 49</ref>; <foreign xml:lang="grc">στρατεύματα</foreign> <ref cRef="Apoc." loc="19,19">Apoc. 19,19</ref>; <foreign xml:lang="gez">ገብርኤል፡ ሊቀ፡ ሰራዊተ፡ ሰማያት፡</foreign> <ref cRef="Sx. Sen." loc="13">Sx. Sen. 13</ref>; <foreign xml:lang="gez">ሰራዊተ፡ መንፈሳውያን፡</foreign> <ref cRef="Did." loc="37">Did. 37</ref>; Clem. f. 11; <foreign xml:lang="grc">στρατιά</foreign> <ref cRef="Judith" loc="7,18">Judith 7,18</ref>; <ref cRef="1 Par." loc="19,8">1 Par. 19,8</ref>; <foreign xml:lang="grc">λεγεῶνες</foreign> <ref cRef="Matth." loc="26,53">Matth. 26,53</ref>; <foreign xml:lang="grc">σπείρα</foreign> <foreign xml:lang="gez">ሰራዊተ፡ ስጲራ፡</foreign> <ref cRef="Marc." loc="15,16">Marc. 15,16</ref> <lbl expand="romanae editionis">rom.</lbl>; <foreign xml:lang="grc">στρατόπεδον</foreign> <ref cRef="Jer." loc="41,1">Jer. 41,1</ref>; <ref cRef="Luc." loc="21,20">Luc. 21,20</ref>; <foreign xml:lang="grc">τάγματα</foreign> <foreign xml:lang="gez">ሰመንቱ፡ ሰራዊት፡</foreign> <ref cRef="Mich." loc="5,4">Mich. 5,4</ref>; <foreign xml:lang="grc">δύναμις</foreign> <ref cRef="Dan." loc="11,13">Dan. 11,13</ref>; <ref cRef="Hez." loc="27,10">Hez. 27,10</ref>; <ref cRef="Ps." loc="32,16">Ps. 32,16</ref>; <ref cRef="4 Reg." loc="25,1">4 Reg. 25,1</ref>; 4 <ref cRef="Reg." loc="25,10">Reg. 25,10</ref>; <foreign xml:lang="gez">ምስለ፡ ብዙኅ፡ ሰራዊት፡</foreign> <ref cRef="Jes." loc="36,2">Jes. 36,2</ref>; <foreign xml:lang="gez">ሰራዊቱ፡ ዐገትዋ፡ ለኢየሩሳሌም፡</foreign> <ref cRef="Jer." loc="39,2">Jer. 39,2</ref>; <foreign xml:lang="grc">ἔθνη</foreign> <ref cRef="Jes." loc="13,4">Jes. 13,4</ref>; <foreign xml:lang="gez">ዐቢይ፡ ሰራዊት፡</foreign> <ref cRef="Jer." loc="27,41">Jer. 27,41</ref>; <ref cRef="Jer." loc="28,28">Jer. 28,28</ref>; <foreign xml:lang="grc">ὄχλος</foreign> <ref cRef="Jer." loc="31,42">Jer. 31,42</ref>; <foreign xml:lang="gez">ሰራዊት፡ ጽኑዕ፡</foreign> <ref cRef="Jes." loc="43,17">Jes. 43,17</ref>; <foreign xml:lang="gez">ሰራዊተ፡ አሕዛብ፡</foreign> <foreign xml:lang="grc">ὄχλος λαῶν</foreign> <ref cRef="Hez." loc="23,24">Hez. 23,24</ref>; <foreign xml:lang="grc">λαός</foreign> <foreign xml:lang="gez">ሰራዊት፡ ብዙኃን፡ ወጽኑዓን፡</foreign> <ref cRef="Joel" loc="2,5">Joel 2,5</ref>; <foreign xml:lang="grc">συναγωγή</foreign> <foreign xml:lang="gez">ብዙኃን፡ ሰራዊት፡ ጥቀ፡</foreign> <ref cRef="Hez." loc="37,10">Hez. 37,10</ref>; <foreign xml:lang="gez">ሰራዊተ፡ ኀይል፡</foreign> <foreign xml:lang="grc">ἡγεμόνες τῆς δυνάμεως</foreign> <ref cRef="Jer." loc="48,13">Jer. 48,13</ref>; <ref cRef="Jer. " loc="48,16">Jer.  48,16</ref>; <foreign xml:lang="grc">ἱππασία ἵππων</foreign> <ref cRef="Jer." loc="8,16">Jer. 8,16</ref>. </sense>
+               
+            <sense xml:id="Tmain" xml:lang="en" source="#traces"><cit type="transcription" xml:lang="gez"><quote>sarwe</quote></cit>, <cit type="transcription" xml:lang="gez"><quote>śarwe</quote></cit>, Pl. <cit type="transcription" xml:lang="gez"><quote>sǝrāw</quote></cit>, <cit type="transcription" xml:lang="gez"><quote>sǝraw</quote></cit>, <cit type="transcription" xml:lang="gez"><quote>sarāwit</quote></cit> <cit type="translation" xml:lang="en"><quote>commander</quote></cit> <foreign xml:lang="gez">ወቀተሉ፡ መብዝኅቶሙ፡ ወቀተሉ፡ ሰርዌሆሙ፡ ዘይሰመይ፡ ይስሐቅሃ፡</foreign> ‘<cit type="translation" xml:lang="en"><quote>They killed the majority of them and they killed their commander named Yǝsḥaq</quote></cit>’ <bibl><ptr target="bm:Solomon2019GalawdewosI"/><citedRange unit="page"> 78 § 156 (ed.)</citedRange></bibl>, <bibl><ptr target="bm:Solomon2019GalawdewosII"/><citedRange unit="page"> 46 § 156 (tr.)</citedRange></bibl> (for this meaning of <cit type="transcription" xml:lang="gez"><quote>sarwe</quote></cit> see also <bibl><ptr target="bm:KidaneWaldGeezGramDict"/><citedRange unit="page"> 676</citedRange></bibl>, <bibl><ptr target="bm:Solomon2019GalawdewosII"/><citedRange unit="page"> 46 n. 236</citedRange></bibl> ) <sense n="L"> <foreign xml:lang="gez">ሰርዌ</foreign> <cit type="transcription" xml:lang="gez"><quote>sarwe</quote></cit> (pl. <cit type="transcription" xml:lang="gez"><quote>sǝraw</quote></cit>, <cit type="transcription" xml:lang="gez"><quote>sǝrāw</quote></cit>, <cit type="transcription" xml:lang="gez"><quote>sarāwit</quote></cit>) (<bibl><ptr target="bm:AlaqaTayya1965MSawasew"/></bibl>) <cit type="translation" xml:lang="en"><quote>military leader</quote></cit>, <cit type="translation" xml:lang="en"><quote>virile</quote></cit>, <cit type="translation" xml:lang="en"><quote>robust</quote></cit> <bibl><ptr target="bm:Leslau1987dic"/><citedRange unit="page"> 515a</citedRange></bibl></sense> </sense></entry>
+         </div>
+      </body>
+   </text>
+</TEI>

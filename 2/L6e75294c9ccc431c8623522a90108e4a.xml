@@ -1,0 +1,79 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> መሐለ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="LB" when="2018-01-30">root</change>
+        <change who="MK" when="2023-11-03">added Gr and Les</change><change who="MK" when="2023-11-03">added lb</change><change who="MK" when="2023-11-03">added lb</change></revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L6e75294c9ccc431c8623522a90108e4a" n="1134">
+               <form>
+                  <foreign xml:lang="gez">መሐለ</foreign>
+               <rs type="root"/>
+                    </form>
+               <sense xml:id="Dmain" xml:lang="la" source="#dillmann"> <subc>I,1</subc> [etiam <foreign xml:lang="gez">መሀለ፡</foreign>; amh. <foreign xml:lang="gez">ማለ፡</foreign>; arab. <foreign xml:lang="ar">بَهَلَ</foreign> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> exsecratus fuit </t:quote></cit>; III V VI <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> unus alterum exsecratus fuit </t:quote></cit>; VIII <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> supplex fuit in oratione, supplicavit </t:quote></cit> (at <foreign xml:lang="ar">مَحَلَ</foreign> significat <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> maligna delatione insidias struxit </t:quote></cit>)] <gramGrp> <pos expand="Subjunctivus">Subj.</pos> </gramGrp> <foreign xml:lang="gez">ይምሐል፡</foreign> <sense n="1" xml:id="D1"> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> jurare </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> jusjurandum dare </t:quote></cit>; absolute: <ref cRef="Lev." loc="5,4">Lev. 5,4</ref>; <foreign xml:lang="gez">ሶበ፡ ትምሕል፡</foreign> <ref cRef="Sir." loc="23,9">Sir. 23,9</ref>; <foreign xml:lang="gez">ኢትምሐሉ፡ ግሙራ፡</foreign> <ref cRef="Matth." loc="5,33">Matth. 5,33</ref>; <lbl expand="construitur cum">c.c.</lbl> <foreign xml:lang="gez">በ፡</foreign> jusjurandi: <ref cRef="Act. " loc="2,30">Act.  2,30</ref>; <foreign xml:lang="gez">በካልእ፡ መሐላ፡ ኢትምሐሉ፡</foreign> <ref cRef="Jac." loc="5,12">Jac. 5,12</ref>; hinc <lbl expand="cum">c.</lbl> <foreign xml:lang="gez">በሐሰት፡</foreign> vel <foreign xml:lang="gez">በዐመፃ፡</foreign> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> pejerare </t:quote></cit>: <foreign xml:lang="gez">መሐልክሙ፡ በዐመፃ፡</foreign> <ref cRef="Jer. " loc="7,9">Jer.  7,9</ref>; <foreign xml:lang="gez">ኢትምሐሉ፡ በሐሰት፡</foreign> <ref cRef="Matth." loc="5,33">Matth. 5,33</ref>; <foreign xml:lang="gez">በእንተ፡ እለ፡ ይምሕሉ፡ በጽድቅ፡ አው፡ በሐሰት፡</foreign> F.M. 22; vel <lbl expand="cum">c.</lbl> <gramGrp> <case value="accusativus">Acc.</case> </gramGrp> rei vel jurisjurandi vel foederis: <ref cRef="Luc." loc="1,73">Luc. 1,73</ref>; <ref cRef="Kuf." loc="37">Kuf. 37</ref>; <foreign xml:lang="gez">ዘብዙኀ፡ ይምሕል፡</foreign> <foreign xml:lang="grc">πολύορκος</foreign> <ref cRef="Sir." loc="27,14">Sir. 27,14</ref>; <ref cRef="Ps. " loc="104,8">Ps.  104,8</ref>; <ref cRef="4 Reg." loc="13,23">4 Reg. 13,23</ref>; <lbl expand="construitur cum">c.c.</lbl> <foreign xml:lang="gez">ከመ፡</foreign> seq. <gramGrp> <pos expand="Subjunctivus">Subj.</pos> </gramGrp> <ref cRef="Kuf." loc="6">Kuf. 6</ref>; <ref cRef="Jes." loc="62,8">Jes. 62,8</ref>; <ref cRef="Zach." loc="8,14">Zach. 8,14</ref>; <ref cRef="Gen." loc="25,33">Gen. 25,33</ref>; <ref cRef="Marc." loc="6,23">Marc. 6,23</ref>; vel <lbl expand="sequens">seq.</lbl> <gramGrp> <pos expand="Subjunctivus">Subj.</pos> </gramGrp> sine <foreign xml:lang="gez">ከመ፡</foreign> F.M. 22,9; vel <lbl expand="cum">c.</lbl> <foreign xml:lang="gez">ከመ፡</foreign> seq. <ref cRef="Ind. Jer." loc="29,14">Ind. Jer. 29,14</ref>; <ref cRef="Act." loc="2,30">Act. 2,30</ref> Platt; <ref cRef="Hebr." loc="3,11">Hebr. 3,11</ref>; <ref cRef="Hebr." loc="3,18">Hebr. 3,18</ref>; <ref cRef="Hebr." loc="4,3">Hebr. 4,3</ref>; <lbl expand="cum">c.</lbl> <gramGrp> <case value="accusativus">Acc.</case> </gramGrp> ejus, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> per </t:quote></cit> quem (quod) juratur: <ref cRef="Ex." loc="20,7">Ex. 20,7</ref>; <ref cRef="Matth." loc="5,34">Matth. 5,34</ref>; <ref cRef="Clem." loc="88">Clem. f. 88</ref>; <ref cRef="Clem." loc="160">Clem. f. 160</ref>; <lbl expand="cum">c.</lbl> <foreign xml:lang="gez">በ፡</foreign> ejusdem: <foreign xml:lang="gez">መሐልኩ፡ በርእስየ፡</foreign> <ref cRef="Jer." loc="22,5">Jer. 22,5</ref>; <ref cRef="Kuf." loc="18">Kuf. 18</ref>; <ref cRef="Jes." loc="45,23">Jes. 45,23</ref>; <foreign xml:lang="gez">እለ፡ ይምሕሉ፡ በስመ፡ እግዚአብሔር፡</foreign> <ref cRef="Jes." loc="48,1">Jes. 48,1</ref>; <ref cRef="Jes." loc="62,8">Jes. 62,8</ref>; <ref cRef="Jer. " loc="12,16">Jer.  12,16</ref>; <ref cRef="Hebr." loc="6,13">Hebr. 6,13</ref>; F.M. 22,5; <lbl expand="cum">c.</lbl> <foreign xml:lang="gez">ለ፡</foreign> personae, cui jurejurando promittitur: <ref cRef="Jes." loc="54,9">Jes. 54,9</ref>; <ref cRef="Ps." loc="14,6">Ps. 14,6</ref>; <ref cRef="Jer." loc="45,16">Jer. 45,16</ref>; <ref cRef="Kuf." loc="24">Kuf. 24</ref>; <ref cRef="Gen." loc="25,33">Gen. 25,33</ref>; <ref cRef="Gen. " loc="31,53">Gen.  31,53</ref>; vel <lbl expand="cum">c.</lbl> <foreign xml:lang="gez">ላዕለ፡</foreign> ejusdem <ref cRef="Hebr." loc="3,18">Hebr. 3,18</ref>. 
+</sense> <sense n="2" xml:id="D2"> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> jurejurando promittere </t:quote></cit> alicui aliquid, <lbl expand="cum">c.</lbl> <gramGrp> <case value="accusativus">Acc.</case> </gramGrp> rei et <foreign xml:lang="gez">ለ</foreign> pers.: <ref cRef="Gen." loc="50,24">Gen. 50,24</ref>; <ref cRef="Num." loc="32,11">Num. 32,11</ref>; <ref cRef="Deut." loc="31,20">Deut. 31,20</ref> (cfr. <ref cRef="Ex." loc="13,5">Ex. 13,5</ref>; <ref cRef="Ex. " loc="33,1">Ex.  33,1</ref>). 
+</sense> </sense>
+               
+            <sense xml:id="Tmain" xml:lang="en" source="#traces"> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">maḥala</t:quote></cit> <sense n="G" xml:id="TG"> <foreign xml:lang="gez">መሐለ፡</foreign> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">maḥala</t:quote></cit> <subc>I,1</subc> <foreign xml:lang="gez">ይምሕል፡</foreign>, <foreign xml:lang="gez">ይምሐል፡</foreign> «<cit type="translation" xml:lang="fr"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">jurer</t:quote></cit>, <cit type="translation" xml:lang="fr"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">prêter serment</t:quote></cit>» ― <foreign xml:lang="am">ማለ፡</foreign> Ms. <ref type="BM" target="BNFabb217">BNFabb217</ref>, fol. 34r <lb/>
+ <bibl><ptr target="bm:Grebaut1952SuppLexicon"/><citedRange unit="page"> 78</citedRange></bibl> 
+</sense> <sense n="L" xml:id="TL"> <foreign xml:lang="gez">መሐለ፡</foreign> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">maḥala</t:quote></cit> (yǝmḥal) <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">swear</t:quote></cit>, <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">take an oath</t:quote></cit> <lb/>
+ <foreign xml:lang="gez">መሐለ፡ በሐሰት</foreign> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">maḥala ba-ḥassat</t:quote></cit> <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">perjure oneself</t:quote></cit>, <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">swear falsely</t:quote></cit>, <lbl expand="videas">vid.</lbl> <foreign xml:lang="gez">ሐሰት</foreign> <lb/>
+ <foreign xml:lang="gez">መሐለ፡ በዐመፃ</foreign> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">maḥala ba-ʿamaḍā</t:quote></cit> <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">perjure oneself</t:quote></cit>, <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">swear falsely</t:quote></cit> <lbl expand="videas">vid.</lbl> <foreign xml:lang="gez">ዐመፃ</foreign> <lb/>
+ <bibl><ptr target="bm:Leslau1987dic"/><citedRange unit="page"> 335b</citedRange></bibl> 
+</sense> </sense></entry>
+         </div>
+      </body>
+   </text>
+</TEI>

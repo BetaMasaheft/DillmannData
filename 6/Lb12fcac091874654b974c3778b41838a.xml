@@ -1,0 +1,145 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ቀመር </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+         <change who="PL" when="2019-10-24">replaced d'Abb Cat references with bibliographical reference #7</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="Lb12fcac091874654b974c3778b41838a" n="3256">
+               <form>
+                  <foreign xml:lang="gez">ቀመር</foreign>
+               </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain">
+                  <gramGrp>
+                     <pos expand="Substantivum">subst.</pos>
+                  </gramGrp>, <lbl expand="pluralis">Pl.</lbl>
+                  <foreign xml:lang="gez">አቅማር፡</foreign>
+                  <sense n="1" xml:id="D1">
+                     <cit type="translation" xml:lang="la">
+                        <quote>camera</quote>
+                     </cit>, <cit type="translation" xml:lang="la">
+                        <quote>fornix</quote>
+                     </cit>, <cit type="translation" xml:lang="la">
+                        <quote>opus concameratum</quote>
+                     </cit>, <foreign xml:lang="grc">καμάρα</foreign>
+                     <ref cRef="Jes." loc="40,22">Jes. 40,22</ref>; <foreign xml:lang="gez">ዘሰቀሎ፡
+                        ለሰማይ፡ ከመ፡ ቀመር፡ ዘእንበለ፡ ዐምድ፡</foreign>
+                     <ref cRef="Lit." loc="176,1">Lit. 176,1</ref>; <ref cRef="Kedr f." loc="13">Kedr f. 13</ref>; <ref cRef="Gad. Lal.">Gad. Lal.</ref> ; Chron. Ax. Hoc eodem nomine appellatur „<cit type="translation" xml:lang="la">
+                        <quote>junctura trabium</quote>
+                     </cit> super columna aedificii media, <foreign xml:lang="gez">ሠርዌ፡</foreign>
+                     dictâ“, Lud.</sense>
+                  <sense n="2" xml:id="D2">
+                     <cit type="translation" xml:lang="la">
+                        <quote>aedes concameratae</quote>
+                     </cit>: <foreign xml:lang="gez">አንቲ፡</foreign> (Maria) <foreign xml:lang="gez">ውእቱ፡ ዳግሚት፡ ቀመር፡ እንተ፡ ትሰመይ፡ ቅድስተ፡ ቅዱሳን፡ ወውስቴታ፡ ጽላተ፡ ኪዳን፡ ፲ ቃላት፡ </foreign>
+                     <cb n="0419" xml:id="c0419"/> <ref cRef="Laud. Mar.">Laud. Mar.</ref> ; <ref cRef="Org." loc="3">Org.
+                     3</ref>; <ref cRef="Org." loc="4.">Org. 4.</ref>
+                  </sense>
+                  <sense n="3" xml:id="D3">
+                     <cit type="translation" xml:lang="la">
+                        <quote>orbis</quote>
+                     </cit>, <cit type="translation" xml:lang="la">
+                        <quote>circulus</quote>
+                     </cit>: <foreign xml:lang="gez">ዐውደ፡ ቀመሩ፡ ለወርኅ፡ </foreign>
+                     <ref cRef="M.M." loc="f. 11">M.M. f. 11</ref>; Ssal. Req.</sense>
+                  <sense n="4" xml:id="D4">
+                     <cit type="translation" xml:lang="la">
+                        <quote>cyclus</quote>
+                     </cit> (in computo annorum): <foreign xml:lang="gez">፲ወ፰ አቅማር፡</foreign> Vis.
+                     Bar.; <ref cRef="Catal. Cod. Mus. Brit." loc="4 ">Catal. Cod. Mus. Brit. p. 4
+                     </ref>et 5; <foreign xml:lang="gez">ናሁ፡ ኀልቀ፡ ቀመርነ፡ ዘተውህቦ፡ ለአዳም፡ ፸፻</foreign>
+                     <foreign xml:lang="gez">ዓመት፡</foreign> Cod. Mus. Brit. XIX; d’<ref cRef="Abbadie Catal." loc="45">Abbadie Catal. p. 45</ref>; d’<ref cRef="Abbadie Catal." loc="142.">Abbadie Catal. p. 142.</ref>
+                  </sense>
+                  <sense n="5" xml:id="D5">
+                     <cit type="translation" xml:lang="la">
+                        <quote>luna</quote>
+                     </cit> i.e. <foreign xml:lang="ar">قَمَرٌ</foreign> Abush. (crebro); <foreign xml:lang="gez">ዐውደ፡ ቀመር፡</foreign> (aliâs <foreign xml:lang="gez">ዐውደ፡
+                        ወርኅ፡</foreign>) <cit type="translation" xml:lang="la">
+                        <quote>circulus lunaris</quote>
+                     </cit> vel <cit type="translation" xml:lang="la">
+                        <quote>decemnovennalis</quote>
+                     </cit> (<lbl expand="videas">vid.</lbl> Ideler, Handb. der math. u. techn. <ref cRef="Chronol. II." loc="192">Chronol. II. p. 192</ref>) <ref cRef="Abush." loc="1">Abush. 1</ref>; <ref cRef="Abush." loc="24">Abush. 24</ref>; quare
+                     etiam <cit type="translation" xml:lang="la">
+                        <quote>tabulae computi paschalis</quote>
+                     </cit> (ut qui illo circulo lunari innitatur) <foreign xml:lang="gez">ዐውደ፡
+                        ቀመር፡</foreign> nominantur, <lbl expand="exempli gratia">ex. gr.</lbl> Cod.
+                     Mus. Brit. XXXVII; <bibl><ptr target="bm:Abbadie1859Cat"/><citedRange unit="page">217</citedRange></bibl>.
+                  </sense>
+                  <sense n="6" xml:id="D6"> „<cit type="translation" xml:lang="la">
+                        <quote>intercolumnium</quote>
+                     </cit>“ i.e. „<cit type="translation" xml:lang="la">
+                        <quote>series</quote>
+                     </cit> vel <cit type="translation" xml:lang="la">
+                        <quote>loculus in tabella lineis conclusus</quote>
+                     </cit> (q.d. <cit type="translation" xml:lang="la">
+                        <quote>conclave</quote>
+                     </cit>
+                     <note>Kammer</note>)“ Lud., <lbl expand="Novum Testamentum">N.T.</lbl>
+                     <lbl expand="romanae editionis">rom.</lbl> in proëm. (sc. <foreign xml:lang="gez">ቀመር፡</foreign> vel <foreign xml:lang="gez">ሥርዐተ፡ ቀመር፡
+                     </foreign> vertitur <foreign xml:lang="grc">κανών</foreign> (<cit type="translation" xml:lang="la">
+                        <quote>titulus</quote>
+                     </cit>) in Epistola Eusebii ad Carpianum). – <lbl expand="Vocabularium Aethiopicum, -a -a.">Voc. Ae.</lbl>: <foreign xml:lang="gez">ቀመር፡ ዘ፡ ገበታ፡</foreign>; <cit type="translation" xml:lang="la">
+                        <quote>aliud</quote>
+                     </cit>: <foreign xml:lang="gez">የምሰሶ፡ ገበታ፡</foreign>; <cit type="translation" xml:lang="la">
+                        <quote>aliud</quote>
+                     </cit>: <foreign xml:lang="gez">ቀመር፡ ዘ፡ ወርኅ።</foreign>
+                  </sense>
+               </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

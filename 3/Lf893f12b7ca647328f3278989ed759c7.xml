@@ -1,0 +1,76 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ተመን </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="LB" when="2018-03-01">root</change>
+        <change who="AE" when="2018-05-11">Punkt ergänzt,</change>
+        </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="Lf893f12b7ca647328f3278989ed759c7" n="4252">
+               <form>
+                  <foreign xml:lang="gez">ተመን</foreign>
+               <rs type="root"/>
+                    </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain">, <gramGrp> <pos expand="Substantivum">subst.</pos> </gramGrp>, <gramGrp> <gen value="not found">m.</gen> </gramGrp> et <gramGrp> <gen value="femininus">fem.</gen> </gramGrp>, <lbl expand="pluralis">Pl.</lbl> <foreign xml:lang="gez">ተመናት፡</foreign> <foreign xml:lang="he">תַּגִּין תַּגִּים</foreign> <foreign xml:lang="syr">ܬܰܢܺܝܢ</foreign> <foreign xml:lang="ar">تِنِّينٌ</foreign> <cit type="translation" xml:lang="la">
+                            <quote> serpens ingens </quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                            <quote> draco </quote>
+                        </cit>, <foreign xml:lang="gez">ተመን፡ ዐቢይ፡</foreign> Sx. <ref cRef="Masc." loc="19">Masc. 19</ref>; <ref cRef="Sx. Haml." loc="23">Sx. Haml. 23</ref>; <foreign xml:lang="gez">ነጌያት፡ ወተመናት፡ ወዐናብስት፡</foreign> <ref cRef="Sx. Genb. " loc="19">Sx. Genb.  19</ref>; <foreign xml:lang="gez">በአምሳለ፡ ተመን፡ ወአራዊት፡</foreign> (apparuit Satanas) <ref cRef="Gad. Kar." loc="">Gad. Kar. </ref>; <ref cRef="Kid." loc="39">Kid. f. 39</ref>; <ref cRef="L. Myst." loc="">L. Myst. </ref>; <ref cRef="Gad. T. H." loc="">Gad. T. H. </ref>; <ref cRef="Abush." loc="50">Abush. 50</ref>; nomina <foreign xml:lang="gez">ተመን፡</foreign> et <foreign xml:lang="gez">ከይሲ፡</foreign> promiscue usurpantur <ref cRef="Sx. Masc." loc="1 ">Sx. Masc. 1 </ref>– Voc. Ae.: <foreign xml:lang="gez">ተመን፡ ዘ፡ ዘንዶ።</foreign> <cb n="0556" xml:id="c0556"/> </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

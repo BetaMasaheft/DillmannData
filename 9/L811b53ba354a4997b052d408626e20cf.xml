@@ -1,0 +1,72 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> አመገበ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="MK" when="2024-03-11">added gr and les</change><change who="MK" when="2024-03-11">added sub</change></revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L811b53ba354a4997b052d408626e20cf" n="1599">
+               <form>
+                  <foreign xml:lang="gez">አመገበ</foreign>
+               </form>
+               <sense xml:id="Dmain" xml:lang="la" source="#dillmann"> <subc>II,2</subc> (passim in libris mss. <foreign xml:lang="gez">አምገበ፡</foreign> <subc>II,1</subc> ut Sx.; Imperf. <foreign xml:lang="gez">ያመግብ፡</foreign> <ref cRef="Luc." loc="12,44">Luc. 12,44</ref> <lbl expand="romanae editionis">rom.</lbl>) <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> praeficere rebus gerendis </t:quote></cit> aliquem, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> curam mandare </t:quote></cit> alicui; <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> administratorem </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> curatorem </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> procuratorem constituere </t:quote></cit> aliquem; <lbl expand="construitur cum">c.c.</lbl> <gramGrp> <case value="accusativus">Acc.</case> </gramGrp> <lbl expand="persona">pers.</lbl>: <foreign xml:lang="gez">መጋቢ፡ ዘአመገብዎ፡</foreign> F.M. 5,14; et <lbl expand="cum">c.</lbl> <foreign xml:lang="gez">ላዕለ፡</foreign> rei vel <lbl expand="persona">pers.</lbl>: <foreign xml:lang="gez">ኢታመግብ፡ ነኪረ፡ ላዕለ፡ ቤትከ፡</foreign> <ref cRef="Sir." loc="30,28">Sir. 30,28</ref>; <ref cRef="Luc." loc="12,44">Luc. 12,44</ref>; <foreign xml:lang="gez">ዘአመገብዎ፡ ላዕሌሆሙ፡</foreign> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> quem curatorem eorum </t:quote></cit> (pupillorum) <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> constituerunt </t:quote></cit> F.N. 24,3, vel <lbl expand="cum">c.</lbl> <foreign xml:lang="gez">ዲበ፡</foreign>, ut: <foreign xml:lang="gez">እግዚአብሔር፡ አመገበከ፡ ዲቤሆሙ፡ ትቅትል፡ ወታሕይው፡</foreign> <ref cRef="Macc." loc="3">Macc. f. 3</ref>; vel <lbl expand="cum">c.</lbl> <foreign xml:lang="gez">ለ፡</foreign> ut <ref cRef="Act." loc="7,10">Act. 7,10</ref> <lbl expand="romanae editionis">rom.</lbl>; vel <lbl expand="cum">c.</lbl> <foreign xml:lang="gez">በ፡</foreign> rei, ut: <foreign xml:lang="gez">ለእመ፡ አመገቦ፡ ለብእሲ፡ በሠይጥ፡</foreign> F.N. 30, et <lbl expand="cum">c.</lbl> <foreign xml:lang="gez">በ፡</foreign> muneris <ref cRef="1 Cor." loc="9,17">1 Cor. 9,17</ref>; <lbl expand="construitur cum">c.c.</lbl> <lbl expand="duplex">dupl.</lbl> <gramGrp> <case value="accusativus">Acc.</case> </gramGrp> (personae et muneris): <foreign xml:lang="gez">ኣሜግቦ፡ ምግበከ፡</foreign> <ref cRef="Jes." loc="22,21">Jes. 22,21</ref>. – (In Catal. Codd. <ref cRef="Aeth. Bibl. Bodl." loc="28 ">Aeth. Bibl. Bodl. p. 28 </ref> <foreign xml:lang="gez">በእንተ፡ አመግቦ፡</foreign> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> de mandato </t:quote></cit> (non: <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> de feudo </t:quote></cit>) vertendum est). </sense>
+               
+            <sense xml:id="Tmain" xml:lang="en" source="#traces"> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">ʾamaggaba</t:quote></cit> <sense n="G" xml:id="TG"> <foreign xml:lang="gez">አመገበ፡</foreign> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">ʾamaggaba</t:quote></cit> <subc>II,2</subc> <foreign xml:lang="gez">ያሜግብ፡</foreign>, <foreign xml:lang="gez">ያመግብ፡</foreign> «<cit type="translation" xml:lang="fr"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">préposer</t:quote></cit>, <cit type="translation" xml:lang="fr"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">créer administrateur</t:quote></cit>» ― <foreign xml:lang="am">ሾመ፡</foreign> Ms. <ref type="BM" target="BNFabb217">BNFabb217</ref>, fol. 47r. <lb/>
+ <bibl><ptr target="bm:Grebaut1952SuppLexicon"/><citedRange unit="page"> 114</citedRange></bibl> 
+</sense> <sense n="L" xml:id="TL"> <foreign xml:lang="gez">አመገበ</foreign> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">ʾamaggaba</t:quote></cit> <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">appoint a guardian</t:quote></cit>, <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">appoint an administrator or an overseer</t:quote></cit>, <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">place in charge of</t:quote></cit> <bibl><ptr target="bm:Leslau1987dic"/><citedRange unit="page"> 331b</citedRange></bibl> 
+</sense> </sense></entry>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,121 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> መንጸፍ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L9dc6b12c81b9492382cc30ea04792940" n="5300">
+               <form>
+                  <foreign xml:lang="gez">መንጸፍ</foreign>
+               </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain">
+                  <gramGrp>
+                     <pos expand="Substantivum">subst.</pos>
+                  </gramGrp>, <gramGrp>
+                     <gen value="masculinum">m.</gen>
+                  </gramGrp> et <gramGrp>
+                     <gen value="femininus">fem.</gen>
+                  </gramGrp>, <lbl expand="pluralis">Pl.</lbl>
+                  <foreign xml:lang="gez">መናጽፍ፡</foreign> et <foreign xml:lang="gez">መንጸፋት፡</foreign>
+                  <sense n="1" xml:id="D1">
+                     <cit type="translation" xml:lang="la">
+                        <quote>stratum</quote>
+                     </cit>, <cit type="translation" xml:lang="la">
+                        <quote>lectus</quote>
+                     </cit>, <cit type="translation" xml:lang="la">
+                        <quote>stragulum</quote>
+                     </cit>: <foreign xml:lang="grc">στρωμνή </foreign>
+                     <ref cRef="Hez." loc="27,7">Hez. 27,7</ref>; <foreign xml:lang="gez">ሰረገላት፡
+                        ወመናጽፍ፡ ሠናያት፡</foreign> (<foreign xml:lang="grc">στρωμνη απαλή</foreign>)
+                        <ref cRef="Chrys. Ta." loc="2">Chrys. Ta. 2</ref>; <foreign xml:lang="gez">ነጸፈ፡ ሠናየ፡ መንጸፈ፡</foreign>
+                     <ref cRef="Chrys. Ta." loc="25">Chrys. Ta. 25</ref>; monachus <foreign xml:lang="gez">ይሰክብ፡ ውስተ፡ ምድር፡ ዘእንበለ፡ መንጸፍ፡</foreign>
+                     <ref cRef="Sx. Masc." loc="14">Sx. Masc. 14</ref>; F.N. 15; <ref cRef="Kedr f." loc="63">Kedr f. 63</ref>; <foreign xml:lang="gez">ዐራታት፡ ወመንጸፋት፡</foreign>
+                     F.N. 17; <foreign xml:lang="gez">እሞሙ፡ </foreign> (sc. mortuorum) <foreign xml:lang="gez">ይእቲ፡ ምድር፡ እምትካት፡ ወይእዜሰ፡ ኮነት፡ መንጸፈ፡ ለአብድንቲሆሙ፡</foreign>
+                     <ref cRef="Genz." loc="74">Genz. f. 74</ref>; <foreign xml:lang="gez">መንጸፈ፡
+                        ድንግልና፡ </foreign>
+                     <foreign xml:lang="grc">τὰ παρθένια</foreign>
+                     <ref cRef="Deut." loc="22,15">Deut. 22,15</ref>; <ref cRef="Deut. " loc="22,17">Deut. 22,17</ref>; <ref cRef="Hez." loc="21,26">Hez. 21,26</ref> ubi
+                     Graecus <foreign xml:lang="grc">κίδαριν</foreign> exhibet, alii libri <foreign xml:lang="gez">መንጸፍ፡</foreign>, alii <foreign xml:lang="gez">መጽነፍት፡</foreign> i.e. <foreign xml:lang="he">מִצְנֶפֶת</foreign>
+                     habent</sense>
+                  <sense n="2" xml:id="D2">
+                     <cit type="translation" xml:lang="la">
+                        <quote>saccus</quote>
+                     </cit>, <cit type="translation" xml:lang="la">
+                        <quote>vestis cilicina</quote>
+                     </cit>: <foreign xml:lang="gez">አእትት፡ መንጸፈ፡ እምሐቌከ፡ </foreign>
+                     <ref cRef="Jes." loc="20,2">Jes. 20,2</ref>; <foreign xml:lang="gez">መንጸፍ፡
+                        ወብልባሌ፡</foreign>
+                     <ref cRef="Jes." loc="22,12">Jes. 22,12</ref>; <foreign xml:lang="gez">ለብሰ፡
+                        መንጸፈ፡</foreign>
+                     <ref cRef="Jes." loc="37,1">Jes. 37,1</ref>.</sense>
+                  <sense n="3" xml:id="D3">
+                     <cit type="translation" xml:lang="la">
+                        <quote>subiculum</quote>
+                     </cit>, <cit type="translation" xml:lang="la">
+                        <quote>stratum infimum</quote>
+                     </cit>: <foreign xml:lang="gez">ሳጥናኤል፡ ሊቀ፡ መላእክት፡ </foreign> (e coelo dejectus)
+                        <foreign xml:lang="gez">ኮነ፡ መንጸፈ፡ ደይን፡ </foreign>
+                     <ref cRef="M.M." loc="f. 205">M.M. f. 205</ref>; <foreign xml:lang="gez">ወድቀ፡
+                        ዲያብሎስ፡ እምኑኀ፡ አርያም፡ ውስተ፡ መንጸፈ፡ ደይን፡</foreign>
+                     <ref cRef="M.M." loc="f. 205">M.M. f. 205</ref>; diabolus <foreign xml:lang="gez">በእንተ፡ ትዕቢቱ፡ ኮነ፡ መንጸፈ፡ ለኵሉ፡ ወተመነነ፡ እምቅዱሳን፡ መላእክት፡</foreign>
+                     <ref cRef="Clem." loc="264.">Clem. f. 264.</ref>
+                  </sense>
+               </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

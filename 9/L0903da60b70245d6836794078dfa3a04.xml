@@ -1,0 +1,77 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ፈኀረ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="LB" when="2018-06-05">root</change>
+        </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L0903da60b70245d6836794078dfa3a04" n="10008">
+               <form>
+                  <foreign xml:lang="gez">ፈኀረ</foreign>
+               <rs type="root"/>
+                    </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain"> <subc>I,1</subc> [<foreign xml:lang="he">מהר</foreign>, <foreign xml:lang="ar">مهر</foreign>] <gramGrp> <pos expand="Subjunctivus">Subj.</pos> </gramGrp> <foreign xml:lang="gez">ይፍኀር፡</foreign> (F.N. 24,2), <cit type="translation" xml:lang="la">
+                            <quote> despondere </quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                            <quote> desponsare </quote>
+                        </cit> feminam, <lbl expand="cum">c.</lbl> <gramGrp> <case value="accusativus">Acc.</case> </gramGrp> <lbl expand="persona">pers.</lbl> et <foreign xml:lang="gez">ለ፡</foreign> <gramGrp> <case value="dativus">Dat.</case> </gramGrp>: <sense n="a" xml:id="Da"> alicui: <ref cRef="Luc." loc="2,5">Luc. 2,5</ref>; <ref cRef="2 Cor." loc="11,2">2 Cor. 11,2</ref> et <ref cRef="Chrys. Ta." loc="28.">Chrys. Ta. 28.</ref> </sense> <sense n="b" xml:id="Db"> sibi, sive omisso <gramGrp> <case value="dativus">Dat.</case> </gramGrp>: <ref cRef="Deut." loc="20,7">Deut. 20,7</ref>; <ref cRef="Kuf." loc="92">Kuf. p. 92</ref>; sive adjecto <foreign xml:lang="gez">ሎቱ፡</foreign> <cit type="translation" xml:lang="la">
+                                <quote> sibi </quote>
+                            </cit>: <foreign xml:lang="gez">እፍኅረኪ፡ ሊተ፡ ብእሲተ፡</foreign> <ref cRef="Hos." loc="2,21">Hos. 2,21</ref>; <ref cRef="Sx. Nah." loc="28.">Sx. Nah. 28.</ref> – Nota definitionem: <foreign xml:lang="gez">ፍኂር፡ ኪዳን፡ ውእቱ፡ ወተስፋ፡ ዘይቀድም፡ እምአውስቦ፡ ወይከውን፡ በመጽሐፈ፡ መልእክት፡ ወዘእንበለ፡ መጽሐፍ፡</foreign> F.N. 24,3. – Quomodo differat a <foreign xml:lang="gez">ሐፀየ፡</foreign> vid. <lbl expand="columna">col.</lbl> 140. – <lbl expand="Vocabularium Aethiopicum, -a -a">Voc. Ae.</lbl>: <foreign xml:lang="gez">ፈኀረ፡ ዘ፡ ሐጨ።</foreign> </sense> </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

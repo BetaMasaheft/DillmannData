@@ -1,0 +1,93 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ተግህደ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L50afa37d168542b499225111cb879b19" n="8226">
+               <form>
+                  <foreign xml:lang="gez">ተግህደ</foreign>
+               </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain"> <subc>III,1</subc> <cit type="translation" xml:lang="la">
+                     <quote>publicum</quote>
+                  </cit>, <cit type="translation" xml:lang="la">
+                     <quote>manifestum</quote>
+                  </cit>, <cit type="translation" xml:lang="la">
+                     <quote>notum</quote>
+                  </cit>, <cit type="translation" xml:lang="la">
+                     <quote>dilucidum</quote>
+                  </cit>, <cit type="translation" xml:lang="la">
+                     <quote>perspectum</quote>
+                  </cit>, <cit type="translation" xml:lang="la">
+                     <quote>evidentem esse</quote>
+                  </cit> vel <cit type="translation" xml:lang="la">
+                     <quote>fieri</quote>
+                  </cit>: Constantino imperante <foreign xml:lang="gez">ተግህደ፡ ሃይማኖተ፡
+                     ክርስቶስ፡</foreign> (religio publica facta est) M.M: f. 19; legantur libri biblici
+                     <foreign xml:lang="gez">መጠነ፡ ይትገሀድ፡</foreign>
+                  <ref cRef="II Can. Ap." loc="81">II Can. Ap. 81</ref>; <foreign xml:lang="gez">ይትገሀድ፡ ተኣምሪከ፡ አሜሃ፡ </foreign>
+                  <ref cRef="Sx. Haml." loc="30 ">Sx. Haml. 30 </ref>Enc.; <foreign xml:lang="gez">ለእመ፡ ጸንዐት፡ ዛቲ፡ ወተግህደት፡ </foreign> (si hoc firmum et dilucidum fuerit) F.M.
+                  2,11; si quis armatus raptum exit, <foreign xml:lang="gez">ተግህደ፡ ላዕሌሁ፡ ከመ፡ ውእቱ፡
+                     ወፅአ፡ በኅሊና፡ ቀቲል፡</foreign> F.M. 17,6; nonnunquam <lbl expand="cum">c.</lbl> Nom.
+                     <lbl expand="persona">pers.</lbl> et <foreign xml:lang="gez">በ፡</foreign> rei:
+                     <foreign xml:lang="gez">ዘተግህዱ፡ በወፄእ፡ እምትእዛዛት፡</foreign> ({die bekannt sind
+                  durch Gesezesübertretung}) F.N. 18; <foreign xml:lang="gez">ዘተግህደ፡
+                     በተአምኖቱ፡</foreign> ({dessen Zuverlässigkeit bekannt ist}) F.N. 18. </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

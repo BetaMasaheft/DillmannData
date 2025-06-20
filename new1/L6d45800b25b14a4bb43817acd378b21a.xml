@@ -1,0 +1,106 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="gez">ቁማሽ</title>
+                <author>Alessandro Bausi</author>
+                <author>Andreas Ellwardt</author>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+                <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+                <pubPlace>Hamburg</pubPlace>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-sa-nc/4.0/"> This file
+                        is licensed under the Creative Commons Attribution-ShareAlike Non Commercial
+                        4.0. </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                        Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice
+                            latino. Adiectum est vocabularium tigre dialecti septentrionalis
+                            compilatum</emph> a W. Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+                </p>
+                <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced
+                        Grant TraCES (Grant Agreement 338756)</ref>
+                </p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>A digital edition of the Lexicon in TEI.</p>
+            <listPrefixDef>
+                <prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/>
+            </listPrefixDef>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="la">latin</language>
+                <language ident="it">Italian</language>
+                <language ident="gez">Gǝʿǝz</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="syr">Syriac</language>
+                <language ident="ar">Arabic</language>
+                <language ident="sa">Sanskrit</language>
+                <language ident="geo">Georgian</language>
+                <language ident="cop">Coptic</language>
+                <language ident="osa">Old South Arabian</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change who="MK" when="2019-05-03">added new entry</change>
+            <change who="MK" when="2019-05-03">corr</change>
+            <change who="MK" when="2019-05-03">added pos</change>
+            <change who="MK" when="2019-05-06">corr</change>
+            <change who="MK" when="2019-05-06">corr</change>
+            <change who="MK" when="2019-12-11">moving etym to the secion</change>
+            <change who="MK" when="2022-07-04">correction</change>
+            <change who="MK" when="2022-07-04">corrections</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <entry xml:id="L6d45800b25b14a4bb43817acd378b21a" n="12574">
+                    <form>
+                        <foreign xml:lang="gez">ቁማሽ</foreign>
+                    </form>
+                    <sense xml:id="Tmain" xml:lang="en" source="#traces">
+                        <cit type="transcription" xml:lang="gez">
+                            <t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> qumaš </t:quote>
+                        </cit>
+                        <gramGrp>
+                            <pos expand="Substantivum">subst.</pos>
+                        </gramGrp>
+                        <cit type="translation" xml:lang="en">
+                            <t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> clothes </t:quote>
+                        </cit> or <cit type="translation" xml:lang="en">
+                            <t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> fabric </t:quote>
+                        </cit> ? <foreign xml:lang="gez">ፈነወ፡ ይስሐቅ፡ መንግሠ፡ ለሐፄ፡ ብዙኃ፡ ቁማሸ፡ ዘዘዚአሁ፡ ኅብሩ፡
+                            እለ፡ ከመ፡ አርዋ፡ ወቅፍጣን፡ ወሲኒ፡ ወመስሕ፡ ወከፈዊ፡ ጅኵ፡ ወብዙኅ፡ ቀሚስ፡ ስፋይ፡ ዘወፅአ፡ እምባሕር፡
+                            ሰርፍ፡ ወብሳጥ፡ ብዙኃን፡ ሳሕላዊሰ፡ ወዶቲ፡ ኢይትዐወቅ፡ ኆልቁ።</foreign> ‘<cit type="translation" xml:lang="fr">
+                            <t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> Yesḥaq envoya comme
+                                tribut au Ḥaṣē une grande quantité d’habillements, chacun d’une
+                                couleur, tels que des soies bleues, des qeftān, des sini, des maseḥ,
+                                des kafawi, ǧekue, nombre des chemises brodées qui avaient été
+                                importées par mer, des draps royaux, des tapis, des sāḥlāwi en
+                                quantité, et des doti innombrables </t:quote>
+                        </cit>’ <bibl><ptr target="bm:ContiRossini1907SarsaDengel"/><citedRange unit="page"> 39 l. 33–36, 40 l. 1 (ed.)</citedRange></bibl>,
+                                <bibl><ptr target="bm:ContiRossini1907SarsaDengelV"/><citedRange unit="page"> 46 l. 19–24 (tr.)</citedRange></bibl>
+                        <sense n="E" xml:id="TE"> from Amharic <foreign xml:lang="am">ቁማሽ</foreign>
+                            <cit type="transcription" xml:lang="gez">
+                                <t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> qumāš</t:quote>
+                            </cit> ‘goods, furniture, coarse cloth’, from Arabic <cit type="transcription" xml:lang="gez">
+                                <t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> qumāš</t:quote>
+                            </cit>, from Turkish <bibl><ptr target="bm:Leslau1990ArabLoanwordsEthSem"/><citedRange unit="page"> 19</citedRange></bibl>; in Amharic ‘(house)
+                            furniture, household furnishing; clothing; merchandise (<bibl><ptr target="bm:Baeteman1929DictAmhFr"/></bibl> says clothing,
+                            furniture are Gondare)’ <bibl><ptr target="bm:Kane1990DictAmhVol1"/><citedRange unit="page"> 704a</citedRange></bibl>) </sense>
+                        <nd/>
+                    </sense>
+                </entry>
+            </div>
+        </body>
+    </text>
+</TEI>

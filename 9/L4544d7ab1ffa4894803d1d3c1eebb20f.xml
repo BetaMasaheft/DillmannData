@@ -1,0 +1,144 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ድምፅ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L4544d7ab1ffa4894803d1d3c1eebb20f" n="7889">
+               <form>
+                  <foreign xml:lang="gez">ድምፅ</foreign>
+               </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain"> (raro <foreign xml:lang="gez">ደምፅ፡</foreign>) <gramGrp>
+                     <pos expand="Substantivum">subst.</pos>
+                  </gramGrp>, plerumque <gramGrp>
+                     <gen value="masculinum">m.</gen>
+                  </gramGrp>, <lbl expand="pluralis">Pl.</lbl>
+                  <foreign xml:lang="gez">ድምፃት፡</foreign>, <cit type="translation" xml:lang="la">
+                     <quote>sonus</quote>
+                  </cit>, <cit type="translation" xml:lang="la">
+                     <quote>sonitus</quote>
+                  </cit>, <cit type="translation" xml:lang="la">
+                     <quote>fremitus</quote>
+                  </cit>, <cit type="translation" xml:lang="la">
+                     <quote>strepitus</quote>
+                  </cit>, <cit type="translation" xml:lang="la">
+                     <quote>murmur</quote>
+                  </cit>, aquarum, undarum: <ref cRef="Ps." loc="64,7">Ps. 64,7</ref>; <ref cRef="Jes. " loc="5,30">Jes. 5,30</ref>; <ref cRef="Jer." loc="6,23">Jer.
+                     6,23</ref>; <ref cRef="Jer." loc="28,42">Jer. 28,42</ref>; <ref cRef="Hez." loc="1,24">Hez. 1,24</ref>; tonitru <foreign xml:lang="gez">ድምፀ፡ </foreign> (v.
+                     <foreign xml:lang="gez">ደምፀ፡</foreign>) <foreign xml:lang="gez">ፀዓዑ፡ መኑ፡
+                     ያአምር፡</foreign>
+                  <ref cRef="Job" loc="26,14">Job 26,14</ref>; <ref cRef="Job" loc="37,1">Job
+                     37,1</ref>; <foreign xml:lang="gez">በዐቢይ፡ ፀዓዕ፡ ገብረ፡ ድምፀ፡ ቃሉ፡</foreign>
+                  <ref cRef="Sir." loc="46,17">Sir. 46,17</ref>; foliorum vento agitatorum <ref cRef="Lev." loc="26,36">Lev. 26,36</ref>; pedum <ref cRef="3 Reg." loc="18,41">3 Reg. 18,41</ref>; alarum complosarum <ref cRef="Hez." loc="1,24">Hez.
+                     1,24</ref>; <ref cRef="Clem." loc="13 ">Clem. f. 13 </ref>(<lbl expand="videas">vid.</lbl>
+                  <foreign xml:lang="gez">ዶርሆ፡</foreign>); flagelli <ref cRef="Nah." loc="3,2">Nah.
+                     3,2</ref>; mallei <ref cRef="Sir." loc="38,28">Sir. 38,28</ref>; equorum,
+                  curruum: <foreign xml:lang="gez">ድምፀ፡ ሩጸተ፡ አፍራሲሁ፡</foreign>
+                  <ref cRef="Jer." loc="8,16">Jer. 8,16</ref>; <ref cRef="Jer." loc="28,42">Jer.
+                     28,42</ref>; <ref cRef="Mich." loc="1,13">Mich. 1,13</ref>; <ref cRef="Hez." loc="3,13">Hez. 3,13</ref>; <ref cRef="Apoc." loc="9,9">Apoc. 9,9</ref>; rei
+                  cadentis: <foreign xml:lang="gez">ድምፀ፡ ድቀቶሙ፡</foreign>
+                  <ref cRef="Jer." loc="29,22">Jer. 29,22</ref>; bestiarum <foreign xml:lang="gez">ድምፀ፡ አራዊት፡ ወዘአዕዋፍ፡ ንቃወ፡ ለበወ፡ ያዕቆብ፡</foreign>
+                  <ref cRef="Sx. Mij." loc="17 ">Sx. Mij. 17 </ref>Enc.; <foreign xml:lang="gez">ድምፀ፡ አፍራስ፡</foreign> <ref cRef="Gad. T.H." loc="">Gad. T.H.</ref> (<lbl expand="videas">vid.</lbl>
+                  <foreign xml:lang="gez">ቃቄር፡</foreign>); tubae <ref cRef="Hebr." loc="12,19">Hebr.
+                     12,19</ref>; nablii <ref cRef="III Sal. Mar." loc="15">III Sal. Mar. 15</ref>;
+                  multitudinis: <ref cRef="Ex. " loc="32,17">Ex. 32,17</ref>; <ref cRef="Ex." loc="32,18">Ex. 32,18</ref>; <ref cRef="Jes." loc="21,7">Jes. 21,7</ref>; <ref cRef="Dan." loc="10,6">Dan. 10,6</ref>; <ref cRef="Hez." loc="1,24">Hez.
+                     1,24</ref>; <ref cRef="Luc." loc="18,36">Luc. 18,36</ref>; clamantium,
+                  gementium, minitantium, murmurantium, al., ut exactoris <ref cRef="Job" loc="3,19">Job 3,19</ref>; <foreign xml:lang="gez">ኢይሰምዕ፡ ድምፀ፡ ዘይትጌረም፡</foreign>
+                  <foreign xml:lang="grc">μέμψιν</foreign>
+                  <ref cRef="Job" loc="39,7">Job 39,7</ref>; <ref cRef="Jes. " loc="30,17">Jes.
+                     30,17</ref>; <foreign xml:lang="gez">አልቦ፡ ቃል፡ ወአልቦ፡ ድምፅ፡</foreign>
+                  <ref cRef="3 Reg." loc="18,26">3 Reg. 18,26</ref>; <foreign xml:lang="gez">ድምፀ፡
+                     ግርማ፡</foreign>
+                  <foreign xml:lang="grc">φωνὴ φόβου</foreign>
+                  <ref cRef="Jer. " loc="37,5">Jer. 37,5</ref>; <foreign xml:lang="gez">ሰማዕኩ፡ ድምፀ፡
+                     ኤፍሬም፡ እንዘ፡ ይግዕር፡</foreign>
+                  <ref cRef="Jer." loc="38,18">Jer. 38,18</ref>; <foreign xml:lang="gez">ድምፀ፡
+                     ነጐርጓር፡</foreign>
+                  <foreign xml:lang="grc">θροῦς γογγυσμῶν </foreign>
+                  <ref cRef="Sap." loc="1,10">Sap. 1,10</ref>; <foreign xml:lang="gez">ድምፀ፡
+                     ዑቃቤ፡</foreign>
+                  <foreign xml:lang="grc">ἦχος ἀσφαλείας</foreign>
+                  <ref cRef="Prov." loc="11,15">Prov. 11,15</ref>; <foreign xml:lang="gez">ድምፀ፡
+                     ቃል፡</foreign>
+                  <ref cRef="4             Esr." loc="10,39">4 Esr. 10,39</ref>; <foreign xml:lang="gez">ድምፀ፡ ጸሎት፡ ሐዋዝ፡</foreign>
+                  <ref cRef="Sx. Teq." loc="6 ">Sx. Teq. 6 </ref>Enc.; <lbl expand="pluralis">Pl.</lbl>
+                  <foreign xml:lang="gez">ድምፃት፡ መደንግፃት፡</foreign>
+                  <ref cRef="Phlx." loc="116.">Phlx. 116.</ref>
+                  <sense n="a" xml:id="Da">
+                     <cit type="translation" xml:lang="la">
+                        <quote>echo</quote>
+                     </cit>: <foreign xml:lang="gez">ድምፀ፡ ቃል፡ ዘአድባር፡ መፍርሃን፡ እለ፡ ያወሥኡ፡ ወየዐልዉ፡ ድምፀ፡
+                        በበይናቲሆሙ፡</foreign>
+                     <ref cRef="Sap." loc="17,18">Sap. 17,18</ref>.</sense>
+                  <sense n="b" xml:id="Db">
+                     <cit type="translation" xml:lang="la">
+                        <quote>rumor</quote>
+                     </cit>, <foreign xml:lang="gez">ድምፀ፡ ነገር፡</foreign>
+                     <foreign xml:lang="grc">ἀκοή</foreign>
+                     <ref cRef="Matth." loc="14,1">Matth. 14,1</ref>
+                     <lbl expand="romanae editionis">rom.</lbl>; <foreign xml:lang="gez">ድምፃሰ፡ ሰማዕነ፡ </foreign>
+                     <foreign xml:lang="grc">τὸ κλέος</foreign>
+                     <ref cRef="Job" loc="28,22">Job 28,22</ref>; <foreign xml:lang="gez">ድምፀ፡
+                        ንባቦሙ፡</foreign>
+                     <foreign xml:lang="grc">λόγων αὐτοῦ ἀκοή </foreign>
+                     <ref cRef="Sap." loc="1,9">Sap. 1,9</ref> (cfr. etiam <ref cRef="Job" loc="37,1">Job 37,1</ref>; <ref cRef="Jer." loc="38,18">Jer.
+                     38,18</ref>).</sense>
+               </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

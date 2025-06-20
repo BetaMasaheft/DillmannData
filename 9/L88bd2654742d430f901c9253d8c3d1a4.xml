@@ -1,0 +1,120 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ፍጽም </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="AE" when="2017-12-08">Verschachtelung + Referenzen,</change>
+        <change who="LB" when="2018-06-05">foot</change>
+        </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L88bd2654742d430f901c9253d8c3d1a4" n="10133">
+               <form>
+                  <foreign xml:lang="gez">ፍጽም</foreign>
+               <rs type="root"/>
+                    </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain"> <gramGrp> <pos expand="Substantivum">subst.</pos> </gramGrp>, <lbl expand="pluralis">Pl.</lbl> <foreign xml:lang="gez">ፍጽማት፡</foreign> <sense n="1" xml:id="D1"> <cit type="translation" xml:lang="la">
+                                <quote> frons </quote>
+                            </cit>, <foreign xml:lang="grc">μέτωπον</foreign>, <ref cRef="Ex." loc="28,34">Ex. 28,34</ref>; <cb n="1390" xml:id="c1390"/> 1 <ref cRef="Reg." loc="17,49">Reg. 17,49</ref>; <ref cRef="2 Par." loc="26,19">2 Par. 26,19</ref>; <ref cRef="2 Par." loc="26,20">2 Par. 26,20</ref>; <ref cRef="Jes." loc="48,4">Jes. 48,4</ref>; <foreign xml:lang="gez">ሄጶ፡ ውስተ፡ ፍጽሙ፡</foreign> <ref cRef="Sir." loc="47,4">Sir. 47,4</ref>; <foreign xml:lang="gez">ፍጽሞሙ፡</foreign> <foreign xml:lang="grc">τὰ μέτωπα αὐτῶν</foreign> <ref cRef="Hez." loc="9,4">Hez. 9,4</ref>; <ref cRef="Apoc." loc="7,3">Apoc. 7,3</ref>; <ref cRef="Apoc." loc="14,1">Apoc. 14,1</ref>; <foreign xml:lang="grc">πρόσωπον</foreign> <ref cRef="Lev." loc="13,41">Lev. 13,41</ref>; <foreign xml:lang="gez">ከመ፡ ንዕትብ፡ ፍጽማቲነ፡ በአምሳለ፡ መስቀል፡</foreign> <ref cRef="F.N." loc=" 14">F.N.  14</ref>.</sense> <sense n="2" xml:id="D2"> <cit type="translation" xml:lang="la">
+                                <quote> pars </quote>
+                            </cit> <cit type="translation" xml:lang="la">
+                                <quote> anterior </quote>
+                            </cit>, <sense n="a" xml:id="D2a"> <cit type="translation" xml:lang="la">
+                                    <quote> frons </quote>
+                                </cit> agminis, <cit type="translation" xml:lang="la">
+                                    <quote> primum </quote>
+                                </cit> <cit type="translation" xml:lang="la">
+                                    <quote> agmen </quote>
+                                </cit>: <foreign xml:lang="gez">አዐቅብ፡ ፍጽመ፡ ወከዋላ፡</foreign> <ref cRef="2 Esr." loc="14,16">2 Esr. 14,16</ref>; 1 <ref cRef="Par." loc="26,10">Par. 26,10</ref>; <ref cRef="Joel" loc="2,3">Joel 2,3</ref>; <ref cRef="Joel" loc="2,20">Joel 2,20</ref>.</sense> <sense n="b" xml:id="D2b"> <cit type="translation" xml:lang="la">
+                                    <quote> facies </quote>
+                                </cit>, <cit type="translation" xml:lang="la">
+                                    <quote> superficies </quote>
+                                </cit>: <ref cRef="Ex." loc="16,14">Ex. 16,14</ref>; <ref cRef="Ex." loc="28,33">Ex. 28,33</ref>.</sense> <sense n="c" xml:id="D2c"> <foreign xml:lang="gez">ፍጽመ፡</foreign> <gramGrp> <pos expand="adverbium, adverbialiter">adv.</pos> </gramGrp> <sense n="α" xml:id="D2cα"> <cit type="translation" xml:lang="la">
+                                        <quote> in </quote>
+                                    </cit> vel <cit type="translation" xml:lang="la">
+                                        <quote> a </quote>
+                                    </cit> <cit type="translation" xml:lang="la">
+                                        <quote> fronte </quote>
+                                    </cit>, <cit type="translation" xml:lang="la">
+                                        <quote> parte </quote>
+                                    </cit> <cit type="translation" xml:lang="la">
+                                        <quote> antica </quote>
+                                    </cit>, <cit type="translation" xml:lang="la">
+                                        <quote> prae </quote>
+                                    </cit>: <foreign xml:lang="gez">ወወፅአ፡ ይሁዳ፡ ፍጽመ፡</foreign> <ref cRef="Kuf." loc="38">Kuf. 38</ref>; <foreign xml:lang="gez">አነ፡ አሐውር፡ ፍጽመ፡ ቅድሜከ፡</foreign> <ref cRef="Jes." loc="45,2">Jes. 45,2</ref>; <ref cRef="Jes." loc="52,12">Jes. 52,12</ref>; <ref cRef="Num." loc="32,17">Num. 32,17</ref>; <ref cRef="Deut." loc="20,4">Deut. 20,4</ref>; <ref cRef="Jos." loc="6,9">Jos. 6,9</ref>; <ref cRef="Jos. " loc="8,10">Jos.  8,10</ref>; <ref cRef="Ps." loc="45,5">Ps. 45,5</ref>; <foreign xml:lang="grc">ἐν πρώτοις</foreign> <ref cRef="1 Par." loc="11,6">1 Par. 11,6</ref>; <foreign xml:lang="gez">ነቢር፡ ፍጽመ፡ ውስተ፡ አዕዋዳት፡</foreign> <ref cRef="Matth." loc="23,6">Matth. 23,6</ref>; <ref cRef="Marc." loc="12,39">Marc. 12,39</ref>; <foreign xml:lang="gez">ፍጽሞሙ፡</foreign> <foreign xml:lang="grc">ἔμποσθεν αὐτῶν</foreign> <ref cRef="1 Par." loc="19,16">1 Par. 19,16</ref>.</sense> <sense n="β" xml:id="D2cβ"> <cit type="translation" xml:lang="la">
+                                        <quote> ex </quote>
+                                    </cit> <cit type="translation" xml:lang="la">
+                                        <quote> adverso </quote>
+                                    </cit>, <cit type="translation" xml:lang="la">
+                                        <quote> e </quote>
+                                    </cit> <cit type="translation" xml:lang="la">
+                                        <quote> regione </quote>
+                                    </cit>: <foreign xml:lang="gez">እለ፡ ይትቃወሙ፡ ፍጽመ፡ ቅድመ፡ ገጾሙ፡</foreign> <ref cRef="Hab." loc="1,9">Hab. 1,9</ref>; <ref cRef="Ob." loc="11">Ob. 11</ref>; <ref cRef="Num." loc="1,53">Num. 1,53</ref>.</sense> </sense> <sense n="d" xml:id="D2d"> <foreign xml:lang="gez">እንተ፡ ፍጽም፡</foreign> <cit type="translation" xml:lang="la">
+                                    <quote> a </quote>
+                                </cit> <cit type="translation" xml:lang="la">
+                                    <quote> parte </quote>
+                                </cit> <cit type="translation" xml:lang="la">
+                                    <quote> anteriore </quote>
+                                </cit> <ref cRef="Lit." loc="171,2">Lit. 171,2</ref>. [Etymon haud satis liquet; censuerim <cit type="translation" xml:lang="la">
+                                    <quote> frontem </quote>
+                                </cit> dictam esse a <cit type="translation" xml:lang="la">
+                                    <quote> latitudine </quote>
+                                </cit> (<foreign xml:lang="ar">فطح فسم</foreign>) sicut <foreign xml:lang="he">פַּדַּחַת</foreign> et literam <foreign xml:lang="gez">መ</foreign> primitus formativam esse sicut in <foreign xml:lang="ar">فُسْحُمٌ</foreign>. Deinde quaeritur annon ejusdem radicis sit <foreign xml:lang="he">מֵצַח</foreign>, cujus etymon a plerisque a <cit type="translation" xml:lang="la">
+                                    <quote> splendendo </quote>
+                                </cit> petitum pariter reprobo, atque etymon vocis <foreign xml:lang="gez">ፍጽም፡</foreign> a Dietrich semit. Wortforschung p.|139 propositum]. – Voc. Ae.: <foreign xml:lang="gez">ፍጽም፡ ብ፡ ፊት።</foreign> </sense> </sense> </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

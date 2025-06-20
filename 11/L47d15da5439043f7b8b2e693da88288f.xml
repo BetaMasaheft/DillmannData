@@ -1,0 +1,100 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ተወከለ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L47d15da5439043f7b8b2e693da88288f" n="6675">
+               <form>
+                  <foreign xml:lang="gez">ተወከለ</foreign>
+               </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain"> <subc>III,2</subc> <cit type="translation" xml:lang="la">
+                     <quote>fiduciam</quote>
+                  </cit> vel <cit type="translation" xml:lang="la">
+                     <quote>spem ponere</quote>
+                  </cit> in aliquo, <cit type="translation" xml:lang="la">
+                     <quote>fretum esse</quote>
+                  </cit>, <cit type="translation" xml:lang="la">
+                     <quote>fidere</quote>
+                  </cit>, <cit type="translation" xml:lang="la">
+                     <quote>confidere</quote>
+                  </cit> alicui, <lbl expand="construitur cum">c.c.</lbl>
+                  <foreign xml:lang="gez">በ፡ </foreign> pers. vel rei: <ref cRef="Ps." loc="55,4">Ps. 55,4</ref>; <ref cRef="Prov." loc="16,20">Prov. 16,20</ref>; <ref cRef="Prov." loc="28,25">Prov. 28,25</ref>; <foreign xml:lang="gez">ሀሉ፡ ተወኪለከ፡
+                     በእግዚአብሔር፡</foreign>
+                  <ref cRef="Prov." loc="3,5">Prov. 3,5</ref>; <ref cRef="Dan." loc="3,28">Dan.
+                     3,28</ref>; <foreign xml:lang="gez">ተወከልኪ፡ በሐሰት፡</foreign>
+                  <ref cRef="Jer." loc="13,25">Jer. 13,25</ref>; <ref cRef="Jer." loc="17,7">Jer.
+                     17,7</ref>; <ref cRef="Jes." loc="8,14">Jes. 8,14</ref>; <ref cRef="Jes." loc="11,10">Jes. 11,10</ref>; <ref cRef="Jes." loc="17,7">Jes. 17,7</ref>; <ref cRef="Jes." loc="30,12">Jes. 30,12</ref>; <ref cRef="Jes." loc="36,4">Jes.
+                     36,4</ref>
+                  <lbl expand="sequens">seq.</lbl>; <ref cRef="Job" loc="6,13">Job 6,13</ref>; <ref cRef="Job" loc="6,20">Job 6,20</ref>; <ref cRef="Job" loc="27,8">Job
+                  27,8</ref>; <foreign xml:lang="gez">ተወከል፡ ቦቱ፡ </foreign>
+                  <ref cRef="Sir." loc="2,6">Sir. 2,6</ref>; <ref cRef="Kuf." loc="20">Kuf.
+                  20</ref>; <ref cRef="4 Esr." loc="8,35">4 Esr. 8,35</ref>; <ref cRef="Eph." loc="1,12">Eph. 1,12</ref>; <ref cRef="Rom." loc="15,12">Rom. 15,12</ref>; <ref cRef="Phil." loc="3,4">Phil. 3,4</ref>; <lbl expand="cum">c.</lbl>
+                  <foreign xml:lang="gez">ዲበ፡</foreign>
+                  <ref cRef="Hen." loc="94,8">Hen. 94,8</ref>; <lbl expand="cum">c.</lbl>
+                  <gramGrp>
+                     <case value="accusativus">Acc.</case>
+                  </gramGrp>: <foreign xml:lang="gez">ተወከልናሆሙ፡ </foreign>
+                  <ref cRef="Jes." loc="20,6">Jes. 20,6</ref>; <foreign xml:lang="gez">ዘኪያሁ፡
+                     ተወከልነ፡</foreign>
+                  <ref cRef="Jes." loc="25,9">Jes. 25,9</ref>; <ref cRef="Jes. " loc="26,4">Jes.
+                     26,4</ref>; <ref cRef="Jes." loc="32,2">Jes. 32,2</ref>; <ref cRef="Ps." loc="5,13">Ps. 5,13</ref>; <ref cRef="Ps." loc="15,1">Ps. 15,1</ref>; <ref cRef="Ps." loc="54,27">Ps. 54,27</ref>; <foreign xml:lang="gez">በተወክሎ፡ መጻሕፍት፡ </foreign>
+                  <ref cRef="Rom." loc="15,4">Rom. 15,4</ref>. </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

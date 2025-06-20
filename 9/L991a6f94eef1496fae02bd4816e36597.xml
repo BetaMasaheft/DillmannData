@@ -1,0 +1,104 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> አሥገረ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L991a6f94eef1496fae02bd4816e36597" n="1993">
+               <form>
+                  <foreign xml:lang="gez">አሥገረ</foreign>
+               </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain"> <subc>II,1</subc> et <foreign xml:lang="gez">አሠገረ፡</foreign> <subc>II,2</subc> <cit type="translation" xml:lang="la">
+                     <quote>illaqueare</quote>
+                  </cit>, <cit type="translation" xml:lang="la">
+                     <quote>irretire</quote>
+                  </cit>; <cit type="translation" xml:lang="la">
+                     <quote>laqueis</quote>
+                  </cit>, <cit type="translation" xml:lang="la">
+                     <quote>retibus</quote>
+                  </cit>, <cit type="translation" xml:lang="la">
+                     <quote>hamis capere</quote>
+                  </cit>
+                  <gramGrp>
+                     <pos expand="absolute">abs.</pos>
+                  </gramGrp>
+                  <ref cRef="Kuf." loc="26">Kuf. 26</ref>; <ref cRef="Kuf." loc="37">Kuf. 37</ref>;
+                  feras <ref cRef="Cant." loc="2,15">Cant. 2,15</ref>; <ref cRef="Prov." loc="12,27">Prov. 12,27</ref>; transfertur ad homines: <foreign xml:lang="gez">ያሠግሮ፡</foreign>
+                  <foreign xml:lang="grc">πιάζει</foreign>
+                  <ref cRef="Sir." loc="23,21">Sir. 23,21</ref>; <foreign xml:lang="gez">ከመ፡ ኢታሥግርከ፡
+                     በማሕሌታ፡</foreign>
+                  <ref cRef="Sir." loc="9,4">Sir. 9,4</ref>; <foreign xml:lang="gez">ያሠግሩ፡
+                     ሰብአ፡</foreign>
+                  <ref cRef="Jes." loc="8,15">Jes. 8,15</ref>; <ref cRef="Hos." loc="5,1">Hos.
+                     5,1</ref>; <foreign xml:lang="gez">ያሤግር፡ ብእሴ፡</foreign>
+                  <ref cRef="Prov." loc="5,22">Prov. 5,22</ref>
+                  <lbl expand="varia lectio">var.</lbl>; <ref cRef="Prov." loc="6,26">Prov.
+                     6,26</ref>
+                  <lbl expand="varia lectio">var.</lbl>; <ref cRef="1 Reg." loc="28,9">1 Reg.
+                     28,9</ref>; <foreign xml:lang="gez">ውውዓሆሙ፡ ለእለ፡ ያሠግርዋ፡ ለባቢሎን፡</foreign>
+                  <ref cRef="Jer." loc="27,46">Jer. 27,46</ref>; in specie: <cit type="translation" xml:lang="la">
+                     <quote>piscari</quote>
+                  </cit>
+                  <ref cRef="Matth." loc="17,27">Matth. 17,27</ref>; <ref cRef="Marc." loc="1,16">Marc. 1,16</ref> (retia jacere); <ref cRef="Luc." loc="5,10">Luc. 5,10</ref>;
+                     <ref cRef="Jer." loc="16,16">Jer. 16,16</ref>; <foreign xml:lang="gez">አሥግረኒ፡
+                     እምባሕረ፡ ኀጢአት፡</foreign>
+                  <ref cRef="Sx. Mag." loc="30 ">Sx. Mag. 30 </ref>Enc. <cb n="0267" xml:id="c0267"/>
+               </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

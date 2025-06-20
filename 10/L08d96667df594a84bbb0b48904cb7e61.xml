@@ -1,0 +1,77 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> በለስ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="LB" when="2018-02-23">root</change>
+        <change who="MK" when="2023-02-19">added cross ref</change><change who="MK" when="2023-02-19">correction</change><change who="ES" when="2024-02-28">nesting</change></revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L08d96667df594a84bbb0b48904cb7e61" n="3775">
+               <form>
+                  <foreign xml:lang="gez">በለስ</foreign>
+               <rs type="root"/>
+                    </form>
+               <sense xml:id="Dmain" xml:lang="la" source="#dillmann"> <gramGrp> <pos expand="Substantivum">subst.</pos> </gramGrp> [<foreign xml:lang="ar">بَلَسٌ</foreign>, <foreign xml:lang="he">בָּלַס</foreign>], <gramGrp> <gen value="not found">m.</gen> </gramGrp> et <gramGrp> <gen value="femininus">fem.</gen> </gramGrp> (ut <ref cRef="Jud." loc="9,10">Jud. 9,10</ref>; <ref cRef="Jud." loc="9,11">Jud. 9,11</ref>; <ref cRef="Hab." loc="3,17">Hab. 3,17</ref>; <ref cRef="Jes." loc="28,4">Jes. 28,4</ref>; <ref cRef="Marc." loc="11,13">Marc. 11,13</ref>), <lbl expand="collatio, -is vel collectivum,&#xA;                            -e">coll.</lbl> et <lbl expand="">sing.</lbl>, <lbl expand="pluralis">Pl.</lbl> <foreign xml:lang="gez">በለሳት፡</foreign> (<ref cRef="Jer." loc="24,3">Jer. 24,3</ref> <lbl expand="varia lectio">var.</lbl>; Rel. Bar.) et <foreign xml:lang="gez">አብላስ፡</foreign> (<ref cRef="M.M." loc="f. 268">M.M. f. 268</ref>; Rel. Bar.; Org.) <sense n="1" xml:id="D1"> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> ficus </t:quote></cit> <sense n="a" xml:id="D1a"> arbor <ref cRef="Jud." loc="9,10">Jud. 9,10</ref>; <ref cRef="Jud." loc="9,11">Jud. 9,11</ref>; <ref cRef="Num." loc="13,23">Num. 13,23</ref>; <ref cRef="Deut." loc="8,8">Deut. 8,8</ref>, <ref cRef="Kuf." loc="13">Kuf. 13</ref>; <foreign xml:lang="gez">በለስ፡ ኢትፈሪ፡</foreign> <ref cRef="Hab." loc="3,17">Hab. 3,17</ref>; <foreign xml:lang="gez">ዘተከለ፡ በለሰ፡ ይበልዕ፡ ፍሬሃ፡</foreign> <ref cRef="Prov." loc="27,18">Prov. 27,18</ref>; <ref cRef="Cant." loc="2,13">Cant. 2,13</ref>; <ref cRef="Jes." loc="36,16">Jes. 36,16</ref>; <ref cRef="Hos." loc="2,14">Hos. 2,14</ref>; <ref cRef="Joel" loc="1,7">Joel 1,7</ref>; <ref cRef="Mich." loc="4,4">Mich. 4,4</ref>; <ref cRef="Zach." loc="3,10">Zach. 3,10</ref>; <ref cRef="Jac." loc="3,12">Jac. 3,12</ref>; <ref cRef="Matth." loc="21,19">Matth. 21,19</ref>; <ref cRef="Marc." loc="11,13">Marc. 11,13</ref>; <foreign xml:lang="gez">ቈጽለ፡ በለስ፡</foreign> <ref cRef="Kuf." loc="3">Kuf. 3</ref>; <ref cRef="Jes." loc="34,4">Jes. 34,4</ref>; <foreign xml:lang="grc">συκεών</foreign> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> ficetum </t:quote></cit> <ref cRef="Jer." loc="5,17">Jer. 5,17</ref>; <ref cRef="Am." loc="4,9">Am. 4,9</ref>. 
+</sense> <sense n="b" xml:id="D1b"> fructus <ref cRef="Jes." loc="28,4">Jes. 28,4</ref>; <ref cRef="2 Esr." loc="23,15">2 Esr. 23,15</ref>; <ref cRef="Jac." loc="3,12">Jac. 3,12</ref>; <foreign xml:lang="gez">ረከቡ፡ በምሥያጥ፡ በለሰ፡ ሐዲሰ፡ ወተሣየጡ፡ እምኔሁ፡</foreign> <ref cRef="Sx. Haml." loc="24">Sx. Haml. 24</ref>; <foreign xml:lang="gez">ረከበ፡ ዝኰ፡ በለሳተ፡</foreign> (v. <foreign xml:lang="gez">በለሰ፡</foreign>) <foreign xml:lang="gez">ሐዲሳነ፡</foreign> Rel. Bar.; <foreign xml:lang="grc">παλάθη</foreign> (<cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> massa ficuum aridarum </t:quote></cit>) <ref cRef="Judith" loc="10,5">Judith 10,5</ref>; <foreign xml:lang="gez">ዐጽቀ፡ በለስ፡</foreign> <foreign xml:lang="grc">παλάθη σύκων</foreign> <ref cRef="4 Reg." loc="20,7">4 Reg. 20,7</ref>; <ref cRef="Jes." loc="38,21">Jes. 38,21</ref>; <ref cRef="Jer." loc="24,1">Jer. 24,1</ref>; <foreign xml:lang="gez">በለሰ፡ ማእረር፡</foreign> <foreign xml:lang="grc">τὰ σῦκα τὰ πρώιμα</foreign> <ref cRef="Jer." loc="24,2">Jer. 24,2</ref>. </sense>
+</sense> <sense n="2" xml:id="D2"> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> sycaminus </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> sycomorus </t:quote></cit> <sense n="a" xml:id="D2a"> arbor (aliâs <foreign xml:lang="gez">ሰግላ፡</foreign>] <ref cRef="Ps." loc="77,52">Ps. 77,52</ref>; <foreign xml:lang="gez">ዕፀ፡ በለስ፡</foreign> <ref cRef="2 Par." loc="9,27">2 Par. 9,27</ref>. 
+</sense> <sense n="b" xml:id="D2b"> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> sycaminum </t:quote></cit> fructus <ref cRef="Am." loc="7,14">Am. 7,14</ref>; <foreign xml:lang="gez">አልቦ፡ በለስ፡ ውስተ፡ ሰግላ፡</foreign> <ref cRef="Jer." loc="8,13">Jer. 8,13</ref> (sed Gr. habet <foreign xml:lang="grc">σῦκα ἐν ταῖς συκαῖς</foreign>). 
+</sense> 
+</sense> </sense>
+               
+            <sense xml:id="Tmain" xml:lang="en" source="#traces"><cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">balas</t:quote></cit> <sense n="C" xml:id="TC"> for <foreign xml:lang="gez">ሕንባበ፡ በለስ፡</foreign> <lbl expand="videas">vid.</lbl> <foreign xml:lang="gez">ሕንባብ፡</foreign> 
+</sense> </sense></entry>
+         </div>
+      </body>
+   </text>
+</TEI>

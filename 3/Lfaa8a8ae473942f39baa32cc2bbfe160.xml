@@ -1,0 +1,84 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ዐራት </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="PL" when="2017-05-17">test https://github.com/SChAth/dillmann/issues/94</change>
+        <change who="LB" when="2018-04-03">root</change>
+        </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="Lfaa8a8ae473942f39baa32cc2bbfe160" n="7017">
+               <form>
+                  <foreign xml:lang="gez">ዐራት</foreign>
+               <rs type="root"/>
+                    </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain"> (etiam <foreign xml:lang="gez">አራት፡</foreign>) <gramGrp> <pos expand="Substantivum">subst.</pos> </gramGrp>, <gramGrp> <gen value="not found">m.</gen> </gramGrp> (ut <ref cRef="Job " loc="7,13">Job  7,13</ref>) et <gramGrp> <gen value="femininus">fem.</gen> </gramGrp> (ut <ref cRef="Deut." loc="3,11">Deut. 3,11</ref>; <ref cRef="Luc." loc="17,35">Luc. 17,35</ref>.), <lbl expand="pluralis">Pl.</lbl> <foreign xml:lang="gez">ዐራታት፡</foreign> [sine dubio i.q. <foreign xml:lang="he">עֶרֶשׂ</foreign> <foreign xml:lang="syr">ܥܰܪܣܳܐ</foreign>; de etymo <lbl expand="videas">vid.</lbl> Ges. thes. p. 1074] <cit type="translation" xml:lang="la">
+                            <quote> lectus </quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                            <quote> cubile </quote>
+                        </cit>, <foreign xml:lang="grc">κοίτη</foreign>, <foreign xml:lang="grc">κλίνη</foreign>, <ref cRef="Lev." loc="15,4">Lev. 15,4</ref>; <ref cRef="Lev." loc="15,26">Lev. 15,26</ref>; <ref cRef="Deut." loc="3,11">Deut. 3,11</ref>; <ref cRef="Kuf." loc="22">Kuf. 22</ref>; <ref cRef="Kuf." loc="33">Kuf. 33</ref>; <ref cRef="Kuf." loc="36">Kuf. 36</ref>; <ref cRef="Job " loc="7,13">Job  7,13</ref>; <ref cRef="Job" loc="7,18">Job 7,18</ref>; <ref cRef="Cant." loc="3,1">Cant. 3,1</ref>; <ref cRef="Cant." loc="3,7">Cant. 3,7</ref>; <ref cRef="Ps." loc="6,6">Ps. 6,6</ref>; <ref cRef="Esth." loc="7,8">Esth. 7,8</ref>; <ref cRef="Asc. Jes." loc="6,2">Asc. Jes. 6,2</ref>; <ref cRef="Tob." loc="8,4">Tob. 8,4</ref>; <foreign xml:lang="gez">ዐራተ፡ ሕማም፡</foreign> <ref cRef="Ps." loc="40,3">Ps. 40,3</ref>; <foreign xml:lang="gez">ይነብራ፡ ውስተ፡ ዐራተ፡ ምስካቦን፡</foreign> <ref cRef="Hez." loc="23,41">Hez. 23,41</ref>; <ref cRef="Ps." loc="131,3">Ps. 131,3</ref>; <ref cRef="Matth." loc="9,2">Matth. 9,2</ref>; <foreign xml:lang="gez">ዐራታት፡</foreign> <ref cRef="2 Reg." loc="17,28">2 Reg. 17,28</ref>; <ref cRef="Esth." loc="1,6">Esth. 1,6</ref>; <ref cRef="Am." loc="6,4">Am. 6,4</ref>; <ref cRef="Sir." loc="48,6">Sir. 48,6</ref>; <ref cRef="Did." loc="31.">Did. 31.</ref> <sense n="a" xml:id="Da"> <foreign xml:lang="grc">κράββατος</foreign> <cit type="translation" xml:lang="la">
+                                <quote> grabatus </quote>
+                            </cit> <ref cRef="Marc." loc="2,4">Marc. 2,4</ref> <lbl expand="sequens">seq.</lbl>; <ref cRef="Marc. " loc="6,55">Marc.  6,55</ref>; <ref cRef="Joh." loc="5,8">Joh. 5,8</ref> <lbl expand="sequens">seq.</lbl> </sense> <sense n="b" xml:id="Db"> <cit type="translation" xml:lang="la">
+                                <quote> feretrum </quote>
+                            </cit>: <ref cRef="2 Reg." loc="3,31">2 Reg. 3,31</ref>; 2 Par.16,14; efferebant Herodem <foreign xml:lang="gez">በዐራት፡ ዘወርቅ፡ ስርግው፡ በባሕርይ፡</foreign> <ref cRef="Jsp." loc="340.">Jsp. 340.</ref> </sense> <sense n="c" xml:id="Dc"> <cit type="translation" xml:lang="la">
+                                <quote> lectus </quote>
+                            </cit> <cit type="translation" xml:lang="la">
+                                <quote> ferreus </quote>
+                            </cit>, <cb n="0965" xml:id="c0965"/> torquendo inserviens: <foreign xml:lang="gez">ዐራተ፡ ኀጺን፡</foreign> <ref cRef="Sx. Genb." loc="19">Sx. Genb. 19</ref>; <ref cRef="Sx. Haml." loc="8,">Sx. Haml. 8,</ref> al.; <foreign xml:lang="gez">ዐራተ፡ ኀጺን፡ ልሁብ፡</foreign> <ref cRef="Sx. Tachs." loc="9 ">Sx. Tachs. 9 </ref>Enc.</sense> </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

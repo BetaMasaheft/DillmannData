@@ -1,0 +1,85 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> እቶን </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="LB" when="2018-03-18">root</change>
+        </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L17573bb653f64c8882a2c62fa616b8f0" n="5673">
+               <form>
+                  <foreign xml:lang="gez">እቶን</foreign>
+               <rs type="root"/>
+                    </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain"> <gramGrp> <pos expand="Substantivum">subst.</pos> </gramGrp>, plerumque <gramGrp> <gen value="not found">m.</gen> </gramGrp>, <lbl expand="pluralis">Pl.</lbl> <foreign xml:lang="gez">እቶናት፡</foreign> [<foreign xml:lang="syr">ܐܰܬܽܘܢܳܐ</foreign> <foreign xml:lang="he">אַתּוּן</foreign> <foreign xml:lang="ar">أتُّونٌ</foreign>, a <lbl expand="radix">rad.</lbl> <foreign xml:lang="syr">ܬܢܰܢ</foreign> <cit type="translation" xml:lang="la">
+                            <quote> fumavit </quote>
+                        </cit> (<foreign xml:lang="gez">ተነነ፡</foreign>), <lbl expand="videas">vid.</lbl> Ges. thes. p. 1512] <cit type="translation" xml:lang="la">
+                            <quote> clibanus </quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                            <quote> furnus </quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                            <quote> fornax </quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                            <quote> caminus </quote>
+                        </cit>, <foreign xml:lang="grc">κλίβανος</foreign> <ref cRef="Gen." loc="15,17">Gen. 15,17</ref>; <ref cRef="Kuf." loc="14">Kuf. 14</ref>; <ref cRef="4 Esr." loc="2,55">4 Esr. 2,55</ref>; <foreign xml:lang="gez">እቶናት፡</foreign> <ref cRef="Ex." loc="7,28">Ex. 7,28</ref>; <foreign xml:lang="gez">ብሱል፡ በእቶን፡</foreign> <ref cRef="Lev." loc="2,4">Lev. 2,4</ref>; <ref cRef="Lev." loc="11,35">Lev. 11,35</ref>; <ref cRef="Lev." loc="26,26">Lev. 26,26</ref>; <foreign xml:lang="gez">ከመ፡ እቶን፡ ዘአንደዱ፡ ለኀቢዘ፡ ኅብስት፡</foreign> <ref cRef="Hos." loc="7,4">Hos. 7,4</ref>; <ref cRef="Hos." loc="6,7">Hos. 6,7</ref>; <ref cRef="Ps." loc="20,9">Ps. 20,9</ref>; <foreign xml:lang="grc">κάμινος</foreign> <ref cRef="Gen." loc="19,28">Gen. 19,28</ref>; <ref cRef="Ex." loc="9,8">Ex. 9,8</ref>; <ref cRef="Num." loc="25,8">Num. 25,8</ref>; <foreign xml:lang="gez">እቶነ፡ ኀጺን፡</foreign> <ref cRef="Deut." loc="4,20">Deut. 4,20</ref>; <ref cRef="Jer." loc="11,4">Jer. 11,4</ref>; <ref cRef="Jes." loc="48,10">Jes. 48,10</ref>; <ref cRef="Dan." loc="3,6">Dan. 3,6</ref>; <ref cRef="Job" loc="41,11">Job 41,11</ref>; <ref cRef="Sir." loc="43,4">Sir. 43,4</ref>; <ref cRef="Hen." loc="54,6">Hen. 54,6</ref>; <ref cRef="Matth." loc="13,50">Matth. 13,50</ref>; <foreign xml:lang="gez">እቶነ፡ ገሃነም፡</foreign> <ref cRef="4 Esr." loc="6,1">4 Esr. 6,1</ref>; <foreign xml:lang="gez">እቶነ፡ እከይ፡</foreign> <ref cRef="Prov." loc="16,30">Prov. 16,30</ref>; <foreign xml:lang="gez">ለእመ፡ ገብረ፡ አሐዱ፡ እቶን፡ ዘየዐርግ፡ እምኔሁ፡ ጢስ፡</foreign> F.N. 37; <foreign xml:lang="gez">በዓለ፡ እቶን፡</foreign> <cb n="0764" xml:id="c0764"/> <cit type="translation" xml:lang="la">
+                            <quote> faber </quote>
+                        </cit> <cit type="translation" xml:lang="la">
+                            <quote> fornacarius </quote>
+                        </cit> F.N. 23; F.N. 36 (ubi varia opificum genera enumerantur). </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

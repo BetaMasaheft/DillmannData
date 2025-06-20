@@ -1,0 +1,101 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> መርገም </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L6f1a00db207540f8b153970fef3b12f8" n="2376">
+               <form>
+                  <foreign xml:lang="gez">መርገም</foreign>
+               </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain">
+                  <gramGrp>
+                     <pos expand="Substantivum">subst.</pos>
+                  </gramGrp>, <gramGrp>
+                     <gen value="masculinum">m.</gen>
+                  </gramGrp> et <gramGrp>
+                     <gen value="femininus">fem.</gen>
+                  </gramGrp> (<ref cRef="Ps." loc="108,16">Ps. 108,16</ref>; <ref cRef="Ps." loc="108,17">Ps. 108,17</ref>), <lbl expand="pluralis">Pl.</lbl>
+                  <foreign xml:lang="gez">መርገማት፡</foreign> (<ref cRef="Cyr." loc="105">Cyr. f.
+                     105</ref>; F.N. 9,4) <cit type="translation" xml:lang="la">
+                     <quote>imprecatio</quote>
+                  </cit>, <cit type="translation" xml:lang="la">
+                     <quote>maledictio</quote>
+                  </cit>, <cit type="translation" xml:lang="la">
+                     <quote>exsecratio</quote>
+                  </cit>, <cit type="translation" xml:lang="la">
+                     <quote>dirae</quote>
+                  </cit>, <foreign xml:lang="grc">δυσφημία </foreign>
+                  <ref cRef="2 Cor." loc="6,8">2 Cor. 6,8</ref>; <foreign xml:lang="grc">ἀρά</foreign>, <foreign xml:lang="grc">κατάρα</foreign>
+                  <ref cRef="Rom." loc="3,14">Rom. 3,14</ref>; <ref cRef="Gal." loc="3,10">Gal.
+                     3,10</ref>; <ref cRef="Gal." loc="3,13">Gal. 3,13</ref>; <ref cRef="Hebr." loc="6,8">Hebr. 6,8</ref>; <ref cRef="Jac." loc="3,10">Jac. 3,10</ref>; <ref cRef="2 Petr. " loc="2,14">2 Petr. 2,14</ref>; <ref cRef="Num." loc="5,23">Num.
+                     5,23</ref>; <foreign xml:lang="gez">መሐላ፡ ዘመርገም፡</foreign>
+                  <ref cRef="Num." loc="5,21">Num. 5,21</ref>; <ref cRef="2 Esr." loc="23,2">2 Esr.
+                     23,2</ref>; <foreign xml:lang="gez">መርገመ፡ እግዚአብሔር፡</foreign>
+                  <ref cRef="Prov." loc="3,33">Prov. 3,33</ref>; <ref cRef="Prov." loc="26,2">Prov.
+                     26,2</ref>; <ref cRef="Ps." loc="9,29">Ps. 9,29</ref>; <ref cRef="Jes." loc="65,23">Jes. 65,23</ref>; <ref cRef="Jer." loc="29,14">Jer. 29,14</ref>;
+                     <ref cRef="Jer." loc="51,8">Jer. 51,8</ref>; <ref cRef="Bar." loc="1,20">Bar.
+                     1,20</ref>; <foreign xml:lang="gez">መጽአ፡ መርገም፡ ላዕሌነ፡ ወመሐላ፡</foreign>
+                  <ref cRef="Dan." loc="9,11">Dan. 9,11</ref>; <ref cRef="Sir." loc="3,9">Sir.
+                     3,9</ref>; <ref cRef="Sir." loc="29,6">Sir. 29,6</ref>; <ref cRef="Hen." loc="5,5">Hen. 5,5</ref>; <foreign xml:lang="gez">ኢይፃእ፡ እምአፉሁ፡ ቃለ፡
+                     መርገም፡</foreign>
+                  <ref cRef="Did." loc="17.">Did. 17.</ref>
+               </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

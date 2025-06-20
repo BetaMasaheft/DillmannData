@@ -1,0 +1,88 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ተወርወ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L1fec8bebc2db4a29bb2cfb50f19f50ab" n="6541">
+               <form>
+                  <foreign xml:lang="gez">ተወርወ</foreign>
+               </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain"> <subc>III,1</subc> et <foreign xml:lang="gez">ተወረወ፡</foreign> <subc>III,2</subc> <sense n="1" xml:id="D1"> Reflex. <cit type="translation" xml:lang="la">
+                        <quote>se dejicere</quote>
+                     </cit> vel <cit type="translation" xml:lang="la">
+                        <quote>se conjicere</quote>
+                     </cit> vel <cit type="translation" xml:lang="la">
+                        <quote>se praecipitare</quote>
+                     </cit>, <foreign xml:lang="gez">ተወረው፡ ታሕተ፡</foreign>
+                     <ref cRef="Matth." loc="4,6">Matth. 4,6</ref>; <ref cRef="Matth." loc="21,21">Matth. 21,21</ref>; <foreign xml:lang="gez">ተወርዉ፡ ላዕሌሆሙ፡ ውስተ፡
+                        እሳት፡</foreign>
+                     <ref cRef="Jsp." loc="376">Jsp. p. 376</ref>; <lbl expand="translate">transl.</lbl>: <foreign xml:lang="gez">ፈቃዱ፡ ተወርወት፡ ኀበ፡ ዐጸደ፡ ወይን፡</foreign>
+                     (voluntas ejus conjecta est in vineam i.e. vineam habere voluit) <ref cRef="Sx. Tachs." loc="1 ">Sx. Tachs. 1 </ref>Enc. <cb n="0900" xml:id="c0900"/>
+                  </sense>
+                  <sense n="2" xml:id="D2"> Pass. <cit type="translation" xml:lang="la">
+                        <quote>conjici</quote>
+                     </cit>, <cit type="translation" xml:lang="la">
+                        <quote>projici</quote>
+                     </cit>, Lud. ex <ref cRef="Sx. Hed." loc="18 ">Sx. Hed. 18 </ref>Enc.; <foreign xml:lang="gez">ተጋብኡ፡ ውስተ፡ አህጉር፡ ጽኑዓት፡ ወንትወሮ፡ ህየ፡</foreign>
+                     <foreign xml:lang="grc">ἀποῤῥιφῶμεν ἐκεῖ</foreign>
+                     <ref cRef="Jer." loc="8,14">Jer. 8,14</ref>.</sense>
+               </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

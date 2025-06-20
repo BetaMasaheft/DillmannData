@@ -1,0 +1,90 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ገድል </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+          <change who="AE" when="2018-11-09">aus Abbadie wird d'Abbadie,</change>
+          <change who="PL" when="2019-10-24">replaced d'Abb Cat references with bibliographical reference #7</change>
+        </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L3a142d90b9a14a649a53dbe102f70c45" n="8671">
+               <form>
+                  <foreign xml:lang="gez">ገድል</foreign>
+               </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain"> <gramGrp> <pos expand="Substantivum">subst.</pos> </gramGrp>, <gramGrp> <gen value="not found">m.</gen> </gramGrp> et <gramGrp> <gen value="femininus">fem.</gen> </gramGrp>, <lbl expand="pluralis">Pl.</lbl> <foreign xml:lang="gez">ገድላት፡</foreign> <cit type="translation" xml:lang="la">
+                            <quote> lucta </quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                            <quote> luctatio </quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                            <quote> certamen </quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                            <quote> agon </quote>
+                        </cit>: <ref cRef="Chrys. ho." loc="30 ">Chrys. ho. 30 </ref> (<lbl expand="videas">vid.</lbl> <foreign xml:lang="gez">ተጸብአ፡</foreign>); <foreign xml:lang="gez">ገድለ፡ መዊእ፡</foreign> <ref cRef="Sap." loc="4,2">Sap. 4,2</ref>; <foreign xml:lang="gez">ገድል፡ ጽኑዕ፡</foreign> <ref cRef="Sap." loc="10,12">Sap. 10,12</ref>; creberrime: Christianorum <cit type="translation" xml:lang="la">
+                            <quote> certamen bonum </quote>
+                        </cit> vel <cit type="translation" xml:lang="la">
+                            <quote> curriculum miseriae et afflictionis </quote>
+                        </cit>, ascetarum <cit type="translation" xml:lang="la">
+                            <quote> disciplina </quote>
+                        </cit> et <cit type="translation" xml:lang="la">
+                            <quote> exercitatio </quote>
+                        </cit>, martyrum et sanctorum <cit type="translation" xml:lang="la">
+                            <quote> vita </quote>
+                        </cit>: <ref cRef="1 Tim." loc="1,18">1 Tim. 1,18</ref>; <ref cRef="1 Tim." loc="6,12">1 Tim. 6,12</ref>; <ref cRef="2 Tim." loc="4,7">2 Tim. 4,7</ref>; <foreign xml:lang="gez">እለ፡ ተጋደሉ፡ ሠናየ፡ ገድለ፡ ወሞቱ፡ በእንተ፡ ክርስቶስ፡</foreign> <ref cRef="Did." loc="25">Did. 25</ref>; <foreign xml:lang="gez">ነበረ፡ በዝንቱ፡ ገድል፡ ሠለስተ፡ ዓመተ፡</foreign> Vit. Pach.; <ref cRef="Gad. T.H." loc="">Gad. T.H. </ref>; <foreign xml:lang="gez">ዕሴተ፡ ገድላቲሆሙ፡ ወድካማቲሆሙ፡</foreign> <ref cRef="F.M." loc=" 1,2">F.M.  1,2</ref>; <foreign xml:lang="gez">ለሰማዕት፡ ገድላቲሆሙ፡ ተጽሕፈ፡ ለነ፤ ንትመሀር፡ ሃይማኖቶሙ፡</foreign> <ref cRef="Mavâs." loc=" 70">Mavâs.  70</ref>; <foreign xml:lang="gez">ገድላቲሆሙ፡ ለቅዱሳን፡</foreign> <foreign xml:lang="grc">κατορθώματα τῶν ἁγίων</foreign> <ref cRef="Chrys. ho." loc="28">Chrys. ho. 28</ref>; <ref cRef="Sx." loc="1">Sx. f. 1</ref>; permultae singulorum Sanctorum vitae, quae apud Abyssinos circumferuntur, <foreign xml:lang="gez">ገድል፡</foreign> inscriptae sunt, <lbl expand="exempli gratia">ex. gr.</lbl> Cod. Mus. Brit. XLV; Cod. Mus. Brit. XLVI; Cod. Mus. Brit. XLVII; Cod. Mus. Brit. XLVIII; 
+                   <bibl><ptr target="bm:Abbadie1859Cat"/><citedRange unit="page">227–229</citedRange></bibl>. </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

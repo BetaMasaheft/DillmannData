@@ -1,0 +1,76 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ሀያዲ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="PL" when="2017-07-20">added meaning from da maggiora</change>
+        <change who="MK" when="2019-08-08">added new idiom</change>
+            <change who="MK" when="2019-08-08">added transl</change>
+            <change who="MK" when="2019-08-14">added cross-ref</change>
+        <change who="ES" when="2024-02-28">separated meaning</change></revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L028bbfb1697f4a0cbb6e4472df640cf7" n="93">
+               <form>
+                  <foreign xml:lang="gez">ሀያዲ</foreign>
+               </form>
+               <sense xml:id="Dmain" xml:lang="la" source="#dillmann"> <gramGrp> <pos expand="nomen agentis">n. ag.</pos> </gramGrp>: <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> is qui diripit </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> rapax </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> raptor </t:quote></cit> <ref cRef="Luc." loc="18,11">Luc. 18,11</ref>; <ref cRef="1 Cor." loc="5,10">1 Cor. 5,10</ref>; <ref cRef="1 Cor." loc="5,11">1 Cor. 5,11</ref>; <ref cRef="1 Cor." loc="6,10">1 Cor. 6,10</ref>; <foreign xml:lang="gez">እምእደ፡ ሀያዲሁ፡</foreign> <ref cRef="Jer." loc="22,3">Jer. 22,3</ref>; <foreign xml:lang="gez">ሀያዴ፡ ንዋየ፡ ባዕድ፡</foreign> <ref cRef="Clem." loc="82">Clem. f. 82</ref>; <foreign xml:lang="gez">ሰራቂ፡ ወዐማፂ፡ ወሀያዲ፡ ወመሣጢ፡</foreign> F.M. 17,2; <foreign xml:lang="gez">ሀያድያን፡</foreign> F.N. 45. </sense>
+               
+            
+                <sense xml:id="Tmain" xml:lang="en" source="#traces"> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> hayādi </t:quote></cit> <foreign xml:lang="gez">ሀያዴ፡ ግዘት፡</foreign> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> hayāde gǝzat </t:quote></cit> <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> one who transgresses and comes under penalty of excommunication </t:quote></cit> <foreign xml:lang="gez">ለምንት፡ ትሬስዩኒ፡ ከመዝ፡ ወታወፅኡ፡ ሊተ፡ ስመ፡ እኩየ፡ ከመ፡ ይበሉኒ፡ ሀያዴ፡ ግዘት፡ ወመሐላ።</foreign> ‘<cit type="translation" xml:lang="fr"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> Pourquoi avez-vous cherché à faire de moi un tel homme et à me procurer une réputation mauvaise, pour qu’on m’accuse de violer des obligations conclues sous peine d’excommunication et des serments? </t:quote></cit>’ <bibl><ptr target="bm:ContiRossini1907SarsaDengel"/><citedRange unit="page"> 20 l. l. 1-3 (ed.)</citedRange></bibl>, <bibl><ptr target="bm:ContiRossini1907SarsaDengelV"/><citedRange unit="page"> (tr.)</citedRange></bibl>, <foreign xml:lang="gez">ወለእመቦ፡ ሀይዶ፡ ግዘት፡ ዘአትረፈ፡ ውስተ፡ ቤቱ፡ ወኢምንትኒ፡ ይኩን፡ ዕዳሁ፡ ዕዳ፡ ሀያዴ፡ ግዘት፡</foreign> ‘<cit type="translation" xml:lang="fr"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> Si quelqu’un, violant la déclaration d’avoir tout restituté sous peine d’excommunication, laisse quelque chose dans sa maison, son châtiment sera le châtiment des transgressurs des serments sous peine d’excommunication </t:quote></cit>’ <bibl><ptr target="bm:ContiRossini1907SarsaDengel"/><citedRange unit="page"> 20 l. 23-24 (ed.)</citedRange></bibl>, <bibl><ptr target="bm:ContiRossini1907SarsaDengelV"/><citedRange unit="page"> 24 l. 18-22 (tr.)</citedRange></bibl>, <lbl expand="videas">vid.</lbl> <foreign xml:lang="gez">ግዘት፡</foreign> </sense>
+                    <sense xml:id="Omain" xml:lang="it" source="#other"> <cit type="translation" xml:lang="it"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> colui che rapisce </t:quote></cit>, <cit type="translation" xml:lang="it"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> rapace </t:quote></cit>, <cit type="translation" xml:lang="it"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> rapinatore </t:quote></cit> <bibl><ptr target="bm:daMag1953"/></bibl> </sense>
+                </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

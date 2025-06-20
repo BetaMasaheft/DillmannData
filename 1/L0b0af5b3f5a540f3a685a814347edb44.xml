@@ -1,0 +1,73 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> መስኮት </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="MK" when="2024-01-16">added Gr</change><change who="MK" when="2024-01-17">added Les</change><change who="MK" when="2024-01-17">added cross ref</change></revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L0b0af5b3f5a540f3a685a814347edb44" n="2915">
+               <form>
+                  <foreign xml:lang="gez">መስኮት</foreign>
+               </form>
+               <sense xml:id="Dmain" xml:lang="la" source="#dillmann"> <gramGrp> <pos expand="Substantivum">subst.</pos> </gramGrp>, <gramGrp> <gen value="not found">m.</gen> </gramGrp> et <gramGrp> <gen value="femininus">fem.</gen> </gramGrp>, <lbl expand="pluralis">Pl.</lbl> <foreign xml:lang="gez">መሳክው፡</foreign> [cfr. <foreign xml:lang="ar">مِشْكَاةٌ</foreign>] <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> fenestra </t:quote></cit>, (<cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> lumen </t:quote></cit>), <foreign xml:lang="grc">θυρίς</foreign> <ref cRef="Gen." loc="26,8">Gen. 26,8</ref>; <ref cRef="Jos." loc="2,15">Jos. 2,15</ref>; <ref cRef="1 Reg." loc="19,12">1 Reg. 19,12</ref>; <ref cRef="3 Reg. " loc="6,8">3 Reg.  6,8</ref>; <ref cRef="4 Reg." loc="9,30">4 Reg. 9,30</ref>; <ref cRef="4 Reg." loc="9,32">4 Reg. 9,32</ref>; <ref cRef="4 Reg." loc="13,17">4 Reg. 13,17</ref>; <ref cRef="Jes." loc="24,18">Jes. 24,18</ref>; <ref cRef="Jer." loc="9,21">Jer. 9,21</ref>; <ref cRef="Jer." loc="22,14">Jer. 22,14</ref>; <ref cRef="Hez. " loc="40,16">Hez.  40,16</ref>; <ref cRef="Hez." loc="40,22">Hez. 40,22</ref>; <foreign xml:lang="gez">አርኀወ፡ መሳክወ፡ ጽርሑ፡</foreign> <ref cRef="Dan." loc="6,10">Dan. 6,10</ref>; <ref cRef="Joel " loc="2,9">Joel  2,9</ref>; <ref cRef="Prov." loc="7,6">Prov. 7,6</ref>; <ref cRef="Cant." loc="2,9">Cant. 2,9</ref>; <foreign xml:lang="gez">ዘይሔውጽ፡ እንተ፡ መሳክዊሃ፡</foreign> <ref cRef="Sir. " loc="14,23">Sir.  14,23</ref>; <ref cRef="2 Par." loc="3,7">2 Par. 3,7</ref> (<foreign xml:lang="grc">ὀροφώματα</foreign>); <ref cRef="Hen." loc="72,3">Hen. 72,3</ref> <lbl expand="sequens">seq.</lbl>; Chron. Ax.; distinguuntur <foreign xml:lang="gez">መሳክው፡ ለብርሃን፡</foreign> et <foreign xml:lang="gez">መሳክው፡ ለንጻፌ፡</foreign> F.N. 37. </sense>
+               
+            <sense xml:id="Tmain" xml:lang="en" source="#traces"> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">maskot</t:quote></cit>, <lbl expand="pluralis">Pl.</lbl> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">masākǝw</t:quote></cit>, <foreign xml:lang="gez">መሳኩት፡</foreign> <sense n="G" xml:id="TG"> <foreign xml:lang="gez">መስኮት፡</foreign> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">maskot</t:quote></cit>, <lbl expand="pluralis">Pl.</lbl> <foreign xml:lang="gez">መሳክው፡</foreign> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">masākǝw</t:quote></cit> «<cit type="translation" xml:lang="fr"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">fenêtre</t:quote></cit>» Ms. <ref type="BM" target="BNFabb217">BNFabb217</ref>, fol. 38v. <lb/>
+ <bibl><ptr target="bm:Grebaut1952SuppLexicon"/><citedRange unit="page"> 91</citedRange></bibl> 
+</sense> <sense n="L" xml:id="TL"> <foreign xml:lang="gez">መስኮት</foreign> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">maskot</t:quote></cit> (<lbl expand="pluralis">Pl.</lbl> <foreign xml:lang="gez">መሳክው፡</foreign> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">masākǝw</t:quote></cit>, <foreign xml:lang="gez">መሳኩት፡</foreign> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">masākut</t:quote></cit>) <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">window</t:quote></cit> <bibl><ptr target="bm:Leslau1987dic"/><citedRange unit="page"> 365a</citedRange></bibl> 
+</sense> <sense n="C" xml:id="TC"><lbl expand="videas">vid.</lbl> also <foreign xml:lang="gez">መሳክው፡</foreign> 
+</sense> </sense></entry>
+         </div>
+      </body>
+   </text>
+</TEI>

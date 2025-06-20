@@ -1,0 +1,169 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="gez">አፅማኢ</title>
+                <author>Alessandro Bausi</author>
+                <author>Andreas Ellwardt</author>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+                <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+                <pubPlace>Hamburg</pubPlace>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-sa-nc/4.0/"> This file
+                        is licensed under the Creative Commons Attribution-ShareAlike Non Commercial
+                        4.0. </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                        Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice
+                            latino. Adiectum est vocabularium tigre dialecti septentrionalis
+                            compilatum</emph> a W. Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+                </p>
+                <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced
+                        Grant TraCES (Grant Agreement 338756)</ref>
+                </p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>A digital edition of the Lexicon in TEI.</p>
+            <listPrefixDef>
+                <prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/>
+            </listPrefixDef>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="la">latin</language>
+                <language ident="it">Italian</language>
+                <language ident="gez">Gǝʿǝz</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="syr">Syriac</language>
+                <language ident="ar">Arabic</language>
+                <language ident="sa">Sanskrit</language>
+                <language ident="geo">Georgian</language>
+                <language ident="cop">Coptic</language>
+                <language ident="osa">Old South Arabian</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change who="MK" when="2019-03-12">new entry</change>
+            <change who="MK" when="2019-03-12">added text</change>
+            <change who="MK" when="2019-03-12">added text</change>
+            <change who="MK" when="2019-03-12">changed code</change>
+            <change who="MK" when="2019-03-13">new entry</change>
+            <change who="MK" when="2019-03-13">corr</change>
+            <change who="MK" when="2019-03-13">corr</change>
+            <change who="MK" when="2019-03-13">biblio</change>
+            <change who="MK" when="2019-03-13">new entry</change>
+            <change who="MK" when="2019-03-13">corr</change>
+            <change who="MK" when="2019-03-13">corr</change>
+            <change who="MK" when="2019-03-13">corr</change>
+            <change who="MK" when="2019-03-13">corr</change>
+            <change who="MK" when="2019-03-13">corr</change>
+            <change who="MK" when="2019-03-13">bibliographical corrections</change>
+            <change who="MK" when="2019-03-18">added elipsis</change>
+            <change who="MK" when="2019-03-19">corr</change>
+            <change who="MK" when="2019-03-19">changed brackets</change>
+            <change who="MK" when="2022-06-17">correction</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <entry xml:id="Le6d2ba375e184890bcf8529740a8b7a9" n="12505">
+                    <form>
+                        <foreign xml:lang="gez">አፅማኢ</foreign>
+                    </form>
+                    <sense xml:id="Tmain" xml:lang="en" source="#traces">
+                        <cit type="transcription" xml:lang="gez">
+                            <quote> ʾaḍmāʾi </quote>
+                        </cit>
+                        <gramGrp>
+                            <pos expand="participium">part.</pos>
+                        </gramGrp>
+                        <cit type="translation" xml:lang="en">
+                            <quote> evil </quote>
+                        </cit> ‘<cit type="translation" xml:lang="it">
+                            <quote> malefico </quote>
+                        </cit>’ (‘La tradizione di Et {i.e. Ethiopic version} attesta pressoché
+                        unanime il termine <cit type="transcription" xml:lang="gez">
+                            <quote> ʾaḍmāʾi </quote>
+                        </cit> (<cit type="transcription" xml:lang="gez">
+                            <quote> ʾāmāḍi </quote>
+                        </cit> «iniquo», cfr. <bibl><ptr target="bm:Dillmann1865Lexicon"/><citedRange unit="page"> 958</citedRange></bibl>, [...]); <cit type="transcription" xml:lang="gez">
+                            <quote> ʾaḍmāʾi </quote>
+                        </cit> (o <cit type="transcription" xml:lang="gez">
+                            <quote> ʾaṣmāʾi </quote>
+                        </cit>) è un participio della forma causativa; formalmente è possible una
+                        derivazione da <cit type="transcription" xml:lang="gez">
+                            <quote> ʾaṣmeʾa </quote>
+                        </cit> «assetare» (<bibl><ptr target="bm:Dillmann1865Lexicon"/><citedRange unit="page"> 1272</citedRange></bibl>), o da <cit type="transcription" xml:lang="gez">
+                            <quote> ʾaḍmeʾa </quote>
+                        </cit> «porgere orecchio, ascoltare», per il quale la forma base non è
+                        attestata (<bibl><ptr target="bm:Dillmann1865Lexicon"/><citedRange unit="page"> 1324</citedRange></bibl>); la forma del participio che
+                        incontriamo in questo passo non è però registrata né in <bibl><ptr target="bm:Dillmann1865Lexicon"/></bibl> né in <bibl><ptr target="bm:Leslau1987dic"/></bibl>; di <cit type="transcription" xml:lang="gez">
+                            <quote> ʾaḍmeʾa </quote>
+                        </cit> «porgere orecchio» è bensì notato il participio <cit type="transcription" xml:lang="gez">
+                            <quote> maḍmeʾ </quote>
+                        </cit> o <cit type="transcription" xml:lang="gez">
+                            <quote> maḍmeʾi </quote>
+                        </cit> «auditor, auscultator» <bibl><ptr target="bm:Dillmann1865Lexicon"/><citedRange unit="page"> 1325</citedRange></bibl>, per Is 3,3,
+                        nella espressione <cit type="transcription" xml:lang="gez">
+                            <quote> maḍmeʾē nagar </quote>
+                        </cit>; al testo dei LXX, <bibl><ptr target="bm:Rahlfs1935Septuaginta"/></bibl>, Is 3,3 <foreign xml:lang="grc">καὶ συνετὸν
+                        ἀκροατήν</foreign>, corrisponde in etiopico «<cit type="transcription" xml:lang="gez">
+                            <quote> walabbāwē wamaṣmeʾē nagar </quote>
+                        </cit>», apparentemente «intelligente ed uditore di discorsi» il testo
+                        ebraico <cit type="transcription" xml:lang="gez">
+                            <quote> ûnebôn laḥaš </quote>
+                        </cit> ha «esperto incantatore, sussurratore»; sembrerebbe dunque che anche
+                        questo dovesse essere il senso di <foreign xml:lang="grc">άκροατής</foreign>, cioè «incantatore, sussurratore»; è vero anche che
+                                <bibl><ptr target="bm:KidaneWaldGeezGramDict"/><citedRange unit="page"> 759</citedRange></bibl> attesta esattamante la forma
+                            <cit type="transcription" xml:lang="gez">
+                            <quote> ʾaṣmāʾi </quote>
+                        </cit> (<cit type="transcription" xml:lang="gez">
+                            <quote> ʾaṣmāʾi </quote>
+                        </cit> con le forme alternative già registrate da <bibl><ptr target="bm:Dillmann1865Lexicon"/><citedRange unit="page">
+                                1325</citedRange></bibl>
+                        <cit type="transcription" xml:lang="gez">
+                            <quote> maṣmeʿ </quote>
+                        </cit> e <cit type="transcription" xml:lang="gez">
+                            <quote> maṣmeʿi </quote>
+                        </cit>), come corrispondente all’amarico «<cit type="transcription" xml:lang="gez">
+                            <quote> yammiyādamṭ </quote>
+                        </cit>, <cit type="transcription" xml:lang="gez">
+                            <quote> admāč̣ </quote>
+                        </cit>, <cit type="transcription" xml:lang="gez">
+                            <quote> sami </quote>
+                        </cit>, <cit type="transcription" xml:lang="gez">
+                            <quote> asmātām </quote>
+                        </cit>, <cit type="transcription" xml:lang="gez">
+                            <quote> bālāšokšʷāki </quote>
+                        </cit>. <cit type="transcription" xml:lang="gez">
+                            <quote> yatamāra liq </quote>
+                        </cit>, <cit type="transcription" xml:lang="gez">
+                            <quote> maṣḥāf yammiyāssammā </quote>
+                        </cit>, <cit type="transcription" xml:lang="gez">
+                            <quote> targʷāmi </quote>
+                        </cit>. <cit type="transcription" xml:lang="gez">
+                            <quote> sabāki </quote>
+                        </cit>» («Che ascolta; ascoltante; udente; stregone; pettegolo calunniatore.
+                        Dottore erudito; che aiuta a comprendere un libro; interprete.
+                        Predicatore»), quindi includendo significati in accordo con la lettera del
+                        testo ebraico; <bibl><ptr target="bm:KidaneWaldGeezGramDict"/></bibl> è però
+                        una fonte per la quale il sospetto di reinterpretazione del testo etiopico
+                        sulla base della conoscenza dell’ebraico è da mettere in conto. In
+                        conclusione, in attesa di ulteriori elementi, proporrei di intendere
+                        l’etiopico <cit type="transcription" xml:lang="gez">
+                            <quote> ʾaḍmāʾi </quote>
+                        </cit> come «malefico».’ <bibl><ptr target="bm:Bausi2002ActaPhileae"/><citedRange unit="page"> 52–53 n. 57</citedRange></bibl>) <nd/>
+                    </sense>
+                </entry>
+            </div>
+        </body>
+    </text>
+</TEI>

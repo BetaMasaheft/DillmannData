@@ -1,0 +1,90 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ለለ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="LB" when="2018-01-16">root</change>
+        </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L10d95041b9f740f99912324a702711b8" n="180">
+               <form>
+                  <foreign xml:lang="gez">ለለ</foreign>
+               <rs type="root"/>
+                    </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain"> pronomen; non reperitur nisi cum pronominibus suffixis (<foreign xml:lang="gez">ለሊየ፡</foreign> vel <foreign xml:lang="gez">ለልየ፡</foreign>, <foreign xml:lang="gez">ለሊከ፡ ለሊኪ፡</foreign>, <foreign xml:lang="gez">ለሊሁ፡ ለሊሃ፡</foreign>; <foreign xml:lang="gez">ለሊነ፡</foreign>, <foreign xml:lang="gez">ለሊክሙ፡ ለሊክን፡</foreign>, <foreign xml:lang="gez">ለሊሆሙ፡ ለሊሆን፡</foreign>) conjunctum (<bibl>
+                            <ptr target="bm:Dillmann1857Gramm"/>gramm.</bibl> § 62,1,c et <bibl>
+                            <ptr target="bm:Dillmann1857Gramm"/>gramm.</bibl> § 150,c) <sense n="1" xml:id="D1"> <cit type="translation" xml:lang="la">
+                                <quote> ipse </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> a </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> um </quote>
+                            </cit>. Usurpatur tamquam appositio subjecti (de accusativo <lbl expand="videas">vid.</lbl> <foreign xml:lang="gez">ርእስ፡</foreign> et <foreign xml:lang="gez">ኪያ፡</foreign>; de genitivo <lbl expand="videas">vid.</lbl> <foreign xml:lang="gez">ዚአየ፡</foreign>, <foreign xml:lang="gez">እንቲአየ፡</foreign>); rarissime pronomini suffixo (cfr. <bibl>
+                                <ptr target="bm:Dillmann1857Gramm"/>gramm.</bibl> p. 396) appositum occurrit, ut <foreign xml:lang="gez">ብከ፡ ለሊከ፡</foreign> <cit type="translation" xml:lang="la">
+                                <quote> in te ipsum </quote>
+                            </cit> <ref cRef="Job" loc="4,5">Job 4,5</ref>; <foreign xml:lang="gez">እምኀቤየ፡ ለሊየ፡</foreign> <ref cRef="Joh." loc="14,10">Joh. 14,10</ref>. Locum habet, et ubi subjectum nonnisi persona verbi expressum est: <foreign xml:lang="gez">ለሊሁ፡ ያአምር፡</foreign> <ref cRef="Job" loc="11,11">Job 11,11</ref>; <ref cRef="3 Reg." loc="5,6">3 Reg. 5,6</ref>; <foreign xml:lang="gez">ለሊክሙ፡ ፍትሑ፡</foreign> <ref cRef="Job" loc="13,8">Job 13,8</ref>; <ref cRef="Job" loc="30,34">Job 30,34</ref>; <ref cRef="Job" loc="34,32">Job 34,32</ref>; <ref cRef="Sir." loc="8,13">Sir. 8,13</ref>; <ref cRef="Sir." loc="27,26">Sir. 27,26</ref>; <ref cRef="Lev." loc="19,18">Lev. 19,18</ref>; <ref cRef="Jes." loc="28,20">Jes. 28,20</ref>; <ref cRef="Jer." loc="17,16">Jer. 17,16</ref>; <ref cRef="Jer." loc="49,6">Jer. 49,6</ref>; <ref cRef="Jer." loc="51,2">Jer. 51,2</ref>; <ref cRef="Jer." loc="51,34">Jer. 51,34</ref>; <ref cRef="Hez." loc="27,3">Hez. 27,3</ref>; <ref cRef="Ps." loc="8,4">Ps. 8,4</ref>; <ref cRef="Ps." loc="50,4">Ps. 50,4</ref>; <ref cRef="Rom." loc="2,1">Rom. 2,1</ref>; <ref cRef="1 Thess." loc="1,9">1 Thess. 1,9</ref>; <ref cRef="1 Thess." loc="5,2">1 Thess. 5,2</ref>; et in enutiatione nominali: <foreign xml:lang="gez">ለሊክሙ፡ ሰማዕትየ፡</foreign> <ref cRef="Jes." loc="43,12">Jes. 43,12</ref>; et ubi subjectum nomine vel pronomine expressum est: <foreign xml:lang="gez">ለሊሁ፡ እግዚአብሔር፡ ፀብአ፡ ሎሙ፡ ፀሮሙ፡</foreign> <ref cRef="Sir." loc="46,3">Sir. 46,3</ref>; <ref cRef="Sir." loc="18,29">Sir. 18,29</ref>; <foreign xml:lang="gez">ውእቱ፡ ለሊሁ፡</foreign> <ref cRef="Job" loc="28,23">Job 28,23</ref>; <ref cRef="Gen." loc="36,1">Gen. 36,1</ref>; <ref cRef="Jos." loc="22,23">Jos. 22,23</ref>. Praeterea notare juvat constructionem <foreign xml:lang="gez">ለሊሁ፡ ነፍሶ፡ ይጌምን፡</foreign> <foreign xml:lang="grc">μολύνει τὴν ἑαυτοῦ ψυχήν</foreign> <ref cRef="Sir." loc="21,28">Sir. 21,28</ref> (ipse suam animam polluit); <foreign xml:lang="gez">እሙንቱ፡ ለሊሆሙ፡ ገብርዎ፡ ለዝንቱ፡</foreign> <foreign xml:lang="grc">αὐτοὶ ἑαυτοῖς ἐποίησαν ταῦτα</foreign> <ref cRef="Judith" loc="11,2">Judith 11,2</ref>. Nonnumquam vertendum est <cit type="translation" xml:lang="la">
+                                <quote> et ipse </quote>
+                            </cit>, ut <ref cRef="Sir." loc="7,2">Sir. 7,2</ref>.</sense> <sense n="2" xml:id="D2"> <cit type="translation" xml:lang="la">
+                                <quote> sponte </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> sua sponte </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> ultro </quote>
+                            </cit>, de personis et rebus: <ref cRef="Jer." loc="23,21">Jer. 23,21</ref> (bis); <foreign xml:lang="gez">ኢይትነሥኡ፡ ለሊሆሙ፡</foreign> <foreign xml:lang="grc">μὴ δι᾽ αὐτῶν ἀνίστασθαι</foreign> <ref cRef="Ep. Jer." loc="26">Ep. Jer. 26</ref>; <foreign xml:lang="gez">ለሊሃ፡ ዘመወት፡</foreign> <ref cRef="Hez." loc="23,43">Hez. 23,43</ref>; <foreign xml:lang="gez">ዘለሊሁ፡ ይበቍል፡</foreign> <foreign xml:lang="grc">τὰ αὐτόματα ἀναβαίνοντα</foreign> <ref cRef="Lev." loc="25,5">Lev. 25,5</ref>; <ref cRef="Lev." loc="25,11">Lev. 25,11</ref>; <foreign xml:lang="gez">ተርኅወት፡ ለሊሃ፡</foreign> <foreign xml:lang="grc">αὐτομάτη</foreign> <ref cRef="Act." loc="12,10">Act. 12,10</ref>; <foreign xml:lang="gez">ለሊሆሙ፡ ገረሩ፡</foreign> <foreign xml:lang="grc">ηὐτομόλησαν</foreign> <ref cRef="Jes." loc="10,1">Jes. 10,1</ref>; <ref cRef="Jes." loc="10,4">Jes. 10,4</ref>.</sense> </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

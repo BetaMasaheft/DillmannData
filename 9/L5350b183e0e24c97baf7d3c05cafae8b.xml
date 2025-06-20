@@ -1,0 +1,70 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> መንጦላዕት </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="AE" when="2018-09-27">Sprachkennung, Verschachtelung,</change>
+        <change who="MK" when="2022-07-25">added example</change><change who="MK" when="2022-07-25">added examples</change><change who="MK" when="2022-07-25">added examples</change><change who="MK" when="2022-07-25">correction</change><change who="MK" when="2022-07-25">added translation</change><change who="MK" when="2022-07-25">added Pl</change><change who="MK" when="2022-07-30">correction</change><change who="MK" when="2022-08-11">correction</change></revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L5350b183e0e24c97baf7d3c05cafae8b" n="8973">
+               <form>
+                  <foreign xml:lang="gez">መንጦላዕት</foreign>
+               </form>
+               <sense xml:id="Dmain" xml:lang="la" source="#dillmann"> <gramGrp> <pos expand="Substantivum">subst.</pos> </gramGrp>, <gramGrp> <gen value="not found">m.</gen> </gramGrp> et <gramGrp> <gen value="femininus">fem.</gen> </gramGrp>, <lbl expand="pluralis">Pl.</lbl> <foreign xml:lang="gez">መንጠዋልዕ፡</foreign> (passim <foreign xml:lang="gez">መንጦዋልዕ፡</foreign> scriptum; <lbl expand="secundum">sec.</lbl> Lud. etiam <foreign xml:lang="gez">መንጠዋልዕት፡</foreign>) <sense n="1" xml:id="D1"> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> velum </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> aulaeum </t:quote></cit>, <foreign xml:lang="grc">καταπέτασμα</foreign> <ref cRef="Ex. " loc="26,31">Ex.  26,31</ref>-37; <ref cRef="Ex." loc="35,11">Ex. 35,11</ref>; <ref cRef="Ex." loc="37,3">Ex. 37,3</ref>; <ref cRef="Ex." loc="37,5">Ex. 37,5</ref>; <ref cRef="Lev." loc="4,6">Lev. 4,6</ref>; <ref cRef="Lev." loc="4,17">Lev. 4,17</ref>; <ref cRef="Lev." loc="16,2">Lev. 16,2</ref>; <ref cRef="Lev." loc="16,12">Lev. 16,12</ref>; <ref cRef="Lev." loc="16,15">Lev. 16,15</ref>; <ref cRef="Lev." loc="21,23">Lev. 21,23</ref>; <ref cRef="Lev." loc="24,3">Lev. 24,3</ref>; <ref cRef="3 Reg." loc="6,33">3 Reg. 6,33</ref>; <foreign xml:lang="gez">መንጦላዕተ፡ አንቀጸ፡ ቤት፡</foreign> <ref cRef="Sir." loc="50,5">Sir. 50,5</ref>; <ref cRef="Matth." loc="27,51">Matth. 27,51</ref>; <ref cRef="Hebr." loc="6,19">Hebr. 6,19</ref>; <foreign xml:lang="gez">ውሳጤ፡ መንጦላዕት፡</foreign> penetrale veli seu adytum <ref cRef="Org." loc="7">Org. 7</ref>; <foreign xml:lang="gez">መንጠዋልዕ፡</foreign> ecclesiae, <ref cRef="Lit." loc="164,4">Lit. 164,4</ref>; <ref cRef="Gad. T.H." loc="">Gad. T.H. </ref>; <foreign xml:lang="grc">ἱστία</foreign> in C <ref cRef="Ex." loc="27,9">Ex. 27,9</ref>-15 (pro <foreign xml:lang="gez">ምንዳድ፡</foreign>).</sense> <sense n="2" xml:id="D2"> locus velo praetento separatus <sense n="a" xml:id="D2a"> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> tentorium </t:quote></cit>, <foreign xml:lang="grc">σκηνή</foreign> <ref cRef="Ps." loc="30,26">Ps. 30,26</ref>.</sense> <sense n="b" xml:id="D2b"> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> thalamus </t:quote></cit>, <foreign xml:lang="grc">παστός</foreign> <ref cRef="Joel" loc="2,16">Joel 2,16</ref>; celebraverunt nuptias <foreign xml:lang="gez">ወአብእዎሙ፡ ውስተ፡ መንጦላዕት፡ ወዐጸዉ፡ ኆኅተ፡</foreign> Vit. Joh. Camae.</sense> <sense n="c" xml:id="D2c"> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> cella </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> cubiculum </t:quote></cit>: <foreign xml:lang="gez">መንጠዋልዕ፡</foreign> (v. <foreign xml:lang="gez">መንጦዋልዕ፡</foreign>) <foreign xml:lang="grc">παστοφόρια</foreign> <ref cRef="1 Par." loc="23,28">1 Par. 23,28</ref>; <foreign xml:lang="gez">ቤተ፡ መንጠዋልዕ፡</foreign> <ref cRef="2 Par." loc="31,11">2 Par. 31,11</ref>; <ref cRef="1 Par." loc="26,16">1 Par. 26,16</ref>.</sense> </sense> <sense n="3" xml:id="D3"> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> quidquid obducitur </t:quote></cit> vel <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> inducitur </t:quote></cit> rei (<cit type="translation" xml:lang="de"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> Ueberzug </t:quote></cit>): <foreign xml:lang="gez">መንጠዋልዕ፡ ዘወርቅ፡</foreign> <ref cRef="3 Reg." loc="6,32">3 Reg. 6,32</ref>.</sense> <sense n="4" xml:id="D4"> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> tegumentum </t:quote></cit>, <foreign xml:lang="grc">ἐπικαλύμματα</foreign> <ref cRef="Ex. " loc="26,14">Ex.  26,14</ref>.</sense> <sense n="5" xml:id="D5"> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> tapetum </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> stragulum </t:quote></cit>: <foreign xml:lang="grc">παραπετάσματα</foreign> <ref cRef="Am." loc="2,8">Am. 2,8</ref>. – <lbl expand="Vocabularium Aethiopicum, -a -a">Voc. Ae.</lbl>: <foreign xml:lang="gez">መንጦላዕት፡ ዘ፡ መጋረጃ።</foreign> </sense> </sense>
+               
+            <sense xml:id="Tmain" xml:lang="en" source="#traces"><cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">manṭolāʿǝt</t:quote></cit>, <lbl expand="pluralis">Pl.</lbl> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">manṭawālǝʿ</t:quote></cit> <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">curtain</t:quote></cit>, <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">tent</t:quote></cit> <foreign xml:lang="gez">፪ግምዘ[sic]፡ መንጦላዕት፡ ዘበዓላት፡ ፮ስዕለ፡ እግዝእትነ፡ ማርያም፡ ዘበዓላት፡</foreign> ‘<cit type="translation" xml:lang="it"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">2 stoffe colorate da tenda per le festività, 6 immagini di Nostra Signora Maria per le festività,</t:quote></cit>’ <bibl><ptr target="bm:Bausi1994ManoscrittiEritreaParteI"/><citedRange unit="page"> 41 IV l. 2–3 (ed.), 30 IV l. 3–4 (tr.)</citedRange></bibl>; <foreign xml:lang="gez">ወኆልቈ፡ አልባስኒ፡ መንጦላዕት፡ ዘግምዛ፡ ፪ ወዘዶቲ፡ ፪ ወዘሥዕል፡ ፩፡ አልባሰ፡ ታቦት፡ ፫</foreign> ‘<cit type="translation" xml:lang="it"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">Ed anche il numero dei tessuti, 2 tende di stoffa colorata, 2 di doti, 1 dipinta, 3 paramenti per il tābot,</t:quote></cit>’ <bibl><ptr target="bm:Bausi1994ManoscrittiEritreaParteI"/><citedRange unit="page"> 43 VI 19–20 (ed.), 36 l. 15–17 (tr.)</citedRange></bibl>; <foreign xml:lang="gez">፭መንጦላዕት። ፬ዘነቡ።</foreign> ‘<cit type="translation" xml:lang="it"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">5 tende, 4 zanabu,</t:quote></cit>’ <bibl><ptr target="bm:Bausi1994ManoscrittiEritreaParteI"/><citedRange unit="page"> 44 IX l. 4 (ed.), 39 IX l. 6 (tr.)</citedRange></bibl>; <foreign xml:lang="gez">ወመንጦላዕት፡ ዘግምዛ፡ ፪[፡] ወዘዶቲ[፡] ፪[፡]</foreign> ‘<cit type="translation" xml:lang="it"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">2 tende di stoffa colorata e 2 di doti,</t:quote></cit>’ <bibl><ptr target="bm:Bausi1994ManoscrittiEritreaParteI"/><citedRange unit="page"> 64 l. 12 (ed.), 53 l. 18 (tr.)</citedRange></bibl> <sense n="L" xml:id="TL"><foreign xml:lang="gez">መንጦላዕት</foreign> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">manṭolāʿǝt</t:quote></cit>, <lbl expand="pluralis">Pl.</lbl> <foreign xml:lang="gez">መንጠዋልዕ</foreign> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">manṭawālǝʿ</t:quote></cit>, <foreign xml:lang="gez">መንጦላዕታት</foreign> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">manṭolāʿǝtāt</t:quote></cit> <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">veil</t:quote></cit>, <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">curtain</t:quote></cit>, <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">drapery</t:quote></cit>, <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">curtain of an altar</t:quote></cit>, <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">mantel</t:quote></cit>, <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">canopy</t:quote></cit>, <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">place curtained off</t:quote></cit> (such as tent, chamber) <bibl><ptr target="bm:Leslau1987dic"/><citedRange unit="page"> 590b</citedRange></bibl></sense> </sense></entry>
+         </div>
+      </body>
+   </text>
+</TEI>

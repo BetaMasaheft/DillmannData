@@ -1,0 +1,79 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ዐተበ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="LB" when="2018-04-24">root</change>
+        </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L00c310cfa4b84c5ea2d0e4c603f94629" n="7173">
+               <form>
+                  <foreign xml:lang="gez">ዐተበ</foreign>
+               <rs type="root"/>
+                    </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain"> <subc>I,1</subc> [vicinum videtur <foreign xml:lang="gez">ኀተመ፡</foreign>, Ges. thes. p. 537] <cb n="0989" xml:id="c0989"/> <gramGrp> <pos expand="Subjunctivus">Subj.</pos> </gramGrp> <foreign xml:lang="gez">ይዕትብ፡</foreign> (F.N. <sense n="3" xml:id="D3"> et <foreign xml:lang="gez">ይዕተብ፡</foreign> (<ref cRef="Sx. Tachs." loc="19">Sx. Tachs. 19</ref>)</sense> <sense n="1" xml:id="D1"> <cit type="translation" xml:lang="la">
+                                <quote> signare </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> obsignare </quote>
+                            </cit>, <foreign xml:lang="grc">σφραγίζειν</foreign>, aliquem <ref cRef="Joh." loc="3,33">Joh. 3,33</ref>; <ref cRef="2 Cor." loc="1,22">2 Cor. 1,22</ref>; <ref cRef="Eph." loc="1,13">Eph. 1,13</ref>; <ref cRef="Eph." loc="4,30">Eph. 4,30</ref>; <foreign xml:lang="gez">ቤተ፡ ክርስቲያን፡ እንተ፡ አጥረያ፡</foreign> (Christus) <foreign xml:lang="gez">በደሙ፡ ወዐተባ፡ በዕፀ፡ መስቀሉ፡</foreign> f. 188.</sense> <sense n="2" xml:id="D2"> in specie: <cit type="translation" xml:lang="la">
+                                <quote> signo crucis signare </quote>
+                            </cit>aliquem vel aliquid, vel <cit type="translation" xml:lang="la">
+                                <quote> signum crucis facere </quote>
+                            </cit>: <foreign xml:lang="gez">ዐተበኒ፡ በትእምርተ፡ መስቀል፡</foreign> Clem. f. 46; <foreign xml:lang="gez">ዐተበት፡ ርእሳ፡ በትእምርተ፡ መስቀል፡</foreign> <ref cRef="Clem." loc="221">Clem. f. 221</ref>; <foreign xml:lang="gez">አርስዓ፡ ዐቲበ፡ ገጻ፡</foreign> <ref cRef="Clem." loc="221">Clem. f. 221</ref>; <foreign xml:lang="gez">ዘልፈ፡ ጸሀቅ፡ ከመ፡ ትዕትብ፡ ፍጽመከ፡</foreign> <ref cRef="Const. Ap." loc="47">Const. Ap. 47</ref>; <foreign xml:lang="gez">ይዕትብ፡ አባሎሙ፡</foreign> F.N. 3; <foreign xml:lang="gez">ዐተብኩ፡ በአጽባዕትየ፡ ላዕለ፡</foreign> (digitis signum crucis feci sursum) <ref cRef="Clem." loc="254">Clem. f. 254</ref>; <ref cRef="Lit. " loc="159,1">Lit.  159,1</ref>; F.N. 14; <foreign xml:lang="gez">እንዘ፡ የዐትብ፡ ላዕሌሆሙ፡</foreign> (contra eos <lbl expand="scilicet">sc.</lbl> daemones, eos fugaturus) Lud. e V.S.</sense> </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

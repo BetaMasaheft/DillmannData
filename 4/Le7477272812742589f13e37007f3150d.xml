@@ -1,0 +1,82 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ሰገደ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="AE" when="2017-12-06">Referenz</change>
+            <change who="LB" when="2018-02-15">root</change>
+        </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="Le7477272812742589f13e37007f3150d" n="3070">
+               <form>
+                  <foreign xml:lang="gez">ሰገደ</foreign>
+               <rs type="root"/>
+                    </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain"> <subc>I,1</subc> [<foreign xml:lang="he">סָגַד</foreign> <foreign xml:lang="syr">ܣܓܶܕ</foreign> <foreign xml:lang="ar">سَجَدَ</foreign>] <gramGrp> <pos expand="Subjunctivus">Subj.</pos> </gramGrp> <foreign xml:lang="gez">ይስግድ፡</foreign>, <cit type="translation" xml:lang="la">
+                            <quote> se prosternere </quote>
+                        </cit> vel <cit type="translation" xml:lang="la">
+                            <quote> procumbere </quote>
+                        </cit> coram aliquo, fronte humum tangendo, honoris testificandi vel adorandi causa; provolutum in genua vel prostratum in terra <cit type="translation" xml:lang="la">
+                            <quote> humillime adorare </quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                            <quote> submisse venerari </quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                            <quote> precibus venerari </quote>
+                        </cit> homines, Deum (<foreign xml:lang="grc">προσκυνεῖν</foreign>): <foreign xml:lang="gez">ሰገደት፡ ውስተ፡ ምድር፡</foreign> <ref cRef="Ruth" loc="2,10">Ruth 2,10</ref>; <foreign xml:lang="gez">ሰገደ፡ በብረኪሁ፡</foreign> <ref cRef="2 Par." loc="6,13">2 Par. 6,13</ref>; <foreign xml:lang="gez">ይሰግዱ፡ በገጾሙ፡ ውስተ፡ ምድር፡</foreign> <ref cRef="Sir." loc="50,17">Sir. 50,17</ref>; <ref cRef="Gen." loc="18,2">Gen. 18,2</ref>; <ref cRef="Gen." loc="42,6">Gen. 42,6</ref>; <ref cRef="Gen." loc="48,12">Gen. 48,12</ref>; <ref cRef="1 Reg." loc="25,41">1 Reg. 25,41</ref>; <ref cRef="2 Reg." loc="18,28">2 Reg. 18,28</ref>; <ref cRef="2 Reg." loc="24,20">2 Reg. 24,20</ref>; <ref cRef="Matth." loc="26,39">Matth. 26,39</ref>: <ref cRef="Marc." loc="14,35">Marc. 14,35</ref>; <ref cRef="Hebr." loc="11,21">Hebr. 11,21</ref>; <lbl expand="construitur cum">c.c.</lbl> <foreign xml:lang="gez">ለ፡</foreign> pers.: <foreign xml:lang="gez">ይሰግዱ፡ ሎቱ፡ ኵሎሙ፡</foreign> <ref cRef="Esth." loc="3,2">Esth. 3,2</ref> <lbl expand="sequens">seq.</lbl>; <ref cRef="1 Reg." loc="24,9">1 Reg. 24,9</ref>; <ref cRef="Jes." loc="45,14">Jes. 45,14</ref>; <ref cRef="Asc. Jes." loc="9,31">Asc. Jes. 9,31</ref>; <foreign xml:lang="gez">ይሰግዱ፡ ለእግዚአብሔር፡</foreign> <ref cRef="Jes." loc="27,13">Jes. 27,13</ref>; <ref cRef="Ex." loc="20,5">Ex. 20,5</ref>; <ref cRef="Kuf." loc="11">Kuf. 11</ref>; <ref cRef="Kuf." loc="20">Kuf. 20</ref>; Ep. <ref cRef="Jer." loc="5">Jer. 5</ref>; <ref cRef="Zach." loc="14,16">Zach. 14,16</ref>: <foreign xml:lang="gez">ደነኑ፡ ወሰገዱ፡ ለእግዚአብሔር፡</foreign> <ref cRef="2 Esr." loc="18,6">2 Esr. 18,6</ref>; <foreign xml:lang="gez">ይሰግዱ፡ ለፀሓይ፡</foreign> <ref cRef="Hez." loc="8,16">Hez. 8,16</ref>; <ref cRef="Ps." loc="28,2">Ps. 28,2</ref>; <ref cRef="Matth." loc="4,10">Matth. 4,10</ref>; <ref cRef="Matth." loc="15,25">Matth. 15,25</ref>; <ref cRef="Apoc." loc="19,10">Apoc. 19,10</ref>; <foreign xml:lang="gez">ከመ፡ ለስሙ፡ ይስግድ፡ ኵሉ፡ ብርክ፡</foreign> <ref cRef="Phil." loc="2,10">Phil. 2,10</ref>; <lbl expand="cum">c.</lbl> <foreign xml:lang="gez">ቅድመ፡</foreign> <ref cRef="Kuf." loc="12">Kuf. 12</ref>; <ref cRef="Gen." loc="23,7">Gen. 23,7</ref>; <ref cRef="Gen. " loc="23,12">Gen.  23,12</ref>; <foreign xml:lang="gez">ሰገደት፡ ታሕተ፡ እገሪሁ፡</foreign> <ref cRef="Esth." loc="8,3">Esth. 8,3</ref>; <gramGrp> <pos expand="absolute">absol.</pos> </gramGrp>: <foreign xml:lang="gez">ንሰግድ፡ ወሰጊደነ፡</foreign> <cb n="0399" xml:id="c0399"/> <foreign xml:lang="gez">ንገብእ፡</foreign> <ref cRef="Kuf." loc="18">Kuf. 18</ref>; <ref cRef="Gen." loc="22,5">Gen. 22,5</ref>; <foreign xml:lang="gez">ያስተበርክ፡ ወይሰግድ፡ ወይጼሊ፡</foreign> <ref cRef="Jes." loc="44,17">Jes. 44,17</ref>; <foreign xml:lang="gez">እለ፡ መጽኡ፡ ይስግዱ፡ ውስተ፡ ቤተ፡ እግዚአብሔር፡</foreign> <ref cRef="Jer." loc="33,2">Jer. 33,2</ref>; <ref cRef="Joh." loc="4,20">Joh. 4,20</ref>. Nota locum: <foreign xml:lang="gez">ይከውን፡ ጸሎት፡ በሰንበት፡ ዘእንበለ፡ ሰጊድ፡ ዲበ፡ ምድር፡ አላ፡ በደኒን፡ ወአትሕቶ፡ ርእስ፡</foreign> <ref cRef="II Can. Nic." loc="32.">II Can. Nic. 32.</ref> </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

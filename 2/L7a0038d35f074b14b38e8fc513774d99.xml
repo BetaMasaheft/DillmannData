@@ -1,0 +1,98 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> አንቆቅሆ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L7a0038d35f074b14b38e8fc513774d99" n="3560">
+               <form>
+                  <foreign xml:lang="gez">አንቆቅሆ</foreign>
+               </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain">, etiam <foreign xml:lang="gez">እንቆቅሆ፡</foreign> (<ref cRef="Jes." loc="28,6">Jes. 28,6</ref>
+                  <lbl expand="varia lectio">var.</lbl>; Did. <lbl expand="edidit">ed.</lbl>
+                  <ref cRef="Platt p." loc="41">Platt p. 41</ref>) et <foreign xml:lang="gez">አንቆቍሆ፡</foreign>, <foreign xml:lang="gez">እንቆቍሆ፡</foreign> (<ref cRef="Deut." loc="22,6">Deut. 22,6</ref>; <ref cRef="Jes." loc="59,5">Jes. 59,5</ref> in
+                     <lbl expand="Laurence, Henochi, IV Ezrae, Asc. Jesaiae librorum editor.">Cod.
+                     Laur.</lbl>), <gramGrp>
+                     <pos expand="Substantivum">subst.</pos>
+                  </gramGrp>, <lbl expand="singularis">sing.</lbl> et <lbl expand="collatio, -is vel collectivum, -e">coll.</lbl>, <cit type="translation" xml:lang="la">
+                     <quote>ovum</quote>
+                  </cit>, <cit type="translation" xml:lang="la">
+                     <quote>ova</quote>
+                  </cit>; avium <ref cRef="Deut." loc="22,6">Deut. 22,6</ref>; <ref cRef="Luc." loc="11,12">Luc. 11,12</ref>; <ref cRef="Jes." loc="10,14">Jes. 10,14</ref>;
+                     <foreign xml:lang="gez">ወይነፅኁ፡ አንቆቅሆሆሙ፡</foreign>
+                  <ref cRef="Jes." loc="28,6">Jes. 28,6</ref> (absque <lbl expand="auctore, auctoritate">auct.</lbl> Graeci); <foreign xml:lang="gez">ዖፍ፡
+                     እንተ፡ ተሐቅፍ፡ እንቆቅሆ፡</foreign>
+                  <ref cRef="Did." loc="6 ">Did. 6 </ref>(<ref cRef="Platt p." loc="41">Platt p.
+                     41</ref>); <foreign xml:lang="gez">ይበልዑ፡ እንቆቅሆ፡ ወግብነተ፡</foreign>
+                  <ref cRef="Kedr f." loc="68">Kedr f. 68</ref>; <foreign xml:lang="gez">አንቆቅሆ፡
+                     ወዓሣ፡</foreign>
+                  <ref cRef="F.M." loc="34">F.M. 34</ref>,7; aliorum animalium: <foreign xml:lang="gez">እንቆቍሆ፡ አርዌ፡ ምድር፡</foreign>
+                  <foreign xml:lang="grc">ὦα ἀσπίδων</foreign>
+                  <ref cRef="Jes." loc="59,6">Jes. 59,6</ref>; <foreign xml:lang="gez">ማየ፡
+                     አንቆቅሆ፡</foreign>
+                  <cit type="translation" xml:lang="la">
+                     <quote>albumen ovi</quote>
+                  </cit> M.F.; <foreign xml:lang="gez">ወሊደ፡ አንቆቅሆ፡ </foreign>
+                  <cit type="translation" xml:lang="la">
+                     <quote>parere ova</quote>
+                  </cit>, Lud. ex <lbl expand="auctore, auctoritate">auct.</lbl> Greg. – <lbl expand="Vocabularium Aethiopicum, -a -a.">Voc. Ae.</lbl>: <foreign xml:lang="gez">አንቆቅሆ፡ ዘ፡ እንቍላል።</foreign>
+                  <cb n="0456" xml:id="c0456"/>
+               </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

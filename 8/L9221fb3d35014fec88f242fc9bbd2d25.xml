@@ -1,0 +1,73 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ዐንበሳ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="LB" when="2018-04-24">root</change>
+            <change who="MK" when="2018-12-08">cross-reference</change>
+        <change who="MK" when="2022-06-21">added cross reference </change></revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L9221fb3d35014fec88f242fc9bbd2d25" n="7192">
+               <form>
+                  <foreign xml:lang="gez">ዐንበሳ</foreign>
+               <rs type="root"/>
+                    </form>
+               <sense xml:id="Dmain" xml:lang="la" source="#dillmann"> (crebro <foreign xml:lang="gez">አንበሳ፡</foreign> scriptum) <gramGrp> <pos expand="Substantivum">subst.</pos> <gen value="not found">m.</gen> </gramGrp>, <lbl expand="pluralis">Pl.</lbl> <foreign xml:lang="gez">ዐናብስት፡</foreign> (formam <foreign xml:lang="gez">አንብስት፡</foreign> Lud. ex <ref cRef="Sx. Mag." loc="23 ">Sx. Mag. 23 </ref>Enc. affert, sed vereor ut lectio sana sit) [<foreign xml:lang="ar">عَنْبَسٌ</foreign> ab <foreign xml:lang="ar">عَبَسَ</foreign> <cit type="translation" xml:lang="la"><quote> austerus fuit </quote></cit>] <cit type="translation" xml:lang="la"><quote> leo </quote></cit>, <ref cRef="Job" loc="4,10">Job 4,10</ref>; <ref cRef="Job" loc="28,8">Job 28,8</ref>; <ref cRef="Sir." loc="21,2">Sir. 21,2</ref>; <ref cRef="Sir." loc="27,10">Sir. 27,10</ref>; <ref cRef="Koh." loc="9,4">Koh. 9,4</ref>; <ref cRef="Prov." loc="28,15">Prov. 28,15</ref>; <ref cRef="Jes." loc="11,6">Jes. 11,6</ref>; <ref cRef="Jes." loc="11,7">Jes. 11,7</ref>; <ref cRef="4 Esr." loc="11,41">4 Esr. 11,41</ref>; <ref cRef="Apoc." loc="4,7">Apoc. 4,7</ref>; <ref cRef="Apoc." loc="5,5">Apoc. 5,5</ref>; <foreign xml:lang="gez">ዐናብስት፡</foreign> <ref cRef="4 Reg." loc="17,25">4 Reg. 17,25</ref>; <ref cRef="4 Reg." loc="17,26">4 Reg. 17,26</ref>; <ref cRef="Job" loc="4,11">Job 4,11</ref>; <ref cRef="Job" loc="38,39">Job 38,39</ref>; <ref cRef="Jer." loc="2,15">Jer. 2,15</ref>; <ref cRef="Jer." loc="27,17">Jer. 27,17</ref>; <ref cRef="Dan." loc="6,7">Dan. 6,7</ref> <lbl expand="sequens">seq.</lbl>; <ref cRef="Hez." loc="19,2">Hez. 19,2</ref> <lbl expand="sequens">seq.</lbl>; <ref cRef="Zach." loc="11,3">Zach. 11,3</ref>; <ref cRef="Hen." loc="89,55">Hen. 89,55</ref>; <ref cRef="Hen. " loc="89,56">Hen.  89,56</ref>; <foreign xml:lang="gez">እጓለ፡ ዐንበሳ፡</foreign> <ref cRef="Jes." loc="30,6">Jes. 30,6</ref>; <ref cRef="Jes." loc="31,4">Jes. 31,4</ref>; <ref cRef="Gen." loc="49,9">Gen. 49,9</ref>; <foreign xml:lang="gez">እጓለ፡ ዐናብስት፡</foreign> <ref cRef="Nah." loc="2,11">Nah. 2,11</ref>; <ref cRef="Nah." loc="2,12">Nah. 2,12</ref>; <ref cRef="Jes." loc="5,29">Jes. 5,29</ref>; <foreign xml:lang="gez">እጓለ፡ ዐንበሳ፡</foreign> est epitheton regum Ela Assbehae et <ref cRef="Abrehae Kebr. Nag." loc="90.">Abrehae Kebr. Nag. f. 90.</ref> – Ubi <gramGrp> <gen value="femininus">fem.</gen> </gramGrp> est, <foreign xml:lang="gez">አንስቲያዊት፡</foreign> additur, ut: <foreign xml:lang="gez">ዐንበሳ፡ አንስቲያዊት፡</foreign> <cit type="translation" xml:lang="la"><quote> leaena </quote></cit> <ref cRef="Sx. Sen." loc="27.">Sx. Sen. 27.</ref> </sense>
+               
+            <sense xml:id="Tmain" xml:lang="en" source="#traces"> <cit type="transcription" xml:lang="gez"><quote> ʾanbassā </quote></cit> part of <gramGrp><pos expand="nomen proprium">n. pr.</pos></gramGrp> (personal name) <lbl expand="videas">vid.</lbl> e.g. <foreign xml:lang="gez">አንበሳ፡ ውድም፡</foreign> <sense n="C" xml:id="TC"> for <foreign xml:lang="gez">ሥዕለ፡ አንበሳ፡</foreign> <lbl expand="videas">vid.</lbl> <foreign xml:lang="gez">ሥዕል፡</foreign> </sense> </sense>
+                </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

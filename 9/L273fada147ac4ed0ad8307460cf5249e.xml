@@ -1,0 +1,86 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ቀውዕ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="PL" when="2017-08-04">fixe l) to 1) in #147</change>
+        <change who="LB" when="2018-02-23">root</change>
+        </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L273fada147ac4ed0ad8307460cf5249e" n="3562">
+               <form>
+                  <foreign xml:lang="gez">ቀውዕ</foreign>
+               <rs type="root"/>
+                    </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain"> et <foreign xml:lang="gez">ቆዕ፡</foreign> <gramGrp> <pos expand="Substantivum">subst.</pos> </gramGrp> <sense n="1" xml:id="D1"> <cit type="translation" xml:lang="la">
+                                <quote> flos vitis </quote>
+                            </cit>, et similium fruticum bacciferorum: <foreign xml:lang="grc">κύπρος</foreign> <foreign xml:lang="gez">ቆዕ፡</foreign> <ref cRef="Cant." loc="4,13">Cant. 4,13</ref>; <foreign xml:lang="gez">ለእመ፡ ጸገየ፡ ቆዕ፡</foreign> <foreign xml:lang="grc">ἤνθησεν ὁ κυπρισμός</foreign> (<foreign xml:lang="he">סְמָדַר</foreign>) <ref cRef="Cant." loc="7,13">Cant. 7,13</ref>; <ref cRef="Cant. " loc="6,11">Cant.  6,11</ref> (<ref cRef="Cant." loc="2,13">Cant. 2,13</ref> <foreign xml:lang="grc">κυπρίζειν</foreign> <foreign xml:lang="gez">ጸገየ፡</foreign> versum est); <foreign xml:lang="gez">ጼና፡ አንፍኪ፡ ከመ፡ ቆዕ፡ ጽጌ፡ ወይን፡</foreign> Org.; <foreign xml:lang="gez">ይትሜዐዝ፡ ቆዐ፡ ጽጌ፡ ወይን፡</foreign> <ref cRef="Org." loc="7">Org. 7</ref>; Deg.; <foreign xml:lang="gez">በጽሐ፡ ጊዜ፡ ቀውዕ፡</foreign> M.M. f. 288; <ref cRef="Org." loc="1">Org. 1</ref>; <foreign xml:lang="gez">በመስቀል፡ ዘቀውዕ፡</foreign> <cit type="translation" xml:lang="la">
+                                <quote> festa crucis verno </quote>
+                            </cit> <ref cRef="1 Cor." loc="1,17">1 Cor. 1,17</ref> tit. </sense> <sense n="2" xml:id="D2"> flava illa materia, pedibus apium in alvearia involantium adhaerens, Lud. ex <lbl expand="auctore, auctoritate">auct.</lbl> Gregorii.</sense> <sense n="3" xml:id="D3"> uva prima et tenera, <cit type="translation" xml:lang="la">
+                                <quote> omphax </quote>
+                            </cit>, quivis <cit type="translation" xml:lang="la">
+                                <quote> fructus immaturus </quote>
+                            </cit> (i. fere q. <foreign xml:lang="ar">كَحْبٌ</foreign>), <foreign xml:lang="grc">ὄμφαξ</foreign> <ref cRef="Job" loc="15,33">Job 15,33</ref>; <ref cRef="Jes." loc="18,5">Jes. 18,5</ref>; <ref cRef="Prov." loc="10,26">Prov. 10,26</ref>; <foreign xml:lang="gez">አበው፡ በልዑ፡ ቆዐ፡</foreign> <ref cRef="Jer." loc="38,29">Jer. 38,29</ref>; <ref cRef="Hez." loc="18,2">Hez. 18,2</ref>; <foreign xml:lang="gez">ከመ፡ ቆዐ፡ ቀምሕ፡</foreign> <ref cRef="Sir." loc="51,15">Sir. 51,15</ref>; <foreign xml:lang="gez">ፍሬሆሙ፡ ቆዕ፡ ከንቱ፡</foreign> <ref cRef="Sap." loc="4,5">Sap. 4,5</ref>.</sense> <sense n="4" xml:id="D4"> Transfertur ad homines qui <cit type="translation" xml:lang="la">
+                                <quote> immaturi </quote>
+                            </cit> i.e. <cit type="translation" xml:lang="la">
+                                <quote> praematura morte </quote>
+                            </cit> abripiuntur; <foreign xml:lang="grc">ἄωρος</foreign>, <foreign xml:lang="gez">እስመ፡ አብ፡ ይጼዐር፡ ወይላሑ፡ ለ፩ ሎቱ፡ እንዘ፡ ቆዑ፡ ተመሥጠ፡ ሕፃኑ፡</foreign> <ref cRef="Sap." loc="14,15">Sap. 14,15</ref>; <foreign xml:lang="gez">ዐማፅያን፡ ይትሀጐሉ፡ ቆዖሙ፡</foreign> <ref cRef="Prov. " loc="13,2">Prov.  13,2</ref>. – <cit type="translation" xml:lang="la">
+                                <quote> Voc. Ae. </quote>
+                            </cit>: <foreign xml:lang="gez">ቋዕ፡</foreign> (sic) <foreign xml:lang="gez">ብ፡ ጨርቋ።</foreign> </sense> </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

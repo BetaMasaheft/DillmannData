@@ -1,0 +1,104 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ፍሥሕ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="LB" when="2018-06-05">root</change>
+            <change who="AE" when="2018-10-21">Sprachkennung,</change>
+        </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L5f117d6f6d6047189a50bc65e2e7e7aa" n="9882">
+               <form>
+                  <foreign xml:lang="gez">ፍሥሕ</foreign>
+               <rs type="root"/>
+                    </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain"> et plerumque <foreign xml:lang="gez">ፍሥሐት፡</foreign> <gramGrp> <pos expand="Substantivum">subst.</pos> </gramGrp>, <lbl expand="pluralis">Pl.</lbl> <foreign xml:lang="gez">ፍሥሐታት፡</foreign> <sense n="1" xml:id="D1"> <cit type="translation" xml:lang="la">
+                                <quote> fauces montanae </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> pylae </quote>
+                            </cit>: <foreign xml:lang="gez">ዐፀዉ፡ ፍሥሐታተ፡</foreign> (v. <foreign xml:lang="gez">አናቅጸ፡ ፍትሐት፡</foreign>) <foreign xml:lang="grc">τὰς διόδους τῆς ὀρεινῆς</foreign> <ref cRef="Judith" loc="5,1">Judith 5,1</ref>.</sense> <sense n="2" xml:id="D2"> <cit type="translation" xml:lang="la">
+                                <quote> locus acclivis </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> clivus </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> locus clivosus </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> arduus </quote>
+                            </cit>: <foreign xml:lang="gez">ፍሥሐታተ፡ አድባር፡</foreign> (v. <foreign xml:lang="gez">ፍትሐታት፡</foreign>) <foreign xml:lang="grc">ἀναβάσεις</foreign> <ref cRef="Judith" loc="4,7">Judith 4,7</ref>; <ref cRef="Judith" loc="6,12">Judith 6,12</ref>; <ref cRef="Judith" loc="7,1">Judith 7,1</ref>; (v. <foreign xml:lang="gez">አርእስት፡</foreign>) <ref cRef="Judith" loc="7,7">Judith 7,7</ref>; (v. <foreign xml:lang="gez">ፍትሐት፡</foreign>); <ref cRef="Org." loc="4 ">Org. 4 </ref>(ubi Lud. interpretatur <cit type="translation" xml:lang="la">
+                                <quote> viae salebrosae saxisque impeditae </quote>
+                            </cit>, ubi mulis equisve difficulter pergere possis).</sense> <sense n="3" xml:id="D3"> <cit type="translation" xml:lang="la">
+                                <quote> tumulus </quote>
+                            </cit>, (<cit type="translation" xml:lang="la">
+                                <quote> collis </quote>
+                            </cit>): <foreign xml:lang="gez">ወገብረ፡ ፍሥሐተ፡</foreign> (v. <foreign xml:lang="gez">ፍሥሐ፡</foreign>) <foreign xml:lang="gez">ዐቢየ፡ ህየ፡</foreign> et <foreign xml:lang="gez">ፍሥሐተ፡</foreign> (v. <foreign xml:lang="gez">ፍሥሕተ፡</foreign>) <foreign xml:lang="gez">ስምዕ፡</foreign> <ref cRef="Kuf." loc="106 ">Kuf. p. 106 </ref>(Vers. Lat.: <cit type="translation" xml:lang="la">
+                                <quote> congeries </quote>
+                            </cit> et <cit type="translation" xml:lang="la">
+                                <quote> collis </quote>
+                            </cit>); etiam <cit type="translation" xml:lang="la">
+                                <quote> delubrum in loco editiore </quote>
+                            </cit> exstructum (<foreign xml:lang="he">בָּמָה</foreign>), ut videtur: <foreign xml:lang="gez">ይገብሩ፡ ሎሙ፡ ፍሥሐታተ፡ ወዖመ፡</foreign> <ref cRef="Kuf." loc="3.">Kuf. p. 3.</ref> – (<foreign xml:lang="gez">ብሔረ፡ ፍሥሕት፡</foreign> p. 107 lin. 1 lectio prava esse videtur, <lbl expand="videas">vid.</lbl> <lbl expand="Versio Latina Jubilaeorum&#xA;                            libri, exstat in libro: Monumenta sacra et profana e codicibus Bibl.&#xA;                            Ambrosianae tom. I, fasc. I. ed Ceriani, Mediol. 1861. 4°.">Vers. Lat.</lbl>). – [Radicibus <foreign xml:lang="he">פְּסַג פְּסַק</foreign> <foreign xml:lang="syr">ܦܣܰܩ ܦܫܰܚ</foreign> al. vis <cit type="translation" xml:lang="la">
+                                <quote> dividendi </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> abscidendi </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> dirumpendi </quote>
+                            </cit> inest; sed non omittendum est nomen <foreign xml:lang="he">פִּסְגַּה</foreign> montis, quod in Targ. et Pesch. <cit type="translation" xml:lang="la">
+                                <quote> collis </quote>
+                            </cit> exponitur].</sense> </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

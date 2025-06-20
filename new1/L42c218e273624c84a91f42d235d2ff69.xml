@@ -1,0 +1,97 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng"
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="gez">ጕዝጓዝ</title>
+            <editor>Alessandro Bausi</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>Hiob-Ludolf-Zentrum für Äthiopistik</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>The origin of the lexicon is in a thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann, Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum
+                     indice latino. Adiectum est vocabularium tigre dialecti septentrionalis
+                     compilatum</emph> a W. Munziger. Lipsiae: Th.O. Weigel, 1865.</ref></p>
+            <p>Additional records were created by the project <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/"> TraCES (ERC Advanced Grant, Grant
+                  Agreement 338756)</ref></p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+         <listPrefixDef>
+            <prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="MK" when="2022-07-12">added new entry</change>
+         <change who="MK" when="2022-07-12">added etymology</change>
+         <change who="MK" when="2022-07-12">correction</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L42c218e273624c84a91f42d235d2ff69" n="12878">
+               <form><foreign xml:lang="gez">ጕዝጓዝ</foreign></form>
+               <sense xml:id="Tmain" xml:lang="en" source="#traces">
+                  <cit type="transcription" xml:lang="gez">
+                     <quote>gʷǝzgʷāz</quote>
+                  </cit>
+                  <gramGrp><pos expand="Substantivum">subst.</pos></gramGrp> kind of mattress (see
+                  also the comment below) <foreign xml:lang="gez">ወፍራስ፡ ጕዝጓዘ፡ መጽሐፍ፡ ፩፡</foreign>
+                     ‘<cit type="translation" xml:lang="it">
+                     <quote>1 materasso gʷezgʷāz per i
+                        libri,</quote>
+                  </cit>’ <bibl><ptr target="bm:Bausi1994ManoscrittiEritreaParteI"/><citedRange unit="page"> 43 VI l. 29–30 (ed.), 36 l. 28–29 (tr.)</citedRange></bibl>
+                  (‘Si veda l’identico termine tigrino (<bibl><ptr target="bm:DaBassano1918DictTgr"/><citedRange unit="page"> 882</citedRange></bibl>) «specie di materasso», e
+                  il geʿez gʷezāgʷez {<lbl expand="videas">vid.</lbl>
+                  <foreign xml:lang="gez">ጕዛጕዝ፡</foreign>} «vestes stragulae, stragula villosa».
+                  Nell’identico termine amarico, il senso di «materasso» è secondario a quello di
+                  «erbe secche, foglie con cui si copre un terreno» per potervisi adagiare
+                  comodamente (<bibl><ptr target="bm:Guidi1901Vocabolario"/><citedRange unit="page">
+                        771</citedRange></bibl>, <bibl><ptr target="bm:Guidi1940Supplemento"/><citedRange unit="page"> 225</citedRange></bibl>, <bibl><ptr target="bm:Kane1990DictAmhVol2"/><citedRange unit="page">
+                     2031b</citedRange></bibl>.’) <bibl><ptr target="bm:Bausi1997ManoscrittiEritreaParteIII"/><citedRange unit="page">
+                        47a</citedRange></bibl>) 
+                  <sense n="E" xml:id="TE">Tigrinya <foreign xml:lang="ti">ጕዝጓዝ</foreign>
+                     <cit type="transcription" xml:lang="gez">
+                        <quote>gʷǝzgʷāz</quote>
+                     </cit> ‘specie di materasso, cercine che tengono dietro alla schiena i facchini
+                     per portare pesi ecc.: n. d’az.’ <bibl><ptr target="bm:DaBassano1918DictTgr"/><citedRange unit="page"> 882</citedRange></bibl>; Amharic <foreign xml:lang="am">ጉዝጓዝ</foreign>
+                     <cit type="transcription" xml:lang="gez">
+                        <quote>guzgʷāz</quote>
+                     </cit> or <foreign xml:lang="am">ጕዝጓዝ</foreign>
+                     <cit type="transcription" xml:lang="gez">
+                        <quote>gʷǝzgʷāz</quote>
+                     </cit> ‘leaves or grass serving as a covering, cushion, thing on which one can
+                     rest or stretch out’ <bibl><ptr target="bm:Kane1990DictAmhVol2"/><citedRange unit="page"> 2031b</citedRange></bibl></sense>
+                  <nd/>
+               </sense>
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,104 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng"
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="gez">ብላታ</title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref></p>
+            <p><ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref></p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+         <listPrefixDef>
+            <prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="MK" when="2022-03-28">added entry</change>
+         <change who="MK" when="2022-03-28">corrections</change>
+         <change who="MK" when="2022-03-29">added reference</change>
+         <change who="MK" when="2022-03-29">added example</change>
+         <change who="MK" when="2022-05-16">added paranthesis</change>
+         <change who="MK" when="2022-05-20">added example</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="Ld680450db01a4a72903d11078d61bb4a" n="12789">
+               <form><foreign xml:lang="gez">ብላታ</foreign></form>
+               <sense xml:id="Tmain" xml:lang="en" source="#traces"><cit type="transcription" xml:lang="gez">
+                     <quote>b(ǝ)lāttā</quote>
+                  </cit>, <foreign xml:lang="gez">በላታ፡</foreign>
+                  <cit type="transcription" xml:lang="gez">
+                     <quote>balāttā</quote>
+                  </cit>
+                  <bibl><ptr target="bm:Isenberg1841Dictionary"/><citedRange unit="page">
+                        84a</citedRange></bibl>
+                  <gramGrp><pos expand="Substantivum">subst.</pos></gramGrp> (title) ‘a certain rank
+                  in the service of Abyssinian Princes, answering, perhaps, to our colonel’
+                        <bibl><ptr target="bm:Isenberg1841Dictionary"/><citedRange unit="page">
+                        84a</citedRange></bibl> (According to <bibl><ptr target="bm:Abbadie1881Dict"/><citedRange unit="page"> 331–332</citedRange></bibl> it is an abbreviated
+                  form of blāttangetā, <lbl expand="videas">vid.</lbl> under <foreign xml:lang="gez">ጌታ፡</foreign>; <bibl><ptr target="bm:Guidi1901Vocabolario"/><citedRange unit="page"> 314</citedRange></bibl> repeats d’Abbadie’s explanation, and
+                  adds ‘provider, administrator (not of the royal house)’). In the example
+                        <bibl><ptr target="bm:ContiRossini1909LiberT"/><citedRange unit="page"> 53
+                        l. 15 (ed.)</citedRange></bibl>, ‘blāttā’ is mentioned next to ‘blāttangetā’
+                  which indicates that ‘blāttā’ is rather a separate title.) <foreign xml:lang="gez">ምስክርሂ፡ ብላታ፡ ወልደ፡ ሳሙኤል፡ ብላተንጌታ፡ ወልደ፡ ጊዮርጊስ፡</foreign> ‘<cit type="translation" xml:lang="fr">
+                     <quote>Les témoins ont été : le belāttā Walda Sāmuʾēl, le belāttangētā Walda
+                        Giyorgis</quote>
+                  </cit>’ <bibl><ptr target="bm:ContiRossini1909LiberT"/><citedRange unit="page"> 53
+                        l. 15–16 (ed.)</citedRange></bibl>, <bibl><ptr target="bm:ContiRossini1910LiberV"/><citedRange unit="page"> 64 l. 9–10
+                        (tr.)</citedRange></bibl>; <foreign xml:lang="gez">ዝጕልት፡ ማይ፡ ጼዓ፡ ለብላታ፡
+                     ፍሡሕ፡</foreign> ‘<cit type="translation" xml:lang="fr">
+                     <quote>Ce fief de Māy Ṣēʿā appartient au belāttā Fessuḥ</quote>
+                  </cit>’ <bibl><ptr target="bm:ContiRossini1909LiberT"/><citedRange unit="page"> 55
+                        l. 12 (ed.)</citedRange></bibl>, <bibl><ptr target="bm:ContiRossini1910LiberV"/><citedRange unit="page"> 66 l. 20
+                        (tr.)</citedRange></bibl>; <foreign xml:lang="gez">በእደ፡ ፍታው፡ የተሰሩ፡ እጨጌ፡ ብላታ፡
+                     ገብረ፡ ሕይወት፡ ደ[ብተራ]፡ ምናሴ፡ ደ[ብተራ]፡ ጐሹ፡ ደ[ብተራ]፡ ገብረ፡ እግዚእ።</foreign> ‘<cit type="translation" xml:lang="fr">
+                     <quote>Dans Eddā Fetāw, ont été nommés: l’eč̣č̣agē, le belāttā Gabra Ḥeywat, le
+                        dabtarā Menāsē, le dabtarā Guašu, le dabtarā Gabra Madḫen. </quote>
+                  </cit>’ <bibl><ptr target="bm:ContiRossini1909LiberT"/><citedRange unit="page"> 61
+                        l. 15–17 (ed.)</citedRange></bibl>, <bibl><ptr target="bm:ContiRossini1910LiberV"/><citedRange unit="page"> 73 l. 24–26
+                        (tr.)</citedRange></bibl>
+                  <nd/>
+               </sense>
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

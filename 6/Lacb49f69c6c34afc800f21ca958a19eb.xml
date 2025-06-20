@@ -1,0 +1,122 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> አቅለለ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="Lacb49f69c6c34afc800f21ca958a19eb" n="3177">
+               <form>
+                  <foreign xml:lang="gez">አቅለለ</foreign>
+               </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain"> <subc>II,1</subc> <sense n="1" xml:id="D1">
+                     <cit type="translation" xml:lang="la">
+                        <quote>levem</quote>
+                     </cit> vel <cit type="translation" xml:lang="la">
+                        <quote>leviorem facere</quote>
+                     </cit>, <cit type="translation" xml:lang="la">
+                        <quote>levare</quote>
+                     </cit>, <cit type="translation" xml:lang="la">
+                        <quote>exonerare</quote>
+                     </cit>, <cit type="translation" xml:lang="la">
+                        <quote>onus minuere</quote>
+                     </cit>; <cit type="translation" xml:lang="la">
+                        <quote>faciliorem reddere</quote>
+                     </cit>, <foreign xml:lang="gez">ከመ፡ ያቅልል፡ እዴሁ፡ እምላዕሌክሙ፡</foreign>
+                     <ref cRef="1 Reg." loc="6,5">1 Reg. 6,5</ref>; <foreign xml:lang="gez">አቅለልዋ፡
+                        ለሐመር፡ </foreign>
+                     <ref cRef="Act." loc="27,38">Act. 27,38</ref>
+                     <lbl expand="romanae editionis">rom.</lbl>; <ref cRef="Jon." loc="1,5">Jon.
+                        1,5</ref>; <foreign xml:lang="gez">ኣቀልል፡ ለኪ፡ </foreign> Vit. Barb.; <foreign xml:lang="gez">ከመ፡ ያቅልል፡ ንስሓ፡ ለእለ፡ አበሱ፡ </foreign>
+                     <ref cRef="Clem." loc="143">Clem. f. 143</ref>; <foreign xml:lang="gez">ኣቅልል፡
+                        ሎሙ፡ ዐሊዎቶሙ፡ </foreign>
+                     <cit type="translation" xml:lang="la">
+                        <quote>rebellionem iis faciliorem reddam</quote>
+                     </cit>
+                     <ref cRef="Jsp." loc="288.">Jsp. p. 288.</ref>
+                     <sense n="a" xml:id="D1a">
+                        <cit type="translation" xml:lang="la">
+                           <quote>remittere</quote>
+                        </cit> aliquid <cit type="translation" xml:lang="la">
+                           <quote>de</quote>
+                        </cit> onere (c. <foreign xml:lang="gez">እምነ፡</foreign>): <foreign xml:lang="gez">አቅልል፡ ለነ፡ እምነ፡ ግብርናት፡</foreign> 3 <ref cRef="Reg." loc="12,4">Reg. 12,4</ref>; <ref cRef="3 Reg." loc="12,9">3 Reg.
+                           12,9</ref>; <foreign xml:lang="gez">መከሩ፡ ከመ፡ ያቅልሉ፡ እምቀኖናቲሃ፡ </foreign>
+                        (de poenitentiis ei impositis) F.M. 13.</sense>
+                     <sense n="b" xml:id="D1b"> levem i.e. <cit type="translation" xml:lang="la">
+                           <quote>celerem</quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                           <quote>pernicem facere</quote>
+                        </cit>: <foreign xml:lang="gez">አቅለሉ፡ ክነፊሆሙ፡ ዘመንፈስ፡</foreign> Lud. e Lit.
+                        Mss.</sense>
+                     <sense n="2" xml:id="D12">
+                        <cit type="translation" xml:lang="la">
+                           <quote>pro levi et vili habere</quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                           <quote>parvi aestimare</quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                           <quote>vilipendere</quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                           <quote>spernere</quote>
+                        </cit>: <foreign xml:lang="gez">ውሉድ፡ እለ፡ ያቀልሉ፡ አበዊሆሙ፡ </foreign>
+                        <ref cRef="Can. Gangr." loc="16">Can. Gangr. 16</ref>; <ref cRef="II Can. Nic." loc="29">II Can. Nic. 29</ref>; <foreign xml:lang="gez">ዘያቀልል፡ ማኅበረ፡ ቤተ፡ ክርስቲያን፡</foreign> et <foreign xml:lang="gez">ዘመሀረ፡ አቅልሎ፡ ቤተ፡ ክርስቲያን፡ </foreign>
+                        <ref cRef="Can. Gangr." loc="5.">Can. Gangr. 5.</ref>
+                     </sense>
+                  </sense>
+               </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

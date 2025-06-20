@@ -1,0 +1,119 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> አፍጠነ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="Lfd8203dfff80437480dcc86e64169064" n="10108">
+               <form>
+                  <foreign xml:lang="gez">አፍጠነ</foreign>
+               </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain"> <subc>II,1</subc> <sense n="1" xml:id="D1">
+                     <cit type="translation" xml:lang="la">
+                        <quote>celerare</quote>
+                     </cit>, <cit type="translation" xml:lang="la">
+                        <quote>festinare</quote>
+                     </cit>, <cit type="translation" xml:lang="la">
+                        <quote>properare</quote>
+                     </cit>: <foreign xml:lang="gez">ከመ፡ ያፍጥን፡ ዘያነብብ፡</foreign>
+                     <ref cRef="Hab." loc="2,2">Hab. 2,2</ref>; <ref cRef="Jer." loc="31,16">Jer.
+                        31,16</ref>
+                     <lbl expand="varia lectio">var.</lbl>; <lbl expand="sequens">seq.</lbl> verbo
+                     finito sive asyndeto: <ref cRef="1 Reg." loc="20,38">1 Reg. 20,38</ref>; <ref cRef="Luc." loc="15,22">Luc. 15,22</ref>
+                     <lbl expand="romanae editionis">rom.</lbl>; <ref cRef="Luc." loc="19,5">Luc.
+                        19,5</ref>; sive copula <foreign xml:lang="gez">ወ፡</foreign> annexo:
+                        <foreign xml:lang="gez">ያፍጥን፡ ወይሩጽ፡ ምግባሩ፡ </foreign>
+                     <ref cRef="Jes." loc="5,19">Jes. 5,19</ref>
+                     <lbl expand="varia lectio">var.</lbl>; <ref cRef="Gen." loc="18,6">Gen.
+                        18,6</ref>; <ref cRef="1 Reg." loc="25,18">1 Reg. 25,18</ref>; <lbl expand="sequens">seq.</lbl>
+                     <gramGrp>
+                        <case value="accusativus">Acc.</case>
+                     </gramGrp> Infin.: <ref cRef="Luc." loc="19,6">Luc. 19,6</ref>; <ref cRef="Gen. " loc="18,7">Gen. 18,7</ref>; <ref cRef="Gen." loc="45,13">Gen.
+                        45,13</ref>; <ref cRef="Ps." loc="69,1">Ps. 69,1</ref>; <foreign xml:lang="gez">አፍጠነ፡ ውሂቦታ፡ ቅብአ፡</foreign>
+                     <ref cRef="Esth. " loc="2,9">Esth. 2,9</ref>; <foreign xml:lang="gez">እመ፡
+                        ኢያፍጠነ፡ ተዐቅቦ፡ በፍርሀተ፡ እግዚአብሔር፡</foreign>
+                     <ref cRef="Sir." loc="27,3">Sir. 27,3</ref>; <foreign xml:lang="gez">ያፈጥን፡ ክዒወ፡
+                        ደም፡</foreign>
+                     <ref cRef="Sir." loc="28,11">Sir. 28,11</ref>; <ref cRef="Judith" loc="10,15">Judith 10,15</ref>; <ref cRef="Judith" loc="13,12">Judith 13,12</ref>; vel
+                        <lbl expand="sequens">seq.</lbl>
+                     <foreign xml:lang="gez">ለ፡</foreign>
+                     <lbl expand="cum">c.</lbl> Infin.: <foreign xml:lang="gez">እገሪሆሙ፡ ያፈጥና፡ ለክዒወ፡
+                        ደም፡</foreign>
+                     <ref cRef="Prov." loc="1,16">Prov. 1,16</ref>; <ref cRef="Jes." loc="59,7">Jes.
+                        59,7</ref>; <foreign xml:lang="gez">ዘአፍጠነ፡ እዴሁ፡ ለዘቢጥ፡</foreign>
+                     <ref cRef="Kedr f." loc="79">Kedr f. 79</ref>; nonnumquam Latine <cit type="translation" xml:lang="la">
+                        <quote>cito</quote>
+                     </cit>, <cit type="translation" xml:lang="la">
+                        <quote>mox</quote>
+                     </cit> vertere licet: <foreign xml:lang="gez">አፍጠኑ፡ ረሲዐ፡ </foreign> (cito
+                     obliti sunt) <ref cRef="Ps." loc="105,14">Ps. 105,14</ref>; <ref cRef="Kuf." loc="26">Kuf. 26</ref>; <ref cRef="Gen." loc="27,20">Gen. 27,20</ref>; <ref cRef="Ex." loc="2,18">Ex. 2,18</ref>.</sense>
+                  <sense n="2" xml:id="D2">
+                     <cit type="translation" xml:lang="la">
+                        <quote>accelerare</quote>
+                     </cit>, <cit type="translation" xml:lang="la">
+                        <quote>maturare</quote>
+                     </cit>, <lbl expand="cum">c.</lbl>
+                     <gramGrp>
+                        <case value="accusativus">Acc.</case>
+                     </gramGrp>: <foreign xml:lang="gez">አፍጥና፡ ለዕለቶሙ፡ </foreign>
+                     <ref cRef="Sir." loc="33,10">Sir. 33,10</ref>; <foreign xml:lang="gez">አፍጥኑ፡
+                        ሥጣዌ፡</foreign> („maturate responsionem“) Greg. Lud.</sense>
+               </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

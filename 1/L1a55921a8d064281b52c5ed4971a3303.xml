@@ -1,0 +1,71 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ሐጽ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="MK" when="2023-08-03">added Gr</change><change who="MK" when="2023-08-07">deleted les</change></revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L1a55921a8d064281b52c5ed4971a3303" n="995">
+               <form>
+                  <foreign xml:lang="gez">ሐጽ</foreign>
+               </form>
+               <sense xml:id="Dmain" xml:lang="la" source="#dillmann"> <gramGrp> <pos expand="Substantivum">subst.</pos> </gramGrp>, plerumque <gramGrp> <gen value="not found">m.</gen> </gramGrp>, Plur. <foreign xml:lang="gez">አሕጻ፡</foreign> et <foreign xml:lang="gez">አሕጻት፡</foreign> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> sagitta </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> telum </t:quote></cit> [quamquam enim hebr. <foreign xml:lang="he">חֵץ</foreign> a <lbl expand="radix">rad.</lbl> <foreign xml:lang="he">חָצַץ</foreign> provenit, tamen ob pluralis formas, quae cum pluralibus vocum <foreign xml:lang="gez">ስም፡</foreign> et <foreign xml:lang="gez">ጥብ፡</foreign> magis quam cum pluralibus vocum <foreign xml:lang="gez">ፀር፡</foreign>, <foreign xml:lang="gez">ልብ፡</foreign> al. conveniunt, nunc (aliter atque in <bibl><ptr target="bm:Dillmann1857Gramm"/>gramm.</bibl> § 136,2,c) hujus vocis radicem <foreign xml:lang="gez">ሐጸየ፡</foreign> statuere maluerim, <lbl expand="collatio, -is vel collectivum,&#xA;                            -e">coll.</lbl> arab. <foreign xml:lang="ar">حَظْوَةٌ</foreign> praeter <foreign xml:lang="ar">حَنْطٌ</foreign>] <foreign xml:lang="grc">σίδηρος</foreign> <ref cRef="Job" loc="39,22">Job 39,22</ref>; <foreign xml:lang="grc">ἰός</foreign> <ref cRef="Thren." loc="3,13">Thren. 3,13</ref>; <foreign xml:lang="grc">τοξεύματα</foreign> <ref cRef="Hez." loc="39,3">Hez. 39,3</ref>; <ref cRef="Jer. " loc="28,11">Jer.  28,11</ref>; <foreign xml:lang="grc">βολίς</foreign> <ref cRef="Jer." loc="27,9">Jer. 27,9</ref>; plerumque <foreign xml:lang="grc">βέλος</foreign> <ref cRef="Job" loc="20,25">Job 20,25</ref>; <ref cRef="Sap." loc="5,12">Sap. 5,12</ref>; <ref cRef="Sir." loc="19,12">Sir. 19,12</ref>; <ref cRef="Ps." loc="56,6">Ps. 56,6</ref>; <foreign xml:lang="gez">ይበውእዋ፡ በሐጽ፡ ወበቀስት፡</foreign> <ref cRef="Jes." loc="7,24">Jes. 7,24</ref>; <foreign xml:lang="gez">ረሰየኒ፡ ከመ፡ ሐጽ፡ ኅሩይ፡</foreign> <ref cRef="Jes." loc="49,2">Jes. 49,2</ref>; <foreign xml:lang="gez">ፈነወ፡ ሐጾ፡</foreign> <ref cRef="Kuf. " loc="38">Kuf.  38</ref>; <foreign xml:lang="gez">ሰብአ፡ ሐጽ፡</foreign> <ref cRef="Jes." loc="21,15">Jes. 21,15</ref>; <foreign xml:lang="gez">ያወጽእ፡ አሕጻሁ፡ እምጕንጳሁ፡</foreign> <ref cRef="Sir." loc="26,12">Sir. 26,12</ref>; <foreign xml:lang="gez">ይደረብዩ፡ በአሕጻት፡</foreign> <ref cRef="Phlx." loc="100">Phlx. 100</ref>; <foreign xml:lang="gez">አሕጻ፡</foreign> <ref cRef="2 Reg." loc="18,14">2 Reg. 18,14</ref>; <ref cRef="2 Par." loc="26,15">2 Par. 26,15</ref>; <ref cRef="Job" loc="6,4">Job 6,4</ref>; <ref cRef="Job" loc="16,9">Job 16,9</ref>; <ref cRef="Job" loc="30,14">Job 30,14</ref>; <ref cRef="Hez." loc="4,2">Hez. 4,2</ref> (<foreign xml:lang="grc">βελοστάσεις</foreign>); <foreign xml:lang="gez">አሕጻት፡</foreign> <ref cRef="Ps." loc="119,4">Ps. 119,4</ref>), – <lbl expand="Vocabularium Aethiopicum, -a -a">Voc. Ae.</lbl>: <foreign xml:lang="gez">ሐጽ፡ ዘ፡ ፍላጻ።</foreign> <cb n="0135" xml:id="c0135"/> </sense>
+               
+            <sense xml:id="Tmain" xml:lang="en" source="#traces"> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">ḥaṣ</t:quote></cit>, <lbl expand="pluralis">Pl.</lbl> <foreign xml:lang="gez">አሕጻ፡</foreign> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">ʾaḥṣā</t:quote></cit>, <foreign xml:lang="gez">አሕጻት፡</foreign> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">ʾaḥṣāt</t:quote></cit> <sense n="G" xml:id="TG"> <foreign xml:lang="gez">ሐጽ፡</foreign> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">ḥaṣ</t:quote></cit>, <lbl expand="pluralis">Pl.</lbl> <foreign xml:lang="gez">አሕጻ፡</foreign> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">ʾaḥṣā</t:quote></cit> et <foreign xml:lang="gez">አሕጻት፡</foreign> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">ʾaḥṣāt</t:quote></cit> «<cit type="translation" xml:lang="fr"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">flèche</t:quote></cit>, <cit type="translation" xml:lang="fr"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">dard</t:quote></cit>, <cit type="translation" xml:lang="fr"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">lance</t:quote></cit>» ― <foreign xml:lang="am">ፍላጽ፡</foreign>, <foreign xml:lang="am">ጦር፡</foreign> Ms. <ref type="BM" target="BNFabb217">BNFabb217</ref>, fol. 30v. <lb/>
+ <bibl><ptr target="bm:Grebaut1952SuppLexicon"/><citedRange unit="page"> 66</citedRange></bibl> 
+</sense> </sense></entry>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,106 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> እስከኔ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="Lc1307340901541b5bd50084bb55f46b2" n="5573">
+               <form>
+                  <foreign xml:lang="gez">እስከኔ</foreign>
+               </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain"> vel <foreign xml:lang="gez">እስከነ፡</foreign>
+                  i.q. <foreign xml:lang="gez">እስከ፡</foreign>(<lbl expand="videas">vid. sub</lbl>
+                  <foreign xml:lang="gez">ኔ፡</foreign> et <foreign xml:lang="gez">ነ፡</foreign> col.
+                  630). <sense n="1" xml:id="D1">
+                     <gramGrp>
+                        <pos expand="conjunctio">conj.</pos>
+                     </gramGrp>: <ref cRef="Hen." loc="89,5">Hen. 89,5</ref>; Chrys.; <foreign xml:lang="gez">እስከኔ፡ ጐየ፡</foreign>
+                     <ref cRef="Phlx." loc="30.">Phlx. 30.</ref>
+                  </sense>
+                  <sense n="2" xml:id="D2">
+                     <gramGrp>
+                        <pos expand="praepositio">praep.</pos>
+                     </gramGrp>: <ref cRef="Mal." loc="1,11">Mal. 1,11</ref>; <ref cRef="Par." loc="13,9">Par. 13,9</ref>; <ref cRef="Ps." loc="49,2">Ps. 49,2</ref>, <ref cRef="Ps." loc="112,3">Ps. 112,3</ref>; <ref cRef="Ex." loc="13,2">Ex.
+                        13,2</ref>; <ref cRef="Jud." loc="15,14">Jud. 15,14</ref>; 2 <ref cRef="Reg." loc="10,4">Reg. 10,4</ref>.</sense>
+                  <sense n="3" xml:id="D3">
+                     <lbl expand="cum">c.</lbl>
+                     <gramGrp>
+                        <pos expand="pronomen suffixum">pron. suff.</pos>
+                     </gramGrp> : <foreign xml:lang="gez">እስከኔሁ፡</foreign>
+                     <cit type="translation" xml:lang="la">
+                        <quote>usque</quote>
+                     </cit>
+                     <cit type="translation" xml:lang="la">
+                        <quote>in</quote>
+                     </cit>
+                     <cit type="translation" xml:lang="la">
+                        <quote>cum</quote>
+                     </cit>
+                     <ref cRef="Kuf." loc="9 ">Kuf. p. 9 </ref>
+                     <lbl expand="annotatio">ann.</lbl> 10; <cit type="translation" xml:lang="la">
+                        <quote>usque</quote>
+                     </cit>
+                     <cit type="translation" xml:lang="la">
+                        <quote>eo</quote>
+                     </cit>
+                     <ref cRef="Chrys. ho." loc="4">Chrys. ho. 4</ref>; <ref cRef="Sx Jac." loc="16.">Sx Jac. 16.</ref>
+                  </sense>
+               </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

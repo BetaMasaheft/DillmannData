@@ -1,0 +1,89 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ሀብት </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="Lb6515eb13944409e8d129de191881de9" n="6403">
+               <form>
+                  <foreign xml:lang="gez">ሀብት</foreign>
+               </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain">
+                  <gramGrp>
+                     <pos expand="Substantivum">subst.</pos>
+                  </gramGrp>, <gramGrp>
+                     <gen value="femininus">fem.</gen>
+                  </gramGrp> et <gramGrp>
+                     <gen value="masculinum">m.</gen>
+                  </gramGrp>, <lbl expand="pluralis">Pl.</lbl>
+                  <foreign xml:lang="gez">ሀብታት፡ </foreign>
+                  <cit type="translation" xml:lang="la">
+                     <quote>donum</quote>
+                  </cit>, <ref cRef="Gen." loc="25,6">Gen. 25,6</ref>; <ref cRef="Num." loc="3,9">Num. 3,9</ref>; <ref cRef="Num." loc="8,16">Num. 8,16</ref>; <ref cRef="Num." loc="8,19">Num. 8,19</ref>; <ref cRef="1 Reg." loc="18,25">1 Reg. 18,25</ref>
+                  (pro sponsa parentibus ejus oblatum); <ref cRef="Koh." loc="3,13">Koh. 3,13</ref>;
+                     <ref cRef="Koh." loc="4,17">Koh. 4,17</ref>; <ref cRef="Prov." loc="6,35">Prov.
+                     6,35</ref>; <ref cRef="Prov." loc="21,14">Prov. 21,14</ref>; <foreign xml:lang="gez">ሀብትከ፡ ለከ፡ ይኩንከ፡</foreign> (v. <foreign xml:lang="gez">ትኩንከ፡</foreign>) <ref cRef="Dan." loc="5,17">Dan. 5,17</ref>; <ref cRef="Matth." loc="7,11">Matth. 7,11</ref>; <ref cRef="Rom." loc="5,17">Rom.
+                     5,17</ref>; <ref cRef="Phil." loc="4,17">Phil. 4,17</ref>; <ref cRef="Jac." loc="1,17">Jac. 1,17</ref>; <foreign xml:lang="gez">ሀብተ፡ ጸጋሁ፡</foreign>
+                  <ref cRef="Eph." loc="3,2">Eph. 3,2</ref>; <foreign xml:lang="gez">በሠናይ፡ ሀብቱ፡
+                  </foreign> (ejus beneficio) <ref cRef="Sx." loc="1,">Sx. f. 1,</ref> al.; <foreign xml:lang="gez">ሀብታተ፡ መንፈስ፡ ቅዱስ፡ </foreign>
+                  <ref cRef="Phlx." loc="174">Phlx. 174</ref>; etiam <cit type="translation" xml:lang="la">
+                     <quote>donatio</quote>
+                  </cit> F.N. 26. </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

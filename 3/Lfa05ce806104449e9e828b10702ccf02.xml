@@ -1,0 +1,93 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ፈከረ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="LB" when="2018-06-05">root</change>
+        </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="Lfa05ce806104449e9e828b10702ccf02" n="10039">
+               <form>
+                  <foreign xml:lang="gez">ፈከረ</foreign>
+               <rs type="root"/>
+                    </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain"> <subc>I,2</subc> [huic verbo Lud. <foreign xml:lang="ar">فَكَر</foreign> <cit type="translation" xml:lang="la">
+                            <quote> cogitavit </quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                            <quote> attente </quote>
+                        </cit> <cit type="translation" xml:lang="la">
+                            <quote> dispexit </quote>
+                        </cit>, Ges. in thes. p. 1141 <foreign xml:lang="he">פתר</foreign> <foreign xml:lang="syr">ܦܫܪ</foreign> <foreign xml:lang="ar">فسر</foreign> compararunt] <cit type="translation" xml:lang="la">
+                            <quote> interpretari </quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                            <quote> exponere </quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                            <quote> explicare </quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                            <quote> explanare </quote>
+                        </cit> res occultas vel difficiles intellectu, ut somnium <ref cRef="Gen." loc="40,8">Gen. 40,8</ref>; <ref cRef="Gen." loc="40,16">Gen. 40,16</ref>; <ref cRef="Gen." loc="41,8">Gen. 41,8</ref>; <ref cRef="Gen. " loc="41,12">Gen.  41,12</ref>; <ref cRef="Gen." loc="41,15">Gen. 41,15</ref>; <ref cRef="Gen." loc="41,16">Gen. 41,16</ref>; <ref cRef="Kuf." loc="39">Kuf. 39</ref>; <ref cRef="4 Esr." loc="12,16">4 Esr. 12,16</ref>; <ref cRef="Dan." loc="2,16">Dan. 2,16</ref>; aenigma <ref cRef="3 Reg." loc="10,3">3 Reg. 10,3</ref>; parabolam <ref cRef="Marc." loc="4,14">Marc. 4,14</ref>; <ref cRef="4 Esr." loc="8,3">4 Esr. 8,3</ref>; scripturam arcanam (<foreign xml:lang="gez">ፈክሮቶ፡</foreign>) <ref cRef="Dan." loc="5,16">Dan. 5,16</ref>; faciem coeli <ref cRef="Matth." loc="16,3">Matth. 16,3</ref>; scripturam sacram <ref cRef="Luc." loc="24,32">Luc. 24,32</ref>; mysteria spiritualia <ref cRef="1 Cor." loc="2,13">1 Cor. 2,13</ref>; <foreign xml:lang="gez">እፎኬ፡ ይሰምዐኒ፡ ቃልየ፡ ወይፌክሮ፡</foreign> <foreign xml:lang="grc">διακρινεῖ</foreign> <ref cRef="Job" loc="9,14">Job 9,14</ref>; <foreign xml:lang="gez">ለእመ፡ ትፌክር፡</foreign> (<foreign xml:lang="gez">ምድር፡</foreign>) <foreign xml:lang="gez">ለከ፡</foreign> <foreign xml:lang="grc">ἐάν σοι φράσῃ</foreign> <ref cRef="Job" loc="12,8">Job 12,8</ref>; <foreign xml:lang="gez">መኑ፡ ያአምር፡ ፈክሮ፡ ቃሎሙ፡</foreign> (v. <foreign xml:lang="gez">ፍካሬ፡ ቃሉ፡</foreign>) <ref cRef="Koh." loc="8,1">Koh. 8,1</ref>; <foreign xml:lang="gez">ዘኢይትከሀል፡ ይፈክርዎ፡</foreign> <foreign xml:lang="grc">δυσερμήνευτος</foreign> <ref cRef="Hebr." loc="5,11">Hebr. 5,11</ref>. (Lud. addit: <sense n="2" xml:id="D2"> „<cit type="translation" xml:lang="la">
+                                <quote> vaticinari </quote>
+                            </cit>, <foreign xml:lang="grc">ὁμιλεῖν</foreign>, <cit type="translation" xml:lang="la">
+                                <quote> sacra </quote>
+                            </cit> <cit type="translation" xml:lang="la">
+                                <quote> loqui </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> concionari </quote>
+                            </cit>“ i.e. sine dubio: interpretari scripturam sacram).</sense> </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

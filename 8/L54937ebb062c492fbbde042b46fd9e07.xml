@@ -1,0 +1,115 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> መልዕልተ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L54937ebb062c492fbbde042b46fd9e07" n="430">
+               <form>
+                  <foreign xml:lang="gez">መልዕልተ</foreign>
+               </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain">
+                  <gramGrp>
+                     <pos expand="praepositio">praep.</pos>
+                  </gramGrp>, quae <gramGrp>
+                     <pos expand="pronomen">pron.</pos>
+                  </gramGrp> suffixa vel per <cit type="translation" xml:lang="la">
+                     <quote>ê</quote>
+                  </cit> vel sine <cit type="translation" xml:lang="la">
+                     <quote>ê</quote>
+                  </cit> sibi subjungit (<bibl>
+                     <ptr target="bm:Dillmann1857Gramm"/>gramm.</bibl> § 167,3): <cit type="translation" xml:lang="la">
+                     <quote>in superiore parte</quote>
+                  </cit> rei, <cit type="translation" xml:lang="la">
+                     <quote>supra</quote>
+                  </cit>, <cit type="translation" xml:lang="la">
+                     <quote>super</quote>
+                  </cit> (<foreign xml:lang="grc">ἐπάνω</foreign>, <foreign xml:lang="grc">ὑπεράνω</foreign>): <foreign xml:lang="gez">ጽልመት፡ መልዕልተ፡ ቀላይ፡</foreign>
+                  <ref cRef="Gen." loc="1,2">Gen. 1,2</ref>; <foreign xml:lang="gez">መልዕልተ፡
+                     ምድር፡</foreign> 7,24; <ref cRef="Luc." loc="9,49">Luc. 9,49</ref>; <foreign xml:lang="gez">ይትሌዐል፡ መልዕልተ፡ አውግር፡</foreign>
+                  <ref cRef="Jes." loc="2,2">Jes. 2,2</ref>; <foreign xml:lang="gez">አንሶሰውኩ፡ መልዕልተ፡
+                     ማዕበለ፡ ባሕር፡</foreign>
+                  <ref cRef="Sir." loc="24,6">Sir. 24,6</ref>; <ref cRef="Gen." loc="22,9">Gen.
+                     22,9</ref>; <ref cRef="Eph." loc="1,21">Eph. 1,21</ref>; <ref cRef="Ps." loc="139,8">Ps. 139,8</ref>; <ref cRef="Ps. " loc="148,4">Ps. 148,4</ref>; <ref cRef="Jes." loc="10,9">Jes. 10,9</ref>; <ref cRef="Jes." loc="14,13">Jes.
+                     14,13</ref>; <ref cRef="Judith" loc="1,10">Judith 1,10</ref>; <ref cRef="Dan." loc="12,6">Dan. 12,6</ref>; <ref cRef="Dan." loc="12,7">Dan. 12,7</ref>; <ref cRef="Hez." loc="10,1">Hez. 10,1</ref>; <foreign xml:lang="gez">አቅነቶ፡ መልዕልተ፡
+                     ልብሱ፡ ሰይፈ፡</foreign>
+                  <ref cRef="1 Reg." loc="17,39">1 Reg. 17,39</ref>; <ref cRef="Ex." loc="25,20">Ex.
+                     25,20</ref>; <ref cRef="Ex." loc="25,21">Ex. 25,21</ref>; <ref cRef="Deut." loc="28,1">Deut. 28,1</ref>; per Hebraismum: <foreign xml:lang="gez">ቆመ፡
+                     መልዕልቴሁ፡</foreign>
+                  <cit type="translation" xml:lang="la">
+                     <quote>stetit sipra eum</quote>
+                  </cit> i.e. <cit type="translation" xml:lang="la">
+                     <quote>coram eo</quote>
+                  </cit>
+                  <ref cRef="Gen." loc="18,2">Gen. 18,2</ref>; <ref cRef="Judith" loc="13,7">Judith
+                     13,7</ref>; <foreign xml:lang="gez">መልዕልተ፡ ኀበ፡</foreign>
+                  <foreign xml:lang="grc">ἐπάνω οὗ</foreign>
+                  <ref cRef="Matth." loc="2,9">Matth. 2,9</ref>; nonnumquam <cit type="translation" xml:lang="la">
+                     <quote>ultra</quote>
+                  </cit>: (<cit type="translation" xml:lang="la">
+                     <quote>Deus trinus ait:</quote>
+                  </cit>) <foreign xml:lang="gez">አልቦ፡ ዘይትማሰለነ፡ እስመ፡ መልዕልተ፡ አምሳል፡ ንሕነ፡</foreign>
+                  <cit type="translation" xml:lang="la">
+                     <quote>ultra similitudinem</quote>
+                  </cit> i.e. <cit type="translation" xml:lang="la">
+                     <quote>similitudine superiores sumus</quote>
+                  </cit>, <ref cRef="Clem." loc="48.">Clem. f. 48.</ref>
+               </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

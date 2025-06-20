@@ -1,0 +1,121 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ዝክር </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="MK" when="2018-11-27">new entry</change>
+            <change who="MK" when="2018-11-28">new comment, to be peer-reviewed</change>
+            <change who="MK" when="2018-11-28">corr</change>
+            <change who="MK" when="2018-11-28">corr</change>
+            <change who="MK" when="2018-11-28">corr biblio</change>
+            <change who="MK" when="2018-11-28">corr</change>
+        </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L90b01cc1d4c64c91851cb917337c67c0" n="7651">
+               <form>
+                  <foreign xml:lang="gez">ዝክር</foreign>
+               </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain"> <gramGrp> <pos expand="Substantivum">subst.</pos> </gramGrp> (<gramGrp> <gen value="not found">m.</gen> </gramGrp>), <cit type="translation" xml:lang="la">
+                            <quote> memoria </quote>
+                        </cit>,<cit type="translation" xml:lang="la">
+                            <quote> recordatio </quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                            <quote> mentio </quote>
+                        </cit>, <foreign xml:lang="grc">μνήμη</foreign> <ref cRef="Koh." loc="1,12">Koh. 1,12</ref>; <ref cRef="Koh." loc="2,16">Koh. 2,16</ref>; <ref cRef="Koh." loc="9,5">Koh. 9,5</ref>; <foreign xml:lang="gez">ንስዐሮ፡ ዝክሮ፡ እምድር፡</foreign> <ref cRef="Prov." loc="1,12">Prov. 1,12</ref>; <foreign xml:lang="grc">μνημόσυνον</foreign> <ref cRef="Deut." loc="32,16">Deut. 32,16</ref>; <ref cRef="Sir." loc="10,17">Sir. 10,17</ref>; <ref cRef="Sir." loc="39,9">Sir. 39,9</ref>; <foreign xml:lang="gez">ርጉመ፡ ይኩን፡ ዝክራ፡</foreign> <ref cRef="Sir." loc="23,26">Sir. 23,26</ref>; <foreign xml:lang="gez">ሙሴ፡ ዘቡሩክ፡ ዝክሩ፡</foreign> <ref cRef="Sir." loc="45,1">Sir. 45,1</ref>; <ref cRef="Sx. Masc." loc="8 ">Sx. Masc. 8 </ref>Enc.; <ref cRef="Sir." loc="49,1">Sir. 49,1</ref>; <foreign xml:lang="gez">ይጥዕም፡ እምነ፡ መዓር፡ ዝክርየ፡</foreign> <ref cRef="Sir." loc="24,20">Sir. 24,20</ref>; <ref cRef="Ps." loc="33,17">Ps. 33,17</ref>; <foreign xml:lang="grc">μνεία</foreign> <foreign xml:lang="gez">ይትፌሥሑ፡ በዝክረ፡ እግዚአብሔር፡</foreign> <ref cRef="Bar." loc="5,5">Bar. 5,5</ref>; <foreign xml:lang="gez">ከመ፡ ኢይርከቡ፡ ዝክረ፡ በውስተ፡ አሕዛብ፡</foreign> <ref cRef="Hez." loc="25,10">Hez. 25,10</ref>; <ref cRef="Asc. Jes." loc="7,24">Asc. Jes. 7,24</ref>. <cb n="1059" xml:id="c1059"/> <sense n="a" xml:id="Da"> <cit type="translation" xml:lang="la">
+                                <quote> nomen memoriale </quote>
+                            </cit>: <foreign xml:lang="gez">ዝክረ፡ ቅድሳቱ፡</foreign> <ref cRef="Ps." loc="29,4">Ps. 29,4</ref>; <ref cRef="Ps. " loc="96,13">Ps.  96,13</ref>; <ref cRef="Ex." loc="3,15">Ex. 3,15</ref>.</sense> <sense n="b" xml:id="Db"> <cit type="translation" xml:lang="la">
+                                <quote> sacrificium memoriale </quote>
+                            </cit>, sive <foreign xml:lang="gez">ቍርባነ፡ ዝክር፡</foreign> <ref cRef="Lev. " loc="6,8">Lev.  6,8</ref>, sive <foreign xml:lang="gez">ዝክር፡</foreign> <ref cRef="Lev." loc="2,2">Lev. 2,2</ref>; <ref cRef="Lev." loc="2,9">Lev. 2,9</ref>; <ref cRef="Lev. " loc="2,16">Lev.  2,16</ref>.</sense> <sense n="c" xml:id="Dc"> <cit type="translation" xml:lang="la">
+                                <quote> commemoratio </quote>
+                            </cit> vel <cit type="translation" xml:lang="la">
+                                <quote> laudatio </quote>
+                            </cit> <foreign xml:lang="grc">ὕμνησις</foreign> <ref cRef="Ps." loc="70,8">Ps. 70,8</ref>; <ref cRef="Ps." loc="117,14">Ps. 117,14</ref>.</sense> <sense n="d" xml:id="Dd"> <cit type="translation" xml:lang="la">
+                                <quote> monumentum sepulchrale </quote>
+                            </cit> (<lbl expand="videas">vid.</lbl> <foreign xml:lang="gez">ዝኅር፡</foreign>) <ref cRef="Ex. " loc="14,11">Ex.  14,11</ref>.</sense> <sense n="e" xml:id="De"> <cit type="translation" xml:lang="la">
+                                <quote> fama </quote>
+                            </cit> <ref cRef="Sx. Jac." loc="14 ">Sx. Jac. 14 </ref>(<lbl expand="videas">vid. sub</lbl> <foreign xml:lang="gez">ዜና፡</foreign>).</sense> </sense>
+               
+            <sense xml:lang="en" source="#traces" xml:id="Tmain">
+                        <cit type="transcription" xml:lang="gez">
+                            <quote>zǝkr</quote>
+                        </cit> <foreign xml:lang="gez">በብሂለ፡ ዝንቱ፡ ኀለዩ፡ ማኅሌተ፡ ድርሳን ፤ ዘይትበሃል፡ ዝክር፡ በልሳነ፡ ብሔሮሙ፡</foreign> ‘<cit type="translation" xml:lang="de">
+                            <quote>Dies sangen sie in der Weise einer Litanei, die in der Sprache ihres Landes zekr gennant wird</quote>
+                        </cit>’ <bibl>
+                            <ptr target="bm:Kropp1988LebnaI"/>
+                            <citedRange unit="page"> 8 l. 8-9 (ed.)</citedRange>
+                        </bibl>, <bibl>
+                            <ptr target="bm:Kropp1988LebnaII"/>
+                            <citedRange unit="page"> 8 l. 6-7 (tr.)</citedRange>
+                        </bibl> (‘Arab. <cit type="transcription" xml:lang="gez">
+                            <quote>ḏikr</quote>
+                        </cit> »Gedenken«; im Islam Litanei zum Preise Gottes, des Propheten und der Heiligen; vgl. <bibl>
+                            <ptr target="bm:EncycIslam1960Vol1"/>
+                            <citedRange unit="page"> 213-227</citedRange>
+                        </bibl>. Daraus im Harari <cit type="transcription" xml:lang="gez">
+                            <quote>zikri</quote>
+                        </cit>; vgl. <bibl>
+                            <ptr target="bm:Leslau1963DictHarari"/>
+                            <citedRange unit="page"> 165</citedRange>
+                        </bibl>; <bibl>
+                            <ptr target="bm:Cerulli1936Harar"/>
+                            <citedRange unit="page"> § 19 (46ff)</citedRange>
+                        </bibl>: »lodi all’emir di Harar«.’ <bibl>
+                            <ptr target="bm:Kropp1988LebnaII"/>
+                            <citedRange unit="page"> 8 n. 24</citedRange>
+                        </bibl>) </sense>
+                </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

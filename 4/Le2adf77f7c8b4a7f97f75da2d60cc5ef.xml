@@ -1,0 +1,96 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> አንዛህለለ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="AE" when="2018-10-03">Verschachtelung,</change>
+        </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="Le2adf77f7c8b4a7f97f75da2d60cc5ef" n="7445">
+               <form>
+                  <foreign xml:lang="gez">አንዛህለለ</foreign>
+               </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain"> V <sense n="1" xml:id="D1"> intransit. <sense n="a" xml:id="D1a"> <cit type="translation" xml:lang="la">
+                                    <quote> languescere </quote>
+                                </cit>, <cit type="translation" xml:lang="la">
+                                    <quote> emolliri </quote>
+                                </cit>, <cit type="translation" xml:lang="la">
+                                    <quote> dissolvi </quote>
+                                </cit>: <foreign xml:lang="gez">ኢታንዛህልል፡ ሶበ፡ገሠጸከ፡</foreign> <foreign xml:lang="grc">μὴ ἐκλύου ὑπ</foreign>ʼ <foreign xml:lang="grc">αὐτοῦ ἐλεγχόμενος</foreign> (<ref cRef="Hebr." loc="12,5">Hebr. 12,5</ref>) <ref cRef="Chrys. ho. " loc="29">Chrys. ho.  29</ref>; <foreign xml:lang="gez">አልባስ፡ ቀጠንት፡ ይመስዋ፡ ለነፍስ፡ ወይሬስያ፡ ታንዛህልል፡</foreign> <foreign xml:lang="grc">ἐκλύει ψυχὴν καὶ διακλᾷ καὶ διαχεῖ</foreign> <ref cRef="Chrys. Ta." loc="29.">Chrys. Ta. 29.</ref> </sense> <sense n="b" xml:id="D1b"> <cit type="translation" xml:lang="la">
+                                    <quote> dissolutum esse </quote>
+                                </cit>, <sense n="α" xml:id="D1bα"> <cit type="translation" xml:lang="la">
+                                        <quote> socordem esse </quote>
+                                    </cit>: <foreign xml:lang="gez">አንዛህልሎታ፡ ለነፍስ፡</foreign> <foreign xml:lang="grc">ῥᾳθυμοῦσαν καὶ ὑπτίαν γενομένην</foreign> <ref cRef="Chrys. ho." loc="29.">Chrys. ho. 29.</ref> </sense> <sense n="β" xml:id="D1bβ"> <cit type="translation" xml:lang="la">
+                                        <quote> lascivire </quote>
+                                    </cit>, <cit type="translation" xml:lang="la">
+                                        <quote> luxuriari </quote>
+                                    </cit>: <foreign xml:lang="gez">አንዛህለሉ፡ በአብዝኆ፡ መባልዕ፡</foreign> <foreign xml:lang="grc">ἐν πλησμονῇ ἄρτων ἐσπατάλων</foreign> <ref cRef="Chrys. Ta." loc="29.">Chrys. Ta. 29.</ref> </sense> <sense n="γ" xml:id="D1bγ"> <cit type="translation" xml:lang="la">
+                                        <quote> luxuriae et desidiae deditum vagari </quote>
+                                    </cit>: <foreign xml:lang="gez">ዘያንዘሀልል፡ ምስለ፡ አብዳን፡</foreign> <foreign xml:lang="grc">ὁ συῤῥεμβόμενος ἄφροσιν</foreign> <ref cRef="Prov." loc="13,20">Prov. 13,20</ref>.</sense> </sense> </sense> <sense n="2" xml:id="D2"> transit. <cit type="translation" xml:lang="la">
+                                <quote> emollire </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> dissolvere </quote>
+                            </cit>: <foreign xml:lang="gez">መፍትው፡ ለነ፡ ኢንረስዩ፡ ለሥጋ፡ ዘእንበለ፡ ረባሕ፡ ወኢናንዛህልሎ፡ በተፈግዖ፡</foreign> <foreign xml:lang="grc">ἄχρηστον ποιεῖν μηδὲ ἐκλῦσαι αὐτὸ τῇ τρυφῇ</foreign> <ref cRef="Chrys. Ta." loc="29.">Chrys. Ta. 29.</ref> [Lud. statuit: <foreign xml:lang="gez">አንዛህለለ፡</foreign> <cit type="translation" xml:lang="la">
+                                <quote> ineptivit </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> nugatus est </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> vanitatibus deditus fuit </quote>
+                            </cit>, exemplo nullo allato].</sense> </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,113 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="gez">ፋድል</title>
+                <author>Alessandro Bausi</author>
+                <author>Andreas Ellwardt</author>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+                <publisher>TraCES project.
+                                    https://www.traces.uni-hamburg.de/</publisher>
+                <pubPlace>Hamburg</pubPlace>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/">
+                                        This file is licensed under the Creative Commons
+                                        Attribution-ShareAlike Non Commercial 4.0. </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+                </p>
+                <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>A digital edition of the Lexicon in TEI.</p>
+        <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="la">latin</language>
+                <language ident="it">Italian</language>
+                <language ident="gez">Gǝʿǝz</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="syr">Syriac</language>
+                <language ident="ar">Arabic</language>
+                <language ident="sa">Sanskrit</language>
+                <language ident="geo">Georgian</language>
+                <language ident="cop">Coptic</language>
+                <language ident="osa">Old South Arabian</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change who="MK" when="2018-05-08">added entry</change>
+            <change who="MK" when="2018-05-08">New entry to be peer-reviewed</change>
+            <change who="MK" when="2018-05-08">corr</change>
+            <change who="MK" when="2018-05-08">corrections</change>
+            <change who="MK" when="2018-05-08">corr</change>
+            <change who="MK" when="2018-05-08">corr</change>
+            <change who="MK" when="2018-05-09">corr</change>
+            <change who="MK" when="2018-05-15">corr</change>
+            <change who="MK" when="2018-05-23">corr</change>
+            <change who="MK" when="2019-02-25">corr</change>
+            <change who="MK" when="2019-02-25">corr</change>
+            <change who="MK" when="2019-02-25">corr</change>
+            <change who="MK" when="2019-09-02">added new witness</change>
+            <change who="MK" when="2019-09-02">added new example</change>
+            <change who="MK" when="2019-09-04">corr</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <entry xml:id="L27505376a62d4ec997fca1485f1e76cc" n="12353">
+                    <form>
+                        <foreign xml:lang="gez">ፋድል</foreign>
+                    </form>
+                    <sense xml:lang="en" source="#traces" xml:id="Tmain"> <cit type="transcription" xml:lang="gez">
+                            <quote>fādǝl</quote>
+                        </cit> <gramGrp>
+                            <pos expand="adjectivum">adj.</pos>
+                        </gramGrp> <cit type="translation" xml:lang="en">
+                            <quote>great</quote>
+                        </cit>, <cit type="translation" xml:lang="en">
+                            <quote>excellent</quote>
+                        </cit>, <cit type="translation" xml:lang="en">
+                            <quote>superior</quote>
+                        </cit> <foreign xml:lang="gez">ወለኢዮስያስኒ፡ ኢኮነት፡ ሎቱ፡ መዊእ፡ ከመ፡ መዊኦትከ። በእንተ፡ ዝንቱ፡ ሠናየ፡ ገብሩ፡ ቀደምት፡ ዘአዔረዩከ፡ ምስሌሆሙ፡ እምአሐዱ፡ ኅብር፡ ወኢያእከዩ፡ ደኃሪትኒ፡ ዘረሰዩከ፡ ፋድለ፡ እምኔሆሙ፡ እምክፍል፡ ካልእ።</foreign> ‘<cit type="translation" xml:lang="en">
+                            <quote>Therefore, the previous ones (those who made such comparisons) did well who made you equal with them for one feature (lit.: one side); and will not dishonour (you) those to come who make you superior to them in another chapter.</quote>
+                        </cit>’ <bibl>
+                            <ptr target="bm:Solomon2019GalawdewosI"/>
+                            <citedRange unit="page"> 42 § 72 (ed.)</citedRange>
+                        </bibl>, <bibl>
+                            <ptr target="bm:Solomon2019GalawdewosII"/>
+                            <citedRange unit="page"> 24 § 72 (tr.)</citedRange>
+                        </bibl>, <foreign xml:lang="gez">መንከራቲሁ፡ ለዝንቱ፡ ቅዱስ፡ አቡነ፡ ብፁዓዊ። ፋድል</foreign> ʻ<cit type="translation" xml:lang="en">
+                            <quote>the wonders of this holy father of ours, the blessed, gracious</quote>
+                        </cit>’ <bibl>
+                            <ptr target="bm:Tedros2015Yonas"/>
+                            <citedRange unit="page"> 112 (408) l. 11-12 (ed.); 113 (409) l. 14-15 (tr.)</citedRange>
+                        </bibl>, (ʻThe term <cit type="transcription" xml:lang="gez">
+                            <quote>fadǝl</quote>
+                        </cit>, very common in Gǝʿǝz hagiographic texts is an Arabic loanword, faḍl, meaning “virtuous”. It is a title referred very often to Filiṗṗos (ca. 1323-1406) of Däbrä Bizän, cf. <bibl>
+                            <ptr target="bm:ContiRossini1901FilposYohannes"/>
+                            <citedRange unit="page"> 68</citedRange>
+                        </bibl>.’ <bibl>
+                            <ptr target="bm:Tedros2015Yonas"/>
+                            <citedRange unit="page"> 113 (409) n. 212</citedRange>
+                        </bibl>. Teodros Abraha’s translation of <cit type="transcription" xml:lang="gez">
+                            <quote>fādǝl</quote>
+                        </cit> as ‘gracious’ is doubtful.) <nd/> </sense>
+                </entry>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,98 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="gez">መልአከ፡ ብርሃን</title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+               <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+            </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+         <listPrefixDef>
+            <prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="MK" when="2019-03-20">added new entry</change>
+         <change who="MK" when="2019-03-20">added link</change>
+         <change who="MK" when="2019-03-20">added link</change>
+         <change who="MK" when="2019-03-20">adde link</change>
+         <change who="MK" when="2019-03-20">added link</change>
+         <change who="MK" when="2019-03-20">አድደድ ሊንክ</change>
+         <change who="MK" when="2019-03-20">ረሞቨድ ሊንክ</change>
+         <change who="MK" when="2019-03-20">added link</change>
+         <change who="MK" when="2023-01-05">corrections</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L89eeb3fe006d4b3187c2839fe9ae0411" n="12508">
+               <form>
+                  <foreign xml:lang="gez">መልአከ፡ ብርሃን</foreign>
+               </form>
+               <sense xml:id="Tmain" xml:lang="en" source="#traces">
+                  <cit type="transcription" xml:lang="gez">
+                     <t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> malʾaka bərhān </t:quote>
+                  </cit>
+                  <gramGrp>
+                     <pos expand="nomen proprium">n. pr.</pos>
+                  </gramGrp> (epithet) <cit type="translation" xml:lang="en">
+                     <t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> Angel of Light </t:quote>
+                  </cit> ‘<cit type="translation" xml:lang="it">
+                     <t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> Angelo della Luce </t:quote>
+                  </cit>ʼ <bibl><ptr target="bm:Lusini1996Absadi"/><citedRange unit="page"> 30 l.
+                        17</citedRange></bibl> (ed.), <bibl><ptr target="bm:Lusini1996AbsadiII"/><citedRange unit="page"> 22 l. 6–7</citedRange></bibl> (tr.) (‘o <foreign xml:lang="gez">መልአከ፡ ብስራት፡</foreign>
+                  <cit type="transcription" xml:lang="gez">
+                     <t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> malʾaka bəsrāt </t:quote>
+                  </cit> è lʼepiteto più comune dell’arcangelo Gabriele.ʼ <bibl><ptr target="bm:Lusini1996AbsadiII"/><citedRange unit="page"> 22 n.
+                        18</citedRange></bibl>), <lbl expand="videas">vid.</lbl>
+                  <ref type="external" target="https://betamasaheft.eu/Dillmann/lemma/L7f7ffeec8f4f44d983ddc4264d4312be">
+                     <foreign xml:lang="gez">መልአክ፡</foreign>
+                  </ref>, <ref type="external" target="https://betamasaheft.eu/Dillmann/lemma/L0ee2b800080f412d8b790033155f64ed">
+                     <foreign xml:lang="gez">ብርሃን፡</foreign>
+                  </ref>
+                  <nd/>
+               </sense>
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,104 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ጕንድ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="PL" when="2017-10-06">fixed nesting</change>
+        <change who="LB" when="2018-05-04">root</change>
+        </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="Lbccc01ee3aea49a09d4664b29d2497e3" n="8512">
+               <form>
+                  <foreign xml:lang="gez">ጕንድ</foreign>
+               <rs type="root"/>
+                    </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain"> <gramGrp> <pos expand="Substantivum">subst.</pos> </gramGrp>, <gramGrp> <gen value="not found">m.</gen> </gramGrp> et <gramGrp> <gen value="femininus">fem.</gen> </gramGrp>, <lbl expand="pluralis">Pl.</lbl> <foreign xml:lang="gez">አጕናድ፡</foreign> et <foreign xml:lang="gez">ጕንዳት፡</foreign> [quamquam a <foreign xml:lang="gez">ገመደ፡</foreign> derivari posse videtur, sicut <foreign xml:lang="he">גֶּזַע</foreign> <foreign xml:lang="ar">جِذْعٌ</foreign> a <foreign xml:lang="he">גָּזַע</foreign>, tamen aliud etymon facile se praebet <lbl expand="scilicet">sc.</lbl> in <foreign xml:lang="ar">جمد</foreign> et <foreign xml:lang="ar">قمد</foreign> quibus significatus <cit type="translation" xml:lang="la">
+                            <quote> rigidi </quote>
+                        </cit> (<cit type="translation" xml:lang="la">
+                            <quote> crassi </quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                            <quote> robusti </quote>
+                        </cit>) inest, <lbl expand="videas">vid.</lbl> quae Rödiger in Additamentis ad Ges. thes. p. 80 de <foreign xml:lang="he">גֹּמֶר</foreign> annotavit] <sense n="1" xml:id="D1"> <cit type="translation" xml:lang="la">
+                                <quote> stirps </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> stipes </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> truncus </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> caudex </quote>
+                            </cit>: <foreign xml:lang="gez">እምጕንድ፡</foreign> <foreign xml:lang="grc">ἐκ τῆς ῥίζης</foreign> <ref cRef="Jes." loc="11,1">Jes. 11,1</ref>; <foreign xml:lang="gez">ጕንዱሂ፡ ዘታሕቴሁ፡</foreign> <foreign xml:lang="grc">ῥίζαι</foreign> <ref cRef="Hez." loc="17,6">Hez. 17,6</ref>; <ref cRef="Hez." loc="17,7">Hez. 17,7</ref>; <foreign xml:lang="gez">ጕንደ፡ ዕፀው፡</foreign> <ref cRef="Matth. " loc="3,10">Matth.  3,10</ref>; <ref cRef="Luc." loc="3,9">Luc. 3,9</ref>; <ref cRef="Dan." loc="2,41">Dan. 2,41</ref>; <foreign xml:lang="gez">ሥርዎ፡ ወጕንዶ፡</foreign> <foreign xml:lang="grc">τὴν φυὴν τῶν ῥιζῶν αὐτοῦ</foreign> <ref cRef="Dan." loc="4,12">Dan. 4,12</ref>; <foreign xml:lang="gez">ጕንዱ፡</foreign> <foreign xml:lang="grc">στελέχη</foreign> <ref cRef="Hez. " loc="31,13">Hez.  31,13</ref>; <foreign xml:lang="gez">ጕንደ፡ ወይን፡</foreign> <ref cRef="Joh." loc="15,4">Joh. 15,4</ref>; <foreign xml:lang="gez">ለለአሐቲ፡ ጕንድ፡ በበ፡ ፴ ወ ፩፼ አዕጹቂሃ፡</foreign> <ref cRef="Clem." loc="256">Clem. f. 256</ref>; <foreign xml:lang="gez">ጕንዳት፡</foreign> <ref cRef="Hen." loc="83,4">Hen. 83,4</ref>; <foreign xml:lang="gez">አጕናደ፡ በቀልት፡</foreign> <ref cRef="Sx. Mij." loc="23 ">Sx. Mij. 23 </ref>Enc. (<ref cRef="Sx. Mij." loc="27 ">Sx. Mij. 27 </ref>Enc. <lbl expand="secundum">sec.</lbl> Lud.); <foreign xml:lang="gez">ጕንደ፡ መስቀል፡</foreign> M.M. f. 106; <foreign xml:lang="gez">አጕናድ፡</foreign> (sc. duo ligna crucis, erectum et transversarium) M.M. f. 102. <sense n="a" xml:id="D1a"> <cit type="translation" xml:lang="la">
+                                    <quote> radix </quote>
+                                </cit> linguae: <foreign xml:lang="gez">አዘዘ፡ ያውቅዩ፡ ልሳና፡ እምጕንዱ፡</foreign> <ref cRef="Sx. Masc." loc="5">Sx. Masc. 5</ref>; <ref cRef="Sx. Teq." loc="18.">Sx. Teq. 18.</ref> </sense> <sense n="b" xml:id="D1b"> <cit type="translation" xml:lang="la">
+                                    <quote> radix </quote>
+                                </cit> vel <cit type="translation" xml:lang="la">
+                                    <quote> infima pars </quote>
+                                </cit>, montis: <foreign xml:lang="gez">እምነ፡ ጕንደ፡ ደብር፡</foreign> <ref cRef="Judith" loc="7,12">Judith 7,12</ref>; <ref cRef="Gad. Za Mich.">Gad. Za Mich.</ref> ; in <gramGrp> <case value="accusativus">Acc.</case> </gramGrp> et <lbl expand="status constructus">st. c.</lbl> <cit type="translation" xml:lang="la">
+                                    <quote> juxta radicem </quote>
+                                </cit>, <cit type="translation" xml:lang="la">
+                                    <quote> ad infimam partem </quote>
+                                </cit> rei, <cit type="translation" xml:lang="la">
+                                    <quote> infra </quote>
+                                </cit>: <foreign xml:lang="gez">አስርዎ፡ ጕንደ፡ ደብር፡</foreign> <ref cRef="Judith" loc="6,13">Judith 6,13</ref>; <foreign xml:lang="gez">ጕንደ፡ ደብር፡</foreign> <foreign xml:lang="grc">ἐπ᾽ ὄρους</foreign> <ref cRef="Ex." loc="18,3">Ex. 18,3</ref>; <foreign xml:lang="gez">ጕንደ፡ ማኅፈድ፡</foreign> <foreign xml:lang="grc">παρὰ τὸν πύργον</foreign> <ref cRef="Herm." loc="81.">Herm. p. 81.</ref> </sense> <sense n="c" xml:id="D1c"> <cit type="translation" xml:lang="la">
+                                    <quote> stirps </quote>
+                                </cit> i.e. genus: <foreign xml:lang="gez">ጕንደ፡ ዳዊት፡</foreign> Lud. ex <ref cRef="Org." loc="1.">Org. 1.</ref> </sense> </sense> <sense n="2" xml:id="D2"> <cit type="translation" xml:lang="la">
+                                <quote> cippus </quote>
+                            </cit> vel <cit type="translation" xml:lang="la">
+                                <quote> truncus </quote>
+                            </cit>, quo captivorum pedes conclusi tenentur: <foreign xml:lang="grc">τὸ ξύλον</foreign> <ref cRef="Act." loc="16,24">Act. 16,24</ref>; <foreign xml:lang="gez">ጕንደ፡ ማእስር፡</foreign> Lud. ex Sx. Enc.</sense> </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

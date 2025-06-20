@@ -1,0 +1,129 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ማዕቀብ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L41f07335ff0e429bb6418378d78122d1" n="7117">
+               <form>
+                  <foreign xml:lang="gez">ማዕቀብ</foreign>
+               </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain">, rarius <foreign xml:lang="gez">ማዕቅብ፡</foreign>, <gramGrp>
+                     <pos expand="Substantivum">subst.</pos>
+                  </gramGrp>, <lbl expand="pluralis">Pl.</lbl>
+                  <foreign xml:lang="gez">መዓቅብ፡</foreign> et <foreign xml:lang="gez">መዓቅብት፡</foreign> (semel reperi <foreign xml:lang="gez">መዓቀብት፡</foreign>), <lbl expand="pluralis">Pl.</lbl>
+                  <lbl expand="pluralis">Pl.</lbl>
+                  <foreign xml:lang="gez">መዓቅባን፡</foreign>, <sense n="1" xml:id="D1">
+                     <cit type="translation" xml:lang="la">
+                        <quote>custodia</quote>
+                     </cit> i.e. <sense n="a" xml:id="D1a">
+                        <cit type="translation" xml:lang="la">
+                           <quote>excubiae</quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                           <quote>statio excubiarum</quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                           <quote>vigiliae</quote>
+                        </cit>: <foreign xml:lang="gez">ረከብዋ፡ ማዕቀበ፡ ፋርስ፡</foreign> (v. <foreign xml:lang="gez">መዓቅብ፡ ዘፋርስ፡</foreign>) <foreign xml:lang="grc">προφυλακὴ
+                           τῶν Ἀσσυρίων </foreign>
+                        <ref cRef="Judith" loc="10,11">Judith 10,11</ref>; <ref cRef="Judith" loc="14,2">Judith 14,2</ref>; <ref cRef="Judith" loc="14,3">Judith
+                           14,3</ref>; <foreign xml:lang="gez">ያነብሩ፡ መዓቅቢሆሙ፡</foreign>
+                        <ref cRef="Nah." loc="2,6">Nah. 2,6</ref>; <foreign xml:lang="gez">መዓቅብ፡</foreign> (v. <foreign xml:lang="gez">መዓቅባን፡</foreign>) <ref cRef="Nah." loc="3,12">Nah. 3,12</ref>; <foreign xml:lang="gez">ያነብሩ፡
+                           መዓቅበ፡ ዲቤኪ፡</foreign>
+                        <ref cRef="Hez." loc="23,34">Hez. 23,34</ref>; <ref cRef="Hez." loc="26,8">Hez. 26,8</ref>; <ref cRef="Hez." loc="38,7">Hez. 38,7</ref>; <foreign xml:lang="gez">አንበርነ፡ መዓቅበ፡ ሎሙ፡</foreign>
+                        <ref cRef="2 Esr." loc="14,9">2 Esr. 14,9</ref>; <ref cRef="Jes." loc="62,6">Jes. 62,6</ref>; <foreign xml:lang="gez">መዓቅብት፡</foreign>
+                        <foreign xml:lang="grc">οἱ φυλάσσοντες </foreign>
+                        <ref cRef="2 Esr." loc="12,16">2 Esr. 12,16</ref>; <foreign xml:lang="gez">መዓቅብት፡ ሌሊተ፡ ይዑዱ፡ ውስተ፡ ኢየሩሳሌም፡ </foreign>
+                        <ref cRef="2 Esr." loc="17,3">2 Esr. 17,3</ref>; <foreign xml:lang="gez">ሰብአ፡ መዓቅብ፡ </foreign>
+                        <cit type="translation" xml:lang="la">
+                           <quote>excubitores </quote>
+                        </cit>
+                        <ref cRef="2 Esr." loc="14,23">2 Esr. 14,23</ref>; <ref cRef="Jud." loc="1,24">Jud. 1,24</ref>; <ref cRef="Jud." loc="7,19">Jud.
+                        7,19</ref>.</sense>
+                     <sense n="b" xml:id="D1b">
+                        <cit type="translation" xml:lang="la">
+                           <quote>custodes</quote>
+                        </cit>: <foreign xml:lang="gez">ከመ፡ ማዕቅበ፡</foreign> (v. <foreign xml:lang="gez">መዓቅበ፡</foreign>) <foreign xml:lang="gez">ሐቅል፡ </foreign>
+                        <foreign xml:lang="grc">φυλάσσοντες ἀγρόν</foreign>
+                        <ref cRef="Jer. " loc="4,17">Jer. 4,17</ref>.</sense>
+                     <sense n="c" xml:id="D1c">
+                        <cit type="translation" xml:lang="la">
+                           <quote>vigiles </quote>
+                        </cit>
+                        <ref cRef="Cant." loc="3,3">Cant. 3,3</ref>; <ref cRef="Cant." loc="5,7">Cant. 5,7</ref>.</sense>
+                     <sense n="d" xml:id="D1d">
+                        <cit type="translation" xml:lang="la">
+                           <quote>insidiae</quote>
+                        </cit>: <foreign xml:lang="gez">መዓቅበ፡ አጋንንት፡</foreign> Lud. e Ssal.
+                        Req.</sense>
+                     <sense n="2" xml:id="D12"> locus quo excubias agunt, <cit type="translation" xml:lang="la">
+                           <quote>statio</quote>
+                        </cit>: <foreign xml:lang="gez">እቀውም፡ ውስተ፡ መዓቅብየ፡</foreign>
+                        <ref cRef="Hab." loc="2,1">Hab. 2,1</ref>.</sense>
+                     <sense n="3" xml:id="D13">
+                        <cit type="translation" xml:lang="la">
+                           <quote>id quod custodiendum </quote>
+                        </cit>vel <cit type="translation" xml:lang="la">
+                           <quote>observandum est</quote>
+                        </cit>: <foreign xml:lang="gez">የዐቅቡ፡ ደቂቀ፡ እስራኤል፡ መዓቅቢሆሙ፡
+                           ለእግዚአብሔር፡</foreign>
+                        <ref cRef="Num." loc="9,19">Num. 9,19</ref>.</sense>
+                  </sense>
+               </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

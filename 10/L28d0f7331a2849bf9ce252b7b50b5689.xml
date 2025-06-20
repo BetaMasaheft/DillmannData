@@ -1,0 +1,126 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ትንሣኤ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+         <change who="PL" when="2019-10-24">replaced d'Abb Cat references with bibliographical reference #7</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L28d0f7331a2849bf9ce252b7b50b5689" n="4810">
+               <form>
+                  <foreign xml:lang="gez">ትንሣኤ</foreign>
+               </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain">
+                  <gramGrp>
+                     <pos expand="Substantivum">subst.</pos>
+                  </gramGrp>
+                  <cit type="translation" xml:lang="la">
+                     <quote>surrectio</quote>
+                  </cit>, lapsi Org. <sense n="a" xml:id="Da">
+                     <cit type="translation" xml:lang="la">
+                        <quote>ascensus </quote>
+                     </cit>vel <cit type="translation" xml:lang="la">
+                        <quote>ortus</quote>
+                     </cit> siderum: <foreign xml:lang="gez">ምስለ፡ ትንሣኤ፡ ፀሓይ፡ </foreign> (<foreign xml:lang="gez">በጽባሕ፡</foreign>) <ref cRef="Kuf." loc="3.">Kuf. 3.</ref>
+                  </sense>
+                  <sense n="b" xml:id="Db">
+                     <cit type="translation" xml:lang="la">
+                        <quote>exaestuatio </quote>
+                     </cit>undarum: <foreign xml:lang="gez">ትንሣኤ፡ መዋግድ፡</foreign> M.M. f.
+                     96.</sense>
+                  <sense n="c" xml:id="Dc">
+                     <cit type="translation" xml:lang="la">
+                        <quote>elatio</quote>
+                     </cit>, <cit type="translation" xml:lang="la">
+                        <quote>superbia</quote>
+                     </cit>, <foreign xml:lang="grc">ἔπαρσις</foreign>
+                     <ref cRef="Zach. " loc="12,7">Zach. 12,7</ref>.</sense>
+                  <sense n="d" xml:id="Dd">
+                     <cit type="translation" xml:lang="la">
+                        <quote>insurgere contra</quote>
+                     </cit> aliquem, <cit type="translation" xml:lang="la">
+                        <quote>insultatio</quote>
+                     </cit>: <foreign xml:lang="gez">ትንሣኤ፡ ፀር፡</foreign>
+                     <ref cRef="Lit." loc="159,4">Lit. 159,4</ref>; <foreign xml:lang="gez">ትንሣኤ፡
+                        ወቅሥት፡ </foreign>
+                     <cit type="translation" xml:lang="la">
+                        <quote>turbae et rixae</quote>
+                     </cit>, Lud. e L. Myst.</sense>
+                  <sense n="e" xml:id="De">
+                     <cit type="translation" xml:lang="la">
+                        <quote>exsistere</quote>
+                     </cit>, <cit type="translation" xml:lang="la">
+                        <quote>emergere</quote>
+                     </cit>: (<foreign xml:lang="gez">ይከውን፡</foreign>) <foreign xml:lang="gez">ትንሣኤ፡
+                        ፈያት፡ ወሀይድ፡ ወክዕወተ፡ ደም፡</foreign>
+                     <ref cRef="Kid." loc="3">Kid. f. 3</ref>; <foreign xml:lang="gez">በትንሣኤ፡ ሕማም፡
+                        ወፃዕር፡</foreign>
+                     <ref cRef="Sx. Mag." loc="26 ">Sx. Mag. 26 </ref>Enc.</sense>
+                  <sense n="f" xml:id="Df">
+                     <cit type="translation" xml:lang="la">
+                        <quote>resurrectio</quote>
+                     </cit> mortuorum vel e mortuis: <ref cRef="Matth." loc="22,23">Matth.
+                        22,23</ref>; <ref cRef="Matth." loc="22,31">Matth. 22,31</ref>; <ref cRef="Marc." loc="12,18">Marc. 12,18</ref>; <ref cRef="Joh." loc="5,29">Joh.
+                        5,29</ref>; <ref cRef="Joh." loc="11,24">Joh. 11,24</ref>; <ref cRef="Joh." loc="11,25">Joh. 11,25</ref>; <ref cRef="Apoc." loc="20,6">Apoc. 20,6</ref>
+                     Platt; <ref cRef="Asc. Jes." loc="3,18">Asc. Jes. 3,18</ref>; <ref cRef="Jes." loc="4,18">Jes. 4,18</ref>; Lud. Comm. hist. p. 303 n. 10;<bibl>
+                        <ptr target="bm:Ludolf1691Commentarius"/> Lud. Comm. hist.</bibl> p. 507 n.
+                     57; <foreign xml:lang="gez">ሰንበተ፡ ትንሣኤ፡</foreign> <bibl><ptr target="bm:Abbadie1859Cat"/><citedRange unit="page">11</citedRange></bibl>
+                  </sense>
+               </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

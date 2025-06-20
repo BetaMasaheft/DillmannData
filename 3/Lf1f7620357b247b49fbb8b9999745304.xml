@@ -1,0 +1,112 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> አስተኣኀዘ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="Lf1f7620357b247b49fbb8b9999745304" n="5698">
+               <form>
+                  <foreign xml:lang="gez">አስተኣኀዘ</foreign>
+               </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain"> <subc>IV,3</subc> <sense n="1" xml:id="D1">
+                     <cit type="translation" xml:lang="la">
+                        <quote>facere ut corripiat</quote>
+                     </cit> ignis aliquid i.e. <cit type="translation" xml:lang="la">
+                        <quote>inferre</quote>
+                     </cit> vel <cit type="translation" xml:lang="la">
+                        <quote>subjicere</quote>
+                     </cit> ignem rei: <foreign xml:lang="gez">ለእመ፡ ዐርጉ፡ ሮም፡ መልዕልተ፡ ማኅፈድ፡ አስተኣኅዝ፡
+                        እሳተ፡ ውስቴቱ፡ </foreign>
+                     <ref cRef="Jsp." loc="375 ">Jsp. p. 375 </ref>(exspectaveris <subc>IV,1</subc>). <cb n="0769" xml:id="c0769"/>
+                  </sense>
+                  <sense n="2" xml:id="D2">
+                     <cit type="translation" xml:lang="la">
+                        <quote>facere ut sese invicem contineant</quote>
+                     </cit>, <sense n="a" xml:id="D2a">
+                        <cit type="translation" xml:lang="la">
+                           <quote>contingere facere</quote>
+                        </cit>, <ref cRef="Jes." loc="5,8">Jes. 5,8</ref>
+                        <lbl expand="varia lectio">var.</lbl>; <foreign xml:lang="gez">ከመዝ፡ አስተኣኀዘ፡
+                           ኀምስተ፡ ቤተ፡ ክርስቲያናት፡ እምአሐቲ፡ ኰኵሕ፡</foreign> <ref cRef="Gad. Lal.">Gad. Lal.</ref> </sense>
+                     <sense n="b" xml:id="D2b">
+                        <cit type="translation" xml:lang="la">
+                           <quote>connectere</quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                           <quote>conserere</quote>
+                        </cit>, <ref cRef="Ex." loc="36,29">Ex. 36,29</ref>; M.M. f. 15 (<lbl expand="videas">vid. sub</lbl>
+                        <foreign xml:lang="gez">አሰንሰለ፡</foreign> col. 368).</sense>
+                     <sense n="c" xml:id="D2c">
+                        <cit type="translation" xml:lang="la">
+                           <quote>coagmentare</quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                           <quote>contabulare</quote>
+                        </cit>, <ref cRef="3 Reg." loc="7,14">3 Reg. 7,14</ref>; <ref cRef="3 Reg." loc="6,15">3 Reg. 6,15</ref>.</sense>
+                     <sense n="3" xml:id="D23">
+                        <cit type="translation" xml:lang="la">
+                           <quote>facere ut capessant pugnam</quote>
+                        </cit>: <foreign xml:lang="gez">መኑ፡ ያስተኣኅዝ፡ </foreign> (v. <foreign xml:lang="gez">ያስተእኅዝ፡</foreign>) <foreign xml:lang="gez">ቀትለ፡</foreign>
+                        <ref cRef="3 Reg." loc="20,14">3 Reg. 20,14</ref>.</sense>
+                     <sense n="4" xml:id="D24">
+                        <cit type="translation" xml:lang="la">
+                           <quote>sese invicem pignore obstringere</quote>
+                        </cit>, <ref cRef="Gen." loc="31,37">Gen. 31,37</ref>.</sense>
+                  </sense>
+               </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

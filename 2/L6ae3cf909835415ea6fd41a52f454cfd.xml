@@ -1,0 +1,73 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> እከይ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="MK" when="2024-05-15">added cross ref</change><change who="MK" when="2024-05-15">added cross ref</change></revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L6ae3cf909835415ea6fd41a52f454cfd" n="5809">
+               <form>
+                  <foreign xml:lang="gez">እከይ</foreign>
+               </form>
+               <sense xml:id="Dmain" xml:lang="la" source="#dillmann"> <gramGrp> <pos expand="Substantivum">subst.</pos> </gramGrp>, <gramGrp> <gen value="not found">m.</gen> </gramGrp> et <gramGrp> <gen value="femininus">fem.</gen> </gramGrp>, <lbl expand="pluralis">Pl.</lbl> <foreign xml:lang="gez">እከያት፡</foreign> <sense n="1" xml:id="D1"> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> mala indoles </t:quote></cit> rei, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> futilitas </t:quote></cit>: <foreign xml:lang="gez">ዘኢይትበላዕ፡ በእከዩ፡</foreign> <ref cRef="Jer." loc="24,2">Jer. 24,2</ref>. 
+</sense> <sense n="2" xml:id="D2"> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> malitia </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> pravitas </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> improbitas </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> facinus malum </t:quote></cit>: <foreign xml:lang="gez">እከየ፡ ልብ፡</foreign> <ref cRef="1 Reg." loc="17,28">1 Reg. 17,28</ref>; <foreign xml:lang="gez">እከየ፡ ልቡ፡</foreign> <foreign xml:lang="grc">ὁ πονηρία αὐτοῦ</foreign> <ref cRef="Sir." loc="12,10">Sir. 12,10</ref>; <ref cRef="Sir. " loc="14,9">Sir.  14,9</ref>; <foreign xml:lang="gez">እከይየ፡</foreign> <ref cRef="Job" loc="13,26">Job 13,26</ref>; <foreign xml:lang="gez">አኮኑ፡ ብዙኅ፡ እከይከ፡</foreign> <ref cRef="Job" loc="22,5">Job 22,5</ref>; <foreign xml:lang="gez">እከይሆሙ፡</foreign> <ref cRef="Jud." loc="20,34">Jud. 20,34</ref>; <foreign xml:lang="gez">እከዪሃ፡</foreign> (v. <foreign xml:lang="gez">እከይሃ፡</foreign>) <foreign xml:lang="gez">የዐልዎ፡ ለራእይ፡</foreign> <ref cRef="Sir." loc="25,17">Sir. 25,17</ref>; <foreign xml:lang="gez">እከይሁ፡</foreign> <lbl expand="vel">v.</lbl> <foreign xml:lang="gez">እከዪሁ፡</foreign> <ref cRef="Sir." loc="14,7">Sir. 14,7</ref>; <foreign xml:lang="gez">ይኄይስ፡ እከዪሁ፡</foreign> (v. <foreign xml:lang="gez">እከይሁ፡</foreign>) <foreign xml:lang="gez">ለብእሲ፡ እምነ፡ ኂሩታ፡ ለብእሲት፡</foreign> <ref cRef="Sir." loc="42,14">Sir. 42,14</ref>; <foreign xml:lang="gez">እከዮሙ፡</foreign> <ref cRef="Ps." loc="7,10">Ps. 7,10</ref>; <ref cRef="Jer." loc="1,16">Jer. 1,16</ref>; <ref cRef="Nah." loc="3,19">Nah. 3,19</ref>; <ref cRef="Gen." loc="6,5">Gen. 6,5</ref>; <ref cRef="Ex." loc="32,12">Ex. 32,12</ref>; <ref cRef="Matth." loc="22,18">Matth. 22,18</ref>; <ref cRef="Marc. " loc="7,22">Marc.  7,22</ref>; <ref cRef="Rom." loc="1,29">Rom. 1,29</ref>; <ref cRef="1 Petr." loc="2,1">1 Petr. 2,1</ref>; <ref cRef="Gal." loc="1,4">Gal. 1,4</ref>; <foreign xml:lang="grc">κακίαι</foreign> <ref cRef="Jer." loc="3,2">Jer. 3,2</ref>; <ref cRef="Jer." loc="18,8">Jer. 18,8</ref>; <foreign xml:lang="gez">ሄኖክ፡ ይጽሕፍ፡ ኵሎ፡ እከዮሙ፡</foreign> Kuf. 4; <foreign xml:lang="gez">ምግባረ፡ እከይ፡</foreign> <ref cRef="Hebr." loc="10,22">Hebr. 10,22</ref>; <foreign xml:lang="gez">እከየ፡ ምግባረ፡ እደዊሁ፡</foreign> <ref cRef="Jes." loc="3,11">Jes. 3,11</ref>; <ref cRef="Jer." loc="23,3">Jer. 23,3</ref>; <ref cRef="Jac." loc="3,16">Jac. 3,16</ref>; <foreign xml:lang="gez">እከያት፡</foreign> <ref cRef="Hen." loc="96,4">Hen. 96,4</ref>; <ref cRef="Jsp." loc="339">Jsp. p. 339</ref>; <foreign xml:lang="gez">ኵሉ፡ እከያቲሁ፡ ዘቅድም፡</foreign> <ref cRef="Sx. Sen." loc="24 ">Sx. Sen. 24 </ref>Enc. 
+</sense> <sense n="3" xml:id="D3"> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> malum </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> afflictio </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> vexatio </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> miseria </t:quote></cit> <ref cRef="Sap." loc="3,2">Sap. 3,2</ref>; <ref cRef="Matth. " loc="6,34">Matth.  6,34</ref>; <foreign xml:lang="gez">እከየ፡ ልብ፡</foreign> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> tristitia </t:quote></cit> <ref cRef="Koh." loc="7,4">Koh. 7,4</ref>. 
+</sense> </sense>
+               
+            <sense xml:id="Tmain" xml:lang="en" source="#traces"> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">ʾǝkay</t:quote></cit> <sense n="C" xml:id="TC"> for <foreign xml:lang="gez">አሠናዬ፡ እከይ፡</foreign> <lbl expand="videas">vid.</lbl> <foreign xml:lang="gez">አሠናዪ፡</foreign> 
+</sense> </sense></entry>
+         </div>
+      </body>
+   </text>
+</TEI>

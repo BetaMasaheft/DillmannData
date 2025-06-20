@@ -1,0 +1,103 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ስፍን </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="AE" when="2018-11-24">Verschachtelung,</change>
+        </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="Lbad2723acadc4209b8aaa5aac4de2c15" n="3140">
+               <form>
+                  <foreign xml:lang="gez">ስፍን</foreign>
+               </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain"> <gramGrp> <pos expand="Substantivum">subst.</pos> </gramGrp>, proprie <cit type="translation" xml:lang="la">
+                            <quote> quantitas </quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                            <quote> numerus </quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                            <quote> copia </quote>
+                        </cit> ut videtur; deinde usurpatur supplendis quibusdam notionibus, quae in aliis linguis ope pronominum quantitatis significantur (<lbl expand="videas">vid.</lbl> <bibl>
+                            <ptr target="bm:Dillmann1857Gramm"/>gramm.</bibl> § 157,1), scilicet <sense n="1" xml:id="D1"> <sense n="a" xml:id="D1a"> <cit type="translation" xml:lang="la">
+                                    <quote> aliquot </quote>
+                                </cit>: <foreign xml:lang="gez">መፍትው፡ ዘይሠየም፡ ኤጲስ፡ ቆጶስ፡ እምስፍን፡</foreign> (in lexico: <foreign xml:lang="gez">እምስፍነ፡</foreign>) <foreign xml:lang="gez">ኤጲስ፡ ቆጶሳት፡</foreign> <cb n="0406" xml:id="c0406"/> <bibl>
+                                    <ptr target="bm:Ludolf1691Commentarius"/>
+                                </bibl> p. 308 e Syn.</sense> <sense n="b" xml:id="D1b"> <cit type="translation" xml:lang="la">
+                                    <quote> aliquoties </quote>
+                                </cit>, <cit type="translation" xml:lang="la">
+                                    <quote> saepe </quote>
+                                </cit> (<foreign xml:lang="ar">رُبَّمَا</foreign>) conjunctum cum <foreign xml:lang="gez">ጊዜ፡</foreign>, ut: <foreign xml:lang="gez">ስፍነ፡ ጊዜ፡ ዘነትዐ፡ ምዉእ፡ ወውእቱ፡ ተመይጠ፡ ወኮነ፡ መዋኤ፡</foreign> <ref cRef="Jsp. " loc="380.">Jsp.  p. 380.</ref> </sense> </sense> <sense n="2" xml:id="D2"> in interrogationibus directis et indirectis et in exclamationibus: <sense n="a" xml:id="D2a"> <cit type="translation" xml:lang="la">
+                                    <quote> quantus </quote>
+                                </cit>, <cit type="translation" xml:lang="la">
+                                    <quote> quantum? </quote>
+                                </cit> <foreign xml:lang="gez">ስፍን፡ ኀፍረት፡ ዘይረክበኒ፡ በይእቲ፡ ዕለት፡</foreign> <cit type="translation" xml:lang="la">
+                                    <quote> quanta erit ignominia, quae </quote>
+                                </cit> Vit. Pach.; <foreign xml:lang="gez">ለቡ፡ ስፍን፡ ኈልቆሙ፡</foreign> <ref cRef="Clem." loc="52.">Clem. f. 52.</ref> </sense> <sense n="b" xml:id="D2b"> <cit type="translation" xml:lang="la">
+                                    <quote> quot? </quote>
+                                </cit> <foreign xml:lang="gez">ስፍን፡ ቦቱ፡ ዲናራት፡ ዘለቅሐ፡</foreign> <ref cRef="Chrys. Ta." loc="11">Chrys. Ta. 11</ref>; <foreign xml:lang="gez">ስፍነ፡ አህጉረ፡ ጽኑዓነ፡ እለ፡ አመዝበሮን፡</foreign> (<foreign xml:lang="gez">ሞት፡</foreign>) <foreign xml:lang="gez">ወስፍነ፡ አብያተ፡ እለ፡ አንኀሎን፡ ወስፍነ፡ ዕደወ፡ ኀያላነ፡ ረሰየ፡ ይትዋነይዎሙ፡ ዕፄያት፡</foreign> <ref cRef="Genz." loc="149">Genz. f. 149</ref>; <foreign xml:lang="gez">ስፍን፡ እምነ፡ ኤጲስ፡ ቆጶሳት፡</foreign> Lud. e Syn. Originem potestatis interrogativae videas in hoc exemplo: <foreign xml:lang="gez">ታአምር፡ ስፍነ፡ ነገሥተ፡ ርኩሳነ፡ እለ፡ ዐለዉ፡</foreign> <cit type="translation" xml:lang="la">
+                                    <quote> novisti </quote>
+                                </cit> (<cit type="translation" xml:lang="la">
+                                    <quote> copiam </quote>
+                                </cit>, <cit type="translation" xml:lang="la">
+                                    <quote> reges impuros, qui </quote>
+                                </cit> i.e.) <cit type="translation" xml:lang="la">
+                                    <quote> quot reges impuri </quote>
+                                </cit> (in membro parallelo <foreign xml:lang="gez">ሚመጠን፡</foreign>) <ref cRef="Did." loc="2.">Did. 2.</ref> </sense> <sense n="c" xml:id="D2c"> <cit type="translation" xml:lang="la">
+                                    <quote> quoties? </quote>
+                                </cit> aut <foreign xml:lang="gez">ስፍነ፡</foreign> <foreign xml:lang="grc">ποσάκις</foreign> <ref cRef="Matth." loc="18,21">Matth. 18,21</ref>, aut <foreign xml:lang="gez">ስፍነ፡ ጊዜ፡</foreign> <ref cRef="Kedr f." loc="62">Kedr f. 62</ref>; <ref cRef="Phlx." loc="238.">Phlx. f. 238.</ref> </sense> </sense> </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

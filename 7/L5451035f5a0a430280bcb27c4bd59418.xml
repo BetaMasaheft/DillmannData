@@ -1,0 +1,77 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ገዳም </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="AE" when="2018-11-13">Verschachtelung,</change>
+        <change who="MK" when="2024-02-13">added croiss ref</change></revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L5451035f5a0a430280bcb27c4bd59418" n="8682">
+               <form>
+                  <foreign xml:lang="gez">ገዳም</foreign>
+               </form>
+               <sense xml:id="Dmain" xml:lang="la" source="#dillmann"> <gramGrp> <pos expand="Substantivum">subst.</pos> </gramGrp>, plerumque <gramGrp> <gen value="not found">m.</gen> </gramGrp>, <lbl expand="pluralis">Pl.</lbl> <foreign xml:lang="gez">ገዳማት፡</foreign> <sense n="1" xml:id="D1"> raro: <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> tractus lateralis </t:quote></cit>, <ref cRef="Judith" loc="1,2">Judith 1,2</ref> <lbl expand="varia lectio">var.</lbl>, ubi <foreign xml:lang="gez">ዘመንገለ፡ ገዳማ፡ ለሀገር፡</foreign> opponitur <foreign xml:lang="grc">τῷ</foreign> <foreign xml:lang="gez">ዘመንገለ፡ ገጸ፡ ሀገር፡</foreign>; <foreign xml:lang="gez">እምገዳሚሁ፡</foreign> (v. pro <foreign xml:lang="gez">እምግደሚሁ፡</foreign>) <ref cRef="Ex." loc="26,13">Ex. 26,13</ref>.
+</sense> <sense n="2" xml:id="D2"> plerumque: <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> planities </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> campus </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> regio campestris </t:quote></cit>, <foreign xml:lang="grc">πεδίον</foreign>, <foreign xml:lang="grc">πεδινή</foreign> <ref cRef="Gen." loc="4,8">Gen. 4,8</ref>; <ref cRef="Gen." loc="11,2">Gen. 11,2</ref>; <ref cRef="Gen." loc="14,17">Gen. 14,17</ref>; <ref cRef="Gen." loc="24,65">Gen. 24,65</ref>; <ref cRef="Gen." loc="29,2">Gen. 29,2</ref>; <ref cRef="Lev." loc="14,6">Lev. 14,6</ref>; <ref cRef="Deut. " loc="1,7">Deut.  1,7</ref>; <ref cRef="Deut." loc="8,7">Deut. 8,7</ref>; <ref cRef="Job" loc="39,21">Job 39,21</ref>; <ref cRef="Sir." loc="24,14">Sir. 24,14</ref>; <foreign xml:lang="gez">አድባረ፡ ገዳም፡</foreign> <foreign xml:lang="grc">ὄρη πεδινοῦ</foreign> <ref cRef="Jes." loc="13,2">Jes. 13,2</ref>; <ref cRef="Jes." loc="41,18">Jes. 41,18</ref>; <ref cRef="Jer." loc="9,22">Jer. 9,22</ref>; <ref cRef="Jer." loc="14,18">Jer. 14,18</ref>; <ref cRef="Jer." loc="21,13">Jer. 21,13</ref>; <ref cRef="Hez." loc="3,23">Hez. 3,23</ref>; <ref cRef="Hez." loc="7,15">Hez. 7,15</ref>; <ref cRef="Hez." loc="37,1">Hez. 37,1</ref> <lbl expand="sequens">seq.</lbl>; <ref cRef="Mich." loc="4,10">Mich. 4,10</ref>; <foreign xml:lang="gez">ውስተ፡ ገዳም፡ ዐቢይ፡</foreign> <ref cRef="Judith" loc="1,5">Judith 1,5</ref>; <ref cRef="Judith" loc="1,8">Judith 1,8</ref>; <ref cRef="Judith " loc="2,27">Judith  2,27</ref>; <ref cRef="Judith" loc="6,11">Judith 6,11</ref>; <ref cRef="Judith" loc="7,18">Judith 7,18</ref>; <ref cRef="Ps." loc="103,9">Ps. 103,9</ref>; <ref cRef="4 Esr." loc="9,27">4 Esr. 9,27</ref>; <ref cRef="4 Esr." loc="9,28">4 Esr. 9,28</ref>; <ref cRef="Hen." loc="28,1">Hen. 28,1</ref>; <foreign xml:lang="gez">ዕፀወ፡ ገዳም፡</foreign> <ref cRef="Lev." loc="26,4">Lev. 26,4</ref>; <foreign xml:lang="gez">ሣዕር፡ ዘውስተ፡ ገዳም፡</foreign> <ref cRef="Ex." loc="9,25">Ex. 9,25</ref>; <ref cRef="Num." loc="22,4">Num. 22,4</ref>. <sense n="a" xml:id="D2a"> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> agri </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> rus </t:quote></cit>, <foreign xml:lang="grc">ἀγρός</foreign>, <foreign xml:lang="gez">ሣዕረ፡ ገዳም፡</foreign> <ref cRef="Gen." loc="3,18">Gen. 3,18</ref>; <ref cRef="Ps." loc="49,12">Ps. 49,12</ref>; <ref cRef="Ps." loc="102,14">Ps. 102,14</ref>; <ref cRef="Cant. " loc="2,7">Cant.  2,7</ref>; <ref cRef="Sir." loc="39,13">Sir. 39,13</ref>; <ref cRef="Jes." loc="33,12">Jes. 33,12</ref>; <foreign xml:lang="gez">ዕፀወ፡ ገዳም፡</foreign> <ref cRef="Jes. " loc="55,12">Jes.  55,12</ref>; <ref cRef="Kuf." loc="13">Kuf. 13</ref>; <ref cRef="Jer." loc="13,27">Jer. 13,27</ref>; <ref cRef="Jer." loc="14,5">Jer. 14,5</ref>; <foreign xml:lang="gez">ጽጌያተ፡ ገዳም፡</foreign> <ref cRef="Matth." loc="6,28">Matth. 6,28</ref>.
+</sense> <sense n="b" xml:id="D2b"> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> silva </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> saltus </t:quote></cit>, <foreign xml:lang="grc">δρυμός</foreign>, <foreign xml:lang="gez">ዕፀ፡ ገዳም፡</foreign> <ref cRef="Jes." loc="7,2">Jes. 7,2</ref>; <ref cRef="Jes." loc="44,14">Jes. 44,14</ref>; <ref cRef="Jer." loc="10,3">Jer. 10,3</ref>; <ref cRef="Jer. " loc="12,8">Jer.  12,8</ref>; <ref cRef="Ps." loc="131,6">Ps. 131,6</ref>; <ref cRef="2 Reg." loc="18,17">2 Reg. 18,17</ref>; <ref cRef="4 Reg." loc="2,24">4 Reg. 2,24</ref>.
+</sense> <sense n="c" xml:id="D2c"> <foreign xml:lang="gez">እንስሳ፡ ገዳም፡</foreign> vel <foreign xml:lang="gez">አራዊተ፡ ገዳም፡</foreign> animalia <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> agrestia </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> silvestria </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> fera </t:quote></cit> <ref cRef="Gen. " loc="2,20">Gen.  2,20</ref>; <ref cRef="Ps." loc="8,7">Ps. 8,7</ref>; <ref cRef="Ps." loc="79,14">Ps. 79,14</ref>; <ref cRef="Ps." loc="103,12">Ps. 103,12</ref>; <ref cRef="Dan." loc="4,22">Dan. 4,22</ref>; al.; <foreign xml:lang="gez">አድገ፡ ገዳም፡</foreign> <ref cRef="Job" loc="24,5">Job 24,5</ref>.
+</sense> 
+</sense> <sense n="3" xml:id="D3"> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> locus incultus </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> eremus </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> desertum </t:quote></cit>, <foreign xml:lang="grc">ἔρημος</foreign> <ref cRef="Gen." loc="21,20">Gen. 21,20</ref>; <foreign xml:lang="gez">ገዳም፡ ዘሲና፡</foreign> <ref cRef="Ex." loc="19,1">Ex. 19,1</ref>; <ref cRef="Num." loc="1,1">Num. 1,1</ref>; <ref cRef="Job" loc="39,6">Job 39,6</ref>; <ref cRef="Cant." loc="3,6">Cant. 3,6</ref>; <ref cRef="Sir." loc="43,21">Sir. 43,21</ref>; <ref cRef="Sir." loc="45,18">Sir. 45,18</ref>; <ref cRef="4 Esr." loc="7,2">4 Esr. 7,2</ref>; <ref cRef="4 Esr." loc="9,29">4 Esr. 9,29</ref>; <ref cRef="Hez." loc="20,13">Hez. 20,13</ref> <lbl expand="sequens">seq.</lbl>; <ref cRef="Jer." loc="4,11">Jer. 4,11</ref>; <ref cRef="Jer." loc="31,6">Jer. 31,6</ref>; <ref cRef="Thren." loc="4,19">Thren. 4,19</ref>; <foreign xml:lang="gez">ኰኵሐ፡ ገዳም፡</foreign> <ref cRef="Jes." loc="16,1">Jes. 16,1</ref>; <ref cRef="Jes." loc="21,1">Jes. 21,1</ref>; <ref cRef="Jes." loc="35,1">Jes. 35,1</ref>; <ref cRef="Jes." loc="40,3">Jes. 40,3</ref>; <ref cRef="Jes." loc="63,13">Jes. 63,13</ref>; <foreign xml:lang="gez">ገዳማቲሃ፡</foreign> (v. pro <foreign xml:lang="gez">አሕቁሊሃ፡</foreign>) <ref cRef="Jes." loc="44,26">Jes. 44,26</ref>; <ref cRef="Matth." loc="3,1">Matth. 3,1</ref>; <ref cRef="Matth." loc="4,1">Matth. 4,1</ref>; <ref cRef="Matth. " loc="24,26">Matth.  24,26</ref>; <cb n="1203" xml:id="c1203"/> <foreign xml:lang="gez">ገዳም፡ ውእቱ፡ ብሔር፡</foreign> <foreign xml:lang="grc">ἔρημός ἐστι ὁ τόπος</foreign> <ref cRef="Matth." loc="14,15">Matth. 14,15</ref>; <foreign xml:lang="gez">ገዳማት፡ ወአድባራት፡</foreign> <ref cRef="Sx. Ter" loc="22">Sx. Ter 22</ref>; <foreign xml:lang="gez">ቦአ፡ ውስተ፡ ውሳጤ፡ ገዳማተ፡ በድው፡</foreign> <ref cRef="Sx. Jac." loc="15">Sx. Jac. 15</ref>; al. crebro in Sx.
+</sense> </sense>
+               
+            <sense xml:id="Tmain" xml:lang="en" source="#traces"> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">gadām</t:quote></cit> <sense n="C"> for <foreign xml:lang="gez">መዓረ፡ ገዳም፡</foreign> <lbl expand="videas">vid.</lbl> <foreign xml:lang="gez">መዓር፡</foreign> (Leslau) 
+</sense> </sense></entry>
+         </div>
+      </body>
+   </text>
+</TEI>

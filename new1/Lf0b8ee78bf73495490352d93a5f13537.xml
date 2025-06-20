@@ -1,0 +1,98 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="gez">ልጅ</title>
+                <author>Alessandro Bausi</author>
+                <author>Andreas Ellwardt</author>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+                <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+                <pubPlace>Hamburg</pubPlace>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file
+                        is licensed under the Creative Commons Attribution-ShareAlike Non Commercial
+                        4.0. </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                        Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice
+                            latino. Adiectum est vocabularium tigre dialecti septentrionalis
+                            compilatum</emph> a W. Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+                </p>
+                <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced
+                        Grant TraCES (Grant Agreement 338756)</ref>
+                </p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>A digital edition of the Lexicon in TEI.</p>
+            <listPrefixDef>
+                <prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/>
+            </listPrefixDef>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="la">latin</language>
+                <language ident="it">Italian</language>
+                <language ident="gez">Gǝʿǝz</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="syr">Syriac</language>
+                <language ident="ar">Arabic</language>
+                <language ident="sa">Sanskrit</language>
+                <language ident="geo">Georgian</language>
+                <language ident="cop">Coptic</language>
+                <language ident="osa">Old South Arabian</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change who="MK" when="2019-02-18">new entry</change>
+            <change who="MK" when="2019-02-21">corr</change>
+            <change who="MK" when="2019-03-12">added encoding</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <entry xml:id="Lf0b8ee78bf73495490352d93a5f13537" n="12495">
+                    <form>
+                        <foreign xml:lang="am">ልጅ</foreign>
+                    </form>
+                    <sense xml:lang="en" source="#traces" xml:id="Tmain">
+                        <cit type="transcription" xml:lang="gez">
+                            <quote> lǝǧ </quote>
+                        </cit>
+                        <gramGrp>
+                            <pos expand="Substantivum">subst.</pos>
+                        </gramGrp> (title) <cit type="translation" xml:lang="en">
+                            <quote> prince </quote>
+                        </cit>, ‘<cit type="translation" xml:lang="de">
+                            <quote> Prinz </quote>
+                        </cit>’, ‘<cit type="translation" xml:lang="de">
+                            <quote> Fürst </quote>
+                        </cit>’ <foreign xml:lang="gez">ወበውእቱ፡ መዋዕል፡ ፈነዎ፡ በእደ፡ ቃጽ፡ ልጅ፡ አብርሃም፡ ዘውእቱ፡
+                            ፩እማዐበይተ፡ ሕዝቡ።</foreign> ‘<cit type="translation" xml:lang="de">
+                            <quote> und schickte ihn in jenen Tagen unter der Aufsicht des Qāṣ Leǧ
+                                Abrehām, eines der Großen seines Volkes, fort </quote>
+                        </cit>’ <bibl>
+                            <ptr target="bm:Kropp1988LebnaI"/>
+                            <citedRange unit="page"> 41 l. 22-23 (ed.)</citedRange>
+                        </bibl>, <bibl>
+                            <ptr target="bm:Kropp1988LebnaII"/>
+                            <citedRange unit="page"> 44 l. 29-31 (tr.)</citedRange>
+                        </bibl> (‘<cit type="transcription" xml:lang="gez">
+                            <quote> Lǝǧ </quote>
+                        </cit> eig. »Kind« {in Amharic} hier wohl in der Bedeutung »Prinz, Fürst«.’ <bibl>
+                            <ptr target="bm:Kropp1988LebnaII"/>
+                            <citedRange unit="page"> 44-45 n. 185</citedRange>
+                        </bibl>) <nd/>
+                    </sense>
+                </entry>
+            </div>
+        </body>
+    </text>
+</TEI>

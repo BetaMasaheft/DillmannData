@@ -1,0 +1,81 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="gez">ቀሬጢን</title>
+                <author>Alessandro Bausi</author>
+                <author>Andreas Ellwardt</author>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+                <publisher>TraCES project.
+                                    https://www.traces.uni-hamburg.de/</publisher>
+                <pubPlace>Hamburg</pubPlace>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-sa-nc/4.0/">
+                                        This file is licensed under the Creative Commons
+                                        Attribution-ShareAlike Non Commercial 4.0. </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+                </p>
+                <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>A digital edition of the Lexicon in TEI.</p>
+        <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="la">latin</language>
+                <language ident="it">Italian</language>
+                <language ident="gez">Gǝʿǝz</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="syr">Syriac</language>
+                <language ident="ar">Arabic</language>
+                <language ident="sa">Sanskrit</language>
+                <language ident="geo">Georgian</language>
+                <language ident="cop">Coptic</language>
+                <language ident="osa">Old South Arabian</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change who="MK" when="2019-04-05">new entry</change>
+            <change who="MK" when="2019-04-05">added variant</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <entry xml:id="Lb52e386a6aab4b3b90b32082787b51eb" n="12531">
+                    <form>
+                        <foreign xml:lang="gez">ቀሬጢን</foreign>
+                    </form>
+                    <sense xml:lang="en" source="#traces" xml:id="Tmain"> <cit type="transcription" xml:lang="gez">
+                            <quote>qareṭin</quote>
+                        </cit>, <foreign xml:lang="gez">ቀሬጤ፡</foreign> <cit type="transcription" xml:lang="gez">
+                            <quote>qareṭe</quote>
+                        </cit> <pos expand="nomen proprium">n. pr.</pos> (island) <cit type="translation" xml:lang="en">
+                            <quote>Crete</quote>
+                        </cit> <foreign xml:lang="gez">ወሶበ፡ ከልአነ፡ ነፋስ፡ ነገድነ፡ ቀሬጢን፡ እንተ፡ ሰልሞኒን።</foreign> ‘<cit type="translation" xml:lang="en">
+                            <quote>When the wind was agaist us, we sailed to Crete via Salmone</quote>
+                        </cit>’ <bibl>
+                            <ptr target="bm:Getatchew2013MeshafeBerhanT"/>
+                            <citedRange unit="page"> 73 (ed.)</citedRange>
+                        </bibl>, <bibl>
+                            <ptr target="bm:Getatchew2013MeshafeBerhanV"/>
+                            <citedRange unit="page"> 50 (tr.)</citedRange>
+                        </bibl> </sense>
+                </entry>
+            </div>
+        </body>
+    </text>
+</TEI>

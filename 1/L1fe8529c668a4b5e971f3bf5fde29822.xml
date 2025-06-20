@@ -1,0 +1,135 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ምንኀር </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="MK" when="2017-12-12">Added meaning </change>
+            <change who="MK" when="2018-03-12">added example</change>
+            <change who="MK" when="2018-03-12">corr</change>
+            <change who="MK" when="2018-03-23">corr</change>
+            <change who="MK" when="2018-03-23">bibliog</change>
+            <change who="MK" when="2018-03-23">corr</change>
+            <change who="MK" when="2018-03-23">corr</change>
+            <change who="MK" when="2018-03-23">redone entry to be peer-reviewed</change>
+            <change who="MK" when="2018-04-16">corr</change>
+            <change who="MK" when="2018-04-17">added invert. commas</change>
+        <change who="MK" when="2019-04-11">corr</change>
+        </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L1fe8529c668a4b5e971f3bf5fde29822" n="4993">
+               <form>
+                  <foreign xml:lang="gez">ምንኀር</foreign>
+               </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain"> vel <foreign xml:lang="gez">መንኀር፡</foreign> (Lud. <foreign xml:lang="gez">መንኅር፡</foreign> emendare voluit) <gramGrp> <pos expand="Substantivum">subst.</pos> </gramGrp> <sense n="1" xml:id="D1"> <cit type="translation" xml:lang="la">
+                                <quote> antlia </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> haustrum </quote>
+                            </cit> [cfr. <foreign xml:lang="ar">نَاعُورةٌ</foreign>, <foreign xml:lang="syr">ܢܳܥܽܘܪܳܐ</foreign>] <foreign xml:lang="gez">ከመ፡ መንኀር፡</foreign> <lbl expand="vel">v.</lbl> <foreign xml:lang="gez">ምንኀር፡ ቦእኩ፡ ውስተ፡ ገነት፡</foreign> (<foreign xml:lang="grc">ὑδραγωγός</foreign>) <ref cRef="Sir." loc="24,30">Sir. 24,30</ref>.</sense> <sense n="2" xml:id="D2"> <cit type="translation" xml:lang="la">
+                                <quote> follis </quote>
+                            </cit>, Th. Petr. ad <ref cRef="Jon." loc="1,5">Jon. 1,5</ref>. – <cit type="translation" xml:lang="la">
+                                <quote> Voc. Ae. </quote>
+                            </cit> (ad Sir.): <foreign xml:lang="gez">ምንኀር፡ ዘ፡ ፋፋታ፡</foreign> (v. <foreign xml:lang="gez">ፈፍሐት፡</foreign>) <foreign xml:lang="gez">ምንጭይሂ፡ ይ፡</foreign>; <cit type="translation" xml:lang="la">
+                                <quote> aliud </quote>
+                            </cit>: <foreign xml:lang="gez">ውሒዝ፡ ምንኀር፡ ፈለግ፡ ተከዚ፡ ዘ፡ ፈሳሽ።</foreign> </sense> </sense>
+               
+            <sense xml:lang="en" source="#traces" xml:id="Tmain"> <cit type="transcription" xml:lang="gez">
+                            <quote> mǝnḫar </quote>
+                        </cit> <cit type="translation" xml:lang="en">
+                            <quote> channel </quote>
+                        </cit>, ‘<cit type="translation" xml:lang="it">
+                            <quote> canale </quote>
+                        </cit>’ <foreign xml:lang="gez">ንግባእ፡ ኀበ፡ ውዳሴሁ፡ ለአፈ፡ ወርቅ፡ ለምንኀረ፡ ጽድቅ፡</foreign> ‘<cit type="translation" xml:lang="it">
+                            <quote> Ci addentriamo nella lode di colui che ha la bocca dʼoro, canale di giustizia </quote>
+                        </cit>ʼ <bibl>
+                            <ptr target="bm:Tedros2009TawaldaMadehnVittore"/>
+                            <citedRange unit="page"> 102 (182) l. 3 (ed.); 103 (183) l. 3-4 (tr.)</citedRange>
+                        </bibl> (‘L’agiografo usa <foreign xml:lang="gez">ምንኀር፡</foreign> un termine abbastanza raro e non chiarissimo.’ <bibl>
+                            <ptr target="bm:Tedros2009TawaldaMadehnVittore"/>
+                            <citedRange unit="page"> 103 (183) n. 74</citedRange>
+                        </bibl>) <sense n="L" xml:id="TL"> <cit type="transcription" xml:lang="gez">
+                                <quote> mǝnhār </quote>
+                            </cit> <foreign xml:lang="gez">ምንሃር</foreign>, <cit type="transcription" xml:lang="gez">
+                                <quote> manhar </quote>
+                            </cit> <foreign xml:lang="gez">መንሀር</foreign> (<bibl>
+                                <ptr target="bm:KidaneWaldGeezGramDict"/>
+                            </bibl>), <cit type="transcription" xml:lang="gez">
+                                <quote> mǝnḫar </quote>
+                            </cit> <foreign xml:lang="gez">ምንኀር</foreign>, <cit type="transcription" xml:lang="gez">
+                                <quote> manḫar </quote>
+                            </cit> <foreign xml:lang="gez">መንኀር</foreign> (<bibl>
+                                <ptr target="bm:Dillmann1865Lexicon"/>
+                            </bibl>) ʻ<cit type="translation" xml:lang="en">
+                                <quote> irrigation channel </quote>
+                            </cit>, <cit type="translation" xml:lang="en">
+                                <quote> machine for drawing water </quote>
+                            </cit>, <cit type="translation" xml:lang="en">
+                                <quote> pump </quote>
+                            </cit>, <cit type="translation" xml:lang="en">
+                                <quote> conduit </quote>
+                            </cit>, (<bibl>
+                                <ptr target="bm:AlaqaTayya1965MSawasew"/>
+                            </bibl>) <cit type="translation" xml:lang="en">
+                                <quote> waterfall </quote>
+                            </cit>, <cit type="translation" xml:lang="en">
+                                <quote> spring </quote>
+                            </cit> (<bibl>
+                                <ptr target="bm:KidaneWaldGeezGramDict"/>
+                            </bibl>) <cit type="translation" xml:lang="en">
+                                <quote> afterbirth </quote>
+                            </cit> </sense> <nd/> </sense>
+                </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

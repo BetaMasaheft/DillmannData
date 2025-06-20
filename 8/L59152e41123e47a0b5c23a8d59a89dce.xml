@@ -1,0 +1,77 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ዐጠነ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="LB" when="2018-04-24">root</change>
+        </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L59152e41123e47a0b5c23a8d59a89dce" n="7371">
+               <form>
+                  <foreign xml:lang="gez">ዐጠነ</foreign>
+               <rs type="root"/>
+                    </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain"> <subc>I,1</subc> [<foreign xml:lang="he">עָתַר</foreign> <foreign xml:lang="syr">ܥܛܰܪ</foreign> <foreign xml:lang="ar">عَطِرَ</foreign>; vicinum <foreign xml:lang="he">קָטַר</foreign> <foreign xml:lang="ar">قطر</foreign>, II <foreign xml:lang="gez">ቀተረ፡</foreign>] <gramGrp> <pos expand="Subjunctivus">Subj.</pos> </gramGrp> <foreign xml:lang="gez">ይዕጥን፡</foreign> (raro <foreign xml:lang="gez">ይዕጠን፡</foreign> ut <ref cRef="Jer." loc="11,13">Jer. 11,13</ref> <lbl expand="varia lectio">var.</lbl>) <cit type="translation" xml:lang="la">
+                            <quote> suffire </quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                            <quote> suffimentum adolere </quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                            <quote> suffumigare </quote>
+                        </cit>, <ref cRef="Ex." loc="30,7">Ex. 30,7</ref>; <ref cRef="Ex." loc="30,8">Ex. 30,8</ref>; <ref cRef="Jer." loc="51,15">Jer. 51,15</ref>; <ref cRef="Luc. " loc="1,9">Luc.  1,9</ref>; <ref cRef="Lit." loc="161,3">Lit. 161,3</ref> <lbl expand="sequens">seq.</lbl>; <lbl expand="cum">c.</lbl> <foreign xml:lang="gez">ለ፡</foreign> numinis: <foreign xml:lang="gez">ሦዑ፡ ወዐጠኑ፡ ለአጋንንት፡</foreign> <ref cRef="Jes." loc="65,3">Jes. 65,3</ref>; <ref cRef="Jes." loc="65,7">Jes. 65,7</ref>; <ref cRef="Jer." loc="7,9">Jer. 7,9</ref>; <ref cRef="Jer. " loc="11,12">Jer.  11,12</ref>; <ref cRef="Jer." loc="11,13">Jer. 11,13</ref>; <ref cRef="Jer." loc="51,3">Jer. 51,3</ref>; <foreign xml:lang="gez">ሶበ፡ ኀደግነ፡ ዐጢነ፡ ለንግሥተ፡ ሰማይ፡</foreign> <ref cRef="Jer." loc="51,18">Jer. 51,18</ref>; <ref cRef="3 Reg." loc="11,7">3 Reg. 11,7</ref>; <lbl expand="cum">c.</lbl> <gramGrp> <case value="accusativus">Acc.</case> </gramGrp> suffimenti: <ref cRef="Kuf." loc="3">Kuf. 3</ref>; <ref cRef="Kuf." loc="4">Kuf. 4</ref>; <ref cRef="Kuf." loc="16">Kuf. 16</ref>; <foreign xml:lang="gez">ዐጢነ፡ ዕጣን፡</foreign> <ref cRef="Kuf." loc="50">Kuf. 50</ref>; <ref cRef="Ex." loc="40,25">Ex. 40,25</ref>; <ref cRef="1 Reg." loc="2,28">1 Reg. 2,28</ref>; <foreign xml:lang="gez">ከመ፡ ይዕጥን፡ ዕጣነ፡</foreign> <ref cRef="2 Par." loc="2,4">2 Par. 2,4</ref>; <ref cRef="2 Par." loc="26,16">2 Par. 26,16</ref>; <ref cRef="2 Par." loc="26,18">2 Par. 26,18</ref>; <lbl expand="cum">c.</lbl> <gramGrp> <case value="accusativus">Acc.</case> </gramGrp> loci vel rei odoribus suffitae (<note>beräuchern</note>): <foreign xml:lang="gez">ተዐጥን፡ መቃብረ፡ በትእምርተ፡ መስቀል፡</foreign> <ref cRef="Genz." loc="40">Genz. f. 40</ref>; <foreign xml:lang="gez">መንበረ፡ ልዑል፡ የዐጥኑ፤ ወቃለ፡ ፈጣሪ፡ ይሰምዑ፤ ብፁዓን፡ ካህናት፡ ጽርሐ፡ አርያም፡ የኀድሩ፡</foreign> Mavâs. n. 20; <ref cRef="Lit." loc="161,1">Lit. 161,1</ref>; <foreign xml:lang="gez">ካህን፡ ይዕጥን፡ ወንጌለ፡ ፫ ጊዜ፡</foreign> <ref cRef="Lit." loc="162,4">Lit. 162,4</ref>. </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

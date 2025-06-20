@@ -1,0 +1,115 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ምስማክ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="Lce44d20f3969499585748644e39caa4d" n="2543">
+               <form>
+                  <foreign xml:lang="gez">ምስማክ</foreign>
+               </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain">
+                  <gramGrp>
+                     <pos expand="Substantivum">subst.</pos>
+                  </gramGrp>, <lbl expand="pluralis">Pl.</lbl>
+                  <foreign xml:lang="gez">ምስማካት፡</foreign>
+                  <sense n="1" xml:id="D1"> locus vel res, in quae quis reclinat vel innititur, <cit type="translation" xml:lang="la">
+                        <quote>adminiculum</quote>
+                     </cit>, <cit type="translation" xml:lang="la">
+                        <quote>fulcrum</quote>
+                     </cit> (Lehne): <foreign xml:lang="gez">ዐምደ፡ ምስማኩ፡ ይእቲ፡</foreign>
+                     <ref cRef="Sir. " loc="36,29">Sir. 36,29</ref>; <foreign xml:lang="gez">አትርፉ፡
+                        ምስማካቲሃ፡</foreign>
+                     <cb n="0336" xml:id="c0336"/>
+                     <foreign xml:lang="grc">ὑποστηρίγματα</foreign>
+                     <ref cRef="Jer." loc="5,10">Jer. 5,10</ref>; <foreign xml:lang="gez">ምስማከ፡
+                        ርእስየ፡</foreign>
+                     <ref cRef="Ps." loc="59,7">Ps. 59,7</ref>; <foreign xml:lang="gez">ሰዋቄ፡ ኩነኒ፡
+                        ወምስማከ፡ </foreign> Cod. Mus. Brit. LIV, 7; <ref cRef="Ps." loc="71,16">Ps.
+                        71,16</ref>; <ref cRef="Sir." loc="31,19">Sir. 31,19</ref>
+                     <lbl expand="varia lectio">var.</lbl>; <foreign xml:lang="gez">መንበረ፡
+                        ምስማክ፡</foreign>
+                     <cit type="translation" xml:lang="la">
+                        <quote>cathedra supina</quote>
+                     </cit>
+                     <ref cRef="Herm." loc="2">Herm. p. 2</ref>; <foreign xml:lang="gez">መጾረ፡
+                        ምስማክ፡</foreign>
+                     <ref cRef="Herm." loc="4">Herm. p. 4</ref>; <ref cRef="Herm." loc="17">Herm. p.
+                        17</ref>; <ref cRef="Herm." loc="18">Herm. p. 18</ref>; Herm. p. 41;
+                        <foreign xml:lang="gez">መናብርተ፡ ምስማክ፡</foreign>
+                     <foreign xml:lang="grc">τὰ ἐστηριγμένα</foreign>
+                     <ref cRef="4 Reg." loc="18,16">4 Reg. 18,16</ref>; <foreign xml:lang="gez">ምስማከ፡ መጾር፡ </foreign>
+                     <ref cRef="Cant." loc="3,10">Cant. 3,10</ref>; cathedra <foreign xml:lang="gez">ውስተ፡ ምስማክ፡ ዘኀበ፡ አረፍት፡ </foreign>
+                     <ref cRef="1 Reg." loc="20,25">1 Reg. 20,25</ref>.</sense>
+                  <sense n="2" xml:id="D2">
+                     <cit type="translation" xml:lang="la">
+                        <quote>latus</quote>
+                     </cit>, <foreign xml:lang="grc">κλίτος</foreign>
+                     <ref cRef="Ex." loc="25,12">Ex. 25,12</ref>; <ref cRef="Ex." loc="25,18">Ex.
+                        25,18</ref>; <ref cRef="Ex. " loc="28,24">Ex. 28,24</ref>.</sense>
+                  <sense n="3" xml:id="D3">
+                     <lbl expand="translate">transl.</lbl>: <cit type="translation" xml:lang="la">
+                        <quote>finis</quote>
+                     </cit> seu <cit type="translation" xml:lang="la">
+                        <quote>scopus</quote>
+                     </cit> libri, causae, Cod. Mus. Brit. VIII, 1 (<lbl expand="videas">vid.</lbl>
+                     Catal. Cod. Aeth. M. <ref cRef="Br." loc="7">Br. p. 7</ref>).</sense>
+               </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,94 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng"
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="gez">አሳላፊ</title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref></p>
+            <p><ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref></p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+         <listPrefixDef>
+            <prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="MK" when="2022-03-22">added entry</change>
+         <change who="MK" when="2022-03-22">added translation</change>
+         <change who="MK" when="2022-04-07">added example</change>
+         <change who="MK" when="2022-05-12">added inverted commas </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="Le4d4c5eec19c45369149ab803ca1f55e" n="12782">
+               <form><foreign xml:lang="gez">አሳላፊ</foreign></form>
+               <sense xml:id="Tmain" xml:lang="en" source="#traces"><cit type="transcription" xml:lang="gez">
+                     <quote>ʾasāllāfi</quote>
+                  </cit>
+                  <gramGrp><pos expand="Substantivum">subst.</pos></gramGrp>
+                  <cit type="translation" xml:lang="en">
+                     <quote>steward</quote>
+                  </cit>
+                  <foreign xml:lang="gez">ላእከ፡ ንጉሥሂ፡ ዘተፈነወ፡ እምኀበ፡ ንጉሥ፡ አሳላፊ፡ ማንቱሊ፡ ገብሩ፡</foreign>
+                     ‘<cit type="translation" xml:lang="fr">
+                     <quote>Le messager royal, envoyé par le roi [pour faire ces concessions], était
+                        l’asāllāfi Māntuli Gabru</quote>
+                  </cit>’ <bibl><ptr target="bm:ContiRossini1909LiberT"/><citedRange unit="page"> 51
+                        l. 6–7 (ed.)</citedRange></bibl>, <bibl><ptr target="bm:ContiRossini1910LiberV"/><citedRange unit="page"> 61 l. 15–16
+                        (tr.)</citedRange></bibl>; <foreign xml:lang="gez">ገብረ፡ ጻድቅ፡ ወድ፡ አሳላፍ፡ ወልደ፡
+                     ጊዮርጊስ፡</foreign> ‘<cit type="translation" xml:lang="fr">
+                     <quote>Gabra Ṣādeq fils de l’asāllāf [sic] Walda Giyorgis</quote>
+                  </cit>’ <bibl><ptr target="bm:ContiRossini1909LiberT"/><citedRange unit="page"> 66
+                        l. 13 (ed.)</citedRange></bibl>, <bibl><ptr target="bm:ContiRossini1910LiberV"/><citedRange unit="page"> 80 l. 5
+                        (tr.)</citedRange></bibl>
+                  <sense n="E" xml:id="TE">from Amharic <foreign xml:lang="am">አሳላፊ</foreign>
+                     <cit type="transcription" xml:lang="gez">
+                        <quote>ʾasāllāfi</quote>
+                     </cit>
+                     <gramGrp><pos expand="nomen agentis">n. ag.</pos></gramGrp> ‘one who makes
+                     something pass’ </sense>
+                  <nd/>
+               </sense>
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

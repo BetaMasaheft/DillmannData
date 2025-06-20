@@ -1,0 +1,87 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ሥዕርት </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="AE" when="2017-12-07">Referenzen,</change>
+        </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="Ld056452b31b748d3bc7916f0f98fe445" n="1940">
+               <form>
+                  <foreign xml:lang="gez">ሥዕርት</foreign>
+               </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain"> <gramGrp> <pos expand="not found">subst.</pos> </gramGrp>, <gramGrp> <gen value="not found">m.</gen> </gramGrp> et <gramGrp> <gen value="femininus">fem.</gen> </gramGrp> (sed ubi nomen unitatis est, plerumque <gramGrp> <gen value="femininus">fem.</gen> </gramGrp>), <lbl expand="not found">sing.</lbl> et <lbl expand="collatio, -is vel collectivum,&#xA;                            -e">coll.</lbl>, Plur. <foreign xml:lang="gez">አሥዕርት፡</foreign> (<ref cRef="Lit. Orth." loc="">Lit. Orth. </ref>) [<foreign xml:lang="he">שֵׂעָר</foreign> et <foreign xml:lang="he">שַׂעֲרָה</foreign>, <foreign xml:lang="syr">ܣܰܥܪܳܐ</foreign> et <foreign xml:lang="syr">ܣܥܳܪܬܳܐ</foreign>, <foreign xml:lang="ar">شَعْرٌ</foreign> et <foreign xml:lang="ar">شَعْرَةٌ</foreign>; amh. et aeth. etiam <foreign xml:lang="gez">ጸጕር፡</foreign>] <sense n="1" xml:id="D1"> <cit type="translation" xml:lang="la">
+                                <quote> pilus </quote>
+                            </cit> <ref cRef="Jud." loc="20,16">Jud. 20,16</ref>; <ref cRef="Matth." loc="5,36">Matth. 5,36</ref>; <ref cRef="Prov." loc="23,7">Prov. 23,7</ref>; <foreign xml:lang="gez">ኢይትሀጐል፡ ሥዕርተ፡ ርእሶሙ፡</foreign> <ref cRef="Clem." loc="156">Clem. f. 156</ref>; <foreign xml:lang="gez">ወኢአሐቲ፡ ሥዕርትነ፡</foreign> <ref cRef="Did." loc="25">Did. 25</ref>; <foreign xml:lang="gez">አሐቲ፡ ሥዕርተ፡ ርእሱ፡</foreign> <ref cRef="Gad. T.H." loc="">Gad. T.H. </ref>
+                        </sense> <sense n="2" xml:id="D2"> <cit type="translation" xml:lang="la">
+                                <quote> pili </quote>
+                            </cit> <sense n="a" xml:id="D2a"> capitis, <cit type="translation" xml:lang="la">
+                                    <quote> capillus </quote>
+                                </cit>, <cit type="translation" xml:lang="la">
+                                    <quote> crines </quote>
+                                </cit>, <cit type="translation" xml:lang="la">
+                                    <quote> coma </quote>
+                                </cit> <ref cRef="Job" loc="1,20">Job 1,20</ref>; <foreign xml:lang="gez">ሥዕርተ፡ ድማሕየ፡</foreign> <ref cRef="Job" loc="16,12">Job 16,12</ref>; <ref cRef="Cant." loc="4,1">Cant. 4,1</ref>; <ref cRef="Ps. " loc="37,4">Ps.  37,4</ref>; <ref cRef="Ps." loc="39,17">Ps. 39,17</ref>; <ref cRef="Ps." loc="68,5">Ps. 68,5</ref>; <foreign xml:lang="gez">ሥዕርተ፡ ርእሳ፡</foreign> <ref cRef="Judith " loc="10,3">Judith  10,3</ref>; <ref cRef="Judith" loc="13,7">Judith 13,7</ref>; <ref cRef="Dan." loc="3,27">Dan. 3,27</ref>; <ref cRef="Dan." loc="7,9">Dan. 7,9</ref>; <ref cRef="2 Reg." loc="14,26">2 Reg. 14,26</ref>; <ref cRef="Apoc." loc="1,14">Apoc. 1,14</ref>; <foreign xml:lang="gez">ሥዕርተ፡ አንስት፡</foreign> <ref cRef="Apoc." loc="9,8">Apoc. 9,8</ref>; <foreign xml:lang="gez">ሥዕርተ፡ ርእስክሙ፡ ኍሉቃት፡ እማንቱ፡</foreign> <ref cRef="Matth." loc="10,30">Matth. 10,30</ref>; <ref cRef="Joh." loc="12,3">Joh. 12,3</ref>; <cit type="translation" xml:lang="la">
+                                    <quote> promittere </quote>
+                                </cit> <lbl expand="cum">c.</lbl> <foreign xml:lang="gez">አንኀ፡ ሥዕርተ፡</foreign> <ref cRef="F.N." loc=" 51">F.N.  51</ref>.</sense> <sense n="b" xml:id="D2b"> reliqui corporis: <ref cRef="Job" loc="4,15">Job 4,15</ref>; <ref cRef="Sir." loc="27,14">Sir. 27,14</ref>; <foreign xml:lang="gez">ሥዕርተ፡ ጽሕምየ፡</foreign> <ref cRef="2 Esr." loc="9,3">2 Esr. 9,3</ref>; <ref cRef="Lev." loc="12,3">Lev. 12,3</ref> <lbl expand="sequens">seq.</lbl>; <foreign xml:lang="gez">ሥዕርት፡ ቀጣን፡</foreign> <ref cRef="Lev." loc="13,30">Lev. 13,30</ref>; <foreign xml:lang="gez">በዝኀ፡ ሥዕርትኪ፡</foreign> <ref cRef="Hez." loc="16,7">Hez. 16,7</ref>; <foreign xml:lang="gez">ይበኪ፡ እስከኔ፡ ተመልኀ፡ ሥዕርተ፡ አዕይንቲሁ፡</foreign> <ref cRef="Phlx." loc="55.">Phlx. 55.</ref> </sense> <sense n="c" xml:id="D2c"> animalium (<cit type="translation" xml:lang="la">
+                                    <quote> coma </quote>
+                                </cit>, <cit type="translation" xml:lang="la">
+                                    <quote> juba </quote>
+                                </cit>) <ref cRef="Apoc." loc="9,8">Apoc. 9,8</ref>; <ref cRef="Dan." loc="4,30">Dan. 4,30</ref>.</sense> <sense n="d" xml:id="D2d"> in genere: <ref cRef="Dan. apocr." loc="13,27">Dan. apocr. 13,27</ref>. – Voc. Ae.: <foreign xml:lang="gez">ሥዕርት፡ ዘ፡ ጸጕር።</foreign> </sense> </sense> </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

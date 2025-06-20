@@ -1,0 +1,72 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ጌና </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="LB" when="2018-05-04">root</change>
+        <change who="MK" when="2024-08-28">added cross ref</change><change who="MK" when="2024-08-28">added sub</change><change who="MK" when="2024-08-28">added les </change></revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L009a69eeb66d4c1eacc24b18d787d422" n="8481">
+               <form>
+                  <foreign xml:lang="gez">ጌና</foreign>
+               <rs type="root"/>
+                    </form>
+               <sense xml:id="Dmain" xml:lang="la" source="#dillmann"> <gramGrp> <pos expand="not found">n. peregr.</pos> </gramGrp> i.e. <foreign xml:lang="grc">γέννα</foreign>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> nativitas </t:quote></cit> Christi, deinde <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> parasceue festi natalitii </t:quote></cit> (<note>Weihnacht</note>): <foreign xml:lang="gez">ኢይግበሩ፡ ግበረ፡ በዕለተ፡ ጌና፡ ልደተ፡ ክርስቶስ፡</foreign> <ref cRef="Const. Ap." loc="66 ">Const. Ap. 66 </ref> (<ref cRef="Const. Ap." loc="67">Const. Ap. 67</ref>); <foreign xml:lang="gez">እንተ፡ በኵሉ፡ ክብርት፡ ጌና፡ ዘይእቲ፡ ልደቱ፡ በሥጋሁ፡ ለእግዚእነ፡ ኢየሱስ፡</foreign> <ref cRef="Cyr." loc="131">Cyr. f. 131</ref>; homilia Procli Cyziceni habita est <foreign xml:lang="gez">በበዓለ፡ ጌና፡</foreign> <ref cRef="Cyr." loc="119">Cyr. f. 119</ref>; in tit. <ref cRef="Luc." loc="1,26">Luc. 1,26</ref>; <ref cRef="Luc." loc="1,57">Luc. 1,57</ref>; <ref cRef="Luc. " loc="2,21">Luc.  2,21</ref> <lbl expand="romanae editionis">rom.</lbl>; <foreign xml:lang="gez">ሰላም፡ ለበዓለ፡ ጌና፡ ለዘኢኮነ፡ ንትጋ፤ እምልደተ፡ ክርስቶስ፡ ሰዓተ፡ ጸጋ፤</foreign> (cui non est intervallum a festo nativitatis) <ref cRef="Sx. Tachs." loc="28 ">Sx. Tachs. 28 </ref>Enc. (at Sx. <ref cRef="Tachs." loc="29 ">Tachs. 29 </ref>Enc. <foreign xml:lang="gez">በዓለ፡ ልደት፡</foreign>); Cod. Mus. Brit. XXIX, I <ref cRef="Nr. " loc="26 ">Nr.  26 </ref>(ubi <foreign xml:lang="gez">በዓለ፡ ጌና፡</foreign> a <foreign xml:lang="gez">በዓለ፡ ልደት፡</foreign> Cod. Mus. Brit. XXIX, I <ref cRef="Nr." loc="27 ">Nr. 27 </ref>distinguitur); Deg.; <foreign xml:lang="gez">ጾመ፡ ፵ ቅድስት፡</foreign>, <foreign xml:lang="gez">ጾመ፡ ሐዋርያት፡</foreign>, <foreign xml:lang="gez">ጾመ፡ ስብከተ፡ ጌና፡</foreign> memorantur in <ref cRef="Gad. T.H." loc="">Gad. T.H. </ref>; de <foreign xml:lang="gez">ጾመ፡ ስብከተ፡ ጌና፡</foreign> (jejunio adventus) <lbl expand="videas">vid.</lbl> <ref cRef="Scaliger p." loc="677">Scaliger p. 677</ref>; <ref cRef="Scaliger p." loc="703">Scaliger p. 703</ref>; <foreign xml:lang="gez">በዛቲ፡ ዕለት፡</foreign> (sc. XIX° mensis <foreign xml:lang="gez">ኅዳር፡</foreign>) <foreign xml:lang="gez">ጥንተ፡ ጾመ፡ ስብከተ፡ ጌና፡ ልደቱ፡ ለእግዚእነ፡ ኢየሱስ፡ ክርስቶስ፡ በኀበ፡ ኵሉ፡ ክርስቶሳውያን፡</foreign> <ref cRef="Sx. Hed." loc="19.">Sx. Hed. 19.</ref> </sense>
+               
+            <sense xml:id="Tmain" xml:lang="en" source="#traces"> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">gennā</t:quote></cit> <sense n="C" xml:id="TC"> for <foreign xml:lang="gez">ጾመ፡ ስብከተ፡ ጌና፡</foreign> <lbl expand="videas">vid.</lbl> <foreign xml:lang="gez">ጾም፡</foreign> (Leslau) 
+</sense> </sense></entry>
+         </div>
+      </body>
+   </text>
+</TEI>

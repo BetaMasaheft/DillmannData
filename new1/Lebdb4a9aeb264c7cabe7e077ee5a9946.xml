@@ -1,0 +1,147 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="gez">ሾታል</title>
+                <author>Alessandro Bausi</author>
+                <author>Andreas Ellwardt</author>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+                <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+                <pubPlace>Hamburg</pubPlace>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file
+                        is licensed under the Creative Commons Attribution-ShareAlike Non Commercial
+                        4.0. </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                        Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice
+                            latino. Adiectum est vocabularium tigre dialecti septentrionalis
+                            compilatum</emph> a W. Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+                </p>
+                <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced
+                        Grant TraCES (Grant Agreement 338756)</ref>
+                </p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>A digital edition of the Lexicon in TEI.</p>
+            <listPrefixDef>
+                <prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/>
+            </listPrefixDef>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="la">latin</language>
+                <language ident="it">Italian</language>
+                <language ident="gez">Gǝʿǝz</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="syr">Syriac</language>
+                <language ident="ar">Arabic</language>
+                <language ident="sa">Sanskrit</language>
+                <language ident="geo">Georgian</language>
+                <language ident="cop">Coptic</language>
+                <language ident="osa">Old South Arabian</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change who="MK" when="2018-11-29">new entry</change>
+            <change who="MK" when="2019-04-03">added transl.</change>
+            <change who="MK" when="2022-04-08">added examples</change>
+            <change who="MK" when="2022-04-08">added examples</change>
+            <change who="MK" when="2022-04-08">added example</change>
+            <change who="MK" when="2022-04-08">correction</change>
+            <change who="MK" when="2022-04-08">added cross reference </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <entry xml:id="Lebdb4a9aeb264c7cabe7e077ee5a9946" n="12464">
+                    <form>
+                        <foreign xml:lang="gez">ሾተል</foreign>
+                    </form>
+                    <sense xml:id="Tmain" xml:lang="en" source="#traces"><cit type="transcription" xml:lang="gez">
+                            <quote>šotal</quote>
+                        </cit>, <foreign xml:lang="gez">ሾታል፡</foreign>
+                        <cit type="transcription" xml:lang="gez">
+                            <quote> šotāl </quote>
+                        </cit>, <foreign xml:lang="gez">ሾተል፡</foreign>
+                        <cit type="transcription" xml:lang="gez">
+                            <quote> šotal </quote>
+                        </cit>, <foreign xml:lang="gez">ሾቶል፡</foreign>
+                        <cit type="transcription" xml:lang="gez">
+                            <quote> šotol </quote>
+                        </cit>
+                        <gramGrp>
+                            <pos expand="Substantivum">subst.</pos>
+                        </gramGrp>
+                        <cit type="translation" xml:lang="en">
+                            <quote> dagger</quote>
+                        </cit>
+                        <foreign xml:lang="gez">እግዚአብሔር፤ ማእምረ፡ ኅቡአት፡ ዘየአምር፡ እምቅድመ፡ ይኩን፡ አግመሮ፡ ለኃያል፡
+                            ፩፡ ነዳይ፡ ዘኢተኀዘብዎ፤ አኮ፡ በረምሕ፡ ወበሰይፍ፡ ዳእሙ፡ በንስቲት፡ መጥባሕት፡ ዘክልኤ፡ አፉሁ፡ እንተ፡
+                            ይእቲ፡ ሾተል፡</foreign>‘<cit type="translation" xml:lang="de">
+                            <quote> Der Herr, der das Verborgene kennt, bevor es geschieht, ließ den
+                                Kriegshelden durch einen Asketen erledigen, mit dem niemand
+                                gerechnet hatte, und weder durch Lanze noch durch das Schwert, nein,
+                                vielmehr durch ein kleines, zweischneidiges Messer, das heißt šotal
+                            </quote>
+                        </cit>’ <bibl><ptr target="bm:Kropp1988LebnaI"/><citedRange unit="page"> 19
+                                l. 15–18 (ed.)</citedRange></bibl>, <bibl><ptr target="bm:Kropp1988LebnaII"/><citedRange unit="page"> 19 l. 5–9
+                                (tr.)</citedRange></bibl>; <foreign xml:lang="gez">ወወርቅ፡
+                            ሾተል፡</foreign> ‘<cit type="translation" xml:lang="pt">
+                            <quote>e xotal dourado</quote>
+                        </cit>’ <bibl><ptr target="bm:Pereira1892Susenyos"/><citedRange unit="page">
+                                16 l. 17 (ed.)</citedRange></bibl>
+                        <bibl><ptr target="bm:Pereira1900Susenyos"/><citedRange unit="page"> 13 l.
+                                10 (tr.)</citedRange></bibl>; <foreign xml:lang="gez">ወሾተል፡
+                            ዘወርቅ፡</foreign> ‘<cit type="translation" xml:lang="pt">
+                            <quote>e xotal dourado</quote>
+                        </cit>’ <bibl><ptr target="bm:Pereira1892Susenyos"/><citedRange unit="page">
+                                72 l. 46 (ed.)</citedRange></bibl>
+                        <bibl><ptr target="bm:Pereira1900Susenyos"/><citedRange unit="page"> 57 l.
+                                17 (tr.)</citedRange></bibl>; <foreign xml:lang="gez">ወሖረ፡ ንጉሥ፡ ከመ
+                            ይርግዞ፡ መሊሖ፡ ሾተለ፡ ወእምቅድመ፡ ያንጽሕ፡ ሾተለ፡ ውስተ፡ ሥጋሁ፡ ወፅአት፡ ነፍሱ፡ እምሥጋሁ፡ ለውእቱ፡
+                            ብእሲ፡</foreign> ‘<cit type="translation" xml:lang="pt">
+                            <quote>e o Rei foi para traspassar desembainhando o xotal; e antes que
+                                fizesse tocar o xotal no seu corpo, a alma saíu do corpo do mesmo
+                                homem,</quote>
+                        </cit>’ <bibl><ptr target="bm:Pereira1892Susenyos"/><citedRange unit="page">
+                                76 l. 44–46 (ed.)</citedRange></bibl>
+                        <bibl><ptr target="bm:Pereira1900Susenyos"/><citedRange unit="page"> 59 l.
+                                28–31 (tr.)</citedRange></bibl>; <foreign xml:lang="gez">እግዚአብሔር፡
+                            ማእምረ፡ ኅቡአት፡ አስተኃፍሮ፡ ለኃያል፡ በእደ፡ ፩ ነዳይ፡ ዘኢተሐዘብዎ፡ አኮ፡ በረምኃ፡ ወበሰይፍ፡ ዳእሙ፡
+                            በንስቲት፡ መጥባሕት፡ ዘ፪አፋሃ፡ እንተ፡ ይእቲ፡ ሾተል፡</foreign> ‘<cit type="translation" xml:lang="fr">
+                            <quote>Dieu qui connaît les choses cachées a couvert de honte la
+                                puissance de cet homme en se servant d’un pauvre l’on ne soupçonnait
+                                pas, non par la lance, non par l’épée, mais simplement par le
+                                poignant à deux tranchants qu’on appelle chotal </quote>
+                        </cit>’ <bibl><ptr target="bm:Basset1882Chronicle"/><citedRange unit="page">
+                                17 l. 23–26 (ed.); 108 l. 30–31, 109 1–4 (tr.)</citedRange></bibl>;
+                            <foreign xml:lang="gez">ወርቅ፡ ሾተል፡ ፩፡</foreign> ‘<cit type="translation" xml:lang="fr">
+                            <quote>un sabre en or </quote>
+                        </cit>’ <bibl><ptr target="bm:ContiRossini1909LiberT"/><citedRange unit="page"> 70 l. 24 (ed.)</citedRange></bibl>, <bibl><ptr target="bm:ContiRossini1910LiberV"/><citedRange unit="page"> 85 l. 5
+                                (tr.)</citedRange></bibl>; <foreign xml:lang="gez">ወርቅ፡ ሾቶል፡
+                            ፩፡</foreign> ‘<cit type="translation" xml:lang="fr">
+                            <quote>un sabre en or </quote>
+                        </cit>’ <bibl><ptr target="bm:ContiRossini1909LiberT"/><citedRange unit="page"> 71 l. 2 (ed.)</citedRange></bibl>, <bibl><ptr target="bm:ContiRossini1910LiberV"/><citedRange unit="page"> 85 l.
+                                15 (tr.)</citedRange></bibl>
+                        <sense n="C" xml:id="TC"><lbl expand="videas">vid.</lbl> also <foreign xml:lang="gez">ሰውተል፡</foreign></sense>
+                        <sense n="E" xml:id="TE">from Amharic <foreign xml:lang="am">ሾተል</foreign>
+                            <cit type="transcription" xml:lang="gez">
+                                <quote>šotal</quote>
+                            </cit>
+                        </sense>
+                        <nd/>
+                    </sense>
+                </entry>
+            </div>
+        </body>
+    </text>
+</TEI>

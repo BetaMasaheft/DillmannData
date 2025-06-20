@@ -1,0 +1,105 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ጥፍአት </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L5f824082e1d14a48ae08cd3a62e850ce" n="9072">
+               <form>
+                  <foreign xml:lang="gez">ጥፍአት</foreign>
+               </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain">
+                  <gramGrp>
+                     <pos expand="nomen actionis">n. act.</pos>
+                  </gramGrp>
+                  <sense n="1" xml:id="D1">
+                     <cit type="translation" xml:lang="la">
+                        <quote>exstinctio</quote>
+                     </cit>: <foreign xml:lang="gez">እሳት፡ ዘአልቦ፡ ጥፍአት፡</foreign>
+                     <ref cRef="Clem." loc="268">Clem. f. 268</ref>; candelae <foreign xml:lang="gez">ዘእንበለ፡ ጥፍአት፡</foreign>
+                     <ref cRef="Org." loc="3.">Org. 3.</ref>
+                  </sense>
+                  <sense n="2" xml:id="D2"> deletio <cb n="1251" xml:id="c1251"/>, <cit type="translation" xml:lang="la">
+                        <quote>interitus</quote>
+                     </cit>, <cit type="translation" xml:lang="la">
+                        <quote>exitium</quote>
+                     </cit>: <foreign xml:lang="grc">ὄλεθρος</foreign>
+                     <ref cRef="Jer." loc="31,32">Jer. 31,32</ref>
+                     <lbl expand="varia lectio">var.</lbl>; <foreign xml:lang="grc">συντέλεια</foreign>
+                     <ref cRef="Hab." loc="1,9">Hab. 1,9</ref>; <ref cRef="Jud." loc="20,40">Jud.
+                        20,40</ref>; <foreign xml:lang="gez">ጥፍአተ፡ መሃይምናን፡ </foreign> (quae fit
+                     persecutione) <ref cRef="Clem." loc="1">Clem. f. 1</ref>; <foreign xml:lang="gez">ከመዝኬ፡ ጥፍአቶሙ፡ ለኃጥኣን፡ በምዕር፡</foreign>
+                     <ref cRef="Macc." loc="21">Macc. f. 21</ref>; <ref cRef="Gad. Ad." loc="17.">Gad. Ad. f. 17.</ref>
+                     <sense n="a" xml:id="D2a">
+                        <cit type="translation" xml:lang="la">
+                           <quote>amissio</quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                           <quote>jactura</quote>
+                        </cit>: <foreign xml:lang="gez">ጥፍአተ፡ ንዋይ፡ ወሐመር፡</foreign>, <foreign xml:lang="gez">ጥፍአተ፡ ነፍስ፡</foreign>
+                        <ref cRef="Act." loc="27,10">Act. 27,10</ref>; <ref cRef="Act." loc="27,22">Act. 27,22</ref>
+                        <lbl expand="romanae editionis">rom.</lbl>
+                     </sense>
+                     <sense n="b" xml:id="D2b">
+                        <cit type="translation" xml:lang="la">
+                           <quote>perditio</quote>
+                        </cit> mentis (i.e. perturbatio vel alienatio): <foreign xml:lang="gez">ጥፍአተ፡ ልብ፡</foreign> F.N. 50.</sense>
+                  </sense>
+               </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

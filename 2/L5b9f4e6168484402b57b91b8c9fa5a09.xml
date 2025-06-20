@@ -1,0 +1,121 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ቅጽበት </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L5b9f4e6168484402b57b91b8c9fa5a09" n="3714">
+               <form>
+                  <foreign xml:lang="gez">ቅጽበት</foreign>
+               </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain">
+                  <gramGrp>
+                     <pos expand="nomen actionis">n. act.</pos>
+                  </gramGrp>
+                  <sense n="1" xml:id="D1">
+                     <cit type="translation" xml:lang="la">
+                        <quote>nutus</quote>
+                     </cit>: <foreign xml:lang="gez">ይኤምር፡ በቅጽበተ፡ አጻብዕ፡</foreign>
+                     <foreign xml:lang="grc">διδάσκει ἐννεύμασι δακτύλων</foreign>
+                     <ref cRef="Prov." loc="6,13">Prov. 6,13</ref>; Deus creavit <foreign xml:lang="gez">በቅጽበት፡</foreign>
+                     <ref cRef="Clem." loc="49">Clem. f. 49</ref>; <ref cRef="Clem." loc="83">Clem.
+                        f. 83</ref>; <ref cRef="Clem. " loc="218.">Clem. f. 218.</ref>
+                  </sense>
+                  <sense n="2" xml:id="D2">
+                     <cit type="translation" xml:lang="la">
+                        <quote>nictatio</quote>
+                     </cit> vel <cit type="translation" xml:lang="la">
+                        <quote>nictus oculi</quote>
+                     </cit>; usurpatur do temporis spatio minimo: <cit type="translation" xml:lang="la">
+                        <quote>ictus</quote>
+                     </cit>, <cit type="translation" xml:lang="la">
+                        <quote>momentum</quote>
+                     </cit>, <cit type="translation" xml:lang="la">
+                        <quote>punctum temporis</quote>
+                     </cit>; rarius praemisso <foreign xml:lang="gez">በ፡</foreign>, ut: <foreign xml:lang="gez">ዘነበበ፡ በጊዜሃ፡ ይገብር፤ በቅጽበት፡ ዘኀለየ፡ ይከውኖ፡</foreign> Lit. Orth.;
+                        <foreign xml:lang="gez">በመጠነ፡ አሐቲ፡ ቅጽበት፡</foreign>
+                     <foreign xml:lang="grc">πρὸς μίαν ῥοπήν</foreign>
+                     <ref cRef="Sap. " loc="18,12">Sap. 18,12</ref>; vel in <gramGrp>
+                        <case value="accusativus">Acc.</case>
+                     </gramGrp>: <foreign xml:lang="gez">ኢተፈልጠ፡ መለኮት፡ እምትስብእት፡ ወኢቅጽበተ፡ ዐይን፡
+                     </foreign> Haim. Ab.; <ref cRef="Lit." loc="166,4">Lit. 166,4</ref>; plerumque
+                     praemisso <foreign xml:lang="gez">ከመ፡</foreign>, ut: <ref cRef="1 Cor." loc="15,22">1 Cor. 15,22</ref>; <ref cRef="Genz." loc="34">Genz. f.
+                     34</ref>; <foreign xml:lang="gez">በሣልስ፡ ንፍሐተ፡ ቀርን፡ ይትነሥኡ፡ ሙታን፡ ከመ፡ ቅጽበተ፡
+                        ዐይን፡</foreign>
+                     <ref cRef="Clem." loc="157">Clem. f. 157</ref>; <cb n="0476" xml:id="c0476"/>
+                     <foreign xml:lang="gez">ያነሥኦሙ፡ ለምውታን፡ ከመ፡ ቅጽበተ፡ ዐይን፡</foreign>
+                     <ref cRef="Macc." loc="5">Macc. f. 5</ref>; <foreign xml:lang="gez">ተዐገሥ፡ ከመ፡
+                        ቅጽበተ፡ ዐይን፡ አሐተ፡ ሰዓተ፡</foreign>
+                     <ref cRef="Jsp." loc="290">Jsp. p. 290</ref>; <foreign xml:lang="gez">ወለእመኒ፡
+                        ኮነ፡ ከመ፡ ቅጽበተ፡ ዐይን፡ እምቅድመ፡ ሞትነ፡ እመዋዕሊነ፡ </foreign>
+                     <ref cRef="F.N." loc="28,1">F.N. 28,1</ref>.</sense>
+                  <sense n="3" xml:id="D3">
+                     <cit type="translation" xml:lang="la">
+                        <quote>significatio obscura</quote>
+                     </cit>, <cit type="translation" xml:lang="la">
+                        <quote>aenigma</quote>
+                     </cit>: <foreign xml:lang="gez">ፈክሮ፡ ቅጽበት፡ </foreign>
+                     <foreign xml:lang="grc">λύσεις αἰνιγμάτων</foreign>
+                     <ref cRef="Sap." loc="8,8">Sap. 8,8</ref>; <foreign xml:lang="gez">ነገረ፡ ጠቢባን፡
+                        በቅጽበት፡</foreign>
+                     <foreign xml:lang="grc">ῥήσεις σοφῶν καὶ αἰνίγματα</foreign>
+                     <ref cRef="Prov." loc="1,6">Prov. 1,6</ref>.</sense>
+               </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

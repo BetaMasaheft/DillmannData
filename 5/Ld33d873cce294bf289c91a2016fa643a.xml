@@ -1,0 +1,77 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ቀርጠሎን </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="LB" when="2018-02-23">root</change>
+        </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="Ld33d873cce294bf289c91a2016fa643a" n="3355">
+               <form>
+                  <foreign xml:lang="gez">ቀርጠሎን</foreign>
+               <rs type="root"/>
+                    </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain">, <foreign xml:lang="gez">ቀርጠልስ፡</foreign>, <foreign xml:lang="gez">ቀርጣልስ፡</foreign>, <foreign xml:lang="gez">ቀርጠሎ፡</foreign>, <foreign xml:lang="gez">ቀርጤል፡</foreign> <gramGrp> <pos expand="not found">n. peregr.</pos> </gramGrp>, <foreign xml:lang="grc">κάρταλλος</foreign> <cit type="translation" xml:lang="la">
+                            <quote> cartallus </quote>
+                        </cit>, vasis genus, <cit type="translation" xml:lang="la">
+                            <quote> canistrum </quote>
+                        </cit>, <cb n="0430" xml:id="c0430"/> <cit type="translation" xml:lang="la">
+                            <quote> cophinus </quote>
+                        </cit> (<foreign xml:lang="he">קַרְטִיל</foreign> <foreign xml:lang="syr">ܩܰܪܛܳܠܳܐ</foreign> <foreign xml:lang="ar">قِرْطَلَّةٌ</foreign>) <ref cRef="Deut." loc="26,2">Deut. 26,2</ref>; <ref cRef="Deut. " loc="26,4">Deut.  26,4</ref>; at. <foreign xml:lang="gez">ሰቀሉ፡ አርእስቲሆሙ፡ ውስተ፡ ዕፀወ፡ ቀርጣልስ፡</foreign> (<foreign xml:lang="gez">ቀርጠልስ፡</foreign>) <ref cRef="4 Reg." loc="10,7">4 Reg. 10,7</ref>. – <lbl expand="Vocabularium Aethiopicum, -a -a">Voc. Ae.</lbl>: <foreign xml:lang="gez">ቀርጤል፡</foreign> (v. <foreign xml:lang="gez">ቀርጠሎ፡</foreign>) <foreign xml:lang="gez">ዘ፡ ናርጅ፡ መሶብሂ፡ ይ፡</foreign> </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

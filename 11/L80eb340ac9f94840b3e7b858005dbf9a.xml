@@ -1,0 +1,97 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ሰ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="LB" when="2018-02-14">root</change>
+        </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L80eb340ac9f94840b3e7b858005dbf9a" n="2428">
+               <form>
+                  <foreign xml:lang="gez">ሰ</foreign>
+               <rs type="root"/>
+                    </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain"> particula inseparabilis suffixa (<bibl>
+                            <ptr target="bm:Dillmann1857Gramm"/>gramm.</bibl> § 62,1,a; <bibl>
+                            <ptr target="bm:Dillmann1857Gramm"/>gramm.</bibl> § 168,5; <bibl>
+                            <ptr target="bm:Dillmann1857Gramm"/>gramm.</bibl> § 200,2); vim habet <cit type="translation" xml:lang="la">
+                            <quote> restringendi </quote>
+                        </cit> et <cit type="translation" xml:lang="la">
+                            <quote> distinguendi </quote>
+                        </cit> ejus, ad quod pertinet, vocabuli, ita ut ante caetera emineat. <sense n="a" xml:id="Da"> Additur iis enucniationis vocabulis, in quae summa orationis vis intenditur (<cit type="translation" xml:lang="la">
+                                <quote> certe </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> vero </quote>
+                            </cit>): <foreign xml:lang="gez">ወልድየሰ፡ ሞተ፡</foreign> <foreign xml:lang="grc">ἀπώλετο τὸ παιδίον</foreign> <ref cRef="Tob." loc="10,4">Tob. 10,4</ref>; <ref cRef="Tob." loc="10,7">Tob. 10,7</ref>; <foreign xml:lang="gez">ሕያው፡ ውእቱሰ፡</foreign> <foreign xml:lang="grc">ὑγιαίνει</foreign> <ref cRef="Tob." loc="10,6">Tob. 10,6</ref>; <ref cRef="Gen." loc="15,4">Gen. 15,4</ref>; <ref cRef="Gen. " loc="27,38">Gen.  27,38</ref> (<foreign xml:lang="gez">ክመ፡</foreign>–<foreign xml:lang="gez">ሰ፡</foreign>); <ref cRef="Gen." loc="37,17">Gen. 37,17</ref>; <ref cRef="Gen." loc="42,28">Gen. 42,28</ref>; <ref cRef="Ex." loc="2,18">Ex. 2,18</ref>; <ref cRef="Num." loc="14,7">Num. 14,7</ref>; <ref cRef="1 Reg." loc="11,13">1 Reg. 11,13</ref>; <ref cRef="Ps." loc="1,5">Ps. 1,5</ref>; <ref cRef="Jes." loc="66,2">Jes. 66,2</ref>; <ref cRef="Matth." loc="4,3">Matth. 4,3</ref>; <ref cRef="Matth." loc="6,34">Matth. 6,34</ref>; <ref cRef="Matth." loc="21,37">Matth. 21,37</ref>; <ref cRef="Marc." loc="12,6">Marc. 12,6</ref>; nonnumquam duobus ejusdem enuntiationis vocabulis annectitur, ut <ref cRef="Gen." loc="30,20">Gen. 30,20</ref>.</sense> <sense n="b" xml:id="Db"> Respondet graeco <foreign xml:lang="grc">μέν</foreign> (<cit type="translation" xml:lang="la">
+                                <quote> quidem </quote>
+                            </cit>), sive in altero membro sequatur <foreign xml:lang="gez">ወ</foreign> simplex, ut: <foreign xml:lang="gez">ቃልሰ፡ ቃለ፡ ያዕቆብ፡ ወእደው፡ ዘዔሳው፡</foreign> <ref cRef="Gen." loc="27,22">Gen. 27,22</ref>; <foreign xml:lang="gez">እግዚአብሔር፡ ለዕቡያንሰ፡ ይትቃወሞሙ፡ ወለትሑታን፡ ይሁቦሙ፡ ክብረ፡</foreign> <ref cRef="Prov." loc="3,34">Prov. 3,34</ref>; <ref cRef="Matth." loc="9,37">Matth. 9,37</ref>; <ref cRef="Matth." loc="26,41">Matth. 26,41</ref>; <ref cRef="Rom." loc="7,12">Rom. 7,12</ref>; sive sequatur <foreign xml:lang="gez">ወ</foreign>–<foreign xml:lang="gez">ሰ፡</foreign>, ut: <foreign xml:lang="gez">ሰብእሰ፡ ገጸ፡ ይሬኢ፡ ወእግዚአብሔርሰ፡ ልበ፡ ይሬኢ፡</foreign> <ref cRef="1 Reg." loc="16,7">1 Reg. 16,7</ref>; <ref cRef="Kuf. " loc="26">Kuf.  26</ref>; <ref cRef="Rom." loc="11,28">Rom. 11,28</ref>; <ref cRef="Hebr." loc="7,8">Hebr. 7,8</ref>; <ref cRef="Joh." loc="3,29">Joh. 3,29</ref>; <ref cRef="Joh." loc="3,30">Joh. 3,30</ref>; sive <foreign xml:lang="gez">ወ</foreign>–<foreign xml:lang="gez">ኒ፡</foreign>, ut: <foreign xml:lang="gez">ለአድግሰ፡ አቅምሖ፡ ወለገብርኒ፡ ገሥጾ፡</foreign> <ref cRef="Sir." loc="30,33">Sir. 30,33</ref>; <foreign xml:lang="gez">እንዘ፡ ሕይወትሰ፡ በኀበ፡ እግዚአብሔር፡ ወፍተኒ፡ እምኀበ፡ ንጉሥ፡ ይነሥእ፡</foreign> <ref cRef="Sir." loc="38,2">Sir. 38,2</ref>.</sense> <sense n="c" xml:id="Dc"> Respondet graeco <foreign xml:lang="grc">δέ</foreign> (<cit type="translation" xml:lang="la">
+                                <quote> autem </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> vero </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> contra </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> sed </quote>
+                            </cit>) et oppositionem leviorem gravioremve suugerit; rarius <foreign xml:lang="gez">ሰ፡</foreign> nudum, ut: <foreign xml:lang="gez">ይእዜሰኬ፡</foreign> <foreign xml:lang="grc">νυνὶ δέ</foreign> <ref cRef="Rom. " loc="3,21">Rom.  3,21</ref>; <ref cRef="Rom." loc="4,2">Rom. 4,2</ref>; <ref cRef="Matth." loc="6,33">Matth. 6,33</ref>; plerumque cum <foreign xml:lang="gez">ወ፡</foreign> compositum, scilicet: <foreign xml:lang="gez">ወ</foreign>–<foreign xml:lang="gez">ሰ፡</foreign>, ut: <foreign xml:lang="gez">ወአእምሮ፡ ሕግሰ፡</foreign> <ref cRef="Prov." loc="9,10">Prov. 9,10</ref>; <foreign xml:lang="gez">ወለእለ፡ ዘእንበለ፡ ልብሰ፡</foreign> <ref cRef="Prov. " loc="14,8">Prov.  14,8</ref>; <ref cRef="Ps." loc="36,9">Ps. 36,9</ref>; <ref cRef="Ps." loc="36,11">Ps. 36,11</ref>; <ref cRef="Mal." loc="1,12">Mal. 1,12</ref>; <ref cRef="Lev." loc="1,10">Lev. 1,10</ref>; <ref cRef="Lev." loc="1,14">Lev. 1,14</ref>; <ref cRef="Lev." loc="2,1">Lev. 2,1</ref>; <ref cRef="Lev." loc="3,1">Lev. 3,1</ref>; <ref cRef="Luc. " loc="2,19">Luc.  2,19</ref>; <ref cRef="Luc." loc="3,17">Luc. 3,17</ref>; <ref cRef="Luc." loc="12,31">Luc. 12,31</ref>; <ref cRef="Rom." loc="3,5">Rom. 3,5</ref>; <ref cRef="Rom." loc="3,7">Rom. 3,7</ref>; <ref cRef="Rom." loc="4,5">Rom. 4,5</ref>; <foreign xml:lang="gez">ወእመሰኬ፡</foreign> <ref cRef="Rom." loc="6,5">Rom. 6,5</ref>: nonnumquam fortiore aliqua particula adversativa adjecta, ut: <foreign xml:lang="gez">ወባሕቱ፡ ለሊሁሰ፡</foreign> <ref cRef="Joh." loc="4,2">Joh. 4,2</ref>; <ref cRef="Gen." loc="24,8">Gen. 24,8</ref>; <foreign xml:lang="gez">ወእሙንቱሰ፡ ዳእሙ፡ ክልኤሆሙ፡ እለ፡ ድኅኑ፡</foreign> <ref cRef="Sir." loc="46,8">Sir. 46,8</ref>; <foreign xml:lang="gez">ኮኑ፡ አበዊሁ፡ ነዳያነ፡ አላ፡ እሙንቱሰ፡ ኮኑ፡ ብዑላነ፡ በምግባረ፡ ሠናይ፡</foreign> <ref cRef="Sx. Genb." loc="19.">Sx. Genb. 19.</ref> In specie hoc <foreign xml:lang="gez">ወ</foreign>–<foreign xml:lang="gez">ሰ፡</foreign> usurpatur, <sense n="α" xml:id="Dcα"> ubi ad causam vel quaestionem novam transitus fit: <foreign xml:lang="gez">ወተኣምሪሁሰ፡</foreign> <cit type="translation" xml:lang="la">
+                                    <quote> ejus signa autem </quote>
+                                </cit> (sc. quod attinet) <ref cRef="4 Esr." loc="3,1">4 Esr. 3,1</ref>; <ref cRef="4 Esr. " loc="6,51">4 Esr.  6,51</ref>; <ref cRef="Asc. Jes." loc="8,27">Asc. Jes. 8,27</ref>;</sense> <sense n="β" xml:id="Dcβ"> ubi enuntiationi principali alia subjungitur, qua status vel conditio personae vel rei, in principali enuntiatione laudatae, describatur: <foreign xml:lang="gez">ተንሥአ፡ መልአከ፡ እግዚአብሔር፡ ይትዓቀፎ፡ ወውእቱሰ፡ ይጼዐን፡ ዲበ፡ እድግቱ፡</foreign> <ref cRef="Num." loc="22,22">Num. 22,22</ref>; <ref cRef="Gen." loc="19,1">Gen. 19,1</ref>; <ref cRef="Gen." loc="20,4">Gen. 20,4</ref>; <ref cRef="Jud." loc="13,2">Jud. 13,2</ref>; <ref cRef="Matth." loc="8,24">Matth. 8,24</ref>. – Voci <foreign xml:lang="gez">አነ፡</foreign> <cit type="translation" xml:lang="la">
+                                    <quote> ego </quote>
+                                </cit> annexum <foreign xml:lang="gez">ሰ፡</foreign> cum ea in <foreign xml:lang="gez">አንሰ፡</foreign> concrescit (<bibl>
+                                    <ptr target="bm:Dillmann1857Gramm"/>gramm.</bibl> § 171, <lbl expand="sub finem">s. fin.</lbl>).</sense> </sense> </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

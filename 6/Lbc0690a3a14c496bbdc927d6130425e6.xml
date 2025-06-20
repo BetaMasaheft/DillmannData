@@ -1,0 +1,78 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ደዌ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="AE" when="2017-11-03">Korrektur aus den Emendanda</change>
+        <change who="MK" when="2018-03-16">added cross-reference</change>
+            <change who="MK" when="2018-03-16">correction</change>
+            <change who="MK" when="2018-03-16">corr</change>
+            <change who="MK" when="2018-03-16">correction</change>
+            <change who="MK" when="2018-03-16">correction</change>
+            <change who="MK" when="2018-03-23">corr</change>
+        <change who="AE" when="2018-04-23">diverse Fehlerchen korrigiert,</change>
+        <change who="MK" when="2019-11-25">added encoding</change></revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="Lbc0690a3a14c496bbdc927d6130425e6" n="8127">
+               <form>
+                  <foreign xml:lang="gez">ደዌ</foreign>
+               </form>
+               <sense xml:id="Dmain" xml:lang="la" source="#dillmann"> <gramGrp> <pos expand="Substantivum">subst.</pos> </gramGrp>, <gramGrp> <gen value="femininus">fem.</gen> </gramGrp> et <gramGrp> <gen value="not found">m.</gen> </gramGrp>, <lbl expand="pluralis">Pl.</lbl> <foreign xml:lang="gez">ደዌያት፡</foreign> <cit type="translation" xml:lang="la"><quote> aegrotatio </quote></cit>, <cit type="translation" xml:lang="la"><quote> morbus </quote></cit>, <cit type="translation" xml:lang="la"><quote> valetudo adversa </quote></cit>, <ref cRef="Ex." loc="15,26">Ex. 15,26</ref>; <ref cRef="Deut." loc="7,15">Deut. 7,15</ref>; <foreign xml:lang="gez">ደዌ፡ እኩይ፡ ውስተ፡ ብረኪከ፡</foreign> <ref cRef="Deut." loc="28,35">Deut. 28,35</ref>; {<ref target="#c1434"/> <foreign xml:lang="gez">ከብደ፡</foreign>} <foreign xml:lang="gez">ደዌሁ፡</foreign> <ref cRef="3 Reg." loc="17,17">3 Reg. 17,17</ref>; <foreign xml:lang="gez">ለእመ፡ አሐዩ፡ እምዛቲ፡ ደዌ፡</foreign> <ref cRef="4 Reg." loc="1,2">4 Reg. 1,2</ref>; <ref cRef="4 Reg." loc="8,8">4 Reg. 8,8</ref>; <foreign xml:lang="gez">ደዌ፡ መሪር፡ ወእኩይ፡ ደዌ፡ ከርሥ፡</foreign> <ref cRef="2 Par." loc="21,15">2 Par. 21,15</ref>; <foreign xml:lang="gez">እሁብ፡ ደዌ፡ ላዕለ፡ ዝንቱ፡ ሕዝብ፡</foreign> <ref cRef="Jer." loc="6,21">Jer. 6,21</ref>; <foreign xml:lang="gez">ሐይወ፡ እምደዌሁ፡</foreign> <ref cRef="Jes." loc="38,9">Jes. 38,9</ref>; <ref cRef="Ps." loc="15,3">Ps. 15,3</ref>; <ref cRef="Ps." loc="40,3">Ps. 40,3</ref>; <ref cRef="Koh." loc="5,12">Koh. 5,12</ref>; <ref cRef="Koh." loc="5,15">Koh. 5,15</ref>; <ref cRef="Koh." loc="6,2">Koh. 6,2</ref>; <ref cRef="Job" loc="33,19">Job 33,19</ref>; <foreign xml:lang="gez">ደዌ፡ ሲሕ፡</foreign> <ref cRef="Sir." loc="30,17">Sir. 30,17</ref>; <ref cRef="Sir." loc="34,20">Sir. 34,20</ref>; <ref cRef="4 Esr." loc="7,24">4 Esr. 7,24</ref>; <ref cRef="4 Esr." loc="8,63">4 Esr. 8,63</ref>; <foreign xml:lang="gez">በደዌሁ፡</foreign> <ref cRef="Asc. Jes." loc="1,4">Asc. Jes. 1,4</ref>; <ref cRef="Asc. Jes." loc="2,14">Asc. Jes. 2,14</ref>; <ref cRef="Matth." loc="4,23">Matth. 4,23</ref>; <ref cRef="Matth." loc="8,17">Matth. 8,17</ref>; <ref cRef="Matth. " loc="9,35">Matth.  9,35</ref>; <ref cRef="Matth." loc="10,1">Matth. 10,1</ref>; <foreign xml:lang="gez">ደዌ፡ ውሳጣዊ፡</foreign> <ref cRef="M.F." loc="">M.F. </ref>; <foreign xml:lang="gez">ደዌያት፡</foreign> <ref cRef="F.M." loc=" 10,1">F.M.  10,1</ref>; <ref cRef="Fal." loc="57.">Fal. f. 57.</ref> <sense n="a" xml:id="Da"> <cit type="translation" xml:lang="la"><quote> morbus </quote></cit> vel <cit type="translation" xml:lang="la"><quote> labes </quote></cit> animi: <foreign xml:lang="gez">ነበረት፡ ይእቲ፡ ደዌ፡ ውስተ፡ ልብ፡</foreign> <ref cRef="4 Esr." loc="1,22">4 Esr. 1,22</ref>; <foreign xml:lang="gez">ደዌ፡ ጌጋይ፡</foreign> <ref cRef="Sx. Mij." loc="2 Enc.">Sx. Mij. 2 Enc.</ref> (in cod. Tubing.).</sense> <sense n="b" xml:id="Db"> statui constr. subjunctum: <cit type="translation" xml:lang="la"><quote> morbifer </quote></cit>, <cit type="translation" xml:lang="la"><quote> insaluber </quote></cit>, <foreign xml:lang="gez">ነፋሰ፡ ደዌ፡</foreign> <foreign xml:lang="grc">ἀνεμοφθορία</foreign> <ref cRef="2 Par." loc="6,28">2 Par. 6,28</ref>.</sense> <sense n="c" xml:id="Dc"> „<cit type="translation" xml:lang="la"><quote> affectus quivis malus </quote></cit> vel <cit type="translation" xml:lang="la"><quote> malum </quote></cit>“, ut: <foreign xml:lang="gez">ደዌ፡ ዕርቃን፡</foreign> Lud. ex <ref cRef="Sx. Mij." loc="2 Enc.">Sx. Mij. 2 Enc.</ref> </sense> </sense>
+               
+            <sense xml:id="Tmain" xml:lang="en" source="#traces"> <cit type="transcription" xml:lang="gez"><quote> dawe </quote></cit> <sense n="C" xml:id="TC"> for <foreign xml:lang="gez">ሕማመ፡ ደዌ፡</foreign> <lbl expand="videas">vid.</lbl> <foreign xml:lang="gez">ሕማም፡</foreign> (TraCES) </sense> </sense>
+                </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

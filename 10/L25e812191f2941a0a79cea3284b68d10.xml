@@ -1,0 +1,74 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ማኅቶት </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="MK" when="2022-08-19">added Leslau</change><change who="MK" when="2022-08-19">added cross refe</change><change who="MK" when="2022-08-19">added transliteration</change></revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L25e812191f2941a0a79cea3284b68d10" n="4592">
+               <form>
+                  <foreign xml:lang="gez">ማኅቶት</foreign>
+               </form>
+               <sense xml:id="Dmain" xml:lang="la" source="#dillmann"> <gramGrp> <pos expand="Substantivum">subst.</pos> </gramGrp>, etiam <foreign xml:lang="gez">ማኅትው፡</foreign> et <foreign xml:lang="gez">ማኅተው</foreign> (Deg.; Lud.), <gramGrp> <gen value="femininus">fem.</gen> </gramGrp> et <gramGrp> <gen value="not found">m.</gen> </gramGrp>, <lbl expand="pluralis">Pl.</lbl> <foreign xml:lang="gez">መኃትው፡</foreign>, <lbl expand="pluralis">Pl.</lbl> <lbl expand="pluralis">Pl.</lbl> <foreign xml:lang="gez">መኃትዋት፡</foreign> (<ref cRef="Sx. Teq." loc="5">Sx. Teq. 5</ref>; Sx. <ref cRef="Teq." loc="20.">Teq. 20.</ref>) <sense n="1" xml:id="D1"> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> lucerna </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> lampas </t:quote></cit>, <foreign xml:lang="grc">λύχνος</foreign> <ref cRef="Ex." loc="30,8">Ex. 30,8</ref>; <ref cRef="Matth." loc="5,15">Matth. 5,15</ref>; <ref cRef="Matth." loc="6,22">Matth. 6,22</ref>; <ref cRef="Luc." loc="11,36">Luc. 11,36</ref>; <ref cRef="Job" loc="18,6">Job 18,6</ref>; <ref cRef="Job" loc="29,3">Job 29,3</ref>; <foreign xml:lang="gez">ብርሃነ፡ ማኅቶት፡</foreign> <foreign xml:lang="grc">φῶς λύχνου</foreign> <ref cRef="Jer." loc="25,10">Jer. 25,10</ref>; <ref cRef="Ep. Jer." loc="18">Ep. Jer. 18</ref>; <ref cRef="Prov." loc="6,23">Prov. 6,23</ref>; <ref cRef="Prov." loc="29,36">Prov. 29,36</ref>; <ref cRef="Ps." loc="118,105">Ps. 118,105</ref>; <foreign xml:lang="grc">λαμπάς</foreign> <ref cRef="Dan." loc="5,5">Dan. 5,5</ref>; <ref cRef="Matth." loc="25,1">Matth. 25,1</ref> <lbl expand="sequens">seq.</lbl>; <foreign xml:lang="gez">ወማኅቶት፡ ውስተ፡ እደዊሆሙ፡</foreign> <ref cRef="Kuf." loc="23">Kuf. 23</ref>; <ref cRef="4 Esr." loc="10,2">4 Esr. 10,2</ref>; <foreign xml:lang="gez">ማኅቶተ፡ ጥበብ፡</foreign> <ref cRef="4 Esr. " loc="14,28">4 Esr.  14,28</ref>. 
+</sense> <sense n="2" xml:id="D2"> in specie: <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> lychnuchus </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> candelabrum </t:quote></cit>: <foreign xml:lang="gez">መኃትወ፡ ብሩር፡</foreign> <ref cRef="Judith" loc="10,2">Judith 10,2</ref>; <ref cRef="Apoc." loc="1,12">Apoc. 1,12</ref>; <ref cRef="Apoc." loc="1,13">Apoc. 1,13</ref>; <ref cRef="Apoc." loc="11,4">Apoc. 11,4</ref>; quamquam ubi diligentius verba eligunt, candelabrum <foreign xml:lang="gez">ተቅዋመ፡ ማኅቶት፡</foreign>, ejus <foreign xml:lang="grc">λύχνους</foreign> autem et <foreign xml:lang="grc">λαμπάδια</foreign> <foreign xml:lang="gez">ማኅቶት፡</foreign> vocant, ut <ref cRef="Ex." loc="25,31">Ex. 25,31</ref>; <ref cRef="Ex." loc="25,37">Ex. 25,37</ref>; <ref cRef="Ex." loc="38,16">Ex. 38,16</ref>; <ref cRef="Sir." loc="26,17">Sir. 26,17</ref>; <ref cRef="Zach." loc="4,2">Zach. 4,2</ref>. 
+</sense> <sense n="3" xml:id="D3"> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> fax </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> taeda </t:quote></cit> (<foreign xml:lang="grc">λαμπάς</foreign>): <foreign xml:lang="gez">መኃትወ፡ ጽጕ፡</foreign> <ref cRef="Joh." loc="18,3">Joh. 18,3</ref>; <ref cRef="Jud." loc="15,4">Jud. 15,4</ref>; <ref cRef="Job" loc="41,10">Job 41,10</ref>; <ref cRef="Dan. " loc="10,6">Dan.  10,6</ref>. 
+</sense> <sense n="4" xml:id="D4"> Ubi de festis ecclesiae Christianae agitur, <foreign xml:lang="gez">መኃትው፡</foreign> (etiam <foreign xml:lang="gez">ማኅትው፡</foreign> Deg.) est <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> vigilia </t:quote></cit>: <foreign xml:lang="gez">ሰንበት፡ መኃትወ፡ ፋሲካ፡</foreign> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> vigilia Paschatis </t:quote></cit> <ref cRef="Did. " loc="30">Did.  30</ref>; <bibl><ptr target="bm:Ludolf1691Commentariusin"/></bibl> hist. <ref cRef="Ae." loc="303 ">Ae. p. 303 </ref>(illa enim nocte <foreign xml:lang="grc">λαμπάδες ἦσαν πυρὸς πάντα φωτίζουσαι τόπον</foreign>, <foreign xml:lang="grc">ὡς λαμπρᾶς ἡμέρας τηλαυγεστέραν τὴν μυστικὴν διανυκτέρευσιν ἀποτελεῖσθαι</foreign> Euseb. Vit. Const. <subc>IV,2</subc>2; inde) de omnibus aliis vigiliis dierum festorum Deg., Mavâs. (creberrime). Praeterea <foreign xml:lang="gez">በዓለ፡ ስምዖን፡</foreign> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> festum Symeonis </t:quote></cit> (seu purificationis Mariae) etiam <foreign xml:lang="gez">በዓለ፡ ማኅቶት፡</foreign> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> festum candelarum </t:quote></cit> sive <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> luminum </t:quote></cit> (Lichtmeß) vocatur <ref cRef="II Const. Ap." loc="4.">II Const. Ap. 4.</ref> – <lbl expand="Vocabularium Aethiopicum, -a -a">Voc. Ae.</lbl>: <foreign xml:lang="gez">ማኅቶት፡ ዘ፡ መብርሃት፡</foreign>; <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> aliud </t:quote></cit>: <foreign xml:lang="gez">ማኅቶት፡ ዘ፡ ፋና፡ መብርሃት፡</foreign> 
+</sense> </sense>
+               
+            <sense xml:id="Tmain" xml:lang="en" source="#traces"> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">māḫtot</t:quote></cit>, <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">māḫtǝw</t:quote></cit>, <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">māḫtaw</t:quote></cit>, <lbl expand="pluralis">Pl.</lbl> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">maḫātǝw</t:quote></cit>, <lbl expand="pluralis">Pl.</lbl><lbl expand="pluralis">Pl.</lbl> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">maḫātwāt</t:quote></cit> <sense n="L" xml:id="TL"> <foreign xml:lang="gez">መኃትወ፡ ሆሳዕና</foreign> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">maḫātǝwa hosāʿnā</t:quote></cit> <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">eve of Palm Sunday</t:quote></cit> <bibl><ptr target="bm:Leslau1987dic"/><citedRange unit="page"> 219b</citedRange></bibl>, <lbl expand="videas">vid.</lbl> <foreign xml:lang="gez">ሆሳዕና</foreign> 
+</sense> </sense></entry>
+         </div>
+      </body>
+   </text>
+</TEI>

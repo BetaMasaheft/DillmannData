@@ -1,0 +1,86 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng"
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="gez">በረ፡ ዓረብ</title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref></p>
+            <p><ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref></p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+         <listPrefixDef>
+            <prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="MK" when="2019-12-17">added new entry</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="Lc28bb60892ff45408c2d785888aee831" n="12687">
+               <form><foreign xml:lang="gez">በረ፡ ዓረብ</foreign></form>
+               <sense xml:id="Dmain" xml:lang="en" source="#dillmann">
+                  <cit type="transcription" xml:lang="gez">
+                     <quote>bara ʿārab</quote>
+                  </cit>
+                  <foreign xml:lang="gez">በርዓረብ፡</foreign>
+                  <cit type="transcription" xml:lang="gez">
+                     <quote>bar ʿārab</quote>
+                  </cit>
+                  <gramGrp><pos expand="nomen proprium">n. pr.</pos></gramGrp> (place name) <foreign xml:lang="gez">ወይጽንሕዋ፡ ውስተ፡ ቤርኬማ፡ ዝውእቱ፡ በርዓረብ፡</foreign> ‘<cit type="translation" xml:lang="en">
+                     <quote>ipsam expectaturi in Barkēmā oppido, quod est Barʿārab</quote>
+                  </cit>’ <bibl><ptr target="bm:ContiRossini1904MarqorewosT"/><citedRange unit="page"> 5 l. 18-19</citedRange></bibl>, <bibl><ptr target="bm:ContiRossini1904Marqorewos"/><citedRange unit="page"> 4 l.
+                        5</citedRange></bibl>; <foreign xml:lang="gez">ወውስተ፡ ውእቱ፡ ማኅፈድ፡ ምሉእ፡ ንዋየ፡
+                     ወርቅ፡ ወብሩር፡ ወዕንቍ፡ ክቡር፡ ወአልባስ፡ ቀጠንት፡ ወብዕል፡ ብዙኅ፡ ዘኢይትኌለቍ። ብዕለ፡ ውስጥቡል፡ ወምስር፡ በዘቢድ፡
+                     ወጅበል፡ ወኵሉ፡ በረ፡ ዓረብ።</foreign> ‘<cit type="translation" xml:lang="en">
+                     <quote>And within the tower it was filled with golden and silver vessels,
+                        precious stones, luxury clothes and incalculable wealth from Wǝsṭǝbbul
+                        (Istanbul), Egypt, Zäbid, Jäbal and all Bärä ʿArab</quote>
+                  </cit>’ <bibl><ptr target="bm:Solomon2019GalawdewosI"/><citedRange unit="page"> 79
+                        § 158 (ed.)</citedRange></bibl>, <bibl><ptr target="bm:Solomon2019GalawdewosII"/><citedRange unit="page"> 47 § 158
+                        (tr.)</citedRange></bibl>
+                  <nd/>
+               </sense>
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

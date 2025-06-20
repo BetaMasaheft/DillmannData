@@ -1,0 +1,137 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ምንባር </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="Lfba8024f675647da9e8211438a98af19" n="4932">
+               <form>
+                  <foreign xml:lang="gez">ምንባር</foreign>
+               </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain">
+                  <gramGrp>
+                     <pos expand="Substantivum">subst.</pos>
+                  </gramGrp>, plerumque <gramGrp>
+                     <gen value="masculinum">m.</gen>
+                  </gramGrp>, <lbl expand="pluralis">Pl.</lbl>
+                  <foreign xml:lang="gez">ምንባራት፡ </foreign>
+                  <sense n="1" xml:id="D1">
+                     <cit type="translation" xml:lang="la">
+                        <quote>locus</quote>
+                     </cit>, <sense n="a" xml:id="D1a"> in quo quid positum est, <foreign xml:lang="grc">τόπος</foreign>: <foreign xml:lang="gez">ኰኵሕ፡ ይበሊ፡ በውስተ፡ ምንባሩ፡ </foreign>
+                        <ref cRef="Job" loc="14,18">Job 14,18</ref>; <ref cRef="Job" loc="27,21">Job
+                           27,21</ref>; <foreign xml:lang="gez">እምከመ፡ አንበርዎ፡ ኢይትሐወስ፡ እንከ፡
+                           እምንባሩ፡</foreign>
+                        <ref cRef="Jes." loc="46,7">Jes. 46,7</ref>; <ref cRef="4 Esr." loc="5,31">4
+                           Esr. 5,31</ref> (an: <cit type="translation" xml:lang="la">
+                           <quote>status?</quote>
+                        </cit>).</sense>
+                     <sense n="b" xml:id="D1b">
+                        <cit type="translation" xml:lang="la">
+                           <quote>ubi quid reponitur</quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                           <quote>apotheca</quote>
+                        </cit>: <foreign xml:lang="gez">ምንባራተ፡ ንዋያተ፡ ሐቅል፡</foreign>
+                        <foreign xml:lang="grc">ὁπλοθῆκαι</foreign>
+                        <cit type="translation" xml:lang="la">
+                           <quote> armamentaria</quote>
+                        </cit>
+                        <ref cRef="2 Par." loc="32,27">2 Par. 32,27</ref>.</sense>
+                     <sense n="c" xml:id="D1c"> ubi quis habitat: <cit type="translation" xml:lang="la">
+                           <quote>sedes</quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                           <quote>mansio</quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                           <quote>habitatio</quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                           <quote>domicilium</quote>
+                        </cit>, <ref cRef="Gen." loc="10,30">Gen. 10,30</ref>; <ref cRef="Gen." loc="14,12">Gen. 14,12</ref>; <ref cRef="Gen." loc="18,33">Gen.
+                           18,33</ref>; <ref cRef="Ex." loc="16,29">Ex. 16,29</ref>; <foreign xml:lang="gez">ገበርኪ፡ ምንባራተኪ፡ ውስተ፡ ኵሉ፡ መርሕብ፡</foreign>
+                        <ref cRef="Hez." loc="16,31">Hez. 16,31</ref>; <ref cRef="Nah. " loc="3,10">Nah. 3,10</ref>.</sense>
+                     <sense n="2" xml:id="D12">
+                        <cit type="translation" xml:lang="la">
+                           <quote>basis</quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                           <quote>fundamentum</quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                           <quote>sustentaculum</quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                           <quote>pes</quote>
+                        </cit>, <ref cRef="Lev." loc="1,15">Lev. 1,15</ref>; <ref cRef="Lev." loc="4,18">Lev. 4,18</ref>; <ref cRef="4 Reg." loc="16,17">4 Reg.
+                           16,17</ref>; <foreign xml:lang="gez">ምንባረ፡ መቅጹት፡</foreign>
+                        <foreign xml:lang="grc">χυτρόπους</foreign>
+                        <ref cRef="Lev." loc="11,35">Lev. 11,35</ref>.</sense>
+                     <sense n="3" xml:id="D13">
+                        <cit type="translation" xml:lang="la">
+                           <quote>sedes</quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                           <quote>sella</quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                           <quote>cathedra</quote>
+                        </cit> (aliâs <foreign xml:lang="gez">መንበር፡</foreign>); <ref cRef="1 Reg." loc="20,18">1 Reg. 20,18</ref>; <ref cRef="4 Reg." loc="16,18">4 Reg.
+                           16,18</ref>; <foreign xml:lang="gez">ሄሮድስ፡ በንእሱ፡ የሐውር፡ ኀበ፡ ምንባረ፡ ማእምራን፡
+                           ከመ፡</foreign>
+                        <cb n="0655" xml:id="c0655"/>
+                        <foreign xml:lang="gez">ይትመሀር፡ እምኔሆሙ፡</foreign>
+                        <ref cRef="Jsp." loc="328 ">Jsp. p. 328 </ref>(nisi malueris secundum n.
+                        1, c interpretari).</sense>
+                  </sense>
+               </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,99 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng"
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="gez">መቃሬዛ</title>
+            <editor>Alessandro Bausi</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>Hiob-Ludolf-Zentrum für Äthiopistik</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>The origin of the lexicon is in a thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann, Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum
+                     indice latino. Adiectum est vocabularium tigre dialecti septentrionalis
+                     compilatum</emph> a W. Munziger. Lipsiae: Th.O. Weigel, 1865.</ref></p>
+            <p>Additional records were created by the project <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/"> TraCES (ERC Advanced Grant, Grant
+                  Agreement 338756)</ref></p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+         <listPrefixDef>
+            <prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="MK" when="2022-07-27">added entry</change>
+         <change who="MK" when="2022-07-27">added etymology</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="Le42df8fc334d4c0e80790d6d83cd2704" n="12891">
+               <form><foreign xml:lang="gez">መቃሬዛ</foreign></form>
+               <sense xml:id="Tmain" xml:lang="en" source="#traces">
+                  <cit type="transcription" xml:lang="gez">
+                     <t:quote xmlns:t="http://www.tei-c.org/ns/1.0">maqārezā</t:quote>
+                  </cit>
+                  <gramGrp><pos expand="Substantivum">subst.</pos></gramGrp>
+                  <cit type="translation" xml:lang="en">
+                     <t:quote xmlns:t="http://www.tei-c.org/ns/1.0">sedan chair</t:quote>
+                  </cit>, <cit type="translation" xml:lang="en">
+                     <t:quote xmlns:t="http://www.tei-c.org/ns/1.0">stretcher</t:quote>
+                  </cit> (see also the comment below) <foreign xml:lang="gez">በዐለ፡ መቃሬዛ</foreign>
+                     ‘<cit type="translation" xml:lang="it">
+                     <t:quote xmlns:t="http://www.tei-c.org/ns/1.0">addetto alla
+                        portantina</t:quote>
+                  </cit>’ <bibl><ptr target="bm:Bausi1994ManoscrittiEritreaParteI"/><citedRange unit="page"> 61 Didascalie </citedRange></bibl> (‘Probabilmente variante
+                  dell’amarico <foreign xml:lang="am">ቃሬዛ</foreign> «stretcher, litter», dalla
+                  stessa radice, ma con diversa formazione nominale, o da accostare meno
+                  probabilmente a maqraz «stand supporting a container of oil which is furnished for
+                  lighting with a wick» <bibl><ptr target="bm:Kane1990DictAmhVol1"/><citedRange unit="page"> 737a</citedRange></bibl>. <bibl><ptr target="bm:Chojnacki1983Costumes"/><citedRange unit="page">
+                     533</citedRange></bibl> interpreta in modo certamente erroneo «One slave
+                  carries earthenware containers with maqārēzā according to the inscription which
+                  probably means mead or beer».’ <bibl><ptr target="bm:Bausi1994ManoscrittiEritreaParteI"/><citedRange unit="page">
+                        60–61 n. 169 (</citedRange></bibl>) <sense n="E" xml:id="TE">Amharic
+                        <foreign xml:lang="am">ቃሬዛ</foreign>
+                     <cit type="transcription" xml:lang="gez">
+                        <t:quote xmlns:t="http://www.tei-c.org/ns/1.0">qārezā</t:quote>
+                     </cit>
+                     <cit type="translation" xml:lang="en">
+                        <t:quote xmlns:t="http://www.tei-c.org/ns/1.0">stretcher</t:quote>
+                     </cit>, <cit type="translation" xml:lang="en">
+                        <t:quote xmlns:t="http://www.tei-c.org/ns/1.0">litter</t:quote>
+                     </cit>
+                     <bibl><ptr target="bm:Kane1990DictAmhVol1"/><citedRange unit="page">
+                           737a</citedRange></bibl>
+                  </sense>
+                  <nd/>
+               </sense>
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

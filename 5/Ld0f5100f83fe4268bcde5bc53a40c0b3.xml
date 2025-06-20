@@ -1,0 +1,89 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>ሰፈረI</title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+         <change who="LB" when="2018-02-15">root</change>
+         <change who="PL" when="2019-09-16">fix for #16</change>
+        </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="Ld0f5100f83fe4268bcde5bc53a40c0b3" n="3120" type="hom">
+               <form>
+                  <foreign xml:lang="gez">ሰፈረ</foreign>
+                        <seg type="hom">I</seg>
+                    <rs type="root"/>
+                    </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain"> <subc>I,1</subc> [amh. idem; <foreign xml:lang="he">סָפַר</foreign> <cit type="translation" xml:lang="la">
+                            <quote> numerare </quote>
+                        </cit>; de etymo <lbl expand="videas">vid.</lbl> Ges. thes. p. 966] <gramGrp> <pos expand="Subjunctivus">Subj.</pos> </gramGrp> <foreign xml:lang="gez">ይስፍር፡</foreign> <cit type="translation" xml:lang="la">
+                            <quote> metiri </quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                            <quote> dimetiri </quote>
+                        </cit>, et fune mensorio, cubito al.: <foreign xml:lang="gez">ከመ፡ ይስፍራ፡ ለኢየሩሳሌም፡</foreign> <ref cRef="Zach." loc="2,2">Zach. 2,2</ref>; <ref cRef="Hez." loc="40,11">Hez. 40,11</ref>; <ref cRef="Hez." loc="40,13">Hez. 40,13</ref>; <ref cRef="Hez. " loc="40,23">Hez.  40,23</ref>; <ref cRef="Hez." loc="45,3">Hez. 45,3</ref>; <foreign xml:lang="gez">ሰፊሮሙ፡ በአሕባል፡</foreign> <ref cRef="2 Reg." loc="8,2">2 Reg. 8,2</ref>; et mensura cubica <ref cRef="Ex." loc="16,18">Ex. 16,18</ref>; <ref cRef="Ruth" loc="3,15">Ruth 3,15</ref>; <foreign xml:lang="gez">ስእኑ፡ ኈልቆቶ፡ ወሰፊረ፡ እምነ፡ ብዝኁ፡</foreign> <ref cRef="Kuf." loc="40">Kuf. 40</ref>; <ref cRef="Matth." loc="7,2">Matth. 7,2</ref>; <ref cRef="Marc." loc="4,24">Marc. 4,24</ref>; <foreign xml:lang="gez">መኑ፡ ዘሰፈሮ፡ ለማይ፡ በሕፍኑ፡</foreign> <ref cRef="Jes." loc="40,12">Jes. 40,12</ref>; <ref cRef="4 Esr." loc="2,8">4 Esr. 2,8</ref>; <ref cRef="4 Esr." loc="2,46">4 Esr. 2,46</ref>. In specie <sense n="a" xml:id="Da"> <cit type="translation" xml:lang="la">
+                                <quote> admetiri </quote>
+                            </cit> <lbl expand="cum">c.</lbl> <foreign xml:lang="gez">ለ፡</foreign> pers. <ref cRef="Gen." loc="47,12">Gen. 47,12</ref>; <ref cRef="Kuf. " loc="149.">Kuf.  p. 149.</ref> </sense> <sense n="b" xml:id="Db"> <cit type="translation" xml:lang="la">
+                                <quote> metiendo distribuere </quote>
+                            </cit> vel <cit type="translation" xml:lang="la">
+                                <quote> attribuere </quote>
+                            </cit>: <foreign xml:lang="gez">ይሰፍርዋ፡ ለምድርከ፡ በሐብል፡</foreign> <ref cRef="Am." loc="7,17">Am. 7,17</ref>; <ref cRef="Mich." loc="2,4">Mich. 2,4</ref>; <ref cRef="Hen." loc="70,3">Hen. 70,3</ref>; <ref cRef="Num." loc="34,29">Num. 34,29</ref>.</sense> <sense n="c" xml:id="Dc"> <cit type="translation" xml:lang="la">
+                                <quote> mensura et numero definire </quote>
+                            </cit>: <foreign xml:lang="gez">ሰፈራ፡ እግዚአብሔር፡ ለመንግሥትከ፡</foreign> <ref cRef="Dan." loc="5,26">Dan. 5,26</ref>.</sense> <sense n="d" xml:id="Dd"> in libris amharico-aethiopicis: <cit type="translation" xml:lang="la">
+                                <quote> castra metari </quote>
+                            </cit>, ut: <foreign xml:lang="gez">ግዕዘ፡ እምነ፡ አራራ፡ ወሰፈረ፡ ውስተ፡ ዱቂ፡</foreign> <ref cRef="Chr. L. Atq." loc="23">Chr. L. Atq. f. 23</ref>. </sense> </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

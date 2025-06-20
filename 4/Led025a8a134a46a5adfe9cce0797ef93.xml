@@ -1,0 +1,97 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> አንቅሀ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="Led025a8a134a46a5adfe9cce0797ef93" n="4856">
+               <form>
+                  <foreign xml:lang="gez">አንቅሀ</foreign>
+               </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain"> <subc>II,1</subc> <cit type="translation" xml:lang="la">
+                     <quote>expergefacere</quote>
+                  </cit>, <cit type="translation" xml:lang="la">
+                     <quote>excitare</quote>
+                  </cit>, <cit type="translation" xml:lang="la">
+                     <quote>suscitare</quote>
+                  </cit>, dormientem: <ref cRef="Matth." loc="8,25">Matth. 8,25</ref>; <ref cRef="Joh." loc="11,11">Joh. 11,11</ref>; <foreign xml:lang="gez">አንቅሆ፡ ለእግዚእነ፡ </foreign>
+                  <ref cRef="Judith" loc="14,13">Judith 14,13</ref>; <ref cRef="Jes." loc="50,4">Jes. 50,4</ref>
+                  <lbl expand="varia lectio">var.</lbl>; <foreign xml:lang="gez">አንቅሆ፡ እምዐቢይ፡ ንዋም፡
+                     ለዘይነውም፡</foreign>
+                  <ref cRef="Sir." loc="22,7">Sir. 22,7</ref>; <ref cRef="Kuf." loc="3">Kuf.
+                  3</ref>; <foreign xml:lang="gez">አንቃህከነ፡ እምነ፡ ንዋም፡ </foreign> Deg. (in hymno
+                  matutino); feram cubantem <ref cRef="Gen." loc="49,9">Gen. 49,9</ref>; <ref cRef="Num." loc="24,9">Num. 24,9</ref>. <sense n="a" xml:id="Da">
+                     <lbl expand="translate">transl.</lbl> de animo: <ref cRef="Ps." loc="76,6">Ps.
+                        76,6</ref>; <ref cRef="2 Petr." loc="1,13">2 Petr. 1,13</ref>; <foreign xml:lang="gez">ከመ፡ ያንቅሆሙ፡ </foreign> vel <foreign xml:lang="gez">ከመ፡ ያንቅህ፡
+                        ልቦሙ፡</foreign> Chrys. (crebro).</sense>
+                  <sense n="b" xml:id="Db">
+                     <cit type="translation" xml:lang="la">
+                        <quote>resuscitare</quote>
+                     </cit> mortuos: <ref cRef="Clem." loc="252">Clem. f. 252</ref>; Rel. Bar.;
+                        <foreign xml:lang="gez">አንቅሀ፡ በድነ፡</foreign> Sx. Enc.</sense>
+                  <sense n="c" xml:id="Dc"> de necromantia: <cit type="translation" xml:lang="la">
+                        <quote>evocare</quote>
+                     </cit> vel <cit type="translation" xml:lang="la">
+                        <quote>suscitare</quote>
+                     </cit> mortuum vel pythonem 1 <ref cRef="Reg." loc="28,3">Reg. 28,3</ref>; <ref cRef="1 Reg." loc="28,7">1 Reg. 28,7</ref>; <ref cRef="1 Reg." loc="28,11">1
+                        Reg. 28,11</ref>; <ref cRef="Deut." loc="18,11">Deut. 18,11</ref>; <foreign xml:lang="gez">እለ፡ ያነቅሁ፡ </foreign> (<foreign xml:lang="gez">ያነቅሃ፡</foreign>) <foreign xml:lang="gez">በፃውዐ፡</foreign>
+                     <ref cRef="Jes." loc="44,25">Jes. 44,25</ref>.</sense>
+               </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

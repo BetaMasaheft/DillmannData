@@ -1,0 +1,110 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ተኵላ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="VP" when="2018-03-06">traCES meaning added.</change>
+            <change who="VP" when="2018-03-06">TraCES meaning: Bibliography added.</change>
+            <change who="VP" when="2018-03-06">small revision in TraCES meaning</change>
+            <change who="LB" when="2018-03-06">root</change>
+            <change who="VP" when="2018-03-22">TraCES: revision</change>
+        <change who="VP" when="2019-03-25">In TraCES:  [[ +subst.+ ]] added and "name of regiment" replaced with "military unit".</change>
+            <change who="VP" when="2019-03-25">TraCES: English translation added.</change>
+            <change who="VP" when="2019-03-25">&gt;en&gt;strong&gt; moved.</change>
+        </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="Ld0e29de26e1a498ebf370ab80f1b75af" n="4338">
+               <form>
+                  <foreign xml:lang="gez">ተኵላ</foreign>
+               <rs type="root"/>
+                    </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain"> (male <foreign xml:lang="gez">ተክላ፡</foreign>, ut <ref cRef="Sx. Teq." loc="4">Sx. Teq. 4</ref>), <gramGrp> <pos expand="Substantivum">subst.</pos> </gramGrp>, plerumque <gramGrp> <gen value="not found">m.</gen> </gramGrp>, <lbl expand="pluralis">Pl.</lbl> <foreign xml:lang="gez">ተኵላት፡</foreign> (male <foreign xml:lang="gez">ተኴላት፡</foreign> <ref cRef="Chrys." loc="133">Chrys. f. 133</ref>) et <foreign xml:lang="gez">ተኳሉት፡</foreign> <cit type="translation" xml:lang="la">
+                            <quote> lupus </quote>
+                        </cit> [Abyssinis <foreign xml:lang="he">שּׁוּעָל</foreign> <foreign xml:lang="syr">ܬܰܠܠܳܐ</foreign> <cit type="translation" xml:lang="la">
+                            <quote> vulpes </quote>
+                        </cit> et <cit type="translation" xml:lang="la">
+                            <quote> canis aureus </quote>
+                        </cit>in significatum <cit type="translation" xml:lang="la">
+                            <quote> lupi </quote>
+                        </cit> abiit, sicut <foreign xml:lang="he">זְאֵב</foreign> <cit type="translation" xml:lang="la">
+                            <quote> lupus </quote>
+                        </cit> in significatum <cit type="translation" xml:lang="la">
+                            <quote> hyaenae </quote>
+                        </cit> <foreign xml:lang="gez">ዝእብ፡</foreign>] <foreign xml:lang="grc">λύκος</foreign> <ref cRef="Gen. " loc="49,27">Gen.  49,27</ref>; Jes; 11,6; <ref cRef="Jer." loc="5,6">Jer. 5,6</ref>; <ref cRef="Prov." loc="28,15">Prov. 28,15</ref>; <ref cRef="Sir." loc="13,17">Sir. 13,17</ref>; <ref cRef="Kuf." loc="37">Kuf. 37</ref>; <ref cRef="Joh." loc="10,12">Joh. 10,12</ref>; <foreign xml:lang="gez">ተኳሉት፡</foreign> (v. <foreign xml:lang="gez">ተኵላት፡</foreign>) <ref cRef="Jes. " loc="65,25">Jes.  65,25</ref>; <ref cRef="Luc." loc="10,3">Luc. 10,3</ref> <lbl expand="romanae editionis">rom.</lbl>; <ref cRef="Matth." loc="10,16">Matth. 10,16</ref>; M.M. f. 255; <foreign xml:lang="gez">ተኵላት፡</foreign> <ref cRef="Hab." loc="1,8">Hab. 1,8</ref>; <ref cRef="Zeph." loc="3,3">Zeph. 3,3</ref>; <ref cRef="Hez." loc="22,27">Hez. 22,27</ref>; <ref cRef="4 Esr." loc="3,25">4 Esr. 3,25</ref>; <foreign xml:lang="gez">ተኵላት፡ መሪራን፡ ወመጺጻን፡</foreign> Cyr. c. <ref cRef="Pall." loc="66">Pall. f. 66</ref>; <ref cRef="Matth." loc="7,15">Matth. 7,15</ref>; <ref cRef="Matth." loc="10,16">Matth. 10,16</ref> Platt; <foreign xml:lang="gez">ተኵላ፡</foreign> <ref cRef="Ps." loc="90,13">Ps. 90,13</ref>, ubi Hebr. <foreign xml:lang="he">שַׁהַל</foreign>, Gr. <foreign xml:lang="grc">ἀσπίς</foreign> habet. (Fallitur Ludolfus, qui docet: „proprie est <cit type="translation" xml:lang="la">
+                            <quote> crocuta </quote>
+                        </cit> vel potius <cit type="translation" xml:lang="la">
+                            <quote> hyaenae </quote>
+                        </cit>“; <foreign xml:lang="grc">ὕαινα</foreign> enim ubique <foreign xml:lang="gez">ዝእብ፡</foreign>, non <foreign xml:lang="gez">ተኵላ፡</foreign> versa legitur). </sense>
+               
+            <sense xml:lang="en" source="#traces" xml:id="Tmain"> <cit type="transcription" xml:lang="gez">
+                            <quote> takʷǝlā </quote>
+                        </cit> <gramGrp> <pos expand="Substantivum">subst.</pos> </gramGrp> (military unit) <bibl>
+                            <ptr target="bm:Marrassini1993AmdaSeyon"/>
+                            <citedRange unit="page">64:6 (ed.); 112:21 (ed.)</citedRange>
+                        </bibl> <ref cRef="Chron. Am." loc="42">Chron. Am. 42</ref> <ref cRef="Chron. Am." loc="376">Chron. Am. 376</ref>; in <ref cRef="Chron. Am." loc="376">Chron. Am. 376</ref> the text says that the word means <cit type="translation" xml:lang="en">
+                            <quote>strong</quote>
+                        </cit>: <foreign xml:lang="gez">ተኵላ፡ ወትርጓሜሁ፡ ጽኑዓን፡</foreign> (<bibl>
+                            <ptr target="bm:Marrassini1993AmdaSeyon"/>
+                            <citedRange unit="page">112:21 (ed.)</citedRange>
+                        </bibl>) '<cit type="translation" xml:lang="it">
+                            <quote> takʷelā, che vuol dire "forti" </quote>
+                        </cit>' (<bibl>
+                            <ptr target="bm:Marrassini1993AmdaSeyon"/>
+                            <citedRange unit="page">113 (tr.)</citedRange>
+                        </bibl>) </sense>
+                </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

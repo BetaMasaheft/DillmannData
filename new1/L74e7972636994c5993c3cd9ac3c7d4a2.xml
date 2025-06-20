@@ -1,0 +1,142 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="gez">ከፈዊ</title>
+                <author>Alessandro Bausi</author>
+                <author>Andreas Ellwardt</author>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+                <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+                <pubPlace>Hamburg</pubPlace>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-sa-nc/4.0/"> This file
+                        is licensed under the Creative Commons Attribution-ShareAlike Non Commercial
+                        4.0. </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                        Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice
+                            latino. Adiectum est vocabularium tigre dialecti septentrionalis
+                            compilatum</emph> a W. Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+                </p>
+                <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced
+                        Grant TraCES (Grant Agreement 338756)</ref>
+                </p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>A digital edition of the Lexicon in TEI.</p>
+            <listPrefixDef>
+                <prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/>
+            </listPrefixDef>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="la">latin</language>
+                <language ident="it">Italian</language>
+                <language ident="gez">Gǝʿǝz</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="syr">Syriac</language>
+                <language ident="ar">Arabic</language>
+                <language ident="sa">Sanskrit</language>
+                <language ident="geo">Georgian</language>
+                <language ident="cop">Coptic</language>
+                <language ident="osa">Old South Arabian</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change who="MK" when="2019-05-03">added new entry</change>
+            <change who="MK" when="2019-05-06">added transl</change>
+            <change who="MK" when="2019-05-06">corr</change>
+            <change who="MK" when="2019-05-06">corr</change>
+            <change who="PL" when="2019-05-10">restored changes made by Magda before crash on
+                9.5.2019</change>
+            <change who="MK" when="2022-01-04">added new witness</change>
+            <change who="MK" when="2022-03-17">added example</change>
+            <change who="MK" when="2022-03-18">added translation</change>
+            <change who="MK" when="2022-03-18">added example</change>
+            <change who="MK" when="2022-03-18">added bibliography</change>
+            <change who="MK" when="2022-03-29">added bibliography</change>
+            <change who="MK" when="2022-05-25">correction</change>
+            <change who="MK" when="2022-05-25">added etymology</change>
+            <change who="MK" when="2022-06-16">corrections</change>
+            <change who="MK" when="2022-07-04">correction</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <entry xml:id="L74e7972636994c5993c3cd9ac3c7d4a2" n="12578">
+                    <form>
+                        <foreign xml:lang="gez">ከፈዊ</foreign>
+                    </form>
+                    <sense xml:id="Tmain" xml:lang="en" source="#traces">
+                        <cit type="transcription" xml:lang="gez">
+                            <t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> kafawi</t:quote>
+                        </cit>
+                        <bibl><ptr target="bm:Ludolf1698Lexicon"/><citedRange unit="page">
+                                69</citedRange></bibl>, <foreign xml:lang="gez">ከፈይ፡</foreign>
+                        <cit type="transcription" xml:lang="gez">
+                            <t:quote xmlns:t="http://www.tei-c.org/ns/1.0">kafay</t:quote>
+                        </cit>
+                        <bibl><ptr target="bm:Isenberg1841Dictionary"/><citedRange unit="page">
+                                145a</citedRange></bibl>, <bibl><ptr target="bm:Abbadie1881Dict"/><citedRange unit="page"> 639</citedRange></bibl>
+                        <gramGrp>
+                            <pos expand="Substantivum">subst.</pos>
+                        </gramGrp>
+                        <cit type="translation" xml:lang="en">
+                            <t:quote xmlns:t="http://www.tei-c.org/ns/1.0">velvet</t:quote>
+                        </cit>; ‘<cit type="translation" xml:lang="la">
+                            <t:quote xmlns:t="http://www.tei-c.org/ns/1.0">Holofericum</t:quote>
+                        </cit>, <cit type="translation" xml:lang="it">
+                            <t:quote xmlns:t="http://www.tei-c.org/ns/1.0">Velluto</t:quote>
+                        </cit>, <cit type="translation" xml:lang="de">
+                            <t:quote xmlns:t="http://www.tei-c.org/ns/1.0">Sammet</t:quote>
+                        </cit>’ <bibl><ptr target="bm:Ludolf1698Lexicon"/><citedRange unit="page">
+                                69</citedRange></bibl>
+                        <foreign xml:lang="gez">ፈነወ፡ ይስሐቅ፡ መንግሠ፡ ለሐፄ፡ ብዙኃ፡ ቁማሸ፡ ዘዘዚአሁ፡ ኅብሩ፡ እለ፡ ከመ፡
+                            አርዋ፡ ወቅፍጣን፡ ወሲኒ፡ ወመስሕ፡ ወከፈዊ፡ ጅኵ፡ ወብዙኅ፡ ቀሚስ፡ ስፋይ፡ ዘወፅአ፡ እምባሕር፡ ሰርፍ፡ ወብሳጥ፡
+                            ብዙኃን፡ ሳሕላዊሰ፡ ወዶቲ፡ ኢይትዐወቅ፡ ኆልቁ።</foreign> ‘<cit type="translation" xml:lang="fr">
+                            <t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> Yesḥaq envoya comme
+                                tribut au Ḥaṣē une grande quantité d’habillements, chacun d’une
+                                couleur, tels que des soies bleues, des qeftān, des sini, des maseḥ,
+                                des kafawi, ǧekue, nombre des chemises brodées qui avaient été
+                                importées par mer, des draps royaux, des tapis, des sāḥlāwi en
+                                quantité, et des doti innombrables </t:quote>
+                        </cit>’ <bibl><ptr target="bm:ContiRossini1907SarsaDengel"/><citedRange unit="page"> 39 l. 33–36, 40 l. 1 (ed.)</citedRange></bibl>,
+                                <bibl><ptr target="bm:ContiRossini1907SarsaDengelV"/><citedRange unit="page"> 46 l. 19–24 (tr.)</citedRange></bibl>; <foreign xml:lang="gez">ወእምድኅረ፡ ጥምቀቱ፡ አልበሶ፡ ቀማይሰ፡ ዘብዑድ፡ ግብረቶሙ፡ ወአሐዱ፡ እምኔሆሙ፡ ከፈዊ፡
+                            ቀሚስ፡ ዘቀይሕ፡ ኅብሩ፡</foreign> ‘<cit type="translation" xml:lang="fr">
+                            <t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> Après qu’il eut reçu le
+                                baptême, le roi (le roi) l’habilla avec des robes magnifiques. Un de
+                                ces vêtements était une robe kafawi, de couleur rouge </t:quote>
+                        </cit>’ <bibl><ptr target="bm:ContiRossini1907SarsaDengel"/><citedRange unit="page"> 122 l. 1–2 (ed.)</citedRange></bibl>, <bibl><ptr target="bm:ContiRossini1907SarsaDengelV"/><citedRange unit="page">
+                                138 l. 25–27 (tr.)</citedRange></bibl>; <foreign xml:lang="gez">፩፡
+                            መከዳ፡ ከፈዊ፡</foreign> ‘<cit type="translation" xml:lang="fr">
+                            <t:quote xmlns:t="http://www.tei-c.org/ns/1.0">1 coussin kafawi
+                            </t:quote>
+                        </cit>’ <bibl><ptr target="bm:ContiRossini1909LiberT"/><citedRange unit="page"> 13 l. 21–22 (ed.)</citedRange></bibl>, <bibl><ptr target="bm:ContiRossini1910LiberV"/><citedRange unit="page"> 14 l.
+                                17 (tr.)</citedRange></bibl>; <foreign xml:lang="gez">፩፡ ዋርዳ፡ ከፈዊ፡
+                            ቀሚስ፡</foreign> ‘<cit type="translation" xml:lang="fr">
+                            <t:quote xmlns:t="http://www.tei-c.org/ns/1.0">une aube wārdā
+                                kafawi</t:quote>
+                        </cit>’ <bibl><ptr target="bm:ContiRossini1909LiberT"/><citedRange unit="page"> 50 l. 4 (ed.)</citedRange></bibl>, <bibl><ptr target="bm:ContiRossini1910LiberV"/><citedRange unit="page">
+                                (tr.)</citedRange></bibl>
+                        <sense n="E" xml:id="TE">from Amharic <foreign xml:lang="am">ከፈዊ</foreign>
+                            <cit type="transcription" xml:lang="gez">
+                                <t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> kafawi</t:quote>
+                            </cit>, from Arabic <cit type="transcription" xml:lang="gez">
+                                <t:quote xmlns:t="http://www.tei-c.org/ns/1.0">kūfiyya</t:quote>
+                            </cit>
+                            <bibl><ptr target="bm:Brzuski1983ArabLoanwordsAmh"/><citedRange unit="page"> 70</citedRange></bibl></sense>
+                        <nd/>
+                    </sense>
+                </entry>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,79 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ሆባይ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="MK" when="2022-08-22">added cross refernece </change><change who="MK" when="2022-08-22">added Grebaut, example 1 </change><change who="MK" when="2022-08-22">added example 2 </change><change who="MK" when="2022-08-22">added bibliography</change><change who="MK" when="2022-08-22">added lb</change><change who="MK" when="2022-08-23">added bibliogarphy</change></revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L5966191ad93c4807bb3aa0b4c2ff0294" n="45">
+               <form>
+                  <foreign xml:lang="gez">ሆባይ</foreign>
+               </form>
+               <sense xml:id="Dmain" xml:lang="la" source="#dillmann"> <gramGrp> <pos expand="Substantivum">subst.</pos> </gramGrp> (cujus <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> ô </t:quote></cit>, sequentem literam <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> b </t:quote></cit>ex <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> v </t:quote></cit>ortam esse, indicat). <sense n="1" xml:id="D1"> <lbl expand="pluralis">Pl.</lbl> <foreign xml:lang="gez">ሆባያት፡</foreign>, avis e genere rapacium: <foreign xml:lang="grc">ἴκτινος</foreign> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> milvus </t:quote></cit> <ref cRef="Lev." loc="11,14">Lev. 11,14</ref>; <ref cRef="Deut. " loc="14,13">Deut.  14,13</ref>; <foreign xml:lang="grc">ἱέραξ</foreign> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> accipiter </t:quote></cit> <ref cRef="Job" loc="39,26">Job 39,26</ref> (<gramGrp> <gen value="masculinus">masc.</gen> </gramGrp>) collective: <ref cRef="Hen." loc="89,10">Hen. 89,10</ref>; <ref cRef="Hen." loc="90,2">Hen. 90,2</ref>; <ref cRef="Hen." loc="90,4">Hen. 90,4</ref>; <ref cRef="Hen." loc="90,11">Hen. 90,11</ref>; <ref cRef="Hen." loc="90,13">Hen. 90,13</ref>. <ref cRef="Praeterea " loc="34,11">Praeterea  34,11</ref> in eo loco ubi LXX <foreign xml:lang="grc">ἴβεις</foreign> habent, Ae. <foreign xml:lang="gez">ሆባይ፡</foreign> (v. <foreign xml:lang="gez">ሆባያት፡</foreign>) exhibet. <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> Voc. Ae. </t:quote></cit>inter avium nomina: <foreign xml:lang="gez">ሆባይ፡ ዘ፡ አንጭት፡</foreign> (quod <lbl expand="secundum">sec.</lbl> Ludolfi Gregorium „avem e genere rapacium, aridis arboribus insidentem, mures aviculasque captantem“ significat; Lud. <lbl expand="lexicon">lex.</lbl> <lbl expand="columna">col.</lbl> 6). 
+</sense> <sense n="2" xml:id="D2"> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> simia </t:quote></cit>, <lbl expand="pluralis">Pl.</lbl> <foreign xml:lang="gez">አህቡይ፡</foreign> <foreign xml:lang="grc">πίθηκοι</foreign> <ref cRef="2 Par." loc="9,21">2 Par. 9,21</ref>; <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> Satanas apparuit </t:quote></cit> <foreign xml:lang="gez">በአምሳለ፡ ሆባይ፡</foreign> <ref cRef="Gad. T.H." loc="">Gad. T.H. </ref>; <foreign xml:lang="gez">ወይጠለ፡ አስገድከ፡ ወሆባየ፡ አክነስከ፡ ብፁዕ፡ አንተ፡ አባ፡ ዮሐኒ፡</foreign> Mavâs. 13. – <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> Voc. Ae. </t:quote></cit>inter ferarum nomina: <foreign xml:lang="gez">ሆባይ፡ ዘ፡ ዝንጅሮ፡</foreign> (v. <foreign xml:lang="gez">ዝንጀሮ፡</foreign>). <lbl expand="videas">Vid.</lbl> etiam Rüppell Reise I. p. 301 (ubi pro <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> Hewe </t:quote></cit>scribendum est <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> Höwê </t:quote></cit>vel <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> Höbê </t:quote></cit>). Et milvus et simia a <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> clamando </t:quote></cit>hoc nomen traxisse videntur (neque est, quod <foreign xml:lang="gez">ሆባይ፡</foreign> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> simiam </t:quote></cit>cum कपि <foreign xml:lang="he">קוֹף</foreign> <foreign xml:lang="syr">ܩܽܘܦܳܐ</foreign> <foreign xml:lang="grc">κῆπος κῆβος κεῖβος</foreign> componamus). 
+</sense> </sense>
+               
+            <sense xml:id="Tmain" xml:lang="en" source="#traces"> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">hobāy</t:quote></cit> <lbl expand="pluralis">Pl.</lbl> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">hobāyāt</t:quote></cit> <sense n="G" xml:id="TG"> <foreign xml:lang="gez">ሆባይ፡</foreign> <cit type="translation" xml:lang="fr"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">singe</t:quote></cit>, <cit type="translation" xml:lang="fr"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">guenon</t:quote></cit> (<foreign xml:lang="am">ዝንጀሮ፡</foreign>) <lb/>
+ <foreign xml:lang="gez">ሶቤሃ፡ መጽአ፡ አቡነ፡ ታዴዎስ፡ ወእንዘ፡ ይትዓጸፍ፡ ጸዳለ፡ መብረቅ፡ ወይቤላ፡ እኪት፡ ብእሲት፡ ለምንት፡ ትገብሪ፡ ከመዝ፡ ወትሰርቂ፡ ንዋየ፡ ቅዱሳን። አንሰ፡ አመስቀልኩ፡ ቍልቍሊተ፡ በማእከለ፡ አየር። ወይእዜኒ፡ እግዚአብሔር፡ ይወልጥ፡ አርአየኪ። ወሶቤሃ፡ ተወለጠ፡ አርአያሃ፡ ወኮነ፡ መንፈቀ፡ ሥጋሃ፡ በአምሳለ፡ ሆባይ፡ ጸጓር፡ እምላዕለ፡ ሐቌሃ፡ ወእምታሕተ፡ ሐቌሃሰ፡ ከመ፡ ሰብእ።</foreign> <bibl><ptr target="bm:DeSantis1942Tadewos"/><citedRange unit="page"> 48</citedRange></bibl>. <lb/>
+ <foreign xml:lang="gez">አህባይ፡</foreign> ((Pl. brisé)) de <foreign xml:lang="gez">ሆባይ፡</foreign> <cit type="translation" xml:lang="fr"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">singes</t:quote></cit>, <cit type="translation" xml:lang="fr"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">guenons</t:quote></cit>. <lb/>
+ <foreign xml:lang="gez">ወቦኡ፡ እሙንቱ፡ ከለባት፡ ውስተ፡ ውሣጤ፡ ከተማ፡ ወአስተጋብኡ፡ ብዙኃነ፡ አዕጽምተ፡ ወወገሩ፡ አውጺኦሙ፡ ኀበ፡ አፍአ፡ ከተማ። ወእሙንቱሰ፡ አዕጽምት፡ ኮኑ፡ ሠራዊተ፡ አህባይ፡ ወኮኑ፡ ወዓርጉ፡ ውስተ፡ ነዋህ፡ ደብር። ... ወዓርጉ፡ ውስተ፡ ርእሰ፡ ውእቱ፡ ደብር፡ ዘይቀውሙ፡ ቅድሜሁ፡ ሠራዊተ፡ አህበይ፡ ወቀሠፍዎሙ፡ በውእቱ፡ ጥብጣቤ፡ ለእሙንቱ፡ አራዊት፡ ወሰደድዎሙ፡ ርሑቀ።</foreign> <bibl><ptr target="bm:Grebaut1934Miracles"/><citedRange unit="page"> 14–15</citedRange></bibl> <lb/>
+ <bibl><ptr target="bm:Grebaut1952SuppLexicon"/><citedRange unit="page"> 5</citedRange></bibl> 
+</sense> <sense n="C" xml:id="TC"> <sense n="a" xml:id="TCa"> <lbl expand="videas">vid.</lbl> also <foreign xml:lang="gez">ህበይ፡</foreign> (TraCES) 
+</sense> <sense n="b" xml:id="TCb"> <lbl expand="videas">vid.</lbl> also <foreign xml:lang="gez">አህቡይ፡</foreign> 
+</sense> 
+</sense> </sense></entry>
+         </div>
+      </body>
+   </text>
+</TEI>

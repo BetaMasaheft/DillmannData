@@ -1,0 +1,84 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ሕርቱም </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="AE" when="2018-04-24">fehlerhafte Kursivierung eliminiert,</change>
+        </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L6f7db69f77c1448fa62c5b9db2c53243" n="656">
+               <form>
+                  <foreign xml:lang="gez">ሕርቱም</foreign>
+               </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain"> <gramGrp> <pos expand="participium">part.</pos> </gramGrp> <sense n="1" xml:id="D1"> <cit type="translation" xml:lang="la">
+                                <quote> scelestus et deperditus </quote>
+                            </cit>; <cit type="translation" xml:lang="la">
+                                <quote> infelix </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> miserrimus </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> aerumnosus </quote>
+                            </cit>: <foreign xml:lang="grc">βδελυκτός</foreign> <foreign xml:lang="gez">ውሉድ፡ ሕርቱማን፡</foreign> <ref cRef="Sir." loc="41,5">Sir. 41,5</ref>; <foreign xml:lang="gez">ትውልደ፡ ሕርቱማን፡</foreign> <foreign xml:lang="grc">τέκνα ἀπωλείας</foreign> <ref cRef="Jes." loc="57,4">Jes. 57,4</ref>; <foreign xml:lang="grc">ἀπολλύμενοι</foreign> <ref cRef="1 Cor." loc="1,18">1 Cor. 1,18</ref> <lbl expand="romanae editionis">rom.</lbl>; <ref cRef="2 Cor." loc="4,3">2 Cor. 4,3</ref>: <foreign xml:lang="gez">ወልድ፡ ሕርቱም፡</foreign> (de filio illo prodigo Evangelii) <ref cRef="Did." loc="10">Did. 10</ref>; <foreign xml:lang="gez">የሐይዉ፡ ሕርቱመ፡</foreign> <foreign xml:lang="grc">ζῶσιν ἀδίκως</foreign> <ref cRef="Sap." loc="14,28">Sap. 14,28</ref>; qui foedus init cum Satana, vocatur <foreign xml:lang="gez">ብእሲ፡ ሕርቱም፡</foreign> <ref cRef="Clem." loc="221">Clem. f. 221</ref>; de homine mente capto: <foreign xml:lang="gez">ልቡ፡ ሕርቱም፡ ወዕንቡዝ፡</foreign> <ref cRef="Gad. T.H." loc="">Gad. T.H. </ref>; <foreign xml:lang="grc">τάλας</foreign>, <foreign xml:lang="grc">ταλαίπωρος</foreign>: <foreign xml:lang="gez">ሕርቱም፡ አነ፡</foreign> <ref cRef="Jes." loc="6,5">Jes. 6,5</ref>; <ref cRef="Sap." loc="3,11">Sap. 3,11</ref>; <ref cRef="Sap." loc="15,14">Sap. 15,14</ref>; <ref cRef="4 Esr." loc="8,60">4 Esr. 8,60</ref>.</sense> <sense n="2" xml:id="D2"> nonnumquam i.q. <foreign xml:lang="gez">ሕሩም፡</foreign>, <cit type="translation" xml:lang="la">
+                                <quote> interdictus </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> illicitus </quote>
+                            </cit>: si quis duas uxores duxerit <foreign xml:lang="gez">ወኢሰደደ፡ ዳግሚተ፡ ዘይእቲ፡ ሕርትምት፡</foreign> F.M. 5,4; <foreign xml:lang="gez">ሰብሳብ፡ ርኵስት፡ ወሕርትምት፡</foreign> <ref cRef="F.M." loc=" 9,4">F.M.  9,4</ref> (sed in titulo capitis <foreign xml:lang="gez">ሕርምት፡</foreign> scriptum est); <foreign xml:lang="gez">ረባሕ፡ ርኵስት፡ ወሕርትምት፡</foreign> <ref cRef="F.M." loc=" 18,1.">F.M.  18,1.</ref> (In <ref cRef="Sx. Tachs." loc="13">Sx. Tachs. 13</ref> legitur <foreign xml:lang="gez">ሕርትምት፡</foreign> <cit type="translation" xml:lang="la">
+                                <quote> votum </quote>
+                            </cit> <foreign xml:lang="gez">ትሕርምት፡</foreign>).</sense> </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

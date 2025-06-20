@@ -1,0 +1,107 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="gez">ኀንካሪ</title>
+                <author>Alessandro Bausi</author>
+                <author>Andreas Ellwardt</author>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+                <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+                <pubPlace>Hamburg</pubPlace>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-sa-nc/4.0/"> This file
+                        is licensed under the Creative Commons Attribution-ShareAlike Non Commercial
+                        4.0. </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                        Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice
+                            latino. Adiectum est vocabularium tigre dialecti septentrionalis
+                            compilatum</emph> a W. Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+                </p>
+                <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced
+                        Grant TraCES (Grant Agreement 338756)</ref>
+                </p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>A digital edition of the Lexicon in TEI.</p>
+            <listPrefixDef>
+                <prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/>
+            </listPrefixDef>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="la">latin</language>
+                <language ident="it">Italian</language>
+                <language ident="gez">Gǝʿǝz</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="syr">Syriac</language>
+                <language ident="ar">Arabic</language>
+                <language ident="sa">Sanskrit</language>
+                <language ident="geo">Georgian</language>
+                <language ident="cop">Coptic</language>
+                <language ident="osa">Old South Arabian</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change who="MK" when="2019-07-04">added new entry</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <entry xml:id="L6ebd1faf9177481cb961ec2174398d6a" n="12628">
+                    <form>
+                        <foreign xml:lang="gez">ኀንካሪ</foreign>
+                    </form>
+                    <sense xml:lang="en" source="#traces" xml:id="Tmain">
+                        <cit type="transcription" xml:lang="gez">
+                            <quote>ḫankāri</quote>
+                        </cit>
+                        <gramGrp>
+                            <pos expand="Substantivum">subst.</pos>
+                        </gramGrp> meaning unknown <foreign xml:lang="gez">ተማኅፀንኩ፡ በጸሎትክሙ፡ አነ፡
+                            ገብርክሙ፡ ኀደራ፡ እግዚእ፡ ኀንካሪ፡ ብዙኅ፡ አበሳ፡ ወጌጋይ፡ ዘእንበለ፡ መስፈርት፡</foreign> ‘<cit type="translation" xml:lang="en">
+                            <quote>I, your servant Ḫadära Ǝgǝziʾǝ, ḫankari, with many sins and with
+                                mistakes without measure, have confided in your prayer</quote>
+                        </cit>’ <bibl>
+                            <ptr target="bm:Tedros2015Yonas"/>
+                            <citedRange unit="page"> 150 (446) l. 5-6 (ed.); 151 (447) l. 6
+                                (tr.)</citedRange>
+                        </bibl> (‘I did not find the voice {i.e. “word”} <cit type="transcription" xml:lang="gez">
+                            <quote>ḫankari</quote>
+                        </cit> in Gǝʿǝz. There is the Tǝgrǝñña verb <cit type="transcription" xml:lang="gez">
+                            <quote>ḥankärä</quote>
+                        </cit> “to cook the bread for brewing”, cf. <bibl>
+                            <ptr target="bm:DaBassano1918DictTgr"/>
+                            <citedRange unit="page"> 56</citedRange>
+                        </bibl>, traditionally a female job, but in monstaries, due to the rule of
+                        seclusion, it is performed by monks. It would be far-fetched to correct <cit type="transcription" xml:lang="gez">
+                            <quote>ḫankari</quote>
+                        </cit> with <cit type="transcription" xml:lang="gez">
+                            <quote>ḫangari</quote>
+                        </cit> from <cit type="transcription" xml:lang="gez">
+                            <quote>ḫangärä</quote>
+                        </cit> “carrying on the shoulders”, even if according to <bibl>
+                            <ptr target="bm:KidaneWaldGeezGramDict"/>
+                            <citedRange unit="page"> 480</citedRange>
+                        </bibl> beside “to limp” (cf. <bibl>
+                            <ptr target="bm:Dillmann1865Lexicon"/>
+                            <citedRange unit="page"> 605</citedRange>
+                        </bibl>) it can mean “to be a leg to someone that has not a leg” and adds
+                        “it is found in the gädl, in the tammǝr (miracle) and in literature.’ <bibl>
+                            <ptr target="bm:Tedros2015Yonas"/>
+                            <citedRange unit="page"> 151 (447) n. 341</citedRange>
+                        </bibl>) <nd/>
+                    </sense>
+                </entry>
+            </div>
+        </body>
+    </text>
+</TEI>

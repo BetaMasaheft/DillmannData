@@ -1,0 +1,97 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ተንተነ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="LB" when="2018-03-01">root</change>
+        </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L6087a6f15d8848f08227dc86b02e2bb6" n="4316">
+               <form>
+                  <foreign xml:lang="gez">ተንተነ</foreign>
+               <rs type="root"/>
+                    </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain"> quadril. I [cfr. <foreign xml:lang="ar">تَلْتَلَ</foreign> et <foreign xml:lang="ar">تَرْتَرَ</foreign> <cit type="translation" xml:lang="la">
+                            <quote> commovit </quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                            <quote> agitavit </quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                            <quote> concussit </quote>
+                        </cit>; <foreign xml:lang="ar">ترتر</foreign> II <cit type="translation" xml:lang="la">
+                            <quote> vacillavit </quote>
+                        </cit>; Ges. thes. p. 1504] <sense n="1" xml:id="D1"> <cit type="translation" xml:lang="la">
+                                <quote> vacillare </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> nutare </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> labare </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> titubare </quote>
+                            </cit>, <ref cRef="Ps." loc="72,2">Ps. 72,2</ref>; Ps.117,13; <ref cRef="Ps." loc="144,15">Ps. 144,15</ref>; <ref cRef="4 Esr." loc="12,21">4 Esr. 12,21</ref>; <ref cRef="Clem." loc="96">Clem. f. 96</ref>; <ref cRef="Clem." loc="108">Clem. f. 108</ref>; de ebriis: <foreign xml:lang="gez">ትተነትን፡</foreign> (<foreign xml:lang="gez">ተንትኖ፡</foreign>) <foreign xml:lang="gez">ከመ፡ ስኩር፡</foreign> <ref cRef="Jes." loc="24,20">Jes. 24,20</ref>; <ref cRef="Jer." loc="28,7">Jer. 28,7</ref>; <ref cRef="Jes." loc="32,13">Jes. 32,13</ref>; <ref cRef="Job" loc="12,25">Job 12,25</ref>; de iis qui animo linquuntur: <foreign xml:lang="gez">መጽለወት፡ ወተንተነት፡</foreign> <ref cRef="Esth." loc="5 ">Esth. 5 </ref>apocr.; <lbl expand="translate">transl.</lbl>: <foreign xml:lang="gez">እለ፡ ኢይተነትኑ፡</foreign> <cit type="translation" xml:lang="la">
+                                <quote> constantes </quote>
+                            </cit> <ref cRef="Kid." loc="6">Kid. f. 6</ref>; <ref cRef="Eph." loc="4,14">Eph. 4,14</ref>; <foreign xml:lang="gez">ባዕል፡ እመ፡ ተንተነ፡ ይሰውቅዎ፡ አዕርክቲሁ፡</foreign> <ref cRef="Sir." loc="13,21">Sir. 13,21</ref>; <ref cRef="Sir." loc="15,4">Sir. 15,4</ref>; <foreign xml:lang="gez">ርትዕት፡ ሃይማኖት፡ እንተ፡ ኢትተነትን፡</foreign> <foreign xml:lang="grc">πίστις ὀρθὴ μὴ σεσαλευμένη</foreign> Cyr. ad <ref cRef="Reg." loc="25">Reg. f. 25</ref> </sense> <sense n="2" xml:id="D2"> animo <cit type="translation" xml:lang="la">
+                                <quote> commoveri </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> percuti </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> percelli </quote>
+                            </cit>: <foreign xml:lang="gez">እምቀትለ፡ ወለተ፡ ሕዝብየ፡ ተንተንኩ፡ ወተቀጥቀጥኩ፡</foreign> <ref cRef="Jer." loc="8,21">Jer. 8,21</ref>; <foreign xml:lang="gez">አሐዝን፡ ለሞትከ፡ ወእተነትን፡ ለድክትምናየ፡</foreign> <ref cRef="Jsp." loc="368 ">Jsp. p. 368 </ref>– <cit type="translation" xml:lang="la">
+                                <quote> Voc. Ae.: </quote>
+                            </cit> <foreign xml:lang="gez">ተንተነ፡ ዘ፡ ተፍገመገመ።</foreign> </sense> </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

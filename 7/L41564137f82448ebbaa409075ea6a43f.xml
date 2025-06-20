@@ -1,0 +1,100 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> አቅረበ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="AE" when="2017-12-08">Rechtschreibfehler, Verschachtelung + Referenzen korrigiert,</change>
+        </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L41564137f82448ebbaa409075ea6a43f" n="3322">
+               <form>
+                  <foreign xml:lang="gez">አቅረበ</foreign>
+               </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain"> <subc>II,1</subc> <sense n="1" xml:id="D1"> <cit type="translation" xml:lang="la">
+                                <quote> appropinquare </quote>
+                            </cit> vel <cit type="translation" xml:lang="la">
+                                <quote> accedere facere </quote>
+                            </cit> sive <cit type="translation" xml:lang="la">
+                                <quote> jubere </quote>
+                            </cit>, <lbl expand="cum">c.</lbl> <gramGrp> <case value="accusativus">Acc.</case> </gramGrp> (de reliqua constr. <lbl expand="videas">vid.</lbl> <foreign xml:lang="gez">ቀርበ፡</foreign>): <ref cRef="Matth." loc="15,10">Matth. 15,10</ref> <lbl expand="romanae editionis">rom.</lbl>; <ref cRef="Gen." loc="48,10">Gen. 48,10</ref>; <ref cRef="Ex." loc="19,4">Ex. 19,4</ref>; <ref cRef="Ex." loc="21,6">Ex. 21,6</ref>; <ref cRef="Ex." loc="29,4">Ex. 29,4</ref>; <ref cRef="Kuf." loc="31">Kuf. 31</ref>; <foreign xml:lang="gez">ያቀርበከ፡ ለኵነኔ፡</foreign> <ref cRef="Koh." loc="11,9">Koh. 11,9</ref>; <ref cRef="Koh." loc="12,14">Koh. 12,14</ref>; de tempore: <foreign xml:lang="gez">አቅረብኪ፡ መዋዕለኪ፡</foreign> <ref cRef="Hez." loc="22,4">Hez. 22,4</ref>.</sense> <sense n="2" xml:id="D2"> <cit type="translation" xml:lang="la">
+                                <quote> adhaerere facere </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> adjungere </quote>
+                            </cit>: <foreign xml:lang="gez">አቅረብክዎሙ፡ ለቤተ፡ እስራኤል፡ ኀቤየ፡</foreign> <ref cRef="Jer." loc="13,11">Jer. 13,11</ref>; <foreign xml:lang="gez">በምሕረትየ፡ አቅረብኩኪ፡</foreign> <ref cRef="Jes." loc="60,10">Jes. 60,10</ref>.</sense> <sense n="3" xml:id="D3"> <cit type="translation" xml:lang="la">
+                                <quote> admovere </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> afferre </quote>
+                            </cit> <ref cRef="Prov." loc="2,2">Prov. 2,2</ref>; <foreign xml:lang="gez">ኀበ፡ ቃለ፡ ጠቢባን፡ አቅርብ፡ እዝነከ፡</foreign> <ref cRef="Prov." loc="22,17">Prov. 22,17</ref>; <ref cRef="4 Reg." loc="4,5">4 Reg. 4,5</ref>; <ref cRef="4 Reg." loc="4,6">4 Reg. 4,6</ref>.</sense> <sense n="4" xml:id="D4"> <cit type="translation" xml:lang="la">
+                                <quote> apponere </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> anteponere </quote>
+                            </cit> mensam, cibum; <cit type="translation" xml:lang="la">
+                                <quote> objicere </quote>
+                            </cit> pabulum: <ref cRef="Gen. " loc="18,8">Gen.  18,8</ref>; <ref cRef="Gen." loc="43,31">Gen. 43,31</ref>; <ref cRef="Gen." loc="43,32">Gen. 43,32</ref>; <ref cRef="4 Reg." loc="4,40">4 Reg. 4,40</ref>; <ref cRef="Kuf." loc="26">Kuf. 26</ref>; <foreign xml:lang="gez">ጠይቅ፡ ኵሎ፡ ዘአቅረቡ፡ ለከ፡</foreign> <ref cRef="Sir." loc="31,15">Sir. 31,15</ref>; <ref cRef="Tob." loc="7,9">Tob. 7,9</ref>; <ref cRef="Prov." loc="23,1">Prov. 23,1</ref>; <ref cRef="Marc." loc="6,41">Marc. 6,41</ref>; <ref cRef="Gen." loc="24 ">Gen. 24 </ref> 32.</sense> <sense n="5" xml:id="D5"> <cit type="translation" xml:lang="la">
+                                <quote> offerre </quote>
+                            </cit> <sense n="a" xml:id="D5a"> munera: <foreign xml:lang="gez">አቅረቡ፡ ሎቱ፡ አምኃሁ፡ ዘአምጽኡ፡</foreign> <ref cRef="Kuf. " loc="42">Kuf.  42</ref>; <ref cRef="Org." loc="1.">Org. 1.</ref> </sense> <sense n="b" xml:id="D5b"> sacrificia: <ref cRef="Lev." loc="21,6">Lev. 21,6</ref>; <ref cRef="Lev." loc="21,8">Lev. 21,8</ref> <lbl expand="varia lectio">var.</lbl>; <ref cRef="Prov." loc="21,27">Prov. 21,27</ref>; <ref cRef="1 Petr." loc="2,">1 Petr. 2,</ref> 5; <foreign xml:lang="gez">አቅርቦ፡ መሥዋዕት፡</foreign> <ref cRef="Chrys. ho." loc="14">Chrys. ho. 14</ref>; <ref cRef="Lit. " loc="161,2">Lit.  161,2</ref>.</sense> </sense> <sense n="6" xml:id="D6"> in specie: <cit type="translation" xml:lang="la">
+                                <quote> ad communionem altaris admittere </quote>
+                            </cit> aliquem, <cit type="translation" xml:lang="la">
+                                <quote> eucharistiam </quote>
+                            </cit> vel <cit type="translation" xml:lang="la">
+                                <quote> sacramentum altaris communicare </quote>
+                            </cit> vel <cit type="translation" xml:lang="la">
+                                <quote> administrare </quote>
+                            </cit> <cb n="0426" xml:id="c0426"/> alicui, <lbl expand="cum">c.</lbl> <gramGrp> <case value="accusativus">Acc.</case> </gramGrp> <lbl expand="persona">pers.</lbl> et rei: <foreign xml:lang="gez">ኢታቅርብዎሙ፡</foreign> <ref cRef="Clem." loc="179">Clem. f. 179</ref>; <ref cRef="Clem." loc="248">Clem. f. 248</ref>; <ref cRef="Kedr f." loc="73">Kedr f. 73</ref>; <ref cRef="F.M." loc="5,12">F.M. 5,12</ref>; <foreign xml:lang="gez">ካህናት፡ አኰቴተ፡ ያቅርቡ፡</foreign> <ref cRef="Kid." loc="14">Kid. f. 14</ref>; <foreign xml:lang="gez">ያቅርብዎ፡ ቍርባነ፡</foreign> (ei sacrificium) <ref cRef="F.M." loc=" 4,2">F.M.  4,2</ref>; <ref cRef="F.M." loc=" 7,2">F.M.  7,2</ref>.</sense> </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

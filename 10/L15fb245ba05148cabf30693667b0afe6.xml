@@ -1,0 +1,146 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ዕዳ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L15fb245ba05148cabf30693667b0afe6" n="7324">
+               <form>
+                  <foreign xml:lang="gez">ዕዳ</foreign>
+               </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain">
+                  <gramGrp>
+                     <pos expand="Substantivum">subst.</pos>
+                  </gramGrp> [<foreign xml:lang="ar">أَدَآءٌ</foreign>; de formatione nominis <lbl expand="videas">vid.</lbl>
+                  <bibl>
+                     <ptr target="bm:Dillmann1857Gramm"/>gramm.</bibl> §107,<foreign xml:lang="grc">β</foreign>] <sense n="1" xml:id="D1">
+                     <cit type="translation" xml:lang="la">
+                        <quote>res persolvenda</quote>
+                     </cit>, <cit type="translation" xml:lang="la">
+                        <quote>debitum</quote>
+                     </cit>, <cit type="translation" xml:lang="la">
+                        <quote>aes alienum</quote>
+                     </cit>: <ref cRef="Matth." loc="18,27">Matth. 18,27</ref>; <foreign xml:lang="gez">ለመኑ፡ እፈዲ፡ ዕዳ፡</foreign>
+                     <ref cRef="Jes." loc="50,1">Jes. 50,1</ref>; <ref cRef="Deut." loc="24,10">Deut. 24,10</ref>; <foreign xml:lang="gez">ትትፈደዩ፡ ዕዳክሙ፡</foreign>
+                     <ref cRef="Jes." loc="58,3">Jes. 58,3</ref>; <ref cRef="2 Esr." loc="20,31">2
+                        Esr. 20,31</ref>; <foreign xml:lang="gez">አግብአ፡ አኅዘ፡ ዕዳሁ፡</foreign>
+                     <ref cRef="Hez." loc="18,7">Hez. 18,7</ref>
+                     <lbl expand="sequens">seq.</lbl>; <foreign xml:lang="gez">እመሂ፡ መጽአኒ፡
+                        ዕዳ፡</foreign> si venerit mihi debitum (i.e. exigatur a me) Lud. ex Org.
+                        <sense n="a" xml:id="D1a"> passim cum Genitivo ejus, cui quid debetur: <foreign xml:lang="gez">ንቅንዮ፡ ለነዳይ፡ በዕዳነ፡</foreign>
+                        <ref cRef="Am." loc="8,6">Am. 8,6</ref>; <ref cRef="Deut." loc="24,11">Deut.
+                           24,11</ref>; <foreign xml:lang="gez">ዕዳሁ፡ውእቱ፡</foreign>
+                        <ref cRef="Rom." loc="4,4">Rom. 4,4</ref> (Platt: <foreign xml:lang="gez">ይደልዎ፡</foreign>).</sense>
+                     <sense n="b" xml:id="D1b">
+                        <foreign xml:lang="gez">በዓለ፡</foreign> vel <foreign xml:lang="gez">ባዕለ፡ዕዳ፡ </foreign>
+                        <cit type="translation" xml:lang="la">
+                           <quote>creditor</quote>
+                        </cit>, <foreign xml:lang="grc">δανειστής</foreign> 4 <ref cRef="Reg." loc="4,1">Reg. 4,1</ref>; <ref cRef="Jes." loc="24,2">Jes. 24,2</ref>;
+                           <ref cRef="Ps." loc="108,10">Ps. 108,10</ref>; <ref cRef="Luc." loc="7,41">Luc. 7,41</ref>; <foreign xml:lang="gez">አብዕልተ፡ ዕዳ፡ </foreign>
+                        F. 24,3.</sense>
+                     <sense n="c" xml:id="D1c">
+                        <foreign xml:lang="gez">ብእሴ፡ ዕዳከ፡</foreign>
+                        <cit type="translation" xml:lang="la">
+                           <quote>debitor tuus</quote>
+                        </cit>, <ref cRef="Deut." loc="24,11">Deut. 24,11</ref>; vel <foreign xml:lang="gez">እለ፡ ይፈድዩ፡ ዕዳ፡</foreign>
+                        <ref cRef="Luc." loc="16,5">Luc. 16,5</ref>
+                        <lbl expand="sequens">seq.</lbl>
+                     </sense>
+                     <sense n="d" xml:id="D1d">
+                        <foreign xml:lang="gez">ዘይፈዲ፡ ዕዳሁ፡</foreign>
+                        <cit type="translation" xml:lang="la">
+                           <quote>obaeratus</quote>
+                        </cit>
+                        <ref cRef="1 Reg. " loc="22,2">1 Reg. 22,2</ref>.</sense>
+                     <sense n="e" xml:id="D1e">
+                        <foreign xml:lang="gez">መጽሐፈ፡ ዕዳ፡</foreign>
+                        <cit type="translation" xml:lang="la">
+                           <quote>libellus debiti</quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                           <quote>chirographum</quote>
+                        </cit>: <foreign xml:lang="gez">መጽሐፈ፡ ዕዳየ፡ ዘይፈድዩኒ፡ </foreign>
+                        <foreign xml:lang="grc">συγγραφή</foreign>
+                        <ref cRef="Job" loc="31,35">Job 31,35</ref>; <foreign xml:lang="grc">χειρόγραφον</foreign>
+                        <ref cRef="Col." loc="2,14">Col. 2,14</ref>; <ref cRef="Clem." loc="101">Clem. f. 101</ref>; Christus <foreign xml:lang="gez">ይደመስስ፡ መጽሐፈ፡
+                           ዕዳነ፡</foreign> Deg.</sense>
+                     <sense n="2" xml:id="D12"> in libris inferioris aetatis: <cit type="translation" xml:lang="la">
+                           <quote>culpa</quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                           <quote>reatus</quote>
+                        </cit>, ut: si quis coactus jurat <foreign xml:lang="gez">አልቦ፡ ላዕሌሁ፡
+                           ዕዳ፡</foreign> F.M. 22,4; manustupratio onaniae similis est <foreign xml:lang="gez">ዳእሙ፡ ይጸንዕ፡ </foreign> (gravior est) <foreign xml:lang="gez">ዕዳሃ፡ ለዛቲ፡ ኀጢአት፡</foreign> F.M. 13; <foreign xml:lang="gez">ሶበ፡ ኢሰተይክሙ፡ ዝናመ፡ ትምህርት፡ እምኢኮነክሙ፡ ዕዳ፡ </foreign>
+                        <ref cRef="Chrys. ho." loc="10">Chrys. ho. 10</ref>; etiam <cit type="translation" xml:lang="la">
+                           <quote>poena solvenda</quote>
+                        </cit>: <foreign xml:lang="gez">ይቤሎሙ፡ ናሁ፡ ረሰይኩ፡ ዕዳሃ፡</foreign> (mulieris)
+                           <foreign xml:lang="gez">ላዕሌክሙ፤ ግበሩ፡ ባቲ፡ በከመ፡ ትፈቅዱ፡</foreign>
+                        <ref cRef="Jsp." loc="327">Jsp. p. 327</ref>; <foreign xml:lang="gez">መጽሐፈ፡
+                           ዕዳ፡ </foreign> „<cit type="translation" xml:lang="la">
+                           <quote>epigraphe reatus</quote>
+                        </cit>, quae condemnatis affigitur quo causa poenae innotescat“, Lud. <lbl expand="auctore, auctoritate">auct.</lbl> Greg.</sense>
+                     <sense n="3" xml:id="D13">
+                        <cit type="translation" xml:lang="la">
+                           <quote>solutio</quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                           <quote>compensatio</quote>
+                        </cit>: si quis amiserit rem commodatam, <foreign xml:lang="gez">ይደልዎ፡
+                           ዕዳ፡</foreign> F.N. 28; F.N. 36.</sense>
+                  </sense>
+               </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,71 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ወንጌል </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="LB" when="2018-04-03">root</change>
+        <change who="MK" when="2022-04-13">added transliteration</change></revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L36543c25ea2d43fbabf6c5612f167817" n="6670">
+               <form>
+                  <foreign xml:lang="gez">ወንጌል</foreign>
+               <rs type="root"/>
+                    </form>
+               <sense xml:id="Dmain" xml:lang="la" source="#dillmann"> <gramGrp> <pos expand="not found">n. peregr.</pos> </gramGrp>, <gramGrp> <gen value="not found">m.</gen> </gramGrp> et <gramGrp> <gen value="femininus">fem.</gen> </gramGrp>, <lbl expand="pluralis">Pl.</lbl> <foreign xml:lang="gez">ወንጌላት፡</foreign>, <foreign xml:lang="grc">εὐαγγέλιον</foreign> <cit type="translation" xml:lang="la"><quote> evangelium </quote></cit>, <ref cRef="Matth." loc="9,35">Matth. 9,35</ref>; <foreign xml:lang="gez">ዛቲ፡ ወንጌል፡</foreign> <ref cRef="Marc." loc="14,9">Marc. 14,9</ref>; <foreign xml:lang="gez">ይሰበክ፡ ዝወንጌለ፡ መንግሥት፡</foreign> <ref cRef="Matth." loc="24,14">Matth. 24,14</ref>; <ref cRef="Matth." loc="26,13">Matth. 26,13</ref>; <ref cRef="Rom." loc="1,16">Rom. 1,16</ref>; <ref cRef="1 Tim." loc="1,11">1 Tim. 1,11</ref>; 1 <ref cRef="Petr." loc="4,17">Petr. 4,17</ref>; <ref cRef="Apoc." loc="14,6">Apoc. 14,6</ref>; <foreign xml:lang="gez">ብስራተ፡ ወንጌል፡ ዘቅዱስ፡ ማርቆስ፡</foreign> Cod. Mus. Brit. V<subc>III,2</subc>,d; <foreign xml:lang="gez">በከመ፡ ይቤ፡ ወንጌል፡ ቅዱስ፡</foreign> <ref cRef="Sx. Sen." loc="24">Sx. Sen. 24</ref>; <foreign xml:lang="gez">ወንጌል፡ ዘማቴዎስ፡ ዘማርቆስ፡</foreign> al.; <foreign xml:lang="gez">ጸሎተ፡ ወንጌል፡ ወአቡነ፡ ዘበሰማያት፡</foreign> <ref cRef="Kedr f." loc="57">Kedr f. 57</ref>; <foreign xml:lang="gez">ጸሎተ፡ ወንጌል፡ እግዚአብሔር፡ እግዚኦ፡</foreign> <ref cRef="Genz." loc="54">Genz. f. 54</ref>; <ref cRef="Genz." loc="60">Genz. f. 60</ref>; <foreign xml:lang="gez">ወንጌል፡</foreign> <cit type="translation" xml:lang="la"><quote> evangelia </quote></cit> opponitur Paulo et Apostolo (i.e. epistolis Pauli caeterorumque Apostolorum); <foreign xml:lang="gez">፬ ወንጌላት፡</foreign> Cod. Mus. Brit. V<subc>III,1</subc>; Cod. Bibl. Bodl. X,1; nonnumquam <foreign xml:lang="gez">ወንጌል፡</foreign> pericopam vel lectionem Evangelii significat. </sense>
+               
+            <sense xml:id="Tmain" xml:lang="en" source="#traces"><cit type="transcription" xml:lang="gez"><quote>wangel</quote></cit> </sense></entry>
+         </div>
+      </body>
+   </text>
+</TEI>

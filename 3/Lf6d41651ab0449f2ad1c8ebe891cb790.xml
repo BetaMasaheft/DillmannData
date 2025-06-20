@@ -1,0 +1,354 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ዣን </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+               <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+            </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+         <listPrefixDef>
+            <prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+         <change who="VP" when="2017-08-03">Entry of Sense traces updated.</change>
+         <change who="VP" when="2017-08-09">entry traces updated.</change>
+         <change who="VP" when="2017-08-09">in the lemma: ፡ delited</change>
+         <change who="VP" when="2018-01-17">፡ after the Lemma; e.g. and n.pr. deleted</change>
+         <change who="VP" when="2018-01-19">Lemma in the entry deleted and PoS added.</change>
+         <change who="VP" when="2018-03-28">revision</change>
+         <change who="VP" when="2018-03-28">"e.g." added</change>
+         <change who="MK" when="2018-12-06">corr</change>
+         <change who="MK" when="2018-12-06">cross-reference</change>
+         <change who="MK" when="2022-02-10">added new info</change>
+         <change who="MK" when="2022-02-10">correction</change>
+         <change who="MK" when="2022-02-10">added new compounds</change>
+         <change who="MK" when="2022-02-10">correction</change>
+         <change who="MK" when="2022-02-10">added bibliography</change>
+         <change who="MK" when="2022-02-10">added parenthesis</change>
+         <change who="MK" when="2022-02-10">added "title"</change>
+         <change who="MK" when="2022-02-10">added cross - references</change>
+         <change who="MK" when="2022-02-10">added links</change>
+         <change who="MK" when="2022-02-10">correction</change>
+         <change who="MK" when="2022-02-15">added new witness</change>
+         <change who="MK" when="2022-02-21">added new compound</change>
+         <change who="MK" when="2022-02-21">added "title"</change>
+         <change who="MK" when="2022-02-21">added cross/refernce </change>
+         <change who="MK" when="2022-02-21">added new witness</change>
+         <change who="MK" when="2022-02-21">added new withnesses</change>
+         <change who="MK" when="2022-02-23">added witness</change>
+         <change who="MK" when="2022-03-04">added cross - reference </change>
+         <change who="MK" when="2022-03-04">added cross - reference </change>
+         <change who="MK" when="2022-03-04">added witness</change>
+         <change who="MK" when="2022-03-04">added new compound</change>
+         <change who="MK" when="2022-03-04">added cross / reference </change>
+         <change who="MK" when="2022-03-07">added menaing </change>
+         <change who="MK" when="2022-03-07">added new witness</change>
+         <change who="MK" when="2022-03-07">added witness</change>
+         <change who="MK" when="2022-03-07">added translation</change>
+         <change who="MK" when="2022-03-07">added variant</change>
+         <change who="MK" when="2022-03-07">added witness</change>
+         <change who="MK" when="2022-03-07">added witnesses</change>
+         <change who="MK" when="2022-03-07">added sic</change>
+         <change who="MK" when="2022-03-07">correction </change>
+         <change who="MK" when="2022-03-07">restructuring </change>
+         <change who="MK" when="2022-03-07">added quotation mark</change>
+         <change who="MK" when="2022-03-07">added translation</change>
+         <change who="MK" when="2022-03-07">correction</change>
+         <change who="MK" when="2022-03-07">added example</change>
+         <change who="MK" when="2022-03-07">added link</change>
+         <change who="MK" when="2022-03-07">correction</change>
+         <change who="MK" when="2022-03-07">correction</change>
+         <change who="MK" when="2022-03-08">added variant</change>
+         <change who="MK" when="2022-03-08">changed order</change>
+         <change who="MK" when="2022-03-08">changed order</change>
+         <change who="MK" when="2022-03-10">added example</change>
+         <change who="MK" when="2022-03-10">correction</change>
+         <change who="MK" when="2022-03-11">correction</change>
+         <change who="MK" when="2022-03-15">added compound</change>
+         <change who="MK" when="2022-03-15">added translation</change>
+         <change who="MK" when="2022-04-20">changed headword</change>
+         <change who="MK" when="2022-04-20">correection</change>
+         <change who="MK" when="2022-04-20">added prop name </change>
+         <change who="MK" when="2022-04-20">added link</change>
+         <change who="MK" when="2022-04-29">correction</change>
+         <change who="MK" when="2022-04-29">correction</change>
+         <change who="MK" when="2022-05-27">corrections</change>
+         <change who="MK" when="2022-06-30">added cross reference </change>
+         <change who="MK" when="2022-06-30">restructuring</change>
+         <change who="MK" when="2022-06-30">correction</change>
+         <change who="MK" when="2022-06-30">added example</change>
+         <change who="MK" when="2022-06-30">changed order</change>
+         <change who="MK" when="2022-06-30">correction</change>
+         <change who="MK" when="2022-06-30">correction</change>
+         <change who="MK" when="2022-06-30">changed order</change>
+         <change who="MK" when="2022-06-30">added example</change>
+         <change who="MK" when="2022-08-12">introdused a)</change>
+         <change who="MK" when="2022-08-17">corrected into a-b-c...</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="Lf6d41651ab0449f2ad1c8ebe891cb790" n="11325">
+               <form>
+                  <foreign xml:lang="gez">ዣን</foreign>
+               </form>
+
+
+               <sense xml:id="Tmain" xml:lang="en" source="#traces">
+                  <cit type="transcription" xml:lang="gez">
+                     <t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> žān </t:quote>
+                  </cit>, <foreign xml:lang="gez">ዠን፡</foreign>
+                  <cit type="transcription" xml:lang="gez">
+                     <t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> žan </t:quote>
+                  </cit>, <foreign xml:lang="gez">ዛን፡</foreign>
+                  <cit type="transcription" xml:lang="gez">
+                     <t:quote xmlns:t="http://www.tei-c.org/ns/1.0">zān</t:quote>
+                  </cit>, <foreign xml:lang="gez">ጃን፡</foreign>
+                  <cit type="transcription" xml:lang="gez">
+                     <t:quote xmlns:t="http://www.tei-c.org/ns/1.0">ǧān</t:quote>
+                  </cit>
+                  <gramGrp><pos expand="Substantivum">subst.</pos></gramGrp>
+                  <sense n="1" xml:id="T1"> the first component of a title, <cit type="translation" xml:lang="en">
+                        <t:quote xmlns:t="http://www.tei-c.org/ns/1.0">court officer</t:quote>
+                     </cit>
+                  </sense>
+                  <sense n="X" xml:id="TX">
+                     <sense n="a" xml:id="TXa">
+                        <foreign xml:lang="gez">ዣን፡ ሐጸና፡</foreign>
+                        <cit type="transcription" xml:lang="gez">
+                           <t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> žān ḥaṣanā</t:quote>
+                        </cit>, <foreign xml:lang="gez">ዠን፡ ሐጸና፡</foreign>
+                        <cit type="transcription" xml:lang="gez">
+                           <t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> žan ḥaṣanā</t:quote>
+                        </cit>, <foreign xml:lang="gez">ዠን፡ ሐፀና፡</foreign>
+                        <cit type="transcription" xml:lang="gez">
+                           <t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> žan ḥaḍanā</t:quote>
+                        </cit>, <foreign xml:lang="gez">ዛን፡ ሐጸና፡</foreign>
+                        <cit type="transcription" xml:lang="gez">
+                           <t:quote xmlns:t="http://www.tei-c.org/ns/1.0">zān ḥaṣanā</t:quote>
+                        </cit>, <foreign xml:lang="gez">ዛንሐጸና፡</foreign>
+                        <cit type="transcription" xml:lang="gez">
+                           <t:quote xmlns:t="http://www.tei-c.org/ns/1.0">zānḥaṣanā</t:quote>
+                        </cit> (title) officer of the royal palace <bibl><ptr target="bm:Kane1990DictAmhVol2"/><citedRange unit="page">
+                              1867a</citedRange></bibl>
+                        <foreign xml:lang="gez">ቀሚሰሂ፡ ፀዓዳ፡ ኢይለብሱ፡ ዘእንበለ፡ ቀላሚ፡ ወኳፍሬ፡ ወሾቍጤ። እመሂ፡
+                           አዛዝያን፡ ወእመሂ፡ ጌቶች፡ እመሂ፡ ሊቀ፡ መጣኒ፡ ምስለ፡ እሊአሁ፡ ዣን፡ ማስ{sic}ሮች፡ ወኢቃቄታች፡ ምስለ፡
+                           እሊአሁ፡ ዣን፡ ሐጸና።</foreign> ‘<cit type="translation" xml:lang="fr">
+                           <t:quote xmlns:t="http://www.tei-c.org/ns/1.0">Ils ne portaient pas la
+                              tunique blanche, mais le Qalâmi, le Kuâfrê et le Shôquetê, et cette
+                              tenue était obligatoire aussi bien pour les Azâzĕyân que pour les
+                              Gêtôtj, le Liqa Matâni et ses gens, les Jân Mâsrôtj, le Iqâqêtâtj et
+                              ses gens et le Jân Haçanâ*</t:quote>
+                        </cit>’ <bibl><ptr target="bm:Perruchon1893Zarayaeqob"/><citedRange unit="page"> 33 l. 4–7 (ed.), 33 l. 4–8 (tr.)</citedRange></bibl>;
+                           <foreign xml:lang="gez">ዛን፡ ሐጸና፡ በኃይሉ፡</foreign> ‘<cit type="translation" xml:lang="fr">
+                           <t:quote xmlns:t="http://www.tei-c.org/ns/1.0">le zān ḥaṣanā,
+                              Baḫāylu</t:quote>
+                        </cit>’ <bibl><ptr target="bm:ContiRossini1909LiberT"/><citedRange unit="page"> 27 l. 12 (ed.)</citedRange></bibl>, <bibl><ptr target="bm:ContiRossini1910LiberV"/><citedRange unit="page"> 31 l. 7
+                              (tr.)</citedRange></bibl>; <bibl><ptr target="bm:ContiRossini1909LiberT"/><citedRange unit="page"> 28 l. 5
+                              (ed.)</citedRange></bibl>, <bibl><ptr target="bm:ContiRossini1910LiberV"/><citedRange unit="page"> 32 l.
+                              9–10 (tr.)</citedRange></bibl>; <foreign xml:lang="gez">ወዣን፡ ሐፀና፡
+                           ጊዮርጊስ፤</foreign> ‘<cit type="translation" xml:lang="fr">
+                           <t:quote xmlns:t="http://www.tei-c.org/ns/1.0">et le žān ḥaṣanā,
+                              Giyorgis</t:quote>
+                        </cit>’ <bibl><ptr target="bm:ContiRossini1909LiberT"/><citedRange unit="page"> 31 l. 32, 32 l. 1 (ed.)</citedRange></bibl>, <bibl><ptr target="bm:ContiRossini1910LiberV"/><citedRange unit="page"> 37 l. 7
+                              (tr.)</citedRange></bibl>, <foreign xml:lang="gez">ዛንሐጸና፡
+                           ሃኖ፡</foreign> ‘<cit type="translation" xml:lang="fr">
+                           <t:quote xmlns:t="http://www.tei-c.org/ns/1.0">le za{sic}nḥaṣanā, Hāno
+                           </t:quote>
+                        </cit>’ <bibl><ptr target="bm:ContiRossini1909LiberT"/><citedRange unit="page"> 33 l. 14–15 (ed.)</citedRange></bibl>, <bibl><ptr target="bm:ContiRossini1910LiberV"/><citedRange unit="page"> 38 l. 30
+                              (tr.)</citedRange></bibl>, <lbl expand="videas">vid.</lbl>
+                        <foreign xml:lang="gez">ሐጸና፡</foreign>
+                     </sense>
+                     <sense n="b" xml:id="TXb">
+                        <foreign xml:lang="gez">ዣን፡ መአሰሬ፡</foreign>
+                        <cit type="transcription" xml:lang="gez">
+                           <t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> žān maʾasare</t:quote>
+                        </cit>, <foreign xml:lang="gez">ዠን፡ መአሰሬ፡</foreign>
+                        <cit type="transcription" xml:lang="gez">
+                           <t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> žan maʾasare</t:quote>
+                        </cit>, <foreign xml:lang="gez">ዛን፡ መአሰሬ፡</foreign>
+                        <cit type="transcription" xml:lang="gez">
+                           <t:quote xmlns:t="http://www.tei-c.org/ns/1.0">zān maʾasare</t:quote>
+                        </cit>, <foreign xml:lang="gez">ዣን፡ ማሰሬ፡</foreign>
+                        <cit type="transcription" xml:lang="gez">
+                           <t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> žān māsare</t:quote>
+                        </cit>
+                        <lbl expand="pluralis">Pl.</lbl>
+                        <foreign xml:lang="gez">ዣን፡ ማሰሮች፡</foreign>
+                        <cit type="transcription" xml:lang="gez">
+                           <t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> žān māsaročč</t:quote>
+                        </cit> (title) chief of protocol in the Gondarine monarchy who introduced
+                        foreigners of status to the monarch <bibl><ptr target="bm:Kane1990DictAmhVol2"/><citedRange unit="page">
+                              1867a</citedRange></bibl>
+                        <foreign xml:lang="gez">ወለሐናፅያኒሂ፡ አዘዝዎሙ፡ ለእመ፡ ጸነ፡ ከመ፡ ያርትዑ፡ ራቅ፡ ማሰሮችሰ፡ ዘየማን፡
+                           ወዘፀጋም፡ ኢይልበሱ፡ ቀማይሲሆሙ፡ እስከ፡ ይትፌጸም፡ ውእቱ፡ ገብረ፡ ጃጐል፡ ወዣን፡ ማሰሬሂ፡ ከመ{sic}ሆሙ፡
+                           ኢይልበሱ፡ እለ፡ ይሰርሑ፡ ጃጐለ፡</foreign> ‘<cit type="translation" xml:lang="fr">
+                           <t:quote xmlns:t="http://www.tei-c.org/ns/1.0">Il recommanda aux
+                              constructeurs de veiller à ce qu’il fût bien aligné, sans aucune
+                              déviation, et aux Râq Mâsarôtj de droite et de gauche, ainsi qu’aux
+                              Jân Mâsarê qui étaient employés à la construction du Djagual, de ne
+                              pas prendre leurs tuniques jusqu'à ce que ce travail fût
+                              achevé</t:quote>
+                        </cit>’ <bibl><ptr target="bm:Perruchon1893Zarayaeqob"/><citedRange unit="page"> 23 l. 9–24 l. 4 (ed.), 24 l. 1–5
+                           (tr.)</citedRange></bibl>; <foreign xml:lang="gez">ቀሚሰሂ፡ ፀዓዳ፡ ኢይለብሱ፡
+                           ዘእንበለ፡ ቀላሚ፡ ወኳፍሬ፡ ወሾቍጤ። እመሂ፡ አዛዝያን፡ ወእመሂ፡ ጌቶች፡ እመሂ፡ ሊቀ፡ መጣኒ፡ ምስለ፡ እሊአሁ፡
+                           ዣን፡ ማስ{sic}ሮች፡ ወኢቃቄታች፡ ምስለ፡ እሊአሁ፡ ዣን፡ ሐጸና።</foreign> ‘<cit type="translation" xml:lang="fr">
+                           <t:quote xmlns:t="http://www.tei-c.org/ns/1.0">Ils ne portaient pas la
+                              tunique blanche, mais le Qalâmi, le Kuâfrê et le Shôquetê, et cette
+                              tenue était obligatoire aussi bien pour les Azâzĕyân que pour les
+                              Gêtôtj, le Liqa Matâni et ses gens, les Jân Mâsrôtj, le Iqâqêtâtj et
+                              ses gens et le Jân Haçanâ*</t:quote>
+                        </cit>’ <bibl><ptr target="bm:Perruchon1893Zarayaeqob"/><citedRange unit="page"> 33 l. 4–7 (ed.), 33 l. 4–8 (tr.)</citedRange></bibl>;
+                           <foreign xml:lang="gez">ወበሳኒታሁ፡ አዘዘ፡ ንጉሥ፡ ከመ፡ ያስተጋብዕዎሙ፡ ለኵሎሙ፡ ዣን፡ ማሰሮች፡
+                           ወያብዕዎሙ፡ ውስተ፡ ጃጐል፡፡</foreign> ‘<cit type="translation" xml:lang="fr">
+                           <t:quote xmlns:t="http://www.tei-c.org/ns/1.0">Le lendemain, Ba’eda
+                              Mâryâm donna l’ordre de réunir tous les Jân Mâsarôtj et de les amener
+                              dans le Djagual</t:quote>
+                        </cit>’ <bibl><ptr target="bm:Perruchon1893Zarayaeqob"/><citedRange unit="page"> 162 l. 7–9 (ed.), 162 l. 8–10 (tr.)</citedRange></bibl>;
+                           <foreign xml:lang="gez">ዛን፡ መአሰሬ፡ ገብረ፡ ማርያም፡</foreign> ‘<cit type="translation" xml:lang="fr">
+                           <t:quote xmlns:t="http://www.tei-c.org/ns/1.0">le zān maʾasarē, Gabra
+                              Māryām</t:quote>
+                        </cit>’ <bibl><ptr target="bm:ContiRossini1909LiberT"/><citedRange unit="page"> 27 l. 12–13 (ed.)</citedRange></bibl>, <bibl><ptr target="bm:ContiRossini1910LiberV"/><citedRange unit="page"> 31 l. 7–8
+                              (tr.)</citedRange></bibl>; <bibl><ptr target="bm:ContiRossini1909LiberT"/><citedRange unit="page"> 31 l. 32
+                              (ed.)</citedRange></bibl>, <bibl><ptr target="bm:ContiRossini1910LiberV"/><citedRange unit="page"> 37 l. 6
+                              (tr.)</citedRange></bibl>; <foreign xml:lang="gez">ዣን፡ መአሰሬ፡ ሰመረ፡
+                           ጽዮን፡</foreign> ‘<cit type="translation" xml:lang="fr">
+                           <t:quote xmlns:t="http://www.tei-c.org/ns/1.0">et le žān maʾasarē, Samara
+                              Ṣyon</t:quote>
+                        </cit>’ <bibl><ptr target="bm:ContiRossini1909LiberT"/><citedRange unit="page"> 37 l. 18 (ed.)</citedRange></bibl>, <bibl><ptr target="bm:ContiRossini1910LiberV"/><citedRange unit="page"> 44 l. 6–7
+                              (tr.)</citedRange></bibl>, <lbl expand="videas">vid.</lbl>
+                        <foreign xml:lang="gez">መአሰሬ፡</foreign>
+                     </sense>
+                     <sense n="c" xml:id="TXc">
+                        <foreign xml:lang="gez">ዣን፡ ተከል፡</foreign>
+                        <cit type="transcription" xml:lang="gez">
+                           <t:quote xmlns:t="http://www.tei-c.org/ns/1.0">žān takal</t:quote>
+                        </cit> one of the junior officers of the royal household <bibl><ptr target="bm:Abbadie1881Dict"/><citedRange unit="page">
+                              733a</citedRange></bibl>
+                        <foreign xml:lang="gez">ዣን፡ ተከል፡ አፈ፡ ወርቅ፡</foreign> ‘<cit type="translation" xml:lang="fr">
+                           <t:quote xmlns:t="http://www.tei-c.org/ns/1.0">et le žān takal, Afa
+                              Warq</t:quote>
+                        </cit>’ <bibl><ptr target="bm:ContiRossini1909LiberT"/><citedRange unit="page"> 43 l. 32 (ed.)</citedRange></bibl>, <bibl><ptr target="bm:ContiRossini1910LiberV"/><citedRange unit="page"> 52 l.
+                              14–15 (tr.)</citedRange></bibl>, <lbl expand="videas">vid.</lbl>
+                        <foreign xml:lang="gez">ተከል፡</foreign>
+                     </sense>
+                     <sense n="d" xml:id="TXd">
+                        <foreign xml:lang="gez">ዣን፡ ደረባ፡</foreign>
+                        <cit type="transcription" xml:lang="gez">
+                           <t:quote xmlns:t="http://www.tei-c.org/ns/1.0">žān darabā</t:quote>
+                        </cit>, <foreign xml:lang="gez">ዣንደረባ፡</foreign>
+                        <cit type="transcription" xml:lang="gez">
+                           <t:quote xmlns:t="http://www.tei-c.org/ns/1.0">žāndarabā</t:quote>
+                        </cit>, <foreign xml:lang="gez">ጃንደረባ፡</foreign>
+                        <cit type="transcription" xml:lang="gez">
+                           <t:quote xmlns:t="http://www.tei-c.org/ns/1.0">ǧāndarabā</t:quote>
+                        </cit>
+                        <lbl expand="pluralis">Pl.</lbl>
+                        <foreign xml:lang="gez">ዣንደረቦች፡</foreign>
+                        <cit type="transcription" xml:lang="gez">
+                           <t:quote xmlns:t="http://www.tei-c.org/ns/1.0">žāndarabočč</t:quote>
+                        </cit> ‘<cit type="translation" xml:lang="en">
+                           <t:quote xmlns:t="http://www.tei-c.org/ns/1.0">eunuch</t:quote>
+                        </cit>, <cit type="translation" xml:lang="en">
+                           <t:quote xmlns:t="http://www.tei-c.org/ns/1.0">chamberlain</t:quote>
+                        </cit> (in the Gondarine monarchy)’ <bibl><ptr target="bm:Kane1990DictAmhVol2"/><citedRange unit="page">
+                              1867b</citedRange></bibl>
+                        <foreign xml:lang="gez">ወዣን፡ ደረባ፡ ዛን፡ ባርያ፡</foreign> ‘<cit type="translation" xml:lang="fr">
+                           <t:quote xmlns:t="http://www.tei-c.org/ns/1.0">le žān darabā, Zān Bāryā
+                           </t:quote>
+                        </cit>’ <bibl><ptr target="bm:ContiRossini1909LiberT"/><citedRange unit="page"> 37 l. 19 (ed.)</citedRange></bibl>, <bibl><ptr target="bm:ContiRossini1910LiberV"/><citedRange unit="page"> 44 l. 8
+                              (tr.)</citedRange></bibl>; <foreign xml:lang="gez">ዣንደረቦች፡ አዛጅ፡ ዮናዳብ፡
+                           ወአምኃ፡</foreign> ‘<cit type="translation" xml:lang="fr">
+                           <t:quote xmlns:t="http://www.tei-c.org/ns/1.0">et les žāndarabā étaient
+                              l’azāž{sic} Yonādāb et Amḫā</t:quote>
+                        </cit>’ <bibl><ptr target="bm:ContiRossini1909LiberT"/><citedRange unit="page"> 41 l. 16–17 (ed.)</citedRange></bibl>, <bibl><ptr target="bm:ContiRossini1910LiberV"/><citedRange unit="page"> 49 l. 6
+                              (tr.)</citedRange></bibl>, <lbl expand="videas">vid.</lbl>
+                        <foreign xml:lang="gez">ደረባ፡</foreign>
+                     </sense>
+                     <sense n="e" xml:id="TXe">
+                        <foreign xml:lang="gez">ዣን፡ ጽራር፡</foreign>
+                        <cit type="transcription" xml:lang="gez">
+                           <t:quote xmlns:t="http://www.tei-c.org/ns/1.0">žān ṣǝrār</t:quote>
+                        </cit>, <foreign xml:lang="gez">ዣንጽራር፡</foreign>
+                        <cit type="transcription" xml:lang="gez">
+                           <t:quote xmlns:t="http://www.tei-c.org/ns/1.0">žānṣǝrār</t:quote>
+                        </cit>, <foreign xml:lang="gez">ዣን፡ ጥራር፡</foreign>
+                        <cit type="transcription" xml:lang="gez">
+                           <t:quote xmlns:t="http://www.tei-c.org/ns/1.0">žān ṭǝrār</t:quote>
+                        </cit> (title) governor of Wādlā <bibl><ptr target="bm:Guidi1901Vocabolario"/><citedRange unit="page"> 637a</citedRange></bibl>
+                        <foreign xml:lang="gez">ወቃለ፡ ዓፄሂ፡ ዘዣንጽራር፡ ጔታ፡ ሐብተ፡ ሚካኤል፡</foreign> ‘<cit type="translation" xml:lang="fr">
+                           <t:quote xmlns:t="http://www.tei-c.org/ns/1.0">le qāla ḥ{sic}aṣē, žān
+                              ṣerār guiētā, Ḥabta Mikā’ēl</t:quote>
+                        </cit>’ <bibl><ptr target="bm:ContiRossini1909LiberT"/><citedRange unit="page"> 31 l. 14 (ed.)</citedRange></bibl>, <bibl><ptr target="bm:ContiRossini1910LiberV"/><citedRange unit="page"> 36 l.
+                              18–19 (tr.)</citedRange></bibl>; <foreign xml:lang="gez">ወዣን፡ ጽራር፡
+                           አቤል፡</foreign> ‘<cit type="translation" xml:lang="fr">
+                           <t:quote xmlns:t="http://www.tei-c.org/ns/1.0">le žān ṣerār,
+                              Abēl</t:quote>
+                        </cit>’ <bibl><ptr target="bm:ContiRossini1909LiberT"/><citedRange unit="page"> 31 l. 32 (ed.)</citedRange></bibl>, <bibl><ptr target="bm:ContiRossini1910LiberV"/><citedRange unit="page"> 37 l. 6–7
+                              (tr.)</citedRange></bibl>, <lbl expand="videas">vid.</lbl>
+                        <foreign xml:lang="gez">ጽራር፡</foreign>
+                     </sense>
+                  </sense>
+                  <sense n="2" xml:id="T2"> part of <gramGrp><pos expand="nomen proprium">n.
+                           pr.</pos></gramGrp> (personal name) <lbl expand="videas">vid.</lbl> e.g.
+                        <ref type="external" target="https://betamasaheft.eu/Dillmann/lemma/Lde207fbff65c4b1895ea0b9b0465449f"><foreign xml:lang="gez">ዣን፡ መንገሣ፡</foreign></ref>, <ref type="external" target="https://betamasaheft.eu/Dillmann/lemma/L0e6e6194d99b476388c8612d934b44fa"><foreign xml:lang="gez">ዣን፡ ሰገድ፡</foreign></ref>, <ref type="external" target="https://betamasaheft.eu/Dillmann/lemma/Ldbbef8f6e79f4fd782bf489201e8d72e"><foreign xml:lang="gez">ዠን፡ አስፋሕ፡</foreign></ref>, <ref type="external" target="https://betamasaheft.eu/Dillmann/lemma/L9842b9f29d07408baa55e254151a622e"><foreign xml:lang="gez">ዣን፡ ጽጌ፡</foreign></ref>
+                  </sense>
+                  <sense n="E" xml:id="TE">from Amharic <foreign xml:lang="am">ጃን</foreign>
+                     <cit type="transcription" xml:lang="gez">
+                        <t:quote xmlns:t="http://www.tei-c.org/ns/1.0">ǧān</t:quote>
+                     </cit> or <foreign xml:lang="am">ዣን</foreign>
+                     <cit type="transcription" xml:lang="gez">
+                        <t:quote xmlns:t="http://www.tei-c.org/ns/1.0">žān</t:quote>
+                     </cit>, probably from Agaw ‘elephant’ (for more information see <bibl><ptr target="bm:Bausi2014Zhanhoy"/></bibl>) </sense>
+                  <nd/>
+               </sense>
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

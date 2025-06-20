@@ -1,0 +1,77 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ትድምርት </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="ES" when="2024-02-28">nesting</change></revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="Lc6d24c641d44452e97b7ef4c6e612844" n="7855">
+               <form>
+                  <foreign xml:lang="gez">ትድምርት</foreign>
+               </form>
+               <sense xml:id="Dmain" xml:lang="la" source="#dillmann"> <gramGrp> <pos expand="Substantivum">subst.</pos> </gramGrp> <sense n="1" xml:id="D1"> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> commixtio </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> confusio </t:quote></cit>: <foreign xml:lang="gez">ታቦት፡ ተገብረት፡ በአምሳለ፡ ቤተ፡ ክርስቲያን፡ ዘአልቦ፡ ውስቴታ፡ ትድምርተ፡ ትባዕት፡ ምስለ፡ አንስት፡</foreign> (sed sexus a sexu separatus est) <ref cRef="Clem." loc="23">Clem. f. 23</ref>; <foreign xml:lang="gez">ዘእንበለ፡ ቶስሖ፡ ወኢትድምርት፡</foreign> <ref cRef="Lit." loc="166,4">Lit. 166,4</ref>.
+</sense> <sense n="2" xml:id="D2"> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> conjunctio </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> consociatio </t:quote></cit> <sense n="a" xml:id="D2a"> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> unitio </t:quote></cit> vel <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> unio </t:quote></cit> naturarum Christi, <foreign xml:lang="grc">ἕνωσις</foreign>, <foreign xml:lang="grc">σύνοδος</foreign>, <foreign xml:lang="grc">σύνδρομος</foreign>, Cyr. ad <ref cRef="Theod." loc="8">Theod. f. 8</ref>; Cyr. ad <ref cRef="Theod. " loc="12">Theod.  f. 12</ref>; <foreign xml:lang="gez">ነፍሱ፡ እንተ፡ ለብሳ፡ በትድምርት፡</foreign> <foreign xml:lang="grc">ἡ ἐνωθεῖσα αὐτῷ ψυχή</foreign> Cyr. ad <ref cRef="Theod." loc="15">Theod. f. 15</ref>; <foreign xml:lang="gez">በትድምርት፡ ዘትሥጉት፡</foreign> <foreign xml:lang="grc">καθ</foreign>ʼ <foreign xml:lang="grc">ἕνωσιν οἰκονομικήν</foreign> Cyr. ad <ref cRef="Theod." loc="20">Theod. f. 20</ref>; Cyr. c. <ref cRef="Pall." loc="76 ">Pall. f. 76 </ref>(<lbl expand="oppositum, -o, -nitur">opp.</lbl> <foreign xml:lang="gez">ልጽቀት፡</foreign> et <foreign xml:lang="gez">ቅርበት፡</foreign> Nestorianorum); unio mystica: <ref cRef="Lit." loc="166,1">Lit. 166,1</ref>; <foreign xml:lang="gez">ከመ፡ ይትቀደስ፡ ሥጋነ፡ በትድምርተ፡ ሥጋሁ፡</foreign> (Christi) <ref cRef="Org." loc="2.">Org. 2.</ref> 
+</sense> <sense n="b" xml:id="D2b"> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> communio </t:quote></cit> fidelium: <foreign xml:lang="gez">ትድምርተ፡ ምእመናን፡</foreign> <ref cRef="Abtel. Ap." loc="28">Abtel. Ap. 28</ref>; F.M. 6,6; <foreign xml:lang="gez">ይሰደዱ፡ እምትድምርተ፡ ምእመናን፡ ወእምነሢአ፡ ቍርባን፡</foreign> F.M. 8,1.
+</sense> <sense n="c" xml:id="D2c"> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> commercium </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> societas </t:quote></cit>: <foreign xml:lang="gez">ይትዐቀቡ፡ እምትድምርተ፡ እኩያን፡ ሰብእ፡</foreign> <ref cRef="Did." loc="33.">Did. 33.</ref> 
+</sense> <sense n="d" xml:id="D2d"> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> conjugium </t:quote></cit>: <foreign xml:lang="gez">ትድምርተ፡ ብእሲ፡ ወብእሲት፡</foreign> <ref cRef="Did." loc="33">Did. 33</ref>; <ref cRef="Clem." loc="89">Clem. f. 89</ref>; <foreign xml:lang="gez">ትድምርተ፡ አውስቦ፡</foreign> Lud. ex Hom. de nativ. Christi.
+</sense> 
+</sense> <sense n="3" xml:id="D3"> in arithmetica: <sense n="a" xml:id="D3a"> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> multiplicatio </t:quote></cit> <ref cRef="Abush." loc="11.">Abush. 11.</ref> 
+</sense> <sense n="b" xml:id="D3b"> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> additio </t:quote></cit>, <ref cRef="Abush." loc="47.">Abush. 47.</ref> 
+</sense> 
+</sense> </sense>
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

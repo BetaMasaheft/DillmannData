@@ -1,0 +1,84 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ሐቌ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="PL" when="2018-06-13">curz abbreviation</change>
+        </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="Lac946a47bbd542faad0e848a6be23480" n="727">
+               <form>
+                  <foreign xml:lang="gez">ሐቌ</foreign>
+               </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain"> (pro <foreign xml:lang="gez">ሐቅዌ፡</foreign>), nonnumquam <foreign xml:lang="gez">ሐውቄ፡</foreign> vel <foreign xml:lang="gez">ሐውቌ፡</foreign> (ut <ref cRef="Vis. Bar.">Vis. Bar.</ref> ; <ref cRef="Dan." loc="2,32">Dan. 2,32</ref>; <ref cRef="Dan." loc="5,6">Dan. 5,6</ref> in <lbl expand="">cod.</lbl> <ref cRef="Curz." loc="">Curz. </ref>; etiam <foreign xml:lang="gez">ሐቋ፡</foreign> quod librarius libri Job in codice <ref cRef="Curz." loc="">Curz. </ref> exarare solebat) <gramGrp> <pos expand="Substantivum">subst.</pos> </gramGrp>, Plur. <foreign xml:lang="gez">ሐቌያት፡</foreign> (<ref cRef="Hez." loc="21,6">Hez. 21,6</ref>) et <foreign xml:lang="gez">ሐቍያት፡</foreign> <lbl expand="vel">v.</lbl> <foreign xml:lang="gez">ሐቋያት፡</foreign> (<ref cRef="Am." loc="8,10">Am. 8,10</ref>). <sense n="1" xml:id="D1"> <cit type="translation" xml:lang="la">
+                                <quote> lumbus </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> lumbi </quote>
+                            </cit>, <foreign xml:lang="grc">ὀσφύς</foreign> <foreign xml:lang="gez">ቅንት፡ ሐቌከ፡ ከመ፡ ብእሲ፡</foreign> <ref cRef="Job" loc="38,3">Job 38,3</ref>; <ref cRef="Job" loc="40,2">Job 40,2</ref>; <ref cRef="Sir." loc="32,22">Sir. 32,22</ref>; <ref cRef="Jes. " loc="5,27">Jes.  5,27</ref>; <ref cRef="Jes." loc="11,5">Jes. 11,5</ref>; <ref cRef="Jes." loc="15,4">Jes. 15,4</ref>; <ref cRef="Jes." loc="20,2">Jes. 20,2</ref>; <ref cRef="Jer." loc="1,17">Jer. 1,17</ref>; <ref cRef="Jer." loc="13,1">Jer. 13,1</ref> <lbl expand="sequens">seq.</lbl>; <ref cRef="Dan." loc="5,6">Dan. 5,6</ref>; <ref cRef="Nah. " loc="2,2">Nah.  2,2</ref>; <ref cRef="Ps." loc="44,4">Ps. 44,4</ref>; <ref cRef="Matth." loc="3,4">Matth. 3,4</ref>; <ref cRef="Luc." loc="12,35">Luc. 12,35</ref>; <ref cRef="1 Petr." loc="1,13">1 Petr. 1,13</ref>; <foreign xml:lang="gez">እምሐቌሁ፡ እስከ፡ ታሕቱ፡</foreign> <ref cRef="Hez." loc="8,2">Hez. 8,2</ref>; <foreign xml:lang="gez">እምሐቌ፡ እስከ፡ መናቅዕ፡</foreign> <foreign xml:lang="grc">ἀπὸ ὀσφύος ἕως μηρῶν</foreign> <ref cRef="Ex." loc="28,38">Ex. 28,38</ref>; <foreign xml:lang="gez">እለ፡ ወፅኡ፡ እምሐቌሁ፡ ለአብርሃም፡</foreign> <ref cRef="Hebr." loc="7,5">Hebr. 7,5</ref> (cfr. <foreign xml:lang="gez">ነዋኬ፡ ዐጽምከ፡ ወሐቌከ፡ ንሕነ፡</foreign> <foreign xml:lang="grc">σάρκες σου</foreign> <ref cRef="1 Par." loc="11,1">1 Par. 11,1</ref>) pro Plur. <foreign xml:lang="gez">ሐቌሆሙ፡</foreign> <foreign xml:lang="grc">ὀσφύες αὐτῶν</foreign> <ref cRef="Job" loc="12,18">Job 12,18</ref>; <ref cRef="Jes." loc="32,11">Jes. 32,11</ref>; <ref cRef="Judith" loc="4,14">Judith 4,14</ref>; sed etiam <foreign xml:lang="gez">ሐቍያት፡</foreign> <ref cRef="Am." loc="8,10">Am. 8,10</ref>; <ref cRef="Hez." loc="21,6">Hez. 21,6</ref>; de lumbis (<foreign xml:lang="grc">ὀσφύς</foreign>) <cit type="translation" xml:lang="la">
+                                <quote> victimae </quote>
+                            </cit> <ref cRef="Lev." loc="3,9">Lev. 3,9</ref>; <ref cRef="Lev. " loc="7,3">Lev.  7,3</ref>; <cit type="translation" xml:lang="la">
+                                <quote> hippopotami </quote>
+                            </cit> <ref cRef="Job" loc="40,11">Job 40,11</ref>. <cit type="translation" xml:lang="la">
+                                <quote> Lumborum musculi interni </quote>
+                            </cit> <foreign xml:lang="grc">ψόα</foreign> <ref cRef="2 Reg." loc="2,23">2 Reg. 2,23</ref>; <foreign xml:lang="grc">τὰ ἰσχία</foreign> <foreign xml:lang="gez">እስከነ፡ ሐቌሆሙ፡</foreign> <ref cRef="2 Reg." loc="10,4">2 Reg. 10,4</ref>.</sense> <sense n="2" xml:id="D2"> <cit type="translation" xml:lang="la">
+                                <quote> femur </quote>
+                            </cit> <foreign xml:lang="grc">μηρός</foreign>, <foreign xml:lang="grc">μηρίον</foreign> <ref cRef="Jud." loc="3,16">Jud. 3,16</ref>; <ref cRef="Job" loc="15,27">Job 15,27</ref>.</sense> <sense n="3" xml:id="D3"> <cit type="translation" xml:lang="la">
+                                <quote> sinus </quote>
+                            </cit>: <foreign xml:lang="gez">ለምንት፡ ተሐቅፍ፡</foreign> <cb n="0099" xml:id="c0099"/> <foreign xml:lang="gez">ሐቌ፡ ዘማዊት፡</foreign> <foreign xml:lang="grc">μὴ συνέχου ἀγκάλαις τῆς μὴ ἰδίας</foreign> <ref cRef="Prov." loc="5,20">Prov. 5,20</ref>; <foreign xml:lang="gez">ቅኑት፡ ሐቌሁ፡ በቅናት፡ ዘወርቅ፡</foreign> <foreign xml:lang="grc">περιεζωσμένον πρὸς τοῖς μαστοῖς ζώνην χρυσῆν</foreign> <ref cRef="Apoc." loc="1,13">Apoc. 1,13</ref> <lbl expand="romanae editionis">rom.</lbl> – <lbl expand="Vocabularium Aethiopicum, -a -a">Voc. Ae.</lbl>: <foreign xml:lang="gez">ሐውቌ፡</foreign> vel <foreign xml:lang="gez">ሐቌ፡ ብ፡ ወገብ።</foreign> </sense> </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

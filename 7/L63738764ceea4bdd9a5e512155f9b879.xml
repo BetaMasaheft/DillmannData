@@ -1,0 +1,110 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ፅቡስ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L63738764ceea4bdd9a5e512155f9b879" n="9717">
+               <form>
+                  <foreign xml:lang="gez">ፅቡስ</foreign>
+               </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain">
+                  <gramGrp>
+                     <pos expand="participium">part.</pos>
+                  </gramGrp>
+                  <cit type="translation" xml:lang="la">
+                     <quote>debilis</quote>
+                  </cit>, <cit type="translation" xml:lang="la">
+                     <quote>infirmus</quote>
+                  </cit>: <foreign xml:lang="gez">ንህብ፡ በኀይላ፡ ፅብስት፡</foreign>
+                  <ref cRef="Prov." loc="6,8">Prov. 6,8</ref>; <ref cRef="Did." loc="13">Did.
+                     13</ref>; <ref cRef="Sx. Masc." loc="25 ">Sx. Masc. 25 </ref>Enc.; <foreign xml:lang="grc">εὐάλωτος</foreign>
+                  <ref cRef="Prov." loc="24,63">Prov. 24,63</ref>; <foreign xml:lang="grc">ἀδύνατος</foreign>
+                  <ref cRef="Job " loc="5,16">Job 5,16</ref>; <foreign xml:lang="gez">ፅቡሰ፡
+                     እግር፡</foreign>
+                  <foreign xml:lang="grc">πεπληγμένος τὸ σκέλος</foreign>
+                  <ref cRef="II Can. Ap." loc="73">II Can. Ap. 73</ref>; animo: <foreign xml:lang="gez">ፅቡሳነ፡ ኅሊና፡ </foreign> M.M. f. 29; <foreign xml:lang="gez">እስመ፡
+                     ኅሊና፡ ፅቡስ፡ ምኑነ፡ ይትበሀል፡</foreign>
+                  <ref cRef="Sap. " loc="2,11">Sap. 2,11</ref>. <sense n="a" xml:id="Da">
+                     <cit type="translation" xml:lang="la">
+                        <quote>segnis</quote>
+                     </cit>: <foreign xml:lang="gez">ኢትኩን፡ ፅቡሰ፡ በኵሉ፡ ዘገበርከ፡</foreign>
+                     <foreign xml:lang="grc">γίνου ἐντρεχής</foreign>
+                     <ref cRef="Sir." loc="34,22">Sir. 34,22</ref>; <foreign xml:lang="gez">ፅቡሳን፡</foreign>
+                     <foreign xml:lang="grc">νωθροί</foreign>
+                     <ref cRef="Prov." loc="22,29">Prov. 22,29</ref>.</sense>
+                  <sense n="b" xml:id="Db">
+                     <cit type="translation" xml:lang="la">
+                        <quote>remissus</quote>
+                     </cit>, <cit type="translation" xml:lang="la">
+                        <quote>lassus</quote>
+                     </cit>, <cit type="translation" xml:lang="la">
+                        <quote>languidus</quote>
+                     </cit>: <foreign xml:lang="gez">ከመ፡ እድ፡ ፅቡስ፡ ወከመ፡ እግር፡ ፅዉስ፡</foreign>
+                     <foreign xml:lang="grc">χεῖρες παρειμέναι </foreign>
+                     <ref cRef="Sir." loc="25,23">Sir. 25,23</ref>; <foreign xml:lang="gez">እደው፡
+                        ፅቡሳን፡</foreign> (v. <foreign xml:lang="gez">ፅዉሳት፡</foreign>) <ref cRef="Jes." loc="35,3">Jes. 35,3</ref>; <foreign xml:lang="gez">እድ፡ ፅውስት፡
+                        ወእገር፡ ፅቡሳት፡</foreign>
+                     <ref cRef="Hebr." loc="12,12">Hebr. 12,12</ref> Platt, at <foreign xml:lang="gez">አርትዑ፡ እግረ፡ ፅውስተ፡ ወእደ፡ ፅብስተ፡</foreign>
+                     <ref cRef="Chrys. ho." loc="1.">Chrys. ho. 1.</ref> – <lbl expand="Vocabularium Aethiopicum, -a -a.">Voc. Ae.</lbl>: <foreign xml:lang="gez">ፅቡስ፡ ድክቱም፡</foreign> (legendum videtur <foreign xml:lang="gez">ድኩም፡</foreign>) <foreign xml:lang="gez">ብ፡ ደካማ፡
+                        ልምሹሂ፡</foreign>
+                  </sense>
+               </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

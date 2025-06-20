@@ -1,0 +1,83 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ዓሥራት </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="SH" when="2019-03-01">minor corr</change>
+            <change who="SH" when="2019-03-01">biblical quotes </change>
+        </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="Lf85b9c7e205e482f96c1e82d370ebc21" n="6980">
+               <form>
+                  <foreign xml:lang="gez">ዓሥራት</foreign>
+               </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain"> vel <foreign xml:lang="gez">ዐሥራት፡</foreign> <gramGrp> <pos expand="Substantivum">subst.</pos> </gramGrp>, <gramGrp> <gen value="femininus">fem.</gen> </gramGrp> et <gramGrp> <gen value="not found">m.</gen> </gramGrp>, <cit type="translation" xml:lang="la">
+                            <quote> decima pars </quote>
+                        </cit> cujuscumque rei, <ref cRef="Kuf." loc="42">Kuf. p. 42</ref>; <foreign xml:lang="gez">ዓሥራተ፡ እደ፡ ዘርእክሙ፡</foreign> <ref cRef="1 Reg." loc="8,15">1 Reg. 8,15</ref>; <foreign xml:lang="gez">ወሀቦ፡ ዓሥራተ፡ እድ፡</foreign> <ref cRef="Gen. " loc="14,20">Gen.  14,20</ref>; <ref cRef="Gen." loc="28,22">Gen. 28,22</ref>; <foreign xml:lang="gez">ዓሥራተ፡ እዴሃ፡ ለመስፈርተ፡ ኢፍ፡</foreign> <ref cRef="Num." loc="15,4">Num. 15,4</ref>; <foreign xml:lang="gez">ዓሥራታ፡ ለኢን፡</foreign> <ref cRef="Ex." loc="29,40">Ex. 29,40</ref>; <ref cRef="Hez." loc="45,11">Hez. 45,11</ref>; <foreign xml:lang="gez">ዓሥራቲሁ፡ ለባት፡</foreign> <ref cRef="Hez." loc="45,14">Hez. 45,14</ref>; <ref cRef="Matth." loc="23,23">Matth. 23,23</ref>. <sense n="a" xml:id="Da"> <cit type="translation" xml:lang="la">
+                                <quote> nomen mensurae </quote>
+                            </cit> (<foreign xml:lang="grc">δέκατον</foreign> <foreign xml:lang="he">עִשָּׂרוֹן</foreign>), quae decimam Ephae partem continet: <ref cRef="Lev. " loc="23,17">Lev.  23,17</ref>; <ref cRef="Lev." loc="24,5">Lev. 24,5</ref>; <ref cRef="Num." loc="15,9">Num. 15,9</ref>; <ref cRef="Num." loc="28 ">Num. 28 </ref>et <ref cRef="Num." loc="29.">Num. 29.</ref> </sense> <sense n="b" xml:id="Db"> <cit type="translation" xml:lang="la">
+                                <quote> decimae </quote>
+                            </cit> (frugum pecorisve), deinde <cit type="translation" xml:lang="la">
+                                <quote> tributum </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> munus </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> oblatio </quote>
+                            </cit> in genere: <foreign xml:lang="grc">τὰ ἐπιδέκατα</foreign> <ref cRef="Deut. " loc="14,23">Deut.  14,23</ref>; <ref cRef="Lev." loc="27,30">Lev. 27,30</ref> <lbl expand="sequens">seq.</lbl>; <ref cRef="Num." loc="18,21">Num. 18,21</ref> <lbl expand="sequens">seq.</lbl>; <foreign xml:lang="gez">ዐሥራቱ፡ ለዐሥራት፡</foreign> <ref cRef="Num." loc="18,26">Num. 18,26</ref>; <ref cRef="Kuf." loc="13">Kuf. 13</ref>; <foreign xml:lang="gez">ደገመ፡ ዓሥራተ፡ ለእግዚአብሔር፡</foreign> <ref cRef="Kuf." loc="32">Kuf. 32</ref>; <ref cRef="Mal." loc="3,8">Mal. 3,8</ref>; <ref cRef="Am." loc="4,4">Am. 4,4</ref>; <ref cRef="1 Reg." loc="1,21">1 Reg. 1,21</ref>; <ref cRef="2 Esr." loc="20,37">2 Esr. 20,37</ref>; <ref cRef="2 Esr." loc="20,38">2 Esr. 20,38</ref>; 2 <ref cRef="Par." loc="31,5">Par. 31,5</ref>; <ref cRef="2 Par." loc="31,6">2 Par. 31,6</ref>; <ref cRef="Sir." loc="32,11">Sir. 32,11</ref>; <foreign xml:lang="gez">ቀዳሚ፡ ዓሥራት፡</foreign> et <foreign xml:lang="gez">ዳግም፡ ዓሥራት፡</foreign> <ref cRef="Tob." loc="1,7">Tob. 1,7</ref>; <foreign xml:lang="gez">ሣልስ፡ ዓሥራት፡</foreign> <ref cRef="Tob." loc="1,8">Tob. 1,8</ref>; <foreign xml:lang="gez">ዓሥራተ፡ እክልነ፡</foreign> <ref cRef="Tob." loc="5,14">Tob. 5,14</ref>; <ref cRef="Hebr." loc="7,2">Hebr. 7,2</ref> <lbl expand="sequens">seq.</lbl>; <ref cRef="Lit." loc="160,1">Lit. 160,1</ref>; <foreign xml:lang="grc">ἀπαρχή</foreign> <ref cRef="Ex. " loc="36,6">Ex.  36,6</ref>; <ref cRef="Ex. " loc="39,1">Ex.  39,1</ref>; <ref cRef="Lev." loc="2,12">Lev. 2,12</ref>; <ref cRef="Lev." loc="22,12">Lev. 22,12</ref>; <foreign xml:lang="grc">μερίς</foreign> <ref cRef="2 Par." loc="31,4">2 Par. 31,4</ref>; <foreign xml:lang="grc">τὰ ἐπίλεκτα</foreign> <ref cRef="Joel" loc="4,5">Joel 4,5</ref>. – <lbl expand="Vocabularium Aethiopicum, -a -a">Voc. Ae.</lbl>: <foreign xml:lang="gez">ዓሥራት፡ ዘ፡ ቀረጽ፡</foreign> </sense> </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

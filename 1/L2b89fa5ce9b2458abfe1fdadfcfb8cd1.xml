@@ -1,0 +1,85 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> መርዘም </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L2b89fa5ce9b2458abfe1fdadfcfb8cd1" n="2335">
+               <form>
+                  <foreign xml:lang="gez">መርዘም</foreign>
+               </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain"> vel <foreign xml:lang="gez">መርዝም፡</foreign>
+                  <gramGrp>
+                     <pos expand="Substantivum">subst.</pos>
+                  </gramGrp>
+                  <cit type="translation" xml:lang="la">
+                     <quote>titubatio</quote>
+                  </cit>, <cit type="translation" xml:lang="la">
+                     <quote>vertigo</quote>
+                  </cit>, <cit type="translation" xml:lang="la">
+                     <quote>tremor</quote>
+                  </cit>, ut videtur: <foreign xml:lang="gez">እምስካር፡ ይትወለድ፡ ምርዓት፡ ወዝሙት፡ ወሥሥዕት። ጽርፈት፡
+                     ወትዕቢት፡ ወመሐላ፡ በሐሰት፡ ወኢያሠንዮ፡ በዝንጋዔ፡ ወመርዘመ፡ ርእስ፡ </foreign>
+                  <ref cRef="Clem." loc="139">Clem. f. 139</ref>; <foreign xml:lang="gez">ቅንአት፡
+                     ወፍትወተ፡ አንስት፡ ልበ፡ ጠቢባን፡ ያማስን፡ ወዓዲ፡ ስካር፡ ወዘፈን፡ ወመርዘመ፡ ርእስ፡</foreign>
+                  <ref cRef="Clem." loc="199">Clem. f. 199</ref>; (diabolus) <foreign xml:lang="gez">ቦአ፡ ኀቤሃ፡ ወረሰያ፡ ከመ፡ መርዝመ፡ ወይን፡ ወአርስዓ፡ ዐቲበ፡ ገጻ፡ ወሆካ፡ ኅሊናሃ፡</foreign>
+                  <ref cRef="Clem." loc="221.">Clem. f. 221.</ref>
+               </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

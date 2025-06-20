@@ -1,0 +1,92 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng"
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="gez">ተ</title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref></p>
+            <p><ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref></p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+         <listPrefixDef>
+            <prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="MK" when="2022-03-25">added new entry</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L5ae9336758b0446087c896be41f89ab1" n="12787">
+               <form><foreign xml:lang="gez">ተ</foreign></form>
+               <sense xml:id="Tmain" xml:lang="en" source="#traces">
+                  <cit type="transcription" xml:lang="gez">
+                     <quote>ta-</quote>
+                  </cit>
+                  <gramGrp><pos expand="conjunctio">conj.</pos></gramGrp>
+                  <cit type="translation" xml:lang="en">
+                     <quote>and</quote>
+                  </cit>, <cit type="translation" xml:lang="en">
+                     <quote>plus</quote>
+                  </cit>
+                  <foreign xml:lang="gez">መድኅንሂ፡ አቤቶ፡ ዘዮሕንስ፡ ወዓስበ፡ መድኅን፡ ሸማ፡ ተቅራና።</foreign> ‘<cit type="translation" xml:lang="fr">
+                     <quote>Le garant a été l’abēto Za -Yoḥannes, et l’honoraire du garant a été un
+                        šammā et un qerānnā </quote>
+                  </cit>’ <bibl><ptr target="bm:ContiRossini1909LiberT"/><citedRange unit="page"> 53
+                        l. 4–5 (ed.)</citedRange></bibl>, <bibl><ptr target="bm:ContiRossini1910LiberV"/><citedRange unit="page"> 63 l. 34–35
+                        (tr.)</citedRange></bibl>; <foreign xml:lang="gez">ወእምአቤቶ፡ ወልደ፡ ሳሙኤል፡ ወልደ፡
+                     ንቡረ፡ እድ፡ ገብረ፡ ድንግል፡ ፪ምድረ፡ በ፰ሸማ፡ ተቅራና።</foreign> ‘<cit type="translation" xml:lang="fr">
+                     <quote>De l’abēto Walda Sāmuʾēl, fils du nebura ed Gabra Dengel, [j’ai acheté]
+                        2 champs, pour 8 šammā et 1 qerānnā</quote>
+                  </cit>’ <bibl><ptr target="bm:ContiRossini1909LiberT"/><citedRange unit="page"> 53
+                        l. 5–6 (ed.)</citedRange></bibl>, <bibl><ptr target="bm:ContiRossini1910LiberV"/><citedRange unit="page"> 63 l. 35–37
+                        (tr.)</citedRange></bibl>
+                  <sense n="E" xml:id="TE"> from Amharic <cit type="transcription" xml:lang="gez">
+                        <quote>ta-</quote>
+                     </cit>
+                  </sense>
+                  <nd/>
+               </sense>
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

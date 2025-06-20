@@ -1,0 +1,146 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> አኀዘ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="LB" when="2018-03-18">root</change>
+        <change who="AE" when="2018-08-09">Verschachtelung,</change>
+        </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L226a6c322b8f4c1a9f4f4dde48109657" n="5693">
+               <form>
+                  <foreign xml:lang="gez">አኀዘ</foreign>
+               <rs type="root"/>
+                    </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain"> <subc>I,1</subc> [<foreign xml:lang="he">אָחַז</foreign> <foreign xml:lang="syr">ܐܶܚܰܕ</foreign> <foreign xml:lang="ar">أَخَذَ</foreign>; amh. <foreign xml:lang="gez">ያዘ፡</foreign>] Imperf. <foreign xml:lang="gez">ይእኅዝ፡</foreign> (I <lbl expand="persona">pers.</lbl> <lbl expand="">sing.</lbl> passim <foreign xml:lang="gez">እኅዝ፡</foreign> pro <foreign xml:lang="gez">እእኅዝ፡</foreign> ut <ref cRef="Ps." loc="17,41">Ps. 17,41</ref>; <ref cRef="Cant." loc="7,9">Cant. 7,9</ref>; <ref cRef="1 Reg." loc="22,15">1 Reg. 22,15</ref> in uno libro), <gramGrp> <pos expand="Subjunctivus">Subj.</pos> </gramGrp> <foreign xml:lang="gez">ይእኀዝ፡</foreign> (<ref cRef="Matth." loc="21,46">Matth. 21,46</ref>; <ref cRef="Matth." loc="26,55">Matth. 26,55</ref>; <ref cRef="Marc." loc="12,12">Marc. 12,12</ref>; <ref cRef="Marc." loc="14,1">Marc. 14,1</ref>; <ref cRef="Joh." loc="7,30">Joh. 7,30</ref> in <lbl expand="">ed. rom.</lbl>; <ref cRef="Gen." loc="18,19">Gen. 18,19</ref> FH.), plerumque <foreign xml:lang="gez">የአኀዝ፡</foreign> (<lbl expand="videas">vid.</lbl> eosdem locos in <lbl expand="edidit">ed.</lbl> Platt; <ref cRef="Am." loc="3,5">Am. 3,5</ref>; <ref cRef="Hez." loc="21,11">Hez. 21,11</ref>; <ref cRef="Jer." loc="19,3">Jer. 19,3</ref>; <ref cRef="1 Reg." loc="3,11">1 Reg. 3,11</ref>, al.; at forma <foreign xml:lang="gez">የአኅዝ፡</foreign> <ref cRef="Ps." loc="15,6">Ps. 15,6</ref>; <ref cRef="Ps." loc="34,9">Ps. 34,9</ref> intempestiva Ludolfi emendatione nititur), <cb n="0767" xml:id="c0767"/> Imperat. <foreign xml:lang="gez">አኀዝ፡</foreign> (<ref cRef="Kuf." loc="10">Kuf. 10</ref>; <ref cRef="Kuf." loc="17">Kuf. 17</ref>; <ref cRef="Kuf." loc="26">Kuf. 26</ref>; <ref cRef="Sir." loc="6,27">Sir. 6,27</ref>; <ref cRef="Tob." loc="6,4">Tob. 6,4</ref>, al.), Infin. <foreign xml:lang="gez">እኂዝ፡</foreign>, <foreign xml:lang="gez">እኂዞት፡</foreign>. <sense n="1" xml:id="D1"> <cit type="translation" xml:lang="la">
+                                <quote> prehendere </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> comprehendere </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> apprehendere </quote>
+                            </cit>, <gramGrp> <pos expand="absolute">abs.</pos> </gramGrp> <ref cRef="Job" loc="9,19">Job 9,19</ref>; <ref cRef="Am. " loc="3,5">Am.  3,5</ref>; <lbl expand="construitur cum">c.c.</lbl> <gramGrp> <case value="accusativus">Acc.</case> </gramGrp>: <ref cRef="Jes." loc="4,1">Jes. 4,1</ref>; <ref cRef="Jud." loc="16,3">Jud. 16,3</ref>; <foreign xml:lang="gez">አኀዘቶ፡ ወሰዐመቶ፡</foreign> <ref cRef="Prov." loc="7,13">Prov. 7,13</ref>; <foreign xml:lang="gez">አኀዘተ፡ ሥዕርተ፡ ርእሱ፡</foreign> <ref cRef="Judith " loc="13,7">Judith  13,7</ref>; <foreign xml:lang="gez">አኀዞ፡ ለውእቱ፡ ዓሣ፡</foreign> <foreign xml:lang="grc">ἐπιλαβοῦ</foreign> <ref cRef="Tob." loc="6,4">Tob. 6,4</ref>; <ref cRef="Matth." loc="14,31">Matth. 14,31</ref>; <ref cRef="Luc." loc="23,26">Luc. 23,26</ref>; <ref cRef="Apoc." loc="1,17">Apoc. 1,17</ref>; <foreign xml:lang="gez">ትእኅዞሙ፡ ከመ፡ ነምር፡</foreign> <ref cRef="Sir." loc="28,23">Sir. 28,23</ref>; <lbl expand="cum">c.</lbl> <gramGrp> <case value="accusativus">Acc.</case> </gramGrp> <lbl expand="persona">pers.</lbl> et <lbl expand="cum">c.</lbl> <gramGrp> <case value="accusativus">Acc.</case> </gramGrp> membri: <foreign xml:lang="gez">አኀዝከኒ፡ እዴየ፡</foreign> <ref cRef="Ps." loc="72,23">Ps. 72,23</ref>; <foreign xml:lang="gez">አኀዛ፡ እዴሃ፡</foreign> <ref cRef="Tob." loc="7,12">Tob. 7,12</ref>, vel <lbl expand="cum">c.</lbl> <foreign xml:lang="gez">በ፡</foreign> membri: <ref cRef="Asc. Jes." loc="7,3">Asc. Jes. 7,3</ref>; <ref cRef="Hez." loc="8,3">Hez. 8,3</ref>; <ref cRef="Gen." loc="19,16">Gen. 19,16</ref>; <ref cRef="Deut." loc="25,11">Deut. 25,11</ref>; <ref cRef="4 Esr." loc="10,44">4 Esr. 10,44</ref>; <lbl expand="construitur cum">c.c.</lbl> <foreign xml:lang="gez">በ፡</foreign> rei vel <lbl expand="persona">pers.</lbl>: <foreign xml:lang="gez">አመ፡ አኀዝኩ፡ በእደዊሆሙ፡</foreign> <ref cRef="Jer." loc="38,32">Jer. 38,32</ref>; <foreign xml:lang="gez">ከመ፡ የአኀዝ፡ በእዴሁ፡</foreign> <ref cRef="Hez." loc="21,11">Hez. 21,11</ref>. <sense n="a" xml:id="D1a"> timor, terror, calamitas, dolor, morbus <cit type="translation" xml:lang="la">
+                                    <quote> prehendit </quote>
+                                </cit> i.e. <cit type="translation" xml:lang="la">
+                                    <quote> corripit </quote>
+                                </cit> aliquem: <ref cRef="Ex." loc="15,14">Ex. 15,14</ref>; <ref cRef="Ex." loc="15,15">Ex. 15,15</ref>; <foreign xml:lang="gez">ምምዓ፡ ይእኅዞ፡</foreign> <ref cRef="Prov." loc="19,15">Prov. 19,15</ref>; <ref cRef="Ps." loc="17,5">Ps. 17,5</ref>; <ref cRef="Ps. " loc="47,6">Ps.  47,6</ref>; <foreign xml:lang="gez">አኀዞ፡ ሕማም፡</foreign> <ref cRef="Jer." loc="27,43">Jer. 27,43</ref>; <foreign xml:lang="gez">ይእኅዞሙ፡ ማሕምም፡ ከመ፡ እንተ፡ ትወልድ፡</foreign> <ref cRef="Jes." loc="13,8">Jes. 13,8</ref>; <ref cRef="Jes." loc="21,3">Jes. 21,3</ref>; <ref cRef="Jes." loc="33,14">Jes. 33,14</ref>; <foreign xml:lang="gez">አኀዘኒ፡ ምንዳቤ፡</foreign> <ref cRef="Jer." loc="6,24">Jer. 6,24</ref>; <ref cRef="Judith " loc="15,2">Judith  15,2</ref>; <foreign xml:lang="gez">አኀዞ፡ ለኢዮብ፡ ዝልጋሴ፡</foreign> <ref cRef="Job" loc="2,7">Job 2,7</ref>; <foreign xml:lang="gez">ግርማ፡ እግዚአብሔር፡ አኀዘኒ፡</foreign> <ref cRef="Job" loc="31,23">Job 31,23</ref>; ignis <cit type="translation" xml:lang="la">
+                                    <quote> corripit </quote>
+                                </cit> aliquid <ref cRef="Ex." loc="22,5">Ex. 22,5</ref>.</sense> <sense n="b" xml:id="D1b"> <cit type="translation" xml:lang="la">
+                                    <quote> comprehendere </quote>
+                                </cit>, <cit type="translation" xml:lang="la">
+                                    <quote> deprehendere </quote>
+                                </cit> aliquem <cit type="translation" xml:lang="la">
+                                    <quote> captivum </quote>
+                                </cit>: <ref cRef="Deut." loc="22,18">Deut. 22,18</ref>; <foreign xml:lang="gez">አኀዝዎ፡ ሕያዎ፡</foreign> <ref cRef="1 Reg." loc="15,8">1 Reg. 15,8</ref>; <ref cRef="1 Reg." loc="19,14">1 Reg. 19,14</ref>; 4 <ref cRef="Reg." loc="10,14">Reg. 10,14</ref>; <ref cRef="Gen." loc="44,4">Gen. 44,4</ref>; <ref cRef="Kuf." loc="10">Kuf. 10</ref>; <ref cRef="Jer." loc="2,26">Jer. 2,26</ref>; <ref cRef="Jer." loc="27,9">Jer. 27,9</ref>; <ref cRef="Jer." loc="33,8">Jer. 33,8</ref>; <ref cRef="Jer." loc="52,9">Jer. 52,9</ref>; <ref cRef="Judith" loc="10,12">Judith 10,12</ref>; <ref cRef="Asc. Jes." loc="3,12">Asc. Jes. 3,12</ref>; <ref cRef="Dan. apocr." loc="1,39">Dan. apocr. 1,39</ref>; <ref cRef="Dan. apocr." loc="13,21">Dan. apocr. 13,21</ref>; <ref cRef="Matth." loc="26,55">Matth. 26,55</ref>; <ref cRef="Luc." loc="22,54">Luc. 22,54</ref>; <ref cRef="Act." loc="1,16">Act. 1,16</ref>; <ref cRef="Act." loc="12,3">Act. 12,3</ref>; <ref cRef="Act." loc="12,4">Act. 12,4</ref>.</sense> <sense n="c" xml:id="D1c"> <cit type="translation" xml:lang="la">
+                                    <quote> capere </quote>
+                                </cit>, <ref cRef="Job" loc="5,13">Job 5,13</ref>; <ref cRef="Ps." loc="34,9">Ps. 34,9</ref>; venando <ref cRef="Kuf." loc="94">Kuf. p. 94</ref>; <ref cRef="Kuf." loc="95">Kuf. p. 95</ref>; piscando <ref cRef="Luc. " loc="5,5">Luc.  5,5</ref>; <foreign xml:lang="gez">ኢያመስጥ፡ እምእኂዞቱ፡</foreign> (v. <foreign xml:lang="gez">እምእኅዞቱ፡</foreign>) <ref cRef="Job" loc="31,23">Job 31,23</ref>.</sense> <sense n="d" xml:id="D1d"> <cit type="translation" xml:lang="la">
+                                    <quote> capere </quote>
+                                </cit> radices: <foreign xml:lang="gez">ዘእንበለ፡ የአኀዝ፡ ሥርወ፡ ወኀይለ፡</foreign> <ref cRef="Kuf." loc="37">Kuf. 37</ref>; <foreign xml:lang="gez">አኀዘ፡ ሥርወ፡</foreign> <ref cRef="Herm." loc="64">Herm. p. 64</ref>; <ref cRef="Herm." loc="65.">Herm. p. 65.</ref> </sense> </sense> <sense n="2" xml:id="D2"> <cit type="translation" xml:lang="la">
+                                <quote> prehensum tenere </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> tenere </quote>
+                            </cit>: <ref cRef="Gen." loc="25,26">Gen. 25,26</ref>; <foreign xml:lang="gez">አኀዝዮ፡ ለሕፃን፡ በእደዊኪ፡</foreign> <ref cRef="Kuf." loc="17">Kuf. 17</ref>; <foreign xml:lang="gez">አኀዝኩከ፡ በእዴየ፡</foreign> <ref cRef="Jes." loc="42,6">Jes. 42,6</ref>; <ref cRef="Jes." loc="41,10">Jes. 41,10</ref>; <foreign xml:lang="gez">ይእኅዝ፡ ሐቌሁ፡</foreign> <ref cRef="Jer." loc="37,6">Jer. 37,6</ref>; <foreign xml:lang="gez">አኀዛ፡ ወኢትኅድጋ፡</foreign> <ref cRef="Sir." loc="6,27">Sir. 6,27</ref>; <foreign xml:lang="gez">እኂዝ፡</foreign> <ref cRef="Koh." loc="2,3">Koh. 2,3</ref>; <ref cRef="Hen." loc="56,2">Hen. 56,2</ref>; <foreign xml:lang="gez">ከመ፡ ኵሉ፡ የአኀዝ፡ እዘኒሁ፡</foreign> <ref cRef="Jer." loc="19,3">Jer. 19,3</ref>; <ref cRef="1 Reg." loc="3,11">1 Reg. 3,11</ref>. <sense n="a" xml:id="D2a"> <cit type="translation" xml:lang="la">
+                                    <quote> tenere </quote>
+                                </cit> memoria, animo <ref cRef="Hen." loc="94,5">Hen. 94,5</ref>.</sense> <sense n="b" xml:id="D2b"> <cit type="translation" xml:lang="la">
+                                    <quote> continere </quote>
+                                </cit>, <cit type="translation" xml:lang="la">
+                                    <quote> coërcere </quote>
+                                </cit>: <foreign xml:lang="gez">ኢይእኅዙ፡ ልሳኖሙ፡</foreign> <foreign xml:lang="grc">ἀκρατεῖς γλώσσῃ</foreign> <ref cRef="Prov." loc="27,20">Prov. 27,20</ref>; <foreign xml:lang="gez">ዘይእኅዝ፡ ኵሎ፡ ፍጥረተ፡</foreign> <foreign xml:lang="grc">τὸ συνέχον τὰ πάντα</foreign> <ref cRef="Sap." loc="1,7">Sap. 1,7</ref>; <ref cRef="Gen." loc="18,19">Gen. 18,19</ref> FH.</sense> <sense n="c" xml:id="D2c"> <cit type="translation" xml:lang="la">
+                                    <quote> occupare </quote>
+                                </cit>, <cit type="translation" xml:lang="la">
+                                    <quote> potiri </quote>
+                                </cit>, <cit type="translation" xml:lang="la">
+                                    <quote> possidere </quote>
+                                </cit>, <cit type="translation" xml:lang="la">
+                                    <quote> dominari </quote>
+                                </cit>, <cit type="translation" xml:lang="la">
+                                    <quote> obtinere </quote>
+                                </cit>, raro <lbl expand="cum">c.</lbl> <foreign xml:lang="gez">በ፡</foreign> rei <ref cRef="Hen." loc="60,8">Hen. 60,8</ref>; plerumque <lbl expand="cum">c.</lbl> <gramGrp> <case value="accusativus">Acc.</case> </gramGrp> <ref cRef="Kuf." loc="8">Kuf. 8</ref>; <ref cRef="Kuf." loc="25">Kuf. 25</ref>; <foreign xml:lang="gez">ይእኅዙ፡ ምድረ፡</foreign> <ref cRef="Prov." loc="8,16">Prov. 8,16</ref>; <foreign xml:lang="gez">እለ፡ ይእኅዝዋ፡ ለምድር፡</foreign> <ref cRef="Hen. " loc="38,4">Hen.  38,4</ref>; <ref cRef="Hen." loc="48,8">Hen. 48,8</ref>; <ref cRef="Hen." loc="62,3">Hen. 62,3</ref>; <foreign xml:lang="gez">እግዚእ፡ ዘኵሎ፡ ይእኅዝ፡</foreign> <foreign xml:lang="grc">ὁ παντοκράτωρ</foreign> Rel. Bar.; <ref cRef="Lit. " loc="160,1">Lit.  160,1</ref>; <foreign xml:lang="gez">መኑ፡ አኀዘ፡ ኵሎ፡ አጽናፈ፡ ምድር፡</foreign> <ref cRef="Prov." loc="24,27">Prov. 24,27</ref>; <foreign xml:lang="gez">ዘአኀዞ፡ ጋኔን፡</foreign> <cit type="translation" xml:lang="la">
+                                    <quote> daemoniacus </quote>
+                                </cit> <ref cRef="Clem. " loc="178">Clem.  f. 178</ref>; <ref cRef="Marc." loc="3,30">Marc. 3,30</ref>; <ref cRef="Luc." loc="8,26">Luc. 8,26</ref> in tit.; <gramGrp> <pos expand="absolute">abs.</pos> </gramGrp> <cit type="translation" xml:lang="la">
+                                    <quote> dominari </quote>
+                                </cit> <ref cRef="Asc. Jes." loc="4,12">Asc. Jes. 4,12</ref>; <foreign xml:lang="gez">እኂዝ፡</foreign> <cit type="translation" xml:lang="la">
+                                    <quote> potentia </quote>
+                                </cit>, <cit type="translation" xml:lang="la">
+                                    <quote> dominatio </quote>
+                                </cit> <ref cRef="Lit." loc="159,4">Lit. 159,4</ref>; <ref cRef="Lit." loc="160,1">Lit. 160,1</ref>; <ref cRef="Genz." loc="67.">Genz. f. 67.</ref> </sense> <sense n="d" xml:id="D2d"> <cit type="translation" xml:lang="la">
+                                    <quote> detinere </quote>
+                                </cit>, <cit type="translation" xml:lang="la">
+                                    <quote> retinere </quote>
+                                </cit>, <cit type="translation" xml:lang="la">
+                                    <quote> inhibere </quote>
+                                </cit>: <foreign xml:lang="gez">ኢተአኀዙኒ፡</foreign> <ref cRef="Gen." loc="24,56">Gen. 24,56</ref>; <ref cRef="Job" loc="34,14">Job 34,14</ref>; <foreign xml:lang="gez">ትክልኑ፡ ተአኀዛ፡ ለትርያ፡ ከመ፡ ኢትሑር፡</foreign> <ref cRef="Job" loc="38,31">Job 38,31</ref>; <ref cRef="Dan. apocr." loc="13,19">Dan. apocr. 13,19</ref>.</sense> </sense> <sense n="3" xml:id="D3"> <cit type="translation" xml:lang="la">
+                                <quote> incipere </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> coepisse </quote>
+                            </cit>, <foreign xml:lang="gez">በዝንቱ፡ ዓመት፡ አኀዘ፡ ዐባር፡ ውስተ፡ ምድር፡</foreign> (si non: <cit type="translation" xml:lang="la">
+                                <quote> obtinuit </quote>
+                            </cit>) <ref cRef="Kuf." loc="24">Kuf. 24</ref>; <lbl expand="cum">c.</lbl> <foreign xml:lang="gez">እምነ፡</foreign> ab aliqua re <ref cRef="Num." loc="1,2">Num. 1,2</ref>; <ref cRef="Num." loc="26,2">Num. 26,2</ref>; <ref cRef="Ex." loc="12,18">Ex. 12,18</ref>; <ref cRef="Matth." loc="20,8">Matth. 20,8</ref>; <lbl expand="cum">c.</lbl> <gramGrp> <case value="accusativus">Acc.</case> </gramGrp> (aliquid), ut: <foreign xml:lang="gez">አኀዙ፡ ፀብአ፡</foreign> <ref cRef="Jsp." loc="357">Jsp. p. 357</ref>; <lbl expand="sequens">seq.</lbl> verbo finito asyndeto: <foreign xml:lang="gez">አኀዝ፡ ኈልቍ፡</foreign> <ref cRef="Num." loc="4,22">Num. 4,22</ref>; plerumque <lbl expand="sequens">seq.</lbl> <gramGrp> <pos expand="Subjunctivus">Subj.</pos> </gramGrp> verbi: <foreign xml:lang="gez">አኀዘ፡ ይግበር፡</foreign> <ref cRef="Gen." loc="2,3">Gen. 2,3</ref>; <ref cRef="Gen." loc="6,1">Gen. 6,1</ref>; <ref cRef="Gen." loc="11,6">Gen. 11,6</ref>; <ref cRef="1 Reg. " loc="3,2">1 Reg.  3,2</ref>; <ref cRef="1 Reg." loc="22,15">1 Reg. 22,15</ref>; <ref cRef="2 Par." loc="3,1">2 Par. 3,1</ref>; <ref cRef="2 Esr." loc="4,4">2 Esr. 4,4</ref>; <ref cRef="2 Esr." loc="5,2">2 Esr. 5,2</ref>; <ref cRef="1 Esr." loc="4,1">1 Esr. 4,1</ref>; <ref cRef="Tob." loc="7,14">Tob. 7,14</ref>; <ref cRef="Tob." loc="10,4">Tob. 10,4</ref>; <ref cRef="4 Esr." loc="1,14">4 Esr. 1,14</ref>; <ref cRef="4 Esr." loc="1,15">4 Esr. 1,15</ref>; <ref cRef="4 Esr." loc="3,29">4 Esr. 3,29</ref>; <ref cRef="4 Esr." loc="9,29">4 Esr. 9,29</ref>; <ref cRef="4 Esr." loc="10,3">4 Esr. 10,3</ref>; <ref cRef="Marc." loc="14,19">Marc. 14,19</ref>; <ref cRef="Matth." loc="4,17">Matth. 4,17</ref>; vel <lbl expand="sequens">seq.</lbl> <ref cRef="Imperf." loc="4 ">Imperf. 4 </ref> <ref cRef="Esr." loc="8,21">Esr. 8,21</ref>; <ref cRef="Kuf." loc="41,">Kuf. p. 41,</ref> lin. 1; Kuf. p. 47 <lbl expand="annotatio">ann.</lbl> 4; <ref cRef="Gen." loc="44,11">Gen. 44,11</ref> FH; <ref cRef="Ex." loc="4,10">Ex. 4,10</ref> annot.; <ref cRef="Matth." loc="26,22">Matth. 26,22</ref>; <ref cRef="Matth." loc="26,37">Matth. 26,37</ref> <lbl expand="romanae editionis">rom.</lbl>; vel <lbl expand="sequens">seq.</lbl> <foreign xml:lang="gez">ከመ፡</foreign> <lbl expand="cum">c.</lbl> <gramGrp> <pos expand="Subjunctivus">Subj.</pos> </gramGrp>: <foreign xml:lang="gez">አኀዘ፡ ከመ፡ ይሕንጽ፡</foreign> <ref cRef="2 Par." loc="3,3">2 Par. 3,3</ref>; <ref cRef="2 Par." loc="34,3">2 Par. 34,3</ref>; vel <lbl expand="sequens">seq.</lbl> <foreign xml:lang="gez">እንዘ፡</foreign> <lbl expand="cum">c.</lbl> Indic., <ref cRef="Hen." loc="86,5">Hen. 86,5</ref>; <ref cRef="Hen." loc="88,2">Hen. 88,2</ref>; vel <lbl expand="sequens">seq.</lbl> <foreign xml:lang="gez">ለ፡</foreign> <lbl expand="cum">c.</lbl> Infin. <foreign xml:lang="gez">ይእኅዙ፡ ለአቅሞ፡ ቃል፡</foreign> <ref cRef="Hez." loc="13,6">Hez. 13,6</ref>; <foreign xml:lang="gez">አኀዙ፡ ይጼውዉ፡ ወለሠይጥ፡</foreign> <ref cRef="Kuf." loc="45.">Kuf. p. 45.</ref> </sense> <sense n="4" xml:id="D4"> <cit type="translation" xml:lang="la">
+                                <quote> recipere </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> accipere </quote>
+                            </cit>, <ref cRef="Hen." loc="17,4">Hen. 17,4</ref>; <cb n="0768" xml:id="c0768"/> <foreign xml:lang="gez">በእኂዘ፡ ሥጋሁ፡ ወደሙ፡ ለክርስቶስ፡</foreign> <ref cRef="Clem." loc="131.">Clem. f. 131.</ref> </sense> <sense n="5" xml:id="D5"> <cit type="translation" xml:lang="la">
+                                <quote> pignus capere </quote>
+                            </cit> vel <cit type="translation" xml:lang="la">
+                                <quote> pro pignore capere </quote>
+                            </cit> aliquid ab aliquo, <lbl expand="cum">c.</lbl> <gramGrp> <case value="accusativus">Acc.</case> </gramGrp> <lbl expand="persona">pers.</lbl> <ref cRef="Job" loc="22,6">Job 22,6</ref>; <lbl expand="cum">c.</lbl> <gramGrp> <case value="accusativus">Acc.</case> </gramGrp> rei <ref cRef="Job" loc="24,3">Job 24,3</ref>; <foreign xml:lang="gez">ኢይደልዎ፡ ለካህን፡ ከመ፡ ይትወሐስ፡ ፩ሂ፡ ወየአኀዝ፡ ንዋየ፡</foreign> F.N. 27. — <cit type="translation" xml:lang="la">
+                                <quote> Voc </quote>
+                            </cit>. <cit type="translation" xml:lang="la">
+                                <quote> Ae </quote>
+                            </cit>.: <foreign xml:lang="gez">አኀዘ፡ ወጠነ፡ ዘ፡ ዠመረ፡</foreign> </sense> </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

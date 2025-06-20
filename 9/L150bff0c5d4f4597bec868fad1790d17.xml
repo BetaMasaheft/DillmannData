@@ -1,0 +1,75 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> አንሳሕስሐ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="AE" when="2018-10-04">Sprachkennung,</change>
+        <change who="MK" when="2024-08-22">added gr and les</change><change who="MK" when="2024-08-22">added gr and les </change></revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L150bff0c5d4f4597bec868fad1790d17" n="2478">
+               <form>
+                  <foreign xml:lang="gez">አንሳሕስሐ</foreign>
+               </form>
+               <sense xml:id="Dmain" xml:lang="la" source="#dillmann">, etiam <foreign xml:lang="gez">አንስሐስሐ፡</foreign> et <foreign xml:lang="gez">አንሰሐስሐ፡</foreign> V <sense n="1" xml:id="D1"> intransit. <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> se movere </t:quote></cit> vel <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> commovere </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> moveri </t:quote></cit> (<cit type="translation" xml:lang="de"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> sich regen </t:quote></cit>, <cit type="translation" xml:lang="de"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> sich rühren </t:quote></cit>, <cit type="translation" xml:lang="de"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> sich bewegen </t:quote></cit>): <foreign xml:lang="gez">ሞተ፡ ወተገንዘ፡ ዘእንበለ፡ እስትንፋስ፡ ወዘእንበለ፡ አንሰሐስሖ፡</foreign> (sic) hom. Epiphanii in <ref cRef="Cyr." loc="118">Cyr. f. 118</ref>; (postquam venenum bibit) <foreign xml:lang="gez">አንሳሕስሐ፡ ሥጋሁ፡</foreign> (<foreign xml:lang="gez">ለምዉት፡</foreign>) <ref cRef="Clem." loc="252">Clem. f. 252</ref>; <ref cRef="Clem." loc="253">Clem. f. 253</ref>; somnia nascuntur e temperatione <foreign xml:lang="gez">ዘ፬ጠባይዓት። ሶበ፡ ያንስሐስሕ፡ ደም፡ በውስተ፡ ሥጋ፡ ዘውእቱ፡ ጠባይዕ፡ ማያዊ፡ ይሬኢ፡ ሰብእ፡ በንዋሙ፡ ግብረ፡ ሠናየ፡ ወመስተፍሥሔ፡ ወዓዲ፡ ይሬኢ፡ ሕብራተ፡ ቀይሓተ፡ ወፀአተ፡ ደምሂ። ወለእመ፡ አንሰሐስሐ፡</foreign> (sic) <foreign xml:lang="gez">ሳፍራ፡ ዘውእቱ፡ ጠባይዕ፡ ነፋሳዊ፡ ይሬኢ፡ ተጋእዞተ፡ ወአፅባእተ፡ ወእሳተ፡ ወሕብራተ፡ ብዙኀ፡ ወመኃትዋተ፡ ወመባርቅተ፡ ወይመስሎ፡ ዓዲ፡ ከመ፡ ዘሀሎ፡ ውስተ፡ ብለኔ፡ ወዘውስተ፡ ፀሓይ። ወሶበሂ፡ ያንስሐስሕ፡ በልቀም፡ ዘውእቱ፡ ጠባይዕ፡ መሬታዊ፡ ይሬኢ፡ አብሕርተ፡ ወአፍላጋተ። በረደ፡ ወዝናማተ፡ ወአስሐትያ፡ ወሕብራተ፡ ጸዓድዒዳነ፡ ወከመ፡ ዘይሰቲ፡ ማየ፡ ይመስሎ። ወለእመ፡ አንሳሕስሐት፡ ሳውዳ፡ ዘውእቱ፡ ጠባይዕ፡ እሳታዊ፡ ይሬኢ፡ ጽልመተ፡ ወመቃብራተ፡ ወሙታነ፡ ወሥርዐተ፡ ሐዘን፡ ወለቢሰ፡ ልብስ፡ ጸሊም፡ ወቦኡ፡ ኀቤሁ፡ ፍርሀት፡ ወረዓድ፡</foreign> <ref cRef="Fal." loc="16 ">Fal. f. 16 </ref>(e Galeno); <foreign xml:lang="gez">እመ፡ ከሠትክሙ፡ ዐሊወ፡ ሮም፡ ወአንሳሕሳሕክሙ፡</foreign> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> si aperte a Romanis defeceritis et vos commoveritis </t:quote></cit> <ref cRef="Jsp." loc="344">Jsp. p. 344</ref>; <foreign xml:lang="gez">እመ፡ አርሐቁ፡ ኅሊናተ፡ እምቀዳሚሁ፡ ለአንስሐስሖቶሙ፡</foreign> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> si cogitationes, quam primum se commoverint </t:quote></cit>, (a se) <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> removerint </t:quote></cit> <ref cRef="Phlx." loc="31">Phlx. 31</ref>; Infin. <foreign xml:lang="gez">አንሳሕስሖ፡</foreign> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> motus </t:quote></cit> animalis viventis <ref cRef="Org. " loc="5.">Org.  5.</ref> 
+</sense> <sense n="2" xml:id="D2"> transit. <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> movere </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> commovere </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> concitare </t:quote></cit>: <cb n="0328" xml:id="c0328"/> <foreign xml:lang="gez">ለእመ፡ ሆኮ፡ ወአንስሐስሖ፡ ፩እመካኑ፡</foreign> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> si quis </t:quote></cit> (altare gestabile) <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> loco suo moverit </t:quote></cit> F.M. 29,2; M.M. f. 272; <foreign xml:lang="gez">ነፍስ፡ ይእቲ፡ እንተ፡ ታንሰሐስሖ፡ ለሥጋ፡</foreign> F.N. in proleg.; <foreign xml:lang="gez">አልቦ፡ ምንትኒ፡ ግብር፡ እምግባራት፡ ዘያንሰሐስሖሙ፡ ለከሓድያን፡ ኀበ፡ አንክሮ፡</foreign> <ref cRef="Chrys. Ta." loc="32">Chrys. Ta. 32</ref>; <foreign xml:lang="gez">አሠንዮትከ፡ ለአግዓዚ፡ ያንስሐስሖ፡ ለፍዳ፡ ወአሠንዮትከ፡ ለቂቁይ፡ ያንስሐስሖ፡ ለተመይጦ፡ ኀቤከ፡ ለስኢል፡</foreign> <ref cRef="Fal." loc="62">Fal. f. 62</ref>; <foreign xml:lang="gez">ተስፋሁ፡ ለከልብ፡ ያንስሐስሕ፡ ዘነቦ፡ ወእዘኒሁ፡</foreign> <ref cRef="Fal." loc="74">Fal. f. 74</ref>; <foreign xml:lang="gez">ሥጋ፡ ያንስሐስሕ፡ ኀበ፡ ፍትወቱ፡ ወያስተጥዕም፡ ለነፍስ፡ ምግባራተ፡ ሕሡመ፡</foreign> Jsp. p. 382; obscoene: <foreign xml:lang="gez">ዘያንስሐስሕ፡ ሥጋሁ፡ በእዴሁ፡ እመሂ፡ ተባዕት፡ አው፡ አንስት፡</foreign> <ref cRef="Kedr f." loc="63">Kedr f. 63</ref>; <foreign xml:lang="gez">በአንስሐስሖ፡</foreign> (sic) <foreign xml:lang="gez">እድ፡</foreign> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> manustupratione </t:quote></cit> f. 61. – <lbl expand="Vocabularium Aethiopicum, -a -a">Voc. Ae.</lbl>: <foreign xml:lang="gez">አንሰሐስሐ፡ ብ፡ ተረማመደ፡ ተበራጋሂ፡</foreign> (?) <foreign xml:lang="gez">ይ።</foreign> 
+</sense> </sense>
+               
+            <sense xml:id="Tmain" xml:lang="en" source="#traces"> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">ʾansāḥsǝḥa</t:quote></cit>, <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">ʾansǝḥasḥa</t:quote></cit>, <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">ʾansaḥasḥa</t:quote></cit> <sense n="G" xml:id="TG"> <foreign xml:lang="gez">አንሳሕስሐ፡</foreign> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">ʾansāḥsǝḥa</t:quote></cit> <gramGrp><pos expand="verbum">v.</pos></gramGrp> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">movit hinc inde</t:quote></cit>, <cit type="translation" xml:lang="fr"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">bouger</t:quote></cit>, <cit type="translation" xml:lang="fr"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">se mouvoir de côté et d’autre</t:quote></cit> ― <foreign xml:lang="am">ተላወሰ፡</foreign> Ms. Roma, Biblioteca Nazionale Centrale di Roma, Orientale 134, p. 43. <lb/>
+ <bibl><ptr target="bm:Grebaut1952SuppLexicon"/><citedRange unit="page"> 163</citedRange></bibl>
+</sense> <sense n="L" xml:id="TL"> <foreign xml:lang="gez">አንሳሕስሐ፡</foreign> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">ʾansāḥsǝḥa</t:quote></cit>, <foreign xml:lang="gez">አንስሐስሐ፡</foreign> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">ʾansǝḥasḥa</t:quote></cit> <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">move</t:quote></cit> (tr. intr.), <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">be in motion</t:quote></cit>, <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">move hither and thither</t:quote></cit>, <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">stir</t:quote></cit>, <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">arouse</t:quote></cit>, (<bibl><ptr target="bm:AlaqaTayya1965MSawasew"/></bibl>) <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">roam about</t:quote></cit>, <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">move backward</t:quote></cit>, (<bibl><ptr target="bm:KidaneWaldGeezGramDict"/></bibl>) <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">provoke</t:quote></cit>, <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">instigate</t:quote></cit> <bibl><ptr target="bm:Leslau1987dic"/><citedRange unit="page"> 494a</citedRange></bibl> 
+</sense> </sense></entry>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,114 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ግልፎ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L3902987039254317b8bc1ade853a460b" n="8275">
+               <form>
+                  <foreign xml:lang="gez">ግልፎ</foreign>
+               </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain">
+                  <gramGrp>
+                     <pos expand="Substantivum">subst.</pos>
+                  </gramGrp> (<gramGrp>
+                     <gen value="masculinum">m.</gen>
+                  </gramGrp>), <lbl expand="pluralis">Pl.</lbl>
+                  <foreign xml:lang="gez">ግልፍዋት፡</foreign> et <foreign xml:lang="gez">ግልፈዋት፡</foreign>
+                  <sense n="1" xml:id="D1">
+                     <cit type="translation" xml:lang="la">
+                        <quote>opus sculptum</quote>
+                     </cit>, <cit type="translation" xml:lang="la">
+                        <quote>sculptile</quote>
+                     </cit>: <foreign xml:lang="gez">ዕንቈ፡ ግልፎ፡ </foreign>
+                     <ref cRef="Ex." loc="35,8">Ex. 35,8</ref>; <foreign xml:lang="gez">አማልክተ፡
+                        ግልፎ፡</foreign>
+                     <ref cRef="Jes." loc="44,17">Jes. 44,17</ref>; <foreign xml:lang="gez">አርእስተ፡
+                        አዕማድ፡ ዘግልፎ፡</foreign>
+                     <ref cRef="3 Reg." loc="7,27">3 Reg. 7,27</ref>.</sense>
+                  <sense n="2" xml:id="D2">
+                     <cit type="translation" xml:lang="la">
+                        <quote>idolum sculptum</quote>
+                     </cit>, <cit type="translation" xml:lang="la">
+                        <quote>simulacrum</quote>
+                     </cit> (Dei vel deorum sculptile), <cit type="translation" xml:lang="la">
+                        <quote>statua</quote>
+                     </cit>, <lbl expand="singularis">sing.</lbl> et <lbl expand="collatio, -is vel collectivum, -e">coll.</lbl>, <ref cRef="Kuf." loc="1">Kuf. 1</ref>; <ref cRef="Kuf." loc="11">Kuf. 11</ref>; <ref cRef="Lev." loc="26,1">Lev. 26,1</ref>; <ref cRef="Deut." loc="4,16">Deut.
+                        4,16</ref>; <ref cRef="Jes." loc="10,10">Jes. 10,10</ref>; <ref cRef="Jes." loc="42,8">Jes. 42,8</ref>; <ref cRef="Jes. " loc="42,17">Jes. 42,17</ref>;
+                        <ref cRef="Jes." loc="46,1">Jes. 46,1</ref>; <foreign xml:lang="gez">አማልክትየ፡
+                        ወግልፎየ፡ ገብሩ፡</foreign>
+                     <ref cRef="Jes." loc="48,5">Jes. 48,5</ref>; <foreign xml:lang="gez">በግልፎሆሙ፡</foreign>
+                     <ref cRef="Jer." loc="8,19">Jer. 8,19</ref>; <ref cRef="Jer." loc="10,14">Jer.
+                        10,14</ref>; <foreign xml:lang="gez">ኵሉ፡ ግልፎሃ፡</foreign>
+                     <ref cRef="Mich." loc="1,7">Mich. 1,7</ref>; <ref cRef="Nah." loc="1,14">Nah.
+                        1,14</ref>; <ref cRef="Ps." loc="77,64">Ps. 77,64</ref>; <ref cRef="Ps." loc="96,7">Ps. 96,7</ref>; <foreign xml:lang="gez">ኵሎ፡ ግልፎሆሙ፡</foreign>
+                     <foreign xml:lang="grc">στήλη </foreign>
+                     <ref cRef="2 Par." loc="14,3">2 Par. 14,3</ref>; <foreign xml:lang="gez">ግልፍዋተ፡
+                        ኢትግበሩ፡</foreign>
+                     <ref cRef="Kuf." loc="20">Kuf. 20</ref>; <ref cRef="Jes. " loc="10,10">Jes.
+                        10,10</ref>
+                     <lbl expand="varia lectio">var.</lbl>; <ref cRef="Sap." loc="14,16">Sap.
+                        14,16</ref>; <foreign xml:lang="gez">ምድረ፡ ግልፈዋት፡ ይእቲ፡</foreign>
+                     <ref cRef="Jer. " loc="27,38">Jer. 27,38</ref>; <foreign xml:lang="gez">ግልፈዋተ፡
+                        ጣዖት፡</foreign>
+                     <ref cRef="Org." loc="4.">Org. 4.</ref> – <lbl expand="Vocabularium Aethiopicum, -a -a.">Voc. Ae.</lbl>: <foreign xml:lang="gez">ግልፎ፡ ብ፡ የተቀረጸ፡ ጣዖት።</foreign>
+                  </sense>
+               </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

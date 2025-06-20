@@ -1,0 +1,100 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ተዋረሰ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="Lcbdc4f697a12427f9ed37cfbe5333f45" n="6521">
+               <form>
+                  <foreign xml:lang="gez">ተዋረሰ</foreign>
+               </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain"> <subc>III,3</subc> <sense n="1" xml:id="D1">
+                     <cit type="translation" xml:lang="la">
+                        <quote>hereditatem cum aliis partiri</quote>
+                     </cit>, <cit type="translation" xml:lang="la">
+                        <quote>hereditatem accipere</quote>
+                     </cit>, sive cum aliis, ut F.N. 42; <foreign xml:lang="gez">ኢይባኡ፡ ውስተ፡
+                        ተዋርሶ፡</foreign>
+                     <cit type="translation" xml:lang="la">
+                        <quote>hereditatem ne adeant</quote>
+                     </cit> F.M. 5,3; sive solum, ut: <foreign xml:lang="gez">ተዋረሶሙ፡ </foreign> (v.
+                        <foreign xml:lang="gez">ተዋረሶ፡</foreign>) <foreign xml:lang="gez">ኵሎ፡
+                        ንዋዮሙ፡</foreign>
+                     <ref cRef="Tob." loc="14,13">Tob. 14,13</ref>; <foreign xml:lang="gez">ኢይትዋረሱ፡
+                        ኤጲስ፡ ቆጶስና፡ </foreign>
+                     <bibl>
+                        <ptr target="bm:Ludolf1691Commentarius"/>Lud. comm. </bibl>hist. p. 313;
+                        <foreign xml:lang="gez">ለተዋርሶ፡ ዘኢይበሊ፡ </foreign>
+                     <foreign xml:lang="grc">εἰς κληρονομίαν ἄφθαρτον</foreign>
+                     <ref cRef="1 Petr. " loc="1,4">1 Petr. 1,4</ref>.</sense>
+                  <sense n="2" xml:id="D2"> sorte <cit type="translation" xml:lang="la">
+                        <quote>assignatum nancisci</quote>
+                     </cit> aliquid, occupare rem, quam alius possedit, <cit type="translation" xml:lang="la">
+                        <quote>potiri</quote>
+                     </cit> rei, <gramGrp>
+                        <pos expand="absolute">abs.</pos>
+                     </gramGrp>: <ref cRef="Jos." loc="14,2">Jos. 14,2</ref>; <ref cRef="Jes." loc="34,17">Jes. 34,17</ref>; <lbl expand="cum">c.</lbl>
+                     <gramGrp>
+                        <case value="accusativus">Acc.</case>
+                     </gramGrp> rei: <ref cRef="Gen." loc="15,7">Gen. 15,7</ref>; <ref cRef="Gen." loc="22,17">Gen. 22,17</ref>; <ref cRef="Lev." loc="14,34">Lev. 14,34</ref>;
+                        <ref cRef="Deut." loc="32,47">Deut. 32,47</ref>; <lbl expand="videas">vid.</lbl> annot. ad <ref cRef="Jos." loc="1,11">Jos. 1,11</ref>; <foreign xml:lang="gez">ተዋረሱ፡ ኵሎ፡ ደወሎሙ፡</foreign>
+                     <ref cRef="Judith" loc="5,15">Judith 5,15</ref>.</sense>
+               </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

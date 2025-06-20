@@ -1,0 +1,74 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ሕብል </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="MK" when="2023-02-10">added Gr and Les</change><change who="MK" when="2023-02-10">added cross ref</change><change who="MK" when="2023-02-10">added translietr</change></revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L58257fb0b9da4ebd91071a72a3e0a920" n="746">
+               <form>
+                  <foreign xml:lang="gez">ሕብል</foreign>
+               </form>
+               <sense xml:id="Dmain" xml:lang="la" source="#dillmann"> <gramGrp> <pos expand="Substantivum">subst.</pos> </gramGrp>, <gramGrp> <gen value="not found">m.</gen> </gramGrp> et <gramGrp> <gen value="femininus">fem.</gen> </gramGrp> (ut <ref cRef="Sap." loc="4,11">Sap. 4,11</ref>; <ref cRef="Ps." loc="49,20">Ps. 49,20</ref>) <sense n="1" xml:id="D1"> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> dolus </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> fraus </t:quote></cit>, <foreign xml:lang="grc">δόλος</foreign>, <foreign xml:lang="grc">δόλοι</foreign>: <ref cRef="Prov." loc="12,5">Prov. 12,5</ref>; <ref cRef="Prov." loc="12,17">Prov. 12,17</ref>; <ref cRef="Prov." loc="12,20">Prov. 12,20</ref> (<foreign xml:lang="gez">ጕሕሉት፡</foreign> <ref cRef="Prov." loc="12,6">Prov. 12,6</ref>); <ref cRef="Prov." loc="26,23">Prov. 26,23</ref>; <ref cRef="Ps." loc="51,2">Ps. 51,2</ref>; <ref cRef="Sap." loc="4,11">Sap. 4,11</ref>; <ref cRef="Sap." loc="14,25">Sap. 14,25</ref>; <ref cRef="1 Petr." loc="2,1">1 Petr. 2,1</ref>; <foreign xml:lang="gez">መጽአ፡ እኁከ፡ በሕብል፡</foreign> <ref cRef="Kuf." loc="26">Kuf. 26</ref>; <foreign xml:lang="gez">ልሳንከ፡ ፀፈራ፡ ለሕብል፡</foreign> <ref cRef="Ps." loc="49,20">Ps. 49,20</ref> (<foreign xml:lang="grc">δολιότης</foreign>); <foreign xml:lang="gez">በሕብል፡</foreign> <foreign xml:lang="grc">δόλῳ</foreign> <ref cRef="Matth." loc="26,4">Matth. 26,4</ref> Platt. 
+</sense> <sense n="2" xml:id="D2"> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> pravitas </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> perversitas </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> improbitas </t:quote></cit>: <foreign xml:lang="gez">ዘይዘርእ፡ ሕብለ፡</foreign> <foreign xml:lang="grc">φαῦλα</foreign> <ref cRef="Prov." loc="22,8">Prov. 22,8</ref>; <foreign xml:lang="grc">ἀσέβειαι</foreign> <ref cRef="Ps." loc="5,12">Ps. 5,12</ref>. – Hinc formas <foreign xml:lang="gez">ሐብል፡</foreign> et <foreign xml:lang="gez">ሕብል፡</foreign> significatione secerni solere apparet; quare quod <ref cRef="Matth." loc="26,4">Matth. 26,4</ref> <lbl expand="romanae editionis">rom.</lbl> legitur <foreign xml:lang="gez">በሐብል፡</foreign> <foreign xml:lang="grc">δόλῳ</foreign>, typographi errore pro <foreign xml:lang="gez">በሕብል፡</foreign> exscriptum esse videtur. 
+</sense> </sense>
+               
+            <sense xml:id="Tmain" xml:lang="en" source="#traces"><cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">ḥǝbl</t:quote></cit>, <lbl expand="pluralis">Pl.</lbl> <foreign xml:lang="gez">ሕበል፡</foreign> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">ḥǝbal</t:quote></cit> <sense n="G" xml:id="TG"> <foreign xml:lang="gez">ሕብል፡</foreign>, <lbl expand="pluralis">Pl.</lbl> <foreign xml:lang="gez">ሕበል፡</foreign> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">ḥǝbal</t:quote></cit> «<cit type="translation" xml:lang="fr"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">tromperie</t:quote></cit>, <cit type="translation" xml:lang="fr"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">ruse</t:quote></cit>» ― <foreign xml:lang="am">ተንኰል፡</foreign> Ms. <ref type="BM" target="BNFabb217">BNFabb217</ref>, fol. 24v. <lb/>
+ <bibl><ptr target="bm:Grebaut1952SuppLexicon"/><citedRange unit="page"> 51</citedRange></bibl> 
+</sense> <sense n="C" xml:id="TC"> <lbl expand="videas">vid.</lbl> also <ref type="external" target="https://betamasaheft.eu/Dillmann/lemma/Lb87d0af1ecb74742a89713560b27c0a8"><foreign xml:lang="gez">ሐብል፡</foreign></ref> 
+</sense> </sense></entry>
+         </div>
+      </body>
+   </text>
+</TEI>

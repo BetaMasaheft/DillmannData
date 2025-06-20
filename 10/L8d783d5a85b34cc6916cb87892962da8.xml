@@ -1,0 +1,116 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ዐጸበ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="AE" when="2017-08-22">Addenda-Link optimiert</change>
+        <change who="LB" when="2018-04-24">root</change>
+        </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L8d783d5a85b34cc6916cb87892962da8" n="7390">
+               <form>
+                  <foreign xml:lang="gez">ዐጸበ</foreign>
+               <rs type="root"/>
+                    </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain">, rarius <foreign xml:lang="gez">ዐጽበ፡</foreign> (<ref cRef="Gen." loc="35,16">Gen. 35,16</ref>) <subc>I,1</subc>, etiam per <foreign xml:lang="gez">ፀ</foreign>, [<foreign xml:lang="he">עָצַב</foreign>; <foreign xml:lang="he">עָצָב</foreign> <cit type="translation" xml:lang="la">
+                            <quote> labor gravis et molestus </quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                            <quote> dolor </quote>
+                        </cit>; <foreign xml:lang="ar">عصب</foreign> VII; origo est in <cit type="translation" xml:lang="la">
+                            <quote> duritia </quote>
+                        </cit>et <cit type="translation" xml:lang="la">
+                            <quote> firmitate </quote>
+                        </cit>, <lbl expand="conferas">cfr.</lbl> radices permultas ab <foreign xml:lang="he">עץ</foreign> <foreign xml:lang="syr">ܥܨ</foreign> <foreign xml:lang="ar">عص غص</foreign> <foreign xml:lang="gez">ዐጽ</foreign> et <foreign xml:lang="gez">ዐፅ፡</foreign> incipientes; at <foreign xml:lang="ar">صَعُبَ</foreign> <lbl expand="videas">vid. sub</lbl> <foreign xml:lang="gez">ጽሕበ፡</foreign>] <gramGrp> <pos expand="Subjunctivus">Subj.</pos> </gramGrp> <foreign xml:lang="gez">ይዕጽብ፡</foreign> et <foreign xml:lang="gez">ይዕጸብ፡</foreign> <sense n="1" xml:id="D1"> <cit type="translation" xml:lang="la">
+                                <quote> durum </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> difficilem </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> arduum </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> molestum esse </quote>
+                            </cit>vel <cit type="translation" xml:lang="la">
+                                <quote> difficiliorem </quote>
+                            </cit>al. <cit type="translation" xml:lang="la">
+                                <quote> esse </quote>
+                            </cit>: <foreign xml:lang="gez">ዘየዐጽብ፡</foreign> (<lbl expand="oppositum, -o, -nitur">opp.</lbl> <foreign xml:lang="gez">ዘይቀልል፡</foreign>) <ref cRef="Luc." loc="12,26">Luc. 12,26</ref>; <lbl expand="cum">c.</lbl> <gramGrp> <pos expand="pronomen suffixum">pron. suff.</pos> </gramGrp> (pro <gramGrp> <case value="dativus">Dat.</case> </gramGrp>): <ref cRef="Ex." loc="18,22">Ex. 18,22</ref>; <foreign xml:lang="gez">ኢይዕጸብከ፡</foreign> (v. <foreign xml:lang="gez">ኢይዕጽብከ፡</foreign>) <foreign xml:lang="gez">ዝንቱ፡ ነገር፡ ቅድመ፡ አዕይንቲከ፡</foreign> <ref cRef="2 Reg." loc="11,25">2 Reg. 11,25</ref>; <cb n="1020" xml:id="c1020"/> <foreign xml:lang="gez">የዐጽባ፡ ወሊድ፡</foreign> <ref cRef="Hen. " loc="62,4">Hen.  62,4</ref>; <foreign xml:lang="gez">ወዐጸቦ፡ ለሐማን፡ ዝንቱ፡ ኵሉ፡</foreign> (Amano molestum vel ingratum erat) <ref cRef="Jsp." loc="277">Jsp. p. 277</ref>; <foreign xml:lang="gez">ዐጸቦሙ፡ ጽምአ፡ ማይ፡</foreign> <ref cRef="Jsp. " loc="349.">Jsp.  p. 349.</ref> </sense> <sense n="2" xml:id="D2"> <cit type="translation" xml:lang="la">
+                                <quote> molestiis </quote>
+                            </cit> vel <cit type="translation" xml:lang="la">
+                                <quote> doloribus laborare </quote>
+                            </cit>: <foreign xml:lang="gez">ሶበ፡ የዐጽብ፡ ሙሴ፡ ያወርድ፡ እደዊሁ፡</foreign> <ref cRef="Ex." loc="17,11">Ex. 17,11</ref>; <foreign xml:lang="gez">ዐጸበት፡ ሶበ፡ ትወልድ፡</foreign> <ref cRef="Kuf." loc="119">Kuf. p. 119</ref>; <ref cRef="Gen." loc="35,16">Gen. 35,16</ref>; <ref cRef="Hen." loc="62,4">Hen. 62,4</ref>.</sense> <sense n="3" xml:id="D3"> <cit type="translation" xml:lang="la">
+                                <quote> gravem </quote>
+                            </cit>vel <cit type="translation" xml:lang="la">
+                                <quote> graviorem </quote>
+                            </cit> i.e. <cit type="translation" xml:lang="la">
+                                <quote> majoris momenti esse </quote>
+                            </cit> <ref cRef="Luc. " loc="12,23">Luc.  12,23</ref>.</sense> <sense n="4" xml:id="D4"> <cit type="translation" xml:lang="la">
+                                <quote> durum </quote>
+                            </cit>i.e. <cit type="translation" xml:lang="la">
+                                <quote> mirum esse </quote>
+                            </cit>vel {<ref target="#c1433"/> <cit type="translation" xml:lang="la">
+                                <quote> videri </quote>
+                            </cit>} alicui, <lbl expand="cum">c.</lbl> <gramGrp> <case value="accusativus">Acc.</case> </gramGrp> <lbl expand="persona">pers.</lbl>, <ref cRef="Act." loc="25,27">Act. 25,27</ref> <lbl expand="romanae editionis">rom.</lbl> </sense> <sense n="5" xml:id="D5"> <cit type="translation" xml:lang="la">
+                                <quote> opus </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> necesse </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> necessarium esse </quote>
+                            </cit>, <lbl expand="cum">c.</lbl> <gramGrp> <pos expand="pronomen suffixum">pron. suff.</pos> </gramGrp> (pro <gramGrp> <case value="dativus">Dat.</case> </gramGrp>) <cit type="translation" xml:lang="la">
+                                <quote> alicui </quote>
+                            </cit>: <ref cRef="Act." loc="28,10">Act. 28,10</ref> <lbl expand="romanae editionis">rom.</lbl>; <foreign xml:lang="gez">ሶበ፡ ዐጸቦሙ፡ ለሰትየ፡ ማይ፡</foreign> <ref cRef="Sx. Nah." loc="3">Sx. Nah. 3</ref>; <ref cRef="Gad. Ad." loc="43">Gad. Ad. f. 43</ref>; <ref cRef="Gad. Ad." loc="44">Gad. Ad. f. 44</ref>; <ref cRef="Gad. Ad." loc="77.">Gad. Ad. f. 77.</ref> </sense> </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

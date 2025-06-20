@@ -1,0 +1,89 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ተዋሐደ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L5a05e1b8453346edb8c1b537e8a996cb" n="6495">
+               <form>
+                  <foreign xml:lang="gez">ተዋሐደ</foreign>
+               </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain"> <subc>III,3</subc> <cit type="translation" xml:lang="la">
+                     <quote>inter sese uniri</quote>
+                  </cit>, <cit type="translation" xml:lang="la">
+                     <quote>adunari</quote>
+                  </cit>, <cit type="translation" xml:lang="la">
+                     <quote>in unum conjungi</quote>
+                  </cit>: qui baptizatus est <foreign xml:lang="gez">ናሁ፡ ተዋሐደ፡ ምስለ፡ ክርስቶስ፡ </foreign>
+                  <cb n="0894" xml:id="c0894"/> F.M. 5,1; Christi <foreign xml:lang="gez">ተዋሕዶቱ፡
+                     ውስተ፡ ሥጋ፡ </foreign>
+                  <foreign xml:lang="grc">σαρκὸς ἀνάληψις</foreign>
+                  <ref cRef="Chrys. ho." loc="3">Chrys. ho. 3</ref>; <foreign xml:lang="gez">እግዚአብሔር፡ ዘይሤለስ፡ ወይትዋሐድ፡</foreign>
+                  <ref cRef="Catal. Bibl. Bodl." loc="81">Catal. Bibl. Bodl. p. 81</ref>; <foreign xml:lang="gez">እግዚአብሔር፡ ዘይሤለስ፡ በአካሉ፡ እንዘ፡ ተዋሕዶ፡ ያጸንዕ፡ በመለኮቱ፡ ወኀይሉ፡</foreign> I
+                  Sal. <ref cRef="Mar." loc="1">Mar. 1</ref>; <foreign xml:lang="gez">ተዋሕዶ፡ አምላክ፡
+                     ወሰብእ፡ አመ፡ ለ፪ ነፈቀ፡</foreign>
+                  <ref cRef="Sx. Masc." loc="7 ">Sx. Masc. 7 </ref> Enc.; <foreign xml:lang="gez">አሚነ፡ ተዋሕዶት፡ አምላካዊት፡</foreign> (unitatis divinae vel Dei) F.N. 46; <foreign xml:lang="gez">ተዋሕዶት፡</foreign>
+                  <foreign xml:lang="grc">ὁμιλία </foreign> (familiaritas et amicitia) ho. Theodoti
+                  in <ref cRef="Cyr." loc="102">Cyr. f. 102</ref>; <foreign xml:lang="gez">ተዋሕዶትከ፡</foreign> (tibi unitum esse <lbl expand="scilicet">sc.</lbl> amicitiâ)
+                     <ref cRef="Jsp." loc="294">Jsp. p. 294</ref>; Severus Antiochenus ad Joannem
+                  Alexandrinum literas dedit <foreign xml:lang="gez">በእንተ፡ ተዋሕዶ፡</foreign> de unione
+                  ecclesiarum restituenda, <ref cRef="Abush." loc="50.">Abush. 50.</ref>
+               </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

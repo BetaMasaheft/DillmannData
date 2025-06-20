@@ -1,0 +1,96 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ፅኑስ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L3ae47c30b1764506af449e6059bb74dc" n="9734">
+               <form>
+                  <foreign xml:lang="gez">ፅኑስ</foreign>
+               </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain">
+                  <gramGrp>
+                     <pos expand="participium">part.</pos>
+                  </gramGrp>
+                  <sense n="1" xml:id="D1">
+                     <gramGrp>
+                        <gen value="femininus">fem.</gen>
+                     </gramGrp>
+                     <foreign xml:lang="gez">ፅንስት፡ </foreign>
+                     <cit type="translation" xml:lang="la">
+                        <quote>gravida</quote>
+                     </cit>, <cit type="translation" xml:lang="la">
+                        <quote>praegnans</quote>
+                     </cit> (<cit type="translation" xml:lang="la">
+                        <quote>feta</quote>
+                     </cit>), <ref cRef="Gen." loc="16,11">Gen. 16,11</ref>; <ref cRef="Ex." loc="21,22">Ex. 21,22</ref>; <ref cRef="Koh." loc="11,5">Koh. 11,5</ref>;
+                        <ref cRef="Luc." loc="2,5">Luc. 2,5</ref>; <ref cRef="Asc. Jes." loc="11,3">Asc. Jes.
+                        11,3</ref>; <foreign xml:lang="gez">ፅኑሳት፡</foreign>
+                     <ref cRef="4 Reg. " loc="15,16">4 Reg. 15,16</ref>; <ref cRef="Am." loc="1,3">Am. 1,3</ref>; <ref cRef="4 Esr." loc="4,24">4 Esr. 4,24</ref>; de bestiis:
+                        <foreign xml:lang="gez">ፅኑሳቲሆሙ፡ ኢይድኅፃ፡ </foreign>
+                     <ref cRef="Job" loc="31,10">Job 31,10</ref>; <ref cRef="Jes." loc="40,11">Jes.
+                        40,11</ref>.</sense>
+                  <sense n="2" xml:id="D2">
+                     <cit type="translation" xml:lang="la">
+                        <quote>conceptus</quote>
+                     </cit> in utero, Lud. e Syn. <cb n="1333" xml:id="c1333"/>
+                  </sense>
+               </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

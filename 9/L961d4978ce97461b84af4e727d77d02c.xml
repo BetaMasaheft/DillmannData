@@ -1,0 +1,78 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ተድባብ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="ES" when="2024-02-28">nesting</change></revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L961d4978ce97461b84af4e727d77d02c" n="7982">
+               <form>
+                  <foreign xml:lang="gez">ተድባብ</foreign>
+               </form>
+               <sense xml:id="Dmain" xml:lang="la" source="#dillmann"> <gramGrp> <pos expand="Substantivum">subst.</pos> </gramGrp> (<gramGrp> <gen value="not found">m.</gen> </gramGrp>), <lbl expand="pluralis">Pl.</lbl> <foreign xml:lang="gez">ተድባባት፡</foreign> <sense n="1" xml:id="D1"> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> tectum </t:quote></cit>: <foreign xml:lang="gez">ተሞቅሑ፡ መትሕተ፡ ተድባበ፡ ቤት፡</foreign> <foreign xml:lang="grc">ὀρόφοις κατακλεισθέντες</foreign> <ref cRef="Sap." loc="17,2">Sap. 17,2</ref> [coll. amh. <foreign xml:lang="gez">ደበደበ፡</foreign> tecto tegere domum]. <sense n="a" xml:id="D1a"> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> operculum </t:quote></cit> arcae foederis Israelitarum, aliâs <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> propitiatorium </t:quote></cit>: <foreign xml:lang="he">כַּפֹּרֶת</foreign> <ref cRef="Ex." loc="37,6">Ex. 37,6</ref> in C (Oct. P. <ref cRef="II p." loc="92">II p. 92</ref>); <foreign xml:lang="grc">ἱλαστήριον</foreign> <ref cRef="Ex. " loc="25,17">Ex.  25,17</ref>; <ref cRef="Ex." loc="25,18">Ex. 25,18</ref>; <ref cRef="Ex." loc="25,19">Ex. 25,19</ref>; <ref cRef="Ex." loc="25,20">Ex. 25,20</ref>; <ref cRef="Ex." loc="25,21">Ex. 25,21</ref>; <ref cRef="Ex." loc="25,22">Ex. 25,22</ref>; <ref cRef="Ex." loc="35,11">Ex. 35,11</ref> C; <foreign xml:lang="gez">ተድባባት፡</foreign> <ref cRef="Ex." loc="25,18">Ex. 25,18</ref> <lbl expand="varia lectio">var.</lbl>; <foreign xml:lang="gez">መልዕልቴሃ፡ ለታቦት፡ ተድባበ፡ ወርቅ፡</foreign> Org.
+</sense> <sense n="b" xml:id="D1b"> „<cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> uraniscus </t:quote></cit>, qualis super mensis sacris in Aethiopum templis extensus cernitur“, Lud.
+</sense> <sense n="c" xml:id="D1c"> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> umbraculum </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> umbella </t:quote></cit>: <foreign xml:lang="gez">ይትዔገሥ፡ ቍረ፡ ክረምት፡ ወሐሩረ፡ ሐጋይ፡ ታሕተ፡ ሰማይ፡ ዘእንበለ፡ ተድባብ፡</foreign> <ref cRef="Sx. Haml." loc="25.">Sx. Haml. 25.</ref> </sense>
+</sense> <sense n="2" xml:id="D2"> <sense n="a" xml:id="D2a"> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> corona </t:quote></cit> vel <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> lorica </t:quote></cit>, qua tectum cingitur, <foreign xml:lang="grc">στεφάνη</foreign> <ref cRef="Deut." loc="22,8">Deut. 22,8</ref>.
+</sense> <sense n="b" xml:id="D2b"> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> propugnaculum </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> pinna </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> lorica pinnata </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> acroterion </t:quote></cit> moenium, murorum, aedium: <foreign xml:lang="gez">ስቅሉ፡ ውስተ፡ ተድባበ፡ አረፍት፡</foreign> <foreign xml:lang="grc">ἐπὶ τῆς ἐπάλξεως τοῦ τείχους</foreign> <ref cRef="Judith" loc="14,1">Judith 14,1</ref>; <ref cRef="Cant." loc="8,9">Cant. 8,9</ref>; <foreign xml:lang="gez">ቆመ፡ ውስተ፡ ተድባብ፡</foreign> (sc. turris) <ref cRef="Kuf." loc="37">Kuf. 37</ref>; <foreign xml:lang="gez">እንተ፡ ተድባበ፡ ቅጽር፡</foreign> <ref cRef="Act." loc="9,25">Act. 9,25</ref> Platt; <ref cRef="4 Reg." loc="6,26">4 Reg. 6,26</ref>; <foreign xml:lang="gez">ተድባበ፡ ዴዴ፡</foreign> <ref cRef="2 Reg." loc="18,24">2 Reg. 18,24</ref>; <foreign xml:lang="gez">ተድባበ፡ ቤተ፡ መቅደስ፡</foreign> <foreign xml:lang="grc">πτερύγιον</foreign> <ref cRef="Matth." loc="4,5">Matth. 4,5</ref>; <foreign xml:lang="gez">ተድባበ፡ ባሕርይ፡ ዲበ፡ አረፍተ፡ ወርቅ፡</foreign> Org.
+</sense> <sense n="c" xml:id="D2c"> ut videtur <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> acroterion </t:quote></cit> vel <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> rostrum </t:quote></cit> navis: <foreign xml:lang="gez">ተምህሩ፡ ይግበሩ፡ ተድባበ፡ አሕማር፡ ወይሴሰዩ፡ እምጻማ፡ እደዊሆሙ፡</foreign> <ref cRef="Sx. Ter " loc="17">Sx. Ter  17</ref>; <foreign xml:lang="gez">ርእየ፡ ዲበ፡ ተድባበ፡ ፩ እምአሕማራት፡ ጽሑፍ፡</foreign> (sc. nomen) <foreign xml:lang="gez">መክሲሞስ፡ ወደማቴዎስ፡</foreign> <ref cRef="Sx. Ter" loc="17">Sx. Ter 17</ref>; <foreign xml:lang="gez">ኮኑ፡ ይገብሩ፡ ተድባባተ፡ አሕማራት፡ ወይሴሰዩ፡ በግብረ፡ እደዊሆሙ፡</foreign> Sx. <ref cRef="Jac." loc="2.">Jac. 2.</ref> 
+</sense> <sense n="d" xml:id="D2d"> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> coronamentum prominens </t:quote></cit>, quo arca foederis cincta erat, <foreign xml:lang="grc">κυμάτιον</foreign> <ref cRef="Ex." loc="38,2">Ex. 38,2</ref>.
+</sense> <sense n="e" xml:id="D2e"> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> cancelli </t:quote></cit> vel <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> clathri </t:quote></cit> fenestrae, <foreign xml:lang="grc">δίκτυα</foreign> <ref cRef="Cant." loc="2,9">Cant. 2,9</ref>. — <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> Voc </t:quote></cit>. <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> Ae </t:quote></cit>.: <foreign xml:lang="gez">ተድባብ፡ ተውሳክ፡ ወታሜርጋብ፡ ዘ፡ ፫ ሂ፡ ድባብ።</foreign> 
+</sense> 
+</sense> </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

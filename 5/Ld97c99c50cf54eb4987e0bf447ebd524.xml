@@ -1,0 +1,94 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ምእመን </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="AE" when="2018-05-08">Verschachtelung,</change>
+        </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="Ld97c99c50cf54eb4987e0bf447ebd524" n="5481">
+               <form>
+                  <foreign xml:lang="gez">ምእመን</foreign>
+               </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain"> et <foreign xml:lang="gez">ማእመን፡</foreign> (<foreign xml:lang="gez">መእመን፡</foreign> in antiquioribus libris et editionibus) et <foreign xml:lang="gez">ማእምን፡</foreign> <gramGrp> <pos expand="participium">part.</pos> </gramGrp>, <gramGrp> <gen value="femininus">fem.</gen> </gramGrp> <foreign xml:lang="gez">ማእምንት፡</foreign> et <foreign xml:lang="gez">ማእመንት፡</foreign>, <lbl expand="pluralis">Pl.</lbl> <gramGrp> <gen value="not found">m.</gen> </gramGrp> <foreign xml:lang="gez">ምእመናን፡</foreign> et <foreign xml:lang="gez">ማእመናን፡</foreign> et <foreign xml:lang="gez">ማእምናን፡</foreign>, <gramGrp> <gen value="femininus">fem.</gen> </gramGrp> <foreign xml:lang="gez">ማእምናት፡</foreign> et <foreign xml:lang="gez">ማእመናት፡</foreign> <sense n="1" xml:id="D1"> <sense n="a" xml:id="D1a"> <cit type="translation" xml:lang="la">
+                                    <quote> confidens </quote>
+                                </cit>, <cit type="translation" xml:lang="la">
+                                    <quote> credens </quote>
+                                </cit> (cui significationi proprie forma activa <foreign xml:lang="gez">ማእምን፡</foreign> convenit): <foreign xml:lang="gez">ዕደው፡ ምእመናን፡ በኀይሎሙ፡</foreign> <foreign xml:lang="grc">ἄνδρες πεποιθότες ἐν ἰσχύι αὐτῶν</foreign> <ref cRef="Judith" loc="2,5">Judith 2,5</ref>; <foreign xml:lang="gez">አዋልድ፡ ምእመናት፡</foreign> (<foreign xml:lang="grc">ἐν ἐλπίδι</foreign>) <ref cRef="Jes." loc="32,9">Jes. 32,9</ref>; baptizandus <foreign xml:lang="gez">ይትአመን፡ ከመ፡ ውእቱ፡ ምእመን፡ በአብ፡ ወበወልድ፡ ወበመንፈስ፡ ቅዱስ፡</foreign> F.N. 3; <foreign xml:lang="gez">ዘምእመን፡ በስምከ፡</foreign> Genz. f. 81.</sense> <sense n="b" xml:id="D1b"> sensu theolog.: <cit type="translation" xml:lang="la">
+                                    <quote> fidelis </quote>
+                                </cit> vel <cit type="translation" xml:lang="la">
+                                    <quote> pius Christianus </quote>
+                                </cit>: Syn.; <foreign xml:lang="gez">ብእሲት፡ ማእምንት፡</foreign> F.N. 24,5; <foreign xml:lang="gez">ማእምን፡</foreign> et <foreign xml:lang="gez">ማእምንት፡</foreign> <ref cRef="Kid." loc="19">Kid. f. 19</ref>; <foreign xml:lang="gez">ምእመናን፡</foreign> et <foreign xml:lang="gez">ምእመናት፡</foreign> F.M. 5,11.</sense> </sense> <sense n="2" xml:id="D2"> <cit type="translation" xml:lang="la">
+                                <quote> fidus </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> fide dignus </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> fidelis </quote>
+                            </cit> <cb n="0739" xml:id="c0739"/> (cui significationi proprie forma passiva <foreign xml:lang="gez">ምእመን፡</foreign>, <foreign xml:lang="gez">ማእመን፡</foreign> convenit) <foreign xml:lang="grc">πιστός</foreign>, maxime de personis: <ref cRef="Num." loc="12,7">Num. 12,7</ref>; <ref cRef="Deut." loc="7,9">Deut. 7,9</ref>; <ref cRef="2 Reg." loc="23,1">2 Reg. 23,1</ref>; <ref cRef="Kuf." loc="17">Kuf. 17</ref>; <ref cRef="Kuf." loc="21">Kuf. 21</ref>; <ref cRef="Sir." loc="44,20">Sir. 44,20</ref>; <ref cRef="Sir." loc="48,22">Sir. 48,22</ref>; <ref cRef="Jes." loc="55,3">Jes. 55,3</ref>; <ref cRef="Dan." loc="6,4">Dan. 6,4</ref>; <ref cRef="Prov." loc="17,6">Prov. 17,6</ref>; <ref cRef="Prov. " loc="20,6">Prov.  20,6</ref>; <ref cRef="Matth." loc="24,45">Matth. 24,45</ref>; <ref cRef="Matth." loc="25,21">Matth. 25,21</ref>; <ref cRef="Matth." loc="25,23">Matth. 25,23</ref>; <ref cRef="Luc." loc="19,17">Luc. 19,17</ref>; <ref cRef="2 Thess." loc="3,3">2 Thess. 3,3</ref>; <ref cRef="1 Tim. " loc="1,12">1 Tim.  1,12</ref>; <ref cRef="1 Petr." loc="4,19">1 Petr. 4,19</ref>; <ref cRef="1 Joh." loc="1,9">1 Joh. 1,9</ref>; de nuntio <ref cRef="Prov." loc="25,13">Prov. 25,13</ref>; teste <ref cRef="Jes." loc="8,2">Jes. 8,2</ref>; <ref cRef="Jer. " loc="49,5">Jer.  49,5</ref>; amico <ref cRef="Sir." loc="6,14">Sir. 6,14</ref> <lbl expand="sequens">seq.</lbl>; urbe (i.e. ejus incolis) <ref cRef="Jes." loc="1,21">Jes. 1,21</ref>; <ref cRef="Jes." loc="1,26">Jes. 1,26</ref>; rarius de rebus: <ref cRef="1 Thess." loc="1,5">1 Thess. 1,5</ref>; <ref cRef="Ps." loc="88,36">Ps. 88,36</ref>; <ref cRef="Jes." loc="22,23">Jes. 22,23</ref>; <ref cRef="Jes." loc="22,25">Jes. 22,25</ref>; F.N. 16 (<lbl expand="videas">vid.</lbl> sub <foreign xml:lang="gez">ረባሒ፡</foreign>); <lbl expand="construitur cum">c.c.</lbl> <foreign xml:lang="gez">ለ፡</foreign> (alicui, erga aliquem) <ref cRef="Hebr." loc="3,2">Hebr. 3,2</ref>; <lbl expand="cum">c.</lbl> <gramGrp> <pos expand="pronomen suffixum">pron. suff.</pos> </gramGrp> : <foreign xml:lang="gez">ወእግዚአብሔርኒ፡ ይከውኖ፡ ምእመኖ፡ ወያስተፌሥሖ፡</foreign> <ref cRef="Sir." loc="36,3">Sir. 36,3</ref>; <foreign xml:lang="gez">እስመ፡ ይእቲ፡</foreign> (<foreign xml:lang="gez">ነፍስከ፡</foreign>) <foreign xml:lang="gez">እምኵሉ፡ ምእመንከ፡</foreign> <foreign xml:lang="grc">οὐ γὰρ ἐστί σοι πιστώτερος αὐτῆς</foreign> <ref cRef="Sir." loc="37,13">Sir. 37,13</ref>. <sense n="a" xml:id="D2a"> passim <gramGrp> <pos expand="Substantivum">subst.</pos> </gramGrp>: <cit type="translation" xml:lang="la">
+                                    <quote> firmum praesidium </quote>
+                                </cit>, <cit type="translation" xml:lang="la">
+                                    <quote> protector </quote>
+                                </cit>, <cit type="translation" xml:lang="la">
+                                    <quote> defensor </quote>
+                                </cit>: <foreign xml:lang="gez">ውእቱ፡ ምእመኑ፡</foreign> <foreign xml:lang="grc">ἀντιστρήριγμα</foreign> <ref cRef="Sir." loc="31,18">Sir. 31,18</ref>; <foreign xml:lang="gez">ምእመን፡ ኀይሉ፡</foreign> <foreign xml:lang="grc">ὑπερασπισμός</foreign> <ref cRef="Sir. " loc="31,19">Sir.  31,19</ref>; <foreign xml:lang="grc">ὑπερασπιστής</foreign> <ref cRef="Ps." loc="17,3">Ps. 17,3</ref>; <ref cRef="Ps." loc="17,33">Ps. 17,33</ref>; <ref cRef="Ps. " loc="26,2">Ps.  26,2</ref>; <ref cRef="Ps." loc="27,9">Ps. 27,9</ref>; <ref cRef="Ps." loc="27,11">Ps. 27,11</ref>; <ref cRef="Ps." loc="113,17">Ps. 113,17</ref>.</sense> <sense n="b" xml:id="D2b"> <cit type="translation" xml:lang="la">
+                                    <quote> fide dignus </quote>
+                                </cit> i.e. <cit type="translation" xml:lang="la">
+                                    <quote> credibilis </quote>
+                                </cit>, <ref cRef="Herm." loc="103.">Herm. p. 103.</ref> </sense> </sense> </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

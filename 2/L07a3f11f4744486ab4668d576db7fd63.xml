@@ -1,0 +1,71 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ገበታ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="LB" when="2018-05-04">root</change>
+        <change who="MK" when="2021-12-25">added new witness</change><change who="MK" when="2021-12-25">added new witness</change><change who="MK" when="2022-01-21">added etymological section</change><change who="MK" when="2022-01-21">added translation</change><change who="MK" when="2022-01-25">added main word in etymological section</change></revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L07a3f11f4744486ab4668d576db7fd63" n="8453">
+               <form>
+                  <foreign xml:lang="gez">ገበታ</foreign>
+               <rs type="root"/>
+                    </form>
+               <sense xml:id="Dmain" xml:lang="la" source="#dillmann"> <gramGrp> <pos expand="Substantivum">subst.</pos> </gramGrp>, <lbl expand="pluralis">Pl.</lbl> <foreign xml:lang="gez">ገባትው፡</foreign> [amh. <foreign xml:lang="gez">ገበታ፡</foreign> „a wooden bason“ <ref cRef="Isenb." loc="174">Isenb. p. 174</ref>; <lbl expand="secundum">sec.</lbl> Lud. (<lbl expand="lexicon">lex.</lbl> amh. <lbl expand="columna">col.</lbl> 88) <cit type="translation" xml:lang="la"><quote> mensa </quote></cit>; <cit type="translation" xml:lang="la"><quote> pelvis </quote></cit> lavandis manibus] <sense n="1" xml:id="D1"> <cit type="translation" xml:lang="la"><quote> sartago </quote></cit> vel <cit type="translation" xml:lang="la"><quote> patella </quote></cit> minus profunda, in qua placentae tenuiores friguntur (<foreign xml:lang="he">מַחֲבַת</foreign>): <foreign xml:lang="gez">ወዲበ፡ ገባትው፡ በዘይገብሩ፡ ናእተ፡</foreign> <foreign xml:lang="grc">τὰ λάγανα τὰ ἄζυμα</foreign> <ref cRef="1 Par." loc="23,29">1 Par. 23,29</ref>.</sense> <sense n="2" xml:id="D2"> <foreign xml:lang="grc">Γαββαθᾶ</foreign>, nomen loci, <ref cRef="Joh." loc="19,13">Joh. 19,13</ref>.</sense> </sense>
+               
+            <sense xml:id="Tmain" xml:lang="en" source="#traces"> <cit type="transcription" xml:lang="gez"><quote>gabatā</quote></cit> <ptr target="#D1"/> <cit type="translation" xml:lang="en"><quote>a wooden bowl</quote></cit> <foreign xml:lang="gez">፫፡ ገበታ፡ ወመሥለስ፡ ቅብዐ፡ መለንስ፡</foreign> ‘<cit type="translation" xml:lang="fr"><quote>3 gabatā et un maslas de beurre de malanes</quote></cit>’ <bibl><ptr target="bm:ContiRossini1909LiberT"/><citedRange unit="page"> 8 l. 14 (ed.)</citedRange></bibl>, <bibl><ptr target="bm:ContiRossini1910LiberV"/><citedRange unit="page"> 8 l. 23-24 (tr.)</citedRange></bibl>; <foreign xml:lang="gez">፫፡ ገበታ፡ ዕጣን፡ ለቤተ፡ ክርስቲያን፡</foreign> ‘<cit type="translation" xml:lang="fr"><quote>3 gabatā pour l’encens à l’église</quote></cit>’ <bibl><ptr target="bm:ContiRossini1909LiberT"/><citedRange unit="page"> 9 l. 1 (ed.)</citedRange></bibl>, <bibl><ptr target="bm:ContiRossini1910LiberV"/><citedRange unit="page"> 9 l. 4-5 (tr.)</citedRange></bibl> <sense n="E" xml:id="TE"> Amharic <foreign xml:lang="gez">ገበታ</foreign> <cit type="transcription" xml:lang="gez"><quote>gäbäta</quote></cit> ‘<cit type="translation" xml:lang="en"><quote>large flat-bottomed wooden bowl having outward flaring sides and a narrow center strip dividing the inside area into equal parts</quote></cit>’ <bibl><ptr target="bm:Kane1990DictAmhVol2"/><citedRange unit="page"> 1980b</citedRange></bibl> </sense> </sense></entry>
+         </div>
+      </body>
+   </text>
+</TEI>

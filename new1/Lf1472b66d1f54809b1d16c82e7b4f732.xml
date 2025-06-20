@@ -1,0 +1,143 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="gez">ሀይደራ</title>
+                <author>Alessandro Bausi</author>
+                <author>Andreas Ellwardt</author>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+                <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+                <pubPlace>Hamburg</pubPlace>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-sa-nc/4.0/"> This file
+                        is licensed under the Creative Commons Attribution-ShareAlike Non Commercial
+                        4.0. </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                        Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice
+                            latino. Adiectum est vocabularium tigre dialecti septentrionalis
+                            compilatum</emph> a W. Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+                </p>
+                <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced
+                        Grant TraCES (Grant Agreement 338756)</ref>
+                </p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>A digital edition of the Lexicon in TEI.</p>
+            <listPrefixDef>
+                <prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/>
+            </listPrefixDef>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="la">latin</language>
+                <language ident="it">Italian</language>
+                <language ident="gez">Gǝʿǝz</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="syr">Syriac</language>
+                <language ident="ar">Arabic</language>
+                <language ident="sa">Sanskrit</language>
+                <language ident="geo">Georgian</language>
+                <language ident="cop">Coptic</language>
+                <language ident="osa">Old South Arabian</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change who="VP" when="2019-04-03">new entry</change>
+            <change who="VP" when="2019-04-03">link added</change>
+            <change who="VP" when="2019-04-03">correction</change>
+            <change who="VP" when="2019-04-03">correction in the cross reference</change>
+            <change who="VP" when="2019-04-03">correction </change>
+            <change who="VP" when="2019-04-08">correction: tags added </change>
+            <change who="VP" when="2019-04-08">bm: added</change>
+            <change who="VP" when="2019-04-12">Reference and Bibliography updated.</change>
+            <change who="VP" when="2019-04-12">variant name added</change>
+            <change who="VP" when="2019-04-12">correction</change>
+            <change who="VP" when="2019-04-15">TraCES entry updated</change>
+            <change who="VP" when="2019-04-15">Entry updated: other passages from Marrassini's
+                edition</change>
+            <change who="VP" when="2019-04-15">correction </change>
+            <change who="VP" when="2019-04-15">correction</change>
+            <change who="VP" when="2019-04-15">correction: "śeyyum" instead of "śeyum"</change>
+            <change who="VP" when="2019-04-17">TraCES: new passages, with Translation, added from
+                Marrassini1993</change>
+            <change who="VP" when="2019-04-17">TraCES entry updated: new passages, with translation,
+                added from Marrassini1993AmdaSeyon.</change>
+            <change who="VP" when="2019-04-17">TraCES: small correction</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <entry xml:id="Lf1472b66d1f54809b1d16c82e7b4f732" n="12524">
+                    <form>
+                        <foreign xml:lang="gez">ሀይደራ</foreign>
+                    </form>
+                    <sense xml:lang="en" source="#traces" xml:id="Tmain">
+                        <cit type="transcription" xml:lang="gez">
+                            <quote>haydarā</quote>
+                        </cit>, <foreign xml:lang="gez">ሐይደራ</foreign>
+                        <cit type="transcription" xml:lang="gez">
+                            <quote>ḥaydarā</quote>
+                        </cit>
+                        <gramGrp>
+                            <pos expand="nomen proprium">n. pr.</pos>
+                            <gen value="not found">m.</gen>
+                        </gramGrp> (personal name) e.g. <cit type="transcription" xml:lang="gez">
+                            <quote>Haydarā</quote>
+                        </cit>, governor of <foreign xml:lang="gez">ደዋሮ</foreign> (or <foreign xml:lang="gez">ሥዩም</foreign> of <foreign xml:lang="gez">ደዋሮ</foreign>),
+                            <foreign xml:lang="gez">ወበጽሐ፡ ኀበ፡ ሀገር፡ እንተ፡ ስማ፡ ደዋሮ፡ ወመኰንና፡ ለይእቲ፡ ሀገር፡
+                            ዘስሙ፡ ሀይደራ፡</foreign> ʿ<cit type="translation" xml:lang="it">
+                            <quote>ed arrivò ad un paese chiamato Dawāro. Il governatore di quel
+                                paese, di nome Haydarā</quote>
+                        </cit>ʾ <bibl>
+                            <ptr target="bm:Marrassini1993AmdaSeyon"/>
+                            <citedRange unit="page"> 68:13-14 (ed.)</citedRange>
+                        </bibl>
+                        <ref cRef="Chron. Am." loc="54">Chron. Am. 54</ref>
+                        <bibl>
+                            <ptr target="bm:Marrassini1993AmdaSeyon"/>
+                            <citedRange unit="page"> 69 (tr.)</citedRange>
+                        </bibl>, <foreign xml:lang="gez">እኩየ፡ ሚን፡ ሐይደራሃ፡ ዘንቤ፡ ቀዳሚ፡ ሥዩመ፡
+                            ደዋሮ፡</foreign> ʿ<cit type="translation" xml:lang="it">
+                            <quote>malvagio e fraudolento di Ḥaydarā, di cui abbiamo parlato prima,
+                                il śeyum del Dawāro</quote>
+                        </cit>ʾ <bibl>
+                            <ptr target="bm:Marrassini1993AmdaSeyon"/>
+                            <citedRange unit="page"> 76:7-8 (ed.)</citedRange>
+                        </bibl>
+                        <bibl>
+                            <ptr target="bm:Marrassini1993AmdaSeyon"/>
+                            <citedRange unit="page"> 77 (tr.)</citedRange>
+                        </bibl>
+                        <ref cRef="Chron. Am." loc="80">Chron. Am. 80</ref> (‘<bibl>
+                            <ptr target="bm:Paez1906HistAeth"/>
+                            <citedRange unit="page"> 3</citedRange>
+                        </bibl> Hadarâ, <bibl>
+                            <ptr target="bm:Bruce1790travelsV"/>
+                            <citedRange unit="page"> 21</citedRange>
+                        </bibl> Hydar. Il personaggio ricomparirà alle pp. 77 e 185. Su di esso cf.
+                        il cenno in <bibl>
+                            <ptr target="bm:Cerulli1936Harar"/>
+                            <citedRange unit="page"> 23 n. 1</citedRange>
+                        </bibl>, e, sugli avvenimenti, <bibl>
+                            <ptr target="bm:Taddesse1972Church"/>
+                            <citedRange unit="page"> 140-1</citedRange>
+                        </bibl>.’ <bibl>
+                            <ptr target="bm:Marrassini1993AmdaSeyon"/>
+                            <citedRange unit="page"> 69 n. 7 (tr.)</citedRange>
+                        </bibl>) <lbl expand="videas">vid.</lbl> also <foreign xml:lang="gez">ደዋሮ</foreign>
+                        <nd/>
+                    </sense>
+                </entry>
+            </div>
+        </body>
+    </text>
+</TEI>

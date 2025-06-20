@@ -1,0 +1,105 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="gez">ከሰሰ</title>
+                <author>Alessandro Bausi</author>
+                <author>Andreas Ellwardt</author>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+                <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+                <pubPlace>Hamburg</pubPlace>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-sa-nc/4.0/"> This file
+                        is licensed under the Creative Commons Attribution-ShareAlike Non Commercial
+                        4.0. </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                        Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice
+                            latino. Adiectum est vocabularium tigre dialecti septentrionalis
+                            compilatum</emph> a W. Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+                </p>
+                <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced
+                        Grant TraCES (Grant Agreement 338756)</ref>
+                </p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>A digital edition of the Lexicon in TEI.</p>
+            <listPrefixDef>
+                <prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/>
+            </listPrefixDef>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="la">latin</language>
+                <language ident="it">Italian</language>
+                <language ident="gez">Gǝʿǝz</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="syr">Syriac</language>
+                <language ident="ar">Arabic</language>
+                <language ident="sa">Sanskrit</language>
+                <language ident="geo">Georgian</language>
+                <language ident="cop">Coptic</language>
+                <language ident="osa">Old South Arabian</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change who="MK" when="2019-05-29">new entry</change>
+            <change who="MK" when="2019-07-09">added stem</change>
+            <change who="MK" when="2019-08-05">added etymology</change>
+            <change who="MK" when="2019-08-06">corr</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <entry xml:id="L5c2302ae7d6240bea53c34cedbbfa1c8" n="12619">
+                    <form>
+                        <foreign xml:lang="amh">ከሰሰ</foreign>
+                    </form>
+                    <sense xml:lang="en" source="#traces" xml:id="Tmain">
+                        <cit type="transcription" xml:lang="gez">
+                            <quote> kasasa </quote>
+                        </cit>
+                        <gramGrp>
+                            <pos expand="verbum">v.</pos>
+                        </gramGrp> I, 1 <cit type="translation" xml:lang="en">
+                            <quote> accuse </quote>
+                        </cit>
+                        <foreign xml:lang="gez">ወዘሰ፡ ተርፈ፡ ሐመምኩ፡ ብሂሎ፡ በሐሰት፡ ይክስሶ፡ ጸላእቱ፡ ወእመ፡ ተረትዓ፡
+                            ይኩን፡ እዳሁ፡ እዳ፡ ወንጀለኛ፡</foreign> ‘<cit type="translation" xml:lang="fr">
+                            <quote> mais si quelqu’un reste chez lui en se disant faussement malade,
+                                que ses ennemis le défèrent au tribunal, et s’il est convaincu de
+                                fausseté, que sa main subisse le châtiment du traîte! </quote>
+                        </cit>’ <bibl>
+                            <ptr target="bm:ContiRossini1907SarsaDengel"/>
+                            <citedRange unit="page"> 113 l. 28-29 (ed.)</citedRange>
+                        </bibl>, <bibl>
+                            <ptr target="bm:ContiRossini1907SarsaDengelV"/>
+                            <citedRange unit="page"> 129 11-14 (tr.)</citedRange>
+                        </bibl>
+                        <sense n="E" xml:id="TE"> from Amharic <foreign xml:lang="am">ከሰሰ</foreign>
+                            <cit type="transcription" xml:lang="gez">
+                                <quote> kassasa</quote>
+                            </cit>
+                            <cit type="translation" xml:lang="en">
+                                <quote> accuse </quote>
+                            </cit>
+                            <bibl>
+                                <ptr target="bm:Praetorius1910RezSarsaDengel"/>
+                                <citedRange unit="page"> 622</citedRange>
+                            </bibl>
+                        </sense>
+                        <nd/>
+                    </sense>
+                </entry>
+            </div>
+        </body>
+    </text>
+</TEI>

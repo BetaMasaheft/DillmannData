@@ -1,0 +1,155 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ተሰናአወ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="MK" when="2019-08-13">added new witnesses</change>
+            <change who="MK" when="2019-08-13">added new examples </change>
+            <change who="MK" when="2019-08-13">added new witnesses</change>
+        </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L8887d10c74104db3947dbd6157d73ecf" n="2819">
+               <form>
+                  <foreign xml:lang="gez">ተሰናአወ</foreign>
+               </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain"> (crebro <foreign xml:lang="gez">ተሰነአወ፡</foreign> et <foreign xml:lang="gez">ተሰነዓወ፡</foreign> scriptum) quadril. <subc>III,3</subc> <sense n="1" xml:id="D1"> <cit type="translation" xml:lang="la">
+                                <quote> pacem </quote>
+                            </cit> vel <cit type="translation" xml:lang="la">
+                                <quote> concordiam </quote>
+                            </cit> (<cit type="translation" xml:lang="la">
+                                <quote> mutuam </quote>
+                            </cit>) <cit type="translation" xml:lang="la">
+                                <quote> inter se jungere </quote>
+                            </cit> vel <cit type="translation" xml:lang="la">
+                                <quote> colere </quote>
+                            </cit>, <foreign xml:lang="grc">εἰρηνεύειν</foreign> <ref cRef="Marc." loc="9,50">Marc. 9,50</ref>; <ref cRef="2 Cor. " loc="13,12">2 Cor.  13,12</ref>; <ref cRef="2 Petr." loc="3,14">2 Petr. 3,14</ref>; <foreign xml:lang="gez">በተሰናእዎ፡</foreign> <foreign xml:lang="grc">ἐν ὁμονοίᾳ</foreign> <ref cRef="Sap." loc="18,9">Sap. 18,9</ref>; <lbl expand="construitur cum">c.c.</lbl> <foreign xml:lang="gez">ምስለ፡</foreign>, ut: <foreign xml:lang="gez">ተሰናአወ፡ ዮሳፍጥ፡ ምስለ፡ ንጉሠ፡ እስራኤል፡</foreign> <ref cRef="3 Reg." loc="22,45">3 Reg. 22,45</ref>; <ref cRef="1 Esr." loc="8,82">1 Esr. 8,82</ref>, vel <lbl expand="cum">c.</lbl> <gramGrp> <case value="accusativus">Acc.</case> </gramGrp> <lbl expand="persona">pers.</lbl>: <foreign xml:lang="gez">ይሰናአዉከ፡</foreign> <ref cRef="Job" loc="5,23">Job 5,23</ref>; <foreign xml:lang="gez">ሰአሎ፡ ይሰናአዎ፡ ይኩን፡ ሰላም፡ ማእከሌሆሙ፡</foreign> <ref cRef="1 Par." loc="18,10">1 Par. 18,10</ref>; <foreign xml:lang="gez">ለትሕትናነ፡ ተሰናአዎ፡</foreign> <cit type="translation" xml:lang="la">
+                                <quote> cum humilitate nostra foedus junxit </quote>
+                            </cit> <ref cRef="Sx. Mag." loc="29 ">Sx. Mag. 29 </ref>Enc.; <foreign xml:lang="gez">ተሰናእዎ፡ እሳት፡ ወማይ፡ በ፩ ህላዌ፡</foreign> <cit type="translation" xml:lang="la">
+                                <quote> conciliatio ignis e </quote>
+                            </cit> <cit type="translation" xml:lang="la">
+                                <quote> t </quote>
+                            </cit> <cit type="translation" xml:lang="la">
+                                <quote> aquae in uno individuo </quote>
+                            </cit> (allegoria est de Christo) <ref cRef="Org. " loc="2.">Org.  2.</ref> </sense> <sense n="2" xml:id="D2"> <cit type="translation" xml:lang="la">
+                                <quote> pacatum esse </quote>
+                            </cit>: <foreign xml:lang="gez">ተሰናአወት፡ ምድረ፡ ግብጽ፡</foreign> <ref cRef="Kuf. " loc="141.">Kuf.  p. 141.</ref> </sense> <sense n="3" xml:id="D3"> <cit type="translation" xml:lang="la">
+                                <quote> consentire </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> concordare </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> congruere </quote>
+                            </cit> (de rebus praedicatur), ut: <cit type="translation" xml:lang="la">
+                                <quote> numeri congruunt </quote>
+                            </cit> Abush. (crebro); <foreign xml:lang="gez">ዛቲ፡ ኀጢአት፡ ትሰናአው፡ ምስለ፡</foreign> F.M. 11,1.</sense> <sense n="4" xml:id="D4"> <cit type="translation" xml:lang="la">
+                                <quote> convenire </quote>
+                            </cit> de re, conditione; <cit type="translation" xml:lang="la">
+                                <quote> pacisci </quote>
+                            </cit> aliquid; <foreign xml:lang="gez">በከመ፡ ተሰናአዎ፡</foreign> (<cit type="translation" xml:lang="la">
+                                <quote> convenerat cum eo </quote>
+                            </cit>) <ref cRef="Jsp." loc="309">Jsp. p. 309</ref>; <foreign xml:lang="gez">በተሰናእዎቶሙ፡</foreign> (<cit type="translation" xml:lang="la">
+                                <quote> mutuo consensu </quote>
+                            </cit>) F.N. 24,3; <lbl expand="cum">c.</lbl> <foreign xml:lang="gez">በ፡</foreign> vel <foreign xml:lang="gez">ላዕለ፡</foreign> rei, ut F.N. 36; <foreign xml:lang="gez">ተሰናአዉ፡ በዝ፡ ምክር፡</foreign> <ref cRef="Jsp. " loc="283">Jsp.  p. 283</ref>; <foreign xml:lang="gez">ከመ፡ ኢይሰናአዉ፡ ላዕለ፡ ወልጦ፡ መጻሕፍት፡</foreign> <ref cRef="Jsp." loc="286,">Jsp. p. 286,</ref> vel <lbl expand="cum">c.</lbl> <foreign xml:lang="gez">ለ፡</foreign> rei agendae: <foreign xml:lang="gez">በእንተ፡ ተሰናእዎተ፡ ክልኤሆሙ፡ ለምንኵስና፡</foreign> F.M. 12,3; <foreign xml:lang="gez">ተሰናአዉ፡ ኅቡረ፡ ለገድል፡</foreign> <ref cRef="Sx. Masc." loc="9 ">Sx. Masc. 9 </ref>Enc.; vel <lbl expand="cum">c.</lbl> <foreign xml:lang="gez">ከመ፡</foreign> seq. <gramGrp> <pos expand="Subjunctivus">Subj.</pos> </gramGrp>: <foreign xml:lang="gez">ተሰናአዉ፡ ከመ፡</foreign> <cb n="0372" xml:id="c0372"/> <foreign xml:lang="gez">ይረስዩ፡ ሎቱ፡ በዓለ፡</foreign> <ref cRef="Jsp." loc="273">Jsp. p. 273</ref>; <ref cRef="Jsp." loc="276">Jsp. p. 276</ref>; Sx. <ref cRef="Mag." loc="24">Mag. 24</ref>; <foreign xml:lang="gez">ተሰናአዉ፡ ምስሌሃ፡ ከመ፡ የሀብዎ፡ ንዋየ፡</foreign> <ref cRef="Sx. Genb. " loc="21.">Sx. Genb.  21.</ref> </sense> <sense n="5" xml:id="D5"> <cit type="translation" xml:lang="la">
+                                <quote> conspicere </quote>
+                            </cit>: <foreign xml:lang="gez">ተሰናአወ፡ ምስሌሁ፡</foreign> <ref cRef="Jsp. " loc="285.">Jsp.  p. 285.</ref> </sense> </sense>
+               
+            <sense xml:lang="en" source="#traces" xml:id="Tmain">
+                        <cit type="transcription" xml:lang="gez">
+                            <quote>tasanāʾawa</quote>
+                        </cit>, <cit type="transcription" xml:lang="gez">
+                            <quote>tasanaʾawa</quote>
+                        </cit>, <cit type="transcription" xml:lang="gez">
+                            <quote>tasanaʾawa</quote>
+                        </cit> <sense n="3" xml:id="T3"> <cit type="translation" xml:lang="en">
+                                <quote>coincide</quote>
+                            </cit> <foreign xml:lang="gez">በውእቱ፡ ጊዜ፡ ተሰነአወ፡ ምስለ፡ ዝንቱ፡ ዜና፡ ምጽአተ፡ ብሌን፡ ወዓቃቢ፡ እምኀበ፡ ኢቴጌ፡ ወዌዘሮ፡ አመተ፡ ጊዮርጊስ።</foreign> ‘<cit type="translation" xml:lang="fr">
+                                <quote>En outre cette nouvelle coïncida avec l’arrivée de Belēn et de ʿAqābi, de la part de l’Itēgē et de la wēzaro Amatta Giyorgis</quote>
+                            </cit>’ <bibl>
+                                <ptr target="bm:ContiRossini1907SarsaDengel"/>
+                                <citedRange unit="page"> 11 l. 26-28 (ed.)</citedRange>
+                            </bibl>, <bibl>
+                                <ptr target="bm:ContiRossini1907SarsaDengelV"/>
+                                <citedRange unit="page"> 14 l. 28-30 (tr.)</citedRange>
+                            </bibl>, <foreign xml:lang="gez">ናሁ፡ ሠናይ፡ ወናሁ፡ አዳም፡ ተሰናእዎቶሙ፡ ለዕረፍተ፡ ንጉሥ፡ መፍቃሬ፡ እግዚአብሔር፡ ልብነ፡ ድንግል፡</foreign> ‘<cit type="translation" xml:lang="fr">
+                                <quote>Ainsi fut bonne, ainsi fut joyeuse la coïncidence du jour du trépas du roi aimant le Signeur, Lebna Dengel</quote>
+                            </cit>’ <bibl>
+                                <ptr target="bm:ContiRossini1907SarsaDengel"/>
+                                <citedRange unit="page"> 14 l. 14-16 (ed.)</citedRange>
+                            </bibl>, <bibl>
+                                <ptr target="bm:ContiRossini1907SarsaDengelV"/>
+                                <citedRange unit="page"> 17 l. 29-31 (tr.)</citedRange>
+                            </bibl>, <foreign xml:lang="gez">ወበፈቃደ፡ እግዚአብሔር፡ ተሰነአወ፡ በጺሖተ፡ ዝንቱ፡ ሕፃን፡ ወበጺሖተ፡ ተክለ፡ ማርያም፡ ዘአንገሦ፡ ሐመልማል፡</foreign> ‘<cit type="translation" xml:lang="fr">
+                                <quote>L’arrivée de cet enfant et l’arrivée de Takla Māryām, qui avait été proclamé roi par Ḥamalmāl, coïncidèrent par la volonté du Seigneur</quote>
+                            </cit>’ <bibl>
+                                <ptr target="bm:ContiRossini1907SarsaDengel"/>
+                                <citedRange unit="page"> 17 l. 8-10 (ed.)</citedRange>
+                            </bibl>, <bibl>
+                                <ptr target="bm:ContiRossini1907SarsaDengelV"/>
+                                <citedRange unit="page"> 20 l. 33-34 (tr.)</citedRange>
+                            </bibl>, <foreign xml:lang="gez">ወሶበ፡ በጽሑ፡ ሐፄጌ፡ ደምብያ፡ አሜሃ፡ ተሰናአወ፡ ምጽአተ፡ ክልኤቱ፡ ርሳስ፡ ወምጽአተ፡ ፩ታቦት፡ ዘእግዚእነ፡ ኢየሱስ፡ ክርስቶስ።</foreign> ‘<cit type="translation" xml:lang="fr">
+                                <quote>Lorsque le Ḥaṣēgē atteignit le Dambyā, l’arrivée des deux boulets coïncida avec l’arrivée du tābot de Notre-Seigneur Jésus-Christ</quote>
+                            </cit>’ <bibl>
+                                <ptr target="bm:ContiRossini1907SarsaDengel"/>
+                                <citedRange unit="page"> 66 l. 2-4 (ed.)</citedRange>
+                            </bibl>, <bibl>
+                                <ptr target="bm:ContiRossini1907SarsaDengelV"/>
+                                <citedRange unit="page"> 76 l. 15-17 (tr.)</citedRange>
+                            </bibl> (‘Häufig wird <foreign xml:lang="gez">ተሰናአወ</foreign> vom zeitlichen Zusammenfallen zweier Ereignisse gebraucht. Entweder sind dann beide Ereignisse Subjekt; oder nur eins ist Subjekt, während das andere durch <foreign xml:lang="gez">ምስለ</foreign>, oder seltener im Akkusativ angeschlossen wird.’ <bibl>
+                                <ptr target="bm:Praetorius1910RezSarsaDengel"/>
+                                <citedRange unit="page"> 617-618</citedRange>
+                            </bibl>)</sense> </sense>
+                </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

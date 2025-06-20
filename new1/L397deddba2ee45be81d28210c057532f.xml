@@ -1,0 +1,169 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng"
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="gez">ዓቄት</title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref></p>
+            <p><ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref></p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+         <listPrefixDef>
+            <prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="MK" when="2022-03-11">added entry</change>
+         <change who="MK" when="2022-03-11">correction</change>
+         <change who="MK" when="2022-03-11">added example</change>
+         <change who="MK" when="2022-03-11">added example</change>
+         <change who="MK" when="2022-03-11">added example </change>
+         <change who="MK" when="2022-03-11">added cross reference </change>
+         <change who="MK" when="2022-03-14">added example</change>
+         <change who="MK" when="2022-03-14">added example</change>
+         <change who="MK" when="2022-03-14">added example</change>
+         <change who="MK" when="2022-03-14">added example</change>
+         <change who="MK" when="2022-03-14">added example</change>
+         <change who="MK" when="2022-03-14">added pages</change>
+         <change who="MK" when="2022-03-14">added pages </change>
+         <change who="MK" when="2022-03-14">added example</change>
+         <change who="MK" when="2022-04-07">correction</change>
+         <change who="MK" when="2022-04-07">correction</change>
+         <change who="MK" when="2022-05-10">added line</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L397deddba2ee45be81d28210c057532f" n="12770">
+               <form><foreign xml:lang="gez">ዓቄት</foreign></form>
+               <sense xml:id="Tmain" xml:lang="en" source="#traces">
+                  <cit type="transcription" xml:lang="gez">
+                     <quote>ʿāqet</quote>
+                  </cit>, <foreign xml:lang="gez">አቄት፡</foreign>
+                  <cit type="transcription" xml:lang="gez">
+                     <quote>ʾaqet</quote>
+                  </cit>
+                  <gramGrp><pos expand="Substantivum">subst.</pos></gramGrp> ‘<cit type="translation" xml:lang="en">
+                     <quote>artisan</quote>
+                  </cit> (mason, carpenter, silver or goldsmith, ironworker, saddle or harness
+                  maker)’ <bibl><ptr target="bm:Kane1990DictAmhVol2"/><citedRange unit="page">
+                        1186b</citedRange></bibl>
+                  <sense n="a" xml:id="Ta">
+                     <foreign xml:lang="gez">ዓቄት፡ ዠር፡</foreign>
+                     <cit type="transcription" xml:lang="gez">
+                        <quote>ʿāqet žar</quote>
+                     </cit>, <foreign xml:lang="gez">አቄትዠር፡</foreign>
+                     <cit type="transcription" xml:lang="gez">
+                        <quote>ʾaqetžar</quote>
+                     </cit> ‘<cit type="translation" xml:lang="en">
+                        <quote>mason and carpenter</quote>
+                     </cit>’ <bibl><ptr target="bm:Dasta1969AmhDict"/><citedRange unit="page">
+                           952b</citedRange></bibl>
+                     <foreign xml:lang="gez">ወፈርሁ፡ ዓቢየ፡ ፍርሀተ፡ ኵሉ፡ መኳንንት፡ ወኵሉ፡ አቄትዠር፡</foreign> ‘<cit type="translation" xml:lang="pt">
+                        <quote>todos os makuanen e todos os aqet jar se assustaram, e se agitaram
+                           muito</quote>
+                     </cit>’ <bibl><ptr target="bm:Pereira1892Susenyos"/><citedRange unit="page"> 60
+                           l. 95–96 (ed.)</citedRange></bibl>, <bibl><ptr target="bm:Pereira1900Susenyos"/><citedRange unit="page"> 47 34–35
+                           (tr.)</citedRange></bibl>; <foreign xml:lang="gez">ወመከረ፡ ዘከመ፡ ያገብእ፡ ሎሙ፡
+                        ተሰጥዎተ፡ ነገር፡ ለዘሥላሴ፡ ወለቍርባን፡ ወለኵሎሙ፡ አቄትዠር።</foreign> ‘<cit type="translation" xml:lang="pt">
+                        <quote>e fez conselho, assim como daria resposta do negocio a Za Selase, e
+                           aos Querban, e a todos os aqet jar</quote>
+                     </cit>’ <bibl><ptr target="bm:Pereira1892Susenyos"/><citedRange unit="page"> 61
+                           l. 132–135 (ed.)</citedRange></bibl>, <bibl><ptr target="bm:Pereira1900Susenyos"/><citedRange unit="page"> 48 l. 31–33
+                           (tr.)</citedRange></bibl>; <foreign xml:lang="gez">ወሰሚዖሙ፡ ዘንተ፡ ነገረ፡
+                        አቄትዠር፡ ነበሩ፡ በበ፡ ሕዘቢሆሙ፡ ወበበ፡ ነገዶሙ፡</foreign> ‘<cit type="translation" xml:lang="pt">
+                        <quote> E tendo ouvido estas cousas, os aqet jar assentaram-se cada um por
+                           suas castas e por suas tribus</quote>
+                     </cit>’ <bibl><ptr target="bm:Pereira1892Susenyos"/><citedRange unit="page"> 70
+                           l. 1–2 (ed.)</citedRange></bibl>, <bibl><ptr target="bm:Pereira1900Susenyos"/><citedRange unit="page"> 55 l. 3–5
+                           (tr.)</citedRange></bibl>; <foreign xml:lang="gez">ወከልእዎ፡ እሊአሁ፡ ቍርባን፡
+                        ወአቄትዠር፡ ወኵሉ፡ ጨዋ፡</foreign> ‘<cit type="translation" xml:lang="pt">
+                        <quote>mas impediram-no os seus Querban, e os aqet jar, e todos os
+                           chavas</quote>
+                     </cit>’ <bibl><ptr target="bm:Pereira1892Susenyos"/><citedRange unit="page"> 85
+                           l. 56–57 (ed.)</citedRange></bibl>, <bibl><ptr target="bm:Pereira1900Susenyos"/><citedRange unit="page"> 67 l. 4–5
+                           (tr.)</citedRange></bibl>; <foreign xml:lang="gez">ወዓቄትዠረኒ፡ ወአጣሮች፡ ዘተርፉ፡
+                        እምዘመቻ፡ ተቀበልዎ፡ በከመ፡ ሥርዐቶሙ፡ ወሕጎሙ፡፡</foreign> ‘<cit type="translation" xml:lang="pt">
+                        <quote>E tambem os aqet jar e os atari, que tinham desistido expedição, o
+                           receberam, assim como é uso e lei d’elles</quote>
+                     </cit>’ <bibl><ptr target="bm:Pereira1892Susenyos"/><citedRange unit="page"> 96
+                           l. 44–46 (ed.)</citedRange></bibl>, <bibl><ptr target="bm:Pereira1900Susenyos"/><citedRange unit="page"> 75 l. 5–7
+                           (tr.)</citedRange></bibl>; <foreign xml:lang="gez">ወአንጐርጐሩ፡ አቄርዠር፡ ወሕቀ፡
+                        ሐዊሮ፡ ተመይጠ፡ እንበይነ፡ ዘአንጐርጐሩ፡ ቦቱ፡ ሰብአ፡ ከተማ።</foreign> ‘<cit type="translation" xml:lang="pt">
+                        <quote>e murmuraram os aqet jar; e tendo marchado um pouco, voltou, por isso
+                           que a gente do katama murmurou contra elle</quote>
+                     </cit>’ <bibl><ptr target="bm:Pereira1892Susenyos"/><citedRange unit="page">
+                           105 l. 114–116 (ed.)</citedRange></bibl>, <bibl><ptr target="bm:Pereira1900Susenyos"/><citedRange unit="page"> 82 l. 12–14
+                           (tr.)</citedRange></bibl>; <foreign xml:lang="gez">ሐራኒ፡ ወኵሎ፡ አቄትዠር፡ ወኵሉ፡
+                        መኳንንት፡ ወመገብተ፡ መንግሥት፡ አንፈርዐፁ፡ ወወውዑ፡ ተረስዮሙ፡ ንዋየ፡ ኅቅሎሙ፡ ወትርሲተ፡ ፀብኦሙ፡ በከመ፡ ሥርዐት፡
+                        ወሕግ፡ ዘልማድ።</foreign> ‘<cit type="translation" xml:lang="pt">
+                        <quote>E os hara, e todos os aqet jar, e todos os makuanen, e os ministros
+                           do reino exultaram, e acclamaram, tendo posto as suas armas de campo, e
+                           os seus distinctivos de guerra, segundo o estatuto e a lei
+                           consuetudinaria</quote>
+                     </cit>’ <bibl><ptr target="bm:Pereira1892Susenyos"/><citedRange unit="page">
+                           123 l. 19–22 (ed.)</citedRange></bibl>, <bibl><ptr target="bm:Pereira1900Susenyos"/><citedRange unit="page"> 95 l. 36–96 l.
+                           1–4 (tr.)</citedRange></bibl>; <bibl><ptr target="bm:Pereira1892Susenyos"/><citedRange unit="page"> 129 l. 141 (ed.)</citedRange></bibl>,
+                           <bibl><ptr target="bm:Pereira1900Susenyos"/><citedRange unit="page"> 100
+                           l. 7 (tr.)</citedRange></bibl>; <foreign xml:lang="gez">ወእንዘ፡ ሀሎ፡ በህየ፡
+                        ፈነወ፡ ዮልዮስ፡ ክልኤተ፡ ክታባተ፡ አሐደ፡ ለንጉስ፡ ወአሐደ፡ ለአቄትዠር።</foreign> ‘<cit type="translation" xml:lang="pt">
+                        <quote>E cuando alli estava, Yolyos mandou dois escriptos, um para o Rei, e
+                           outro para os aqet jar</quote>
+                     </cit>’ <bibl><ptr target="bm:Pereira1892Susenyos"/><citedRange unit="page">
+                           163 l. 15–17 (ed.)</citedRange></bibl>, <bibl><ptr target="bm:Pereira1900Susenyos"/><citedRange unit="page"> 126 l. 15–16
+                           (tr.)</citedRange></bibl></sense>
+                  <sense n="b" xml:id="Tb">
+                     <foreign xml:lang="gez">ዓቄት፡ ደበና፡</foreign>
+                     <cit type="transcription" xml:lang="gez">
+                        <quote>ʿāqet dabanā</quote>
+                     </cit> meaning uncertain, artisan responsible for the maintenance of the royal
+                     tent ? <foreign xml:lang="gez">ወቃል፡ ሐፄ፡ ዓቄት፡ ደበና፡ ጌታ፡ ገሪማ፡</foreign> ‘<cit type="translation" xml:lang="fr">
+                        <quote>le porte-parole du roi ʿāqēt dabanā gētā, Garimā</quote>
+                     </cit>’ <bibl><ptr target="bm:ContiRossini1909LiberT"/><citedRange unit="page">
+                           41 l. 18 (ed.)</citedRange></bibl>, <bibl><ptr target="bm:ContiRossini1910LiberV"/><citedRange unit="page"> 49 l. 8–9
+                           (tr.)</citedRange></bibl>, <lbl expand="videas">vid.</lbl>
+                     <foreign xml:lang="gez">ደበና፡</foreign></sense>
+                  <nd/>
+               </sense>
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

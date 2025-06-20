@@ -1,0 +1,86 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> አካል </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="MK" when="2017-11-23">Added meaning </change>
+            <change who="MK" when="2017-11-23">Correction of the sign for the glottal stop</change>
+            <change who="MK" when="2017-11-23">Correction of the sugn for the glottal stop</change>
+            <change who="MK" when="2017-11-23">Removed comma</change>
+            <change who="MK" when="2017-11-29">Correction</change>
+            <change who="MK" when="2017-11-30">Changed inverted commas</change>
+            <change who="MK" when="2017-11-30">added full stop</change>
+            <change who="MK" when="2018-03-09">correction</change>
+            <change who="MK" when="2018-03-09">correc. biblio</change>
+            <change who="MK" when="2018-04-16">added translit.</change>
+        <change who="MK" when="2019-03-11">added vid</change>
+            <change who="MK" when="2019-03-11">corr</change>
+        <change who="MK" when="2024-03-22">added cross ref</change><change who="MK" when="2024-03-22">added c</change></revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="Lb877148c033a4f6f8a6c68a5db6401a5" n="5782">
+               <form>
+                  <foreign xml:lang="gez">አካል</foreign>
+               </form>
+               <sense xml:id="Dmain" xml:lang="la" source="#dillmann"> <gramGrp> <pos expand="Substantivum">subst.</pos> </gramGrp>, <gramGrp> <gen value="not found">m.</gen> </gramGrp> et <gramGrp> <gen value="femininus">fem.</gen> </gramGrp>, <lbl expand="pluralis">Pl.</lbl> <foreign xml:lang="gez">አካላት፡</foreign> <sense n="1" xml:id="D1"> id cui ambitus et capacitas vel concretio convenit i.e. <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> corpus </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> statura </t:quote></cit>: <foreign xml:lang="gez">አሕማር፡ ዘመጠነዝ፡ አካሎን፡</foreign> <foreign xml:lang="grc">τὰ πλοῖα τηλικαῦτα ὄντα</foreign> <ref cRef="Jac." loc="3,4">Jac. 3,4</ref>; <foreign xml:lang="gez">ንህብ፡ እንዘ፡ በአካል፡ ነኣስ፡</foreign> Deg.; Christus infans <foreign xml:lang="gez">ልህቀ፡ በአምጣን፡ ወበአካል፡</foreign> hom. Epiph. Cypr. in <ref cRef="Cyr." loc="117">Cyr. f. 117</ref>; <foreign xml:lang="gez">ሶበ፡ ርእየ፡ መኰንን፡ ናእሰ፡ አካሉ፡</foreign> <ref cRef="Sx. Teq." loc="25">Sx. Teq. 25</ref>; in specie <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> justa statura </t:quote></cit> vel <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> magnitudo </t:quote></cit> hominis adulti: <ref cRef="Act." loc="27,28">Act. 27,28</ref> <lbl expand="romanae editionis">rom.</lbl>; <foreign xml:lang="gez">እስከ፡ ይበጽሕ፡ ወሬዛ፡ ለመጠነ፡ አካል፡</foreign> F.N. 24,2; <foreign xml:lang="gez">ለእመ፡ ኢበጽሐ፡ አካለ፡ ፍጻሜሃ፡</foreign> et <foreign xml:lang="gez">ፍጻሜ፡ መጠነ፡ አካል፡</foreign> F.N. 24,2. <cb n="0784" xml:id="c0784"/> 
+</sense> <sense n="2" xml:id="D2"> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> substantia </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> hypostasis </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> persona </t:quote></cit>, de rebus etiam: <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> natura </t:quote></cit>; <foreign xml:lang="grc">ὑπόστασις</foreign> <ref cRef="Ps." loc="38,7">Ps. 38,7</ref>; <ref cRef="Ps." loc="138,14">Ps. 138,14</ref>; de personis Trinitatis earumve hypostasi: <foreign xml:lang="gez">በከመ፡ አብ፡ ህልው፡ በአካሉ፡ ወወልድኒ፡ ከማሁ፡</foreign> <foreign xml:lang="grc">ὥσπερ ὁ πατὴρ ἐνυπόστατος οὕτω καὶ ὁ υἱός</foreign> <ref cRef="Chrys. ho." loc="2">Chrys. ho. 2</ref>; <foreign xml:lang="gez">፪ ገጽ፡ በበአካሎሙ፡</foreign> <foreign xml:lang="grc">δύο πρόσωπα διῃρημένα κατὰ τὴν ὑπόστασιν</foreign> <ref cRef="Chrys. ho." loc="3">Chrys. ho. 3</ref>; <foreign xml:lang="gez">ዘኢየአምን፡ ከመ፡ ውእቱ፡</foreign> (<foreign xml:lang="gez">ዘተሰቅለ፡</foreign>) <foreign xml:lang="gez">፩ አካል፡ እም ፫ አካላት፡</foreign> Haim. Ab.; <foreign xml:lang="gez">አካላቲሁ፡</foreign> (<foreign xml:lang="gez">ለእግዚአብሔር፡</foreign>) <foreign xml:lang="gez">ዘውእቶሙ፡ አብ፡ ወወልድ፡ ወመንፍስ፡ ቅዱስ፡</foreign> <ref cRef="F.M." loc="22">F.M. 22</ref>,5; F.M. 27,7; <foreign xml:lang="gez">እግዚአብሔር፡ ዘይሤላስ፡ በአካላት፡</foreign> <ref cRef="Cat. Bibl. Bodl. Ox." loc="16">Cat. Bibl. Bodl. Ox. p. 16</ref>; de hominibus: <foreign xml:lang="gez">ሶበ፡ ርእየ፡ አካሎሙ፡</foreign> (<note>als er sie persönlich kennen lernte</note>) <ref cRef="Jsp." loc="310">Jsp. p. 310</ref>; de arboribus: <foreign xml:lang="gez">ዕፀው፡ ዘይፈሪ፡ ዕሩየኑ፡ ፍሬሁ፡ ይሁብ፤ አኮሁ፡ በበአካሉ፡ ይፈሪ፡</foreign> <ref cRef="Kid." loc="38.">Kid. f. 38.</ref> 
+</sense> </sense>
+               
+            <sense xml:id="Tmain" xml:lang="en" source="#traces"> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> ʾakāl </t:quote></cit>, <lbl expand="pluralis">Pl.</lbl> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">ʾakālāt</t:quote></cit> <lb/>
+ <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> person </t:quote></cit> (‘In the literature,<cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> gäṣ </t:quote></cit> {<lbl expand="videas">vid.</lbl> <foreign xml:lang="gez">ገጽ፡</foreign>} and <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> ʾakal </t:quote></cit> {<lbl expand="videas">vid.</lbl> <foreign xml:lang="gez">አካል፡</foreign>} are used interchangeably to refer to the three persons of the Trinity.’ <bibl><ptr target="bm:Getatchew2011EstifanosTr"/><citedRange unit="page">13 n. 53</citedRange></bibl>) <sense n="C" xml:id="TC"> for <foreign xml:lang="gez">መጠነ፡ አካል፡</foreign> <lbl expand="videas">vid.</lbl> <foreign xml:lang="gez">መጠን፡</foreign> 
+</sense> </sense>
+                </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

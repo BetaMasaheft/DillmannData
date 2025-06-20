@@ -1,0 +1,130 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ነፍኀ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef>
+                <prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/>
+            </listPrefixDef>
+        </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="AE" when="2017-12-08">Referenzen + Verschachtelung,</change>
+            <change who="LB" when="2018-03-16">root</change>
+        <change who="MK" when="2022-02-09">added cross-reference </change>
+            <change who="MK" when="2022-02-09">removed </change>
+        </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L6231b0d8e84d4dd18807c26726c687de" n="5347">
+               <form>
+                  <foreign xml:lang="gez">ነፍኀ</foreign>
+               <rs type="root"/>
+                    </form>
+               <sense xml:id="Dmain" xml:lang="la" source="#dillmann"> vel <foreign xml:lang="gez">ነፍሐ፡</foreign> <subc>I,1</subc> [<foreign xml:lang="he">נָפַח</foreign> <foreign xml:lang="syr">ܢܦܰܚ</foreign> <foreign xml:lang="ar">نفخ</foreign> et <foreign xml:lang="ar">نفح</foreign>; amh. <foreign xml:lang="gez">ነፋ፡</foreign>] <gramGrp> <pos expand="Subjunctivus">Subj.</pos> </gramGrp> <foreign xml:lang="gez">ይንፋኅ፡</foreign> <cit type="translation" xml:lang="la">
+                            <quote> flare </quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                            <quote> spirare </quote>
+                        </cit>, de vento: <foreign xml:lang="gez">ይነፍኅ፡ ነፋስ፡ ጽባሓዊ፡</foreign> <ref cRef="Sir. " loc="43,16">Sir.  43,16</ref>; <ref cRef="Sir." loc="43,20">Sir. 43,20</ref>; <ref cRef="4 Esr." loc="4,4">4 Esr. 4,4</ref>; <ref cRef="Apoc." loc="7,1">Apoc. 7,1</ref> (c. <foreign xml:lang="gez">ውስተ፡</foreign>); <ref cRef="Matth." loc="7,25">Matth. 7,25</ref>; <ref cRef="Joh." loc="3,8">Joh. 3,8</ref>; <ref cRef="Hen." loc="34,2">Hen. 34,2</ref>; <ref cRef="Hen." loc="34,3">Hen. 34,3</ref>; de igne: <foreign xml:lang="gez">እሳት፡ ዘይነፍኅ፡ ወይልህብ፡</foreign> <ref cRef="Sap." loc="11,19">Sap. 11,19</ref>; <foreign xml:lang="gez">ላህበ፡ እሳት፡ ይነፍኅ፡ እምኔሁ፡</foreign> <ref cRef="Sir." loc="43,4">Sir. 43,4</ref>. <sense n="a" xml:id="Da"> <cit type="translation" xml:lang="la">
+                                <quote> spirando </quote>
+                            </cit> vel <cit type="translation" xml:lang="la">
+                                <quote> flandο emittere </quote>
+                            </cit>: <foreign xml:lang="gez">ይነፍኅ፡ መንፈሶ፡</foreign> <ref cRef="Ps." loc="147,7">Ps. 147,7</ref> <lbl expand="annotatio">ann.</lbl> (non est quod cum Ludolfo <foreign xml:lang="gez">ያነፍኅ፡</foreign> emendemus).</sense> <sense n="b" xml:id="Db"> <cit type="translation" xml:lang="la">
+                                <quote> flando excitare </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> sufflare </quote>
+                            </cit>: <foreign xml:lang="gez">እመ፡ ነፋኅካሃ፡ ለፍሕም፡ ትነድድ፡</foreign> <ref cRef="Sir." loc="28,12">Sir. 28,12</ref>; <foreign xml:lang="gez">እደዊሁ፡ እሳተ፡ ይነፍኃ፡</foreign> <ref cRef="Job" loc="20,10">Job 20,10</ref>.</sense> <sense n="c" xml:id="Dc"> <cit type="translation" xml:lang="la">
+                                <quote> flando dispergere </quote>
+                            </cit> vel <cit type="translation" xml:lang="la">
+                                <quote> disjicere </quote>
+                            </cit>: <foreign xml:lang="gez">ነፋኅክዎ፡</foreign> <ref cRef="Hagg." loc="1,9">Hagg. 1,9</ref>; <ref cRef="Mal." loc="1,13">Mal. 1,13</ref>.</sense> <sense n="d" xml:id="Dd"> <cit type="translation" xml:lang="la">
+                                <quote> flando movere </quote>
+                            </cit> vel <cit type="translation" xml:lang="la">
+                                <quote> agere </quote>
+                            </cit> <ref cRef="Hen." loc="72,5">Hen. 72,5</ref>.</sense> <sense n="e" xml:id="De"> <cit type="translation" xml:lang="la">
+                                <quote> afflare </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> insufflare </quote>
+                            </cit>, <lbl expand="cum">c.</lbl> <gramGrp> <case value="accusativus">Acc.</case> </gramGrp>: <ref cRef="3 Reg." loc="17,21">3 Reg. 17,21</ref>; <foreign xml:lang="gez">እምከመ፡ ነፍኆሙ፡ ነፋስ፡</foreign> <ref cRef="Jes." loc="40,24">Jes. 40,24</ref>; <ref cRef="Job" loc="4,21">Job 4,21</ref>; <foreign xml:lang="gez">ተሀውኩ፡ ከመ፡ ዕፀ፡ ገዳም፡ ሶበ፡ ይነፍኆ፡ ነፋስ፡</foreign> <ref cRef="Jes." loc="7,2">Jes. 7,2</ref>; <lbl expand="cum">c.</lbl> <foreign xml:lang="gez">ላዕለ፡</foreign> <ref cRef="4 Esr." loc="11,2">4 Esr. 11,2</ref>; <foreign xml:lang="gez">እነፍኅ፡ ላዕሌከ፡</foreign> <ref cRef="Hez." loc="21,31">Hez. 21,31</ref>; <ref cRef="Hez." loc="37,9">Hez. 37,9</ref>.</sense> <sense n="f" xml:id="Df"> <cit type="translation" xml:lang="la">
+                                <quote> inflare </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> afflare </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> inspirare </quote>
+                            </cit>: <lbl expand="cum">c.</lbl> <gramGrp> <case value="accusativus">Acc.</case> </gramGrp> et <foreign xml:lang="gez">ዲበ፡</foreign> vel <foreign xml:lang="gez">ላዕለ፡</foreign> <ref cRef="Gen." loc="2,7">Gen. 2,7</ref>; <ref cRef="Hen." loc="82,7">Hen. 82,7</ref>; <ref cRef="4 Esr." loc="1,5">4 Esr. 1,5</ref>; Christus <foreign xml:lang="gez">ነፍኀ፡ ላዕሌሆሙ፡ መንፈሰ፡ ቅዱሰ፡</foreign> <ref cRef="Clem. " loc="234">Clem.  f. 234</ref>; <foreign xml:lang="gez">ነፍኀ፡ ላዕሌነ፡ ወይቤ፡ ንሥኡ፡ ሀብተ፡ መንፈስ፡</foreign> <ref cRef="Clem." loc="45">Clem. f. 45</ref>; <ref cRef="Joh." loc="20,22">Joh. 20,22</ref>.</sense> <sense n="g" xml:id="Dg"> <cit type="translation" xml:lang="la">
+                                <quote> inhalare </quote>
+                            </cit>: <foreign xml:lang="gez">ለእመ፡ ኢረከቡ፡ ማየ፡</foreign> (sc. ad manus lavandas) <foreign xml:lang="gez">ይንፍኁ፡ እደዊሆሙ፡</foreign> <ref cRef="F.N." loc=" 14">F.N.  14</ref>.</sense> <sense n="h" xml:id="Dh"> <cit type="translation" xml:lang="la">
+                                <quote> perflare </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> perspirare </quote>
+                            </cit>: <foreign xml:lang="gez">ንፋሕ፡ ገነትየ፡</foreign> <foreign xml:lang="grc">διάπνευσον</foreign> <ref cRef="Cant." loc="4,16">Cant. 4,16</ref>.</sense> <sense n="i" xml:id="Di"> <cit type="translation" xml:lang="la">
+                                <quote> inflare </quote>
+                            </cit> vel <cit type="translation" xml:lang="la">
+                                <quote> sufflare </quote>
+                            </cit> i.e. <cit type="translation" xml:lang="la">
+                                <quote> tumefacere </quote>
+                            </cit>: <foreign xml:lang="gez">ዝንቱ፡ ማይ፡</foreign> (Num. 5) <foreign xml:lang="gez">ይነፍኅ፡ ኵሎ፡ ሥጋሃ፡</foreign> <ref cRef="F.N." loc=" 24,6">F.N.  24,6</ref>. </sense> <sense n="k" xml:id="Dk"> <cit type="translation" xml:lang="la">
+                                <quote> inflare </quote>
+                            </cit> buccinam, tuba <cit type="translation" xml:lang="la">
+                                <quote> canere </quote>
+                            </cit> vel <cit type="translation" xml:lang="la">
+                                <quote> clangere </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> buccinare </quote>
+                            </cit>, <lbl expand="cum">c.</lbl> <gramGrp> <case value="accusativus">Acc.</case> </gramGrp> instrumenti: <ref cRef="Jos." loc="6,9">Jos. 6,9</ref>; <ref cRef="Jud." loc="3,27">Jud. 3,27</ref>; <foreign xml:lang="gez">ንፍኁ ፡ ቀርነ፡</foreign> <ref cRef="Hos." loc="5,8">Hos. 5,8</ref>; <ref cRef="Joel" loc="2,1">Joel 2,1</ref>; <ref cRef="Jes." loc="44,23">Jes. 44,23</ref>; <ref cRef="Jer. " loc="4,5">Jer.  4,5</ref>; <ref cRef="Jer." loc="6,1">Jer. 6,1</ref>; <ref cRef="Ps." loc="80,3">Ps. 80,3</ref>; <lbl expand="cum">c.</lbl> <foreign xml:lang="gez">በ፡</foreign> instrumenti: <ref cRef="Jos." loc="6,4">Jos. 6,4</ref> <lbl expand="sequens">seq.</lbl>; <ref cRef="2 Par." loc="5,13">2 Par. 5,13</ref>; <ref cRef="Zach." loc="9,14">Zach. 9,14</ref>; <foreign xml:lang="gez">ይነፍኅ፡ በቀርን፡ ዐቢይ፡</foreign> <ref cRef="Jes." loc="27,13">Jes. 27,13</ref>; <ref cRef="Sir." loc="50,16">Sir. 50,16</ref>; <lbl expand="cum">c.</lbl> <gramGrp> <case value="accusativus">Acc.</case> </gramGrp>: <cit type="translation" xml:lang="la">
+                                <quote> signum canere </quote>
+                            </cit>, <foreign xml:lang="gez">ነፍኀ፡ በቀርን፡ ትእምርተ፡ ለሰራዊት፡</foreign> <ref cRef="Hez." loc="33,3">Hez. 33,3</ref>.</sense> </sense>
+               
+
+                </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

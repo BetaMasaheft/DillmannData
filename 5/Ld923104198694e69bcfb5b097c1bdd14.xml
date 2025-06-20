@@ -1,0 +1,78 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ወሰን </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="AE" when="2018-05-18">Abkürzung verinheitlicht,</change>
+        </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="Ld923104198694e69bcfb5b097c1bdd14" n="6584">
+               <form>
+                  <foreign xml:lang="gez">ወሰን</foreign>
+               </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain"> <gramGrp> <pos expand="Substantivum">subst.</pos> </gramGrp> (<gramGrp> <gen value="not found">m.</gen> </gramGrp>) <cit type="translation" xml:lang="la">
+                            <quote> terminus </quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                            <quote> limes </quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                            <quote> finis </quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                            <quote> fines </quote>
+                        </cit>, loci, terrae, ditionis: <ref cRef="Num." loc="34,6">Num. 34,6</ref>; <ref cRef="Num." loc="34,7">Num. 34,7</ref>; <ref cRef="Num." loc="34,8">Num. 34,8</ref>; <ref cRef="Num." loc="34,9">Num. 34,9</ref>; <ref cRef="Jos." loc="13,8">Jos. 13,8</ref>; <ref cRef="Jos. " loc="22,25">Jos.  22,25</ref>; <ref cRef="Ps." loc="103,10">Ps. 103,10</ref>; <foreign xml:lang="gez">አመ፡ ያነብር፡ ወሰነ፡</foreign> (v. <foreign xml:lang="gez">ዐቅመ፡</foreign>) <foreign xml:lang="gez">ለባሕር፡</foreign> <ref cRef="Prov." loc="8,29">Prov. 8,29</ref>; <ref cRef="Prov." loc="15,25">Prov. 15,25</ref>; <foreign xml:lang="gez">ገበርኩ፡ ላቲ፡</foreign> (<foreign xml:lang="gez">ለባሕር፡</foreign>) <foreign xml:lang="gez">ወሰነ፡</foreign> <ref cRef="Job" loc="38,10">Job 38,10</ref>; <ref cRef="Jer." loc="5,22">Jer. 5,22</ref>; <foreign xml:lang="gez">እስከ፡ ወሰንከ፡ ሰደዱከ፡</foreign> <ref cRef="Ob." loc="7">Ob. 7</ref>; <foreign xml:lang="gez">ወሰን፡ ሰሜናዊ፡</foreign> <ref cRef="Hez." loc="48,1">Hez. 48,1</ref> <lbl expand="sequens">seq.</lbl>; <foreign xml:lang="gez">ዘይትዐዶ፡ ወሰነ፡</foreign> <foreign xml:lang="grc">μετατιθέντες ὅρια</foreign> <ref cRef="Hos." loc="5,10">Hos. 5,10</ref>; <foreign xml:lang="gez">ተዐደዉ፡ ኃጥኣን፡ እምወሰኖሙ፡</foreign> <ref cRef="Job" loc="24,2">Job 24,2</ref>; temporis: <foreign xml:lang="gez">አልቦ፡ ለዝ፡ ሕግ፡ ወሰነ፡ መዋዕል፡</foreign> <ref cRef="Kuf." loc="13">Kuf. 13</ref>; <ref cRef="Kuf." loc="16">Kuf. 16</ref>; <ref cRef="Kuf." loc="49">Kuf. 49</ref>; <foreign xml:lang="gez">ጊዜ፡ ወሰነ፡ ምስያታት፡</foreign> <ref cRef="Kuf." loc="49">Kuf. 49</ref>; <ref cRef="Chrys. ho." loc="19 ">Chrys. ho. 19 </ref>(<lbl expand="videas">vid.</lbl> <foreign xml:lang="gez">ውሳኔ፡</foreign>). </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

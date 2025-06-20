@@ -1,0 +1,79 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ጽንጕን </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="LB" when="2018-05-15">root</change>
+        </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L3f68881fc282428cbc1f28db415c262d" n="9406">
+               <form>
+                  <foreign xml:lang="gez">ጽንጕን</foreign>
+               <rs type="root"/>
+                    </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain"> et <foreign xml:lang="gez">ጽንጉን፡</foreign> <gramGrp> <pos expand="Substantivum">subst.</pos> </gramGrp> <cit type="translation" xml:lang="la">
+                            <quote> coenum, lutum </quote>
+                        </cit> [dubito an cum <foreign xml:lang="gez">ጸንቈቈ፡</foreign> componendum sit], <foreign xml:lang="grc">πηλός</foreign> <foreign xml:lang="gez">ከመ፡ ጽንጉን፡ ዘይከይዱ፡</foreign> <ref cRef="Mich." loc="7,10">Mich. 7,10</ref>; <foreign xml:lang="gez">ጽንጉነ፡ ፍኖት፡</foreign> <ref cRef="Zach." loc="9,3">Zach. 9,3</ref>; <ref cRef="Zach. " loc="10,5">Zach.  10,5</ref>; <foreign xml:lang="gez">ጽንጕነ፡ መርሕብ፡</foreign> <ref cRef="Ps." loc="17,46">Ps. 17,46</ref>; <ref cRef="2 Reg." loc="22,43">2 Reg. 22,43</ref>; <ref cRef="Jes." loc="63,3">Jes. 63,3</ref> gloss.; <foreign xml:lang="gez">እሬስያ፡ ከመ፡ ጽቡረ፡ ጽንጕን፡</foreign> (v. <foreign xml:lang="gez">ዐምዐም፡</foreign>) <foreign xml:lang="gez">ለሙስና፡</foreign> <ref cRef="Jes." loc="14,23">Jes. 14,23</ref>. – <lbl expand="">Sec.</lbl> Lud. (et Voc. Ae.): „<cit type="translation" xml:lang="la">
+                            <quote> quisquiliae </quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                            <quote> sordes </quote>
+                        </cit> in cumulum congestae“. – <lbl expand="Vocabularium Aethiopicum, -a -a">Voc. Ae.</lbl>: <foreign xml:lang="gez">ጽንጉን፡ ዘ፡ ጕድፍ፡</foreign>, dubium an huc pertineat <cit type="translation" xml:lang="la">
+                            <quote> aliud </quote>
+                        </cit>: <foreign xml:lang="gez">ጽጉን፡ ዘ፡ ሙቅ፡</foreign> </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

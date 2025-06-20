@@ -1,0 +1,74 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ሣልሳዊ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="MK" when="2024-04-08">added gr and les</change><change who="MK" when="2024-04-08">added variant</change><change who="MK" when="2024-04-08">added lb</change><change who="MK" when="2024-04-08">added variants</change><change who="MK" when="2024-04-08">added cross ref</change><change who="MK" when="2024-04-08">added c</change><change who="MK" when="2024-04-15">corrected page</change></revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="La69bacd6db6b49509a264bb198427b28" n="1694">
+               <form>
+                  <foreign xml:lang="gez">ሣልሳዊ</foreign>
+               </form>
+               <sense xml:id="Dmain" xml:lang="la" source="#dillmann"> vel <foreign xml:lang="gez">ሣልሳይ፡</foreign> <gramGrp> <pos expand="adjectivum">adj.</pos> <pos expand="numerale">num.</pos> </gramGrp>, <gramGrp> <gen value="femininus">fem.</gen> </gramGrp> <foreign xml:lang="gez">ሣልሳዊት፡</foreign> et <foreign xml:lang="gez">ሣልሲት፡</foreign> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> tertius </t:quote></cit> <ref cRef="Phlx." loc="88">Phlx. 88</ref>; <ref cRef="Jsp." loc="289">Jsp. p. 289</ref>; <ref cRef="Jsp." loc="360">Jsp. p. 360</ref>; <foreign xml:lang="gez">በእንተ፡ ተዋስቦ፡ ሣልሲት፡</foreign> F.M. 5,6; <ref cRef="Hen." loc="82,6">Hen. 82,6</ref>. In specie <foreign xml:lang="gez">ሣልሲት፡</foreign> est <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> tertia pars </t:quote></cit>, ut: <foreign xml:lang="gez">ሣልሲተ፡ ኢን፡</foreign> <ref cRef="Hez." loc="46,14">Hez. 46,14</ref>. – Ubi de diei divisione in horas et minores partes agitur, <foreign xml:lang="gez">ሣልሲት፡</foreign> est 1/(60*60*60) pars diei (<lbl expand="videas">vid.</lbl> <foreign xml:lang="gez">ኪክሮስ፡</foreign>) <ref cRef="Abush." loc="11 ">Abush. 11 </ref> <lbl expand="sequens">seq.</lbl> </sense>
+               
+            <sense xml:id="Tmain" xml:lang="en" source="#traces"> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">śālsāwi</t:quote></cit>, <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">śālǝsāwi</t:quote></cit>, <foreign xml:lang="gez">ሣልሳይ፡</foreign> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">śālsāy</t:quote></cit>, <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">śālǝsāy</t:quote></cit>, <gramGrp> <gen value="femininus">fem.</gen> </gramGrp> <foreign xml:lang="gez">ሣልሳዊት፡</foreign> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">śālsāwit</t:quote></cit>, <foreign xml:lang="gez">ሣልሲት፡</foreign> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">śālsit</t:quote></cit>; <lbl expand="pluralis">Pl.</lbl> <foreign xml:lang="gez">ሣልሳውያን፡</foreign> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">śālsāwǝyān</t:quote></cit>, <foreign xml:lang="gez">ሣልሳይያን፡</foreign> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">śālsāyǝyān</t:quote></cit>, <gramGrp> <gen value="femininus">fem.</gen> </gramGrp> <foreign xml:lang="gez">ሣልሳውያት፡</foreign> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">śālsāwǝyāt</t:quote></cit>, <foreign xml:lang="gez">ሣልስያት፡</foreign> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">śālsǝyāt</t:quote></cit> <sense n="G" xml:id="TG"> <foreign xml:lang="gez">ሣልሳዊ፡</foreign> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">śālsāwi</t:quote></cit>, <lbl expand="pluralis">Pl.</lbl> <foreign xml:lang="gez">ሣልሳውያን፡</foreign> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">śālsāwǝyān</t:quote></cit> et <foreign xml:lang="gez">ሣልሳይ፡</foreign> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">śālsāy</t:quote></cit>, <lbl expand="pluralis">Pl.</lbl> <foreign xml:lang="gez">ሣልሳይያን፡</foreign> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">śālsāyǝyān</t:quote></cit> <gramGrp> <gen value="not found">m.</gen> </gramGrp> «<cit type="translation" xml:lang="fr"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">troisième</t:quote></cit> » Ms. <ref type="BM" target="BNFabb217">BNFabb217</ref>, fol. 49r. <lb/>
+ <foreign xml:lang="gez">ሣልሳዊት፡</foreign> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">śālsāwit</t:quote></cit>, <lbl expand="pluralis">Pl.</lbl> <foreign xml:lang="gez">ሣልሳውያት፡</foreign> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">śālsāwǝyāt</t:quote></cit> et <foreign xml:lang="gez">ሣልሲት፡</foreign> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">śālsit</t:quote></cit>, <lbl expand="pluralis">Pl.</lbl> <foreign xml:lang="gez">ሣልስያት፡</foreign> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">śālsǝyāt</t:quote></cit> <gramGrp> <gen value="femininus">fem.</gen> </gramGrp> «<cit type="translation" xml:lang="fr"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">troisième</t:quote></cit>» Ms. <ref type="BM" target="BNFabb217">BNFabb217</ref>, fol. 49v. <lb/>
+ <bibl><ptr target="bm:Grebaut1952SuppLexicon"/><citedRange unit="page"> 122</citedRange></bibl> 
+</sense> <sense n="L" xml:id="TL"> <foreign xml:lang="gez">ሣልሳዊ</foreign> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">śālǝsāwi</t:quote></cit>, <foreign xml:lang="gez">ሣልሳይ፡</foreign> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">śālǝsāy</t:quote></cit> <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">third</t:quote></cit> <gramGrp> <gen value="not found">m.</gen> </gramGrp> <bibl><ptr target="bm:Leslau1987dic"/><citedRange unit="page"> 529b</citedRange></bibl> 
+</sense> <sense n="C" xml:id="TC"> <lbl expand="videas">vid.</lbl> also <foreign xml:lang="gez">ሣልሲት፡</foreign> 
+</sense> </sense></entry>
+         </div>
+      </body>
+   </text>
+</TEI>

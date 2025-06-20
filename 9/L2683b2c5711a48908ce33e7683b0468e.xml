@@ -1,0 +1,98 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> መትሕት </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="AE" when="2017-12-01">Referenzen</change>
+            <change who="AE" when="2017-12-01">subtu s -&gt; subtus</change>
+        </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L2683b2c5711a48908ce33e7683b0468e" n="4245">
+               <form>
+                  <foreign xml:lang="gez">መትሕት</foreign>
+               </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain"> <gramGrp> <pos expand="not found">subst.</pos> </gramGrp>, (<foreign xml:lang="gez">መትሐት፡</foreign> <ref cRef="Eph." loc="6,12">Eph. 6,12</ref> Polygl.) <sense n="A" xml:id="DA"> <cit type="translation" xml:lang="la">
+                                <quote> pars </quote>
+                            </cit> vel <cit type="translation" xml:lang="la">
+                                <quote> locus inferior </quote>
+                            </cit> vel <cit type="translation" xml:lang="la">
+                                <quote> infimus </quote>
+                            </cit>: <foreign xml:lang="gez">ውስተ፡ መትሕተ፡ እሳት፡</foreign> <ref cRef="Hen." loc="10,13">Hen. 10,13</ref>; adjectivi instar substantivo apponi potest: (Simeon) <foreign xml:lang="gez">ነበረ፡ ውስተ፡ መካን፡ ልዑል፡ እምሀገር፡ ወዮሐናኒ፡ ወእሊአሁ፡ ውስተ፡ መካን፡ መትሕት፡</foreign> <ref cRef="Jsp." loc="335">Jsp. p. 335</ref>; <foreign xml:lang="gez">ባሕር፡ መትሕት፡</foreign> Enc. In specie: pars ima terrae, <cit type="translation" xml:lang="la">
+                                <quote> inferna </quote>
+                            </cit>: <foreign xml:lang="gez">በመትሕተ፡ ምድር፡</foreign> <ref cRef="Ps." loc="138,14">Ps. 138,14</ref>; <ref cRef="Eph." loc="4,9">Eph. 4,9</ref>; <foreign xml:lang="gez">ዘመትሕት፡</foreign> <cit type="translation" xml:lang="la">
+                                <quote> infernus </quote>
+                            </cit> <ref cRef="Lit. Chrys." loc="">Lit. Chrys. </ref>; <foreign xml:lang="gez">መትሕት፡ ታሕቲት፡</foreign> ima <cit type="translation" xml:lang="la">
+                                <quote> inferorum </quote>
+                            </cit>, <ref cRef="Lib. Myst." loc="">Lib. Myst. </ref>
+                        </sense> <sense n="B" xml:id="DB"> Adv.: <cit type="translation" xml:lang="la">
+                                <quote> infra </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> subter </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> subtus </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> deorsum </quote>
+                            </cit> <ref cRef="Koh. " loc="10,6">Koh.  10,6</ref>; <ref cRef="Deut." loc="28,13">Deut. 28,13</ref>.</sense> <sense n="C" xml:id="DC"> <gramGrp> <pos expand="not found">Praep.</pos> </gramGrp>: <cit type="translation" xml:lang="la">
+                                <quote> sub </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> infra </quote>
+                            </cit>; pronomina suffixa sive per vocalem <cit type="translation" xml:lang="la">
+                                <quote> ê </quote>
+                            </cit> sive sine ea interposita assumit; <sense n="a" xml:id="DCa"> <foreign xml:lang="gez">መትሕተ፡</foreign> <ref cRef="Eph." loc="6,12">Eph. 6,12</ref>; <ref cRef="Gen." loc="1,9">Gen. 1,9</ref>; <ref cRef="Gen." loc="1,20">Gen. 1,20</ref>; <ref cRef="Gen. " loc="6,17">Gen.  6,17</ref>; <ref cRef="Dan." loc="7,27">Dan. 7,27</ref>; <ref cRef="Koh." loc="1,14">Koh. 1,14</ref>; <ref cRef="Koh." loc="9,6">Koh. 9,6</ref>; <ref cRef="Job" loc="5,10">Job 5,10</ref>; <ref cRef="Judith" loc="6,11">Judith 6,11</ref>; <ref cRef="Hez." loc="1,23">Hez. 1,23</ref>; <foreign xml:lang="gez">መትሕቴየ፡</foreign> <ref cRef="2 Reg." loc="22,48">2 Reg. 22,48</ref>;</sense> <sense n="b" xml:id="DCb"> <foreign xml:lang="gez">በመትሕተ፡</foreign> <ref cRef="Hen." loc="10,12">Hen. 10,12</ref>; <ref cRef="Hen." loc="10,20">Hen. 10,20</ref>; <ref cRef="2 Reg." loc="22,48">2 Reg. 22,48</ref> <lbl expand="varia lectio">var.</lbl>; <ref cRef="Ps." loc="17,40">Ps. 17,40</ref>; <ref cRef="Ps." loc="143,3">Ps. 143,3</ref>; <foreign xml:lang="gez">በመትሕቴየ፡</foreign> <ref cRef="Hab. " loc="3,16">Hab.  3,16</ref>.</sense> <sense n="c" xml:id="DCc"> <foreign xml:lang="gez">እስከ፡ መትሕተ፡</foreign> <ref cRef="1 Reg." loc="7,11">1 Reg. 7,11</ref>;</sense> <sense n="d" xml:id="DCd"> <foreign xml:lang="gez">እመትሕተ፡</foreign> <ref cRef="Hen." loc="14,9">Hen. 14,9</ref>.</sense> </sense> </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

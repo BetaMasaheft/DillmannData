@@ -1,0 +1,117 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ነባቢ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="AE" when="2018-01-11">Sprachkennung, Referenzen, Verschachtelung,</change>
+        <change who="PL" when="2018-04-24">removed extra angle bracket</change>
+        </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L5e6dc966a06440f98f28d6207e106842" n="4944">
+               <form>
+                  <foreign xml:lang="gez">ነባቢ</foreign>
+               </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain"> <gramGrp> <pos expand="nomen agentis">n. ag.</pos> </gramGrp>, <gramGrp> <gen value="femininus">fem.</gen> </gramGrp> <foreign xml:lang="gez">ነባቢት፡</foreign>, <lbl expand="pluralis">Pl.</lbl> <gramGrp> <gen value="not found">m.</gen> </gramGrp> <foreign xml:lang="gez">ነባብያን፡</foreign> <sense n="1" xml:id="D1"> <cit type="translation" xml:lang="la">
+                                <quote> loquens </quote>
+                            </cit>, ut: <foreign xml:lang="gez">ነባብያነ፡ ሐሰት፡</foreign> <ref cRef="1 Tim." loc="4,2">1 Tim. 4,2</ref> Platt; <foreign xml:lang="gez">ልሳን፡</foreign> est <foreign xml:lang="gez">ነባቢት፡ ዘታወጽእ፡ ቃለ፡</foreign> (<cit type="translation" xml:lang="de">
+                                <quote> die Sprecherin </quote>
+                            </cit>) <ref cRef="Fal." loc="9.">Fal. f. 9.</ref> {<ref target="#c1431"/> <cit type="translation" xml:lang="la">
+                                <quote> poeta </quote>
+                            </cit>, ut: <foreign xml:lang="gez">ነባቤ፡ ዝንቱ፡ ድርሰት፡ ፵ወ፪፡</foreign> <ref cRef="Catal. Mus. Brit. " loc="54">Catal. Mus. Brit.  p. 54</ref> <hi rend="sup">b</hi>} <sense n="a" xml:id="D1a"> <cit type="translation" xml:lang="la">
+                                    <quote> orator </quote>
+                                </cit>, <cit type="translation" xml:lang="la">
+                                    <quote> praedicator </quote>
+                                </cit> (ubi de scriptis agitur: <cit type="translation" xml:lang="la">
+                                    <quote> auctor </quote>
+                                </cit>): <ref cRef="Sx. Genb." loc="17 Enc.">Sx. Genb. 17 Enc.</ref> (Lud.); <foreign xml:lang="gez">ሰላም፡ ለአሞጽ፡ ነባቤ፡ ቃሉ፡ ለኤሎሄ፡</foreign> (qui verbum Dei praedicavit) <ref cRef="Sx. Pag." loc="5 Enc.">Sx. Pag. 5 Enc.</ref>; <foreign xml:lang="gez">ነባቤ፡ ድርሳን፡</foreign> (<cit type="translation" xml:lang="la">
+                                    <quote> praedicator </quote>
+                                </cit> vel <cit type="translation" xml:lang="la">
+                                    <quote> auctor homiliarum </quote>
+                                </cit>) <ref cRef="Sx. Jac." loc="29 Enc.">Sx. Jac. 29 Enc.</ref>; crebro <foreign xml:lang="gez">ነባቤ፡ መለኮት፡</foreign> <cit type="translation" xml:lang="la">
+                                    <quote> theologus </quote>
+                                </cit>, epitheton Joannis Apostoli, <ref cRef="Sx. Masc." loc="29">Sx. Masc. 29</ref>; Marci, <ref cRef="Lit." loc="160,4">Lit. 160,4</ref>; Gregorii Nazianzeni, <ref cRef="Haim. Ab." loc="">Haim. Ab. </ref> </sense> <sense n="b" xml:id="D1b"> <cit type="translation" xml:lang="la">
+                                    <quote> locutor </quote>
+                                </cit>, ) <cit type="translation" xml:lang="la">
+                                    <quote> loquax </quote>
+                                </cit>, <cit type="translation" xml:lang="la">
+                                    <quote> garrulus </quote>
+                                </cit>, <cit type="translation" xml:lang="la">
+                                    <quote> multiloquus </quote>
+                                </cit>, <foreign xml:lang="grc">πολύλαλος</foreign> <ref cRef="Herm." loc="43.">Herm. p. 43.</ref> ) <cit type="translation" xml:lang="la">
+                                    <quote> linguatus </quote>
+                                </cit> idemque vel <cit type="translation" xml:lang="la">
+                                    <quote> rixosus </quote>
+                                </cit> vel <cit type="translation" xml:lang="la">
+                                    <quote> obtrectator </quote>
+                                </cit>, <foreign xml:lang="grc">γλωσσώδης</foreign> <ref cRef="Prov." loc="21,19">Prov. 21,19</ref>; <ref cRef="Ps." loc="139,12">Ps. 139,12</ref>; <ref cRef="Sir." loc="8,3">Sir. 8,3</ref>; <ref cRef="Sir." loc="9,18">Sir. 9,18</ref>; <foreign xml:lang="gez">ብእሲት፡ ነባቢት፡</foreign> <ref cRef="Sir." loc="25,20">Sir. 25,20</ref>; <foreign xml:lang="gez">ልሳን፡ ነባቢት፡</foreign> <foreign xml:lang="grc">γλῶσσα τρίτη</foreign> <ref cRef="Sir." loc="28,15">Sir. 28,15</ref>; <ref cRef="Kid. " loc="17">Kid.  f. 17</ref>; <ref cRef="Kid." loc="20.">Kid. f. 20.</ref> ) <cit type="translation" xml:lang="la">
+                                    <quote> gloriosus </quote>
+                                </cit>, <cit type="translation" xml:lang="la">
+                                    <quote> jactabundus </quote>
+                                </cit>, <cit type="translation" xml:lang="la">
+                                    <quote> magniloquus </quote>
+                                </cit>, <cit type="translation" xml:lang="la">
+                                    <quote> vaniloquus </quote>
+                                </cit>: <foreign xml:lang="gez">ብእሲ፡ ነባቢ፡ ወመስተሐቅር፡</foreign> <foreign xml:lang="grc">κατοιόμενος καὶ καταφρονητής</foreign> <ref cRef="Hab." loc="2,5">Hab. 2,5</ref>; <foreign xml:lang="grc">ἀλαζών</foreign> <ref cRef="Prov." loc="21,24">Prov. 21,24</ref>; <ref cRef="2 Tim. " loc="3,2">2 Tim.  3,2</ref>.</sense> </sense> <sense n="2" xml:id="D2"> loquendi facultate et ratione praeditus i.e. <cit type="translation" xml:lang="la">
+                                <quote> intelligens </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> rationalis </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> rationabilis </quote>
+                            </cit>: <foreign xml:lang="gez">ነባብያን፡</foreign> <foreign xml:lang="grc">φρόνισμα</foreign> <ref cRef="2 Cor." loc="11,19">2 Cor. 11,19</ref>; <foreign xml:lang="gez">ቅኔ፡ ነባቢ፡</foreign> <foreign xml:lang="grc">λατρεία λογική</foreign> <ref cRef="Rom." loc="12,1">Rom. 12,1</ref> Platt; <ref cRef="1 Petr." loc="2,2">1 Petr. 2,2</ref> Platt; <ref cRef="F.M." loc=" 29,3">F.M.  29,3</ref>; <ref cRef="Lit." loc="161,2">Lit. 161,2</ref>; <ref cRef="Lit." loc="161,4">Lit. 161,4</ref>; Christi <foreign xml:lang="gez">ሥጋ፡ ማሕየዊ፡</foreign> et <foreign xml:lang="gez">ደም፡ ነባቢ፡</foreign> <ref cRef="Lit. Epiph." loc="">Lit. Epiph. </ref>; <foreign xml:lang="gez">ነፍስ፡ ነባቢት፡</foreign> <ref cRef="Lit." loc="">Lit. </ref>; <foreign xml:lang="gez">ገነት፡ ነባቢት፡</foreign> hortus <foreign xml:lang="grc">λογικός</foreign>, <ref cRef="Org." loc="">Org. </ref> </sense> </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

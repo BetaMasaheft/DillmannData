@@ -1,0 +1,90 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ከርከዴን </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="LB" when="2018-03-19">root</change>
+            <change who="AE" when="2018-03-28">kleinere Korrekturen,</change>
+            <change who="AE" when="2018-03-28">Bibl</change>
+        </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L9807ecb83ef14dfd92b9496ab97544ae" n="6118">
+               <form>
+                  <foreign xml:lang="gez">ከርከዴን</foreign>
+               <rs type="root"/>
+                    </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain"> <gramGrp> <pos expand="not found">n. peregr.</pos> </gramGrp> <sense n="1" xml:id="D1"> <foreign xml:lang="grc">καρχηδόνιος</foreign>, <cit type="translation" xml:lang="la">
+                                <quote> charchedonius </quote>
+                            </cit> gemma, <cit type="translation" xml:lang="la">
+                                <quote> rubini </quote>
+                            </cit> vel <cit type="translation" xml:lang="la">
+                                <quote> carbunculi </quote>
+                            </cit> species, <ref cRef="Jes." loc="54,12">Jes. 54,12</ref> (<foreign xml:lang="he">כַּדְכֹּד</foreign>, LXX <foreign xml:lang="grc">ἰάσπις</foreign>, Symm.: <foreign xml:lang="grc">καρχηδόνιος</foreign>); <ref cRef="Ex." loc="36,19">Ex. 36,19</ref> <foreign xml:lang="grc">ἀμέθυστος</foreign> (<foreign xml:lang="he">אַחְלָמָה</foreign>; in C <foreign xml:lang="gez">አሜቴስጢኖስ፡</foreign>); <ref cRef="Deg." loc="">Deg. </ref> – <lbl expand="videas">Vid.</lbl> <foreign xml:lang="gez">ከረከንድ፡</foreign> </sense> <sense n="2" xml:id="D2"> At in <ref cRef="Sx. Ter" loc="6">Sx. Ter 6</ref>: <foreign xml:lang="gez">ገብረ፡ ኖኅ፡ መጥቅዐ፡ እምዕፀ፡ ከርከዴን፡ በዘ፡ ቦቱ፡ ይጠቅዕ፡</foreign> tamquam nomen <cit type="translation" xml:lang="la">
+                                <quote> ligni </quote>
+                            </cit> cujusdam <cit type="translation" xml:lang="la">
+                                <quote> pretiosi </quote>
+                            </cit>, sine dubio <cit type="translation" xml:lang="la">
+                                <quote> rubri </quote>
+                            </cit>, fortasse <cit type="translation" xml:lang="la">
+                                <quote> ligni Santalini </quote>
+                            </cit> usurpatur. (<lbl expand="videas">Vid.</lbl> etiam quae de <foreign xml:lang="he">אַלְמֻגִּים</foreign> disputaverunt <bibl>
+                                <ptr target="bm:Buxtorf1639Lexicon"/>
+                                <citedRange unit="col."> 102</citedRange>
+                            </bibl>, et Ges. in thes. p. 93). <cb n="0840" xml:id="c0840"/> </sense> </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

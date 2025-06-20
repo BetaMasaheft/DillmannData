@@ -1,0 +1,93 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> አንብዐ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="Lec1b9c8aebcd4e1ab6c2f9820081dc48" n="4949">
+               <form>
+                  <foreign xml:lang="gez">አንብዐ</foreign>
+               </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain"> <subc>II,1</subc> <sense n="1" xml:id="D1">
+                     <cit type="translation" xml:lang="la">
+                        <quote>lacrymari</quote>
+                     </cit>, <cit type="translation" xml:lang="la">
+                        <quote>illacrymari</quote>
+                     </cit>: <foreign xml:lang="gez">ኣነብዕ፡ እመ፡ ርኢኩ፡ ሰብአ፡ ሕሙመ፡</foreign>
+                     <ref cRef="Job" loc="30,25">Job 30,25</ref>; <foreign xml:lang="gez">ታነብዕ፡
+                        ዐይን፡</foreign>
+                     <ref cRef="Sir. " loc="34,13">Sir. 34,13</ref>; <foreign xml:lang="gez">ያንብዓ፡
+                        አዕይንቲክሙ፡</foreign>
+                     <ref cRef="Jer." loc="9,18">Jer. 9,18</ref>; <foreign xml:lang="gez">አንብዐ፡
+                        ታነብዕ፡ ዐይንየ፡</foreign>
+                     <ref cRef="Jer." loc="13,17">Jer. 13,17</ref>
+                     <lbl expand="varia lectio">var.</lbl>; <ref cRef="Jsp." loc="334">Jsp. p.
+                        334</ref>; <foreign xml:lang="gez">ኢታንብዕ፡</foreign>
+                     <ref cRef="Hez." loc="24,16">Hez. 24,16</ref>; <ref cRef="Joh." loc="11,35">Joh. 11,35</ref>; <foreign xml:lang="gez">አንብዐ፡ በመንፈሱ፡</foreign> (<foreign xml:lang="grc">ἐνεβριμήσατο</foreign>) <ref cRef="Joh." loc="11,33">Joh.
+                        11,33</ref>; <ref cRef="Joh." loc="11,38">Joh. 11,38</ref>
+                     <lbl expand="romanae editionis">rom.</lbl>
+                  </sense>
+                  <sense n="2" xml:id="D2">
+                     <cit type="translation" xml:lang="la">
+                        <quote>lacrymari facere</quote>
+                     </cit>: <foreign xml:lang="gez">ዐይኖ፡ ያነብዕ፡ ለከ፡ ጸላኢከ፡</foreign>
+                     <ref cRef="Sir. " loc="12,16">Sir. 12,16</ref>.</sense>
+               </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

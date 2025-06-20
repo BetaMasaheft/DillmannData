@@ -1,0 +1,123 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ጽርእ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="MK" when="2018-11-13">added comment, to be peer-reviewed</change>
+            <change who="MK" when="2018-11-13">corr</change>
+            <change who="MK" when="2018-11-13">added vid</change>
+            <change who="MK" when="2018-11-13">added a dot</change>
+            <change who="MK" when="2018-11-13">corr</change>
+        </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L2006ef2da96c481fa5d949fcd392183d" n="11246">
+               <form>
+                  <foreign xml:lang="gez">ጽርእ</foreign>
+               </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain"> Graecia; <foreign xml:lang="gez">ሰብአ፡ ጽርእ፡</foreign> <ref cRef="Graeci Joh. " loc="12,20">Graeci Joh.  12,20</ref>; <ref cRef="Clem." loc="1">Clem. f. 1</ref>; <ref cRef="Clem." loc="34">Clem. f. 34</ref>; <foreign xml:lang="gez">ነገረ፡ ጽርእ፡</foreign> lingua Graeca, <ref cRef="Clem." loc="2">Clem. f. 2</ref>; <ref cRef="Clem." loc="29">Clem. f. 29</ref>; <foreign xml:lang="gez">በጽርእ፡</foreign> <ref cRef="Graece Luc. " loc="23,38">Graece Luc.  23,38</ref>; <ref cRef="Joh." loc="19,20">Joh. 19,20</ref>; <ref cRef="Apoc." loc="9,11">Apoc. 9,11</ref>; <ref cRef="Cyr." loc="102.">Cyr. f. 102.</ref> </sense>
+               
+            <sense xml:lang="en" source="#traces" xml:id="Tmain">
+                        <cit type="transcription" xml:lang="gez">
+                            <quote>ṣǝrʾ</quote>
+                        </cit>, <foreign xml:lang="gez">ጽርዕ፡</foreign> <cit type="transcription" xml:lang="gez">
+                            <quote>ṣǝrʿ</quote>
+                        </cit> <cit type="translation" xml:lang="en">
+                            <quote>Greece</quote>
+                        </cit>, ‘<cit type="translation" xml:lang="it">
+                            <quote>Grecia</quote>
+                        </cit>’ <foreign xml:lang="gez">ወካዕበ፡ አምጽኡ፡ ፩፡ መፃጕዐ፡ እምድረ፡ ጽርዕ፡</foreign> ‘<cit type="translation" xml:lang="it">
+                            <quote>Ancora, portarono un paralitico della terra di Ṣerʿ</quote>
+                        </cit>’ <bibl>
+                            <ptr target="bm:Bausi2003Libanos"/>
+                            <citedRange unit="page"> 157 § 400 (ed.)</citedRange>
+                        </bibl>, <bibl>
+                            <ptr target="bm:Bausi2003LibanosTr"/>
+                            <citedRange unit="page"> 90 § 400 (tr.)</citedRange>
+                        </bibl> (‘«Ṣerʿ»: è il nome etiopico della Grecia, vd. <bibl>
+                            <ptr target="bm:Dillmann1865Lexicon"/>
+                            <citedRange unit="page"> 1275</citedRange>
+                        </bibl> (s.v. <cit type="transcription" xml:lang="gez">
+                            <quote>ṣerāʾ</quote>
+                        </cit> {<lbl expand="videas">vid.</lbl> <foreign xml:lang="gez">ጽራእ፡</foreign>}) e <bibl>
+                            <ptr target="bm:Dillmann1865Lexicon"/>
+                            <citedRange unit="page"> 1424</citedRange>
+                        </bibl> (s.v. <cit type="transcription" xml:lang="gez">
+                            <quote>ṣerʾ</quote>
+                        </cit>); <bibl>
+                            <ptr target="bm:Praetorius1919Griechenland"/>
+                        </bibl>; <bibl>
+                            <ptr target="bm:Leslau1987dic"/>
+                            <citedRange unit="page"> 563</citedRange>
+                        </bibl> (s.v. <cit type="transcription" xml:lang="gez">
+                            <quote>ṣerʿ</quote>
+                        </cit>); discussione dettagliata, con la riconferma della forma <cit type="transcription" xml:lang="gez">
+                            <quote>ṣerʾ</quote>
+                        </cit>, in <bibl>
+                            <ptr target="bm:Ricci1998IscrizioniEritreaKQ"/>
+                            <citedRange unit="page"> 75-78</citedRange>
+                        </bibl>; <bibl>
+                            <ptr target="bm:Ricci1999IscrizioniEritreaZT"/>
+                            <citedRange unit="page"> 150-151</citedRange>
+                        </bibl>; nessuna discussione dell’ipotesi di Praetorius in <bibl>
+                            <ptr target="bm:Kropp1983Grecs"/>
+                            <citedRange unit="page"> 125-126</citedRange>
+                        </bibl>.’ <bibl>
+                            <ptr target="bm:Bausi2003LibanosTr"/>
+                            <citedRange unit="page"> 90 n. 65</citedRange>
+                        </bibl>) </sense>
+                </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

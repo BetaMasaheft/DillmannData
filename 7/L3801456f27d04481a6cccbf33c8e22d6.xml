@@ -1,0 +1,119 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ብሑእ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L3801456f27d04481a6cccbf33c8e22d6" n="3853">
+               <form>
+                  <foreign xml:lang="gez">ብሑእ</foreign>
+               </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain">
+                  <gramGrp>
+                     <pos expand="participium">part.</pos>
+                  </gramGrp>
+                  <sense n="1" xml:id="D1">
+                     <cit type="translation" xml:lang="la">
+                        <quote>fermentatus</quote>
+                     </cit>, <cit type="translation" xml:lang="la">
+                        <quote>in acorem versus</quote>
+                     </cit>, <cit type="translation" xml:lang="la">
+                        <quote>acidus</quote>
+                     </cit>, de massa et pane: <foreign xml:lang="gez">ምስለ፡ ኅብስት፡ ዘብሑእ፡</foreign>
+                     <ref cRef="Lev." loc="7,13">Lev. 7,13</ref>; <foreign xml:lang="gez">ኢትግበርዎ፡
+                        ብሑአ፡</foreign>
+                     <foreign xml:lang="grc">ζυμωτός </foreign>
+                     <ref cRef="Lev." loc="2,11">Lev. 2,11</ref>; de vino <ref cRef="Num." loc="6,3">Num. 6,3</ref>
+                     <lbl expand="varia lectio">var.</lbl>; de sanguine: <foreign xml:lang="gez">ኢትዝባሕ፡ ብሑአ፡ ደም፡</foreign>
+                     <ref cRef="Ex." loc="34,25">Ex. 34,25</ref>
+                     <lbl expand="cum">c.</lbl>
+                     <lbl expand="annotatio">ann.</lbl>; <foreign xml:lang="gez">በብሑእ፡ ደም፡ </foreign>
+                     <ref cRef="Ex." loc="23,18">Ex. 23,18</ref> in <lbl expand="cum">c.</lbl>
+                  </sense>
+                  <sense n="2" xml:id="D2">
+                     <gramGrp>
+                        <pos expand="Substantivum">subst.</pos>
+                     </gramGrp>
+                     <cit type="translation" xml:lang="la">
+                        <quote>fermentatum</quote>
+                     </cit> et <cit type="translation" xml:lang="la">
+                        <quote>fermentum</quote>
+                     </cit>, <foreign xml:lang="gez">ብሑእ፡</foreign>
+                     <foreign xml:lang="grc">ζυμωτόν</foreign>
+                     <ref cRef="Ex." loc="12,19">Ex. 12,19</ref>; <ref cRef="Ex." loc="12,20">Ex.
+                        12,20</ref>; <ref cRef="Ex." loc="13,7">Ex. 13,7</ref>; <foreign xml:lang="grc">ἡ πεφυραμένη</foreign>
+                     <ref cRef="1 Par." loc="23,29">1 Par. 23,29</ref>; <foreign xml:lang="grc">τὸ
+                        φύραμα</foreign>
+                     <ref cRef="Rom." loc="11,16">Rom. 11,16</ref>; <ref cRef="Ex." loc="12,34">Ex.
+                        12,34</ref>; <foreign xml:lang="grc">ζύμη</foreign>
+                     <ref cRef="Ex." loc="12,15">Ex. 12,15</ref>; <ref cRef="Ex." loc="12,19">Ex.
+                        12,19</ref>; <ref cRef="Ex." loc="13,3">Ex. 13,3</ref>; <ref cRef="Lev." loc="2,11">Lev. 2,11</ref>; <ref cRef="Deut. " loc="16,3">Deut. 16,3</ref>;
+                        <ref cRef="Matth." loc="13,33">Matth. 13,33</ref>; <ref cRef="Matth." loc="16,6">Matth. 16,6</ref> Platt; <ref cRef="Marc." loc="8,15">Marc.
+                        8,15</ref>; <ref cRef="1 Cor." loc="5,6">1 Cor. 5,6</ref>; <ref cRef="1 Cor." loc="5,8">1 Cor. 5,8</ref>; <ref cRef="Gal." loc="5,9">Gal.
+                        5,9</ref>; <foreign xml:lang="gez">ብሕእት፡</foreign> (<gramGrp>
+                        <gen value="femininus">fem.</gen>
+                     </gramGrp>) <ref cRef="Ex." loc="13,7">Ex. 13,7</ref>; <foreign xml:lang="gez">ብሑኣት፡</foreign> (<gramGrp>
+                        <gen value="femininus">fem.</gen>
+                     </gramGrp>
+                     <lbl expand="pluralis">Pl.</lbl>: res fermentatae) <ref cRef="Matth." loc="16,6">Matth. 16,6</ref>
+                     <lbl expand="romanae editionis">rom.</lbl> – <lbl expand="Vocabularium Aethiopicum, -a -a.">Voc. Ae.</lbl>: <foreign xml:lang="gez">ብሑእ፡ ብ፡ እርሾ።</foreign>
+                  </sense>
+               </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

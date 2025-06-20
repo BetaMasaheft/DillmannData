@@ -1,0 +1,97 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> በጽዐ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="LB" when="2018-03-01">root</change>
+        </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="Lb6b11bf04ef746c1a3939d116511a067" n="4202">
+               <form>
+                  <foreign xml:lang="gez">በጽዐ</foreign>
+               <rs type="root"/>
+                    </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain"> vel <foreign xml:lang="gez">በፅዐ፡</foreign> <subc>I,1</subc> [vis radicis prima est in <cit type="translation" xml:lang="la">
+                            <quote> secando </quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                            <quote> abscidendo </quote>
+                        </cit> (<foreign xml:lang="he">בָּצַע</foreign>, <foreign xml:lang="ar">بَضَعَ</foreign> al., <lbl expand="videas">vid. sub</lbl> <foreign xml:lang="gez">ቤጸ፡</foreign>); hinc derivatur significatus <cit type="translation" xml:lang="la">
+                            <quote> secernendi </quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                            <quote> decernendi </quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                            <quote> definiendi </quote>
+                        </cit> (cfr. significatones radicum <foreign xml:lang="he">גָּזַר גְּזַר גָּדַד</foreign>); amharice occurrunt quaedam derivata) <gramGrp> <pos expand="Subjunctivus">Subj.</pos> </gramGrp> <foreign xml:lang="gez">ይብጻዕ፡</foreign> <sense n="1" xml:id="D1"> <cit type="translation" xml:lang="la">
+                                <quote> definire </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> aestimare </quote>
+                            </cit> pretium rei (<foreign xml:lang="grc">τιμήσεται</foreign>) <ref cRef="Lev." loc="27,12">Lev. 27,12</ref>; <ref cRef="Lev." loc="27,14">Lev. 27,14</ref>; nescio an eodem modo exponendus sit locus: <foreign xml:lang="gez">ለእመ፡ ኢበጻዕኩ፡ ለኢየሩሳሌም፡ በቀዳሜ፡ ትፍሥሕትየ፡</foreign> <foreign xml:lang="grc">ἐὰν μὴ προανατάξωμαι τὴν</foreign> I<foreign xml:lang="grc">ερουσαλημ</foreign>, <cit type="translation" xml:lang="la">
+                                <quote> si non </quote>
+                            </cit> locum <cit type="translation" xml:lang="la">
+                                <quote> costituero </quote>
+                            </cit> <cit type="translation" xml:lang="la">
+                                <quote> Hierosolymis </quote>
+                            </cit> <cit type="translation" xml:lang="la">
+                                <quote> in </quote>
+                            </cit> vel <cit type="translation" xml:lang="la">
+                                <quote> ab initio gaudii mei </quote>
+                            </cit> <ref cRef="Ps." loc="136,8">Ps. 136,8</ref>.</sense> <sense n="2" xml:id="D2"> in specie: separare aliquid in Dei usum (cfr. <foreign xml:lang="gez">ዘበፅዐ፡ ብፅዐተ፡</foreign> <foreign xml:lang="grc">ἀφαιρῶν ἀφαίρεμα</foreign> <ref cRef="Ex. " loc="35,24">Ex.  35,24</ref>) vel praefinire aliquid Deo sacrum i.e. <cit type="translation" xml:lang="la">
+                                <quote> vovere </quote>
+                            </cit> <ref cRef="Gen." loc="28,20">Gen. 28,20</ref>; <foreign xml:lang="gez">እንበለ፡ ትብጻዕ፡ አስተዳሉ፡ በጽዓቲከ፡</foreign> <ref cRef="Sir." loc="18,23">Sir. 18,23</ref>; <lbl expand="cum">c.</lbl> <foreign xml:lang="gez">ለ፡</foreign> Dei: <ref cRef="Ps." loc="75,11">Ps. 75,11</ref>; <ref cRef="Ps." loc="131,2">Ps. 131,2</ref>; <ref cRef="2 Esr." loc="3,5">2 Esr. 3,5</ref>; <foreign xml:lang="gez">በጻዕከ፡ ሊተ፡ ብጽዓተ፡</foreign> <ref cRef="Gen." loc="31,13">Gen. 31,13</ref>; <ref cRef="Lev." loc="27,2">Lev. 27,2</ref>; <foreign xml:lang="gez">ዘአዕበየ፡ በጺዐ፡ ብጽዓተ፡</foreign> <ref cRef="Num." loc="6,2">Num. 6,2</ref>; <ref cRef="Num." loc="30,3">Num. 30,3</ref> <lbl expand="sequens">seq.</lbl>; <ref cRef="Deut. " loc="23,22">Deut.  23,22</ref>; <ref cRef="Jud." loc="11,30">Jud. 11,30</ref>; <ref cRef="2 Reg." loc="15,7">2 Reg. 15,7</ref>; 2 Reg, 15,8; <ref cRef="Jes." loc="19,21">Jes. 19,21</ref>; <ref cRef="Jer." loc="51,25">Jer. 51,25</ref>; <ref cRef="Jon." loc="1,16">Jon. 1,16</ref>; <lbl expand="cum">c.</lbl> <gramGrp> <case value="accusativus">Acc.</case> </gramGrp> rei: <ref cRef="Lev." loc="22,18">Lev. 22,18</ref>; <ref cRef="Lev." loc="22,21">Lev. 22,21</ref>; <ref cRef="Lev." loc="27,14">Lev. 27,14</ref> <lbl expand="sequens">seq.</lbl>; <foreign xml:lang="gez">ዘበጽዐት፡ ርእሳ፡ ለእግዚአብሔር፡</foreign> F.M. 6,12; <lbl expand="sequens">seq.</lbl> <gramGrp> <pos expand="Subjunctivus">Subj.</pos> </gramGrp> verbi: <foreign xml:lang="gez">በጻዕነ፡ ንጹም፡</foreign> <ref cRef="1 Esr." loc="8,49">1 Esr. 8,49</ref>; <foreign xml:lang="gez">በጻዕከ፡ ትሕንጽ፡</foreign> <ref cRef="1 Esr." loc="4,45">1 Esr. 4,45</ref>; vel <lbl expand="sequens">seq.</lbl> <foreign xml:lang="gez">ከመ፡</foreign> <lbl expand="cum">c.</lbl> <gramGrp> <pos expand="Subjunctivus">Subj.</pos> </gramGrp>: <foreign xml:lang="gez">ብእሲት፡ ዘበጽዐት፡ ከመ፡ ኢትትወሰብ፡</foreign> F.M. 5,16.</sense> </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,71 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ቀስት </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="LB" when="2018-02-23">root</change>
+        <change who="MK" when="2022-06-17">added new compound </change><change who="MK" when="2022-06-17">correction</change><change who="MK" when="2022-06-17">correction</change></revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="La85bf5918f7949349532057b2a207e91" n="3396">
+               <form>
+                  <foreign xml:lang="gez">ቀስት</foreign>
+               <rs type="root"/>
+                    </form>
+               <sense xml:id="Dmain" xml:lang="la" source="#dillmann"> <gramGrp> <pos expand="Substantivum">subst.</pos> </gramGrp>, <gramGrp> <gen value="not found">m.</gen> </gramGrp> et <gramGrp> <gen value="femininus">fem.</gen> </gramGrp> (ut <ref cRef="Gen." loc="9,13">Gen. 9,13</ref> <lbl expand="sequens">seq.</lbl>; <ref cRef="Jer." loc="28,56">Jer. 28,56</ref>), <lbl expand="pluralis">Pl.</lbl> <foreign xml:lang="gez">አቅስስት፡</foreign> et <foreign xml:lang="gez">አቅስት፡</foreign> [<foreign xml:lang="he">קֶשֶׁת</foreign> <foreign xml:lang="syr">ܩܶܫܬܐ</foreign> <foreign xml:lang="ar">قَوْسٌ</foreign>; de etymo <lbl expand="videas">vid.</lbl> Ges. thes. p. 1211] <cit type="translation" xml:lang="la"><quote> arcus </quote></cit> <sense n="a" xml:id="Da"> jaculatorius: <ref cRef="Gen." loc="27,3">Gen. 27,3</ref>; <ref cRef="Jes." loc="7,24">Jes. 7,24</ref>; <ref cRef="Jer." loc="6,22">Jer. 6,22</ref>; <ref cRef="Jer." loc="25,14">Jer. 25,14</ref>; <ref cRef="Hez." loc="39,3">Hez. 39,3</ref>; <foreign xml:lang="gez">ቀስት፡ ጠዋይ፡</foreign> <foreign xml:lang="grc">Ηο</foreign>s. 7,15; <ref cRef="Ps." loc="7,13">Ps. 7,13</ref>; <ref cRef="Ps." loc="75,3">Ps. 75,3</ref>; <ref cRef="Ps." loc="77,63">Ps. 77,63</ref>; <ref cRef="Job" loc="20,24">Job 20,24</ref>; <ref cRef="Job" loc="29,20">Job 29,20</ref>; <ref cRef="Job " loc="39,23">Job  39,23</ref>; <ref cRef="Hen." loc="17,3">Hen. 17,3</ref>; <ref cRef="Apoc." loc="6,2">Apoc. 6,2</ref>; <lbl expand="pluralis">Pl.</lbl> <ref cRef="Gen." loc="49,24">Gen. 49,24</ref>; <ref cRef="Ps." loc="36,16">Ps. 36,16</ref>; <ref cRef="1 Par." loc="10,3">1 Par. 10,3</ref>; <cb n="0434" xml:id="c0434"/> <ref cRef="Jes. " loc="5,28">Jes.  5,28</ref>; <ref cRef="Jes." loc="21,15">Jes. 21,15</ref>; <ref cRef="Jes." loc="41,2">Jes. 41,2</ref>; <ref cRef="Jer." loc="4,29">Jer. 4,29</ref>; <ref cRef="Hez." loc="39,9">Hez. 39,9</ref>.</sense> <sense n="b" xml:id="Db"> coelestis i.e. <cit type="translation" xml:lang="la"><quote> iris </quote></cit>: <foreign xml:lang="gez">ቀስተ፡ ደመና፡</foreign> <ref cRef="Hez." loc="1,28">Hez. 1,28</ref>; <ref cRef="Sir." loc="50,7">Sir. 50,7</ref>; <ref cRef="Gen." loc="9,13">Gen. 9,13</ref> <lbl expand="sequens">seq.</lbl>; <foreign xml:lang="gez">ቀስተ፡ እግዚአብሔር፡</foreign> <ref cRef="Kuf." loc="6">Kuf. 6</ref>; <ref cRef="Sir." loc="43,11">Sir. 43,11</ref>; <lbl expand="collatio, -is vel collectivum,&#xA;                            -e">coll.</lbl> <ref cRef="Chron. Ax." loc="89.">Chron. Ax. f. 89.</ref> </sense> <sense n="c" xml:id="Dc"> architectonicus, Lud. ex <lbl expand="auctore, auctoritate">auct.</lbl> Gregorii.</sense> </sense>
+               
+            <sense xml:id="Tmain" xml:lang="en" source="#traces"><cit type="transcription" xml:lang="gez"><quote>qast</quote></cit> <ptr target="#Dc"/> <foreign xml:lang="gez">ቀሰተ፡ ደመና፡</foreign> <cit type="transcription" xml:lang="gez"><quote>qasta dammanā</quote></cit> <foreign xml:lang="gez">ወቀስተ፡ ደመና፡ ፲። ወርእሰ፡ ህበይ፡ ፴፻ወ፰፻፲ወ፭።</foreign> ‘<cit type="translation" xml:lang="fr"><quote>Les qasta damanā (arcs-en-ciel) sont au nombre de 10; les reʾesa hebay, 3,815;</quote></cit>’ <bibl><ptr target="bm:ContiRossini1909LiberT"/><citedRange unit="page"> 7 l. 10 (ed.)</citedRange></bibl>, <bibl><ptr target="bm:ContiRossini1910LiberV"/><citedRange unit="page"> 7 l. 17–18 (tr.)</citedRange></bibl>, <lbl expand="videas">vid.</lbl> <foreign xml:lang="gez">ደመና፡</foreign> </sense></entry>
+         </div>
+      </body>
+   </text>
+</TEI>

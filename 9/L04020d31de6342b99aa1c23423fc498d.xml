@@ -1,0 +1,80 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>ረቀየI</title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="AE" when="2017-12-06">Referenzen</change>
+            <change who="LB" when="2018-02-14">root</change>
+        <change who="AE" when="2018-08-22">Verschachtelung,</change>
+        <change who="MK" when="2024-07-04">added gr and les </change><change who="MK" when="2024-07-04">added sub</change></revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L04020d31de6342b99aa1c23423fc498d" n="2143" type="hom">
+               <form>
+                  <foreign xml:lang="gez">ረቀየ</foreign>
+                        <seg type="hom">I</seg>
+                    <rs type="root"/>
+                    </form>
+               <sense xml:id="Dmain" xml:lang="la" source="#dillmann"> <subc>I,1</subc> <gramGrp> <pos expand="Subjunctivus">Subj.</pos> </gramGrp> <foreign xml:lang="gez">ይርቂ፡</foreign> et <foreign xml:lang="gez">ይርቀይ፡</foreign>, et <foreign xml:lang="gez">ረቀየ፡</foreign> <subc>I,2</subc> [i.q. <foreign xml:lang="ar">رَقِيَ</foreign>]<sense n="1" xml:id="D1"> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> incantare </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> fascinare </t:quote></cit> (carmine supertitioso recitato), <lbl expand="cum">c.</lbl> <gramGrp> <case value="accusativus">Acc.</case> </gramGrp> rei incantatae: <ref cRef="Ps." loc="57,5">Ps. 57,5</ref>; <ref cRef="Koh." loc="10,11">Koh. 10,11</ref>; <foreign xml:lang="gez">አራዊተ፡ ምድር፡ ዘይቀትል፡ ዘአልቦ፡ ዘይረቅዮ፡</foreign> <ref cRef="Jer." loc="8,17">Jer. 8,17</ref>; <lbl expand="cum">c.</lbl> <foreign xml:lang="gez">ላዕለ፡</foreign> rei, super quam recitatur carmen: <foreign xml:lang="gez">እለ፡ ይነዝኁ፡ ማየ፡ ረቂዮሙ፡ ላዕሌሁ፡</foreign> F.M. 15,3; <foreign xml:lang="gez">እለ፡ ይረቅዩ፡</foreign> <foreign xml:lang="grc">ἐξορκισταί</foreign> <ref cRef="Act. " loc="19,13">Act.  19,13</ref>. 
+</sense> <sense n="2" xml:id="D2"> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> exorcisare </t:quote></cit> (exorcismo lustrare), <lbl expand="cum">c.</lbl> <gramGrp> <case value="accusativus">Acc.</case> </gramGrp>: (baptizandis) <foreign xml:lang="gez">ሰሚዖሙ፡ ወንጌለ፡ ኵሎ፡ መዋዕለ፡ ያንብሩ፡ እደ፡ ላዕሌሆሙ፡ ወይርቀይዎሙ፡ ወጥምቀቶሙሰ፡ በመዋዕለ፡ ጰሲካ፡</foreign> <ref cRef="Kid." loc="25 ">Kid. f. 25 </ref>(<ref cRef="Kid." loc="25 ">Kid. f. 25 </ref>etiam <gramGrp> <pos expand="Subjunctivus">Subj.</pos> </gramGrp> <foreign xml:lang="gez">ይርቂ፡</foreign>; Imperat. <foreign xml:lang="gez">ርቂ፡</foreign> <ref cRef="Kid." loc="26">Kid. f. 26</ref>); etiam: <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> exorcismi formulam recitare </t:quote></cit> super aliquem: <foreign xml:lang="gez">ይርቂ፡ ላዕሌሆሙ፡</foreign> <ref cRef="II Can. Nic." loc="76.">II Can. Nic. 76.</ref> 
+</sense> <sense n="3" xml:id="D3"> in specie: <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> aqua lustrali purgare </t:quote></cit> a daemonibus, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> aquam l. </t:quote></cit> (<foreign xml:lang="grc">τὸ ὕδωρ τὸ ἐξορκιζόμενον</foreign>) <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> superfundere </t:quote></cit> rei, <lbl expand="cum">c.</lbl> <gramGrp> <case value="accusativus">Acc.</case> </gramGrp> vel rei vel aquae: <foreign xml:lang="gez">ትረቂ፡ መቃብሪሁ፡ በማይ፡</foreign> <ref cRef="Genz." loc="40">Genz. f. 40</ref>; <foreign xml:lang="gez">አምጽኢ፡ ማየ፡ ወርቀይያ፡</foreign> (<foreign xml:lang="gez">ለብእሲት፡</foreign>) <foreign xml:lang="gez">ወተሐዩ፡</foreign> <ref cRef="Lud. e Vit. Dan." loc="">Lud. e Vit. Dan. </ref>; <foreign xml:lang="gez">ርቅያ፡</foreign> (<foreign xml:lang="gez">ማየ፡</foreign>) <foreign xml:lang="gez">ዲበ፡ ርእስክን፡</foreign> <ref cRef="Lud. e Vit. Sanct." loc="">Lud. e Vit. Sanct. </ref>; <ref cRef="Chron. Ax." loc="">Chron. Ax. </ref> – Voc. Ae.: <foreign xml:lang="gez">ነዝኀ፡ ረቀየ፡ ዘ፡ ረጨ፡</foreign>; <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> aliud </t:quote></cit>: <foreign xml:lang="gez">ይረቅያ፡ ዘ፡ ያምዋርቱበት፡ ወቦ፡ ዘ፡ ይደግምበት።</foreign> 
+</sense> </sense>
+               
+            <sense xml:id="Tmain" xml:lang="en" source="#traces"> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">raqaya</t:quote></cit> <sense n="G" xml:id="TG"> <foreign xml:lang="gez">ረቀየ፡</foreign> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">raqaya</t:quote></cit> <subc>I,1</subc> <foreign xml:lang="gez">ይረቂ፡</foreign>, <foreign xml:lang="gez">ይርቂ፡</foreign> «<cit type="translation" xml:lang="fr"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">asperger avecde l’eau bénite ou echantée</t:quote></cit>, <cit type="translation" xml:lang="fr"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">faire de la magie, des sortilèges, des charmes</t:quote></cit>, <cit type="translation" xml:lang="fr"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">asperger simplement</t:quote></cit>» ― <foreign xml:lang="am">ረጨ፡</foreign>, <foreign xml:lang="am">ጠነቈለ፡</foreign> Ms. <ref type="BM" target="BNFabb217">BNFabb217</ref>, fol. 58r. <lb/>
+ <bibl><ptr target="bm:Grebaut1952SuppLexicon"/><citedRange unit="page"> 149–150</citedRange></bibl>
+</sense> <sense n="L" xml:id="TL"> <foreign xml:lang="gez">ረቀየ</foreign> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">raqaya</t:quote></cit> I (yǝrqi, yǝrqay) <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">sprinkle</t:quote></cit>, <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">asperse</t:quote></cit>, <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">sprinkle with holy water to drive out demons</t:quote></cit>, <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">cleanse with holy water</t:quote></cit>, (Lt) <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">purify</t:quote></cit>, <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">exorcise</t:quote></cit>, <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">recite incantations</t:quote></cit>, <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">charm</t:quote></cit>, <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">use a conjurer’s trick</t:quote></cit> <bibl><ptr target="bm:Leslau1987dic"/><citedRange unit="page"> 473a</citedRange></bibl> 
+</sense> </sense></entry>
+         </div>
+      </body>
+   </text>
+</TEI>

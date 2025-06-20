@@ -1,0 +1,85 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ክርዳድ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="LB" when="2018-03-19">root</change>
+        </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L34c1bf6c259a4677846c38cfca233435" n="6136">
+               <form>
+                  <foreign xml:lang="gez">ክርዳድ</foreign>
+               <rs type="root"/>
+                    </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain"> <gramGrp> <pos expand="Substantivum">subst.</pos> </gramGrp>, plerumque <gramGrp> <gen value="not found">m.</gen> </gramGrp>, <cit type="translation" xml:lang="la">
+                            <quote> zizania </quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                            <quote> herba inutilis </quote>
+                        </cit> ut <cit type="translation" xml:lang="la">
+                            <quote> lolium </quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                            <quote> cardui </quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                            <quote> urticae </quote>
+                        </cit>, <foreign xml:lang="grc">ζιζάνια</foreign> <ref cRef="Matth." loc="13,25">Matth. 13,25</ref>; <ref cRef="Matth." loc="13,26">Matth. 13,26</ref>; <ref cRef="Matth." loc="13,27">Matth. 13,27</ref>; <ref cRef="Matth." loc="13,28">Matth. 13,28</ref>; <ref cRef="Matth." loc="13,29">Matth. 13,29</ref>; <ref cRef="Matth. " loc="13,30">Matth.  13,30</ref>; <ref cRef="Matth." loc="13,36">Matth. 13,36</ref>; <ref cRef="Matth." loc="13,37">Matth. 13,37</ref>; <ref cRef="Matth." loc="13,38">Matth. 13,38</ref>; <ref cRef="Matth." loc="13,39">Matth. 13,39</ref>; <ref cRef="Matth." loc="13,40">Matth. 13,40</ref> (nota <foreign xml:lang="gez">ንእርዮን፡</foreign> <ref cRef="Matth." loc="13,28">Matth. 13,28</ref>, <foreign xml:lang="gez">እስርዎሙ፡</foreign> <ref cRef="Matth." loc="13,30">Matth. 13,30</ref>); <foreign xml:lang="gez">ክርዳድ፡ ዘያውዕይዎ፡ በእሳት፡</foreign> <ref cRef="Clem." loc="112">Clem. f. 112</ref>; <foreign xml:lang="gez">ዲበ፡ ሠናይ፡ ሥርናይ፡ ኢትኅድጎ፡ ለክርዳድ፡ ይበቍል፡</foreign> <ref cRef="Kid." loc="16">Kid. f. 16</ref>; <foreign xml:lang="gez">በኵረ፡ መላኪ፡ ይምላኅ፡ ክርዳድ፤ እምሰማይ፡ ወረደ፤</foreign> Deg.; <foreign xml:lang="grc">κνίδη</foreign> <foreign xml:lang="gez">ህየንተ፡ ሥርናይ፡ ክርዳድ፡ ይብቍለኒ፡</foreign> <ref cRef="Job" loc="31,40">Job 31,40</ref>; <foreign xml:lang="gez">ክርዳድ፡ ወሦክ፡</foreign> <ref cRef="Phlx." loc="236">Phlx. 236</ref>; <foreign xml:lang="gez">ስቴ፡ ክርዳድ፡</foreign> M.M. f. 333 (<lbl expand="videas">vid.</lbl> <foreign xml:lang="gez">አንኮለለ፡</foreign>); in Mss. Colbertinis conjungitur cum absinthio et amarities illi tribuitur, Lud. <cit type="translation" xml:lang="la">
+                            <quote> – Voc. Ae.: </quote>
+                        </cit> <foreign xml:lang="gez">ክርዳድ፡ ብ፡ እንግርዳድ፡</foreign> (<cit type="translation" xml:lang="la">
+                            <quote> lolium temulentum </quote>
+                        </cit>, <lbl expand="videas">vid.</lbl> Harris II <note>Anh.</note> p. 23) </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

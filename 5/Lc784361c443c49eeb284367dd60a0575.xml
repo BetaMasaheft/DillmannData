@@ -1,0 +1,99 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ዘመን </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="LB" when="2018-04-24">root</change>
+        </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="Lc784361c443c49eeb284367dd60a0575" n="7520">
+               <form>
+                  <foreign xml:lang="gez">ዘመን</foreign>
+               <rs type="root"/>
+                    </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain"> <gramGrp> <pos expand="Substantivum">subst.</pos> </gramGrp> (<gramGrp> <gen value="not found">m.</gen> </gramGrp>), <lbl expand="pluralis">Pl.</lbl> <foreign xml:lang="gez">አዝማን፡</foreign>, rarius <foreign xml:lang="gez">ዘመናት፡</foreign> (<cit type="translation" xml:lang="la">
+                            <quote> tempora anni </quote>
+                        </cit>), <lbl expand="pluralis">Pl.</lbl> <lbl expand="pluralis">Pl.</lbl> <foreign xml:lang="gez">አዝማናት፡</foreign> [<foreign xml:lang="he">זְמָן</foreign> <foreign xml:lang="ar">زَمَنٌ</foreign> et <foreign xml:lang="ar">زَمَانٌ</foreign> <foreign xml:lang="syr">ܙܒܰܢ</foreign>] <cit type="translation" xml:lang="la">
+                            <quote> tempus </quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                            <quote> tempus statutum </quote>
+                        </cit>, <foreign xml:lang="grc">χρόνος</foreign> <ref cRef="Koh." loc="3,1">Koh. 3,1</ref>; <ref cRef="Act." loc="27,9">Act. 27,9</ref>; <foreign xml:lang="grc">καιρός</foreign> <ref cRef="Gen." loc="1,14">Gen. 1,14</ref>; <ref cRef="Hen." loc="72,1">Hen. 72,1</ref>; <ref cRef="Apoc." loc="11,18">Apoc. 11,18</ref>; <ref cRef="Apoc." loc="22,10">Apoc. 22,10</ref>; <foreign xml:lang="gez">ዘመን፡ ወአዝማን፡ ወመንፈቀ፡ ዘመን፡</foreign> <ref cRef="Apoc." loc="12,14">Apoc. 12,14</ref>; <foreign xml:lang="gez">መዋዕል፡ ወአዝማን፡</foreign> <ref cRef="Act." loc="1,7">Act. 1,7</ref>; <foreign xml:lang="gez">እምቅድመ፡ መዋዕል፡ ወኵሉ፡ አዝማን፡</foreign> <ref cRef="Clem. " loc="48">Clem.  f. 48</ref>; <foreign xml:lang="gez">እምቅድመ፡ መዋዕል፡ ወአዝማናት፡</foreign> Lit. Chrys.; <foreign xml:lang="gez">ደኃሪ፡ ዘመን፡</foreign> <ref cRef="4 Esr." loc="14,4">4 Esr. 14,4</ref>; <foreign xml:lang="gez">በአዝማን፡ እለ፡ እሙራን፡</foreign> <ref cRef="Hen." loc="75,4">Hen. 75,4</ref>; Hen, 75,5; <foreign xml:lang="gez">በውእቱ፡ አዝማን፡</foreign> <ref cRef="Hen." loc="80,3">Hen. 80,3</ref>; <ref cRef="Hen." loc="80,6">Hen. 80,6</ref>; <foreign xml:lang="gez">ዘመነ፡ ኦሪት፡</foreign>, <foreign xml:lang="gez">ዘመነ፡ ወንጌል፡</foreign> Lud.; <foreign xml:lang="gez">እስከ፡ ዘመኑ፡</foreign> <cit type="translation" xml:lang="la">
+                            <quote> ad </quote>
+                        </cit> <cit type="translation" xml:lang="la">
+                            <quote> tempus quoddam </quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                            <quote> aliquamdiu </quote>
+                        </cit> <ref cRef="Tob." loc="14,4">Tob. 14,4</ref>, vel <foreign xml:lang="gez">እስከ፡ ዘመን፡</foreign> <ref cRef="Hen." loc="90,1">Hen. 90,1</ref>; <ref cRef="Hen." loc="90,5">Hen. 90,5</ref>; <foreign xml:lang="gez">በዘመኑ፡</foreign> <cit type="translation" xml:lang="la">
+                            <quote> tempore suo </quote>
+                        </cit> <ref cRef="Ex." loc="34,18">Ex. 34,18</ref>; <ref cRef="Lev." loc="26,4">Lev. 26,4</ref>; <foreign xml:lang="gez">ኵሉ፡ በበ፡ ዘመኑ፡</foreign> <ref cRef="Hen." loc="2,1">Hen. 2,1</ref>; <foreign xml:lang="gez">እጸንሕ፡ አነ፡ እምዘመን፡ ዘመነ፡</foreign> <cit type="translation" xml:lang="la">
+                            <quote> de die in diem </quote>
+                        </cit> <ref cRef="Sx. Sen." loc="11 ">Sx. Sen. 11 </ref>Enc. <sense n="a" xml:id="Da"> <cit type="translation" xml:lang="la">
+                                <quote> vices </quote>
+                            </cit>: <foreign xml:lang="gez">ሠለስተ፡ ዘመነ፡</foreign> <foreign xml:lang="grc">τρεῖς καιρούς</foreign> <ref cRef="Ex." loc="23,17">Ex. 23,17</ref>; <ref cRef="Ex." loc="34,23">Ex. 34,23</ref>; <ref cRef="Deut." loc="16,16">Deut. 16,16</ref>.</sense> <sense n="b" xml:id="Db"> <cit type="translation" xml:lang="la">
+                                <quote> aetas </quote>
+                            </cit> hominis (<note>Lebenszeit</note>) <ref cRef="Sx. Nah." loc="4 ">Sx. Nah. 4 </ref>Enc.</sense> <sense n="c" xml:id="Dc"> <cit type="translation" xml:lang="la">
+                                <quote> aevum </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> saeculum </quote>
+                            </cit>: <foreign xml:lang="gez">ሰብአ፡ ዘመኑ፡</foreign> homines temporis illius <ref cRef="Jsp." loc="308">Jsp. p. 308</ref>; <foreign xml:lang="gez">ሰብአ፡ አዝማና፡</foreign> <ref cRef="Jsp. " loc="273">Jsp.  p. 273</ref>; <foreign xml:lang="gez">ሊቃውንተ፡ ዘመን፡</foreign> seniores qui posthac suo quisque tempore erunt F.M. 13.</sense> <sense n="d" xml:id="Dd"> <cit type="translation" xml:lang="la">
+                                <quote> tempora anni </quote>
+                            </cit>: <foreign xml:lang="gez">ዘመናት</foreign> <ref cRef="Abush." loc="4,6">Abush. 4,6</ref> al. (<lbl expand="videas">vid. sub</lbl> <foreign xml:lang="gez">ሐጋይ፡</foreign>).</sense> <sense n="e" xml:id="De"> <cit type="translation" xml:lang="la">
+                                <quote> tempestas </quote>
+                            </cit>: <foreign xml:lang="gez">ለእመ፡ ዘመን፡ አንሥአት፡ ሞገዳ፡</foreign> <ref cRef="Sx. Pag." loc="1 ">Sx. Pag. 1 </ref> Enc. – (<ref cRef="2 Reg." loc="22,3">2 Reg. 22,3</ref> interpres <foreign xml:lang="grc">καιρός</foreign> pro <foreign xml:lang="grc">κέρας</foreign> legisse videtur).</sense> </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

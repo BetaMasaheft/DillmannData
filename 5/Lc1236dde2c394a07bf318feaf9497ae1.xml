@@ -1,0 +1,108 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ድራር </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="Lc1236dde2c394a07bf318feaf9497ae1" n="7900">
+               <form>
+                  <foreign xml:lang="gez">ድራር</foreign>
+               </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain">
+                  <gramGrp>
+                     <pos expand="Substantivum">subst.</pos>
+                  </gramGrp>
+                  <cit type="translation" xml:lang="la">
+                     <quote>coena</quote>
+                  </cit>: <foreign xml:lang="gez">ምሳሕ፡ አው፡ ድራር፡ </foreign>
+                  <foreign xml:lang="grc">ἄριστον ἢ δεῖπνον</foreign>
+                  <ref cRef="Luc." loc="14,12">Luc. 14,12</ref>; <foreign xml:lang="gez">በድራር፡ ወእመሂ፡
+                     በምሳሕ፡</foreign>
+                  <ref cRef="Kid." loc="28">Kid. f. 28</ref>; <foreign xml:lang="gez">ዘአሕጸጸ፡ ድራሮ፡
+                     ይበይት፡ ጥዑየ፡ ሥጋሁ፡</foreign>
+                  <ref cRef="Fal." loc="56.">Fal. f. 56.</ref>
+                  <sense n="a" xml:id="Da">
+                     <cit type="translation" xml:lang="la">
+                        <quote>tempus coenae</quote>
+                     </cit>, poetice: <foreign xml:lang="gez">ይጸውም፡ ድራረ፡</foreign> Lud. ex <ref cRef="Sx. Masc." loc="30 ">Sx. Masc. 30 </ref>Enc.</sense>
+                  <sense n="b" xml:id="Db">
+                     <cit type="translation" xml:lang="la">
+                        <quote>agape</quote>
+                     </cit> primitivae ecclesiae, <ref cRef="Const. Ap." loc="36.">Const. Ap.
+                        36.</ref>
+                  </sense>
+                  <sense n="c" xml:id="Dc">
+                     <cit type="translation" xml:lang="la">
+                        <quote>vigilia</quote>
+                     </cit> (<lbl expand="videas">vid.</lbl> Lud. <lbl expand="lexicon">lex.</lbl>
+                     amh. <lbl expand="columna">col.</lbl> 82) diem festum praecedens: <foreign xml:lang="gez">ዘማኅትው፡ ዘድራረ፡ ጾም፡</foreign> (ut videtur) <cit type="translation" xml:lang="la">
+                        <quote>in vigiliam introitus jejunii</quote>
+                     </cit> (quadragesimalis) <ref cRef="Cod. Mus. Brit. XXXII f." loc="2 ">Cod.
+                        Mus. Brit. XXXII f. 2 </ref>(pro quo etiam <foreign xml:lang="gez">ዘማኅትው፡
+                        ዘድራረ፡ ጾም፡</foreign> legitur in aliis codicibus); <foreign xml:lang="gez">ጾመ፡
+                        ድራረ፡ ልደት፡</foreign> et <foreign xml:lang="gez">ጾመ፡ ድራረ፡ ጥምቀት፡ </foreign>
+                     (Nativitatis et Epiphaniorum) praecipitur in F.N. 15. — <lbl expand="Vocabularium Aethiopicum, -a -a.">Voc. Ae.</lbl>: <foreign xml:lang="gez">ድራር፡ ብ፡ እራት፡</foreign>; <cit type="translation" xml:lang="la">
+                        <quote>aliud</quote>
+                     </cit>: <foreign xml:lang="gez">ድራር፡ ወስባጥ፡</foreign> (<lbl expand="videas">vid.</lbl>
+                     <foreign xml:lang="gez">ሥባጥ፡</foreign>) <foreign xml:lang="gez">ዘ፡ ኅራት፡
+                        መታረብ።</foreign>
+                  </sense>
+               </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

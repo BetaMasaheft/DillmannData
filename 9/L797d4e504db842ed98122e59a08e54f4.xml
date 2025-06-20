@@ -1,0 +1,100 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> አስተናሥአ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="AE" when="2018-12-04">Verschachtelung,</change>
+        </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L797d4e504db842ed98122e59a08e54f4" n="4807">
+               <form>
+                  <foreign xml:lang="gez">አስተናሥአ</foreign>
+               </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain"> <subc>IV,3</subc> <sense n="1" xml:id="D1"> <sense n="a" xml:id="D1a"> <cit type="translation" xml:lang="la">
+                                    <quote> attollere </quote>
+                                </cit>, <cit type="translation" xml:lang="la">
+                                    <quote> extollere </quote>
+                                </cit> aliquem supra alium: <foreign xml:lang="gez">ያሌዕሎ፡ እግዚአብሔር፡ ለፀሩ፡ ላዕሌሁ፡ ወጸላእቶ፡ ያስተናሥእ፡</foreign> <ref cRef="Jes." loc="9,11">Jes. 9,11</ref> vers. alt.</sense> <sense n="b" xml:id="D1b"> <cit type="translation" xml:lang="la">
+                                    <quote> sublevare </quote>
+                                </cit>aliquem: <foreign xml:lang="gez">ረድኤቱ፡ ወአስተናሥኦቱ፡ ለእግዚአብሔር፡</foreign> F.M. 3,6.</sense> <sense n="c" xml:id="D1c"> <cit type="translation" xml:lang="la">
+                                    <quote> facere ut </quote>
+                                </cit>aliquis <cit type="translation" xml:lang="la">
+                                    <quote> se extollat </quote>
+                                </cit>supra alios vel <cit type="translation" xml:lang="la">
+                                    <quote> superbiat </quote>
+                                </cit>: <foreign xml:lang="gez">ተውኔትከ፡ አስተናሥአከ፡</foreign> (<foreign xml:lang="he">תִּפְלַצְתְּךָ הִשִּׁיא אֹתָךְ</foreign>) <ref cRef="Jer." loc="29,17">Jer. 29,17</ref>.</sense> <sense n="d" xml:id="D1d"> <cit type="translation" xml:lang="la">
+                                    <quote> restituere </quote>
+                                </cit>, <cit type="translation" xml:lang="la">
+                                    <quote> stabilire </quote>
+                                </cit>, <ref cRef="Ps." loc="79,16">Ps. 79,16</ref>.</sense> </sense> <sense n="2" xml:id="D2"> <sense n="a" xml:id="D2a"> <cit type="translation" xml:lang="la">
+                                    <quote> se extollere </quote>
+                                </cit> super alios, <cit type="translation" xml:lang="la">
+                                    <quote> superbire </quote>
+                                </cit>: <foreign xml:lang="gez">አስተናሣእከ፡</foreign> <ref cRef="Jer." loc="29,17">Jer. 29,17</ref> <lbl expand="varia lectio">var.</lbl> </sense> <sense n="b" xml:id="D2b"> <cit type="translation" xml:lang="la">
+                                    <quote> supra eminere </quote>
+                                </cit>: <foreign xml:lang="gez">ክልኤቱ፡ አጥባት፡ ዘይሰውጥ፡ ወዘያስተናሥእ፡ በመሳውር፡ ዘወርቅ፡</foreign> <foreign xml:lang="grc">τῶν δύο μυξωτήων</foreign> – <foreign xml:lang="grc">χρυσᾶς</foreign> <ref cRef="Zach." loc="4,12">Zach. 4,12</ref>.</sense> </sense> <sense n="3" xml:id="D3"> <cit type="translation" xml:lang="la">
+                                <quote> excitare </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> incitare </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> suscitare </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> instigare </quote>
+                            </cit>, <sense n="a" xml:id="D3a"> in bonam partem: episcopus suo exemplo <foreign xml:lang="gez">ይስሕቦሙ፡ ለአርድእቲሁ፡ ወያስተናሥኦሙ፡ ከመ፡ ይኩኑ፡ ተመሳልያነ፡ በምግባራቲሁ፡</foreign> F.N. 5; <foreign xml:lang="gez">ዝንቱ፡ ግብር፡ አስተናሥኣ፡ ለይእቲ፡ ብእሲት፡</foreign> <ref cRef="Chrys. ho. " loc="26.">Chrys. ho.  26.</ref> </sense> <sense n="b" xml:id="D3b"> in malam: <lbl expand="cum">c.</lbl> <gramGrp> <case value="accusativus">Acc.</case> </gramGrp> <lbl expand="persona">pers.</lbl>, ut: <foreign xml:lang="gez">አስተናሥአ፡ ላዕሌሁ፡ መኳንንተ፡</foreign> <ref cRef="Sx. Hed." loc="8">Sx. Hed. 8</ref>; <foreign xml:lang="gez">አስተናሥእዎ፡ ልቦ፡</foreign> <foreign xml:lang="grc">τηρήσατε τὴν ἐπίνοιαν αὐτοῦ</foreign> <ref cRef="Jer. " loc="20,10">Jer.  20,10</ref>; <foreign xml:lang="gez">ለንዋይ፡ ጾሩ፡ ክቡድ፡ ወትካዙ፡ ፈድፋደ፡ ያስተናሥእ፡ ኅሊና፡ ወየሀውክ፡</foreign> <ref cRef="Fal." loc="56">Fal. f. 56</ref>; <lbl expand="cum">c.</lbl> <gramGrp> <case value="accusativus">Acc.</case> </gramGrp> rei: <foreign xml:lang="gez">ያስተናሥእ፡ ጽልአ፡ ለተፈልጦ፡ እምኔሃ፡</foreign> F.M. 12,2; <foreign xml:lang="gez">ዘያስተናሥእ፡ ሀከከ፡ ወጽልአ፡ ማእከለ፡ ሰብእ፡</foreign> F.M. 23,7.</sense> </sense> </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

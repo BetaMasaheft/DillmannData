@@ -1,0 +1,114 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ድልወት </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L5707e35a3f00468aa6587be8e26c3e15" n="7811">
+               <form>
+                  <foreign xml:lang="gez">ድልወት</foreign>
+               </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain">
+                  <gramGrp>
+                     <pos expand="nomen actionis">n. act.</pos>
+                  </gramGrp> et <gramGrp>
+                     <pos expand="Substantivum">subst.</pos>
+                  </gramGrp>, <gramGrp>
+                     <gen value="femininus">fem.</gen>
+                  </gramGrp> et <gramGrp>
+                     <gen value="masculinum">m.</gen>
+                  </gramGrp>, <lbl expand="pluralis">Pl.</lbl>
+                  <foreign xml:lang="gez">ድልወታት፡ </foreign>
+                  <sense n="1" xml:id="D1">
+                     <cit type="translation" xml:lang="la">
+                        <quote>pondus</quote>
+                     </cit> (gravitas) <ref cRef="Gen." loc="24,22">Gen. 24,22</ref>; <ref cRef="Ex." loc="30,34">Ex. 30,34</ref>; <ref cRef="Jud." loc="8,26">Jud.
+                        8,26</ref>; <ref cRef="1 Reg." loc="17,5">1 Reg. 17,5</ref>; <ref cRef="2 Reg. " loc="14,26">2 Reg. 14,26</ref>; <ref cRef="2 Esr." loc="8,34">2 Esr. 8,34</ref>; <ref cRef="1 Esr." loc="8,62">1 Esr. 8,62</ref>.</sense>
+                  <sense n="2" xml:id="D2">
+                     <cit type="translation" xml:lang="la">
+                        <quote>dignitas</quote>
+                     </cit>: F.N. 5; <foreign xml:lang="gez">በጽድቅ፡ ተኰነኑ፡ ዘከመ፡ ድልወተ፡ እከዮሙ፡ </foreign>
+                     <ref cRef="Sap." loc="19,12">Sap. 19,12</ref>; <lbl expand="cum">c.</lbl> neg.:
+                        <cit type="translation" xml:lang="la">
+                        <quote>indignitas</quote>
+                     </cit>: <foreign xml:lang="gez">በኢድልወትነ፡ </foreign>
+                     <cit type="translation" xml:lang="la">
+                        <quote>quamquam indigni sumus</quote>
+                     </cit>
+                     <ref cRef="Chrys. ho." loc="16">Chrys. ho. 16</ref>; <foreign xml:lang="gez">እስመ፡ ለነ፡ ኢኮነ፡ ድልወተ፡ ልደትነ፡</foreign> Rel. Bar.; <foreign xml:lang="gez">አንተ፡
+                        እንዘ፡ አኮ፡ ድልወት፡ ሊተ፡ አድኀንከኒ፡</foreign>
+                     <ref cRef="Did." loc="7">Did. 7</ref>; <foreign xml:lang="gez">አኮ፡ ድልወትየ፡ ከመ፡
+                        ትባእ፡</foreign>
+                     <ref cRef="Matth." loc="8,8">Matth. 8,8</ref>
+                     <lbl expand="romanae editionis">rom.</lbl>; <foreign xml:lang="gez">አኮ፡ ድልወት፡
+                        ሊተ፡ ኣንቃዕዱ፡ </foreign>
+                     <ref cRef="Did." loc="7">Did. 7</ref>; <lbl expand="pluralis">Pl.</lbl>
+                     <foreign xml:lang="gez">ድልወታት፡</foreign> dignitates i.e. gradus dignitatis vel
+                     honoris, F.N. 9,2.</sense>
+                  <sense n="3" xml:id="D3">
+                     <cit type="translation" xml:lang="la">
+                        <quote>decentia</quote>
+                     </cit>, <cit type="translation" xml:lang="la">
+                        <quote>convenientia</quote>
+                     </cit>: <foreign xml:lang="gez">ድልወተ፡</foreign> (v. <foreign xml:lang="gez">ድልዋተ፡</foreign>) <foreign xml:lang="gez">ነበብከ፡ </foreign>
+                     <foreign xml:lang="grc">ἄριστα ἔφης</foreign> Cyr. c. <ref cRef="Pall. " loc="71.">Pall. f. 71.</ref>
+                  </sense>
+               </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,88 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ተዘርወ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="Lccee4bf4fe254405a129b2faf9a50f5c" n="7560">
+               <form>
+                  <foreign xml:lang="gez">ተዘርወ</foreign>
+               </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain"> <subc>III,1</subc> <cit type="translation" xml:lang="la">
+                     <quote>se dispergere</quote>
+                  </cit>, <cit type="translation" xml:lang="la">
+                     <quote>dispergi</quote>
+                  </cit>, <cit type="translation" xml:lang="la">
+                     <quote>dissipari</quote>
+                  </cit>, <cit type="translation" xml:lang="la">
+                     <quote>diffundi</quote>
+                  </cit>, <ref cRef="Jes." loc="11,12">Jes. 11,12</ref>; <ref cRef="Jes." loc="33,3">Jes. 33,3</ref>; <ref cRef="Tob." loc="14,4">Tob. 14,4</ref>; <ref cRef="Gen." loc="10,18">Gen. 10,18</ref>; <ref cRef="Ps." loc="21,14">Ps. 21,14</ref>; <ref cRef="Ps." loc="67,1">Ps. 67,1</ref>; <ref cRef="Joh." loc="16,32">Joh.
+                     16,32</ref>; <ref cRef="Matth." loc="26,31">Matth. 26,31</ref>; <foreign xml:lang="gez">ጽጌያት፡ ዘተዘርወ፡</foreign>
+                  <ref cRef="4 Esr." loc="3,47">4 Esr. 3,47</ref>; <foreign xml:lang="gez">እምህየ፡
+                     ተዘርዉ፡ ውስተ፡ ኵሉ፡ አህጉሪሆሙ፡</foreign>
+                  <ref cRef="Kuf." loc="10">Kuf. 10</ref>; <ref cRef="Kuf." loc="3">Kuf. 3</ref>;
+                     <ref cRef="Sir. " loc="48,15">Sir. 48,15</ref>; <ref cRef="Esth." loc="9,19">Esth. 9,19</ref>; <foreign xml:lang="gez">ተዘርዉ፡ በውስተ፡ አሕዛብ፡</foreign>
+                  <ref cRef="Joel" loc="4,2">Joel 4,2</ref>; <ref cRef="Hez. " loc="34,6">Hez.
+                     34,6</ref>
+                  <lbl expand="sequens">seq.</lbl>; <foreign xml:lang="gez">ወርቆሙ፡ ይዘሮ፡ ውስተ፡
+                     መርሕብ፡</foreign>
+                  <ref cRef="Hez." loc="7,19">Hez. 7,19</ref>; de lepra quae se diffundit, <ref cRef="Lev." loc="13,55">Lev. 13,55</ref>; <ref cRef="Lev." loc="14,39">Lev.
+                     14,39</ref>; de pugna <ref cRef="1 Reg." loc="14,23">1 Reg. 14,23</ref>; <ref cRef="2 Reg." loc="18,8">2 Reg. 18,8</ref>. </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

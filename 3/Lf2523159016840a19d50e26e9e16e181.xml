@@ -1,0 +1,88 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ቅርንብ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="LB" when="2018-02-23">root</change>
+        <change who="AE" when="2018-11-01">Alpha durch A ersetzt,</change>
+        </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="Lf2523159016840a19d50e26e9e16e181" n="3343">
+               <form>
+                  <foreign xml:lang="gez">ቅርንብ</foreign>
+               <rs type="root"/>
+                    </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain">, <foreign xml:lang="gez">ቀርንብ፡</foreign>, <foreign xml:lang="gez">ቀርነብ፡</foreign> <gramGrp> <pos expand="Substantivum">subst.</pos> </gramGrp>, <lbl expand="pluralis">Pl.</lbl> <foreign xml:lang="gez">ቀራንብት፡</foreign> [sine dubio pro <foreign xml:lang="gez">ቅርንው፡</foreign>, adjecto <foreign xml:lang="gez">ው</foreign> formativo, e <foreign xml:lang="gez">ቀርን፡</foreign> propagatum] <sense n="1" xml:id="D1"> <cit type="translation" xml:lang="la">
+                                <quote> apex spicae </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> arista </quote>
+                            </cit>: (semen agit) <foreign xml:lang="gez">ቈጽለ፡ ወብርዐ፡ ወሐሠረ፡ ወቅርንበ፡</foreign> <ref cRef="Macc." loc="5.">Macc. f. 5.</ref> </sense> <sense n="2" xml:id="D2"> <lbl expand="pluralis">Pl.</lbl>, <cit type="translation" xml:lang="la">
+                                <quote> pili oculorum </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> cilia </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> palpebrae </quote>
+                            </cit>, <foreign xml:lang="grc">βλέφαρα</foreign> <ref cRef="Ps." loc="10,5">Ps. 10,5</ref>; <ref cRef="Ps." loc="131,4">Ps. 131,4</ref>; <ref cRef="Job" loc="16,16">Job 16,16</ref>; <ref cRef="Sir." loc="26,9">Sir. 26,9</ref>; <ref cRef="Jer. " loc="9,18">Jer.  9,18</ref>; <foreign xml:lang="gez">ቀራንብቲከ፡ ይቅጽባ፡ ጽድቀ፡</foreign> <ref cRef="Prov." loc="4,25">Prov. 4,25</ref>; <ref cRef="Prov." loc="6,4">Prov. 6,4</ref>; <ref cRef="Prov." loc="6,25">Prov. 6,25</ref>; <ref cRef="Prov." loc="24,86">Prov. 24,86</ref>; <ref cRef="Hen." loc="8,1">Hen. 8,1</ref>; <foreign xml:lang="gez">ሰላም፡ ለቀራንብቲኪ፡</foreign> <cb n="0429" xml:id="c0429"/> I <ref cRef="Sal. Mar." loc="6">Sal. Mar. 6</ref>; (evulsit) <foreign xml:lang="gez">ጸጕረ፡ ቀራንብቲሁ፡</foreign> <ref cRef="Sx. Genb." loc="13">Sx. Genb. 13</ref>; <foreign xml:lang="gez">ነበስባሰ፡ ቀራንብት፡</foreign> <cit type="translation" xml:lang="la">
+                                <quote> nictus palpebrarum </quote>
+                            </cit> i.e. <cit type="translation" xml:lang="la">
+                                <quote> momentum temporis </quote>
+                            </cit> <ref cRef="M.M." loc="f. 58">M.M. f. 58</ref>. – Voc. Ae.:<foreign xml:lang="gez">ቍርንብ፡</foreign> (v. <foreign xml:lang="gez">ቀርንብ፡</foreign>) <foreign xml:lang="gez">ዘ፡ ምርቅ፡</foreign>; <cit type="translation" xml:lang="la">
+                                <quote> aliud </quote>
+                            </cit>: <foreign xml:lang="gez">ጠስ፡ ቀርነብ፡ ቀልደድ፡ ብ፡ ቅንድብ።</foreign> </sense> </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

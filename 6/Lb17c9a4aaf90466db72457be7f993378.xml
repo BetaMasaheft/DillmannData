@@ -1,0 +1,129 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ተሐወለ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="Lb17c9a4aaf90466db72457be7f993378" n="852">
+               <form>
+                  <foreign xml:lang="gez">ተሐወለ</foreign>
+               </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain"> <subc>III,1</subc> <sense n="1" xml:id="D1">
+                     <cit type="translation" xml:lang="la">
+                        <quote>conjungi</quote>
+                     </cit>, <cit type="translation" xml:lang="la">
+                        <quote>admisceri</quote>
+                     </cit>
+                     <lbl expand="construitur cum">c.c.</lbl>
+                     <gramGrp>
+                        <case value="accusativus">Acc.</case>
+                     </gramGrp>, ut <cit type="translation" xml:lang="la">
+                        <quote>in coelis est</quote>
+                     </cit>
+                     <foreign xml:lang="gez">ናህይ፡ ወኢይዴመሮ፡ መርድእ፡</foreign> (legas <foreign xml:lang="gez">መርዕድ፡</foreign>) <foreign xml:lang="gez">ወኢይትሐወሎ፡ ጻማ፡
+                        ወድካም፡</foreign>
+                     <ref cRef="Jsp. " loc="380">Jsp. p. 380</ref>; <foreign xml:lang="gez">ተሐወለ፡
+                        ምክረ፡</foreign>
+                     <cit type="translation" xml:lang="la">
+                        <quote>communi consilio usus est</quote>
+                     </cit> Enc. In specie</sense>
+                  <sense n="2" xml:id="D2">
+                     <cit type="translation" xml:lang="la">
+                        <quote>communionem</quote>
+                     </cit>, <cit type="translation" xml:lang="la">
+                        <quote>societatem</quote>
+                     </cit>, <cit type="translation" xml:lang="la">
+                        <quote>commercium inire</quote>
+                     </cit>, <cit type="translation" xml:lang="la">
+                        <quote>habere</quote>
+                     </cit> vel <cit type="translation" xml:lang="la">
+                        <quote>colere</quote>
+                     </cit>, <cit type="translation" xml:lang="la">
+                        <quote>convivere</quote>
+                     </cit>, <cit type="translation" xml:lang="la">
+                        <quote>conversari</quote>
+                     </cit> cum aliquo (et in communi vitae consuetudine et in rebus sacris): <lbl expand="construitur cum">c.c.</lbl>
+                     <foreign xml:lang="gez">ምስለ፡ </foreign> pers.: <ref cRef="Joh." loc="4,9">Joh.
+                        4,9</ref>
+                     <lbl expand="romanae editionis">rom.</lbl>; <ref cRef="Act." loc="10,28">Act.
+                        10,28</ref>
+                     <lbl expand="romanae editionis">rom.</lbl>; <ref cRef="1 Cor." loc="5,11">1
+                        Cor. 5,11</ref>; <foreign xml:lang="gez">ይደሉ፡ ንዕቀብ፡ ርእሰነ፡ ወኢንትሐወል፡ ምስለ፡
+                        ኃጥኣን፡</foreign>
+                     <ref cRef="Did." loc="4">Did. 4</ref>; <foreign xml:lang="gez">ኢትትሐወል፡ ምስለ፡
+                        ብእሴ፡ ደም፡</foreign>
+                     <ref cRef="Did." loc="6">Did. 6</ref>; <cb n="0113" xml:id="c0113"/>
+                     <ref cRef="Clem." loc="187">Clem. f. 187</ref>; <ref cRef="Clem." loc="208">Clem. f. 208</ref>; <lbl expand="cum">c.</lbl>
+                     <foreign xml:lang="gez">ኀበ፡</foreign> pers., <foreign xml:lang="gez">ይትሐወሉ፡
+                        ኀቤሁ፡</foreign>
+                     <cit type="translation" xml:lang="la">
+                        <quote>ad causam ejus se applicuerunt</quote>
+                     </cit> Macc. f. 15; <lbl expand="cum">c.</lbl>
+                     <gramGrp>
+                        <case value="accusativus">Acc.</case>
+                     </gramGrp>
+                     <lbl expand="persona">pers.</lbl>: <ref cRef="2 Thess." loc="3,14">2 Thess.
+                        3,14</ref>; <foreign xml:lang="gez">ኢትትሐወሉ፡ ዕልዋነ፡ ሃይማኖት፡ </foreign>
+                     <ref cRef="Clem." loc="140.">Clem. f. 140.</ref> – <lbl expand="Vocabularium Aethiopicum, -a -a.">Voc. Ae.</lbl>: <foreign xml:lang="gez">ተቶስሐ፡ ተሐወለ፡ ዘ፡ ተቀላቀለ፡</foreign> vid. etiam
+                     scholion ad <foreign xml:lang="gez">ተከንሰ፡</foreign>; Voc. ad Epist. Pauli:
+                        <foreign xml:lang="gez">ኢትትሐወሉ፡ ዘ፡ ኢትብልዑ፡ ወቦዘ፡ ኢትኅበሩ።</foreign>
+                  </sense>
+               </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

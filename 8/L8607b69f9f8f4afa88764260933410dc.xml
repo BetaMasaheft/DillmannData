@@ -1,0 +1,154 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> በኵር </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L8607b69f9f8f4afa88764260933410dc" n="4032">
+               <form>
+                  <foreign xml:lang="gez">በኵር</foreign>
+               </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain">
+                  <gramGrp>
+                     <pos expand="Substantivum">subst.</pos>
+                  </gramGrp> [<foreign xml:lang="he">בְּכוֹר</foreign>, <foreign xml:lang="syr">ܒܽܘܟܪܳܐ</foreign>] <gramGrp>
+                     <gen value="masculinum">m.</gen>
+                  </gramGrp> et <gramGrp>
+                     <gen value="femininus">fem.</gen>
+                  </gramGrp>, sing, et <lbl expand="collatio, -is vel collectivum, -e">coll.</lbl>,
+                     <lbl expand="pluralis">Pl.</lbl>
+                  <foreign xml:lang="gez">አብኵር፡</foreign> et <foreign xml:lang="gez">አብኳር፡</foreign>
+                  et <foreign xml:lang="gez">በኵራት፡</foreign>
+                  <sense n="1" xml:id="D1">
+                     <cit type="translation" xml:lang="la">
+                        <quote>primogenitura</quote>
+                     </cit>, <foreign xml:lang="grc">κρωτοτόκια</foreign>
+                     <ref cRef="Gen." loc="25,31">Gen. 25,31</ref>; <ref cRef="Gen. " loc="25,33">Gen. 25,33</ref>; <ref cRef="Gen." loc="27,36">Gen. 27,36</ref>; <ref cRef="Deut." loc="21,17">Deut. 21,17</ref>; <ref cRef="1 Par." loc="5,1">1
+                        Par. 5,1</ref>.</sense>
+                  <sense n="2" xml:id="D2">
+                     <cit type="translation" xml:lang="la">
+                        <quote>primi partus proles</quote>
+                     </cit>, sive mascula sive femella (<ref cRef="1 Reg." loc="14,49">1 Reg.
+                        14,49</ref>), <cit type="translation" xml:lang="la">
+                        <quote>primogenitus</quote>
+                     </cit>, <cit type="translation" xml:lang="la">
+                        <quote>primogenita</quote>
+                     </cit>, <cit type="translation" xml:lang="la">
+                        <quote>primogenitum</quote>
+                     </cit>, de hominibus et de brutis: <foreign xml:lang="gez">ኵሉ፡ በኵር፡</foreign>
+                     <ref cRef="Ex." loc="11,5">Ex. 11,5</ref>; <ref cRef="Ex." loc="12,29">Ex.
+                        12,29</ref>; <ref cRef="Ex." loc="13,15">Ex. 13,15</ref>; <foreign xml:lang="gez">በኵሩ፡ ለላህም፡</foreign>, <foreign xml:lang="gez">ለበግዕ፡</foreign>, <foreign xml:lang="gez">ለአድግ፡</foreign>
+                     <ref cRef="Ex." loc="34,19">Ex. 34,19</ref>; <ref cRef="Ex." loc="34,20">Ex.
+                        34,20</ref>; <ref cRef="Gen." loc="4,4">Gen. 4,4</ref>; <ref cRef="Deut." loc="12,6">Deut. 12,6</ref>; <ref cRef="Deut." loc="14,23">Deut.
+                     14,23</ref>; <ref cRef="Tob." loc="5,14">Tob. 5,14</ref>; <foreign xml:lang="gez">ይስማኤል፡ በኵሩ፡ </foreign>
+                     <ref cRef="Gen." loc="25,13">Gen. 25,13</ref>; <ref cRef="Gen." loc="35,23">Gen. 35,23</ref>; <ref cRef="Num." loc="1,20">Num. 1,20</ref>; <ref cRef="1 Reg." loc="8,2">1 Reg. 8,2</ref>; <ref cRef="1 Reg." loc="14,49">1
+                        Reg. 14,49</ref>; <ref cRef="1 Par." loc="8,1">1 Par. 8,1</ref>; 1 <ref cRef="Par." loc="8,39">Par. 8,39</ref>; <foreign xml:lang="gez">ኤፍሬም፡ በኵርየ፡
+                        ውእቱ፡</foreign>
+                     <ref cRef="Jer." loc="38,9">Jer. 38,9</ref>; <foreign xml:lang="gez">እንተ፡ ትወልድ፡
+                        በኵራ፡</foreign>
+                     <ref cRef="Jer." loc="4,31">Jer. 4,31</ref>; <ref cRef="Ps." loc="88,27">Ps.
+                        88,27</ref>; <ref cRef="Ps." loc="134,8">Ps. 134,8</ref>; <ref cRef="Rom. " loc="8,29">Rom. 8,29</ref>; <ref cRef="Col." loc="1,15">Col. 1,15</ref>;
+                        <ref cRef="Col." loc="1,18">Col. 1,18</ref>; <ref cRef="Apoc." loc="1,5">Apoc. 1,5</ref>; ubi alii nomini appositionis instar adjungitur, <foreign xml:lang="gez">ዘ፡</foreign> praepositum habere solet: <foreign xml:lang="gez">ወልዳ፡ ዘበኵራ፡</foreign>
+                     <ref cRef="Gen." loc="25,25">Gen. 25,25</ref>; <ref cRef="Gen." loc="27,19">Gen. 27,19</ref>; <ref cRef="Gen." loc="27,32">Gen. 27,32</ref>; <ref cRef="Ex. " loc="4,22">Ex. 4,22</ref>; <ref cRef="Matth." loc="1,25">Matth.
+                        1,25</ref>; <ref cRef="Luc." loc="2,7">Luc. 2,7</ref>; <lbl expand="sequens">seq.</lbl> Gen. fratris: <foreign xml:lang="gez">በኵረ፡ ወልድከ፡ </foreign>
+                     <ref cRef="Ex." loc="22,28">Ex. 22,28</ref>; <ref cRef="Ex." loc="34,20">Ex.
+                        34,20</ref>; <foreign xml:lang="gez">በኵረ፡ ተባዕት፡ </foreign>
+                     <cit type="translation" xml:lang="la">
+                        <quote>primogenitus</quote>
+                     </cit>
+                     <cit type="translation" xml:lang="la">
+                        <quote>inter</quote>
+                     </cit>
+                     <cit type="translation" xml:lang="la">
+                        <quote>masculos</quote>
+                     </cit> i.e. <cit type="translation" xml:lang="la">
+                        <quote>masculus</quote>
+                     </cit>
+                     <ref cRef="Ex." loc="13,13">Ex. 13,13</ref>; collective <ref cRef="Hebr." loc="11,28">Hebr. 11,28</ref>; <lbl expand="pluralis">Pl.</lbl>
+                     <foreign xml:lang="gez">ደቂቀ፡ ዳዊት፡ አብኵር፡</foreign> (v. <foreign xml:lang="gez">አብኵረ፡</foreign>) <foreign xml:lang="gez">ዐቃብያነ፡ መንግሥት፡</foreign>
+                     <ref cRef="1 Par." loc="18,17">1 Par. 18,17</ref>; <foreign xml:lang="gez">አብኳር፡</foreign> (hominum) F.N. 14; <lbl expand="translate">transl.</lbl>:
+                        <foreign xml:lang="gez">በኵረ፡ አበው፡ ቀደምት፡</foreign> sc. Adamus, Lit. Jac.,
+                        <cit type="translation" xml:lang="la">
+                        <quote>primus</quote>
+                     </cit> 1 <ref cRef="Par." loc="18,17">Par. 18,17</ref>
+                     <lbl expand="varia lectio">var.</lbl> — Ut videtur <cit type="translation" xml:lang="la">
+                        <quote>juvencus</quote>
+                     </cit>, <foreign xml:lang="grc">ἁπαλός</foreign>, tener <ref cRef="Gen." loc="27,9">Gen. 27,9</ref>.</sense>
+                  <sense n="3" xml:id="D3">
+                     <cit type="translation" xml:lang="la">
+                        <quote>primitiae</quote>
+                     </cit>; <foreign xml:lang="gez">በኵረ፡ በለስ፡</foreign>
+                     <cit type="translation" xml:lang="la">
+                        <quote>ficus praecox</quote>
+                     </cit>
+                     <ref cRef="Hos." loc="9,10">Hos. 9,10</ref>; <ref cRef="Jes." loc="28,4">Jes.
+                        28,4</ref>
+                     <lbl expand="varia lectio">var.</lbl>; <lbl expand="pluralis">Pl.</lbl>
+                     <foreign xml:lang="gez">በኵራት፡</foreign>
+                     <ref cRef="F.N." loc="16">F.N. 16</ref>; F.N. 18; <foreign xml:lang="gez">በኵራት፡
+                        ይሰዐሩ፡ </foreign>
+                     <cit type="translation" xml:lang="la">
+                        <quote>primitiae abrogantur</quote>
+                     </cit>
+                     <ref cRef="Sx. Nah." loc="28.">Sx. Nah. 28.</ref>
+                     <cb n="0522" xml:id="c0522"/>
+                  </sense>
+               </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

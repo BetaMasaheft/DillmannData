@@ -1,0 +1,83 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ድርዕ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="LB" when="2018-05-03">root</change>
+        </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="Lb670019d0eb9418e8aec173691f0222e" n="7923">
+               <form>
+                  <foreign xml:lang="gez">ድርዕ</foreign>
+               <rs type="root"/>
+                    </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain"> <gramGrp> <pos expand="Substantivum">subst.</pos> </gramGrp>, <lbl expand="pluralis">Pl.</lbl> <foreign xml:lang="gez">አድራዕ፡</foreign> [<foreign xml:lang="ar">دِرْعٌ</foreign>] <cit type="translation" xml:lang="la">
+                            <quote> lorica </quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                            <quote> thorax </quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                            <quote> cataphracta </quote>
+                        </cit> (aliâs: <foreign xml:lang="gez">ልብሰ፡ ኀጺን፡</foreign>), <foreign xml:lang="grc">θώραξ</foreign> <ref cRef="2 Esr." loc="14,16">2 Esr. 14,16</ref>; <foreign xml:lang="gez">ይለብስ፡ ድርዐ፡ ጽድቅ፡</foreign> <ref cRef="Sap." loc="5,19">Sap. 5,19</ref>; <ref cRef="Org." loc="2">Org. 2</ref>; <foreign xml:lang="grc">ἀσπίς</foreign> <ref cRef="Judith" loc="9,7">Judith 9,7</ref> <lbl expand="varia lectio">var.</lbl>; <foreign xml:lang="gez">አልባሰ፡ ድርዖሙ፡</foreign> <foreign xml:lang="grc">μανδύας</foreign> <ref cRef="2 Reg." loc="10,4">2 Reg. 10,4</ref>; <foreign xml:lang="gez">ድርዐ፡ እንግድዓ፡</foreign> <ref cRef="Hen." loc="8,1">Hen. 8,1</ref>; <ref cRef="Hen." loc="52,8">Hen. 52,8</ref>; <foreign xml:lang="gez">በድርዐ፡ እንግድዓ፡ ወበጽንዐ፡ ሃይማኖት፡ ወረሱ፡ መንግሥተ፡ ሰማያት፡</foreign> Deg.; <foreign xml:lang="gez">በልብሰ፡ ድርዐ፡ ኀጺን፡</foreign> <ref cRef="Org." loc="5">Org. 5</ref>; <foreign xml:lang="gez">አድራዕ፡</foreign> <foreign xml:lang="grc">θώρακες</foreign> <ref cRef="2 Par." loc="26,14">2 Par. 26,14</ref>; <ref cRef="Sx. Haml." loc="15">Sx. Haml. 15</ref>; <foreign xml:lang="gez">አድራዕ፡ መስተጽዕናን፡</foreign> („<cit type="translation" xml:lang="la">
+                            <quote> cataphractae </quote>
+                        </cit> per metonymiam pro) <cit type="translation" xml:lang="la">
+                            <quote> cataphracti </quote>
+                        </cit> equites“, <ref cRef="Org." loc="6 ">Org. 6 </ref>(sec. Lud.). — <lbl expand="Vocabularium Aethiopicum, -a -a">Voc. Ae.</lbl>: <foreign xml:lang="gez">ድርዐ፡ እንግድዓ፡ ዘ፡ ሐምበል፡</foreign>; <cit type="translation" xml:lang="la">
+                            <quote> aliud </quote>
+                        </cit>: <foreign xml:lang="gez">ብ፡ ጽሩር።</foreign> </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,123 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng"
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="gez">ሌታቀን</title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref></p>
+            <p><ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref></p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+         <listPrefixDef>
+            <prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="MK" when="2022-05-11">added entry</change>
+         <change who="MK" when="2022-05-11">added variant</change>
+         <change who="MK" when="2022-05-11">added variants</change>
+         <change who="MK" when="2022-05-11">corrections</change>
+         <change who="MK" when="2022-05-11">added info</change>
+         <change who="MK" when="2022-05-11">added info</change>
+         <change who="MK" when="2022-05-11">corrections </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L92f49fc85eb849d3babb6e400e865a70" n="12820">
+               <form><foreign xml:lang="gez">ሌታቀን</foreign></form>
+               <sense xml:id="Tmain" xml:lang="en" source="#traces"><cit type="transcription" xml:lang="gez">
+                     <quote>letāqan</quote>
+                  </cit>, <foreign xml:lang="gez">ሊታቅን፡</foreign>
+                  <cit type="transcription" xml:lang="gez">
+                     <quote>litāqǝn</quote>
+                  </cit>; <foreign xml:lang="gez">ሌተቀን፡</foreign>
+                  <cit type="transcription" xml:lang="gez">
+                     <quote>letaqan</quote>
+                  </cit>, <foreign xml:lang="gez">ሌተቀንዕ፡</foreign>
+                  <cit type="transcription" xml:lang="gez">
+                     <quote>letaqanǝʾ</quote>
+                  </cit>, <foreign xml:lang="gez">ሌትቀን፡</foreign>
+                  <cit type="transcription" xml:lang="gez">
+                     <quote>letqan</quote>
+                  </cit>
+                  <bibl><ptr target="bm:Abbadie1881Dict"/><citedRange unit="page">
+                     34</citedRange></bibl>; <foreign xml:lang="gez">ሌታ፡ ቀን፡</foreign>
+                  <cit type="transcription" xml:lang="gez">
+                     <quote>letā qan</quote>
+                  </cit>
+                  <bibl><ptr target="bm:Kane1990DictAmhVol2"/><citedRange unit="page">
+                        1918b</citedRange></bibl>
+                  <gramGrp><pos expand="adjectivum">adj.</pos></gramGrp> ‘<cit type="translation" xml:lang="en">
+                     <quote>iridescent</quote>
+                  </cit> (colour, like that of silk, which, depending on the light, appears light or
+                  dark)’ <bibl><ptr target="bm:Guidi1901Vocabolario"/><citedRange unit="page">
+                        33</citedRange></bibl>; ‘light brown’ <bibl><ptr target="bm:Abbadie1881Dict"/><citedRange unit="page"> 34</citedRange></bibl>
+                  <foreign xml:lang="gez">ሊታቅን፡ አርዋ፡ በፈርጅ፡ ፭።</foreign> ‘<cit type="translation" xml:lang="fr">
+                     <quote> de la soie de couleur bleu foncé changeant, en pièces, 5
+                        [piéces]</quote>
+                  </cit>’ <bibl><ptr target="bm:ContiRossini1909LiberT"/><citedRange unit="page"> 70
+                        l. 25 (ed.)</citedRange></bibl>, <bibl><ptr target="bm:ContiRossini1910LiberV"/><citedRange unit="page"> 85 l. 6–7
+                        (tr.)</citedRange></bibl>
+                  <sense n="E" xml:id="TE">from Amharic <foreign xml:lang="am">ሌታቀን</foreign>
+                     <cit type="transcription" xml:lang="gez">
+                        <quote>letāqan</quote>
+                     </cit> which is a combination of two words <foreign xml:lang="am">ሌት</foreign>
+                     <cit type="transcription" xml:lang="gez">
+                        <quote>let</quote>
+                     </cit> ‘night’ and <foreign xml:lang="am">ቀን</foreign>
+                     <cit type="transcription" xml:lang="gez">
+                        <quote>qan</quote>
+                     </cit> ‘day’ ; <bibl><ptr target="bm:Kane1990DictAmhVol2"/><citedRange unit="page"> 1918b</citedRange></bibl> (after <bibl><ptr target="bm:Kasate1957DictAmh"/><citedRange unit="page">
+                        48a</citedRange></bibl>) registers <foreign xml:lang="am">ሌታ፡ ቀን፡
+                        ግምጃ</foreign> ‘shimmering silk cloth of various colors’; according to
+                           <bibl><ptr target="bm:Afavork1905GrammaticaAmh"/><citedRange unit="page">
+                           45</citedRange></bibl>
+                     <foreign xml:lang="am">ሌታቀን</foreign> refers to ‘iridescent silk fabric’; also
+                     for <bibl><ptr target="bm:Mogas1967AmhAmhDict"/><citedRange unit="page">
+                           137b</citedRange></bibl>
+                     <foreign xml:lang="am">ሌታ-ቀን</foreign> refers to ‘iridescent silk fabric’ </sense>
+                  <nd/>
+               </sense>
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

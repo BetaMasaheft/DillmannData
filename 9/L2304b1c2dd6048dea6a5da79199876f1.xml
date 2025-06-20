@@ -1,0 +1,78 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ሐጸጸ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="LB" when="2018-01-30">root</change>
+        <change who="MK" when="2023-08-08">added Gr and Les</change><change who="MK" when="2023-08-08">Correction Dill</change></revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L2304b1c2dd6048dea6a5da79199876f1" n="997">
+               <form>
+                  <foreign xml:lang="gez">ሐጸጸ</foreign>
+               <rs type="root"/>
+                    </form>
+               <sense xml:id="Dmain" xml:lang="la" source="#dillmann"> et <foreign xml:lang="gez">ሐጸ፡</foreign>, etiam per <foreign xml:lang="gez">ፀ</foreign>, <subc>I,1</subc> [significatio radicis <foreign xml:lang="he">חָצַץ</foreign> prima est <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> secuit </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> abscidit </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> discidit </t:quote></cit> <lbl expand="videas">vid.</lbl> Ges. thes. p. 510; Aethiopibus notio <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> concidendi </t:quote></cit> in notionem <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> imminuendi </t:quote></cit> et intransit. <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> decrescendi </t:quote></cit> transiit; <lbl expand="vicinus">vic.</lbl> <foreign xml:lang="gez">ኀጠጠ፡</foreign>, <foreign xml:lang="gez">ቀጢን፡</foreign> q.v.] <gramGrp> <pos expand="Subjunctivus">Subj.</pos> </gramGrp> <foreign xml:lang="gez">ይሕጽጽ፡</foreign> <sense n="1" xml:id="D1"> perraro transit. <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> imminuere </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> deminuere </t:quote></cit>, ut: <foreign xml:lang="gez">ዘይጸልእ፡ ነቢበ፡ ብዙኀ፡ የሐጽጻ፡ ለኀጢአቱ፡</foreign> <foreign xml:lang="grc">ἐλαττονοῦται κακίᾳ</foreign> (si non <foreign xml:lang="gez">ያሐጽጻ፡</foreign> legere malueris) <ref cRef="Sir." loc="19,6">Sir. 19,6</ref>; <foreign xml:lang="gez">ኢሐጸነ፡ ወኢምንተ፡</foreign> (var.) <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> nobis debita nihilo minus deminuit </t:quote></cit> <ref cRef="Kuf." loc="127 ">Kuf. p. 127 </ref> <lbl expand="annotatio">ann.</lbl> 1. 
+</sense> <sense n="2" xml:id="D2"> plerumque intransit. <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> minui </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> imminui </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> deficere </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> decrescere </t:quote></cit>: <foreign xml:lang="gez">ሐጸ፡ ማይ፡</foreign> <ref cRef="Gen." loc="8,3">Gen. 8,3</ref>; <ref cRef="Gen." loc="8,5">Gen. 8,5</ref>; de luna <ref cRef="Hen." loc="78,8">Hen. 78,8</ref>; <foreign xml:lang="gez">ብርሃን፡ ዘየኀልቅ፡ እንዘ፡ የሐጽጽ፡</foreign> <ref cRef="Sir. " loc="43,7">Sir.  43,7</ref>; de ingenio <foreign xml:lang="gez">የሐጽጽ፡ ልቡ፡ ከመ፡ ወርኅ፡</foreign> <ref cRef="Sir." loc="27,11">Sir. 27,11</ref>; (<lbl expand="oppositum, -o, -nitur">opp.</lbl> <foreign xml:lang="gez">ተወሰከ፡</foreign>) <ref cRef="Sir." loc="42,21">Sir. 42,21</ref> 
+</sense> <sense n="3" xml:id="D3"> comparative <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> minorem </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> inferiorem </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> minimum esse </t:quote></cit>: <foreign xml:lang="gez">ኢይሕጽጽ፡ እክልከ፡</foreign> <ref cRef="Kuf." loc="113">Kuf. p. 113</ref>; <lbl expand="cum">c.</lbl> <gramGrp> <case value="accusativus">Acc.</case> </gramGrp> <lbl expand="persona">pers.</lbl> (sensu Dativi): <foreign xml:lang="gez">እለ፡ የሐጾሙ፡ አእምሮ፡</foreign> <foreign xml:lang="grc">οἱ ἐνδεεῖς φρενῶν</foreign> <ref cRef="Prov." loc="9,4">Prov. 9,4</ref>; <ref cRef="Prov." loc="9,16">Prov. 9,16</ref>; <lbl expand="cum">c.</lbl> <gramGrp> <case value="accusativus">Acc.</case> </gramGrp> rei: <foreign xml:lang="gez">የሐጹ፡ ኀይለ፡</foreign> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> minores sunt viribus </t:quote></cit> <ref cRef="4 Esr." loc="3,65">4 Esr. 3,65</ref>; <foreign xml:lang="gez">ኢፈድፈደ፡</foreign>–<foreign xml:lang="gez">ወኢሐጸጸ፡</foreign> <ref cRef="Ex." loc="16,18">Ex. 16,18</ref>; (<cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> tribus filiis suis regnum divisit </t:quote></cit>) <foreign xml:lang="gez">ከመ፡ ኢይኩን፡ ፩እምኔሆሙ፡ ዘይፈደፍድ፡ ወየሐጽጽ፡ በምንትኒ፡</foreign> <ref cRef="Jsp." loc="332">Jsp. p. 332</ref>; <foreign xml:lang="gez">ትእዛዝ፡ እንተ፡ ተሐጽጽ፡</foreign> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> mandatum minimum </t:quote></cit> <ref cRef="Matth." loc="5,19">Matth. 5,19</ref>; <foreign xml:lang="gez">ኢየሐጽጽ፡ መዐተ፡ ንጉሥ፡ እመዐተ፡ አንበሳ፡</foreign> <ref cRef="Prov. " loc="20,2">Prov.  20,2</ref>; Lit. Epiph.; <ref cRef="Matth." loc="2,6">Matth. 2,6</ref>. 
+</sense> <sense n="4" xml:id="D4"> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> detrahi </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> deduci </t:quote></cit> (etiam: reliquum efficere, in arithm.): <foreign xml:lang="gez">እምጥብዖትነ፡ ኢየሐጸነ፡ ግንፋል፡</foreign> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> de penso ne unus quidem later nobis detrahitur </t:quote></cit> <ref cRef="Ex." loc="5,19">Ex. 5,19</ref>; <foreign xml:lang="gez">፶ ዓመት፡ እንዘ፡ የሐጽጽ፡ ወርኅ፡</foreign> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> quinquaginta anni detracto mense uno </t:quote></cit> <ref cRef="Abush." loc="50">Abush. 50</ref>; (<foreign xml:lang="gez">በበ፭፡ ዓመት፡</foreign>) <foreign xml:lang="gez">የሐጽጽ፡ ወርኅ፡ እምፀሐይ፡ ፴መዋዕለ፡</foreign> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> per singula quinquennia cursus lunae cum cursu solis comparatus reliquum efficit triginta dierum </t:quote></cit> <ref cRef="Hen." loc="74,1">Hen. 74,1</ref>-16. 
+</sense> </sense>
+               
+            <sense xml:id="Tmain" xml:lang="en" source="#traces"> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">ḥaṣaṣa</t:quote></cit>, <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">ḥaṣṣa</t:quote></cit> <sense n="G" xml:id="TG"> <foreign xml:lang="gez">ሐጸጸ፡</foreign> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">ḥaṣaṣa</t:quote></cit> et <foreign xml:lang="gez">ሐጸ፡</foreign> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">ḥaṣṣa</t:quote></cit> <subc>I,1</subc> <foreign xml:lang="gez">የሐጽጽ፡</foreign>, <foreign xml:lang="gez">ይሕጽጽ፡</foreign>«<cit type="translation" xml:lang="fr"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">diminuer</t:quote></cit>, <cit type="translation" xml:lang="fr"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">être moindre</t:quote></cit>, <cit type="translation" xml:lang="fr"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">devenir peu, petit, manquant</t:quote></cit>» ― <foreign xml:lang="am">ጐደለ፡</foreign> Ms. <ref type="BM" target="BNFabb217">BNFabb217</ref>, fol. 30v. <lb/>
+ <bibl><ptr target="bm:Grebaut1952SuppLexicon"/><citedRange unit="page"> 67</citedRange></bibl> 
+</sense> <sense n="L" xml:id="TL"> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">ḥṣṣ</t:quote></cit> <foreign xml:lang="gez">ሐጸጸ</foreign> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">ḥaṣaṣa</t:quote></cit>, <foreign xml:lang="gez">ሐጸ</foreign> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">ḥaṣṣa</t:quote></cit> (yǝḥṣǝṣ) <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">be deficient</t:quote></cit>, <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">subside</t:quote></cit>, <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">wane</t:quote></cit>, <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">decrease</t:quote></cit> (intr.), <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">be wanting</t:quote></cit>, <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">be less</t:quote></cit>, <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">be subtracted</t:quote></cit>, <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">diminish</t:quote></cit> (intr.), <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">be inferior</t:quote></cit> (in quality), <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">be short of</t:quote></cit>, <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">be the least</t:quote></cit>, <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">be little</t:quote></cit>, <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">be imperfect</t:quote></cit> <bibl><ptr target="bm:Leslau1987dic"/><citedRange unit="page"> 247b</citedRange></bibl> 
+</sense> </sense></entry>
+         </div>
+      </body>
+   </text>
+</TEI>

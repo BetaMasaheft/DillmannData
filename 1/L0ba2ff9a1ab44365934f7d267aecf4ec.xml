@@ -1,0 +1,72 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ጽንጽንያ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="MK" when="2023-01-18">added cross ref</change><change who="MK" when="2023-01-18">correction</change></revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L0ba2ff9a1ab44365934f7d267aecf4ec" n="9418">
+               <form>
+                  <foreign xml:lang="gez">ጽንጽንያ</foreign>
+               </form>
+               <sense xml:id="Dmain" xml:lang="la" source="#dillmann">, <foreign xml:lang="gez">ጽንጽያ፡</foreign>, etiam <foreign xml:lang="gez">ጽጽንያ፡</foreign>, <gramGrp> <pos expand="Substantivum">subst.</pos> </gramGrp>, <gramGrp> <gen value="femininus">fem.</gen> </gramGrp> et <gramGrp> <gen value="not found">m.</gen> </gramGrp>, <lbl expand="collatio, -is vel collectivum,&#xA;                            -e">coll.</lbl> et <lbl expand="Singularis">Sing.</lbl>, <lbl expand="pluralis">Pl.</lbl> <foreign xml:lang="gez">ጽንጽንያት፡</foreign>, plerumque <foreign xml:lang="gez">ጸናጺት፡</foreign> (etiam <foreign xml:lang="gez">ጸናጼት፡</foreign> scriptum), <sense n="1" xml:id="D1"> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> musca </t:quote></cit>: <foreign xml:lang="gez">ጽንጽንያ፡</foreign> <lbl expand="vel">v.</lbl> <foreign xml:lang="gez">ጽጽንያ፡ ምውት፡</foreign> <ref cRef="Koh." loc="10,1">Koh. 10,1</ref>; <lbl expand="collatio, -is vel collectivum,&#xA;                            -e">coll.</lbl> <foreign xml:lang="gez">ጽንጽንያ፡</foreign> <foreign xml:lang="grc">μυῖαι</foreign> <ref cRef="Chrys. Ta." loc="16">Chrys. Ta. 16</ref>; <foreign xml:lang="gez">በዓለ፡ ጽንጽንያ፡</foreign> <lbl expand="vel">v.</lbl> <foreign xml:lang="gez">ጽንጽያ፡</foreign> <ref cRef="4 Reg." loc="1,2">4 Reg. 1,2</ref>; <foreign xml:lang="gez">ጽናጺት፡</foreign> <ref cRef="Jes." loc="7,18">Jes. 7,18</ref>; <foreign xml:lang="gez">ጽንጽንያት፡ ንኡሳን፡</foreign> F.N. 12. 
+</sense> <sense n="2" xml:id="D2"> <foreign xml:lang="gez">ጽንጽንያ፡</foreign> (v. <foreign xml:lang="gez">ጽንጽያ፡</foreign>) <foreign xml:lang="gez">ከልብ፡</foreign> <foreign xml:lang="grc">κυνόμυια</foreign>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> musca canina </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> oestri </t:quote></cit> vel <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> tabani </t:quote></cit> species, <ref cRef="Ex." loc="8,17">Ex. 8,17</ref>; <ref cRef="Ex." loc="8,18">Ex. 8,18</ref>; <ref cRef="Ex." loc="8,19">Ex. 8,19</ref>; <ref cRef="Ex." loc="8,20">Ex. 8,20</ref>; <ref cRef="Ex." loc="8,21">Ex. 8,21</ref>; <ref cRef="Ex." loc="8,22">Ex. 8,22</ref>; <ref cRef="Ex." loc="8,23">Ex. 8,23</ref>; <ref cRef="Ex. " loc="8,24">Ex.  8,24</ref>; <ref cRef="Ex." loc="8,25">Ex. 8,25</ref>; <ref cRef="Ex." loc="8,26">Ex. 8,26</ref>; <ref cRef="Ex." loc="8,27">Ex. 8,27</ref>; <ref cRef="Kuf." loc="158">Kuf. p. 158</ref>; <foreign xml:lang="grc">μυῖαι</foreign> <ref cRef="Sap." loc="16,9">Sap. 16,9</ref>. – <lbl expand="Vocabularium Aethiopicum, -a -a">Voc. Ae.</lbl>: <foreign xml:lang="gez">ጸናጺት፡ ዘ፡ ዝምብ፡</foreign>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> aliud </t:quote></cit>: <foreign xml:lang="gez">ጽንጽንያ፡ ዘ፡ ያሚቈነጥጥ፡ ዝምብ፡</foreign>; <lbl expand="videas">vid.</lbl> etiam Scholion ad <foreign xml:lang="gez">አኮት፡</foreign> (<lbl expand="videas">Vid.</lbl> Bruce V p. 190–195 de Tsaltsalia.) 
+</sense> </sense>
+               
+            <sense xml:id="Tmain" xml:lang="en" source="#traces"><cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">ṣǝnṣǝnyā</t:quote></cit>, <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">ṣǝnṣǝyā</t:quote></cit>, <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">ṣǝṣǝnyā</t:quote></cit>, <lbl expand="pluralis">Pl.</lbl> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">ṣǝnṣǝnyāt</t:quote></cit>, <foreign xml:lang="gez">ጸንጸን፡</foreign> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">ṣanṣan</t:quote></cit>? <sense n="C" xml:id="TC"> for <foreign xml:lang="gez">ዐቃቤ፡ ጽንጽንያ፡</foreign> <lbl expand="videas">vid.</lbl> <foreign xml:lang="gez">ዐቃቢ፡</foreign> 
+</sense> </sense></entry>
+         </div>
+      </body>
+   </text>
+</TEI>

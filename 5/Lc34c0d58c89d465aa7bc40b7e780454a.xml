@@ -1,0 +1,99 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ኍልቍ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="SH" when="2018-01-25">added: spelling variant, translit.,references (text+bibliography)</change>
+            <change who="SH" when="2018-01-25">form corrected (before in Acc)</change>
+        </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="Lc34c0d58c89d465aa7bc40b7e780454a" n="4418">
+               <form>
+                  <foreign xml:lang="gez">ኍልቍ</foreign>
+               </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain"> et <foreign xml:lang="gez">ኈልቍ፡</foreign> <gramGrp> <pos expand="not found">subst.</pos> </gramGrp>, plerumque <gramGrp> <gen value="not found">m.</gen> </gramGrp>, <lbl expand="pluralis">Pl.</lbl> <foreign xml:lang="gez">ኍለቍ፡</foreign> (passim <foreign xml:lang="gez">ኈለቍ፡</foreign> et <foreign xml:lang="gez">ኍለቅ፡</foreign> script.) <cit type="translation" xml:lang="la">
+                            <quote> enumeratio </quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                            <quote> numerus </quote>
+                        </cit>: <ref cRef="Ps." loc="38,6">Ps. 38,6</ref>; <ref cRef="Hen." loc="5,9">Hen. 5,9</ref>; <ref cRef="Dan." loc="9,2">Dan. 9,2</ref>; <ref cRef="Hez." loc="5,3">Hez. 5,3</ref>; <ref cRef="Hez." loc="20,37">Hez. 20,37</ref>; <ref cRef="Apoc." loc="20,8">Apoc. 20,8</ref>; <ref cRef="4 Esr." loc="11,12">4 Esr. 11,12</ref>; <foreign xml:lang="gez">በዝኃ፡ እምኈልቍ፡</foreign> <ref cRef="Ps." loc="39,8">Ps. 39,8</ref>; <foreign xml:lang="gez">ምንትኑ፡ኈልቋ፡ ለነፍስየ፡ በውስተ፡ ኵሉ፡ ዓለም፡</foreign> <ref cRef="Sir." loc="16,17">Sir. 16,17</ref>; <foreign xml:lang="gez">በአምጣነ፡ ኍልቆሙ፡ ለደቂቀ፡ እስራኤል፡</foreign> <ref cRef="Sir." loc="45,11">Sir. 45,11</ref>; <foreign xml:lang="gez">አልቦ፡ ኈልቈ፡ ጥበቢሁ፡</foreign> <ref cRef="Ps." loc="146,5">Ps. 146,5</ref>; <foreign xml:lang="gez">አልቦ፡ ኍልቈ፡ ኀጣውኢከ፡</foreign> <ref cRef="Job" loc="22,5">Job 22,5</ref>; <foreign xml:lang="gez">ዘአልቦ፡ ኍልቍ፡</foreign> vel <foreign xml:lang="gez">ኈልቈ፡</foreign> <cit type="translation" xml:lang="la">
+                            <quote> innumerabilis </quote>
+                        </cit> <ref cRef="Ps." loc="103,26">Ps. 103,26</ref>; <ref cRef="Job" loc="5,9">Job 5,9</ref>; <ref cRef="Job " loc="21,33">Job  21,33</ref>; <ref cRef="Job" loc="34,24">Job 34,24</ref>; <cit type="translation" xml:lang="la">
+                            <quote> immensus </quote>
+                        </cit> <foreign xml:lang="grc">ἀμέτρητος</foreign> <ref cRef="Jes." loc="22,18">Jes. 22,18</ref>; <foreign xml:lang="gez">ዘእንበለ፡ ኈልቍ፡</foreign> <cit type="translation" xml:lang="la">
+                            <quote> innumerus </quote>
+                        </cit>, <ref cRef="Asc. Jes." loc="9,6">Asc. Jes. 9,6</ref>; saepius <foreign xml:lang="gez">በኍልቍ</foreign> <cit type="translation" xml:lang="la">
+                            <quote> secundum numerum </quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                            <quote> pro numero </quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                            <quote> numero </quote>
+                        </cit>: <foreign xml:lang="gez">በኍልቈ፡ አህጉሪከ፡ አማልክቲከ፡</foreign> <ref cRef="Jer." loc="2,28">Jer. 2,28</ref>; <ref cRef="Jer." loc="11,13">Jer. 11,13</ref>; <foreign xml:lang="gez">በኍልቈ፡ መዋዕል፡ ዘ፡</foreign> <ref cRef="Hez." loc="4,4">Hez. 4,4</ref>; <foreign xml:lang="gez">በኍልቍ፡</foreign> <ref cRef="Deut." loc="25,3">Deut. 25,3</ref>; <ref cRef="Hez." loc="20,37">Hez. 20,37</ref>; <foreign xml:lang="gez">ወሀቦሙ፡ ዓመተ፡ ወመዋዕለ፡ በኍልቍ፡</foreign> <ref cRef="Sir." loc="17,2">Sir. 17,2</ref>; <ref cRef="Job" loc="15,20">Job 15,20</ref>; <foreign xml:lang="gez">በኍልቍ፡</foreign> nonnumquam significat <cit type="translation" xml:lang="la">
+                            <quote> numerabiles </quote>
+                        </cit> i.e. <cit type="translation" xml:lang="la">
+                            <quote> paucos </quote>
+                        </cit>: <foreign xml:lang="gez">ይከውኑ፡ በኍልቍ፡</foreign> <ref cRef="Jes." loc="10,19">Jes. 10,19</ref> <lbl expand="varia lectio">var.</lbl>; <foreign xml:lang="gez">መዋዕሊሁ፡ ለእጓለ፡ እመሕያው፡ በኈልቍ፡</foreign> <ref cRef="Sir." loc="37,25">Sir. 37,25</ref>; (<foreign xml:lang="gez">ውኁዳን፡ በኍልቍ፡</foreign> <ref cRef="Deut." loc="4,27">Deut. 4,27</ref>; <ref cRef="Deut. " loc="28,62">Deut.  28,62</ref>). De numeratione persolvendorum, emendorum, vendendorum: <foreign xml:lang="gez">በውስተ፡ ኍልቈ፡ ሐሳብ፡</foreign> <ref cRef="Lev." loc="19,35">Lev. 19,35</ref>; <foreign xml:lang="gez">ኵሎ፡ ዘገበርከ፡ በኍልቍ፡ ወበመስፈርት፡ ወበመዳልው፡ ግበር፡</foreign> <ref cRef="Sir." loc="42,7">Sir. 42,7</ref>. De numeris gentium recensitarum saepius in <ref cRef="Num." loc="1 ">Num. 1 </ref> <lbl expand="sequens">seq.</lbl> De plurali <lbl expand="conferas">cfr.</lbl> <ref cRef="Num." loc="1,21">Num. 1,21</ref> <lbl expand="annotatio">ann.</lbl>; <ref cRef="Deut." loc="26,5">Deut. 26,5</ref> <lbl expand="annotatio">ann.</lbl>; <ref cRef="Deut." loc="33,6">Deut. 33,6</ref>; <ref cRef="Deut." loc="33,14">Deut. 33,14</ref>; <ref cRef="Jos." loc="4,5">Jos. 4,5</ref>; <ref cRef="1 Par." loc="27,23">1 Par. 27,23</ref>. Titulus libri <cit type="translation" xml:lang="la">
+                            <quote> Numerorum </quote>
+                        </cit> est <foreign xml:lang="gez">ኦሪት፡ ዘኍልቍ፡</foreign> </sense>
+               
+            <sense xml:lang="en" source="#traces" xml:id="Tmain"> <foreign xml:lang="gez">ኆልቍ፡</foreign> <cit type="transcription" xml:lang="gez">
+                            <quote> ḫolqʷ</quote>
+                        </cit> <ref cRef="Kebr. Nag." loc="22,17">Kebr. Nag. 22,17</ref>, <ref cRef="Kebr. Nag." loc="24,31">Kebr. Nag. 24,31</ref> <bibl>
+                            <ptr target="bm:Bezold1905KebraN"/>
+                            <citedRange unit="page"> xxviib; 13a l.20; 17a l.1; 36a l.21; 78a l.20; 110b l.4; 111b l.11; 166b l.10 (ed.)</citedRange>
+                        </bibl> </sense>
+                </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

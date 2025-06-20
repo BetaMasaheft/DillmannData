@@ -1,0 +1,74 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ከወላ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="ES" when="2024-02-28">nesting</change></revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="Lc86906a20ad341f89ae8fcc142b5964d" n="6273">
+               <form>
+                  <foreign xml:lang="gez">ከወላ</foreign>
+               </form>
+               <sense xml:id="Dmain" xml:lang="la" source="#dillmann"> et <foreign xml:lang="gez">ከዋላ፡</foreign> (et <foreign xml:lang="gez">ከዋል፡</foreign> et <foreign xml:lang="gez">ከወል፡</foreign>) <sense n="1" xml:id="D1"> <gramGrp> <pos expand="Substantivum">subst.</pos> </gramGrp> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> pars posterior </t:quote></cit> vel <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> postica </t:quote></cit> rei, <ref cRef="Jos." loc="8,2">Jos. 8,2</ref>; <ref cRef="Jos." loc="8,14">Jos. 8,14</ref>; <ref cRef="Joel" loc="2,3">Joel 2,3</ref>; <foreign xml:lang="gez">ተኖለወኒ፡</foreign> (Lud.; <foreign xml:lang="gez">ተኖልወኒ፡</foreign> Cod. Tubing.) <foreign xml:lang="gez">በፍጽም፡ ወዕቀበኒ፡ በከዋላ፡</foreign> <ref cRef="Sx. Ter " loc="25 ">Sx. Ter  25 </ref>Enc. <sense n="a" xml:id="D1a"> <foreign xml:lang="gez">ከወላ፡ ሐመር፡</foreign> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> puppis </t:quote></cit> <ref cRef="Marc." loc="4,38">Marc. 4,38</ref>.
+</sense> <sense n="b" xml:id="D1b"> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> extremum agmen </t:quote></cit>: <foreign xml:lang="gez">በከዋላሁ፡</foreign> (<lbl expand="oppositum, -o, -nitur">opp.</lbl> <foreign xml:lang="gez">በፍጽም፡</foreign>) <ref cRef="Joel" loc="2,20">Joel 2,20</ref>; <foreign xml:lang="gez">ነዐቅብ፡ ፍጽመ፡ ወከዋላ፡</foreign> <ref cRef="2 Esr." loc="14,16">2 Esr. 14,16</ref>.
+</sense> 
+</sense><sense n="2" xml:id="D2"> <gramGrp> <case value="accusativus">Acc.</case> </gramGrp>: <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> pone </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> a parte postica </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> post </t:quote></cit>, <sense n="a" xml:id="D2a"> <gramGrp> <pos expand="adverbium, adverbialiter">adv.</pos> </gramGrp> <foreign xml:lang="gez">የሐውሩ፡ ከወላ፡</foreign> (v. <foreign xml:lang="gez">ከዋላ፡</foreign>) <ref cRef="1 Reg." loc="29,2">1 Reg. 29,2</ref>; <foreign xml:lang="gez">ወከወለ፡</foreign> (sic) <foreign xml:lang="gez">ብዙኃን፡ አሕዛብ፡ ከመ፡ ማይ፡ ይደምፁ፡</foreign> <ref cRef="Jes. " loc="17,12">Jes.  17,12</ref> in <lbl expand="">Cod. Laur.</lbl>; <foreign xml:lang="gez">ዘኮነ፡ እምድሜጥሮስ፡ ከዋላ፡</foreign> (<cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> qui Demetrio fuit posterior </t:quote></cit>, <lbl expand="scilicet">sc.</lbl> tempore) <ref cRef="Sx. Tachs." loc="8 ">Sx. Tachs. 8 </ref> Enc.; <foreign xml:lang="gez">ከዋለ፡</foreign> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> postea </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> posthac </t:quote></cit> Sx. <ref cRef="Teq." loc="1 ">Teq. 1 </ref>Enc.
+</sense> <sense n="b" xml:id="D2b"> <gramGrp> <pos expand="praepositio">praep.</pos> </gramGrp>: <foreign xml:lang="gez">ከወላ፡</foreign> (v. <foreign xml:lang="gez">ከዋለ፡</foreign>) <foreign xml:lang="gez">ደብተራ፡</foreign> <ref cRef="Ex. " loc="26,12">Ex.  26,12</ref>. <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> – Voc. Ae.: </t:quote></cit> <foreign xml:lang="gez">ድኅረ፡ ከዋላ፡ ብ፡ ኋላ፡</foreign> 
+</sense> 
+</sense> </sense>
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

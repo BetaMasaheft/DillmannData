@@ -1,0 +1,92 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ዘማዊ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="AE" when="2017-11-07">F.M. Referenzen als solche kenntlich gemacht.</change>
+        </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="Lbde395ad050c44c093d39ad94fcd2c7a" n="7526">
+               <form>
+                  <foreign xml:lang="gez">ዘማዊ</foreign>
+               </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain"> <gramGrp> <pos expand="not found">n. ag.</pos> </gramGrp>, <gramGrp> <gen value="femininus">fem.</gen> </gramGrp> <foreign xml:lang="gez">ዘማዊት፡</foreign>, <lbl expand="pluralis">Pl.</lbl> <gramGrp> <gen value="not found">m.</gen> </gramGrp> <foreign xml:lang="gez">ዘማውያን፡</foreign>, <gramGrp> <gen value="femininus">fem.</gen> </gramGrp> <foreign xml:lang="gez">ዘማውያት፡</foreign> <sense n="1" xml:id="D1"> <gramGrp> <gen value="not found">m.</gen> </gramGrp> <cit type="translation" xml:lang="la">
+                                <quote> scortator </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> fornicator </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> adulter </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> moechus </quote>
+                            </cit>: <foreign xml:lang="gez">ብእሲ፡ ዘማዊ፡</foreign> <foreign xml:lang="grc">πόρνος</foreign> <ref cRef="Sir." loc="23,17">Sir. 23,17</ref>; <foreign xml:lang="grc">κύων</foreign> <ref cRef="Deut." loc="23,18">Deut. 23,18</ref>; <ref cRef="F.M." loc="5,1">F.M. 5,1</ref>; <foreign xml:lang="gez">ዘማውያን፡</foreign> <ref cRef="1 Cor. " loc="5,9">1 Cor.  5,9</ref>; <ref cRef="1 Tim." loc="1,10">1 Tim. 1,10</ref>; <ref cRef="Apoc." loc="22,15">Apoc. 22,15</ref>; <ref cRef="F.M." loc="5,8">F.M. 5,8</ref>; <ref cRef="F.M." loc="5,9">F.M. 5,9</ref>; <ref cRef="F.M." loc="5,10">F.M. 5,10</ref>; <foreign xml:lang="grc">μοιχός</foreign> <ref cRef="Job" loc="24,15">Job 24,15</ref>; <foreign xml:lang="gez">አረጋዊ፡ ዘማዊ፡</foreign> <ref cRef="Sir." loc="25,2">Sir. 25,2</ref>; <foreign xml:lang="gez">ዘማውያን፡</foreign> <ref cRef="Jer." loc="57,3">Jer. 57,3</ref>; <ref cRef="Sap." loc="3,16">Sap. 3,16</ref>; <ref cRef="Jac." loc="4,4">Jac. 4,4</ref>; etiam <cit type="translation" xml:lang="la">
+                                <quote> libidine percitus </quote>
+                            </cit> vel <cit type="translation" xml:lang="la">
+                                <quote> insaniens </quote>
+                            </cit>, <foreign xml:lang="grc">θηλυμανής</foreign>, de equis; <foreign xml:lang="gez">አፍራስ፡ ዘማውያን፡</foreign> <cb n="1043" xml:id="c1043"/> <ref cRef="Jer." loc="5,7">Jer. 5,7</ref>.</sense> <sense n="2" xml:id="D2"> <gramGrp> <gen value="femininus">fem.</gen> </gramGrp> <cit type="translation" xml:lang="la">
+                                <quote> meretrix </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> fornicatrix </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> moecha </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> adultera </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> impudica </quote>
+                            </cit> <ref cRef="Prov." loc="5,20">Prov. 5,20</ref>; <ref cRef="Kuf." loc="41">Kuf. 41</ref>; <ref cRef="Kid." loc="23">Kid. f. 23</ref>; <ref cRef="F.M." loc="5,1">F.M. 5,1</ref>; <foreign xml:lang="gez">ዘማውያት፡</foreign> <ref cRef="Matth." loc="21,31">Matth. 21,31</ref>; <ref cRef="F.M." loc="34,8">F.M. 34,8</ref>; <foreign xml:lang="grc">μοιχαλίς</foreign> <ref cRef="Prov." loc="18,22">Prov. 18,22</ref>; <ref cRef="Rom." loc="7,3">Rom. 7,3</ref>; <ref cRef="Joh." loc="8,3">Joh. 8,3</ref>; <foreign xml:lang="gez">ትውልድ፡ ዘማዊት፡</foreign> <ref cRef="Matth." loc="12,39">Matth. 12,39</ref>.</sense> </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

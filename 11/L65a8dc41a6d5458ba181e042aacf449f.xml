@@ -1,0 +1,102 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> እሙር </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="AE" when="2018-03-14">Verschachtelung, Referenz,</change>
+        </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L65a8dc41a6d5458ba181e042aacf449f" n="5451">
+               <form>
+                  <foreign xml:lang="gez">እሙር</foreign>
+               </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain"> <gramGrp> <pos expand="participium">part.</pos> </gramGrp> <sense n="1" xml:id="D1"> <cit type="translation" xml:lang="la">
+                                <quote> clarus </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> illustris </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> pellucidus </quote>
+                            </cit> (cfr. <foreign xml:lang="gez">አሚር፡</foreign>): <foreign xml:lang="gez">ከመ፡ ደመናት፡ ወነፋሳት፡ ወዝናማት፡ እሙራት፡ በመዋዕለ፡ ማእረር፡ ኢይበቍዑ፡</foreign> <foreign xml:lang="grc">ἐπιφανέστατα</foreign> <ref cRef="Prov. " loc="25,14">Prov.  25,14</ref> <lbl expand="versio antiqua">vers. ant.</lbl> </sense> <sense n="2" xml:id="D2"> <cit type="translation" xml:lang="la">
+                                <quote> notus </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> cognitus </quote>
+                            </cit>: <foreign xml:lang="gez">እሙረ፡ ይከውን፡ ለክሙ፡ እስመ፡</foreign> <ref cRef="Hen." loc="97,2">Hen. 97,2</ref>; <foreign xml:lang="gez">ከመ፡ እሙረ፡ ይኩን፡ በልብየ፡ ፈቃድከ፡</foreign> Rel. Bar.; <foreign xml:lang="gez">ወይእቲ፡</foreign> (<foreign xml:lang="gez">ሀገር፡</foreign>) <foreign xml:lang="gez">እምርት፡ እስከ፡ ይእዜ፡</foreign> <ref cRef="Jsp." loc="273">Jsp. p. 273</ref>; <foreign xml:lang="gez">መቃብረ፡ ጴጥሮስ፡ ወጳውሎስ፡ ወዮሐንስ፡ ወቶማስ፡ እሙራን፡ ወክሡታን፡</foreign> <ref cRef="Chrys. ho." loc="26">Chrys. ho. 26</ref>; <lbl expand="cum">c.</lbl> <foreign xml:lang="gez">ለ፡</foreign> pers.: <foreign xml:lang="gez">ወትከውን፡ ግብጽ፡ እምርተ፡ ለእግዚአብሔር፡</foreign> <ref cRef="Jes." loc="19,21">Jes. 19,21</ref>, vel <lbl expand="cum">c.</lbl> <foreign xml:lang="gez">በኀበ፡</foreign>, ut: <foreign xml:lang="gez">እምርት፡ ይእቲ፡ በኀበ፡ እግዚአብሔር፡</foreign> <ref cRef="Sap." loc="4,1">Sap. 4,1</ref>; <ref cRef="Zach." loc="14,7">Zach. 14,7</ref>; <ref cRef="Prov." loc="16,2">Prov. 16,2</ref>; <foreign xml:lang="gez">ቀትል፡ በመጥባሕት፡</foreign> (i.e. sica) <foreign xml:lang="gez">ኢኮነ፡ እሙረ፡ በኀበ፡ አይሁድ፡ ቅድመ፡ ውእቱ፡ አዝማን፡</foreign> <ref cRef="Jsp." loc="347">Jsp. p. 347</ref>; <lbl expand="cum">c.</lbl> <foreign xml:lang="gez">በ፡</foreign> nominis (i.e. <foreign xml:lang="ar">مَعْرُوفٌ بِ</foreign>): <foreign xml:lang="gez">ዮሐንስ፡ በመጽሐፈ፡ ራእዩ፡ ዘእሙር፡ በአቡቀለምሲስ፡</foreign> <ref cRef="Abush." loc="20">Abush. 20</ref>; <ref cRef="F.N." loc=" prolg.">F.N.  prolg.</ref> (et in aliis libris ex Arabico versis). <sense n="a" xml:id="D2a"> <cit type="translation" xml:lang="la">
+                                    <quote> agnoscibilis </quote>
+                                </cit>, <cit type="translation" xml:lang="la">
+                                    <quote> noscibilis </quote>
+                                </cit>, <lbl expand="cum">c.</lbl> <foreign xml:lang="gez">በ፡</foreign> notae <ref cRef="1 Joh." loc="3,10">1 Joh. 3,10</ref>; <lbl expand="cum">c.</lbl> <foreign xml:lang="gez">እምነ፡</foreign>, ut: <foreign xml:lang="gez">እምብርሃነ፡ አዕይንቲከ፡ እሙር፡ አንተ፡</foreign> Rel. Bar.</sense> <sense n="b" xml:id="D2b"> <cit type="translation" xml:lang="la">
+                                    <quote> bene notus </quote>
+                                </cit>, <cit type="translation" xml:lang="la">
+                                    <quote> insignis </quote>
+                                </cit>: <foreign xml:lang="gez">ሀገር፡ እምርት፡</foreign> <foreign xml:lang="grc">οὐκ ἄσημος πόλις</foreign> <ref cRef="Act." loc="21,39">Act. 21,39</ref>; <foreign xml:lang="gez">ብእሲ፡ ዘእሙር፡ በኀይል፡ ወጽንዕ፡</foreign> <ref cRef="Jsp. " loc="347.">Jsp.  p. 347.</ref> </sense> </sense> <sense n="3" xml:id="D3"> significatus vel notatus i.e. <cit type="translation" xml:lang="la">
+                                <quote> certus </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> constitutus </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> status </quote>
+                            </cit>: <foreign xml:lang="gez">በእምርት፡ ዕለት፡</foreign> <foreign xml:lang="grc">ἐν εὐσήμῳ ἡμέρᾳ</foreign> <ref cRef="Ps." loc="80,3">Ps. 80,3</ref>; <foreign xml:lang="gez">እስከ፡ ዕድሜ፡ እሙር፡</foreign> <ref cRef="Jsp." loc="281">Jsp. p. 281</ref>; <ref cRef="Hen." loc="78,9">Hen. 78,9</ref>; <foreign xml:lang="gez">በበዓላት፡ እሙራት፡</foreign> F.M. 10,3; <foreign xml:lang="gez">በዓላት፡</foreign> vel <foreign xml:lang="gez">መዋዕል፡ እሙራት፡</foreign> <cit type="translation" xml:lang="la">
+                                <quote> festa solemnia </quote>
+                            </cit>, Lud. e Syn.; <foreign xml:lang="gez">በእምርት፡ ዕለት፡ በዓልነ፡ ንዑ፡ ንትፈሣሕ፡</foreign> Mavâs. 47; <foreign xml:lang="gez">በበሰዓቱ፡ እሙራን፡</foreign> <ref cRef="Clem." loc="250">Clem. f. 250</ref>; etiam <cit type="translation" xml:lang="la">
+                                <quote> certus </quote>
+                            </cit>i.e. <cit type="translation" xml:lang="la">
+                                <quote> quidam </quote>
+                            </cit>, ut <ref cRef="Hen." loc="74,4">Hen. 74,4</ref>; <foreign xml:lang="gez">እሙራን፡ ሰብእ፡</foreign> <foreign xml:lang="grc">τινές</foreign> Cyr. de r. fid. f. 58 (<cit type="translation" xml:lang="la">
+                                <quote> Voc. ad Cyr. </quote>
+                            </cit> male: <foreign xml:lang="gez">እሙር፡ ዘ፡ ረሲዕ፡</foreign>); sine dubio etiam <ref cRef="2 Petr." loc="3,16">2 Petr. 3,16</ref> ant.</sense> </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

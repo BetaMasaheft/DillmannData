@@ -1,0 +1,77 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ዝእብ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="LB" when="2018-04-26">root</change>
+        </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L60a57fe9748d47659db07ce527de9879" n="7640">
+               <form>
+                  <foreign xml:lang="gez">ዝእብ</foreign>
+               <rs type="root"/>
+                    </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain"> <gramGrp> <pos expand="Substantivum">subst.</pos> </gramGrp>, <gramGrp> <gen value="not found">m.</gen> </gramGrp> et <gramGrp> <gen value="femininus">fem.</gen> </gramGrp>, <lbl expand="pluralis">Pl.</lbl> <foreign xml:lang="gez">አዝእብት፡</foreign> [<foreign xml:lang="he">זְאֵב</foreign> <foreign xml:lang="syr">ܕܺܐܒܳܐ</foreign> <foreign xml:lang="ar">ذئْبٌ</foreign> <cit type="translation" xml:lang="la">
+                            <quote> lupus </quote>
+                        </cit>; <lbl expand="videas">vid.</lbl> quae ad <foreign xml:lang="gez">ተኵላ፡</foreign> annotavimus <lbl expand="columna">col.</lbl> 566] <cit type="translation" xml:lang="la">
+                            <quote> hyaena </quote>
+                        </cit> (in Abyssinia frequentissima, <lbl expand="videas">vid.</lbl> Rüppell I p. 227; <ref cRef="Harris II Anh. " loc="51">Harris II Anh.  p. 51</ref>): <foreign xml:lang="gez">ግበ፡ ዝእብ፡</foreign> <foreign xml:lang="grc">σπήλαιον ὑαίνης</foreign> <ref cRef="Jer." loc="12,9">Jer. 12,9</ref>; <foreign xml:lang="grc">ὗς</foreign> <ref cRef="Deut." loc="14,8">Deut. 14,8</ref>; <foreign xml:lang="grc">ὕες</foreign> <foreign xml:lang="gez">አዝእብት፡</foreign> <ref cRef="3 Reg." loc="21,19">3 Reg. 21,19</ref>; <ref cRef="3 Reg." loc="22,38">3 Reg. 22,38</ref>; <foreign xml:lang="gez">አዝእብት፡</foreign> <foreign xml:lang="grc">ὑαίνῃ</foreign> <ref cRef="Sir." loc="13,18">Sir. 13,18</ref>; <foreign xml:lang="gez">ዝእብ፡</foreign> <gramGrp> <gen value="femininus">fem.</gen> </gramGrp>, <ref cRef="Sx. Genb." loc="6">Sx. Genb. 6</ref>; <foreign xml:lang="gez">እሙ፡ ዝእብ፡</foreign> Lud. e Libr. Myst. – At in locis <ref cRef="Hen." loc="89,10">Hen. 89,10</ref>; <ref cRef="Hen. " loc="89,55">Hen.  89,55</ref> ubi praeter <foreign xml:lang="gez">አዝእብት፡</foreign> etiam <foreign xml:lang="gez">አጽዕብት፡</foreign> memorantur et <foreign xml:lang="gez">ተኵላት፡</foreign> desiderantur, nescio an <foreign xml:lang="gez">ዝእብ፡</foreign> significet <cit type="translation" xml:lang="la">
+                            <quote> lupus? </quote>
+                        </cit> – <lbl expand="Vocabularium Aethiopicum, -a -a">Voc. Ae.</lbl>: <foreign xml:lang="gez">ዝእብ፡ ዘ፡ ዥብ፡</foreign> <lbl expand="vel">v.</lbl> <foreign xml:lang="gez">ጅብ፡</foreign> </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

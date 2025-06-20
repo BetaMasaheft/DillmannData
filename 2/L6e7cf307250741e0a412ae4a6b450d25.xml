@@ -1,0 +1,75 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ወሰቀ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="LB" when="2018-04-03">root</change>
+        </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L6e7cf307250741e0a412ae4a6b450d25" n="6566">
+               <form>
+                  <foreign xml:lang="gez">ወሰቀ</foreign>
+               <rs type="root"/>
+                    </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain"> (etiam per <foreign xml:lang="gez">ሠ</foreign>) <subc>I,1</subc> et <subc>I,2</subc> [vid. <foreign xml:lang="gez">መሰከ፡</foreign>, nec non <foreign xml:lang="he">נָשַׁק</foreign>; crebrius usitatur quam <foreign xml:lang="gez">መሰከ፡</foreign>] Imperat. <subc>I,1</subc> <foreign xml:lang="gez">ስቅ፡</foreign>, <cit type="translation" xml:lang="la">
+                            <quote> tendere arcum </quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                            <quote> imponere nervo </quote>
+                        </cit> sagittam: <foreign xml:lang="gez">ወሰቀ፡ ቀስቶ፡</foreign> <ref cRef="Kuf." loc="38">Kuf. 38</ref>; <foreign xml:lang="gez">እለ፡ ወሰቁ፡ አቅስስቲሆሙ፡</foreign> <ref cRef="Jer." loc="4,29">Jer. 4,29</ref>; <ref cRef="Thren." loc="2,4">Thren. 2,4</ref>; <ref cRef="Thren." loc="3,12">Thren. 3,12</ref>; <ref cRef="Ps. " loc="10,2">Ps.  10,2</ref>; <ref cRef="Ps." loc="36,14">Ps. 36,14</ref>; <ref cRef="Ps." loc="63,3">Ps. 63,3</ref>; <ref cRef="2 Par." loc="18,33">2 Par. 18,33</ref>; <foreign xml:lang="gez">ወሰቁ፡ ልሳኖሙ፡ ከመ፡ ቀስት፡ ለሐሰት፡</foreign> <ref cRef="Jer." loc="9,3">Jer. 9,3</ref>; <foreign xml:lang="gez">ስቁ፡ ቀስተክሙ፡ ወንድፍዋ፡</foreign> <ref cRef="Jer. " loc="27,14">Jer.  27,14</ref>; <foreign xml:lang="gez">ወይወስቁ፡</foreign> (v. <foreign xml:lang="gez">ወይዌስቁ፡</foreign>) <foreign xml:lang="gez">ቀስተ፡</foreign> <ref cRef="1 Par." loc="8,40">1 Par. 8,40</ref>; <ref cRef="Ps." loc="77,12">Ps. 77,12</ref>; <foreign xml:lang="gez">ወይዌስቅ፡ ቀስቶ፡</foreign> <ref cRef="Jer." loc="28,3">Jer. 28,3</ref>; <ref cRef="Ps." loc="57,7">Ps. 57,7</ref>; <foreign xml:lang="gez">ወሰቀ፡ ወመሰከ፡ ቀስቶ፡</foreign> <ref cRef="4 Reg." loc="9,24">4 Reg. 9,24</ref>; <foreign xml:lang="gez">ወተረ፡ ቀስቶ፡ ወወሰቀ፡ ቀስቶ፡</foreign> <foreign xml:lang="grc">ἐντείνων ἐνέτεινας τόξον σου</foreign> <ref cRef="Hab." loc="3,9">Hab. 3,9</ref>; <foreign xml:lang="gez">ምስክ፡ ቀስተከ፡ ወወስቅ፡ ሐጸከ፡ ወወሰቀ፡ ዮአስ፡ ወመሰከ፡ ቀስቶ፡</foreign> <ref cRef="4 Reg." loc="13,16">4 Reg. 13,16</ref> (at <lbl expand="videas">vid.</lbl> quae ad <foreign xml:lang="gez">መሰከ፡</foreign> annotata sunt). </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

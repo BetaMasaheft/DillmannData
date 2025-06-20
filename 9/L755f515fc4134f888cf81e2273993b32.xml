@@ -1,0 +1,118 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ተዳደቀ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="AE" when="2019-02-10">Verschachtelung etc.,</change>
+        </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L755f515fc4134f888cf81e2273993b32" n="8166">
+               <form>
+                  <foreign xml:lang="gez">ተዳደቀ</foreign>
+               </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain"> <subc>III,3</subc> <sense n="1" xml:id="D1"> <cit type="translation" xml:lang="la">
+                                <quote> accidere </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> incidere </quote>
+                            </cit>, (<cit type="translation" xml:lang="la">
+                                <quote> casu </quote>
+                            </cit> vel <cit type="translation" xml:lang="la">
+                                <quote> forte </quote>
+                            </cit>) <cit type="translation" xml:lang="la">
+                                <quote> supervenire </quote>
+                            </cit> alicui, <lbl expand="cum">c.</lbl> <gramGrp> <case value="accusativus">Acc.</case> </gramGrp>: <foreign xml:lang="gez">እንተ፡ ኢኀለይኩ፡ ተዳደቀተኒ፡</foreign> <ref cRef="Job" loc="3,25">Job 3,25</ref>; <foreign xml:lang="gez">ከመ፡ ፩ ድድቅ፡ ይዳደቆሙ፡ ለክልኤሆሙ፡</foreign> <ref cRef="Koh." loc="2,14">Koh. 2,14</ref>; <foreign xml:lang="gez">በከመ፡ ይዳደቆ፡ ለአብድ፡ ከማሁ፡ ሊተኒ፡ ይዳደቀኒ፡</foreign> <ref cRef="Koh." loc="2,15">Koh. 2,15</ref>; <foreign xml:lang="gez">እስመ፡ ጊዜ፡ ወድድቅ፡ ይዳደቆሙ፡ ለኵሎሙ፡</foreign> <ref cRef="Koh." loc="9,11">Koh. 9,11</ref>; <ref cRef="Prov." loc="20,30">Prov. 20,30</ref> (<lbl expand="videas">vid. sub</lbl> <foreign xml:lang="gez">ምማቴ፡</foreign>); <foreign xml:lang="gez">ለአብዳን፡ ይዳደቆሙ፡ ሞት፡</foreign> <ref cRef="Koh." loc="24,8">Koh. 24,8</ref>; <foreign xml:lang="gez">ተዳደቆ፡ ድድቅ፡ ለውእቱ፡ ንዋይ፡</foreign> <ref cRef="F.N." loc="41,5">F.N. 41,5</ref>; <foreign xml:lang="gez">በእንተዝ፡ ምንትኒ፡ ርኩስ፡ አልቦ፡ ዘይዳደቃ፡</foreign> <ref cRef="Sap." loc="7,25">Sap. 7,25</ref>; <foreign xml:lang="gez">ሶበ፡ አልጸቀ፡ ዕድሜሁ፡ ወተዳደቆ፡ ዕለቱ፡</foreign> <ref cRef="Sx. Jac." loc="10 Enc.">Sx. Jac. 10 Enc.</ref>; <foreign xml:lang="gez">ጊዜ፡ ተዳደቆ፡ መዊት፡</foreign> <ref cRef="Sx. Sen." loc="16 Enc.">Sx. Sen. 16 Enc.</ref>; <foreign xml:lang="gez">ለእመ፡ ተዳደቆ፡ ግብተ፡ ደዌ፡</foreign> F.M. 27,3; <foreign xml:lang="gez">ዘተዳደቆ፡</foreign> <cit type="translation" xml:lang="la">
+                                <quote> quod casu ei accidit </quote>
+                            </cit> F.N. 24,2; <foreign xml:lang="gez">እምተዳድቆቱ፡ ለፈለግ፡</foreign> a superventu fluminis, Lud. e Mss. Colb. <sense n="a" xml:id="D1a"> <cit type="translation" xml:lang="la">
+                                    <quote> incidere in </quote>
+                                </cit> aliquid i.e. <cit type="translation" xml:lang="la">
+                                    <quote> casu </quote>
+                                </cit> vel <cit type="translation" xml:lang="la">
+                                    <quote> forte nancisci </quote>
+                                </cit> aliquid: <foreign xml:lang="gez">ጽኑዐ፡ ልብ፡ ኢይዳደቅ፡ ሠናየ፡</foreign> <ref cRef="Prov." loc="17,20">Prov. 17,20</ref>; <foreign xml:lang="gez">ልበ፡ አብዳን፡ ይዳደቅ፡ መርገመ፡</foreign> <ref cRef="Prov." loc="12,23">Prov. 12,23</ref>; <foreign xml:lang="gez">ይዳደቅ፡ ሕብል፡ ለአሥግሮ፡</foreign> <ref cRef="Prov." loc="12,27">Prov. 12,27</ref>.</sense> <sense n="b" xml:id="D1b"> <cit type="translation" xml:lang="la">
+                                    <quote> forte adesse </quote>
+                                </cit> vel <cit type="translation" xml:lang="la">
+                                    <quote> intervenire </quote>
+                                </cit> rei: <foreign xml:lang="gez">እለ፡ ይዳደቅዋ፡ ለድቀቶሙ፡</foreign> <foreign xml:lang="grc">προσδεχόμενοι τὴν πτῶσιν αὐτῶν</foreign> <ref cRef="Hez." loc="32,10">Hez. 32,10</ref>.</sense> <sense n="c" xml:id="D1c"> <cit type="translation" xml:lang="la">
+                                    <quote> improviso </quote>
+                                </cit> <cb n="1130" xml:id="c1130"/> <cit type="translation" xml:lang="la">
+                                    <quote> incidere in </quote>
+                                </cit> aliquem, <cit type="translation" xml:lang="la">
+                                    <quote> forte occurrere </quote>
+                                </cit>, <cit type="translation" xml:lang="la">
+                                    <quote> obvium fieri </quote>
+                                </cit>: <foreign xml:lang="gez">ዘይዳደቅ፡</foreign> <foreign xml:lang="grc">ὁ συναντῶν Ρ</foreign>rov. 12,13; <foreign xml:lang="gez">ሶቤሃ፡ ትዳደቆ፡</foreign> <ref cRef="Prov." loc="7,10">Prov. 7,10</ref>; <ref cRef="Job" loc="36,32">Job 36,32</ref>; <ref cRef="Luc." loc="10,31">Luc. 10,31</ref>; <ref cRef="Act." loc="17,17">Act. 17,17</ref> <lbl expand="romanae editionis">rom.</lbl> </sense> <sense n="d" xml:id="D1d"> <cit type="translation" xml:lang="la">
+                                    <quote> casu evenire </quote>
+                                </cit> vel <cit type="translation" xml:lang="la">
+                                    <quote> accidere </quote>
+                                </cit> vel <cit type="translation" xml:lang="la">
+                                    <quote> fieri </quote>
+                                </cit> vel <cit type="translation" xml:lang="la">
+                                    <quote> intervenire </quote>
+                                </cit>: <foreign xml:lang="gez">እስመ፡ ሶበ፡ ኀለፈ፡ ተዳድቆተ፡ ስረቱ፡ ይሬሲ፡ ነፋሰ፡ ቀሊለ፡</foreign> <ref cRef="Sap." loc="5,11">Sap. 5,11</ref>; <foreign xml:lang="gez">እስመ፡ ኮነ፡ ዕለቱ፡ ሰንበተ፡ ወተዳደቀ፡ እምድኅሬሁ፡ በዓለ፡ እልአንሰራ፡</foreign> <ref cRef="Jsp." loc="299">Jsp. p. 299</ref>; liberasset me <foreign xml:lang="gez">እመንሱት፡ በባሕር፡ ወበየብስ፡ ወእምዘ፡ ይዳደቅ፡ እምሰማይ፡ ወምድር፡</foreign> <ref cRef="Jsp." loc="339">Jsp. p. 339</ref>; non consulto <foreign xml:lang="gez">አላ፡ በተዳድቆ፡ ግብት፡</foreign> (<cit type="translation" xml:lang="la">
+                                    <quote> casu improviso </quote>
+                                </cit>) F.M. 4,2.</sense> <sense n="e" xml:id="D1e"> <cit type="translation" xml:lang="la">
+                                    <quote> supervenire </quote>
+                                </cit> hostili modo: <foreign xml:lang="gez">ከመ፡ ይዳደቅዋ፡ ለሀገር፡</foreign> <ref cRef="Jsp." loc="345">Jsp. p. 345</ref>; <foreign xml:lang="gez">ይመጽአክሙ፡ ወይዳደቀክሙ፡ ጽልዕ፡ ወባእስ፡ ውስተ፡ ሀገርክሙ፡</foreign> <ref cRef="Jsp." loc="345.">Jsp. p. 345.</ref> </sense> </sense> <sense n="2" xml:id="D2"> <cit type="translation" xml:lang="la">
+                                <quote> se objicere </quote>
+                            </cit> vel <cit type="translation" xml:lang="la">
+                                <quote> immittere </quote>
+                            </cit> i.e. <cit type="translation" xml:lang="la">
+                                <quote> irruere </quote>
+                            </cit> in pugnam vel bellum: <foreign xml:lang="gez">ተዳደቁ፡ ኵሎሙ፡ ውስተ፡ ፀብእ፡</foreign> <ref cRef="Jsp." loc="358">Jsp. p. 358</ref>; <foreign xml:lang="gez">ኢይደሉ፡ ንዳደቃ፡ ለፀብእ፡ ዘእንበለ፡ በትእዛዘ፡ እግዚአብሔር፡</foreign> <ref cRef="Jsp." loc="351.">Jsp. p. 351.</ref> — Voc. Ae.: <foreign xml:lang="gez">ተዳደቆ፡ ዘ፡ ተገናኘው።</foreign> </sense> </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,96 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ድኅሪተ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L88abc83b1eb3422db8dadc3c0c793bb9" n="8014">
+               <form>
+                  <foreign xml:lang="gez">ድኅሪተ</foreign>
+               </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain">
+                  <gramGrp>
+                     <pos expand="adverbium, adverbialiter">adv.</pos>
+                  </gramGrp> (Acc. a <foreign xml:lang="gez">ድኅሪት፡</foreign>) <sense n="1" xml:id="D1">
+                     <cit type="translation" xml:lang="la">
+                        <quote>retro</quote>
+                     </cit>, <cit type="translation" xml:lang="la">
+                        <quote>retrorsum</quote>
+                     </cit>, <cit type="translation" xml:lang="la">
+                        <quote>rursum</quote>
+                     </cit>: <ref cRef="1 Reg." loc="4,18">1 Reg. 4,18</ref>; <foreign xml:lang="gez">ከመ፡ ይደቁ፡ ድኅሪተ፡</foreign>
+                     <ref cRef="Jes." loc="28,13">Jes. 28,13</ref>; <ref cRef="Thren." loc="1,8">Thren. 1,8</ref>; <ref cRef="Gen." loc="9,23">Gen. 9,23</ref>; <ref cRef="Jer." loc="15,6">Jer. 15,6</ref> gloss.; <foreign xml:lang="gez">ኢገብኡ፡
+                        ድኅሪተ፡</foreign> Lud. ex <ref cRef="Sx. Haml." loc="25 ">Sx. Haml. 25
+                     </ref>Enc. Passim latine adjectivo <cit type="translation" xml:lang="la">
+                        <quote>retroversus</quote>
+                     </cit> interpretandum est, ut: <foreign xml:lang="gez">የሐርስ፡ ድኅሪተ፡</foreign>
+                     <ref cRef="Luc." loc="9,62">Luc. 9,62</ref>; <foreign xml:lang="gez">ገጾሙ፡ ድኅሪተ፡ </foreign>
+                     <ref cRef="Kuf." loc="7">Kuf. 7</ref>; <foreign xml:lang="gez">እንዘ፡ እሱራን፡ እሙንቱ፤
+                        እደዊሆሙ፡ ድኅሪተ፡ </foreign> Mavâs. 22.</sense>
+                  <sense n="2" xml:id="D2">
+                     <cit type="translation" xml:lang="la">
+                        <quote>retro</quote>
+                     </cit> i.e. <cit type="translation" xml:lang="la">
+                        <quote>a tergo</quote>
+                     </cit>, <cit type="translation" xml:lang="la">
+                        <quote>pone</quote>
+                     </cit>, <ref cRef="1 Reg." loc="29,3">1 Reg. 29,3</ref> (coll. 2.).</sense>
+               </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

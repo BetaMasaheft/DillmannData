@@ -1,0 +1,97 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ኢትዮጵያ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="VP" when="2017-07-26">addition of Source Traces with information from Marrassini 1993</change>
+            <change who="VP" when="2017-07-26">IN Sence Traces: number of the lines added after "page" within the "Bibliography" and  "Reference" </change>
+        <change who="VP" when="2017-11-23">English Translation, abbrevation [[+n.pr.+]] and numbers of the sentences in the Reference added.</change>
+            <change who="VP" when="2017-12-13">Sence Traces revised</change>
+            <change who="VP" when="2017-12-13">Bibliography revised and Italian Translation added in Sence Traces</change>
+            <change who="VP" when="2017-12-13">Sence Traces: small correction in the Bibliography</change>
+            <change who="VP" when="2017-12-13">revision of Sence Traces</change>
+            <change who="VP" when="2017-12-13">small correction in Sense traces</change>
+            <change who="VP" when="2017-12-13">"&gt;gez!ʾItyoṗyā" added after ; </change>
+            <change who="VP" when="2017-12-13">"&gt;" added within the Transcription </change>
+            <change who="VP" when="2018-01-24">TraCES: Bibliography and Reference updated.</change>
+            <change who="VP" when="2018-01-24">small correction</change>
+            <change who="VP" when="2018-03-23">Traces: revision</change>
+        <change who="MK" when="2018-12-17">added witness</change>
+            <change who="VP" when="2019-04-30">small correction</change>
+        </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L634e62e43efc462790b1d19c90a4df9f" n="10829">
+               <form>
+                  <foreign xml:lang="gez">ኢትዮጵያ</foreign>
+               </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain"> Aethiopia, Aethiopes. </sense>
+               
+            <sense xml:lang="en" source="#traces" xml:id="Tmain"> <cit type="transcription" xml:lang="gez">
+                            <quote> ʾityoṗyā </quote>
+                        </cit> <gramGrp> <pos expand="nomen proprium">n. pr.</pos> </gramGrp> (place name) <cit type="translation" xml:lang="en">
+                            <quote> Ethiopia </quote>
+                        </cit> <bibl>
+                            <ptr target="bm:Marrassini1993AmdaSeyon"/>
+                            <citedRange unit="page"> 50:3 (ed.); 50:12 (ed.); 52:2 (ed.); 52:7 (ed.); 52:20 (ed.); 62:11 (ed.); 62:13 (ed.)</citedRange>
+                        </bibl> <ref cRef="Chron. Am." loc="1">Chron. Am. 1</ref> <ref cRef="Chron. Am." loc="4">Chron. Am. 4</ref> <ref cRef="Chron. Am." loc="5">Chron. Am. 5</ref> <ref cRef="Chron. Am." loc="6">Chron. Am. 6</ref> <ref cRef="Chron. Am." loc="11">Chron. Am. 11</ref> <ref cRef="Chron. Am." loc="32">Chron. Am. 32</ref>; <foreign xml:lang="gez">እትዮጵያ፡</foreign> <cit type="transcription" xml:lang="gez">
+                            <quote> ʾǝtyoṗyā </quote>
+                        </cit> <bibl>
+                            <ptr target="bm:Bezold1905KebraN"/>
+                            <citedRange unit="page"> 126 n. 5 (ed.)</citedRange>
+                        </bibl> </sense>
+                </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

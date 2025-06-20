@@ -1,0 +1,81 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ዐቈረ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="LB" when="2018-04-03">root</change>
+        </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L4d06a2451c5a46488cc8a907aeacf2be" n="7098">
+               <form>
+                  <foreign xml:lang="gez">ዐቈረ</foreign>
+               <rs type="root"/>
+                    </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain"> <subc>I,1</subc> [vicina sunt <foreign xml:lang="ar">عَجَرَ</foreign> et multae radices Arab. Syr. et Hebr., ab <foreign xml:lang="he">עק</foreign> incipientes, quas enumeratas videas in Ges. thes. p. 1062 sub <foreign xml:lang="he">עָקַשׁ</foreign>] <gramGrp> <pos expand="Subjunctivus">Subj.</pos> </gramGrp> <foreign xml:lang="gez">ይዕቈር፡</foreign>, <cit type="translation" xml:lang="la">
+                            <quote> involvere </quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                            <quote> constringere </quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                            <quote> colligare </quote>
+                        </cit>: <foreign xml:lang="gez">መኑ፡ የዐቊር፡ እሳተ፡ ውስተ፡ ሕፅኑ፡</foreign> <foreign xml:lang="grc">ἀποδήσει</foreign> <ref cRef="Prov." loc="6,27">Prov. 6,27</ref>; <ref cRef="Sx. Tachs." loc="5 ">Sx. Tachs. 5 </ref>Enc.; <ref cRef="Sx. Mag." loc="12 ">Sx. Mag. 12 </ref>Enc.; <foreign xml:lang="gez">ወአሰርዎ፡ ዐቊሮሙ፡ ኵሎ፡ ወርቀ፡</foreign> <foreign xml:lang="grc">ἔσφιξαν</foreign> <ref cRef="4 Reg." loc="12,10">4 Reg. 12,10</ref>; <foreign xml:lang="gez">የዐቊሮ፡ ለማይ፡ ዲበ፡ ደመና፡</foreign> <foreign xml:lang="grc">δεσμεύων</foreign> <ref cRef="Job" loc="26,8">Job 26,8</ref>; <foreign xml:lang="gez">መኑ፡ ዐቈረ፡ ማያተ፡ በልብሱ፡</foreign> <foreign xml:lang="grc">συνέστρεψε</foreign> <ref cRef="Prov." loc="24,27">Prov. 24,27</ref>; <foreign xml:lang="gez">ለዛቲ፡ ገነት፡</foreign> (horto comparatur collectio sententiarum) <foreign xml:lang="gez">ትጸውራ፡ በእንግዳእከ፡ ወበልብከ፡ ተዐቊራ፡</foreign> Fal. (in proleg.); <foreign xml:lang="gez">ሕንባባተ፡ ሮማን፡ በልብሱ፡ ዐቊሮ፡</foreign> <ref cRef="Sx. Ter" loc="13 ">Sx. Ter 13 </ref>Enc.; Deus <foreign xml:lang="gez">ይኤዝዝ፡ ደመናተ፡ ከመ፡ ይዕቈሩ፡ ወይጾሩ፡ ወይሰዱ፡</foreign> (sc. <foreign xml:lang="gez">ማየ፡</foreign>) <foreign xml:lang="gez">ኀበ፡ ዘፈቀዱ፡ ያውርዱ፡</foreign> <ref cRef="Clem." loc="171">Clem. f. 171</ref>; <foreign xml:lang="gez">የዐቊር፡ ማየ፡</foreign> (sc. seminis) <foreign xml:lang="gez">በማሕፀን፡</foreign> Lit. Orth.; passim <cit type="translation" xml:lang="la">
+                            <quote> retinere </quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                            <quote> cohibere </quote>
+                        </cit>: <foreign xml:lang="gez">ወሚመ፡ ደመናት፡ ይክሉኑ፡ ዐቊረ፡ ዝናም፡</foreign> <ref cRef="Macc." loc="4">Macc. f. 4</ref>; <foreign xml:lang="gez">ደመናት፡ ይዕቈሩ፡ ማያተ፡</foreign> Lit. </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,110 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> አይ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="LB" when="2018-03-19">root</change>
+        <change who="MK" when="2019-03-19">an entry moved and corrected </change>
+            <change who="AE" when="2019-03-20">Verschachtelung,</change>
+            <change who="MK" when="2019-03-22">corr</change>
+            <change who="PL" when="2019-03-22">RIE references</change>
+            <change who="PL" when="2019-03-23">Removed from email notification by Andreas Ellwardt and Alessandro Bausi</change>
+        </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L94117dfa1e41471e9ddee0f0a3373573" n="5847">
+               <form>
+                  <foreign xml:lang="gez">አይ</foreign>
+               <rs type="root"/>
+                    </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain"> <gramGrp> <pos expand="pronomen">pron.</pos> </gramGrp> interrog. <gramGrp> <pos expand="adjectivum">adj.</pos> </gramGrp> [<foreign xml:lang="ar">أَيٌّ</foreign>, <foreign xml:lang="he">אֵי</foreign>], <gramGrp> <gen value="not found">m.</gen> </gramGrp> et <gramGrp> <gen value="femininus">fem.</gen> </gramGrp>, <lbl expand="pluralis">Pl.</lbl> <foreign xml:lang="gez">አያት፡</foreign> <sense n="1" xml:id="D1"> interrog., in quaestionibus directis et indirectis, <sense n="a" xml:id="D1a"> <gramGrp> <pos expand="adjectivum">adj.</pos> </gramGrp>: <cit type="translation" xml:lang="la">
+                                    <quote> qui ? qualis? </quote>
+                                </cit> (<cit type="translation" xml:lang="la">
+                                    <quote> uter? </quote>
+                                </cit>): <foreign xml:lang="gez">አይ፡ ብሔር፡ ማኅደሩ፡ ለብርሃን፡</foreign> (<foreign xml:lang="grc">ποῖος</foreign>) <ref cRef="Job " loc="38,19">Job  38,19</ref>; <foreign xml:lang="gez">አእምሩ፡ አይ፡ ፍኖት፡ ሠናይ፡</foreign> <ref cRef="Jer." loc="6,16">Jer. 6,16</ref>; <gramGrp> <pos expand="adverbium, adverbialiter">adv.</pos> </gramGrp> interrog. <foreign xml:lang="gez">ኑ፡</foreign> annexo auctum: <foreign xml:lang="gez">አይኑ፡ ዘርእ፡ ክቡር፡</foreign> <ref cRef="Sir." loc="10,19">Sir. 10,19</ref>; <foreign xml:lang="gez">አይኑ፡ መጽሐፈ፡ ኅድጋቲሃ፡</foreign> <ref cRef="Jes." loc="50,1">Jes. 50,1</ref>; <foreign xml:lang="gez">አይኑ፡ ሕዝብ፡</foreign> <ref cRef="4 Esr." loc="1,33">4 Esr. 1,33</ref>; <ref cRef="Matth." loc="22,36">Matth. 22,36</ref>; suo substantivo postpositum: <foreign xml:lang="gez">ወያአምሩ፡ መናብርት፡ አይ፡ ዚአሆሙ፡</foreign> <ref cRef="Asc. Jes." loc="9,12">Asc. Jes. 9,12</ref>; praedicati loco positum: <foreign xml:lang="gez">አይኑ፡ ውእቱ፡ መዋቲ፡ ዘይነጽሕ፡</foreign> <ref cRef="Job" loc="4,17">Job 4,17</ref>; <foreign xml:lang="gez">አይ፡ ውእቱ፡ ዝንቱ፡ ወርኅ፡</foreign> Rel. Bar.; <foreign xml:lang="gez">አይ፡ ይእቲ፡ ፍኖተ፡ ሲኦል፡</foreign> <ref cRef="4 Esr." loc="2,14">4 Esr. 2,14</ref>; <ref cRef="4 Esr." loc="2,15">4 Esr. 2,15</ref>; <gramGrp> <case value="accusativus">Acc.</case> </gramGrp>: <foreign xml:lang="gez">አየ፡ ፍኖተ፡</foreign> (v. <foreign xml:lang="gez">ፍኖት፡</foreign>) <foreign xml:lang="gez">ኀለፈ፡</foreign> <ref cRef="2 Par." loc="18,23">2 Par. 18,23</ref>; <foreign xml:lang="gez">አየኑ፡ ቤተ፡ ተሐንጹ፡ ሊተ፡</foreign> <ref cRef="Jes." loc="66,1">Jes. 66,1</ref>; <foreign xml:lang="gez">አየ፡ ኀጢአተ፡ ገብሩ፡</foreign> Rel. Bar.; <ref cRef="Act." loc="7,49">Act. 7,49</ref>; Genit.: <foreign xml:lang="gez">ዘአይ፡ አምላክ፡</foreign> <cit type="translation" xml:lang="la">
+                                    <quote> qualis Dei? </quote>
+                                </cit> Cyr. de r. fid. f. 41; praemissis praepositionibus: <foreign xml:lang="gez">በአይ፡ እደው፡</foreign> Cyr. ad <ref cRef="Theod." loc="9">Theod. f. 9</ref>; <foreign xml:lang="gez">በአይ፡ እምእላንቱ፡ እሣሀሎሙ፡</foreign> <ref cRef="Jer." loc="5,7">Jer. 5,7</ref>; <foreign xml:lang="gez">በአይ፡ ፍኖት፡</foreign> <ref cRef="Sir." loc="30,40">Sir. 30,40</ref>; <ref cRef="Matth." loc="21,24">Matth. 21,24</ref>; <ref cRef="Matth." loc="24,42">Matth. 24,42</ref>; <ref cRef="Rom." loc="3,27">Rom. 3,27</ref>; <cb n="0795" xml:id="c0795"/> <foreign xml:lang="gez">በአይ፡ ልሳን፡ ንክል፡ ነጊረ፡ ግብረቶን፡</foreign> <ref cRef="Gad. Lal." loc="">Gad. Lal. </ref> ; <ref cRef="Clem." loc="46">Clem. f. 46</ref>; <ref cRef="Clem." loc="56">Clem. f. 56</ref>; <foreign xml:lang="gez">በአይ፡ ፍና፡</foreign> <foreign xml:lang="grc">τίνα τρόπον</foreign> Cyr. c. <ref cRef="Pall." loc="97">Pall. f. 97</ref>; <foreign xml:lang="gez">ለአይ፡ ወለማእዜ፡ መዋዕል፡</foreign> <ref cRef="1 Petr." loc="1,11">1 Petr. 1,11</ref>; <foreign xml:lang="gez">እመአይ፡ ሕዝብ፡</foreign> <ref cRef="Tob." loc="5,9">Tob. 5,9</ref>; <ref cRef="Tob." loc="5,11">Tob. 5,11</ref>; <foreign xml:lang="gez">በእንተ፡ አይ፡ ኀጢአት፡</foreign> <ref cRef="Hen." loc="21,4">Hen. 21,4</ref>; <foreign xml:lang="gez">በታሕተ፡ አይ፡ ዕፅ፡</foreign> <ref cRef="Dan. apocr. " loc="1,54">Dan. apocr.  1,54</ref>; <lbl expand="pluralis">Pl.</lbl> <ref cRef="Matth." loc="19,18">Matth. 19,18</ref>; <foreign xml:lang="gez">አያተ፡ ሥሕጸታተ፡</foreign> Cyr. c. <ref cRef="Pall." loc="66">Pall. f. 66</ref>; <lbl expand="cum">c.</lbl> <gramGrp> <pos expand="pronomen suffixum">pron. suff.</pos> </gramGrp> : <foreign xml:lang="gez">አያቶሙ፡ ይኄይሱ፡</foreign> <cit type="translation" xml:lang="la">
+                                    <quote> qui eorum sunt meliores? </quote>
+                                </cit> <ref cRef="Phlx." loc="1.">Phlx. 1.</ref> </sense> <sense n="b" xml:id="D1b"> <cit type="translation" xml:lang="la">
+                                    <quote> quid? qualis res? </quote>
+                                </cit> <foreign xml:lang="gez">አይ፡ ይከውን፡ እምዝ፡ ወእምዝ፡</foreign> <ref cRef="Koh." loc="11,6">Koh. 11,6</ref>; <foreign xml:lang="gez">በአይ፡</foreign> <cit type="translation" xml:lang="la">
+                                    <quote> quare? </quote>
+                                </cit> <foreign xml:lang="gez">ዘይብሎ፡ ለአቡሁ፡ ምንተ፡ ወለድከኒ፡ ወለእሙኒ፡ በአይ፡ ማሕምምኪ፡</foreign> <ref cRef="Jes." loc="45,10">Jes. 45,10</ref>.</sense> <sense n="c" xml:id="D1c"> <gramGrp> <pos expand="adverbium, adverbialiter">adv.</pos> </gramGrp> <foreign xml:lang="gez">አይ፡</foreign> <cit type="translation" xml:lang="la">
+                                    <quote> quomodo? </quote>
+                                </cit> <ref cRef="Ex." loc="4,10">Ex. 4,10</ref> (si non: <cit type="translation" xml:lang="la">
+                                    <quote> qualis </quote>
+                                </cit> ego?).</sense> </sense> <sense n="2" xml:id="D2"> indef. <cit type="translation" xml:lang="la">
+                                <quote> quicumque </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> qualiscumque </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> quilibet </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> quisquis </quote>
+                            </cit>, (<cit type="translation" xml:lang="la">
+                                <quote> utercumque </quote>
+                            </cit>); <sense n="a" xml:id="D2a"> <foreign xml:lang="gez">አይ፡</foreign>, ut: <foreign xml:lang="gez">ውስተ፡ አይ፡ መካን፡ ሀሎ፡</foreign> <cit type="translation" xml:lang="la">
+                                    <quote> in quocumque loco fuerit </quote>
+                                </cit> <ref cRef="Genz." loc="155">Genz. f. 155</ref>; <foreign xml:lang="gez">ኵሉ፡ አሕላም፡ በአይ፡ ገጽ፡ ኮነ፡</foreign> <cit type="translation" xml:lang="la">
+                                    <quote> omnia somnia qualiacumque sint </quote>
+                                </cit> <ref cRef="Kedr f." loc="73.">Kedr f. 73.</ref> </sense> <sense n="b" xml:id="D2b"> <foreign xml:lang="gez">አይሂ፡</foreign> — vel <foreign xml:lang="gez">አይኒ፡</foreign>, ut: <foreign xml:lang="gez">አይሂ፡ ዘተምዐ፡</foreign> <cit type="translation" xml:lang="la">
+                                    <quote> quicumque irascitur </quote>
+                                </cit> <ref cRef="Phlx." loc="54">Phlx. 54</ref>; <foreign xml:lang="gez">በእንተ፡ አይኒ፡ ኀጢአት፡ ዘኮነተ፡</foreign> <ref cRef="Phlx." loc="37">Phlx. 37</ref>; <ref cRef="Phlx." loc="171 ">Phlx. 171 </ref>(<lbl expand="videas">vid. sub</lbl> <foreign xml:lang="gez">ታሕጻጽ፡</foreign>).</sense> <sense n="c" xml:id="D2c"> <cit type="translation" xml:lang="la">
+                                    <quote> ullus </quote>
+                                </cit> in sententiis negativis: <foreign xml:lang="gez">ወኢበአይ፡ መንግሥት፡</foreign> <ref cRef="3 Reg." loc="10,20">3 Reg. 10,20</ref>. — <lbl expand="videas">Vid.</lbl> <foreign xml:lang="gez">አይቴ፡</foreign>, <foreign xml:lang="gez">እፎ፡</foreign>, <foreign xml:lang="gez">እስፍንቱ።</foreign> </sense> </sense> </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

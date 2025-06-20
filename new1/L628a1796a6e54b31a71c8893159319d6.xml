@@ -1,0 +1,145 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="gez">ነጋሽ</title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+               <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+            </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+         <listPrefixDef>
+            <prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="MK" when="2019-05-07">added new entry</change>
+         <change who="MK" when="2019-05-07">corr</change>
+         <change who="PL" when="2019-05-10">restored change made by Magda before crash on
+            9.5.2019</change>
+         <change who="MK" when="2019-08-31">added etymology</change>
+         <change who="MK" when="2022-03-01">correction </change>
+         <change who="MK" when="2022-04-27">added compound</change>
+         <change who="MK" when="2022-04-27">correction</change>
+         <change who="MK" when="2022-04-27">correction</change>
+         <change who="MK" when="2022-04-27">correction</change>
+         <change who="MK" when="2022-05-16">added compound</change>
+         <change who="MK" when="2022-05-16">correction</change>
+         <change who="MK" when="2022-05-16">added etymology</change>
+         <change who="MK" when="2022-05-16">correction</change>
+         <change who="MK" when="2022-05-16">correction</change>
+         <change who="MK" when="2022-05-16">added example</change>
+         <change who="MK" when="2022-07-18">added example</change>
+         <change who="MK" when="2022-07-18">added translation</change>
+         <change who="MK" when="2022-07-18">correction</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L628a1796a6e54b31a71c8893159319d6" n="12587">
+               <form>
+                  <foreign xml:lang="am">ነጋሽ</foreign>
+               </form>
+               <sense xml:id="Tmain" xml:lang="en" source="#traces">
+                  <cit type="transcription" xml:lang="gez">
+                     <t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> nagāš </t:quote>
+                  </cit>
+                  <gramGrp>
+                     <pos expand="Substantivum">subst.</pos>
+                  </gramGrp> (title) <foreign xml:lang="gez">ወበውእቱ፡ ሰሙን፡ አስተፋነዎሙ፡ ለስዩማን፡ ዓበይት፡ ዳሞት፡
+                     ጸሐፈ፡ ላም፡ ወሸዋ፡ ጸሐፈ፡ ላም፡ ጐዣም፡ ነጋሽ፡ ወአምሐራ፡ ጸሐፈ፡ ላም፡ ገንዝ፡ ገራድ፡ ወጅ፡ ቃጽ፡ ወባሊ፡
+                     ገራድ።</foreign> ‘<cit type="translation" xml:lang="fr">
+                     <t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> Cette semaine-là, (le roi)
+                        renvoya tous les grands chefs, le ṣaḥafa lām du Dāmot, le ṣaḥafa lām du
+                        Schoa, le nagāš du Godjam, le ṣaḥafa lām de l’Amhara, le garād du Ganz, le
+                        qāṣ du Waǧ, le garād du Bāli </t:quote>
+                  </cit>’ <bibl><ptr target="bm:ContiRossini1907SarsaDengel"/><citedRange unit="page"> 83 l. 16–19 (ed.)</citedRange></bibl>, <bibl><ptr target="bm:ContiRossini1907SarsaDengelV"/><citedRange unit="page"> 95 l.
+                        12–15 (tr.)</citedRange></bibl>
+                  <sense n="a" xml:id="Ta">
+                     <foreign xml:lang="gez">ባሕር፡ ነጋሽ፡</foreign>
+                     <cit type="transcription" xml:lang="gez">
+                        <t:quote xmlns:t="http://www.tei-c.org/ns/1.0">bāḥr nagāš</t:quote>
+                     </cit>, <foreign xml:lang="gez">ባሕረ፡ ነጋሢ፡</foreign>
+                     <cit type="transcription" xml:lang="gez">
+                        <t:quote xmlns:t="http://www.tei-c.org/ns/1.0">bāḥra nagāśi</t:quote>
+                     </cit> (title) ‘governor of the Red See coastal provinces’ <bibl><ptr target="bm:Chernetsov2003BaherNegash"/></bibl> ‘<foreign xml:lang="gez">ወአሜሃ፡ አመ፡ ነሥኡ፡ ሓማሴን፡ ኪዳነ፡ እምኀ[sopra በ]፡ ንጉሥ፡ እንዘ፡ ከንቲባ፡ በእምነት፡ ወልደ፡ አሕዴ፡
+                        አንበሳ፡ ወልደ፡ ዛናይ፡ ወልደ፡ ድማዛን። ወእምደቂቀ፡ ጠርቃይሂ፡ እንዘ፡ ከንቲባ፡ ንድኃን፡ ወልደ፡ ቴዎድሮስ፡ ወልደ፡
+                        አሕዴ፡ አንበሳ፡ ወልደ፡ ጠርቃይ። ወእንዘ፡ ባሕረ፡ ነጋሢ፡ ኵም፡ አንበሳ፣</foreign> ‘<cit type="translation" xml:lang="it">
+                        <t:quote xmlns:t="http://www.tei-c.org/ns/1.0">allora, quando lo Ḥamāsēn
+                           ricevette il patto dal re, mentre era kantibā Ba’emnat figlio di Aḥdē
+                           Anbasā figlio di Zānāy figlio di Demmāzān, dei figli di Ṭarqāy mentre era
+                           kantibā Nedḫān figlio di Tēwodros figlio di Aḥdē Anbasā figlio di Ṭarqāy,
+                           e mentre era bāḥra nagāsi Kʷem Anbasā:</t:quote>
+                     </cit>’ <bibl><ptr target="bm:Bausi1997ManoscrittiEritreaParteIII"/><citedRange unit="page"> 37 I l. 13–16 (ed.), 34 I l. 9–13 (tr.)</citedRange></bibl>;
+                        <foreign xml:lang="gez">እንዘ፡ ባሕረ፡ ነጋሢ፡ ሮስ፡ ነቢያት፡</foreign> ‘<cit type="translation" xml:lang="fr">
+                        <t:quote xmlns:t="http://www.tei-c.org/ns/1.0">pendant que le bāḥra nagāsi
+                           était Ros Nabiyāt </t:quote>
+                     </cit>’ <bibl><ptr target="bm:ContiRossini1909LiberT"/><citedRange unit="page">
+                           26 l. 30–31 (ed.)</citedRange></bibl>, <bibl><ptr target="bm:ContiRossini1910LiberV"/><citedRange unit="page"> 30 l. 19–20
+                           (tr.)</citedRange></bibl>; <foreign xml:lang="gez">እመቦ፡ ዘሄደ፡ ወዘዓገለ፡ እመሂ፡
+                        ባሕረ፡ ነጋሢ፡ ወእመሂ፡ ሥዩመ፡ ቡር፡</foreign> ‘<cit type="translation" xml:lang="fr">
+                        <t:quote xmlns:t="http://www.tei-c.org/ns/1.0">S’il se trouve quelqu’un qui
+                           viole ou transgresse [cet acte], bāḥra nagāsi, ou chef du Bur, </t:quote>
+                     </cit>’ <bibl><ptr target="bm:ContiRossini1909LiberT"/><citedRange unit="page">
+                           36 l. 3–4 (ed.)</citedRange></bibl>, <bibl><ptr target="bm:ContiRossini1910LiberV"/><citedRange unit="page"> 42 l. 15–16
+                           (tr.)</citedRange></bibl>; <foreign xml:lang="gez">ወቦአ፡ ወሰገደ፡ ሎቱ፡ ባሕር፡
+                        ነጋሽ፡ ተስፋ፡ ጽዮን፡ አስተጋቢኦ፡ ብዙኃነ፡ ሠራዊተ፡ ወሰብአ፡ አፍራስ፡ ዘአልቦሙ፡ ኍልቍ፡ እምጽዋዕ፡
+                        ወባሕር።</foreign> ‘<cit type="translation" xml:lang="fr">
+                        <t:quote xmlns:t="http://www.tei-c.org/ns/1.0">Ayant réuni des nombreux
+                           guerries et des cavaliers innombrables, à partir de Meṣwāʿ (Massaoua) et
+                           de la mer, le bāḥr nagāš Tasfā Ṣyon vint se soumettre, se prostera devant
+                           le [daǧ azmāč],</t:quote>
+                     </cit>’ <bibl><ptr target="bm:ContiRossini1909LiberT"/><citedRange unit="page">
+                           81 l. 24–26 (ed.)</citedRange></bibl>, <bibl><ptr target="bm:ContiRossini1910LiberV"/><citedRange unit="page"> 98 l. 4–6
+                           (tr.)</citedRange></bibl></sense>
+                  <sense n="C" xml:id="TC"> ● <lbl expand="videas">vid.</lbl> also <foreign xml:lang="gez">ነጋሢ፡</foreign>
+                  </sense>
+                  <sense n="E" xml:id="TE"> from Amharic <foreign xml:lang="am">ነጋሽ፡</foreign><cit type="transcription" xml:lang="gez">
+                        <t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> nagāš </t:quote>
+                     </cit>
+                  </sense>
+                  <nd/>
+               </sense>
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

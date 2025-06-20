@@ -1,0 +1,67 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="gez">ግምዛ</title>
+                <author>Alessandro Bausi</author>
+                <author>Andreas Ellwardt</author>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+                <publisher>TraCES project.
+                                    https://www.traces.uni-hamburg.de/</publisher>
+                <pubPlace>Hamburg</pubPlace>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/">
+                                        This file is licensed under the Creative Commons
+                                        Attribution-ShareAlike Non Commercial 4.0. </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+                </p>
+                <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>A digital edition of the Lexicon in TEI.</p>
+        <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="la">latin</language>
+                <language ident="it">Italian</language>
+                <language ident="gez">Gǝʿǝz</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="syr">Syriac</language>
+                <language ident="ar">Arabic</language>
+                <language ident="sa">Sanskrit</language>
+                <language ident="geo">Georgian</language>
+                <language ident="cop">Coptic</language>
+                <language ident="osa">Old South Arabian</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change who="MK" when="2018-06-29">added entry</change>
+            <change who="MK" when="2018-07-09">corr</change>
+        <change who="MK" when="2019-12-06">corr of the reference </change></revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <entry xml:id="L56d2626be80a4a31944dd5a42fa3e38d" n="12393">
+                    <form>
+                        <foreign xml:lang="gez">ግምዛ</foreign>
+                    </form>
+                    <sense xml:id="Tmain" xml:lang="en" source="#traces"> <cit type="transcription" xml:lang="gez"><quote> gǝmzā </quote></cit> <gramGrp><pos expand="Substantivum">subst.</pos></gramGrp> <cit type="translation" xml:lang="en"><quote> cloth made of precious and high quality fabric </quote></cit> <foreign xml:lang="gez">ንሥኡአ፡ ዘንተ፡ ወርቀ፡ ወግምዛ፡ ለቤተ፡ ክርስቲያን፡</foreign> ‘<cit type="translation" xml:lang="fr"><quote> Recevez cet or et ce vêtement de prix pour l’église </quote></cit>’ <bibl><ptr target="bm:Colin1990Samuel"/><citedRange unit="page"> 62 l. 28 - 63 l.1 (ed.)</citedRange></bibl>, <bibl><ptr target="bm:Colin1990SamuelV"/><citedRange unit="page"> 50 l. 25-26 (tr.)</citedRange></bibl> (‘Il s’agait d’un vêtement ou d’une étoffe de prix, cf. les dictionnaires amhariques et tigraï s.v. gemǧā et <bibl><ptr target="bm:Getatchew1980Halleluya"/><citedRange unit="page"> 169 n. 4</citedRange></bibl>, <bibl><ptr target="bm:Colin1990SamuelV"/><citedRange unit="page"> 50 n. 103</citedRange></bibl>) <nd/> </sense>
+                </entry>
+            </div>
+        </body>
+    </text>
+</TEI>

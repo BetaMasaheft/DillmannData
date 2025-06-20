@@ -1,0 +1,93 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ዜና </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="AE" when="2018-10-06">Verschachtelung,</change>
+            <change who="AE" when="2018-10-06">nochmal,</change>
+            <change who="MK" when="2019-03-20">added new collocation</change>
+            <change who="MK" when="2019-03-20">new collocation</change>
+            <change who="MK" when="2019-03-20">removed tr</change>
+            <change who="MK" when="2019-09-02">added new compound</change>
+            <change who="MK" when="2019-09-02">added translit</change>
+            <change who="MK" when="2019-09-02">corr</change>
+            <change who="MK" when="2019-09-02">corr</change>
+            <change who="MK" when="2019-09-04">corr</change>
+        <change who="MK" when="2019-11-20">added nesting</change><change who="MK" when="2019-12-03">test</change><change who="MK" when="2019-12-03">corr</change><change who="MK" when="2023-02-03">correction</change><change who="MK" when="2023-02-03">added Les</change></revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L49035195ba954b20939e04bf0d9cceb2" n="7694">
+               <form>
+                  <foreign xml:lang="gez">ዜና</foreign>
+               </form>
+               <sense xml:id="Dmain" xml:lang="la" source="#dillmann"> <gramGrp> <pos expand="Substantivum">subst.</pos> </gramGrp>, <gramGrp> <gen value="not found">m.</gen> </gramGrp> et <gramGrp> <gen value="femininus">fem.</gen> </gramGrp>, <lbl expand="pluralis">Pl.</lbl> <foreign xml:lang="gez">ዜናት፡</foreign> <sense n="1" xml:id="D1"> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> nuntius </t:quote></cit> i.e. res nuntiata: <foreign xml:lang="gez">ዛቲ፡ ይእቲ፡ ዜና፡</foreign> 1 <ref cRef="Joh." loc="1,5">Joh. 1,5</ref>; <foreign xml:lang="gez">ዜና፡ ሠናይ፡</foreign> <ref cRef="Prov." loc="12,25">Prov. 12,25</ref>; <ref cRef="Prov." loc="25,25">Prov. 25,25</ref>; <foreign xml:lang="gez">በእንተ፡ ዜና፡ ዘይመጽእ፡</foreign> <ref cRef="Hez." loc="21,7">Hez. 21,7</ref>; <ref cRef="Ruth" loc="2,11">Ruth 2,11</ref>; <ref cRef="Jes. " loc="28,9">Jes.  28,9</ref>; <ref cRef="Jes." loc="52,7">Jes. 52,7</ref>; <foreign xml:lang="gez">እምድኅረ፡ በጽሐ፡ ዜና፡ ቅትለቱ፡</foreign> <ref cRef="Sx. Teq." loc="9.">Sx. Teq. 9.</ref> <sense n="a" xml:id="D1a"> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> nuntius laetus </t:quote></cit>: <ref cRef="Luc." loc="2,10">Luc. 2,10</ref>; <ref cRef="2 Reg." loc="18,22">2 Reg. 18,22</ref>; <foreign xml:lang="gez">ወጻእነ፡ ከመ፡ ንስብክ፡ ዜና፡ ወንጌል፡ ቅዱስ፡ ውስተ፡ ኵሉ፡ ዓለም፡</foreign> <ref cRef="Clem." loc="103">Clem. f. 103</ref>; <ref cRef="Clem." loc="166">Clem. f. 166</ref>; <foreign xml:lang="gez">ብእሴ፡ ዜና፡</foreign> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> laeta annuntians </t:quote></cit> <ref cRef="2 Reg. " loc="18,20">2 Reg.  18,20</ref>; <foreign xml:lang="gez">ሰብአ፡ ዜና፡</foreign> <ref cRef="Nah." loc="2,1">Nah. 2,1</ref>; (<foreign xml:lang="gez">በዓል፡</foreign>) <foreign xml:lang="gez">ዘዜና፡ ዘገብርኤል፡</foreign> (<cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> festum </t:quote></cit>) <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> annuntiationis Gabrielis </t:quote></cit>, Cod. Mus. Brit. XXIX, n. 38. 
+</sense> <sense n="b" xml:id="D1b"> pro concreto: <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> nuntius </t:quote></cit>, <foreign xml:lang="gez">መጽአ፡ ዜና፡ ኀበ፡ ሳኦል፡</foreign> <foreign xml:lang="grc">ἄγγελος</foreign> <ref cRef="1 Reg." loc="23,27">1 Reg. 23,27</ref>; <foreign xml:lang="gez">ወዝንቱ፡ ዜና፡ መጽአ፡</foreign> <foreign xml:lang="grc">εὐαγγελιζόμενος</foreign> <ref cRef="2 Reg." loc="18,26">2 Reg. 18,26</ref>. 
+</sense> <sense n="c" xml:id="D1c"> <foreign xml:lang="gez">ዘተኀጥአ፡ ዜናሁ፡</foreign> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> de quo nuntius desideratur </t:quote></cit> vel <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> deest </t:quote></cit> (<cit type="translation" xml:lang="de"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> Verschollener </t:quote></cit>) F.N. 42,13; divortium permittitur <foreign xml:lang="gez">በእንተ፡ ተኀጥኦ፡ ዜና፡</foreign> F.M. 12,7. 
+</sense> <sense n="d" xml:id="D1d"> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> praenuntiatio </t:quote></cit>: <foreign xml:lang="gez">ፈጻሜ፡ አምሳል፡ ወዜና፡</foreign> impletor typorum et praedictionum, <ref cRef="Sx. Jac." loc="8 Enc.">Sx. Jac. 8 Enc.</ref> 
+</sense> 
+</sense> <sense n="2" xml:id="D2"> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> fama </t:quote></cit> <sense n="a" xml:id="D2a"> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> rumor </t:quote></cit>, <foreign xml:lang="grc">ἀκοή</foreign> <ref cRef="2 Reg." loc="13,30">2 Reg. 13,30</ref>; <foreign xml:lang="gez">ዜና፡ ኄራት፡</foreign> <foreign xml:lang="grc">φήμη ἀγαθή</foreign> <ref cRef="Prov." loc="15,30">Prov. 15,30</ref>; <foreign xml:lang="gez">ይሰምዕ፡ ዜና፡</foreign> <foreign xml:lang="grc">ἀγγελία</foreign> <ref cRef="Jes." loc="37,7">Jes. 37,7</ref>; <foreign xml:lang="gez">ወተሰምዐ፡ ዜናሆሙ፡ እስከ፡ ርሑቅ፡ ብሔር፡</foreign> <ref cRef="2 Par." loc="26,15">2 Par. 26,15</ref>. 
+</sense> <sense n="b" xml:id="D2b"> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> existimatio </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> nomen </t:quote></cit>: <foreign xml:lang="gez">ንግሥተ፡ ሳባእ፡ ሰምዐት፡ ዜናሁ፡ ለሰሎሞን፡</foreign> <foreign xml:lang="grc">ὄνομα</foreign> <ref cRef="2 Par." loc="9,1">2 Par. 9,1</ref>; <foreign xml:lang="gez">ሕሡም፡ ዜና፡</foreign> <ref cRef="II Abtel." loc="39">II Abtel. 39</ref>; <foreign xml:lang="gez">ተሰምዐ፡ ዜናሁ፡ ወዝክሩ፡ ሠናይ፡</foreign> <ref cRef="Sx. Jac." loc="14">Sx. Jac. 14</ref>; <foreign xml:lang="gez">ሠናይ፡ ዜና፡ በኂሩት፡ ወበንጽሕ፡</foreign> („bona fama probitatis et castitatis“ Lud. e Vit. Sam. 
+</sense> 
+</sense> <sense n="3" xml:id="D3"> in specie <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> nuntius de valetudine </t:quote></cit> vel salute alicujus, quare passim vertere licet <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> res </t:quote></cit> alicujus vel <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> quomodo </t:quote></cit> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> aliquis se habeat </t:quote></cit>: <foreign xml:lang="gez">ተስእሎሙ፡ ዜናሆሙ፡</foreign> <foreign xml:lang="grc">πῶς ἔχετε</foreign> <ref cRef="Gen." loc="43,27">Gen. 43,27</ref>; <foreign xml:lang="gez">ከመ፡ ይስማዕ፡ ዜናሃ፡ ለአስቴር፡ ዘከመ፡ ሀለወት፡</foreign> <ref cRef="Esth." loc="2,11">Esth. 2,11</ref>; <foreign xml:lang="gez">አነ፡ እልእክ፡ ኀበ፡ አቡከ፡ ከመ፡ ይንግርዎ፡ ዜናከ፡</foreign> <ref cRef="Tob. " loc="10,8">Tob.  10,8</ref>; <foreign xml:lang="gez">ዜናሆሙ፡ ንሣእ፡</foreign> <ref cRef="1 Reg." loc="17,18">1 Reg. 17,18</ref>; <foreign xml:lang="gez">ከመ፡ ታእምሩ፡ ዜናየ፡</foreign> <ref cRef="Phil." loc="1,12">Phil. 1,12</ref>; <ref cRef="Phil." loc="2,19">Phil. 2,19</ref>; <ref cRef="Eph. " loc="6,22">Eph.  6,22</ref>. 
+</sense> <sense n="4" xml:id="D4"> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> narratio </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> res novae </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> res gestae </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> historia </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> res </t:quote></cit>: Deus <cb n="1065" xml:id="c1065"/> nos edocuit <foreign xml:lang="gez">በእንተ፡ እላንቱ፡ ፪ ዜናት፡</foreign> F.M. 3,3; <foreign xml:lang="gez">በከመ፡ ተጽሕፈ፡ በዜናቲሆሙ፡ ለቅዱሳን፡</foreign> <ref cRef="Phlx." loc="194">Phlx. 194</ref>; <foreign xml:lang="gez">ንጽሕፍ፡ ዜናሁ፡ ለአፈ፡ ወርቅ፡</foreign> <ref cRef="Chrys." loc="1">Chrys. f. 1</ref>; <foreign xml:lang="gez">ዜናሆሙ፡ ለእለ፡ ነግሡ፡ እምድኅረ፡ ኵርሽ፡</foreign> <ref cRef="Jsp." loc="276">Jsp. p. 276</ref>; <foreign xml:lang="gez">ዜናሁ፡ ለእስክንድር፡</foreign> <ref cRef="Jsp. " loc="279">Jsp.  p. 279</ref>; <foreign xml:lang="gez">ዜና፡ አይሁድ፡</foreign> Jsp. in tit. (<lbl expand="videas">vid. sub</lbl> <foreign xml:lang="gez">ተዛወገ፡</foreign>); <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> enarratio </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> exposito </t:quote></cit>, ut: <foreign xml:lang="gez">ዜና፡ ሃይማኖት፡</foreign> <ref cRef="Cat. Mus. Brit. " loc="23">Cat. Mus. Brit.  p. 23</ref>ª. 
+</sense> </sense>
+               
+            <sense xml:id="Tmain" xml:lang="en" source="#traces"> <ptr target="#D4"/> <sense n="a" xml:id="Ta"><foreign xml:lang="gez">ዜና፡ ሐቃላውያን፡</foreign> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> zenā ḥaqālāwǝyān </t:quote></cit> <foreign xml:lang="gez">ወአመ፡ ካልእት፡ ዓመተ፡ መንግሥቱ፡ ለማር፡ ገላውዴዎስ፡ ተጸገወት፡ ቤተ፡ ክርስቲያን፡ ጸጋ፡ መዊእ፡ እምእግዚአብሔር፡ ክቡር፡ ወልዑል፡ ወተወጥነት፡ ግብር፡ ዘጽሕፍት፡ ውስተ፡ ዜና፡ ሐቃላውያን።</foreign> ‘<cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> In the second year of the reign of Mar Gälawdewos the Church received the grace of victory from God glorious and the most high and tribute was begun which is written in the account of farmers </t:quote></cit>’ <bibl><ptr target="bm:Solomon2019GalawdewosI"/><citedRange unit="page"> 19 § 26 (ed.)</citedRange></bibl>, <bibl><ptr target="bm:Solomon2019GalawdewosII"/><citedRange unit="page"> 11 § 26 (tr.)</citedRange></bibl> (‘<foreign xml:lang="gez">ዜና፡ ሐቃላውያን</foreign> could have been an important document of the royal court in which the list of taxes was recorded.’ <bibl><ptr target="bm:Solomon2019GalawdewosII"/><citedRange unit="page"> 11 n. 40</citedRange></bibl>), <lbl expand="videas">vid.</lbl> <foreign xml:lang="gez">ሐቀላዊ፡</foreign> 
+</sense> <sense n="b" xml:id="Tb"> <foreign xml:lang="gez">ዜና፡ አዝማናት፡</foreign> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> zenā ʾazmānāt </t:quote></cit> <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> chronicle </t:quote></cit> ‘<cit type="translation" xml:lang="de"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> Chronik </t:quote></cit>’ <foreign xml:lang="gez">ንወጥን፡ ጽሒፈ፡ ዜና፡ አዝማናት፡ ዘኮነ፡ በመዋዕለ፡ ነገሥት፡ ርቱዓነ፡ ሃይማኖት።</foreign> ‘<cit type="translation" xml:lang="de"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> wollen wir beginnen, die Chronik dessen zu schrieben, was sich in den Tagen der rechtgläubigen Könige zugetragen hat </t:quote></cit>’ <bibl><ptr target="bm:Kropp1988LebnaI"/><citedRange unit="page"> 1 l. 2–3 (ed.)</citedRange></bibl>, <bibl><ptr target="bm:Kropp1988LebnaII"/><citedRange unit="page"> 1 l. 2–3 (tr.)</citedRange></bibl> (‘So lautet in der äthiopischen Übersetzung auch der Titel der Universalgeschichte des Walda-ʿAmid (al-Makīn): <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> tārika </t:quote></cit> bzw. <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> zēnā azmānāt </t:quote></cit>.’ <bibl><ptr target="bm:Kropp1988LebnaII"/><citedRange unit="page"> 1 n. 1</citedRange></bibl>), <lbl expand="videas">vid.</lbl> <foreign xml:lang="gez">ዘመን፡</foreign> 
+</sense> <sense n="L" xml:id="TL"> <foreign xml:lang="gez">ዜና፡ ሐሰት፡</foreign> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">zenā ḥassat</t:quote></cit> <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">false report</t:quote></cit>, <lbl expand="videas">vid.</lbl> <foreign xml:lang="gez">ሐሰት፡</foreign> <bibl><ptr target="bm:Leslau1987dic"/><citedRange unit="page"> 246a</citedRange></bibl> 
+</sense> </sense>
+                </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

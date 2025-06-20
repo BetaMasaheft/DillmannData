@@ -1,0 +1,97 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ሐለየ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="SH" when="2018-11-13">added PoS verb I,2 with German translatation and references</change>
+            <change who="SH" when="2018-11-13">added another reference</change>
+        </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L46e88b26281e44929a4e2c07f97f456a" n="518">
+               <form>
+                  <foreign xml:lang="gez">ሐለየ</foreign>
+               </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain"> <subc>I,1</subc> <gramGrp> <pos expand="Subjunctivus">Subj.</pos> </gramGrp> <foreign xml:lang="gez">ይሕሊ፡</foreign> aures mulcere sonis suavibus i.e. <sense n="1" xml:id="D1"> <cit type="translation" xml:lang="la">
+                                <quote> canere </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> cantare </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> instrumentis musicis </quote>
+                            </cit> vel <cit type="translation" xml:lang="la">
+                                <quote> ad corum modos canere </quote>
+                            </cit>, <lbl expand="cum">c.</lbl> absolute: <ref cRef="Jud." loc="5,1">Jud. 5,1</ref>; <ref cRef="1 Reg." loc="18,7">1 Reg. 18,7</ref> (<foreign xml:lang="grc">ἐξῆρχον</foreign>); <foreign xml:lang="gez">እንዘ፡ የሐልያ፡</foreign> <foreign xml:lang="grc">ἐν χορείᾳ</foreign> <ref cRef="Judith" loc="15,13">Judith 15,13</ref>; <lbl expand="cum">c.</lbl> <gramGrp> <case value="accusativus">Acc.</case> </gramGrp> cantici: <foreign xml:lang="gez">አሐሊ፡ ማሕሌተ፡</foreign> <ref cRef="Jes." loc="5,1">Jes. 5,1</ref>; <ref cRef="Jes." loc="26,1">Jes. 26,1</ref>; <ref cRef="Ps." loc="136,4">Ps. 136,4</ref>; <ref cRef="Ps." loc="163,5">Ps. 163,5</ref> (<foreign xml:lang="gez">ሕልዩ፡</foreign>); <ref cRef="Num." loc="21,17">Num. 21,17</ref>; <ref cRef="Apoc." loc="14,3">Apoc. 14,3</ref>; <foreign xml:lang="gez">ብዙኀ፡ ሕልዪ፡</foreign> <ref cRef="Jes." loc="23,16">Jes. 23,16</ref>; <foreign xml:lang="gez">ንሕሊ፡ ማሕሌተ፡ መንፈሳዊተ፡</foreign> F.M. 32,7; <lbl expand="cum">c.</lbl> <foreign xml:lang="gez">ለ</foreign> pers. <ref cRef="Jud." loc="5,3">Jud. 5,3</ref>; <ref cRef="Ps." loc="136,4">Ps. 136,4</ref>; <lbl expand="cum">c.</lbl> <foreign xml:lang="gez">በ</foreign> argumenti <ref cRef="Ps." loc="137,6">Ps. 137,6</ref>; <lbl expand="cum">c.</lbl> <foreign xml:lang="gez">በ</foreign> instrumenti: <foreign xml:lang="gez">ኅልዩ፡ ለእግዚአብሔር፡ በጸናጽል፡</foreign> <ref cRef="Judith" loc="16,1">Judith 16,1</ref>; <ref cRef="2 Reg." loc="6,5">2 Reg. 6,5</ref>; <ref cRef="Jes." loc="5,12">Jes. 5,12</ref>.</sense> <sense n="2" xml:id="D2"> <cit type="translation" xml:lang="la">
+                                <quote> cantare </quote>
+                            </cit> aliquem vel aliquid i.e. <cit type="translation" xml:lang="la">
+                                <quote> cantando celebrare </quote>
+                            </cit>, vel <cit type="translation" xml:lang="la">
+                                <quote> cantando irridere </quote>
+                            </cit>: <foreign xml:lang="gez">ምሕረተ፡ ወፍትሐ፡ አሐሊ፡ ለከ፡</foreign> <ref cRef="Ps." loc="100,1">Ps. 100,1</ref>; <foreign xml:lang="gez">ሐለያሁ፡ ወዘመራሁ፡ በበረከተ፡ እግዚአብሔር፡</foreign> <ref cRef="Sir." loc="47,6">Sir. 47,6</ref>; <foreign xml:lang="gez">ኪያየ፡ የሐልዩ፡</foreign> <ref cRef="Ps." loc="68,15">Ps. 68,15</ref>; <ref cRef="Thren." loc="3,14">Thren. 3,14</ref>. – Nonnumquam in libris mss. <subc>I,2</subc> Imperf. <foreign xml:lang="gez">ይሔሊ፡</foreign>, <gramGrp> <pos expand="Subjunctivus">Subj.</pos> </gramGrp> <foreign xml:lang="gez">የሐሊ፡</foreign> legitur (ut <ref cRef="Jud." loc="5,1">Jud. 5,1</ref> CG; <ref cRef="Judith" loc="16,1">Judith 16,1</ref> Cod. Francf.). – [An haec radix cum hebr. <foreign xml:lang="he">הִלֵּל</foreign> componenda videatur?]</sense> </sense>
+               
+            <sense xml:lang="en" source="#traces" xml:id="Tmain"> <gramGrp>
+                            <pos expand="not found">verb</pos> </gramGrp> <subc>I,2</subc> <cit type="transcription" xml:lang="gez">
+                            <quote>ḥallaya</quote>
+                        </cit> <cit type="translation" xml:lang="de">
+                            <quote> singen</quote>
+                        </cit> <bibl>
+                            <ptr target="bm:Bezold1905KebraN"/>
+                            <citedRange unit="page">xxiib</citedRange>
+                        </bibl>; <ref cRef="Kebr. Nag." loc="55,4">Kebr. Nag. 55,4</ref>, <ref cRef="Kebr. Nag." loc="55,5">Kebr. Nag. 55,5</ref>, <ref cRef="Kebr. Nag." loc="55,9">Kebr. Nag. 55,9</ref> <bibl>
+                            <ptr target="bm:Bezold1905KebraN"/>
+                            <citedRange unit="page">61a l. 25, 61b l. 1 (ed.)</citedRange>
+                        </bibl> </sense>
+                </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

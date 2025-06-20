@@ -1,0 +1,94 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> አብጥሊስ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="MK" when="2018-02-08">Added witness</change>
+            <change who="MK" when="2018-02-08">Added two dots</change>
+            <change who="LB" when="2018-03-18">root</change>
+            <change who="MK" when="2018-04-18">corr</change>
+            <change who="MK" when="2018-04-18">corr</change>
+            <change who="MK" when="2018-04-18">added invert. commas</change>
+        <change who="AE" when="2018-05-11">durch fehlenden Punkt irritierte Bibliographie korrigiert,</change>
+            <change who="MK" when="2019-04-11">corr</change>
+        </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="Le415d8d7bbaf4b71b82523dd8321e60b" n="5662">
+               <form>
+                  <foreign xml:lang="gez">አብጥሊስ</foreign>
+               <rs type="root"/>
+                    </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain">, etiam <foreign xml:lang="gez">አብጠሊስ፡</foreign>, <foreign xml:lang="gez">አብስልጢስ፡</foreign> vel <foreign xml:lang="gez">አብስልጥስ፡</foreign>, <lbl expand="pluralis">Pl.</lbl> <foreign xml:lang="gez">አብጥሊሳት፡</foreign>, etiam <foreign xml:lang="gez">በጥልሳት፡</foreign> <gramGrp> <pos expand="not found">n. peregr.</pos> </gramGrp>, <lbl expand="scilicet">sc.</lbl> <cit type="translation" xml:lang="la">
+                            <quote> titulus </quote>
+                        </cit> (ex arab. <foreign xml:lang="ar">التطلسات</foreign> corruptum, ut luculenter demonstravit<bibl>
+                            <ptr target="bm:Ludolf1691Commentarius"/>
+                        </bibl> p. 329; <bibl>
+                            <ptr target="bm:Ludolf1691Commentarius"/>
+                        </bibl> p. 330; <lbl expand="videas">vid.</lbl> <foreign xml:lang="gez">ተጥላሳት፡</foreign> col. 573) vel <cit type="translation" xml:lang="la">
+                            <quote> canon </quote>
+                        </cit>: <foreign xml:lang="gez">አብጥሊስ፡ ብ፡ ቀኖና፡ በልሳነ፡ ጽርእ፡</foreign>, et <foreign xml:lang="gez">ፍካሬ፡ አብጥሊስ፡ አው፡ በጥልሳት፡ ቀኖና፡ ውእቱ፡ በልሳነ፡ ጽርእ፡</foreign> Lud. e Syn. – In specie <sense n="a" xml:id="Da"> vocatur <foreign xml:lang="gez">አብጥሊሳት፡</foreign> una ex variis, quae apud Abyssinos circumferuntur, Canonum Apostolicorum collectionibus, <ref cRef="Syn." loc="102">Syn. f. 102</ref>–126; et ejusdem alia recensio <ref cRef="Syn." loc="171">Syn. f. 171</ref>–178; <ref cRef="Syn." loc="198">Syn. 198</ref>–215 (<lbl expand="videas">vid.</lbl> Lud. comm. hist. p. 330 <lbl expand="sequens">seq.</lbl>); <lbl expand="conferas">cfr.</lbl> varios tractatus, libro Synodi annexos, f. 314–398, quorum singuli <foreign xml:lang="gez">ግጽው፡ ወሥርዐት፡</foreign> – <foreign xml:lang="gez">አብስልጢስ፡</foreign> (v. <foreign xml:lang="gez">አብጥሊስ፡</foreign>) <foreign xml:lang="gez">ቀኖና፡</foreign> inscripti esse solent.</sense> <sense n="b" xml:id="Db"> collectio quaedam Statutorum Regum, quae in F.N. excerpta sunt, et <foreign xml:lang="gez">ተጥላሳት፡</foreign> (in Cod. Ox., <lbl expand="videas">vid.</lbl> Cat. Cod. Ae. Bibl. <ref cRef="Bodl." loc="27">Bodl. p. 27</ref>) vel <foreign xml:lang="gez">አብጥሊስ፡</foreign> (in Cod. Francf.) appellantur, F.N. in proleg.</sense> </sense>
+               
+            <sense xml:lang="en" source="#traces" xml:id="Tmain"> <cit type="transcription" xml:lang="gez">
+                            <quote>ʾabṭǝlis</quote>
+                        </cit> <foreign xml:lang="gez">በሥርዓተ፡ አብጥሊስ፡ ተቀንየ፡</foreign> ‘<cit type="translation" xml:lang="it">
+                            <quote> si sottomise alla disposizione dei Canoni Apostolici </quote>
+                        </cit>’ <bibl>
+                            <ptr target="bm:Tedros2009TawaldaMadehnVittore"/>
+                            <citedRange unit="page"> 106 (186) l. 5 (ed.); 107 (187) l. 6 (tr.)</citedRange>
+                        </bibl> </sense>
+                </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

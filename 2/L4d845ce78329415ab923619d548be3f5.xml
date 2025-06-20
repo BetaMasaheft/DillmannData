@@ -1,0 +1,76 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ሐጸረ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="MK" when="2023-08-07">added Gr and Les</change></revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L4d845ce78329415ab923619d548be3f5" n="986">
+               <form>
+                  <foreign xml:lang="gez">ሐጸረ</foreign>
+               </form>
+               <sense xml:id="Dmain" xml:lang="la" source="#dillmann"> <subc>I,1</subc> [amh. <foreign xml:lang="gez">አጸረ፡</foreign>; i.q. <foreign xml:lang="he">חָצַר</foreign> (in <foreign xml:lang="he">חָצֵר</foreign> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> locus septus, area, atrium, villa </t:quote></cit>), <foreign xml:lang="ar">حَصَرَ</foreign> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> circumdedit, in angustiam redegit </t:quote></cit> (<foreign xml:lang="ar">حِصَارٌ</foreign> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> sepimentum, castellum </t:quote></cit>) <foreign xml:lang="ar">حَظَرَ</foreign> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> prohibuit </t:quote></cit> (<foreign xml:lang="ar">حِظَارٌ</foreign> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> paries, sepimentum </t:quote></cit>); <lbl expand="vicinus">vic.</lbl> est <foreign xml:lang="gez">ቀጸረ፡</foreign> q.v.] <gramGrp> <pos expand="Subjunctivus">Subj.</pos> </gramGrp> <foreign xml:lang="gez">ይሕጽር፡</foreign> <sense n="1" xml:id="D1"> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> circumdare </t:quote></cit> vel <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> cingere </t:quote></cit> re, in sp. sepimento, muro, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> consepire </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> circumsepire </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> obstruere </t:quote></cit> vel <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> concludere sepimento </t:quote></cit> vel <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> muro </t:quote></cit>: <foreign xml:lang="gez">ሐጸሩኒ፡ በሐሰት፡</foreign> <foreign xml:lang="grc">ἐκύκλωσέ με ἐν ψεύει</foreign> <ref cRef="Hos." loc="11,12">Hos. 11,12</ref>; <foreign xml:lang="gez">ሰረገላተ፡ እሳት፡ ሐጸሮ፡</foreign> (v. <foreign xml:lang="gez">ሕጹር፡</foreign>) <foreign xml:lang="gez">ላዕለ፡ ኤልሳዕ፡</foreign> <foreign xml:lang="grc">περικύκλῳ Ἐλισαιέ</foreign> <ref cRef="4 Reg." loc="6,17">4 Reg. 6,17</ref>; <foreign xml:lang="gez">አሐጽር፡ ፍኖታ፡ በሦክ፡</foreign> <ref cRef="Hos." loc="2,8">Hos. 2,8</ref>; <foreign xml:lang="gez">እመኒ፡ ሐጸርከ፡ በሦክ፡ ላዕለ፡ ንዋይከ፡</foreign> <ref cRef="Sir." loc="28,24">Sir. 28,24</ref>; <foreign xml:lang="gez">አሐጽር፡ ሎሙ፡ ዐውደ፡ ደብርየ፡</foreign> <ref cRef="Hez." loc="34,26">Hez. 34,26</ref>; <foreign xml:lang="gez">ወሐጸሮ፡ ለማይ፡ በትእዛዙ፡</foreign> <foreign xml:lang="grc">πρόσταγμα ἐγύρωσεν ἐπὶ πρόσωπον ὕδατος</foreign> <ref cRef="Job" loc="26,10">Job 26,10</ref>; <foreign xml:lang="gez">ሐጸርክዋ፡ ለባሕር፡ በአናቅጽ፡</foreign> <ref cRef="Job" loc="38,8">Job 38,8</ref>; <foreign xml:lang="grc">συμφράξει</foreign> <ref cRef="Jes." loc="27,12">Jes. 27,12</ref>. Etiam <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> obice intercludere </t:quote></cit> aquas: <foreign xml:lang="gez">ሐጸርኩ፡ ወአንጸፍኩ፡ ማየ፡</foreign> <foreign xml:lang="grc">ἔθηκα γέφυραν καὶ ἠρήμωσα ὕδατα</foreign> <ref cRef="Jes." loc="37,25">Jes. 37,25</ref>.
+</sense> <sense n="2" xml:id="D2"> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> circumvallare </t:quote></cit> i.e. et <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> munitionibus praemunire </t:quote></cit> locum et <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> operibus cingere </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> obsidere </t:quote></cit>. <sense n="a" xml:id="D2a"> <foreign xml:lang="gez">ሐጸሩ፡ አርእስተ፡ አድባር፡</foreign> <foreign xml:lang="grc">ἐτείχισαν</foreign> <ref cRef="Judith" loc="5,1">Judith 5,1</ref>; <lbl expand="translate">transl.</lbl>: <foreign xml:lang="gez">ይሕጽርክሙ፡ በሐጹረ፡ መስቀሉ፡</foreign> <ref cRef="Genz." loc="153.">Genz. f. 153.</ref> 
+</sense> <sense n="b" xml:id="D2b"> <lbl expand="cum">c.</lbl> <gramGrp> <case value="accusativus">Acc.</case> </gramGrp>: <foreign xml:lang="gez">አሐጽረኪ፡ በማኅፈድ፡</foreign> <ref cRef="Jes." loc="29,3">Jes. 29,3</ref>; <ref cRef="Jer." loc="21,4">Jer. 21,4</ref> <lbl expand="versio altera">vers. alt.</lbl>; <ref cRef="Jer." loc="52,4">Jer. 52,4</ref>; <foreign xml:lang="gez">ተሐጽራ፡ በተዓይን፡</foreign> <ref cRef="Hez." loc="4,2">Hez. 4,2</ref>; <ref cRef="Hez." loc="21,22">Hez. 21,22</ref>; <ref cRef="Hez." loc="26,8">Hez. 26,8</ref>; <ref cRef="4 Reg." loc="25,1">4 Reg. 25,1</ref>; <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> Vespasianus </t:quote></cit> <foreign xml:lang="gez">ሐጸራ፡ ለቤተ፡ መቅደስ፡</foreign> <ref cRef="Jsp." loc="342">Jsp. p. 342</ref>; <lbl expand="cum">c.</lbl> <foreign xml:lang="gez">ውስተ፡</foreign>, ut: <foreign xml:lang="gez">ሕጽሩ፡</foreign> (v. <foreign xml:lang="gez">ሕጸሩ፡</foreign>) <foreign xml:lang="gez">ሐጹረ፡ ውስተ፡ ሀገር፡</foreign> <ref cRef="3 Reg." loc="20,12">3 Reg. 20,12</ref>; <foreign xml:lang="gez">ላዕለ፡</foreign>, ut: <foreign xml:lang="gez">ይትዓየኑኪ፡</foreign> <cb n="0134" xml:id="c0134"/> <foreign xml:lang="gez">ወየሐጽሩ፡ ላዕሌኪ፡</foreign> <ref cRef="Luc." loc="19,43">Luc. 19,43</ref> <lbl expand="romanae editionis">rom.</lbl> – <foreign xml:lang="gez">ሐጸረ፡ ዘ፡ ደመቀ፡</foreign> (<lbl expand="videas">vid.</lbl> <foreign xml:lang="gez">ሐጸረ፡</foreign> <subc>III,3</subc>).
+</sense> 
+</sense> </sense>
+               
+            <sense xml:id="Tmain" xml:lang="en" source="#traces"> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">ḥaṣara</t:quote></cit>, <foreign xml:lang="gez">ኀፀረ</foreign> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">ḫaḍara</t:quote></cit> <sense n="G"> <foreign xml:lang="gez">ሐጸረ፡</foreign> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">ḥaṣara</t:quote></cit> <subc>I,1</subc> <foreign xml:lang="gez">የሐጽር፡</foreign>, <foreign xml:lang="gez">ይሕጽር፡</foreign> «<cit type="translation" xml:lang="fr"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">enceindre</t:quote></cit>, <cit type="translation" xml:lang="fr"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">entourer d’enceinte</t:quote></cit>» ― <foreign xml:lang="am">አጠረ፡</foreign> Ms. <ref type="BM" target="BNFabb217">BNFabb217</ref>, fol. 30v. <lb/>
+ <bibl><ptr target="bm:Grebaut1952SuppLexicon"/><citedRange unit="page"> 67</citedRange></bibl> 
+</sense> <sense n="L"> <foreign xml:lang="gez">ሐጸረ</foreign> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">ḥaṣara</t:quote></cit> (yǝḥṣǝr), (<bibl><ptr target="bm:AlaqaTayya1965MSawasew"/></bibl>) <foreign xml:lang="gez">ኀፀረ</foreign> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">ḫaḍara</t:quote></cit> <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">fence off</t:quote></cit>, <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">enclose with a fence</t:quote></cit>, <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">make a rampart</t:quote></cit>, <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">build a mound</t:quote></cit>, <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">compass</t:quote></cit>, <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">encompass</t:quote></cit>, <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">besiege</t:quote></cit> <bibl><ptr target="bm:Leslau1987dic"/><citedRange unit="page"> 247a</citedRange></bibl> 
+</sense> </sense></entry>
+         </div>
+      </body>
+   </text>
+</TEI>

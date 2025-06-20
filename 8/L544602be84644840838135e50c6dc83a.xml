@@ -1,0 +1,71 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ገንታ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="LB" when="2018-05-04">root</change>
+        <change who="MK" when="2022-02-09">added cross-reference </change><change who="MK" when="2022-05-24">added example</change></revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L544602be84644840838135e50c6dc83a" n="8488">
+               <form>
+                  <foreign xml:lang="gez">ገንታ</foreign>
+               <rs type="root"/>
+                    </form>
+               <sense xml:id="Dmain" xml:lang="la" source="#dillmann"> <gramGrp> <pos expand="Substantivum">subst.</pos> </gramGrp>, <cit type="translation" xml:lang="la"><quote> buccina minor </quote></cit> (quam <foreign xml:lang="gez">ቀንድ፡</foreign> i.e. <foreign xml:lang="gez">ቀርን፡</foreign>): <foreign xml:lang="gez">ዐዊዶሙ፡ ምስለ፡ ገንታ፡ ወግርጣጥ፡ በከበሮ፡ ወጸናጽል፡</foreign> <ref cRef="Chron. Ax." loc="94.">Chron. Ax. f. 94.</ref> – <lbl expand="Vocabularium Aethiopicum, -a -a">Voc. Ae.</lbl>: <foreign xml:lang="gez">ቀርን፡ ገንታ፡ ዘ፡ ነጋሪት፡</foreign> – De <foreign xml:lang="gez">ገንታ፡</foreign> vid. Description de l’Egypte, éd. II, t. <ref cRef="XIII p." loc="542.">XIII p. 542.</ref> </sense>
+               
+            <sense xml:id="Tmain" xml:lang="en" source="#traces"><cit type="transcription" xml:lang="gez"><quote>gantā</quote></cit> <foreign xml:lang="gez">ዘገንታ፡ ግትዕ፡ ወርቅ፡ ፲ወ፰።</foreign> ‘<cit type="translation" xml:lang="fr"><quote>18 agrafes en or, zagantā</quote></cit>’ <bibl><ptr target="bm:ContiRossini1909LiberT"/><citedRange unit="page"> 71 l. 22 (ed.)</citedRange></bibl>, <bibl><ptr target="bm:ContiRossini1910LiberV"/><citedRange unit="page"> 86 l. 4 (tr.)</citedRange></bibl> (Zagantā: ‘Mot à mot : «de trompette» <bibl><ptr target="bm:ContiRossini1910LiberV"/><citedRange unit="page"> 86 n. 6</citedRange></bibl>) <sense n="C" xml:id="TC">for <foreign xml:lang="gez">ነፋሕ፡ ገንታ፡</foreign> <lbl expand="videas">vid.</lbl> <foreign xml:lang="gez">ነፋሕ፡</foreign></sense> </sense></entry>
+         </div>
+      </body>
+   </text>
+</TEI>

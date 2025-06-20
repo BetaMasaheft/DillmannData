@@ -1,0 +1,137 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="gez">ግትዕ</title>
+                <author>Alessandro Bausi</author>
+                <author>Andreas Ellwardt</author>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+                <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+                <pubPlace>Hamburg</pubPlace>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-sa-nc/4.0/"> This file
+                        is licensed under the Creative Commons Attribution-ShareAlike Non Commercial
+                        4.0. </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                        Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice
+                            latino. Adiectum est vocabularium tigre dialecti septentrionalis
+                            compilatum</emph> a W. Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+                </p>
+                <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced
+                        Grant TraCES (Grant Agreement 338756)</ref>
+                </p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>A digital edition of the Lexicon in TEI.</p>
+            <listPrefixDef>
+                <prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/>
+            </listPrefixDef>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="la">latin</language>
+                <language ident="it">Italian</language>
+                <language ident="gez">Gǝʿǝz</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="syr">Syriac</language>
+                <language ident="ar">Arabic</language>
+                <language ident="sa">Sanskrit</language>
+                <language ident="geo">Georgian</language>
+                <language ident="cop">Coptic</language>
+                <language ident="osa">Old South Arabian</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change who="MK" when="2019-07-31">added new entry</change>
+            <change who="MK" when="2019-07-31">corr</change>
+            <change who="MK" when="2022-04-12">added example</change>
+            <change who="MK" when="2022-04-12">added transaltion</change>
+            <change who="MK" when="2022-04-12">added examples</change>
+            <change who="MK" when="2022-04-12">added example</change>
+            <change who="MK" when="2022-04-12">added correction</change>
+            <change who="MK" when="2022-04-12">correction</change>
+            <change who="MK" when="2022-04-13">correction</change>
+            <change who="MK" when="2022-04-14">added example</change>
+            <change who="MK" when="2022-05-24">correction</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <entry xml:id="L2f2149114a634c69948774a0540301f5" n="12644">
+                    <form>
+                        <foreign xml:lang="gez">ግትዕ</foreign>
+                    </form>
+                    <sense xml:id="Tmain" xml:lang="en" source="#traces">
+                        <cit type="transcription" xml:lang="gez">
+                            <quote> gǝtʿ </quote>
+                        </cit>
+                        <gramGrp>
+                            <pos expand="Substantivum">subst.</pos>
+                        </gramGrp> meaning uncertain; Conti Rossini provides two different
+                        translations: ‘<cit type="translation" xml:lang="fr">
+                            <quote>broderies</quote>
+                        </cit>’ <cit type="translation" xml:lang="en">
+                            <quote> embroidery </quote>
+                        </cit>; ‘<cit type="translation" xml:lang="fr">
+                            <quote>agrafe</quote>
+                        </cit>’ <cit type="translation" xml:lang="en">
+                            <quote>hook</quote>
+                        </cit>
+                        <cit type="translation" xml:lang="en">
+                            <quote>fastener</quote>
+                        </cit>
+                        <foreign xml:lang="gez">ወእምድኅረ፡ ጥምቀቱ፡ አልበሶ፡ ቀማይሰ፡ ዘብዑድ፡ ግብረቶሙ፡ ወአሐዱ፡ እምኔሆሙ፡
+                            ከፈዊ፡ ቀሚስ፡ ዘቀይሕ፡ ኅብሩ፡ ወበጽነፊሁ፡ የአውዶ፡ ሸኍራ፡ ዘወርቅ፡ መንገለ፡ እንግድዓ፡ ወዘባን፡ ሀሎ፡
+                            ላዕሌሁ፡ ግትዕ፡ ዘወርቅ፡ ዘይመስል፡ ዘነቦ፡</foreign> ‘<cit type="translation" xml:lang="fr">
+                            <quote> Après qu’il eut reçu le baptême, (le roi) l’habilla avec des
+                                robes magnifiques. Un ces vêtements était une robe kafawi, de
+                                couleur rouge, avec des grelots d’or aux bords; sur la poitrine et
+                                sur le dos se trouvaient des broderies (?) d’or, qui semblaient lui
+                                former une queue </quote>
+                        </cit>’ <bibl><ptr target="bm:ContiRossini1907SarsaDengel"/><citedRange unit="page"> 122 l. 1–4 (ed.)</citedRange></bibl>, <bibl><ptr target="bm:ContiRossini1907SarsaDengelV"/><citedRange unit="page">
+                                138 l. 25–29 (tr.)</citedRange></bibl>; <foreign xml:lang="gez">ወርቅ፡
+                            ግትዕ፡ ፪፻፡ ፳፪።</foreign> ‘<cit type="translation" xml:lang="fr">
+                            <quote>et 222 agrafes</quote>
+                        </cit>’ <bibl><ptr target="bm:ContiRossini1909LiberT"/><citedRange unit="page"> 71 l. 1 (ed.)</citedRange></bibl>, <bibl><ptr target="bm:ContiRossini1910LiberV"/><citedRange unit="page"> 85 l.
+                                14 (tr.)</citedRange></bibl>; <foreign xml:lang="gez">በውእቱ ዕለት፡
+                            ዘተቀበለ፡ በዓለ፡ ጋዳ፡ ዓምዴ። ዘነቦ፡ ፯። ግትዕ፡ በዘነቦ፡ ዘሀሎ፡ ፻፡ ፷፯።</foreign> ‘<cit type="translation" xml:lang="fr">
+                            <quote>Le même jour, le baʿāla gādā ʿĀmdē reçut : 7 zanabo, les agrafes
+                                qui étaient dans les zanabo étaient au nombre de 167</quote>
+                        </cit>’ <bibl><ptr target="bm:ContiRossini1909LiberT"/><citedRange unit="page"> 70 l. 26–27 (ed.)</citedRange></bibl>, <bibl><ptr target="bm:ContiRossini1910LiberV"/><citedRange unit="page"> 85 l.
+                                8–9 (tr.)</citedRange></bibl>; <bibl><ptr target="bm:ContiRossini1909LiberT"/><citedRange unit="page"> 71 l. 5
+                                (ed.)</citedRange></bibl>, <bibl><ptr target="bm:ContiRossini1910LiberV"/><citedRange unit="page"> 85 l.
+                                18 (tr.)</citedRange></bibl>; <foreign xml:lang="gez">በውእቱ ዕለት፡
+                            ዘተቀበለ፡ አጋምያ፡ ሹም፡ ቴዎድሮስ፡ አቅሐ፡ ዘአክሱም፡ ዘነቦ፡ ፯፡ በዘነቦ፡ ዘሀሎ፡ ወርቅ፡ ግትዕ፡ ፻፡ ፳፡
+                            ወ፬፡ ሺሕቦ፡ ፺፡ ወ፭።</foreign> ‘<cit type="translation" xml:lang="fr">
+                            <quote>Ce jour, le chef de l’Agāmē, Tēwodros (var.: Tēwodoros), reçut
+                                les objets [suivants] d’Aksoum : 7 zanabo, dans les zanabo il y
+                                avait 124 agrafes en or et 95 fils en métal;) </quote>
+                        </cit>’ <bibl><ptr target="bm:ContiRossini1909LiberT"/><citedRange unit="page"> 71 l. 9–11 (ed.)</citedRange></bibl>, <bibl><ptr target="bm:ContiRossini1910LiberV"/><citedRange unit="page"> 85 l.
+                                23–25 (tr.)</citedRange></bibl>; <bibl><ptr target="bm:ContiRossini1909LiberT"/><citedRange unit="page"> 71 l.
+                                15 (ed.)</citedRange></bibl>, <bibl><ptr target="bm:ContiRossini1910LiberV"/><citedRange unit="page"> 84 l.
+                                29 (tr.)</citedRange></bibl>; <foreign xml:lang="gez">ዘነቦ፡ ፯፡ ወግተዕ
+                            {CR’s spelling mistake; should be ግትዕ፡ according to Ms. Éth. d’Abbadie
+                            225 p. 62} ፡ ዘሀሎ፡ ፻፡ ፲።</foreign> ‘<cit type="translation" xml:lang="fr">
+                            <quote>7 zanabo, avec 110 agrafes;</quote>
+                        </cit>’ <bibl><ptr target="bm:ContiRossini1909LiberT"/><citedRange unit="page"> 71 l. 20 (ed.)</citedRange></bibl>, <bibl><ptr target="bm:ContiRossini1910LiberV"/><citedRange unit="page"> 86 l. 2
+                                (tr.)</citedRange></bibl>; <foreign xml:lang="gez">ዘገንታ፡ ግትዕ፡ ወርቅ፡
+                            ፲ወ፰።</foreign> ‘<cit type="translation" xml:lang="fr">
+                            <quote>18 agrafes en or, zagantā</quote>
+                        </cit>’ <bibl><ptr target="bm:ContiRossini1909LiberT"/><citedRange unit="page"> 71 l. 22 (ed.)</citedRange></bibl>, <bibl><ptr target="bm:ContiRossini1910LiberV"/><citedRange unit="page"> 86 l. 4
+                                (tr.)</citedRange></bibl> (Zagantā: ‘Mot à mot : «de trompette»
+                                <bibl><ptr target="bm:ContiRossini1910LiberV"/><citedRange unit="page"> 86 n. 6</citedRange></bibl>) <nd/>
+                    </sense>
+                </entry>
+            </div>
+        </body>
+    </text>
+</TEI>

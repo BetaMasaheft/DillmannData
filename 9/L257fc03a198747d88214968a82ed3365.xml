@@ -1,0 +1,149 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ጌጋይ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L257fc03a198747d88214968a82ed3365" n="8661">
+               <form>
+                  <foreign xml:lang="gez">ጌጋይ</foreign>
+               </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain">
+                  <gramGrp>
+                     <pos expand="Substantivum">subst.</pos>
+                  </gramGrp>, plerumque <gramGrp>
+                     <gen value="masculinum">m.</gen>
+                  </gramGrp>, <lbl expand="pluralis">Pl.</lbl>
+                  <foreign xml:lang="gez">ጌጋያት፡</foreign>, <sense n="1" xml:id="D1">
+                     <cit type="translation" xml:lang="la">
+                        <quote>error</quote>
+                     </cit>, <cit type="translation" xml:lang="la">
+                        <quote>fraus</quote>
+                     </cit>, <cit type="translation" xml:lang="la">
+                        <quote>destitutio</quote>
+                     </cit>, <foreign xml:lang="grc">πλάνη </foreign>
+                     <ref cRef="Judae" loc="11">Judae 11</ref>; <ref cRef="Rom." loc="1,27">Rom.
+                        1,27</ref>; <foreign xml:lang="gez">በጌጋየ፡ ልቦሙ፡</foreign>
+                     <ref cRef="Jer. " loc="23,17">Jer. 23,17</ref>; <foreign xml:lang="grc">πλάνησις</foreign>
+                     <ref cRef="Jes." loc="30,10">Jes. 30,10</ref>; <foreign xml:lang="gez">በጌጋዮሙ፡</foreign>
+                     <foreign xml:lang="grc">ἐν τοῖς πλάνοις αὐτῶν </foreign>
+                     <ref cRef="Jer." loc="23,32">Jer. 23,32</ref>; <ref cRef="Matth." loc="27,64">Matth. 27,64</ref>.</sense>
+                  <sense n="2" xml:id="D2">
+                     <cit type="translation" xml:lang="la">
+                        <quote>delictum</quote>
+                     </cit>, <cit type="translation" xml:lang="la">
+                        <quote>delicta</quote>
+                     </cit>, <cit type="translation" xml:lang="la">
+                        <quote>peccatum</quote>
+                     </cit>, <cit type="translation" xml:lang="la">
+                        <quote>peccata</quote>
+                     </cit>, <cit type="translation" xml:lang="la">
+                        <quote>impietas</quote>
+                     </cit>, <cit type="translation" xml:lang="la">
+                        <quote>improbitas</quote>
+                     </cit>, <cit type="translation" xml:lang="la">
+                        <quote>scelus</quote>
+                     </cit> (creberrime usitatum), <ref cRef="Kuf." loc="5">Kuf. 5</ref>; <ref cRef="4 Esr." loc="7,27">4 Esr. 7,27</ref>; <foreign xml:lang="grc">ἄγνοιαι</foreign>
+                     <ref cRef="Sir." loc="23,3">Sir. 23,3</ref>; <foreign xml:lang="grc">ἁμαρτία</foreign>
+                     <ref cRef="Job" loc="7,21">Job 7,21</ref>; <ref cRef="Job" loc="10,6">Job
+                        10,6</ref>; <ref cRef="Jes." loc="44,22">Jes. 44,22</ref>; <ref cRef="1 Joh." loc="5,17">1 Joh. 5,17</ref>; <foreign xml:lang="grc">ἁαμαρτίαι</foreign>
+                     <ref cRef="Sir." loc="4,26">Sir. 4,26</ref>; <foreign xml:lang="gez">ኵሉ፡ ጌጋዮሙ፡ </foreign>
+                     <ref cRef="Sir." loc="17,20">Sir. 17,20</ref>; <ref cRef="Jes." loc="13,11">Jes. 13,11</ref>; <ref cRef="Hez." loc="28,18">Hez. 28,18</ref>; <foreign xml:lang="grc">ἀδίκημα</foreign>, <foreign xml:lang="grc">ἀδικία</foreign>
+                     <ref cRef="1 Reg." loc="26,18">1 Reg. 26,18</ref>; <foreign xml:lang="gez">ምንት፡
+                        ጌጋይነ፡</foreign>
+                     <ref cRef="Jer." loc="16,10">Jer. 16,10</ref>; <ref cRef="Thren." loc="2,14">Thren. 2,14</ref>; <ref cRef="Mal." loc="2,6">Mal. 2,6</ref>; <ref cRef="Hez." loc="3,19">Hez. 3,19</ref>; <foreign xml:lang="grc">ἀδικίαι</foreign>
+                     <ref cRef="Jes." loc="43,24">Jes. 43,24</ref>; <ref cRef="Jer." loc="14,20">Jer. 14,20</ref>; <foreign xml:lang="grc">ἀνομία</foreign>, <foreign xml:lang="grc">ἀνομίαι </foreign>
+                     <ref cRef="Ps." loc="37,4">Ps. 37,4</ref>; <ref cRef="Ps." loc="68,32">Ps.
+                        68,32</ref>; <ref cRef="Job" loc="14,17">Job 14,17</ref>; <ref cRef="Job" loc="20,27">Job 20,27</ref>; <ref cRef="Jes." loc="50,1">Jes. 50,1</ref>;
+                        <ref cRef="Jes." loc="53,5">Jes. 53,5</ref>; <ref cRef="Jes. " loc="58,1">Jes. 58,1</ref>; <ref cRef="Hez." loc="33,12">Hez. 33,12</ref>
+                     <lbl expand="sequens">seq.</lbl>; <foreign xml:lang="grc">παράπτωμα</foreign>
+                     <ref cRef="Rom." loc="5,15">Rom. 5,15</ref>; <foreign xml:lang="grc">ἐπιθυμίαι</foreign>
+                     <ref cRef="1 Petr." loc="1,14">1 Petr. 1,14</ref>; <foreign xml:lang="gez">ጌጋያት፡</foreign>
+                     <ref cRef="Chrys. ho." loc="9 ">Chrys. ho. 9 </ref>al. <sense n="a" xml:id="D2a">
+                        <cit type="translation" xml:lang="la">
+                           <quote>scandalum</quote>
+                        </cit>: <foreign xml:lang="gez">እብነ፡ ጌጋይ፡</foreign>
+                        <ref cRef="Rom." loc="9,33">Rom. 9,33</ref>; <foreign xml:lang="gez">ከመ፡
+                           ኢይኩነኒ፡ ጌጋየ፡</foreign>
+                        <ref cRef="Judith" loc="12,2">Judith 12,2</ref>;</sense>
+                     <sense n="b" xml:id="D2b">
+                        <cit type="translation" xml:lang="la">
+                           <quote>crimen</quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                           <quote>culpa</quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                           <quote>reatus</quote>
+                        </cit>: <foreign xml:lang="gez">ዘጌጋዩ፡ ለመዊት፡ </foreign>
+                        <ref cRef="Num." loc="35,31">Num. 35,31</ref>; <foreign xml:lang="gez">ጌጋየ፡
+                           ይከውኖ፡</foreign>
+                        <ref cRef="Lev." loc="24,15">Lev. 24,15</ref>; <ref cRef="Matth." loc="12,5">Matth. 12,5</ref>; <foreign xml:lang="gez">ኢይመውቱ፡ አበው፡ በጌጋየ፡
+                           ውሉዶሙ፡</foreign>
+                        <ref cRef="4 Reg. " loc="14,6">4 Reg. 14,6</ref>; <ref cRef="Rom." loc="5,12">Rom. 5,12</ref>; <foreign xml:lang="gez">አልቦ፡ ጌጋየ፡</foreign>
+                        <foreign xml:lang="grc">οὐκ ἔνοχός ἐστιν</foreign>
+                        <ref cRef="Num." loc="35,27">Num. 35,27</ref>; <foreign xml:lang="gez">ዘአልቦ፡
+                           ጌጋየ፡</foreign>
+                        <foreign xml:lang="grc">ἀθῶος </foreign>
+                        <ref cRef="Ex." loc="23,7">Ex. 23,7</ref>; <foreign xml:lang="gez">መጽሐፈ፡
+                           ጌጋዩ፡</foreign>
+                        <foreign xml:lang="grc">τῆς αἰτίας</foreign>
+                        <ref cRef="Marc." loc="15,26">Marc. 15,26</ref>.</sense>
+                  </sense>
+               </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

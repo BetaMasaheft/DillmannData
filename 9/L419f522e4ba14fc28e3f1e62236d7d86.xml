@@ -1,0 +1,80 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ፋል </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="MK" when="2017-11-29">Added occurence</change>
+            <change who="MK" when="2018-03-09">corrected bibliography</change>
+            <change who="MK" when="2018-03-09">corr</change>
+            <change who="MK" when="2018-04-16">corr</change>
+        <change who="MK" when="2018-08-29">added cross-reference</change>
+            <change who="MK" when="2018-08-29">corr</change>
+            <change who="MK" when="2019-04-09">added exampl</change>
+            <change who="MK" when="2019-04-09">added translation</change>
+            <change who="MK" when="2019-04-09">corr</change>
+            <change who="MK" when="2019-04-09">added cross-references </change>
+        <change who="MK" when="2022-06-21">added lable : cross reference </change><change who="MK" when="2022-06-21">added transliteration</change></revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L419f522e4ba14fc28e3f1e62236d7d86" n="10047">
+               <form>
+                  <foreign xml:lang="gez">ፋል</foreign>
+               </form>
+               <sense xml:id="Dmain" xml:lang="la" source="#dillmann"> <gramGrp> <pos expand="Substantivum">subst.</pos> </gramGrp>, <lbl expand="pluralis">Pl.</lbl> <foreign xml:lang="gez">ፋላት፡</foreign> [<foreign xml:lang="ar">فَأْلٌ</foreign>] <cit type="translation" xml:lang="la"><quote> omen </quote></cit>: <foreign xml:lang="gez">አፅምኦ፡ ፋል፡</foreign> <ref cRef="Clem." loc="178">Clem. f. 178</ref>; <foreign xml:lang="gez">ፋለ፡ ቃል፡</foreign> M.M. f. 318; <foreign xml:lang="gez">አሕላም፡ ወፋላት፡ ከንቱ፡ ውእቱ፡ ወሐሰት፡</foreign> <ref cRef="Fal." loc="48">Fal. f. 48</ref>; <foreign xml:lang="gez">ቦእምኔሆሙ፡ ሰብአ፡ ፋል፡</foreign> <cit type="translation" xml:lang="la"><quote> ominatores </quote></cit> vel <cit type="translation" xml:lang="la"><quote> ominum </quote></cit> <cit type="translation" xml:lang="la"><quote> captatores </quote></cit> <ref cRef="Gad. T.H." loc="">Gad. T.H. </ref>; F.N. 46; <foreign xml:lang="gez">ሰብአ፡ ፋላት፡</foreign> <cit type="translation" xml:lang="la"><quote> ominatores </quote></cit> vel <cit type="translation" xml:lang="la"><quote> ominum </quote></cit> <cit type="translation" xml:lang="la"><quote> captatores </quote></cit>,<bibl><ptr target="bm:Ludolf1691Commentarius"/></bibl> p. 317 n. 54; <foreign xml:lang="gez">አብዕልተ፡ ፋል፡</foreign> <cit type="translation" xml:lang="la"><quote> ominatores </quote></cit> vel <cit type="translation" xml:lang="la"><quote> ominum </quote></cit> <cit type="translation" xml:lang="la"><quote> captatores </quote></cit>, F.M. 15. – Ludolfi Aethiops <foreign xml:lang="gez">ሰብአ፡ ፋል፡</foreign> interpretatur „qui tinnitus aurium observant“; et <cit type="translation" xml:lang="la"><quote> Voc. Ae. </quote></cit>: <foreign xml:lang="gez">ፋል፡ ዘ፡ በዦሮ፡ የሚነገር።</foreign> </sense>
+               
+            <sense xml:id="Tmain" xml:lang="en" source="#traces"> <cit type="transcription" xml:lang="gez"><quote>ful</quote></cit> <sense n="C" xml:id="TC">● for <foreign xml:lang="gez">ባዕለ፡ ፋል፡</foreign> <lbl expand="videas">vid.</lbl> <foreign xml:lang="gez">ባዕል፡</foreign> (TraCES) ● for <foreign xml:lang="gez">ሰብአ፡ ፋላት፡</foreign> <lbl expand="videas">vid.</lbl> <foreign xml:lang="gez">ሰብእ፡</foreign> (TraCES) </sense> </sense>
+                </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,81 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> አሰፈወ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="AE" when="2017-12-14">aus den Addenda ergänzt</change>
+        </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L3a70ed075dae446a9f52187cb5e3d44a" n="3148">
+               <form>
+                  <foreign xml:lang="gez">አሰፈወ</foreign>
+               </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain"> <subc>II,2</subc> <cit type="translation" xml:lang="la">
+                            <quote> spem facere </quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                            <quote> promittere </quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                            <quote> polliceri </quote>
+                        </cit>, (<cit type="translation" xml:lang="la">
+                            <quote> confidere facere </quote>
+                        </cit>), <lbl expand="cum">c.</lbl> <lbl expand="duplex">dupl.</lbl> <gramGrp> <case value="accusativus">Acc.</case> </gramGrp>: <foreign xml:lang="gez">ዘአሰፈወ፡</foreign> <foreign xml:lang="grc">διαθήκη</foreign> <ref cRef="Gen." loc="15,18">Gen. 15,18</ref>; <foreign xml:lang="grc">ἐνελπίζειν</foreign> <ref cRef="Ps." loc="118,49">Ps. 118,49</ref>; <ref cRef="4 Esr." loc="7,21">4 Esr. 7,21</ref>; <foreign xml:lang="gez">አሰፈውክሙ፡ ለዝ፡ ሕዝብ፡ ሐሰተ፡</foreign> <foreign xml:lang="grc">πεποιθέναι ἐποίησας ἐπί</foreign> <ref cRef="Jer." loc="35,15">Jer. 35,15</ref>; <foreign xml:lang="grc">ἐπαγγελία</foreign> <ref cRef="Rom." loc="4,16">Rom. 4,16</ref>; <ref cRef="Rom." loc="9,4">Rom. 9,4</ref>; <ref cRef="Hebr." loc="11,9">Hebr. 11,9</ref>; <ref cRef="Jac." loc="1,12">Jac. 1,12</ref>; <ref cRef="1 Joh." loc="2,55">1 Joh. 2,55</ref>; <ref cRef="Tit." loc="1,2">Tit. 1,2</ref>; <foreign xml:lang="gez">አሰፈዎሙ፡ ብዙኀ፡ ንዋየ፡</foreign> <ref cRef="Jsp." loc="358">Jsp. p. 358</ref>; <lbl expand="cum">c.</lbl> <gramGrp> <case value="accusativus">Acc.</case> </gramGrp> <lbl expand="persona">pers.</lbl>: <ref cRef="Rom." loc="9,9">Rom. 9,9</ref>; <ref cRef="Hebr." loc="6,13">Hebr. 6,13</ref>; <lbl expand="cum">c.</lbl> <foreign xml:lang="gez">ለ፡</foreign> pers. <ref cRef="Hebr." loc="9,15">Hebr. 9,15</ref>; <lbl expand="cum">c.</lbl> <gramGrp> <case value="accusativus">Acc.</case> </gramGrp> rei: <foreign xml:lang="gez">ከመ፡ ታግዕዞ፡ እንተ፡ አሰፈውከ፡</foreign> <ref cRef="Sir." loc="7,21">Sir. 7,21</ref>; <lbl expand="cum">c.</lbl> <foreign xml:lang="gez">ለ፡</foreign> rei: <foreign xml:lang="gez">እመክር፡ ከመ፡ ኣሰፍዎ፡ ለመርድእ፡</foreign> <ref cRef="Jsp." loc="309">Jsp. p. 309</ref>; <gramGrp> <pos expand="absolute">absol.</pos> </gramGrp>: <foreign xml:lang="gez">ለእመ፡ ወሀቡ፡ ወለእመ፡ አሰፈዉ፡ ለድኅር፡</foreign> (in posterum) <ref cRef="F.M." loc=" 25,3">F.M.  25,3</ref>; <lbl expand="sequens">seq.</lbl> <gramGrp> <pos expand="Subjunctivus">Subj.</pos> </gramGrp> verbi: <ref cRef="Rom." loc="9,8">Rom. 9,8</ref>; vel <lbl expand="sequens">seq.</lbl> <foreign xml:lang="gez">ከመ፡</foreign> cum <gramGrp> <pos expand="Subjunctivus">Subj.</pos> </gramGrp> <ref cRef="Sap. " loc="17,8">Sap.  17,8</ref>. {<ref target="#c1429"/>
+                        <cit type="translation" xml:lang="la">
+                            <quote>minitari</quote>
+                        </cit> alicui aliquid, <ref cRef="Jsp." loc=" p. 297">Jsp.  p. 297</ref> <lbl expand="videas">vid. sub</lbl> <foreign xml:lang="gez">ጥብጣቤ፡</foreign>} </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

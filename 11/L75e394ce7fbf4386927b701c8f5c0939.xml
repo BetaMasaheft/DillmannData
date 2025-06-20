@@ -1,0 +1,124 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ምማቴ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="LB" when="2018-02-02">root</change>
+        <change who="MK" when="2018-11-19">added new witness, to be peer-reviewed</change>
+        </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L75e394ce7fbf4386927b701c8f5c0939" n="1177">
+               <form>
+                  <foreign xml:lang="gez">ምማቴ</foreign>
+               <rs type="root"/>
+                    </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain"> <gramGrp> <pos expand="Substantivum">subst.</pos> </gramGrp> ut videtur: <cit type="translation" xml:lang="la">
+                            <quote> maculoitas </quote>
+                        </cit> [e verbo <foreign xml:lang="gez">መመተ፡</foreign> (a <foreign xml:lang="he">מוּם</foreign> <foreign xml:lang="syr">ܡܽܘܡܳܐ</foreign> <foreign xml:lang="ar">مُومٌ</foreign> propagato?) formatum] <sense n="a" xml:id="Da"> morbi vel vulnerum species, fortasse <cit type="translation" xml:lang="la">
+                                <quote> sugillationes </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> tumores lividi sub oculis </quote>
+                            </cit>: <foreign xml:lang="gez">ምማቴ፡ ወግሕሡት፡ ይዳደቆሙ፡ ለእኩያን፡</foreign> <foreign xml:lang="grc">ὑπώπια καὶ συντρίμματα συναντᾷ κακοῖς</foreign> <ref cRef="Prov." loc="20,30">Prov. 20,30</ref>.</sense> <sense n="b" xml:id="Db"> <cit type="translation" xml:lang="la">
+                                <quote> vitiositas </quote>
+                            </cit> in genere: (<cit type="translation" xml:lang="la">
+                                <quote> Dei voluntas est una, hominum voluntates sunt variae </quote>
+                            </cit>) <foreign xml:lang="gez">በእንተ፡ ዘውስቴቶሙ፡ ምማቴ፡ ወጽነት፡ ወውኅደተ፡ አእምሮ፡ ወድካመ፡ ጠባይዕ፡ ወብዝኀ፡ ሕማማት፡</foreign> <ref cRef="Phlx." loc="55.">Phlx. 55.</ref> – <lbl expand="Vocabularium Aethiopicum, -a -a">Voc. Ae.</lbl> ad Prov.: <foreign xml:lang="gez">ምማቴ፡ ዘ፡ ሐዘን፡</foreign> (sed vereor, ne auctores <cit type="translation" xml:lang="la">
+                                <quote> Voc. </quote>
+                            </cit> temere conjectaverint); <lbl expand="">Rad.</lbl> <lbl expand="d'Abbadie">Abb.</lbl>: <foreign xml:lang="gez">መመተ፡ ዘ፡ ሸሸ፡</foreign> (?).</sense> </sense>
+               
+            <sense xml:lang="en" source="#traces" xml:id="Tmain">
+                        <cit type="transcription" xml:lang="gez">
+                            <quote>mǝmmāte</quote>
+                        </cit> ‘<cit type="translation" xml:lang="it">
+                            <quote>debolezza</quote>
+                        </cit>’ <foreign xml:lang="gez">ሰላም፡ ለከ፡ ሊባኖስ፡ ዘኮንከ፡ ብርሃነ፡ አእምሮ፡ ከሣቴ፡ ደቂቀከ፡ ዕቀብ፡ እምማቴ፡ ወአዘክር፡ ግፍዐ፡ ናቡቴ፡</foreign> ‘<cit type="translation" xml:lang="it">
+                            <quote>Salve a te, Libānos, che sei divenuto luce di sapere — rivelatore, proteggi i tuoi figli dalla debolezza, e fa ricordare l’offesa di Nabot</quote>
+                        </cit>’ <bibl>
+                            <ptr target="bm:Bausi2003Libanos"/>
+                            <citedRange unit="page"> 213 § 566 (ed.)</citedRange>
+                        </bibl>, <bibl>
+                            <ptr target="bm:Bausi2003LibanosTr"/>
+                            <citedRange unit="page"> 123 § 566 (tr.)</citedRange>
+                        </bibl> (‘«<cit type="transcription" xml:lang="gez">
+                            <quote>mǝmmāte</quote>
+                        </cit>» : termine raro, dal significato incerto {...}.’ <bibl>
+                            <ptr target="bm:Bausi2003LibanosTr"/>
+                            <citedRange unit="page"> 123 n. 2</citedRange>
+                        </bibl>) <sense n="L" xml:id="TL">
+                            <foreign xml:lang="gez">ምማቴ፡</foreign> <cit type="transcription" xml:lang="gez">
+                                <quote>mǝmmāte</quote>
+                            </cit> <cit type="translation" xml:lang="en">
+                                <quote>defect</quote>
+                            </cit>, (Lt) <cit type="translation" xml:lang="en">
+                                <quote>bruises</quote>
+                            </cit>; (T.M)<cit type="translation" xml:lang="en">
+                                <quote>panic</quote>
+                            </cit>, <cit type="translation" xml:lang="en">
+                                <quote>flight</quote>
+                            </cit>, <cit type="translation" xml:lang="en">
+                                <quote>affliction</quote>
+                            </cit>; (Sw. in D 161) <cit type="translation" xml:lang="en">
+                                <quote>sorrow</quote>
+                            </cit>, (K*) <cit type="translation" xml:lang="en">
+                                <quote>deficiency</quote>
+                            </cit> <bibl>
+                                <ptr target="bm:Leslau1987dic"/>
+                                <citedRange unit="page"> 347b</citedRange>
+                            </bibl>
+                        </sense> </sense>
+                </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

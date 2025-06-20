@@ -1,0 +1,75 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> አስካል </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="AE" when="2018-04-12">Verschachtelung,</change>
+        <change who="MK" when="2024-02-21">added cross ref</change><change who="MK" when="2024-02-21">added sub</change></revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L3209167dc43f474587921e209d2ba10b" n="2876">
+               <form>
+                  <foreign xml:lang="gez">አስካል</foreign>
+               </form>
+               <sense xml:id="Dmain" xml:lang="la" source="#dillmann"> <gramGrp> <pos expand="Substantivum">subst.</pos> </gramGrp>, plerumque <gramGrp> <gen value="not found">m.</gen> </gramGrp>, <lbl expand="collatio, -is vel collectivum,&#xA;                            -e">coll.</lbl> et <lbl expand="">sing.</lbl>, <lbl expand="pluralis">Pl.</lbl> <foreign xml:lang="gez">ሰኳላት፡</foreign> vel <foreign xml:lang="gez">አስካላት፡</foreign> [<foreign xml:lang="he">אֶשְׁכֹּל</foreign> <foreign xml:lang="syr">ܣܓܽܘܠܳܐ</foreign> <foreign xml:lang="ar">إِثْكَالٌ عُثْكُولٌ</foreign>; de etymo <lbl expand="videas">vid.</lbl> Ges. thes. p. 1406] <sense n="1" xml:id="D1"> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> uva </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> racemus </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> botrys </t:quote></cit> <sense n="a" xml:id="D1a"> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> vitis </t:quote></cit> <ref cRef="Gen." loc="40,10">Gen. 40,10</ref>-12; <foreign xml:lang="gez">ደመ፡ አስካል፡</foreign> <ref cRef="Gen. " loc="49,11">Gen.  49,11</ref>; <ref cRef="Sir." loc="39,26">Sir. 39,26</ref>: <ref cRef="Lev." loc="25,5">Lev. 25,5</ref>; <ref cRef="Num." loc="6,3">Num. 6,3</ref>; <foreign xml:lang="gez">አስካል፡ ልምሉም፡</foreign> <ref cRef="Num." loc="6,4">Num. 6,4</ref> C; <ref cRef="Num." loc="13,23">Num. 13,23</ref>; <ref cRef="Deut." loc="23,26">Deut. 23,26</ref>; <ref cRef="Deut." loc="32,32">Deut. 32,32</ref>; <foreign xml:lang="gez">አስካለ፡ ወይን፡</foreign> <ref cRef="Cant." loc="7,9">Cant. 7,9</ref>; <ref cRef="Hos." loc="9,10">Hos. 9,10</ref>; <ref cRef="Mich." loc="7,1">Mich. 7,1</ref>; <foreign xml:lang="gez">ይፍረይ፡ አስካለ፡</foreign> <ref cRef="Jes." loc="5,2">Jes. 5,2</ref>; <ref cRef="Jes." loc="65,8">Jes. 65,8</ref>; <foreign xml:lang="gez">አልቦ፡ አስካል፡ ውስተ፡ ወይን፡</foreign> <ref cRef="Jer." loc="8,13">Jer. 8,13</ref>; <foreign xml:lang="gez">አስካለ፡ ቀምሕክሙ፡</foreign> <ref cRef="Hez." loc="36,8">Hez. 36,8</ref>; <ref cRef="2 Esr." loc="23,15">2 Esr. 23,15</ref>; <ref cRef="4 Esr." loc="9,24">4 Esr. 9,24</ref>; <ref cRef="4 Esr." loc="12,47">4 Esr. 12,47</ref>; <ref cRef="Sir." loc="50,15">Sir. 50,15</ref>; <ref cRef="Matth." loc="7,16">Matth. 7,16</ref>; <ref cRef="Apoc." loc="14,18">Apoc. 14,18</ref>; <foreign xml:lang="grc">βοτρύδια</foreign> <ref cRef="Jes." loc="18,5">Jes. 18,5</ref>; <foreign xml:lang="grc">σταφίδες</foreign> 1 <ref cRef="Par." loc="12,40">Par. 12,40</ref>; <foreign xml:lang="grc">χαλαστά</foreign> <foreign xml:lang="gez">ሰኳላት፡</foreign> <lbl expand="vel">v.</lbl> <foreign xml:lang="gez">አስካላት፡</foreign> (v. <foreign xml:lang="gez">አክሊላት፡</foreign>) <ref cRef="2 Par." loc="3,5">2 Par. 3,5</ref>. 
+</sense> <sense n="b" xml:id="D1b"> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> dactylorum </t:quote></cit>: <foreign xml:lang="gez">አስካለ፡ በቀልት፡</foreign> <ref cRef="Hen." loc="24,4">Hen. 24,4</ref>; Sx. <ref cRef="Mij." loc="20">Mij. 20</ref>; <ref cRef="Sx. Sen." loc="16.">Sx. Sen. 16.</ref> 
+</sense> 
+</sense> <sense n="2" xml:id="D2"> <lbl expand="translate">transl.</lbl> de <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> vite </t:quote></cit>: <foreign xml:lang="gez">ይረክብ፡ ፍሬ፡ በውስተ፡ አስካሎሙ፡</foreign> Lud. e Vit. Pach.; <foreign xml:lang="gez">አስካለ፡ አእምሮ፡ እንተ፡ ታሠርጽ፡ ጥበበ፡</foreign> Lud. e Cant. Sam.; de <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> corymbo </t:quote></cit> floris vitis: <foreign xml:lang="gez">አስካል፡ ዘጸገየ፡</foreign> <ref cRef="Cant." loc="1,14">Cant. 1,14</ref>. – <lbl expand="Vocabularium Aethiopicum, -a -a">Voc. Ae.</lbl>: <foreign xml:lang="gez">አስካል፡ ዘ፡ ዘለላ።</foreign> 
+</sense> </sense>
+               
+            <sense xml:id="Tmain" xml:lang="en" source="#traces"> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">ʾaskāl</t:quote></cit> <sense n="C" xml:id="TC"> for <foreign xml:lang="gez">ማየ፡ አስካል፡</foreign> <lbl expand="videas">vid.</lbl> <foreign xml:lang="gez">ማይ፡</foreign> 
+</sense> </sense></entry>
+         </div>
+      </body>
+   </text>
+</TEI>

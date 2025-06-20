@@ -1,0 +1,90 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>ጸብሐI</title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="LB" when="2018-05-15">root</change>
+        </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L1924e1cfa93e400a8368597129e8fa1e" n="9290" type="hom">
+               <form>
+                  <foreign xml:lang="gez">ጸብሐ</foreign>
+                        <seg type="hom">I</seg>
+                    <rs type="root"/>
+                    </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain"> <subc>I,1</subc> [<foreign xml:lang="ar">صبح</foreign> cum derivatis] <gramGrp> <pos expand="Subjunctivus">Subj.</pos> </gramGrp> <foreign xml:lang="gez">ይጽባሕ፡</foreign>, <cit type="translation" xml:lang="la">
+                            <quote> lucescere </quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                            <quote> dilucescere </quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                            <quote> illucescere </quote>
+                        </cit>, plerumque impers.: <foreign xml:lang="gez">ይጸብሕ፡</foreign> <ref cRef="Job " loc="7,4">Job  7,4</ref>; <ref cRef="Gen." loc="1,5">Gen. 1,5</ref>; <foreign xml:lang="gez">ሶበ፡ ጸብሐ፡</foreign> <ref cRef="Ruth" loc="3,13">Ruth 3,13</ref>; <ref cRef="Gen." loc="29,25">Gen. 29,25</ref>; <ref cRef="Jsp. " loc="370">Jsp.  p. 370</ref>; <ref cRef="Marc." loc="15,1">Marc. 15,1</ref>; <foreign xml:lang="gez">እስከ፡ ጸብሐ፡</foreign> <ref cRef="1 Reg." loc="3,15">1 Reg. 3,15</ref>; <ref cRef="2 Esr." loc="17,3">2 Esr. 17,3</ref> <lbl expand="varia lectio">var.</lbl>; <foreign xml:lang="gez">እምከመ፡ ጸብሐ፡</foreign> <ref cRef="Job" loc="24,17">Job 24,17</ref>; <ref cRef="Matth." loc="16,3">Matth. 16,3</ref>; <foreign xml:lang="gez">እስከ፡ ይጸብሕ፡</foreign> <ref cRef="Ruth" loc="3,13">Ruth 3,13</ref>; <ref cRef="Ruth" loc="3,14">Ruth 3,14</ref>; <ref cRef="Jes." loc="38,13">Jes. 38,13</ref>; <ref cRef="1 Reg." loc="15,22">1 Reg. 15,22</ref>; <foreign xml:lang="gez">ዘእንበለ፡ ይጽባሕ፡</foreign> <ref cRef="Jes." loc="17,14">Jes. 17,14</ref>; <foreign xml:lang="gez">ጸቢሖ፡</foreign> (cum illucesceret <lbl expand="scilicet">sc.</lbl> dies) <ref cRef="Ex." loc="16,12">Ex. 16,12</ref>; <ref cRef="Esth." loc="2,14">Esth. 2,14</ref>; Rel. Bar.; <ref cRef="Matth. " loc="27,1">Matth.  27,1</ref>; <ref cRef="Marc." loc="13,35">Marc. 13,35</ref>; <ref cRef="Luc." loc="4,42">Luc. 4,42</ref>; <foreign xml:lang="gez">እንተ፡ ጸቢሖ፡</foreign> <ref cRef="Act." loc="12,6">Act. 12,6</ref> Platt; passim addito <foreign xml:lang="gez">ብሔር፡</foreign> (<lbl expand="quod videas">q.v.</lbl>), ut: <foreign xml:lang="gez">እስከ፡ ጸብሐ፡ ብሔር፡</foreign> <ref cRef="1 Reg." loc="25,36">1 Reg. 25,36</ref>; vel nomine diei: <foreign xml:lang="gez">ለጸቢሐ፡ እሑድ፡</foreign> <ref cRef="Matth." loc="28,1">Matth. 28,1</ref>; <foreign xml:lang="gez">ለጸቢሐ፡ ዐርብ፡</foreign> (feria sexta), Lud. e Lit. Mss. <sense n="a" xml:id="Da"> cum <gramGrp> <pos expand="pronomen suffixum">pron. suff.</pos> </gramGrp> : <cit type="translation" xml:lang="la">
+                                <quote> alicui </quote>
+                            </cit>, <foreign xml:lang="gez">ሶበ፡ ጸብሐክሙ፡</foreign> <ref cRef="1 Reg." loc="29,10">1 Reg. 29,10</ref>; <ref cRef="2 Reg." loc="2,32">2 Reg. 2,32</ref>.</sense> <sense n="b" xml:id="Db"> <foreign xml:lang="gez">እንተ፡ ጸብሐት፡</foreign> <sense n="α" xml:id="Dbα"> quaequae (dies) illucescit i.e. <cit type="translation" xml:lang="la">
+                                    <quote> singuli dies </quote>
+                                </cit> vel <cit type="translation" xml:lang="la">
+                                    <quote> quovis die </quote>
+                                </cit>, <cit type="translation" xml:lang="la">
+                                    <quote> quotidie </quote>
+                                </cit>, <cit type="translation" xml:lang="la">
+                                    <quote> singulis diebus </quote>
+                                </cit>: <ref cRef="Gen." loc="39,10">Gen. 39,10</ref>; <ref cRef="4 Reg." loc="25,30">4 Reg. 25,30</ref>; <ref cRef="2 Esr." loc="18,18">2 Esr. 18,18</ref>; <ref cRef="Prov." loc="8,21">Prov. 8,21</ref> <lbl expand="varia lectio">var.</lbl>; <ref cRef="Prov." loc="8,30">Prov. 8,30</ref>; <ref cRef="Dan. apocr." loc="13,6">Dan. apocr. 13,6</ref>; <ref cRef="Jer." loc="52,34">Jer. 52,34</ref>; <foreign xml:lang="gez">ኵሎ፡ አሚረ፡ እንተ፡ ጸብሐት፡ ካዕበ፡ ለለ፡ ዕለት፡</foreign> <ref cRef="Sir." loc="45,14">Sir. 45,14</ref>; <foreign xml:lang="gez">እንተ፡ ጸብሐት፡ ኢትወልጥ፡ ዐርከ፡</foreign> <ref cRef="Sir." loc="7,18">Sir. 7,18</ref>; <ref cRef="Kuf." loc="32">Kuf. 32</ref>; <ref cRef="Kuf." loc="37">Kuf. 37</ref>; <ref cRef="Act." loc="16,5">Act. 16,5</ref>; <ref cRef="Jsp. " loc="355.">Jsp.  p. 355.</ref> </sense> <sense n="β" xml:id="Dbβ"> eadem (die) quae illuxit i.e. <cit type="translation" xml:lang="la">
+                                    <quote> eodem ipso die </quote>
+                                </cit>, <foreign xml:lang="grc">αὐθήμερον</foreign> <ref cRef="Deut." loc="14,15">Deut. 14,15</ref>; <ref cRef="Prov." loc="12,16">Prov. 12,16</ref>.</sense> </sense> </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

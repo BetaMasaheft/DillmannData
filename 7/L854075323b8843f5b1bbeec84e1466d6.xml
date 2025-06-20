@@ -1,0 +1,103 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ተሰነነ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L854075323b8843f5b1bbeec84e1466d6" n="2813">
+               <form>
+                  <foreign xml:lang="gez">ተሰነነ</foreign>
+               </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain"> <subc>III,2</subc> et <foreign xml:lang="gez">ተሳነነ፡</foreign> <subc>III,3</subc> (raro <foreign xml:lang="gez">ተሰነ፡</foreign> <subc>III,1</subc>) <cit type="translation" xml:lang="la">
+                     <quote>litigare</quote>
+                  </cit> cum aliquo, <cit type="translation" xml:lang="la">
+                     <quote>litem habere</quote>
+                  </cit> inter se, <cit type="translation" xml:lang="la">
+                     <quote>judicio contendere</quote>
+                  </cit>, <cit type="translation" xml:lang="la">
+                     <quote>altercari</quote>
+                  </cit>: <foreign xml:lang="gez">ኢትሰነን፡ በቅሥተ፡ ጊጉይ፡</foreign>
+                  <ref cRef="Sir." loc="11,9">Sir. 11,9</ref>; <foreign xml:lang="gez">ብእሲ፡ ዘይሴነን፡
+                     ወይትዋቀሥ፡ </foreign>
+                  <foreign xml:lang="grc">ἀνὴρ δικαζόμενος καὶ διακρινόμενος</foreign>
+                  <ref cRef="Jer. " loc="15,10">Jer. 15,10</ref>; <foreign xml:lang="gez">ኵሉ፡ ለነፍሱ፡
+                     ይሴነን፡</foreign> (v. <foreign xml:lang="gez">ይሳነን፡</foreign>) <ref cRef="Mich." loc="7,2">Mich. 7,2</ref>; <ref cRef="Deut." loc="25,1">Deut. 25,1</ref>; <lbl expand="construitur cum">c.c.</lbl>
+                  <foreign xml:lang="gez">ምስለ፡ </foreign> pers., ut: <foreign xml:lang="gez">የሐውርኑ፡
+                     ይሳነን፡ ምስሌከ፡</foreign>
+                  <ref cRef="Job" loc="22,4">Job 22,4</ref>; <foreign xml:lang="gez">ኢትሰነን፡</foreign> (v. <foreign xml:lang="gez">ኢትሳነን፡</foreign>) <foreign xml:lang="gez">ምስለ፡ መኰንን፡</foreign>
+                  <ref cRef="Sir." loc="8,14">Sir. 8,14</ref>; <ref cRef="Jud." loc="8,1">Jud.
+                     8,1</ref>; vel <lbl expand="cum">c.</lbl>
+                  <gramGrp>
+                     <case value="accusativus">Acc.</case>
+                  </gramGrp>
+                  <lbl expand="persona">pers.</lbl>: <foreign xml:lang="gez">መኑ፡ ይሴነነኒ፡</foreign>
+                  (v. <foreign xml:lang="gez">ይሳነነኒ፡</foreign>) <ref cRef="Jes." loc="50,8">Jes.
+                     50,8</ref>; <foreign xml:lang="gez">እሴነኖሙ፡ </foreign>
+                  <foreign xml:lang="grc">κριθήσομαι πρὸς</foreign>
+                  <ref cRef="Jer." loc="2,9">Jer. 2,9</ref>; <ref cRef="Gen." loc="26,22">Gen.
+                     26,22</ref>; <ref cRef="Jud." loc="21,22">Jud. 21,22</ref>; <foreign xml:lang="gez">ምንትኑ፡</foreign> (<cit type="translation" xml:lang="la">
+                     <quote>cur</quote>
+                  </cit>) <foreign xml:lang="gez">እሴነነከ፡</foreign> M.M. f. 289; etiam <lbl expand="cum">c.</lbl>
+                  <gramGrp>
+                     <case value="accusativus">Acc.</case>
+                  </gramGrp> litis, ut: <foreign xml:lang="gez">ቅሥተ፡ ይሴነኖሙ፡ ለዕድዋኒሁ፡</foreign>
+                  <ref cRef="Jer." loc="27,34">Jer. 27,34</ref>; <ref cRef="Jud." loc="8,1">Jud.
+                     8,1</ref>. </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

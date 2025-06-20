@@ -1,0 +1,87 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ማእዜ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="LB" when="2018-02-14">root</change>
+        <change who="AE" when="2018-06-06">qu o usque &gt; quousque</change>
+        </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="Lc9ff986eee384bb6a9ccf3fa7d3d151d" n="1426">
+               <form>
+                  <foreign xml:lang="gez">ማእዜ</foreign>
+               <rs type="root"/>
+                    </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain"> <gramGrp> <pos expand="adverbium, adverbialiter">adv.</pos> </gramGrp> interrogandi de tempore (<bibl>
+                            <ptr target="bm:Dillmann1857Gramm"/>gramm.</bibl> § 161,a; <foreign xml:lang="he">מָתַי</foreign> <foreign xml:lang="syr">ܐܶܡܬܰܝ</foreign> <foreign xml:lang="ar">مَتَى</foreign>) <cit type="translation" xml:lang="la">
+                            <quote> quando? </quote>
+                        </cit> <sense n="1" xml:id="D1"> interrog. (et optative): tam in interrogatione recta <ref cRef="Matth." loc="25,37">Matth. 25,37</ref>-39; <ref cRef="Luc. " loc="21,7">Luc.  21,7</ref>; <ref cRef="Ps." loc="40,5">Ps. 40,5</ref>; <ref cRef="Ps." loc="41,2">Ps. 41,2</ref>; <ref cRef="Ps." loc="118,82">Ps. 118,82</ref>; <ref cRef="Ps." loc="118,84">Ps. 118,84</ref>; <ref cRef="Job" loc="7,4">Job 7,4</ref>; quam in obliqua, ut: <foreign xml:lang="gez">ኈለቈኑ፡ አውራኂሁ፡ ማእዜ፡ ይትወለድ፡</foreign> <ref cRef="Job" loc="39,2">Job 39,2</ref>; <ref cRef="Ex." loc="8,5">Ex. 8,5</ref>; <ref cRef="4 Esr." loc="8,51">4 Esr. 8,51</ref>. Adv. <foreign xml:lang="gez">ኑ</foreign> et <foreign xml:lang="gez">መ፡</foreign> sibi annectere amat: <foreign xml:lang="gez">ማእዜኑ፡</foreign> <ref cRef="Ps." loc="93,8">Ps. 93,8</ref>; <ref cRef="Rom." loc="4,10">Rom. 4,10</ref>; <ref cRef="4 Esr." loc="1,36">4 Esr. 1,36</ref>; <foreign xml:lang="gez">ማእዜኑመ፡</foreign> <ref cRef="Gen." loc="30,30">Gen. 30,30</ref>; <ref cRef="Judith " loc="11,17">Judith  11,17</ref>. Praepositiones ante se fert: <foreign xml:lang="gez">ለአይ፡ ወለማእዜ፡ መዋዕል፡</foreign> <ref cRef="1 Petr." loc="1,11">1 Petr. 1,11</ref>; <foreign xml:lang="gez">እስከ፡ ማእዜ፡</foreign> vel <foreign xml:lang="gez">ማእዜኑ፡</foreign> <cit type="translation" xml:lang="la">
+                                <quote> quousque? quamdiu? </quote>
+                            </cit> <ref cRef="Job" loc="2,9">Job 2,9</ref>; <ref cRef="Job" loc="7,19">Job 7,19</ref>; <ref cRef="Job" loc="8,2">Job 8,2</ref>; <ref cRef="Ps." loc="12,1">Ps. 12,1</ref>; <ref cRef="Ps." loc="61,3">Ps. 61,3</ref>; <ref cRef="Ps." loc="93,3">Ps. 93,3</ref>; <ref cRef="Jes." loc="6,11">Jes. 6,11</ref>; <ref cRef="Jer." loc="4,14">Jer. 4,14</ref>; <ref cRef="Jer." loc="12,4">Jer. 12,4</ref>; <ref cRef="2 Esr." loc="12,6">2 Esr. 12,6</ref>; <ref cRef="Joh." loc="10,24">Joh. 10,24</ref>; <ref cRef="Matth." loc="17,17">Matth. 17,17</ref>; <foreign xml:lang="gez">እማእዜ፡</foreign> <cit type="translation" xml:lang="la">
+                                <quote> a quo tempore? </quote>
+                            </cit> Lit. Epiph.; <foreign xml:lang="gez">እማእዜ፡ እምዘ፡</foreign> <ref cRef="Marc. " loc="9,21">Marc.  9,21</ref>. (<ref cRef="Clem." loc="221">Clem. f. 221</ref>-226 Satanas <foreign xml:lang="gez">እስከ፡ ማእዜኑ፡</foreign> <cit type="translation" xml:lang="la">
+                                <quote> Quousque tandem? </quote>
+                            </cit> tamquam nomine proprio appellatur).</sense> <sense n="2" xml:id="D2"> indef.: <cit type="translation" xml:lang="la">
+                                <quote> aliquando </quote>
+                            </cit>, in enuntiationibus negativis, sive affixo <foreign xml:lang="gez">ኒ፡</foreign> sive sine <foreign xml:lang="gez">ኒ፡</foreign>, ut: <foreign xml:lang="gez">ኢማእዜኑ፡ ኢኮኑ፡ ሕያዋነ፡</foreign> <cit type="translation" xml:lang="la">
+                                <quote> numquam vivi fuerunt </quote>
+                            </cit> <ref cRef="Macc." loc="1">Macc. f. 1</ref>; <foreign xml:lang="gez">ወኢማእዜ፡</foreign> <cit type="translation" xml:lang="la">
+                                <quote> numquam </quote>
+                            </cit> <ref cRef="Cyr. ad Theod." loc="10">Cyr. ad Theod. f. 10</ref>; <foreign xml:lang="gez">ኢለከፎን፡ ፀሓይ፡ ማእዜኒ፡</foreign> <ref cRef="Sx. Hed." loc="26.">Sx. Hed. 26.</ref> </sense> </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

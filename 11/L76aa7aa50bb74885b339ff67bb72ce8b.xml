@@ -1,0 +1,93 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ዋካ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L76aa7aa50bb74885b339ff67bb72ce8b" n="6695">
+               <form>
+                  <foreign xml:lang="gez">ዋካ</foreign>
+               </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain"> (v. <foreign xml:lang="gez">ዋጋ፡</foreign>) <gramGrp>
+                     <pos expand="Substantivum">subst.</pos>
+                  </gramGrp>
+                  <sense n="1" xml:id="D1">
+                     <cit type="translation" xml:lang="la">
+                        <quote>splendor</quote>
+                     </cit>, <cit type="translation" xml:lang="la">
+                        <quote>fulgor</quote>
+                     </cit>: <foreign xml:lang="gez">እስመ፡ ፈድፋደ፡ ዋካሁ፡ </foreign> (v. <foreign xml:lang="gez">ዋጋሁ፡</foreign>) <foreign xml:lang="grc">σφόδρα ὡραῖον ἐν τῷ
+                        αὐγάσματι αὐτοῦ</foreign>
+                     <ref cRef="Sir." loc="43,11">Sir. 43,11</ref>; <foreign xml:lang="gez">ኢጸዳል፡
+                        ወኢዋካ፡</foreign>
+                     <ref cRef="4 Esr." loc="6,14">4 Esr. 6,14</ref>; <foreign xml:lang="gez">ብርሃን፡
+                        ዘያንጸበርቅ፡ ዋካሁ፡ </foreign>
+                     <ref cRef="Fal." loc="68">Fal. f. 68</ref>; <foreign xml:lang="gez">ርእየ፡ ዋካ፡
+                        ወኢርእየ፡ ማኅቶተ፡</foreign>
+                     <ref cRef="Org. " loc="4">Org. 4</ref>; ecclesia <foreign xml:lang="gez">ዋካ፡
+                        ይእቲ፡ ወብርሃን፡</foreign> Deg.</sense>
+                  <sense n="2" xml:id="D2">
+                     <cit type="translation" xml:lang="la">
+                        <quote>splendor repercussus</quote>
+                     </cit>: <foreign xml:lang="gez">እስመ፡ ዋካ፡ ብርሃን፡ ይእቲ፡ ዘቀዳማዊ፡ </foreign>
+                     <foreign xml:lang="grc">ἀπαύγασμα φωτὸς ἀϊδίου</foreign>
+                     <ref cRef="Sap. " loc="7,26">Sap. 7,26</ref>.</sense>
+               </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

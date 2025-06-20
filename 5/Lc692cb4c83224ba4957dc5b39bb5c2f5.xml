@@ -1,0 +1,110 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ጠረጴዛ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="SH" when="2017-12-18">added: graphic variants (Sg. und Pl.), translit., german meanings, bibliographic references</change>
+            <change who="SH" when="2017-12-18">Sg. added; Pl. moved</change>
+            <change who="SH" when="2017-12-18">added: ,</change>
+            <change who="SH" when="2017-12-18">bibl. ref. corrected</change>
+            <change who="SH" when="2018-03-14">ሰደቃ፡ marked as Ethiopic</change>
+            <change who="SH" when="2018-03-15">structure of the entry changed</change>
+            <change who="SH" when="2018-03-15">added refernce to morhpological info</change>
+            <change who="SH" when="2018-03-15">space added somehwere :)</change>
+        <change who="LB" when="2018-05-08">root</change>
+            <change who="SH" when="2018-11-07">changed lang. in ex.</change>
+            <change who="SH" when="2018-11-14">minor corr</change>
+        </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="Lc692cb4c83224ba4957dc5b39bb5c2f5" n="8832">
+               <form>
+                  <foreign xml:lang="gez">ጠረጴዛ</foreign>
+               <rs type="root"/>
+                    </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain"> <gramGrp> <pos expand="not found">n. peregr.</pos> </gramGrp>, <lbl expand="scilicet">sc.</lbl> <foreign xml:lang="grc">τράπεζα</foreign>, <lbl expand="pluralis">Pl.</lbl> <foreign xml:lang="gez">ጠረጴዛት፡</foreign> <sense n="1" xml:id="D1"> <cit type="translation" xml:lang="la">
+                                <quote> mensa sacra </quote>
+                            </cit> ecclesiae seu <cit type="translation" xml:lang="la">
+                                <quote> altare </quote>
+                            </cit>: <foreign xml:lang="gez">ኢይትወከፍዎሙ፡ ውስተ፡ ቅድስት፡ ጠረጴዛ፡</foreign> <ref cRef="Clem." loc="147">Clem. f. 147</ref>; <foreign xml:lang="gez">ኢይደልዎሙ፡ ይባኡ፡ ውስተ፡ ቅድስት፡ ጠረጴዛ፡ ወምሥዋዒሁ፡ ለእግዚአብሔር፡</foreign> <ref cRef="Clem." loc="232">Clem. f. 232</ref>; <ref cRef="Org." loc="2">Org. 2</ref>; <foreign xml:lang="gez">ጠረጴዛት፡ ዘምስጢር፡</foreign> <ref cRef="Org." loc="7">Org. 7</ref>; <foreign xml:lang="gez">ጠረጴዛት፡</foreign> in ecclesia <ref cRef="Clem." loc="87">Clem. f. 87</ref>; <ref cRef="Sx. Masc." loc="5.">Sx. Masc. 5.</ref> </sense> <sense n="2" xml:id="D2"> <cit type="translation" xml:lang="la">
+                                <quote> sanctuarium cum altari </quote>
+                            </cit>: <foreign xml:lang="gez">ሰላም፡ ለታኦድራ፡ ዘሐነጸት፡ ጠረጴዛ፡</foreign> <ref cRef="Sx. Mij." loc="11 ">Sx. Mij. 11 </ref>Enc. (in Actis: <foreign xml:lang="gez">ሐነጸት፡ ቤተ፡ ክርስቲያን፡</foreign>); <foreign xml:lang="gez">ኦሪታዊት፡ ጠረጴዛ፡</foreign> sanctuarium mosaicum, <ref cRef="Sx. Tachs." loc="3 ">Sx. Tachs. 3 </ref>Enc. (in Actis: <foreign xml:lang="gez">ቤተ፡ መቅደስ፡</foreign>).</sense> </sense>
+               
+            <sense xml:lang="en" source="#traces" xml:id="Tmain"> <lbl expand="Singularis">Sg.</lbl> <foreign xml:lang="gez">ጠረጲዛ፡</foreign> <cit type="transcription" xml:lang="gez">
+                            <quote> ṭaraṗizā </quote>
+                        </cit> <ref cRef="Kebr. Nag." loc="57,3">Kebr. Nag. 57,3</ref> , <lbl expand="pluralis">Pl.</lbl> <foreign xml:lang="gez">ጥርጴዛት፡</foreign> <cit type="transcription" xml:lang="gez">
+                            <quote> ṭǝrṗezāt </quote>
+                        </cit> <bibl>
+                            <ptr target="bm:Bezold1905KebraN"/>
+                            <citedRange unit="page">xxxiiia</citedRange>
+                        </bibl> <sense n="1" xml:id="T1"> ‘<cit type="translation" xml:lang="de">
+                                <quote> Tisch </quote>
+                            </cit>, <cit type="translation" xml:lang="de">
+                                <quote> Tischchen </quote>
+                            </cit>(nach den Sawāsu = <foreign xml:lang="am">ሰደቃ፡</foreign> [G.]), <cit type="translation" xml:lang="de">
+                                <quote> heiliger Tisch</quote>
+                            </cit>’ <bibl>
+                                <ptr target="bm:Bezold1905KebraN"/>
+                                <citedRange unit="page"> xxxiiia</citedRange>
+                            </bibl> <ref cRef="Kebr. Nag." loc="17,20">Kebr. Nag. 17,20</ref> <bibl>
+                                <ptr target="bm:Bezold1905KebraN"/>
+                                <citedRange unit="page"> 10a l. 15 (ed.)</citedRange>
+                            </bibl>; <bibl>
+                                <ptr target="bm:Bezold1905KebraN"/>
+                                <citedRange unit="page"> 63b l. 18; 150a l. 18 (ed.)</citedRange>
+                            </bibl> </sense> </sense>
+                </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

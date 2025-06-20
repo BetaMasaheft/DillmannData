@@ -1,0 +1,114 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ዕልው </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="Le8758efc7e7149d899c27813a3d9de4c" n="6927">
+               <form>
+                  <foreign xml:lang="gez">ዕልው</foreign>
+               </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain">
+                  <gramGrp>
+                     <pos expand="participium">part.</pos>
+                  </gramGrp>, <gramGrp>
+                     <gen value="femininus">fem.</gen>
+                  </gramGrp>
+                  <foreign xml:lang="gez">ዕሉት፡</foreign>, <sense n="1" xml:id="D1">
+                     <cit type="translation" xml:lang="la">
+                        <quote>perversus</quote>
+                     </cit>,<cit type="translation" xml:lang="la">
+                        <quote> pravus</quote>
+                     </cit>, de via: <foreign xml:lang="gez">ለዕልዋን፡ ዕልወ፡ ፍኖት፡ ይፌኑ፡ ሎሙ፡
+                        እግዚአብሔር፡</foreign>
+                     <foreign xml:lang="grc">σκολιὰς ὁδούς </foreign>
+                     <ref cRef="Prov." loc="21,8">Prov. 21,8</ref>; de corde: <foreign xml:lang="gez">ዕሉት፡ ልብ፡</foreign>
+                     <foreign xml:lang="grc">διεστραμμένη</foreign>
+                     <ref cRef="Prov." loc="6,14">Prov. 6,14</ref>; de hominibus: <foreign xml:lang="grc">σκολιός</foreign>, <foreign xml:lang="grc">διεστραμμένος </foreign>
+                     <ref cRef="Deut." loc="32,5">Deut. 32,5</ref>; <ref cRef="Prov." loc="21,8">Prov. 21,8</ref>; <ref cRef="Ps." loc="77,10">Ps. 77,10</ref>; <ref cRef="Matth." loc="17,17">Matth. 17,17</ref>; <ref cRef="Phil." loc="2,15">Phil. 2,15</ref>
+                     <lbl expand="romanae editionis">rom.</lbl>; <foreign xml:lang="grc">στρεβλός</foreign>
+                     <ref cRef="2 Reg." loc="22,27">2 Reg. 22,27</ref>; Diocletianus <foreign xml:lang="gez">ንጉሥ፡ ዕልው፡</foreign>
+                     <ref cRef="Sx. Mag." loc="8 ">Sx. Mag. 8 </ref>Enc.</sense>
+                  <sense n="2" xml:id="D2">
+                     <cit type="translation" xml:lang="la">
+                        <quote>rebellis</quote>
+                     </cit>, <cb n="0954" xml:id="c0954"/>
+                     <cit type="translation" xml:lang="la">
+                        <quote>refractarius</quote>
+                     </cit>: <foreign xml:lang="gez">ዕሉት፡ </foreign> (<foreign xml:lang="he">מְשֻׁבָה</foreign>) <ref cRef="Jer." loc="3,6">Jer. 3,6</ref>; <ref cRef="Jer." loc="3,11">Jer. 3,11</ref> vers. nov.; in specie <cit type="translation" xml:lang="la">
+                        <quote>haereticus</quote>
+                     </cit>, <cit type="translation" xml:lang="la">
+                        <quote>apostata</quote>
+                     </cit>: <foreign xml:lang="gez">ዕልዋን፡ </foreign>
+                     <foreign xml:lang="grc">αἱρετικοί</foreign>
+                     <ref cRef="Can. Ap." loc="33">Can. Ap. 33</ref>; <ref cRef="Can. Ap." loc="52">Can. Ap. 52</ref>; <ref cRef="II Can. Ap." loc="60 ">II Can. Ap. 60
+                        </ref>(<lbl expand="videas">vid.</lbl> etiam<bibl>
+                        <ptr target="bm:Ludolf1691Commentarius"/> Lud. Comm. hist.</bibl> p. 313 n.
+                     43); <ref cRef="II Abt." loc="43 ">II Abt. 43 </ref>(<lbl expand="videas">vid.</lbl>
+                     <foreign xml:lang="gez">አርስስ፡</foreign>); Did.; <foreign xml:lang="gez">ዕልዋን፡
+                        ሃይማኖት፡ </foreign>
+                     <ref cRef="Did." loc="33">Did. 33</ref>; <foreign xml:lang="gez">ዕልዋን፡
+                        ወመናፍቃን፡</foreign>
+                     <ref cRef="Clem." loc="128">Clem. f. 128</ref>; <foreign xml:lang="gez">ዕልዋን፡
+                        ወከሓድያን፡ አይሁድ፡</foreign>
+                     <ref cRef="Clem." loc="1.">Clem. f. 1.</ref>
+                  </sense>
+               </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

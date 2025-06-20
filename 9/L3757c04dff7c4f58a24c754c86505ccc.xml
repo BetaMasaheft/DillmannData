@@ -1,0 +1,103 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> መስተፍሥሒ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="SH" when="2018-03-13">added: femal form, translit., german meaning, text+ bibliographic references</change>
+            <change who="SH" when="2018-03-13">minor correction in translit.</change>
+            <change who="SH" when="2018-03-13">minor correction in translit.</change>
+            <change who="SH" when="2018-03-15">added space here and there</change>
+        </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L3757c04dff7c4f58a24c754c86505ccc" n="9881">
+               <form>
+                  <foreign xml:lang="gez">መስተፍሥሒ</foreign>
+               </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain"> <gramGrp> <pos expand="participium">part.</pos> </gramGrp> <lbl expand="cum">c.</lbl> <lbl expand="">term.</lbl> <gramGrp> <pos expand="adjectivum">adj.</pos> </gramGrp> (etiam <foreign xml:lang="gez">መስተፈሥሒ፡</foreign>, Lud. e Ssal. Req.), <cit type="translation" xml:lang="la">
+                            <quote> exhilarans </quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                            <quote> laetificans </quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                            <quote> consolator </quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                            <quote> laetificus </quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                            <quote> laetabilis </quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                            <quote> jucundus </quote>
+                        </cit>: Raphael <foreign xml:lang="gez">መስተፍሥሔ፡ አልባብ፡</foreign> <ref cRef="Kedr f." loc="22">Kedr f. 22</ref>; Lit.; <ref cRef="Sx. Pag." loc="3">Sx. Pag. 3</ref>; Christus <foreign xml:lang="gez">መስተፍሥሔ፡ ሕዙናን፡</foreign> Lit. Orth.; <foreign xml:lang="gez">መዜንው፡ መስተፍሥሒ፡</foreign> Fal. in Proleg.; <foreign xml:lang="gez">ግብር፡ ሠናይ፡ ወመስተፍሥሒ፡</foreign> <ref cRef="Fal." loc="16 ">Fal. f. 16 </ref>(<lbl expand="videas">vid. sub</lbl> <foreign xml:lang="gez">አንሳሕስሐ፡</foreign> col. 327). </sense>
+               
+            <sense xml:lang="en" source="#traces" xml:id="Tmain"> fem. <foreign xml:lang="gez">መስተፍሥሒት፡</foreign> <cit type="transcription" xml:lang="gez">
+                            <quote> mastafśǝḥit </quote>
+                        </cit> <bibl>
+                            <ptr target="bm:Bezold1905KebraN"/>
+                            <citedRange unit="page"> 15 n. 35; 60 n. 46 (ed.)</citedRange>
+                        </bibl> <foreign xml:lang="gez">መስተፈሥሒት፡</foreign> <cit type="transcription" xml:lang="gez">
+                            <quote> mastafaśśǝḥit </quote>
+                        </cit> <ref cRef="Kebr. Nag." loc="24,9">Kebr. Nag. 24,9</ref> <bibl>
+                            <ptr target="bm:Bezold1905KebraN"/>
+                            <citedRange unit="page"> 15b l. 7; 60b l. 6 (ed.)</citedRange>
+                        </bibl> <cit type="translation" xml:lang="de">
+                            <quote>Freudenspenderin</quote>
+                        </cit>, <cit type="translation" xml:lang="de">
+                            <quote>erfreuend</quote>
+                        </cit> <bibl>
+                            <ptr target="bm:Bezold1905KebraN"/>
+                            <citedRange unit="page"> xxxiva</citedRange>
+                        </bibl> </sense>
+                </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,87 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ሠጠጠ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="LB" when="2018-02-14">root</change>
+        </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L4b18bb513f3940baa526a65e18096956" n="2019">
+               <form>
+                  <foreign xml:lang="gez">ሠጠጠ</foreign>
+               <rs type="root"/>
+                    </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain"> <subc>I,1</subc> [vic. <foreign xml:lang="gez">ሠጠቀ፡</foreign> q.v. et <foreign xml:lang="ar">شَظِيَ</foreign>; arab. <foreign xml:lang="ar">شَثَّ</foreign>, <foreign xml:lang="ar">شَذَّ</foreign>, <foreign xml:lang="ar">شَظَّ</foreign> <cit type="translation" xml:lang="la">
+                            <quote> separandi </quote>
+                        </cit> et <cit type="translation" xml:lang="la">
+                            <quote> disgregandi </quote>
+                        </cit> significatum habent] <gramGrp> <pos expand="Subjunctivus">Subj.</pos> </gramGrp> <foreign xml:lang="gez">ይሥጥጥ፡</foreign> <sense n="1" xml:id="D1"> <cit type="translation" xml:lang="la">
+                                <quote> scindere </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> discindere </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> divellere </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> dirumpere </quote>
+                            </cit>, vestem <ref cRef="Gen. " loc="37,29">Gen.  37,29</ref>; <ref cRef="Lev." loc="10,6">Lev. 10,6</ref>; <ref cRef="Lev." loc="21,10">Lev. 21,10</ref>; <ref cRef="Job" loc="1,20">Job 1,20</ref>; <ref cRef="Job" loc="2,12">Job 2,12</ref>; <ref cRef="Koh." loc="3,7">Koh. 3,7</ref>; <ref cRef="Esth." loc="4,1">Esth. 4,1</ref>; <ref cRef="Judith" loc="14,16">Judith 14,16</ref>; <ref cRef="Jes." loc="37,1">Jes. 37,1</ref>; <ref cRef="Jer." loc="43,24">Jer. 43,24</ref>; <ref cRef="Joel" loc="2,13">Joel 2,13</ref>; <ref cRef="Hez." loc="44,21">Hez. 44,21</ref>; <ref cRef="2 Esr." loc="9,3">2 Esr. 9,3</ref>; <ref cRef="Matth." loc="26,65">Matth. 26,65</ref>; <ref cRef="Joh." loc="19,24">Joh. 19,24</ref>; <foreign xml:lang="gez">ኢትሥጥጥ፡ ልብሰተ፡ ሥጋዌሁ፡</foreign> <ref cRef="Cyr." loc="121">Cyr. f. 121</ref>; litteras <ref cRef="Job " loc="31,37">Job  31,37</ref>; <foreign xml:lang="gez">እሠጥጥ፡ መጽሐፈ፡ ኀጣውኢከ፡</foreign> <ref cRef="Sx. Haml." loc="8">Sx. Haml. 8</ref>; aquam maris <ref cRef="Ex." loc="14,21">Ex. 14,21</ref>; ventrem alicujus: <foreign xml:lang="gez">ሠጠጡ፡ ከርሦ፡</foreign> <ref cRef="Jsp. " loc="370.">Jsp.  p. 370.</ref> </sense> <sense n="2" xml:id="D2"> <cit type="translation" xml:lang="la">
+                                <quote> abscindere </quote>
+                            </cit>, <cit type="translation" xml:lang="la">
+                                <quote> avellere </quote>
+                            </cit> <ref cRef="1 Reg." loc="15,28">1 Reg. 15,28</ref>; <ref cRef="1 Reg." loc="28,17">1 Reg. 28,17</ref>; <ref cRef="Hez." loc="13,20">Hez. 13,20</ref>. – <lbl expand="Vocabularium Aethiopicum, -a -a">Voc. Ae.</lbl>: <foreign xml:lang="gez">ሠጠጠ፡ ዘ፡ ቀጠጠ፡</foreign> <lbl expand="vel">v.</lbl> <foreign xml:lang="gez">ቀደደ፡</foreign> </sense> </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,172 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ዳኅን </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L75010381daf04a50a00d9198ee773e10" n="8028">
+               <form>
+                  <foreign xml:lang="gez">ዳኅን</foreign>
+               </form>
+               <sense xml:lang="la" source="#dillmann" xml:id="Dmain">
+                  <gramGrp>
+                     <pos expand="adjectivum">adj.</pos>
+                  </gramGrp> et <gramGrp>
+                     <pos expand="Substantivum">subst.</pos>
+                  </gramGrp>
+                  <sense n="I" xml:id="DI"> Adj., <lbl expand="pluralis">Pl.</lbl>
+                     <foreign xml:lang="gez">ዳኅናን፡</foreign>, <sense n="1" xml:id="DI1">
+                        <cit type="translation" xml:lang="la">
+                           <quote>incolumis</quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                           <quote>bene valens</quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                           <quote>salvus</quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                           <quote>sanus</quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                           <quote>integer</quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                           <quote>securus</quote>
+                        </cit>, de personis: <ref cRef="Gen." loc="29,6">Gen. 29,6</ref>; l <ref cRef="Reg." loc="25,6">Reg. 25,6</ref>; <foreign xml:lang="gez">ርኢ፡ ለእመ፡
+                           ዳኅናንኑ፡ አኀዊከ፡ ወአባግዒሆሙኒ፡</foreign>
+                        <ref cRef="Gen. " loc="37,14">Gen. 37,14</ref>; <ref cRef="Gen." loc="43,27">Gen. 43,27</ref>; <ref cRef="Gen." loc="43,28">Gen. 43,28</ref>;
+                        monachus compellatur <foreign xml:lang="gez">ዳኅንኑ፡ አባ፡</foreign> et
+                        respondet <foreign xml:lang="gez">እወ፡ ዳኅን፡ </foreign> Gad. F.H.; <foreign xml:lang="gez">ዳኅነ፡ ሀሉ፡</foreign>
+                        <foreign xml:lang="grc">ἔῤῥωσο</foreign>
+                        <cit type="translation" xml:lang="la">
+                           <quote>vale!</quote>
+                        </cit>
+                        <ref cRef="Act." loc="23,30">Act. 23,30</ref> Platt; <foreign xml:lang="gez">ዳኅንኑ፡ አንተ፡</foreign>
+                        <ref cRef="Tob." loc="5,14">Tob. 5,14</ref>; de familia et opibus: <foreign xml:lang="gez">ዳኅን፡ ቤትከ፡</foreign> (<foreign xml:lang="grc">εἰρηνεύει</foreign>) <ref cRef="Job" loc="5,24">Job 5,24</ref>; <ref cRef="Luc." loc="11,21">Luc. 11,21</ref>; de sigillo: <foreign xml:lang="gez">ዳኅንኑ፡ ማኅተም፡</foreign>
+                        <foreign xml:lang="grc">σῶοι αἱ φραγῖδες</foreign>
+                        <cb n="1113" xml:id="c1113"/>
+                        <ref cRef="Dan. apocr." loc="13,17">Dan. apocr. 13,17</ref>; de veste:
+                           <foreign xml:lang="gez">ልብስ፡ ሕያው፡ ወዳኅን፡</foreign>
+                        <ref cRef="Herm." loc="104">Herm. p. 104</ref>; de cute corporis <ref cRef="Lev. " loc="13,10">Lev. 13,10</ref>; <ref cRef="Lev." loc="13,14">Lev. 13,14</ref>; <ref cRef="Lev." loc="13,24">Lev. 13,24</ref>; de
+                        cadavere integro vel illaeso <ref cRef="Sx. Jac." loc="5 ">Sx. Jac. 5 </ref>
+                        Enc.</sense>
+                     <sense n="2" xml:id="DI2">
+                        <cit type="translation" xml:lang="la">
+                           <quote>integer</quote>
+                        </cit> i.e. <cit type="translation" xml:lang="la">
+                           <quote>immunis</quote>
+                        </cit> a culpa et poena: <ref cRef="Matth." loc="23,16">Matth. 23,16</ref>;
+                           <ref cRef="Matth." loc="23,18">Matth. 23,18</ref>. II) <gramGrp>
+                           <pos expand="Substantivum">Subst.</pos>
+                        </gramGrp>: <cit type="translation" xml:lang="la">
+                           <quote>integritas</quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                           <quote>incolumitas</quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                           <quote>salus</quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                           <quote>bona valetudo</quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                           <quote>securitas</quote>
+                        </cit>: <foreign xml:lang="gez">ዳኅን፡ ወሰላም፡ </foreign>
+                        <foreign xml:lang="grc">εἰρήνη καὶ ἀσφάλεια</foreign>
+                        <ref cRef="1 Thess. " loc="5,3">1 Thess. 5,3</ref>; <foreign xml:lang="gez">ወኮነ፡ ሰላም፡ ወዳኅን፡ ላዕለ፡ ኵሉ፡ በሓውርት፡</foreign> <ref cRef="Gad. T.H." loc="">Gad. T.H.</ref>; <ref cRef="Clem." loc="272">Clem. f. 272</ref>; <foreign xml:lang="gez">ዳኅነ፡ ይትናገሩ፡
+                           ለቢጾሙ፡</foreign>
+                        <foreign xml:lang="grc">εἰρηνικὰ λαλεῖ</foreign>
+                        <ref cRef="Jer." loc="9,8">Jer. 9,8</ref>; <ref cRef="Judith" loc="7,24">Judith 7,24</ref>; crebro <sense n="a" xml:id="DI2a">
+                           <foreign xml:lang="gez">በዳኅን፡</foreign>
+                           <cit type="translation" xml:lang="la">
+                              <quote>in salute</quote>
+                           </cit> i.e. <cit type="translation" xml:lang="la">
+                              <quote>salve</quote>
+                           </cit> vel ad personam relatum <cit type="translation" xml:lang="la">
+                              <quote>salvus</quote>
+                           </cit>, <cit type="translation" xml:lang="la">
+                              <quote>incolumis</quote>
+                           </cit>, <cit type="translation" xml:lang="la">
+                              <quote>bene valens</quote>
+                           </cit>: <foreign xml:lang="gez">በዳኅን፡</foreign> (v. <foreign xml:lang="gez">በዳኅና፡</foreign>) <foreign xml:lang="grc">ἐν
+                              ὑγιείᾳ</foreign>
+                           <ref cRef="Tob." loc="8,17">Tob. 8,17</ref>; <ref cRef="Tob." loc="8,21">Tob. 8,21</ref>; <ref cRef="Tob." loc="11,16">Tob. 11,16</ref>; <ref cRef="Tob." loc="12,3">Tob. 12,3</ref>; <ref cRef="1 Esr." loc="5,2">1
+                              Esr. 5,2</ref> (<foreign xml:lang="grc">μετ</foreign>ʼ <foreign xml:lang="grc">εἰρήνης</foreign>]); <foreign xml:lang="grc">μετὰ
+                              σωτηρίας</foreign>
+                           <ref cRef="Gen." loc="26,31">Gen. 26,31</ref>; <ref cRef="Gen." loc="28,21">Gen. 28,21</ref>; ne unicam quidem horam <foreign xml:lang="gez">አሀሉ፡ ዘበዳኅን፡</foreign> salvus forem, <ref cRef="Org." loc="5.">Org. 5.</ref>
+                        </sense>
+                        <sense n="b" xml:id="DI2b">
+                           <foreign xml:lang="gez">ዳኅነ፡</foreign>
+                           <sense n="α" xml:id="DI2bα">
+                              <lbl expand="idem">id.</lbl>: <foreign xml:lang="gez">ትነብር፡
+                                 ዳኅነ፡</foreign> (v. <foreign xml:lang="gez">ድኅነ፡</foreign>) <foreign xml:lang="gez">ዘእንበለ፡ ሐዘን፡ ወትካዝ፡ </foreign>
+                              <ref cRef="Job" loc="11,18">Job 11,18</ref>; <foreign xml:lang="gez">ዳኅነ፡ ይነብር፡ </foreign>
+                              <foreign xml:lang="grc">εἰρηνεύει</foreign>
+                              <ref cRef="Job" loc="15,21">Job 15,21</ref>; <ref cRef="Job " loc="16,12">Job 16,12</ref>; <ref cRef="Sir." loc="41,1">Sir.
+                                 41,1</ref>; <ref cRef="Sir." loc="44,6">Sir. 44,6</ref>; <foreign xml:lang="gez">ለእመ፡ ዳኅነ፡ አቶክሙ፡ </foreign>
+                              <foreign xml:lang="grc">ὑγιαίνοντες</foreign>
+                              <ref cRef="Tob." loc="5,16">Tob. 5,16</ref>; <ref cRef="Tob." loc="5,21">Tob. 5,21</ref>; <ref cRef="Tob." loc="5,22">Tob.
+                                 5,22</ref>.</sense>
+                           <sense n="β" xml:id="DI2bβ">
+                              <cit type="translation" xml:lang="la">
+                                 <quote>integre</quote>
+                              </cit>, <cit type="translation" xml:lang="la">
+                                 <quote>perfecte</quote>
+                              </cit>: <foreign xml:lang="gez">ወርእየ፡ ዳኅነ፡ </foreign>
+                              <ref cRef="Marc." loc="8,25">Marc. 8,25</ref>; <foreign xml:lang="gez">ይሬኢ፡ ዳኅነ፡</foreign>
+                              <ref cRef="Tob. " loc="11,7">Tob. 11,7</ref>.</sense>
+                        </sense>
+                     </sense>
+                  </sense>
+               </sense>
+               
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

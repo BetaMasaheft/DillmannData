@@ -1,0 +1,82 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ፈረስ </title>
+            <author>Alessandro Bausi</author>
+            <author>Andreas Ellwardt</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>TraCES project. https://www.traces.uni-hamburg.de/</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa-nc/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+                  Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
+                     Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
+                  Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
+            </p>
+            <p>
+                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+                  TraCES (Grant Agreement 338756)</ref>
+                </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital edition of the Lexicon in TEI.</p>
+      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">latin</language>
+            <language ident="it">Italian</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="syr">Syriac</language>
+            <language ident="ar">Arabic</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="geo">Georgian</language>
+            <language ident="cop">Coptic</language>
+            <language ident="osa">Old South Arabian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AE" when="2016-11-22">updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
+         <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
+         <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
+      <change who="LB" when="2018-06-05">root</change>
+            <change who="MK" when="2018-11-19">added new witness</change>
+            <change who="MK" when="2018-11-19">added transc</change>
+            <change who="MK" when="2018-11-19">corr</change>
+            <change who="AE" when="2018-12-17">correction</change>
+        <change who="MK" when="2023-01-04">added cross ref</change><change who="MK" when="2023-01-04">correction</change><change who="MK" when="2024-07-27">added cross ref</change></revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <entry xml:id="L6675081fd7cd430bbfd62885fc586846" n="9900">
+               <form>
+                  <foreign xml:lang="gez">ፈረስ</foreign>
+               <rs type="root"/>
+                    </form>
+               <sense xml:id="Dmain" xml:lang="la" source="#dillmann"> <gramGrp> <pos expand="Substantivum">subst.</pos> </gramGrp>, <gramGrp> <gen value="not found">m.</gen> </gramGrp> et <gramGrp> <gen value="femininus">fem.</gen> </gramGrp>, <lbl expand="pluralis">Pl.</lbl> <foreign xml:lang="gez">አፍራስ፡</foreign> [amh. <lbl expand="idem">id.</lbl>; <foreign xml:lang="he">פָּרָשׁ</foreign>, <foreign xml:lang="ar">فَرَسٌ</foreign>] <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> equus </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> equa; </t:quote></cit> <gramGrp> <gen value="not found">m.</gen> </gramGrp> <ref cRef="Gen." loc="49,17">Gen. 49,17</ref>; <ref cRef="Ex." loc="14,9">Ex. 14,9</ref>; <ref cRef="Ex." loc="15,1">Ex. 15,1</ref>; <ref cRef="Ex." loc="15,21">Ex. 15,21</ref>; <ref cRef="Ps." loc="31,11">Ps. 31,11</ref>; <ref cRef="Ps." loc="32,17">Ps. 32,17</ref>; <ref cRef="Ps." loc="146,11">Ps. 146,11</ref>; <ref cRef="Job" loc="39,19">Job 39,19</ref> <lbl expand="sequens">seq.</lbl>; <ref cRef="Cant." loc="1,9">Cant. 1,9</ref>; <foreign xml:lang="gez">ፈረስ፡ ዘኢተረየፀ፡ ይወፅእ፡ እኩየ፡</foreign> <ref cRef="Sir." loc="30,8">Sir. 30,8</ref>; <foreign xml:lang="gez">ረዋጺ፡ ፈረስ፡</foreign> <ref cRef="Jes. " loc="30,16">Jes.  30,16</ref>; <foreign xml:lang="gez">ጸዐዳ፡ ፈረስ፡</foreign> <ref cRef="Apoc." loc="6,2">Apoc. 6,2</ref>; <ref cRef="Apoc." loc="19,11">Apoc. 19,11</ref>; equus a magis divino honore cultus <ref cRef="Clem." loc="33">Clem. f. 33</ref>; <foreign xml:lang="gez">ፈረስ፡ ገይድ፡</foreign> <ref cRef="Sir." loc="36,6">Sir. 36,6</ref>; <gramGrp> <gen value="femininus">fem.</gen> </gramGrp>: <foreign xml:lang="gez">ፈረስ፡ እንተ፡ ይጼዐን፡ ንጉሥ፡</foreign> <ref cRef="Esth." loc="6,8">Esth. 6,8</ref>; <foreign xml:lang="gez">አፍራስ፡</foreign> <ref cRef="Ex." loc="14,7">Ex. 14,7</ref>; <ref cRef="Ex." loc="14,23">Ex. 14,23</ref>; <ref cRef="Deut." loc="17,16">Deut. 17,16</ref>; <ref cRef="Deut." loc="20,1">Deut. 20,1</ref>; <ref cRef="Jos. " loc="11,4">Jos.  11,4</ref>; <ref cRef="4 Reg." loc="7,6">4 Reg. 7,6</ref>; <ref cRef="Jes." loc="2,7">Jes. 2,7</ref>; <ref cRef="Jes." loc="31,1">Jes. 31,1</ref>; <ref cRef="Zach." loc="1,8">Zach. 1,8</ref>; <ref cRef="Zach." loc="6,3">Zach. 6,3</ref>; <ref cRef="Zach." loc="6,6">Zach. 6,6</ref>; <ref cRef="Ps." loc="19,8">Ps. 19,8</ref>; <foreign xml:lang="gez">አፍራስ፡ ረዋጽያን፡</foreign> <ref cRef="Am." loc="6,7">Am. 6,7</ref>; <gramGrp> <gen value="femininus">fem.</gen> </gramGrp>: <ref cRef="Jos." loc="11,6">Jos. 11,6</ref>; <ref cRef="Jos." loc="11,9">Jos. 11,9</ref>; <ref cRef="Jac." loc="3,3">Jac. 3,3</ref>; <foreign xml:lang="gez">አፍራስ፡ አእኑስ፡</foreign> (et <foreign xml:lang="gez">አትቡዕ፡</foreign>) <ref cRef="2 Par." loc="9,25">2 Par. 9,25</ref>; <foreign xml:lang="gez">አፍራስ፡ አንስት፡</foreign> <ref cRef="3 Reg. " loc="10,26">3 Reg.  10,26</ref>; distinguuntur <foreign xml:lang="gez">አፍራሰ፡ ጽብእ፡</foreign> <ref cRef="3 Reg." loc="10,26">3 Reg. 10,26</ref> vel <foreign xml:lang="gez">አፍራሰ፡ መራድ፡</foreign> et <foreign xml:lang="gez">አፍራስ፡ እለ፡ ይስሕቡ፡</foreign> <foreign xml:lang="gez">ሰረ</foreign> <foreign xml:lang="gez">ገላተ፡</foreign> <ref cRef="3 Reg." loc="3">3 Reg. 3</ref>a,21. <sense n="a" xml:id="Da"> crebro: <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> equus cum equite </t:quote></cit>: <foreign xml:lang="gez">ድምፀ፡ ሰረገላ፡ ወአፍራስ፡</foreign> <foreign xml:lang="grc">ἱππευόντων</foreign> <ref cRef="Mich." loc="1,13">Mich. 1,13</ref>; <foreign xml:lang="gez">አፍራስ፡</foreign> <cb n="1354" xml:id="c1354"/> <foreign xml:lang="grc">ἱππεῖς</foreign> <ref cRef="Jes." loc="22,7">Jes. 22,7</ref>; <foreign xml:lang="gez">ኵሎ፡ አፍራሲሁ፡</foreign> <foreign xml:lang="grc">πᾶσαν τὴν ἵππον αὐτοῦ</foreign> <ref cRef="Judith" loc="1,13">Judith 1,13</ref>; <ref cRef="Judith" loc="7,6">Judith 7,6</ref>. 
+</sense> <sense n="b" xml:id="Db"> <foreign xml:lang="gez">ዘበአፍራስ፡</foreign> <ref cRef="Judith" loc="7,2">Judith 7,2</ref> vel <foreign xml:lang="gez">ሰብአ፡ አፍራስ፡</foreign> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> eques </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> equites </t:quote></cit> <ref cRef="Jer." loc="4,29">Jer. 4,29</ref>; <ref cRef="1 Esr." loc="5,2">1 Esr. 5,2</ref>; <ref cRef="2 Reg. " loc="8,4">2 Reg.  8,4</ref>; <ref cRef="2 Reg." loc="10,18">2 Reg. 10,18</ref>; <ref cRef="Act." loc="23,23">Act. 23,23</ref>. 
+</sense> </sense>
+               
+            <sense xml:id="Tmain" xml:lang="en" source="#traces"> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">faras</t:quote></cit> <sense n="1" xml:id="T1"> <ptr target="#Da"/> <foreign xml:lang="gez">አፍራስ፡</foreign> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> ʾafrās </t:quote></cit> <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> horsemen </t:quote></cit>, ‘<cit type="translation" xml:lang="it"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> cavalieri </t:quote></cit>’ <foreign xml:lang="gez">ወወረደ፡ ላዕሌሆሙ፡ መቅሠፍት፡ ወሞቱ፡ ኵሎሙ፡ ወአፍራሲሆሙ፡ እለ፡ ቅደሙ፡ ማኅረኩ፡ ወድኅረ፡ ማኅረኩ፡</foreign> ‘<cit type="translation" xml:lang="it"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> Su di loro si abbattè il castigo e morirono tutti, e dei loro cavalieri, che prima e dopo si erano dati al saccheggio </t:quote></cit>’ <bibl><ptr target="bm:Bausi2003Libanos"/><citedRange unit="page"> 180 § 466 (ed.)</citedRange></bibl>, <bibl><ptr target="bm:Bausi2003LibanosTr"/><citedRange unit="page"> 104 § 466 (tr.)</citedRange></bibl> (‘«cavalieri»: letteralmente «cavalli», probabilmente nel senso, attestato nel Liber Axumae, di «cavaliere», vd. <bibl><ptr target="bm:ContiRossini1910Anbasa"/><citedRange unit="page"> 342</citedRange></bibl>.’ <bibl><ptr target="bm:Bausi2003LibanosTr"/><citedRange unit="page"> 104 n. 86</citedRange></bibl>) 
+</sense> <sense n="C" xml:id="TC"> <sense n="a" xml:id="TCa"> for <foreign xml:lang="gez">ሊቀ፡ ሐራ፡ ለአፍራስ፡</foreign> <lbl expand="videas">vid.</lbl> <foreign xml:lang="gez">ሊቅ፡</foreign> (Grébaut) 
+</sense> <sense n="b" xml:id="TCb"> for <foreign xml:lang="gez">አርውጾ፡ አፍራስ፡</foreign> <lbl expand="videas">vid.</lbl> <foreign xml:lang="gez">አሮጸ፡</foreign> 
+</sense> 
+</sense> </sense>
+                </entry>
+         </div>
+      </body>
+   </text>
+</TEI>
