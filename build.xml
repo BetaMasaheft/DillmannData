@@ -11,6 +11,6 @@
     </target>
     <target name="xar" depends="clean">
         <mkdir dir="${build.dir}"/>
-        <zip basedir="." destfile="${build.dir}/${project.app}-${project.version}.xar" excludes="${build.dir}/*, .github/*, .vscode/*, compare.sh, .gitignore"/>
+        <zip basedir="." destfile="${build.dir}/${project.app}-${project.version}.xar" excludes="${build.dir}/*, .github/**, .vscode/*, compare.sh, .gitignore"/>
     </target>
 </project>
