@@ -1,4 +1,5 @@
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -17,20 +18,26 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann"
+                  target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
                   Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
                      Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
                   Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
             </p>
             <p>
-                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+               <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
                   TraCES (Grant Agreement 338756)</ref>
-                </p>
+            </p>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
          <p>A digital edition of the Lexicon in TEI.</p>
-      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)"
+               replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"
+            />
+         </listPrefixDef>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
@@ -51,7 +58,8 @@
          <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
          <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
          <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
-      <change who="ES" when="2024-02-28">nesting</change></revisionDesc>
+         <change who="ES" when="2024-02-28">nesting</change>
+      </revisionDesc>
    </teiHeader>
    <text>
       <body>
@@ -60,14 +68,115 @@
                <form>
                   <foreign xml:lang="gez">ተገበረ</foreign>
                </form>
-               <sense xml:id="Dmain" xml:lang="la" source="#dillmann"> <subc>III,2</subc> <sense n="1" xml:id="D1"> Reflex.
-</sense> <sense n="1" xml:id="D1"> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> opus facere </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> operari </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> laborare </t:quote></cit>: <ref cRef="4 Esr." loc="3,19">4 Esr. 3,19</ref>; <ref cRef="Act." loc="18,3">Act. 18,3</ref>; <foreign xml:lang="gez">ዘይትቀነይ፡ ወይትጌበር፡</foreign> <ref cRef="Sir." loc="10,27">Sir. 10,27</ref>; <ref cRef="1 Thess." loc="2,9">1 Thess. 2,9</ref>; <foreign xml:lang="gez">በፍርሀት፡ ትትጌበሩ፡ ለሕይወትክሙ፡</foreign> <ref cRef="Phil." loc="2,12">Phil. 2,12</ref>; <lbl expand="cum">c.</lbl> <gramGrp> <case value="accusativus">Acc.</case> </gramGrp> operis vel negotii: <foreign xml:lang="gez">ተግባር፡ ዘተገበርክሙ፡ በዲበ፡ ምድር፡</foreign> <ref cRef="Kuf. " loc="20">Kuf.  20</ref>; <ref cRef="1 Thess." loc="4,11">1 Thess. 4,11</ref>. <sense n="a" xml:id="D1a"> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> operam dare </t:quote></cit> rei, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> elaborare </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> operando acquirere </t:quote></cit>, <lbl expand="cum">c.</lbl> <gramGrp> <case value="accusativus">Acc.</case> </gramGrp>: <ref cRef="Prov." loc="6,8">Prov. 6,8</ref>; <foreign xml:lang="gez">ሀገር፡ እንተ፡ ትትጌበር፡ ከንቶ፡</foreign> <ref cRef="Hos." loc="6,8">Hos. 6,8</ref>; <foreign xml:lang="gez">ይትጌበሩ፡ ሐሰተ፡</foreign> <ref cRef="Jer." loc="8,10">Jer. 8,10</ref> <lbl expand="versio nova">vers. nov.</lbl>; <ref cRef="Zeph. " loc="2,3">Zeph.  2,3</ref>; <foreign xml:lang="gez">ዘይትጌበራ፡ ለእኪት፡</foreign> <foreign xml:lang="grc">ὁ ἐνδελεχίζων εἰς κακά</foreign> <ref cRef="Sir." loc="12,3">Sir. 12,3</ref>; <foreign xml:lang="gez">ተገበሩ፡ ጽድቀ፡</foreign> <ref cRef="Hebr." loc="11,33">Hebr. 11,33</ref>; <foreign xml:lang="gez">ይትጌበር፡ ሀጕለ፡ ነፍሱ፡</foreign> <foreign xml:lang="grc">περιποιεῖται</foreign> <ref cRef="Prov." loc="6,32">Prov. 6,32</ref>.
-</sense> <sense n="b" xml:id="D1b"> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> labore conficere </t:quote></cit>: <foreign xml:lang="gez">እለ፡ ይትጌበሩ፡ ሜላተ፡</foreign> <ref cRef="Jes. " loc="19,9">Jes.  19,9</ref>; <foreign xml:lang="gez">መዳልወ፡</foreign> <ref cRef="Jes." loc="19,10">Jes. 19,10</ref>; apis <foreign xml:lang="gez">ዘይትጌበር፡ ጸቃውዐ፡ መዓር፡</foreign> <ref cRef="Org." loc="5">Org. 5</ref>; infantes qui nondum dentes habent <foreign xml:lang="gez">ለተገብሮ፡ ኅብስት፡</foreign> (ad conficiendum i.e. masticandum panem), Lud. e Mss. Colb.
-</sense> <sense n="c" xml:id="D1c"> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> colere </t:quote></cit> agrum, vites, <lbl expand="cum">c.</lbl> <gramGrp> <case value="accusativus">Acc.</case> </gramGrp>: <ref cRef="Gen." loc="2,15">Gen. 2,15</ref>; <ref cRef="Gen." loc="3,23">Gen. 3,23</ref>; <ref cRef="Gen." loc="4,12">Gen. 4,12</ref>; <foreign xml:lang="gez">ዘይትጌበራ፡ ለምድር፡</foreign> <ref cRef="Prov." loc="12,11">Prov. 12,11</ref>; <foreign xml:lang="gez">ዘይትጌበር፡ ገራህቶ፡</foreign> <ref cRef="Prov." loc="28,19">Prov. 28,19</ref>; <ref cRef="Kuf." loc="3">Kuf. 3</ref>; <ref cRef="1 Esr." loc="4,6">1 Esr. 4,6</ref>; <ref cRef="Sir." loc="20,28">Sir. 20,28</ref>; <ref cRef="Jes. " loc="23,10">Jes.  23,10</ref>; <foreign xml:lang="gez">ዘይጻሙ፡ በተገብሮታ፡ ለምድር፡</foreign> <ref cRef="Sap." loc="17,16">Sap. 17,16</ref>; <ref cRef="Jsp. " loc="371">Jsp.  p. 371</ref>; <foreign xml:lang="gez">ወይንኪ፡ ዘተገበርኪ፡</foreign> <ref cRef="Jes." loc="62,8">Jes. 62,8</ref>.
-</sense> <sense n="d" xml:id="D1d"> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> mercaturam facere </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> negotiari </t:quote></cit>: <ref cRef="Gen." loc="42,34">Gen. 42,34</ref>; <foreign xml:lang="gez">ሐመር፡ እንተ፡ ትትጌበር፡ እምርሑቅ፡</foreign> <ref cRef="Prov." loc="29,32">Prov. 29,32</ref>; <ref cRef="Did." loc="3">Did. 3</ref>; <foreign xml:lang="gez">ትትጌበሪ፡ ምስለ፡ እለ፡</foreign> … <ref cRef="Hez." loc="27,16">Hez. 27,16</ref>; <ref cRef="Luc." loc="19,13">Luc. 19,13</ref>; <ref cRef="Luc. " loc="19,15">Luc.  19,15</ref>; <ref cRef="Jac." loc="4,13">Jac. 4,13</ref>; <lbl expand="cum">c.</lbl> <foreign xml:lang="gez">በ፡</foreign> rei <ref cRef="Matth." loc="25,16">Matth. 25,16</ref>; <lbl expand="cum">c.</lbl> <gramGrp> <case value="accusativus">Acc.</case> </gramGrp> rei: <foreign xml:lang="gez">ይኄይስ፡ ኪያሃ፡ ተገብሮ፡ እምተገብሮ፡ ወርቅ፡ ወብሩር፡</foreign> <ref cRef="Prov." loc="3,14">Prov. 3,14</ref>; <lbl expand="cum">c.</lbl> <gramGrp> <case value="accusativus">Acc.</case> </gramGrp> negotii: <ref cRef="Ps." loc="106,23">Ps. 106,23</ref>.</sense>
-</sense> <sense n="2" xml:id="D2"> raro Pass. i.q. <subc>III,1</subc>: <foreign xml:lang="gez">ኀጺን፡ እምውስተ፡ ምድር፡ ይትጌበር፡</foreign> <ref cRef="Job" loc="28,2">Job 28,2</ref> <lbl expand="varia lectio">var.</lbl>; <foreign xml:lang="gez">በዓል፡ ትትጌበር፡</foreign> <ref cRef="Kuf. " loc="26 ">Kuf.  p. 26 </ref> <lbl expand="annotatio">ann.</lbl> 5.
-</sense> </sense>
-               
+               <sense xml:id="Dmain" xml:lang="la" source="#dillmann">
+                  <subc>III,2</subc>
+                  <sense n="1" xml:id="D3"> Reflex. </sense>
+                  <sense n="1" xml:id="D1">
+                     <cit type="translation" xml:lang="la">
+                        <t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> opus facere </t:quote>
+                     </cit>, <cit type="translation" xml:lang="la">
+                        <t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> operari </t:quote>
+                     </cit>, <cit type="translation" xml:lang="la">
+                        <t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> laborare </t:quote>
+                     </cit>: <ref cRef="4 Esr." loc="3,19">4 Esr. 3,19</ref>; <ref cRef="Act."
+                        loc="18,3">Act. 18,3</ref>; <foreign xml:lang="gez">ዘይትቀነይ፡
+                        ወይትጌበር፡</foreign>
+                     <ref cRef="Sir." loc="10,27">Sir. 10,27</ref>; <ref cRef="1 Thess." loc="2,9">1
+                        Thess. 2,9</ref>; <foreign xml:lang="gez">በፍርሀት፡ ትትጌበሩ፡ ለሕይወትክሙ፡</foreign>
+                     <ref cRef="Phil." loc="2,12">Phil. 2,12</ref>; <lbl expand="cum">c.</lbl>
+                     <gramGrp>
+                        <case value="accusativus">Acc.</case>
+                     </gramGrp> operis vel negotii: <foreign xml:lang="gez">ተግባር፡ ዘተገበርክሙ፡ በዲበ፡
+                        ምድር፡</foreign>
+                     <ref cRef="Kuf. " loc="20">Kuf. 20</ref>; <ref cRef="1 Thess." loc="4,11">1
+                        Thess. 4,11</ref>. <sense n="a" xml:id="D1a">
+                        <cit type="translation" xml:lang="la">
+                           <t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> operam dare </t:quote>
+                        </cit> rei, <cit type="translation" xml:lang="la">
+                           <t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> elaborare </t:quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                           <t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> operando acquirere
+                           </t:quote>
+                        </cit>, <lbl expand="cum">c.</lbl>
+                        <gramGrp>
+                           <case value="accusativus">Acc.</case>
+                        </gramGrp>: <ref cRef="Prov." loc="6,8">Prov. 6,8</ref>; <foreign
+                           xml:lang="gez">ሀገር፡ እንተ፡ ትትጌበር፡ ከንቶ፡</foreign>
+                        <ref cRef="Hos." loc="6,8">Hos. 6,8</ref>; <foreign xml:lang="gez">ይትጌበሩ፡
+                           ሐሰተ፡</foreign>
+                        <ref cRef="Jer." loc="8,10">Jer. 8,10</ref>
+                        <lbl expand="versio nova">vers. nov.</lbl>; <ref cRef="Zeph. " loc="2,3"
+                           >Zeph. 2,3</ref>; <foreign xml:lang="gez">ዘይትጌበራ፡ ለእኪት፡</foreign>
+                        <foreign xml:lang="grc">ὁ ἐνδελεχίζων εἰς κακά</foreign>
+                        <ref cRef="Sir." loc="12,3">Sir. 12,3</ref>; <foreign xml:lang="gez">ተገበሩ፡
+                           ጽድቀ፡</foreign>
+                        <ref cRef="Hebr." loc="11,33">Hebr. 11,33</ref>; <foreign xml:lang="gez"
+                           >ይትጌበር፡ ሀጕለ፡ ነፍሱ፡</foreign>
+                        <foreign xml:lang="grc">περιποιεῖται</foreign>
+                        <ref cRef="Prov." loc="6,32">Prov. 6,32</ref>. </sense>
+                     <sense n="b" xml:id="D1b">
+                        <cit type="translation" xml:lang="la">
+                           <t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> labore conficere
+                           </t:quote>
+                        </cit>: <foreign xml:lang="gez">እለ፡ ይትጌበሩ፡ ሜላተ፡</foreign>
+                        <ref cRef="Jes. " loc="19,9">Jes. 19,9</ref>; <foreign xml:lang="gez"
+                           >መዳልወ፡</foreign>
+                        <ref cRef="Jes." loc="19,10">Jes. 19,10</ref>; apis <foreign xml:lang="gez"
+                           >ዘይትጌበር፡ ጸቃውዐ፡ መዓር፡</foreign>
+                        <ref cRef="Org." loc="5">Org. 5</ref>; infantes qui nondum dentes habent
+                           <foreign xml:lang="gez">ለተገብሮ፡ ኅብስት፡</foreign> (ad conficiendum i.e.
+                        masticandum panem), Lud. e Mss. Colb. </sense>
+                     <sense n="c" xml:id="D1c">
+                        <cit type="translation" xml:lang="la">
+                           <t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> colere </t:quote>
+                        </cit> agrum, vites, <lbl expand="cum">c.</lbl>
+                        <gramGrp>
+                           <case value="accusativus">Acc.</case>
+                        </gramGrp>: <ref cRef="Gen." loc="2,15">Gen. 2,15</ref>; <ref cRef="Gen."
+                           loc="3,23">Gen. 3,23</ref>; <ref cRef="Gen." loc="4,12">Gen. 4,12</ref>;
+                           <foreign xml:lang="gez">ዘይትጌበራ፡ ለምድር፡</foreign>
+                        <ref cRef="Prov." loc="12,11">Prov. 12,11</ref>; <foreign xml:lang="gez"
+                           >ዘይትጌበር፡ ገራህቶ፡</foreign>
+                        <ref cRef="Prov." loc="28,19">Prov. 28,19</ref>; <ref cRef="Kuf." loc="3"
+                           >Kuf. 3</ref>; <ref cRef="1 Esr." loc="4,6">1 Esr. 4,6</ref>; <ref
+                           cRef="Sir." loc="20,28">Sir. 20,28</ref>; <ref cRef="Jes. " loc="23,10"
+                           >Jes. 23,10</ref>; <foreign xml:lang="gez">ዘይጻሙ፡ በተገብሮታ፡ ለምድር፡</foreign>
+                        <ref cRef="Sap." loc="17,16">Sap. 17,16</ref>; <ref cRef="Jsp. " loc="371"
+                           >Jsp. p. 371</ref>; <foreign xml:lang="gez">ወይንኪ፡ ዘተገበርኪ፡</foreign>
+                        <ref cRef="Jes." loc="62,8">Jes. 62,8</ref>. </sense>
+                     <sense n="d" xml:id="D1d">
+                        <cit type="translation" xml:lang="la">
+                           <t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> mercaturam facere
+                           </t:quote>
+                        </cit>, <cit type="translation" xml:lang="la">
+                           <t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> negotiari </t:quote>
+                        </cit>: <ref cRef="Gen." loc="42,34">Gen. 42,34</ref>; <foreign
+                           xml:lang="gez">ሐመር፡ እንተ፡ ትትጌበር፡ እምርሑቅ፡</foreign>
+                        <ref cRef="Prov." loc="29,32">Prov. 29,32</ref>; <ref cRef="Did." loc="3"
+                           >Did. 3</ref>; <foreign xml:lang="gez">ትትጌበሪ፡ ምስለ፡ እለ፡</foreign> … <ref
+                           cRef="Hez." loc="27,16">Hez. 27,16</ref>; <ref cRef="Luc." loc="19,13"
+                           >Luc. 19,13</ref>; <ref cRef="Luc. " loc="19,15">Luc. 19,15</ref>; <ref
+                           cRef="Jac." loc="4,13">Jac. 4,13</ref>; <lbl expand="cum">c.</lbl>
+                        <foreign xml:lang="gez">በ፡</foreign> rei <ref cRef="Matth." loc="25,16"
+                           >Matth. 25,16</ref>; <lbl expand="cum">c.</lbl>
+                        <gramGrp>
+                           <case value="accusativus">Acc.</case>
+                        </gramGrp> rei: <foreign xml:lang="gez">ይኄይስ፡ ኪያሃ፡ ተገብሮ፡ እምተገብሮ፡ ወርቅ፡
+                           ወብሩር፡</foreign>
+                        <ref cRef="Prov." loc="3,14">Prov. 3,14</ref>; <lbl expand="cum">c.</lbl>
+                        <gramGrp>
+                           <case value="accusativus">Acc.</case>
+                        </gramGrp> negotii: <ref cRef="Ps." loc="106,23">Ps. 106,23</ref>.</sense>
+                  </sense>
+                  <sense n="2" xml:id="D2"> raro Pass. i.q. <subc>III,1</subc>: <foreign
+                        xml:lang="gez">ኀጺን፡ እምውስተ፡ ምድር፡ ይትጌበር፡</foreign>
+                     <ref cRef="Job" loc="28,2">Job 28,2</ref>
+                     <lbl expand="varia lectio">var.</lbl>; <foreign xml:lang="gez">በዓል፡
+                        ትትጌበር፡</foreign>
+                     <ref cRef="Kuf. " loc="26 ">Kuf. p. 26 </ref>
+                     <lbl expand="annotatio">ann.</lbl> 5. </sense>
+               </sense>
+
             </entry>
          </div>
       </body>
