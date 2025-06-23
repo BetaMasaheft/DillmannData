@@ -1,4 +1,5 @@
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -17,20 +18,26 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann"
+                  target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
                   Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
                      Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
                   Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
             </p>
             <p>
-                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+               <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
                   TraCES (Grant Agreement 338756)</ref>
-                </p>
+            </p>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
          <p>A digital edition of the Lexicon in TEI.</p>
-      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)"
+               replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"
+            />
+         </listPrefixDef>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
@@ -51,7 +58,53 @@
          <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
          <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
          <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
-      <change who="MK" when="2022-09-08">added Grebaut</change><change who="MK" when="2022-09-12">added example</change><change who="MK" when="2022-09-12">correction</change><change who="MK" when="2022-09-12">added meaning</change><change who="MK" when="2022-09-12">added example</change><change who="MK" when="2022-09-12">added meaning</change><change who="MK" when="2022-09-12">added examples</change><change who="MK" when="2022-09-12">added example</change><change who="MK" when="2022-09-12">added menaings</change><change who="MK" when="2022-09-12">correction</change><change who="MK" when="2022-09-12">added meaning</change><change who="MK" when="2022-09-12">added menaings</change><change who="MK" when="2022-09-12">added link</change><change who="MK" when="2022-09-12">added Ms.</change><change who="MK" when="2022-09-12">added Ms.</change><change who="MK" when="2022-09-13">added compounds</change><change who="MK" when="2022-09-13">correction</change><change who="MK" when="2022-09-13">added cross ref</change><change who="MK" when="2022-09-13">removed compounds</change><change who="MK" when="2022-09-13">added cross refe</change><change who="MK" when="2022-09-13">added cross ref</change><change who="MK" when="2022-09-13">added cross ref</change><change who="MK" when="2022-09-13">removed compound added cross ref</change><change who="MK" when="2022-09-13">arranged cross ref</change><change who="MK" when="2022-09-13">correction</change><change who="MK" when="2022-09-13">added for</change><change who="MK" when="2022-09-13">removed compound </change><change who="MK" when="2022-09-13">removed compound</change><change who="MK" when="2022-09-13">added cross references</change><change who="MK" when="2022-09-14">added Leslau</change><change who="MK" when="2022-09-14">added parentheses</change><change who="MK" when="2022-09-14">added cross ref</change><change who="MK" when="2022-09-14">added cross refe</change><change who="MK" when="2022-09-14">added cross ref</change><change who="MK" when="2022-09-14">added transliteration</change><change who="MK" when="2022-09-14">correction</change><change who="MK" when="2022-09-14">added translaietration</change><change who="MK" when="2022-09-14">remnoved translaietration</change><change who="MK" when="2023-11-21">added Les 2</change><change who="MK" when="2023-11-21">added ,</change><change who="MK" when="2024-07-09">added leslau</change><change who="MK" when="2024-07-09">added leslau</change><change who="MK" when="2024-07-09">added leslau</change><change who="MK" when="2024-07-09">added les</change><change who="MK" when="2024-07-09">added vid</change><change who="MK" when="2024-07-09">added vid</change></revisionDesc>
+         <change who="MK" when="2022-09-08">added Grebaut</change>
+         <change who="MK" when="2022-09-12">added example</change>
+         <change who="MK" when="2022-09-12">correction</change>
+         <change who="MK" when="2022-09-12">added meaning</change>
+         <change who="MK" when="2022-09-12">added example</change>
+         <change who="MK" when="2022-09-12">added meaning</change>
+         <change who="MK" when="2022-09-12">added examples</change>
+         <change who="MK" when="2022-09-12">added example</change>
+         <change who="MK" when="2022-09-12">added menaings</change>
+         <change who="MK" when="2022-09-12">correction</change>
+         <change who="MK" when="2022-09-12">added meaning</change>
+         <change who="MK" when="2022-09-12">added menaings</change>
+         <change who="MK" when="2022-09-12">added link</change>
+         <change who="MK" when="2022-09-12">added Ms.</change>
+         <change who="MK" when="2022-09-12">added Ms.</change>
+         <change who="MK" when="2022-09-13">added compounds</change>
+         <change who="MK" when="2022-09-13">correction</change>
+         <change who="MK" when="2022-09-13">added cross ref</change>
+         <change who="MK" when="2022-09-13">removed compounds</change>
+         <change who="MK" when="2022-09-13">added cross refe</change>
+         <change who="MK" when="2022-09-13">added cross ref</change>
+         <change who="MK" when="2022-09-13">added cross ref</change>
+         <change who="MK" when="2022-09-13">removed compound added cross ref</change>
+         <change who="MK" when="2022-09-13">arranged cross ref</change>
+         <change who="MK" when="2022-09-13">correction</change>
+         <change who="MK" when="2022-09-13">added for</change>
+         <change who="MK" when="2022-09-13">removed compound </change>
+         <change who="MK" when="2022-09-13">removed compound</change>
+         <change who="MK" when="2022-09-13">added cross references</change>
+         <change who="MK" when="2022-09-14">added Leslau</change>
+         <change who="MK" when="2022-09-14">added parentheses</change>
+         <change who="MK" when="2022-09-14">added cross ref</change>
+         <change who="MK" when="2022-09-14">added cross refe</change>
+         <change who="MK" when="2022-09-14">added cross ref</change>
+         <change who="MK" when="2022-09-14">added transliteration</change>
+         <change who="MK" when="2022-09-14">correction</change>
+         <change who="MK" when="2022-09-14">added translaietration</change>
+         <change who="MK" when="2022-09-14">remnoved translaietration</change>
+         <change who="MK" when="2023-11-21">added Les 2</change>
+         <change who="MK" when="2023-11-21">added ,</change>
+         <change who="MK" when="2024-07-09">added leslau</change>
+         <change who="MK" when="2024-07-09">added leslau</change>
+         <change who="MK" when="2024-07-09">added leslau</change>
+         <change who="MK" when="2024-07-09">added les</change>
+         <change who="MK" when="2024-07-09">added vid</change>
+         <change who="MK" when="2024-07-09">added vid</change>
+      </revisionDesc>
    </teiHeader>
    <text>
       <body>
@@ -60,37 +113,320 @@
                <form>
                   <foreign xml:lang="gez">ሃይማኖት</foreign>
                </form>
-               <sense xml:id="Dmain" xml:lang="la" source="#dillmann"> (<foreign xml:lang="syr">ܗܰܝܡܳܢܽܘܬܐ</foreign>) peregrinae formationis, ab Aramaeis petitum, ab Aethiopibus frequentissime usitatum, <gramGrp> <pos expand="Substantivum">subst.</pos> </gramGrp>, <gramGrp> <gen value="not found">m.</gen> </gramGrp> et <gramGrp> <gen value="femininus">fem.</gen> </gramGrp>: <sense n="1" xml:id="D1"> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> fides qua creditur </t:quote></cit>; <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> fidelitas </t:quote></cit>(<note>Glaube</note>, <note>Treue</note>): <ref cRef="Deut." loc="32,20">Deut. 32,20</ref>; <ref cRef="Jes. " loc="5,3">Jes.  5,3</ref>; <ref cRef="Jes." loc="7,28">Jes. 7,28</ref>; <ref cRef="Jer." loc="15,18">Jer. 15,18</ref>; <ref cRef="Jer." loc="39,41">Jer. 39,41</ref>; <ref cRef="Ps." loc="32,4">Ps. 32,4</ref>; <ref cRef="Sir." loc="40,12">Sir. 40,12</ref>; <ref cRef="Sir." loc="45,4">Sir. 45,4</ref>; <ref cRef="Sir." loc="46,15">Sir. 46,15</ref>; <ref cRef="4 Esr." loc="4,13">4 Esr. 4,13</ref>; <ref cRef="4 Esr." loc="4,32">4 Esr. 4,32</ref>; <ref cRef="4 Esr." loc="9,8">4 Esr. 9,8</ref>; <ref cRef="Rom." loc="1,8">Rom. 1,8</ref>; <ref cRef="Rom." loc="4,12">Rom. 4,12</ref>; <ref cRef="2 Tim." loc="4,7">2 Tim. 4,7</ref>; <ref cRef="Hebr." loc="11,3">Hebr. 11,3</ref>; <ref cRef="Hebr." loc="11,39">Hebr. 11,39</ref>. (synon. <foreign xml:lang="gez">አሚን፡</foreign>, <foreign xml:lang="gez">ተአምኖ፡</foreign>), <ref cRef="Matth." loc="8,10">Matth. 8,10</ref>; <ref cRef="Jac." loc="2,14">Jac. 2,14</ref> <lbl expand="sequens">seq.</lbl>; <foreign xml:lang="grc">πίστεις</foreign> <ref cRef="Prov." loc="3,3">Prov. 3,3</ref>; <foreign xml:lang="gez">ሃይማኖተ፡ ተስፋ፡</foreign> <foreign xml:lang="grc">πίστις ἐλπίδος</foreign> <ref cRef="Sir." loc="49,10">Sir. 49,10</ref>; <lbl expand="construitur cum">c.c.</lbl> <foreign xml:lang="gez">በ</foreign> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> in </t:quote></cit> <ref cRef="Jac." loc="2,1">Jac. 2,1</ref>; <foreign xml:lang="gez">እለ፡ አዕረፉ፡ በሃይማኖት፡ በክርስቶስ፡</foreign> <ref cRef="Did." loc="34">Did. 34</ref>; <foreign xml:lang="gez">ዘይገብር፡ ሃይማኖተ፡</foreign> <foreign xml:lang="grc">ποιῶν πίστεις</foreign> <ref cRef="Prov." loc="12,22">Prov. 12,22</ref>; <ref cRef="Prov. " loc="15,28">Prov.  15,28</ref>; <ref cRef="Sir." loc="15,15">Sir. 15,15</ref>; <foreign xml:lang="gez">ሃይማኖተ፡ ዕቀብ፡ ምስለ፡ ቢጽከ፡</foreign> (de amicitia) <ref cRef="Sir." loc="22,23">Sir. 22,23</ref>; <ref cRef="Hen." loc="41,5">Hen. 41,5</ref>; <ref cRef="Hen." loc="43,2">Hen. 43,2</ref>; <foreign xml:lang="gez">ያጸንዑ፡ ሃይማኖቶሙ፡ በቀለም፡ ወበማየ፡ ሕመት፡</foreign> <ref cRef="Hen." loc="69,10">Hen. 69,10</ref>; <foreign xml:lang="gez">ብእሲ፡ ዚታአምር፡ ከመ፡ ቦ፡ ሃይማኖተ፡</foreign> (<cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> fidelem eum esse </t:quote></cit>) <ref cRef="Sir." loc="37,12">Sir. 37,12</ref>; <foreign xml:lang="gez">ሀጕለ፡ ሃይማኖቶ፡</foreign> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> fidem perdidit </t:quote></cit> <ref cRef="Sir." loc="27,16">Sir. 27,16</ref>; <ref cRef="Luc. " loc="16,11">Luc.  16,11</ref>; <ref cRef="Luc." loc="16,12">Luc. 16,12</ref>; <foreign xml:lang="gez">በሃይማኖቶሙ፡</foreign> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> in bonam fidem </t:quote></cit> <ref cRef="4 Reg." loc="12,15">4 Reg. 12,15</ref>; <ref cRef="4 Reg." loc="22,7">4 Reg. 22,7</ref>. 
-</sense> <sense n="2" xml:id="D2"> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> fides quae creditur </t:quote></cit>(<cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> religio </t:quote></cit>, <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> confessio </t:quote></cit>); <foreign xml:lang="gez">ሃይማኖት፡ ቅድስት፡</foreign> <ref cRef="Judae" loc="20">Judae 20</ref>; <foreign xml:lang="gez">ሃይማኖት፡ ርትዕት፡</foreign> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> fides orthodoxa </t:quote></cit> <ref cRef="Lit." loc="165,1">Lit. 165,1</ref>: <foreign xml:lang="gez">ርቱዐ፡ ሃይማኖት፡</foreign> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> orthodoxus </t:quote></cit>(saepissime; etiam titulus libri cujusdam dogmatici); <foreign xml:lang="gez">ሃይማኖተ፡ አበው፡</foreign> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> fides Patrum </t:quote></cit>(titulus libri celeberrimi); <foreign xml:lang="gez">ጸሎተ፡ ሃይማኖት፡</foreign> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> symbolum fidei </t:quote></cit> <ref cRef="Lit." loc="163,3">Lit. 163,3</ref>; <foreign xml:lang="gez">ሃይማኖተ፡ እስላም፡</foreign> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> Islami religio </t:quote></cit> <ref cRef="Abush." loc="50">Abush. 50</ref>; <foreign xml:lang="gez">ሃይማኖተ፡ ንስጦሮስ፡</foreign> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> confessio Nestorii </t:quote></cit>Enc. 
-</sense> </sense>
-               
-            <sense xml:id="Tmain" xml:lang="en" source="#traces"> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">hāymānot</t:quote></cit> <sense n="G" xml:id="TG"><foreign xml:lang="gez">ሃይማኖት፡</foreign> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">hāymānot</t:quote></cit>, <lbl expand="pluralis">Pl.</lbl> <foreign xml:lang="gez">ሃይማኖታት፡</foreign> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">hāymānotāt</t:quote></cit> présente des significations très différentes : <cit type="translation" xml:lang="fr"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">foi chrétienne</t:quote></cit> (au sens général), <cit type="translation" xml:lang="fr"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">foi catholique</t:quote></cit> (diophysite); <cit type="translation" xml:lang="fr"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">foi monophysite de Dioscore</t:quote></cit> (opposée à la foi catholique), (reject de l’« Epistola dogmatica ad Flavianum» du pape Léon Ier, <foreign xml:lang="gez">ጦማረ፡ ልዮን፡</foreign>); <cit type="translation" xml:lang="fr"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">religion</t:quote></cit>, <cit type="translation" xml:lang="fr"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">croyance</t:quote></cit>, etc. <foreign xml:lang="gez">አስተጋብኡ፡ ኵሎ፡ መኳንንተ፡ ወሊቃውንተ፡ ወመምህራነ፡ ወኵሎ፡ ዓበይተ፡ መንግሥት፡ ወመከሩ፡ ከመ፡ ይሕትትዎሙ፡ ወይጠይቅዎሙ፡ ነገረ፡ ሃይማኖት። አሜሃ፡ ተዓውቀ፡ ወተጠየቀ፡ ከመ፡ ኮነ፡ ሰብአ፡ ሮም፡ ወከመ፡ የአምኑ፡ በሃይማኖተ፡ ልዮን፡ ርኩስ፡ ዓላዊ፡ እስከ፡ ተናገሩ፡ በቃሎሙ፡ እንዘ፡ ይብሉ፡ ፪ጠባይዓት፡ ሀለዉ፡ በክርስቶስ። ወእምዝ፡ ተሠጥዉ፡ ወይቤሉ፡ ንጉሥ፡ ወሰብኡ፡ ንሕነሰ፡ ኢንብል፡ ከመዝ፡ ዳእሙ፡ ንቤ፡ አልቦ፡ ምንታዌ፡ በክርስቶስ፡ አምላክ፡ ድኅረ፡ ተዋሕዶተ፡ መለኮት፡ ወትስብዕት፡ እንበለ፡ ቱሳሔ፡ ወኢድማሬ። ወነአምን፡ በሃይማኖተ፡ ቅዱስ፡ ዲዮስቆሮስ፡ ጽዱቀ፡ ንባብ።</foreign> <bibl><ptr target="bm:Guidi1903YohannesT"/><citedRange unit="page"> 8</citedRange></bibl>. <lb/>
- <foreign xml:lang="gez">ሃይማኖት፡</foreign> religion au sens le plus général, christianisme, paganisme, doctrines ésotériques, etc. <foreign xml:lang="gez">አስተርእዮተ፡ አቴናውያን፡ ወሃይማኖቶሙ።</foreign> <bibl><ptr target="bm:Zotenberg1883JohnNikiu"/><citedRange unit="page"> 143</citedRange></bibl>. <lb/>
- <foreign xml:lang="gez">ሃይማኖት፡ ርትዕት፡</foreign> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">hāymānot rǝtǝʿt</t:quote></cit> <cit type="translation" xml:lang="fr"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">foi orthodoxe</t:quote></cit> (monophysite). <foreign xml:lang="gez">ተናገረ፡ [ዮሐንስ፡ ዘሀገረ፡ ብርልስ፡] በእንተ፡ ሥርዓተ፡ ቤተ፡ ክርስቲያን፡ ወሕገ፡ ሃይማኖት፡ ርትዕት።</foreign> Ms. <ref type="BM" target="BNFet111">BNFet111</ref>, fol. 120v. <lbl expand="videas">vid.</lbl> <foreign xml:lang="gez">ርቱዕ፡</foreign> <lb/>
- <foreign xml:lang="gez">ሃይማኖት፡</foreign> <cit type="translation" xml:lang="fr"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">croyance mystagogique</t:quote></cit>. <foreign xml:lang="gez">እልመስጦአግያ፡ ወይእቲ፡ ሃይማኖት፡ [እንተ፡] መሐሮሙ፡ እግዚእነ፡ ወመድኃኒነ፡ ኢየሱስ፡ ክርስቶስ፡ ለአርዳኢሁ።</foreign> <bibl><ptr target="bm:Lifchitz1940textes"/><citedRange unit="page"> 72</citedRange></bibl>. <lb/>
- <foreign xml:lang="gez">ሃይማኖት፡ መሲሓዊት፡</foreign> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">hāymānot masiḥāwit</t:quote></cit>, <foreign xml:lang="gez">ሃይማኖት፡ ኦርቶዶክሳዊት፡</foreign> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">hāymānot ʾortodoksāwit</t:quote></cit> <cit type="translation" xml:lang="fr"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">religion chrétienne</t:quote></cit>. <foreign xml:lang="gez">አድለወ፡ [መክስንድዮስ፡] ለሃይማኖትነ፡ ወአዘዘ፡ ከመ፡ ያቅልሉ፡ ስደተ፡ እምክርስቲያን።</foreign> <bibl><ptr target="bm:Zotenberg1883JohnNikiu"/><citedRange unit="page"> 193</citedRange></bibl>; <foreign xml:lang="gez">አቀመ፡ [ቈስጠንጢኖስ፡] ሃይማኖተ፡ ኦርቶዶክሳዊት።</foreign> <bibl><ptr target="bm:Zotenberg1883JohnNikiu"/><citedRange unit="page"> 197</citedRange></bibl>; <foreign xml:lang="gez">ኮነ፡ [ቈስጠንጢኖስ፡] ዐቃቤ፡ ሃይማኖት፡ መሲሓዊት፡ ወጐያዪ፡ እምአምልኮ፡ ጣዖት።</foreign> <bibl><ptr target="bm:Zotenberg1883JohnNikiu"/><citedRange unit="page"> 197</citedRange></bibl>; <foreign xml:lang="gez">እሉ፡ ጉባኤ፡ ነኪራን፡ እምሃይማኖት፡ መሲሓዊት።</foreign> Ms. <ref type="BM" target="BNFet110">BNFet110</ref>, fol. 3vc; <foreign xml:lang="gez">ኢይሔልዩ፡ ኀበ፡ ፍጻሜ፡ ሃይማኖት፡ መሲሓዊት።</foreign> Ms. <ref type="BM" target="BNFet110">BNFet110</ref>, fol. 36ra. <lbl expand="videas">vid.</lbl> <foreign xml:lang="gez">መሲሓዊ፡</foreign>, <foreign xml:lang="gez">ኦርቶዶክሳዊ፡</foreign> <lb/>
- <bibl><ptr target="bm:Grebaut1952SuppLexicon"/><citedRange unit="page"> 9</citedRange></bibl> 
-</sense> <sense n="C" xml:id="TC"> <sense n="a" xml:id="TCa"> for for <foreign xml:lang="gez">መሃሬ፡ ሃይማኖት፡</foreign> <lbl expand="videas">vid.</lbl> <foreign xml:lang="gez">መሃሪ፡</foreign> (Grébaut) 
-</sense> <sense n="b" xml:id="TCb"> for <foreign xml:lang="gez">ሕጸተ፡ ሃይማኖት፡</foreign> <lbl expand="videas">vid.</lbl> <foreign xml:lang="gez">ሕጸት፡</foreign> (Grébaut) 
-</sense> <sense n="c" xml:id="TCc"> for <foreign xml:lang="gez">ሕጹጸ፡ ሃይማኖት፡</foreign> <lbl expand="videas">vid.</lbl> <foreign xml:lang="gez">ሕጹጽ፡</foreign> (Grébaut) 
-</sense> <sense n="d" xml:id="TCd"> for <foreign xml:lang="gez">ሰብአ፡ ሃይማኖት፡</foreign> <lbl expand="videas">vid.</lbl> <foreign xml:lang="gez">ሰብእ፡</foreign> (Grébaut) 
-</sense> <sense n="e" xml:id="TCe"> for <foreign xml:lang="gez">ነገረ፡ ሃይማኖት፡</foreign> <lbl expand="videas">vid.</lbl> <foreign xml:lang="gez">ነገር፡</foreign> (Grébaut) 
-</sense> <sense n="f" xml:id="TCf"> for <foreign xml:lang="gez">ነገር፡ ዘሃይማኖት፡</foreign> <lbl expand="videas">vid.</lbl> <foreign xml:lang="gez">ነገር፡</foreign> (Grébaut) 
-</sense> <sense n="g" xml:id="TCg"> for <foreign xml:lang="gez">አክሊለ፡ ሃይማኖት፡</foreign> <lbl expand="videas">vid.</lbl> <foreign xml:lang="gez">አክሊል፡</foreign> (Grébaut) 
-</sense> <sense n="h" xml:id="TCh"> for <foreign xml:lang="gez">ድደ፡ ሃይማኖት፡</foreign> <lbl expand="videas">vid.</lbl> <ref type="external" target="https://betamasaheft.eu/Dillmann/lemma/La8f5ba04675f49cbb679e349b56d5b28"><foreign xml:lang="gez">ድድ፡</foreign></ref> (Grébaut) 
-</sense> 
-</sense> <sense n="L" xml:id="TL"> <foreign xml:lang="gez">ሃይማኖት</foreign> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">hāymānot</t:quote></cit>, <foreign xml:lang="gez">ሀይማኖት</foreign> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">haymānot</t:quote></cit> <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">belief</t:quote></cit>, <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">creed</t:quote></cit>, <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">faith</t:quote></cit>, <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">religion</t:quote></cit> <lb/>
- <foreign xml:lang="gez">ሃይማኖት፡ ርትዕት፡</foreign> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">hāymānot rǝtǝʿt</t:quote></cit> <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">orthodox religion</t:quote></cit>, <lbl expand="videas">vid.</lbl> <foreign xml:lang="gez">ርቱዕ፡</foreign> <lb/>
- <foreign xml:lang="gez">ሃይማኖት፡ መሲሓዊት፡</foreign> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">hāymānot masiḥāwit</t:quote></cit> <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">faith of the Unctionists</t:quote></cit>, <lbl expand="videas">vid.</lbl> <foreign xml:lang="gez">መሲሓዊ፡</foreign> ; see <bibl><ptr target="bm:Crummey1972Priests"/><citedRange unit="page"> 20–23</citedRange></bibl> <lb/>
- <foreign xml:lang="gez">ሃይማኖተ፡ አበው፡</foreign> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">hāymānota ʾabaw</t:quote></cit> <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">the Faith of the Fathers</t:quote></cit>, a collection of confessions and testimonies of the Church Fathers concerning their Christian belief; see <bibl><ptr target="bm:Hammerschmidt1977Tanasee"/><citedRange unit="page"> 82</citedRange></bibl>, <lbl expand="videas">vid.</lbl> <foreign xml:lang="gez">አብ፡</foreign> <lb/>
- <bibl><ptr target="bm:Leslau1987dic"/><citedRange unit="page"> 221a–b</citedRange></bibl> <lb/>
- <foreign xml:lang="gez">ሃይማኖት፡ መሲሓዊት፡</foreign> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">hāymānot masiḥāwit</t:quote></cit> <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">faith of the Unctionists</t:quote></cit>; see Hammerschmidt in <bibl><ptr target="bm:Assfalg1975Worterbuch"/><citedRange unit="page"> 60</citedRange></bibl>, <lbl expand="videas">vid.</lbl> <foreign xml:lang="gez">መሲሓዊ፡</foreign> <bibl><ptr target="bm:Leslau1987dic"/><citedRange unit="page"> 364b</citedRange></bibl> <lb/>
- <foreign xml:lang="gez">ሃይማኖት፡ ርትዕት</foreign> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">hāymānot rǝtǝʿt</t:quote></cit> <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">orthodoxy</t:quote></cit>, <lbl expand="videas">vid.</lbl> <foreign xml:lang="gez">ርቱዕ፡</foreign> <bibl><ptr target="bm:Leslau1987dic"/><citedRange unit="page"> 476a</citedRange></bibl> 
-</sense> <sense n="C" xml:id="TC"> <sense n="a" xml:id="TCa"> for <foreign xml:lang="gez">ሐዲሰ፡ ሃይማኖት፡</foreign> <lbl expand="videas">vid.</lbl> <foreign xml:lang="gez">ሐዲስ፡</foreign> (Leslau) 
-</sense> <sense n="b" xml:id="TCb"> for <foreign xml:lang="gez">መዝገበ፡ ሃይማኖት፡</foreign> <lbl expand="videas">vid.</lbl> <foreign xml:lang="gez">መዝገብ</foreign> (Leslau) 
-</sense> <sense n="c" xml:id="TCc"> for <foreign xml:lang="gez">ርቱዐ፡ ሃይማኖት፡</foreign> <lbl expand="videas">vid.</lbl> <foreign xml:lang="gez">ርቱዕ፡</foreign> (Leslau) 
-</sense> 
-</sense> </sense></entry>
+               <sense xml:id="Dmain" xml:lang="la" source="#dillmann"> (<foreign xml:lang="syr"
+                     >ܗܰܝܡܳܢܽܘܬܐ</foreign>) peregrinae formationis, ab Aramaeis petitum, ab
+                  Aethiopibus frequentissime usitatum, <gramGrp>
+                     <pos expand="Substantivum">subst.</pos>
+                  </gramGrp>, <gramGrp>
+                     <gen value="not found">m.</gen>
+                  </gramGrp> et <gramGrp>
+                     <gen value="femininus">fem.</gen>
+                  </gramGrp>: <sense n="1" xml:id="D1">
+                     <cit type="translation" xml:lang="la">
+                        <t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> fides qua creditur
+                        </t:quote>
+                     </cit>; <cit type="translation" xml:lang="la">
+                        <t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> fidelitas </t:quote>
+                     </cit>(<note>Glaube</note>, <note>Treue</note>): <ref cRef="Deut." loc="32,20"
+                        >Deut. 32,20</ref>; <ref cRef="Jes. " loc="5,3">Jes. 5,3</ref>; <ref
+                        cRef="Jes." loc="7,28">Jes. 7,28</ref>; <ref cRef="Jer." loc="15,18">Jer.
+                        15,18</ref>; <ref cRef="Jer." loc="39,41">Jer. 39,41</ref>; <ref cRef="Ps."
+                        loc="32,4">Ps. 32,4</ref>; <ref cRef="Sir." loc="40,12">Sir. 40,12</ref>;
+                        <ref cRef="Sir." loc="45,4">Sir. 45,4</ref>; <ref cRef="Sir." loc="46,15"
+                        >Sir. 46,15</ref>; <ref cRef="4 Esr." loc="4,13">4 Esr. 4,13</ref>; <ref
+                        cRef="4 Esr." loc="4,32">4 Esr. 4,32</ref>; <ref cRef="4 Esr." loc="9,8">4
+                        Esr. 9,8</ref>; <ref cRef="Rom." loc="1,8">Rom. 1,8</ref>; <ref cRef="Rom."
+                        loc="4,12">Rom. 4,12</ref>; <ref cRef="2 Tim." loc="4,7">2 Tim. 4,7</ref>;
+                        <ref cRef="Hebr." loc="11,3">Hebr. 11,3</ref>; <ref cRef="Hebr." loc="11,39"
+                        >Hebr. 11,39</ref>. (synon. <foreign xml:lang="gez">አሚን፡</foreign>, <foreign
+                        xml:lang="gez">ተአምኖ፡</foreign>), <ref cRef="Matth." loc="8,10">Matth.
+                        8,10</ref>; <ref cRef="Jac." loc="2,14">Jac. 2,14</ref>
+                     <lbl expand="sequens">seq.</lbl>; <foreign xml:lang="grc">πίστεις</foreign>
+                     <ref cRef="Prov." loc="3,3">Prov. 3,3</ref>; <foreign xml:lang="gez">ሃይማኖተ፡
+                        ተስፋ፡</foreign>
+                     <foreign xml:lang="grc">πίστις ἐλπίδος</foreign>
+                     <ref cRef="Sir." loc="49,10">Sir. 49,10</ref>; <lbl expand="construitur cum"
+                        >c.c.</lbl>
+                     <foreign xml:lang="gez">በ</foreign>
+                     <cit type="translation" xml:lang="la">
+                        <t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> in </t:quote>
+                     </cit>
+                     <ref cRef="Jac." loc="2,1">Jac. 2,1</ref>; <foreign xml:lang="gez">እለ፡ አዕረፉ፡
+                        በሃይማኖት፡ በክርስቶስ፡</foreign>
+                     <ref cRef="Did." loc="34">Did. 34</ref>; <foreign xml:lang="gez">ዘይገብር፡
+                        ሃይማኖተ፡</foreign>
+                     <foreign xml:lang="grc">ποιῶν πίστεις</foreign>
+                     <ref cRef="Prov." loc="12,22">Prov. 12,22</ref>; <ref cRef="Prov. " loc="15,28"
+                        >Prov. 15,28</ref>; <ref cRef="Sir." loc="15,15">Sir. 15,15</ref>; <foreign
+                        xml:lang="gez">ሃይማኖተ፡ ዕቀብ፡ ምስለ፡ ቢጽከ፡</foreign> (de amicitia) <ref
+                        cRef="Sir." loc="22,23">Sir. 22,23</ref>; <ref cRef="Hen." loc="41,5">Hen.
+                        41,5</ref>; <ref cRef="Hen." loc="43,2">Hen. 43,2</ref>; <foreign
+                        xml:lang="gez">ያጸንዑ፡ ሃይማኖቶሙ፡ በቀለም፡ ወበማየ፡ ሕመት፡</foreign>
+                     <ref cRef="Hen." loc="69,10">Hen. 69,10</ref>; <foreign xml:lang="gez">ብእሲ፡
+                        ዚታአምር፡ ከመ፡ ቦ፡ ሃይማኖተ፡</foreign> (<cit type="translation" xml:lang="la">
+                        <t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> fidelem eum esse </t:quote>
+                     </cit>) <ref cRef="Sir." loc="37,12">Sir. 37,12</ref>; <foreign xml:lang="gez"
+                        >ሀጕለ፡ ሃይማኖቶ፡</foreign>
+                     <cit type="translation" xml:lang="la">
+                        <t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> fidem perdidit </t:quote>
+                     </cit>
+                     <ref cRef="Sir." loc="27,16">Sir. 27,16</ref>; <ref cRef="Luc. " loc="16,11"
+                        >Luc. 16,11</ref>; <ref cRef="Luc." loc="16,12">Luc. 16,12</ref>; <foreign
+                        xml:lang="gez">በሃይማኖቶሙ፡</foreign>
+                     <cit type="translation" xml:lang="la">
+                        <t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> in bonam fidem </t:quote>
+                     </cit>
+                     <ref cRef="4 Reg." loc="12,15">4 Reg. 12,15</ref>; <ref cRef="4 Reg."
+                        loc="22,7">4 Reg. 22,7</ref>. </sense>
+                  <sense n="2" xml:id="D2">
+                     <cit type="translation" xml:lang="la">
+                        <t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> fides quae creditur
+                        </t:quote>
+                     </cit>(<cit type="translation" xml:lang="la">
+                        <t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> religio </t:quote>
+                     </cit>, <cit type="translation" xml:lang="la">
+                        <t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> confessio </t:quote>
+                     </cit>); <foreign xml:lang="gez">ሃይማኖት፡ ቅድስት፡</foreign>
+                     <ref cRef="Judae" loc="20">Judae 20</ref>; <foreign xml:lang="gez">ሃይማኖት፡
+                        ርትዕት፡</foreign>
+                     <cit type="translation" xml:lang="la">
+                        <t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> fides orthodoxa </t:quote>
+                     </cit>
+                     <ref cRef="Lit." loc="165,1">Lit. 165,1</ref>: <foreign xml:lang="gez">ርቱዐ፡
+                        ሃይማኖት፡</foreign>
+                     <cit type="translation" xml:lang="la">
+                        <t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> orthodoxus </t:quote>
+                     </cit>(saepissime; etiam titulus libri cujusdam dogmatici); <foreign
+                        xml:lang="gez">ሃይማኖተ፡ አበው፡</foreign>
+                     <cit type="translation" xml:lang="la">
+                        <t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> fides Patrum </t:quote>
+                     </cit>(titulus libri celeberrimi); <foreign xml:lang="gez">ጸሎተ፡
+                        ሃይማኖት፡</foreign>
+                     <cit type="translation" xml:lang="la">
+                        <t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> symbolum fidei </t:quote>
+                     </cit>
+                     <ref cRef="Lit." loc="163,3">Lit. 163,3</ref>; <foreign xml:lang="gez">ሃይማኖተ፡
+                        እስላም፡</foreign>
+                     <cit type="translation" xml:lang="la">
+                        <t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> Islami religio </t:quote>
+                     </cit>
+                     <ref cRef="Abush." loc="50">Abush. 50</ref>; <foreign xml:lang="gez">ሃይማኖተ፡
+                        ንስጦሮስ፡</foreign>
+                     <cit type="translation" xml:lang="la">
+                        <t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> confessio Nestorii
+                        </t:quote>
+                     </cit>Enc. </sense>
+               </sense>
+
+               <sense xml:id="Tmain" xml:lang="en" source="#traces">
+                  <cit type="transcription" xml:lang="gez">
+                     <t:quote xmlns:t="http://www.tei-c.org/ns/1.0">hāymānot</t:quote>
+                  </cit>
+                  <sense n="G" xml:id="TG"><foreign xml:lang="gez">ሃይማኖት፡</foreign>
+                     <cit type="transcription" xml:lang="gez">
+                        <t:quote xmlns:t="http://www.tei-c.org/ns/1.0">hāymānot</t:quote>
+                     </cit>, <lbl expand="pluralis">Pl.</lbl>
+                     <foreign xml:lang="gez">ሃይማኖታት፡</foreign>
+                     <cit type="transcription" xml:lang="gez">
+                        <t:quote xmlns:t="http://www.tei-c.org/ns/1.0">hāymānotāt</t:quote>
+                     </cit> présente des significations très différentes : <cit type="translation"
+                        xml:lang="fr">
+                        <t:quote xmlns:t="http://www.tei-c.org/ns/1.0">foi chrétienne</t:quote>
+                     </cit> (au sens général), <cit type="translation" xml:lang="fr">
+                        <t:quote xmlns:t="http://www.tei-c.org/ns/1.0">foi catholique</t:quote>
+                     </cit> (diophysite); <cit type="translation" xml:lang="fr">
+                        <t:quote xmlns:t="http://www.tei-c.org/ns/1.0">foi monophysite de
+                           Dioscore</t:quote>
+                     </cit> (opposée à la foi catholique), (reject de l’« Epistola dogmatica ad
+                     Flavianum» du pape Léon Ier, <foreign xml:lang="gez">ጦማረ፡ ልዮን፡</foreign>); <cit
+                        type="translation" xml:lang="fr">
+                        <t:quote xmlns:t="http://www.tei-c.org/ns/1.0">religion</t:quote>
+                     </cit>, <cit type="translation" xml:lang="fr">
+                        <t:quote xmlns:t="http://www.tei-c.org/ns/1.0">croyance</t:quote>
+                     </cit>, etc. <foreign xml:lang="gez">አስተጋብኡ፡ ኵሎ፡ መኳንንተ፡ ወሊቃውንተ፡ ወመምህራነ፡ ወኵሎ፡
+                        ዓበይተ፡ መንግሥት፡ ወመከሩ፡ ከመ፡ ይሕትትዎሙ፡ ወይጠይቅዎሙ፡ ነገረ፡ ሃይማኖት። አሜሃ፡ ተዓውቀ፡ ወተጠየቀ፡ ከመ፡
+                        ኮነ፡ ሰብአ፡ ሮም፡ ወከመ፡ የአምኑ፡ በሃይማኖተ፡ ልዮን፡ ርኩስ፡ ዓላዊ፡ እስከ፡ ተናገሩ፡ በቃሎሙ፡ እንዘ፡ ይብሉ፡
+                        ፪ጠባይዓት፡ ሀለዉ፡ በክርስቶስ። ወእምዝ፡ ተሠጥዉ፡ ወይቤሉ፡ ንጉሥ፡ ወሰብኡ፡ ንሕነሰ፡ ኢንብል፡ ከመዝ፡ ዳእሙ፡ ንቤ፡
+                        አልቦ፡ ምንታዌ፡ በክርስቶስ፡ አምላክ፡ ድኅረ፡ ተዋሕዶተ፡ መለኮት፡ ወትስብዕት፡ እንበለ፡ ቱሳሔ፡ ወኢድማሬ። ወነአምን፡
+                        በሃይማኖተ፡ ቅዱስ፡ ዲዮስቆሮስ፡ ጽዱቀ፡ ንባብ።</foreign>
+                     <bibl><ptr target="bm:Guidi1903YohannesT"/><citedRange unit="page">
+                           8</citedRange></bibl>. <lb/>
+                     <foreign xml:lang="gez">ሃይማኖት፡</foreign> religion au sens le plus général,
+                     christianisme, paganisme, doctrines ésotériques, etc. <foreign xml:lang="gez"
+                        >አስተርእዮተ፡ አቴናውያን፡ ወሃይማኖቶሙ።</foreign>
+                     <bibl><ptr target="bm:Zotenberg1883JohnNikiu"/><citedRange unit="page">
+                           143</citedRange></bibl>. <lb/>
+                     <foreign xml:lang="gez">ሃይማኖት፡ ርትዕት፡</foreign>
+                     <cit type="transcription" xml:lang="gez">
+                        <t:quote xmlns:t="http://www.tei-c.org/ns/1.0">hāymānot rǝtǝʿt</t:quote>
+                     </cit>
+                     <cit type="translation" xml:lang="fr">
+                        <t:quote xmlns:t="http://www.tei-c.org/ns/1.0">foi orthodoxe</t:quote>
+                     </cit> (monophysite). <foreign xml:lang="gez">ተናገረ፡ [ዮሐንስ፡ ዘሀገረ፡ ብርልስ፡] በእንተ፡
+                        ሥርዓተ፡ ቤተ፡ ክርስቲያን፡ ወሕገ፡ ሃይማኖት፡ ርትዕት።</foreign> Ms. <ref type="BM"
+                        target="BNFet111">BNFet111</ref>, fol. 120v. <lbl expand="videas">vid.</lbl>
+                     <foreign xml:lang="gez">ርቱዕ፡</foreign>
+                     <lb/>
+                     <foreign xml:lang="gez">ሃይማኖት፡</foreign>
+                     <cit type="translation" xml:lang="fr">
+                        <t:quote xmlns:t="http://www.tei-c.org/ns/1.0">croyance
+                           mystagogique</t:quote>
+                     </cit>. <foreign xml:lang="gez">እልመስጦአግያ፡ ወይእቲ፡ ሃይማኖት፡ [እንተ፡] መሐሮሙ፡ እግዚእነ፡
+                        ወመድኃኒነ፡ ኢየሱስ፡ ክርስቶስ፡ ለአርዳኢሁ።</foreign>
+                     <bibl><ptr target="bm:Lifchitz1940textes"/><citedRange unit="page">
+                           72</citedRange></bibl>. <lb/>
+                     <foreign xml:lang="gez">ሃይማኖት፡ መሲሓዊት፡</foreign>
+                     <cit type="transcription" xml:lang="gez">
+                        <t:quote xmlns:t="http://www.tei-c.org/ns/1.0">hāymānot masiḥāwit</t:quote>
+                     </cit>, <foreign xml:lang="gez">ሃይማኖት፡ ኦርቶዶክሳዊት፡</foreign>
+                     <cit type="transcription" xml:lang="gez">
+                        <t:quote xmlns:t="http://www.tei-c.org/ns/1.0">hāymānot
+                           ʾortodoksāwit</t:quote>
+                     </cit>
+                     <cit type="translation" xml:lang="fr">
+                        <t:quote xmlns:t="http://www.tei-c.org/ns/1.0">religion chrétienne</t:quote>
+                     </cit>. <foreign xml:lang="gez">አድለወ፡ [መክስንድዮስ፡] ለሃይማኖትነ፡ ወአዘዘ፡ ከመ፡ ያቅልሉ፡ ስደተ፡
+                        እምክርስቲያን።</foreign>
+                     <bibl><ptr target="bm:Zotenberg1883JohnNikiu"/><citedRange unit="page">
+                           193</citedRange></bibl>; <foreign xml:lang="gez">አቀመ፡ [ቈስጠንጢኖስ፡] ሃይማኖተ፡
+                        ኦርቶዶክሳዊት።</foreign>
+                     <bibl><ptr target="bm:Zotenberg1883JohnNikiu"/><citedRange unit="page">
+                           197</citedRange></bibl>; <foreign xml:lang="gez">ኮነ፡ [ቈስጠንጢኖስ፡] ዐቃቤ፡
+                        ሃይማኖት፡ መሲሓዊት፡ ወጐያዪ፡ እምአምልኮ፡ ጣዖት።</foreign>
+                     <bibl><ptr target="bm:Zotenberg1883JohnNikiu"/><citedRange unit="page">
+                           197</citedRange></bibl>; <foreign xml:lang="gez">እሉ፡ ጉባኤ፡ ነኪራን፡ እምሃይማኖት፡
+                        መሲሓዊት።</foreign> Ms. <ref type="BM" target="BNFet110">BNFet110</ref>, fol.
+                     3vc; <foreign xml:lang="gez">ኢይሔልዩ፡ ኀበ፡ ፍጻሜ፡ ሃይማኖት፡ መሲሓዊት።</foreign> Ms. <ref
+                        type="BM" target="BNFet110">BNFet110</ref>, fol. 36ra. <lbl expand="videas"
+                        >vid.</lbl>
+                     <foreign xml:lang="gez">መሲሓዊ፡</foreign>, <foreign xml:lang="gez"
+                        >ኦርቶዶክሳዊ፡</foreign>
+                     <lb/>
+                     <bibl><ptr target="bm:Grebaut1952SuppLexicon"/><citedRange unit="page">
+                           9</citedRange></bibl>
+                  </sense>
+                  <sense n="C" xml:id="TC">
+                     <sense n="a" xml:id="TCa"> for for <foreign xml:lang="gez">መሃሬ፡
+                           ሃይማኖት፡</foreign>
+                        <lbl expand="videas">vid.</lbl>
+                        <foreign xml:lang="gez">መሃሪ፡</foreign> (Grébaut) </sense>
+                     <sense n="b" xml:id="TCb"> for <foreign xml:lang="gez">ሕጸተ፡ ሃይማኖት፡</foreign>
+                        <lbl expand="videas">vid.</lbl>
+                        <foreign xml:lang="gez">ሕጸት፡</foreign> (Grébaut) </sense>
+                     <sense n="c" xml:id="TCc"> for <foreign xml:lang="gez">ሕጹጸ፡ ሃይማኖት፡</foreign>
+                        <lbl expand="videas">vid.</lbl>
+                        <foreign xml:lang="gez">ሕጹጽ፡</foreign> (Grébaut) </sense>
+                     <sense n="d" xml:id="TCd"> for <foreign xml:lang="gez">ሰብአ፡ ሃይማኖት፡</foreign>
+                        <lbl expand="videas">vid.</lbl>
+                        <foreign xml:lang="gez">ሰብእ፡</foreign> (Grébaut) </sense>
+                     <sense n="e" xml:id="TCe"> for <foreign xml:lang="gez">ነገረ፡ ሃይማኖት፡</foreign>
+                        <lbl expand="videas">vid.</lbl>
+                        <foreign xml:lang="gez">ነገር፡</foreign> (Grébaut) </sense>
+                     <sense n="f" xml:id="TCf"> for <foreign xml:lang="gez">ነገር፡ ዘሃይማኖት፡</foreign>
+                        <lbl expand="videas">vid.</lbl>
+                        <foreign xml:lang="gez">ነገር፡</foreign> (Grébaut) </sense>
+                     <sense n="g" xml:id="TCg"> for <foreign xml:lang="gez">አክሊለ፡ ሃይማኖት፡</foreign>
+                        <lbl expand="videas">vid.</lbl>
+                        <foreign xml:lang="gez">አክሊል፡</foreign> (Grébaut) </sense>
+                     <sense n="h" xml:id="TCh"> for <foreign xml:lang="gez">ድደ፡ ሃይማኖት፡</foreign>
+                        <lbl expand="videas">vid.</lbl>
+                        <ref type="external"
+                           target="https://betamasaheft.eu/Dillmann/lemma/La8f5ba04675f49cbb679e349b56d5b28"
+                              ><foreign xml:lang="gez">ድድ፡</foreign></ref> (Grébaut) </sense>
+                  </sense>
+                  <sense n="L" xml:id="TL">
+                     <foreign xml:lang="gez">ሃይማኖት</foreign>
+                     <cit type="transcription" xml:lang="gez">
+                        <t:quote xmlns:t="http://www.tei-c.org/ns/1.0">hāymānot</t:quote>
+                     </cit>, <foreign xml:lang="gez">ሀይማኖት</foreign>
+                     <cit type="transcription" xml:lang="gez">
+                        <t:quote xmlns:t="http://www.tei-c.org/ns/1.0">haymānot</t:quote>
+                     </cit>
+                     <cit type="translation" xml:lang="en">
+                        <t:quote xmlns:t="http://www.tei-c.org/ns/1.0">belief</t:quote>
+                     </cit>, <cit type="translation" xml:lang="en">
+                        <t:quote xmlns:t="http://www.tei-c.org/ns/1.0">creed</t:quote>
+                     </cit>, <cit type="translation" xml:lang="en">
+                        <t:quote xmlns:t="http://www.tei-c.org/ns/1.0">faith</t:quote>
+                     </cit>, <cit type="translation" xml:lang="en">
+                        <t:quote xmlns:t="http://www.tei-c.org/ns/1.0">religion</t:quote>
+                     </cit>
+                     <lb/>
+                     <foreign xml:lang="gez">ሃይማኖት፡ ርትዕት፡</foreign>
+                     <cit type="transcription" xml:lang="gez">
+                        <t:quote xmlns:t="http://www.tei-c.org/ns/1.0">hāymānot rǝtǝʿt</t:quote>
+                     </cit>
+                     <cit type="translation" xml:lang="en">
+                        <t:quote xmlns:t="http://www.tei-c.org/ns/1.0">orthodox religion</t:quote>
+                     </cit>, <lbl expand="videas">vid.</lbl>
+                     <foreign xml:lang="gez">ርቱዕ፡</foreign>
+                     <lb/>
+                     <foreign xml:lang="gez">ሃይማኖት፡ መሲሓዊት፡</foreign>
+                     <cit type="transcription" xml:lang="gez">
+                        <t:quote xmlns:t="http://www.tei-c.org/ns/1.0">hāymānot masiḥāwit</t:quote>
+                     </cit>
+                     <cit type="translation" xml:lang="en">
+                        <t:quote xmlns:t="http://www.tei-c.org/ns/1.0">faith of the
+                           Unctionists</t:quote>
+                     </cit>, <lbl expand="videas">vid.</lbl>
+                     <foreign xml:lang="gez">መሲሓዊ፡</foreign> ; see <bibl><ptr
+                           target="bm:Crummey1972Priests"/><citedRange unit="page">
+                           20–23</citedRange></bibl>
+                     <lb/>
+                     <foreign xml:lang="gez">ሃይማኖተ፡ አበው፡</foreign>
+                     <cit type="transcription" xml:lang="gez">
+                        <t:quote xmlns:t="http://www.tei-c.org/ns/1.0">hāymānota ʾabaw</t:quote>
+                     </cit>
+                     <cit type="translation" xml:lang="en">
+                        <t:quote xmlns:t="http://www.tei-c.org/ns/1.0">the Faith of the
+                           Fathers</t:quote>
+                     </cit>, a collection of confessions and testimonies of the Church Fathers
+                     concerning their Christian belief; see <bibl><ptr
+                           target="bm:Hammerschmidt1977Tanasee"/><citedRange unit="page">
+                           82</citedRange></bibl>, <lbl expand="videas">vid.</lbl>
+                     <foreign xml:lang="gez">አብ፡</foreign>
+                     <lb/>
+                     <bibl><ptr target="bm:Leslau1987dic"/><citedRange unit="page">
+                           221a–b</citedRange></bibl>
+                     <lb/>
+                     <foreign xml:lang="gez">ሃይማኖት፡ መሲሓዊት፡</foreign>
+                     <cit type="transcription" xml:lang="gez">
+                        <t:quote xmlns:t="http://www.tei-c.org/ns/1.0">hāymānot masiḥāwit</t:quote>
+                     </cit>
+                     <cit type="translation" xml:lang="en">
+                        <t:quote xmlns:t="http://www.tei-c.org/ns/1.0">faith of the
+                           Unctionists</t:quote>
+                     </cit>; see Hammerschmidt in <bibl><ptr target="bm:Assfalg1975Worterbuch"
+                           /><citedRange unit="page"> 60</citedRange></bibl>, <lbl expand="videas"
+                        >vid.</lbl>
+                     <foreign xml:lang="gez">መሲሓዊ፡</foreign>
+                     <bibl><ptr target="bm:Leslau1987dic"/><citedRange unit="page">
+                           364b</citedRange></bibl>
+                     <lb/>
+                     <foreign xml:lang="gez">ሃይማኖት፡ ርትዕት</foreign>
+                     <cit type="transcription" xml:lang="gez">
+                        <t:quote xmlns:t="http://www.tei-c.org/ns/1.0">hāymānot rǝtǝʿt</t:quote>
+                     </cit>
+                     <cit type="translation" xml:lang="en">
+                        <t:quote xmlns:t="http://www.tei-c.org/ns/1.0">orthodoxy</t:quote>
+                     </cit>, <lbl expand="videas">vid.</lbl>
+                     <foreign xml:lang="gez">ርቱዕ፡</foreign>
+                     <bibl><ptr target="bm:Leslau1987dic"/><citedRange unit="page">
+                           476a</citedRange></bibl>
+                  </sense>
+                  <sense n="C" xml:id="TC1">
+                     <sense n="a" xml:id="TC1a"> for <foreign xml:lang="gez">ሐዲሰ፡ ሃይማኖት፡</foreign>
+                        <lbl expand="videas">vid.</lbl>
+                        <foreign xml:lang="gez">ሐዲስ፡</foreign> (Leslau) </sense>
+                     <sense n="b" xml:id="TC1b"> for <foreign xml:lang="gez">መዝገበ፡ ሃይማኖት፡</foreign>
+                        <lbl expand="videas">vid.</lbl>
+                        <foreign xml:lang="gez">መዝገብ</foreign> (Leslau) </sense>
+                     <sense n="c" xml:id="TC1c"> for <foreign xml:lang="gez">ርቱዐ፡ ሃይማኖት፡</foreign>
+                        <lbl expand="videas">vid.</lbl>
+                        <foreign xml:lang="gez">ርቱዕ፡</foreign> (Leslau) </sense>
+                  </sense>
+               </sense>
+            </entry>
          </div>
       </body>
    </text>
