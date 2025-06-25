@@ -1,4 +1,5 @@
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Dillmann/master/schema/Dillmann.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -17,20 +18,26 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann" target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
+            <p>A thoroughly elaborated txt version of <ref xml:id="dillmann"
+                  target="https://archive.org/details/lexiconlinguaeae00dilluoft">Dillmann,
                   Christian Friedrich August. <emph>Lexicon linguae aethiopicae, cum indice latino.
                      Adiectum est vocabularium tigre dialecti septentrionalis compilatum</emph> a W.
                   Munziger. Lipsiae: Th.O. Weigel, 1865.</ref>
             </p>
             <p>
-                    <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
+               <ref xml:id="traces" target="https://www.traces.uni-hamburg.de/">ERC Advanced Grant
                   TraCES (Grant Agreement 338756)</ref>
-                </p>
+            </p>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
          <p>A digital edition of the Lexicon in TEI.</p>
-      <listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/></listPrefixDef></encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)"
+               replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"
+            />
+         </listPrefixDef>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
@@ -51,7 +58,8 @@
          <change who="PL" when="2017-01-16">exported from lexicon to XML</change>
          <change who="AE" when="2017-04-19">last updated txt file and doc file of Lexicon</change>
          <change who="PL" when="2017-01-16">updated lexicon XML file adding nested senses</change>
-      <change who="MK" when="2024-01-17">added Gr and Les</change></revisionDesc>
+         <change who="MK" when="2024-01-17">added Gr and Les</change>
+      </revisionDesc>
    </teiHeader>
    <text>
       <body>
@@ -60,12 +68,46 @@
                <form>
                   <foreign xml:lang="gez">አምሰየ</foreign>
                </form>
-               <sense xml:id="Tmain" xml:lang="la" source="#traces"> <subc>II,1</subc> <cit type="translation" xml:lang="la"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0"> vesperam transigere </t:quote></cit> <ref cRef="Matth." loc="25,12">Matth. 25,12</ref> <lbl expand="romanae editionis">rom.</lbl> </sense>
-               
-            <sense xml:id="Tmain" xml:lang="en" source="#traces"> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">ʾamsaya</t:quote></cit> <sense n="G"> <foreign xml:lang="gez">አምሰየ፡</foreign> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">ʾamsaya</t:quote></cit> <subc>II,1</subc> <foreign xml:lang="gez">ያመሲ፡</foreign>, <foreign xml:lang="gez">ያምሲ፡</foreign> «<cit type="translation" xml:lang="fr"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">passer la soirée</t:quote></cit>» ― <foreign xml:lang="am">አመሸ፡</foreign> Ms. <ref type="BM" target="BNFabb217">BNFabb217</ref>, fol. 39r. <lb/>
- <bibl><ptr target="bm:Grebaut1952SuppLexicon"/><citedRange unit="page"> 92</citedRange></bibl> 
-</sense> <sense n="L"> <foreign xml:lang="gez">አምሰየ</foreign> <cit type="transcription" xml:lang="gez"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">ʾamsaya</t:quote></cit> <cit type="translation" xml:lang="en"><t:quote xmlns:t="http://www.tei-c.org/ns/1.0">spend the evening</t:quote></cit> <bibl><ptr target="bm:Leslau1987dic"/><citedRange unit="page"> 368b</citedRange></bibl> 
-</sense> </sense></entry>
+               <sense xml:id="Dmain" xml:lang="la" source="#traces">
+                  <subc>II,1</subc>
+                  <cit type="translation" xml:lang="la">
+                     <quote> vesperam transigere </quote>
+                  </cit>
+                  <ref cRef="Matth." loc="25,12">Matth. 25,12</ref>
+                  <lbl expand="romanae editionis">rom.</lbl>
+               </sense>
+
+               <sense xml:id="Tmain" xml:lang="en" source="#traces">
+                  <cit type="transcription" xml:lang="gez">
+                     <quote>ʾamsaya</quote>
+                  </cit>
+                  <sense n="G">
+                     <foreign xml:lang="gez">አምሰየ፡</foreign>
+                     <cit type="transcription" xml:lang="gez">
+                        <quote>ʾamsaya</quote>
+                     </cit>
+                     <subc>II,1</subc>
+                     <foreign xml:lang="gez">ያመሲ፡</foreign>, <foreign xml:lang="gez">ያምሲ፡</foreign>
+                        «<cit type="translation" xml:lang="fr">
+                        <quote>passer la soirée</quote>
+                     </cit>» ― <foreign xml:lang="am">አመሸ፡</foreign> Ms. <ref type="BM"
+                        target="BNFabb217">BNFabb217</ref>, fol. 39r. <lb/>
+                     <bibl><ptr target="bm:Grebaut1952SuppLexicon"/><citedRange unit="page">
+                           92</citedRange></bibl>
+                  </sense>
+                  <sense n="L">
+                     <foreign xml:lang="gez">አምሰየ</foreign>
+                     <cit type="transcription" xml:lang="gez">
+                        <quote>ʾamsaya</quote>
+                     </cit>
+                     <cit type="translation" xml:lang="en">
+                        <quote>spend the evening</quote>
+                     </cit>
+                     <bibl><ptr target="bm:Leslau1987dic"/><citedRange unit="page">
+                           368b</citedRange></bibl>
+                  </sense>
+               </sense>
+            </entry>
          </div>
       </body>
    </text>

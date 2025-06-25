@@ -13,7 +13,7 @@
             <!-- Use the standard analyzer will ignore stopwords like 'the', 'and' -->
             <analyzer class="org.apache.lucene.analysis.standard.StandardAnalyzer"/>
             <analyzer id="ws" class="org.apache.lucene.analysis.core.WhitespaceAnalyzer"/>
-            <analyzer id="num" class="org.apache.lucene.analysis.core.DecimalDigitFilter"/>
+            <!-- <analyzer id="num" class="org.apache.lucene.analysis.core.DecimalDigitFilter"/> -->
             <!-- an index boost can be used to give matches in the
             name a higher score. This means a name match will have higher rank then
             an match in the definition. -->
@@ -43,55 +43,54 @@
             <inline qname="tei:foreign"/>
         </lucene>
         <range>
-            <create qname="tei:TEI" type="xs:string"/>
+            <!-- <create qname="tei:TEI" type="xs:string"/> -->
             <create qname="tei:num" type="xs:int"/>
-            <create qname="tei:entry" type="xs:string"/>
+            <!-- <create qname="tei:entry" type="xs:string"/> -->
             <create qname="tei:entry">
                 <field name="entryN" match="@n" type="xs:string"/>
                 <field name="entryid" match="@xml:id" type="xs:string"/>
             </create>
-            <create qname="tei:sense" type="xs:string"/>
+            <!-- <create qname="tei:sense" type="xs:string"/> -->
             <create qname="tei:sense">
                 <field name="senselang" match="@xml:lang" type="xs:string"/>
                 <field name="sensename" match="@n" type="xs:string"/>
             </create>
             <create qname="tei:lemma" type="xs:string"/>
-            <create qname="tei:foreign" type="xs:string"/>
+            <!-- <create qname="tei:foreign" type="xs:string"/> -->
             <create qname="tei:foreign">
                 <field name="forlang" match="@xml:lang" type="xs:string"/>
             </create>
             <create qname="tei:quote" type="xs:string"/>
-            <create qname="tei:ref" type="xs:string"/>
+            <!-- <create qname="tei:ref" type="xs:string"/> -->
             <create qname="tei:ref">
                 <!--                <field name="target" match="@target" type="xs:string"/>-->
                 <!--                <field name="canref" match="@cRef" type="xs:string"/>-->
                 <field name="passage" match="@loc" type="xs:string"/>
             </create>
-            <create qname="tei:cit" type="xs:string"/>
+            <!-- <create qname="tei:cit" type="xs:string"/> -->
             <create qname="tei:cit">
                 <field name="citlang" match="@xml:lang" type="xs:string"/>
                 <field name="transltype" match="@type" type="xs:string"/>
             </create>
-            <create qname="tei:quote" type="xs:string"/>
             <create qname="tei:gramGrp" type="xs:string"/>
-            <create qname="tei:lbl" type="xs:string"/>
+            <!-- <create qname="tei:lbl" type="xs:string"/> -->
             <create qname="tei:lbl">
                 <field name="lblexpand" match="@expand" type="xs:string"/>
             </create>
-            <create qname="tei:pos" type="xs:string"/>
+            <!-- <create qname="tei:pos" type="xs:string"/> -->
             <create qname="tei:pos">
                 <field name="posexpand" match="@expand" type="xs:string"/>
             </create>
-            <create qname="tei:gen" type="xs:string"/>
+            <!-- <create qname="tei:gen" type="xs:string"/> -->
             <create qname="tei:gen">
                 <field name="genvalue" match="@value" type="xs:string"/>
             </create>
-            <create qname="tei:change" type="xs:string"/>
+            <!-- <create qname="tei:change" type="xs:string"/> -->
             <create qname="tei:change">
                 <field name="changewho" match="@who" type="xs:string"/>
                 <field name="changewhen" match="@when" type="xs:string"/>
             </create>
-            <create qname="tei:case" type="xs:string"/>
+            <!-- <create qname="tei:case" type="xs:string"/> -->
             <create qname="tei:case">
                 <field name="casevalue" match="@value" type="xs:string"/>
             </create>
