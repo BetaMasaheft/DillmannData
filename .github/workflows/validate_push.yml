@@ -30,6 +30,7 @@ jobs:
             -not -name 'build.xml' \
             -not -name 'repo.xml' \
             -not -name 'expath-pkg.xml' \
+            -not -name 'Dillmann.xml' \
             -print0 | \
           xargs -0 \
           xmllint --noout --xinclude --nowarning \
