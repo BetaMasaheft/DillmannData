@@ -26,11 +26,7 @@ jobs:
       # validate all TEI-files in chunks
       - name: Validate files
         run: |
-          find . -type f -name '*.xml' \
-            -not -name 'build.xml' \
-            -not -name 'repo.xml' \
-            -not -name 'expath-pkg.xml' \
-            -not -name 'Dillmann.xml' \
+          find ./data -type f -name '*.xml' \
             -print0 | \
           xargs -0 \
           xmllint --noout --xinclude --nowarning \
