@@ -10,7 +10,18 @@
         </delete>
     </target>
     <target name="xar" depends="clean">
-        <mkdir dir="${build.dir}"/>
-        <zip basedir="." destfile="${build.dir}/${project.app}.xar" excludes="${build.dir}/*, .github/**, .vscode/*, compare.sh, .gitignore"/>
+        <mkdir dir="${build.dir}/tmp"/>
+        <copy todir="${build.dir}/tmp">
+            <fileset dir="." defaultexcludes="true">
+                <exclude name=".github/"/>
+            </fileset>
+        </copy>
+        <copy todir="${build.dir}/tmp">
+            <fileset dir="${build.dir}/tmp/data/" />
+        </copy> 
+        <delete dir="${build.dir}/tmp/data"/>
+        <delete dir="${build.dir}/tmp/build"/>
+        <zip basedir="${build.dir}/tmp" destfile="${build.dir}/${project.app}.xar" excludes="compare.sh" />
+        <delete dir="${build.dir}/tmp"/>
     </target>
 </project>
