@@ -3,11 +3,11 @@
     <index xmlns:tei="http://www.tei-c.org/ns/1.0">
         <!-- Disable the standard full text index -->
         <fulltext default="none" attributes="no"/>
-        
+
         <!-- Range index configuration on the id attribute -->
         <!-- Most ids are integers but we will keep this general <create qname="id" type="xs:int"/> -->
         <create qname="id" type="xs:string"/>
-        
+
         <!-- Lucene index configuration -->
         <lucene diacritics="no">
             <!-- Use the standard analyzer will ignore stopwords like 'the', 'and' -->
@@ -96,7 +96,4 @@
             </create>
         </range>
     </index>
-    <triggers>
-        <trigger class="org.exist.extensions.exquery.restxq.impl.RestXqTrigger"/>
-    </triggers>
 </collection>
